@@ -1,6 +1,6 @@
 # #040 - Adversarial Examples (Dr. Nicholas Carlini, Dr. Wieland Brendel, Florian Tramèr)
 
-[Original episode](https://www.youtube.com/watch?v=2PenK06tvE4) · [All reviews](../README.md) · [Learning path](../learning-path.md)
+[Original episode](https://www.youtube.com/watch?v=2PenK06tvE4) · Source: Machine Learning Street Talk · [All reviews](../README.md) · [Learning path](../learning-path.md)
 
 Published: 2021-01-31 · Decision: **Core** · Confidence: High for foundational and methodological value; historical claims about which defenses work are confined to the interview date.
 

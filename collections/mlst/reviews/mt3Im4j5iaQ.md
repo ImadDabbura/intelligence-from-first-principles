@@ -1,6 +1,6 @@
 # Panel discussion on ARC Prize 2024 (Zurich)
 
-[Original episode](https://www.youtube.com/watch?v=mt3Im4j5iaQ) · [All reviews](../README.md) · [Learning path](../learning-path.md)
+[Original episode](https://www.youtube.com/watch?v=mt3Im4j5iaQ) · Source: Machine Learning Street Talk · [All reviews](../README.md) · [Learning path](../learning-path.md)
 
 Published: 2025-03-17 · Decision: **Selected passages** · Confidence: high
 

@@ -1,6 +1,6 @@
 # The ARC Prize 2024 Winning Algorithm [Daniel Franzen and Jan Disselhoff]
 
-[Original episode](https://www.youtube.com/watch?v=mTX_sAq--zY) · [All reviews](../README.md) · [Learning path](../learning-path.md)
+[Original episode](https://www.youtube.com/watch?v=mTX_sAq--zY) · Source: Machine Learning Street Talk · [All reviews](../README.md) · [Learning path](../learning-path.md)
 
 Published: 2025-02-12 · Decision: **Worthwhile** · Confidence: high
 

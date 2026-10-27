@@ -6,7 +6,7 @@ Snapshot: **26 October 2026**. I screened publisher descriptions, summaries, not
 
 Two livestreams and 37 unmatched podcast-feed entries appear separately below. Feed entries may be alternate editions; they are not 37 additional verified videos. Full publisher text stays in the private archive; the structured public record retains resource links.
 
-[Detailed reviews](README.md) · [Structured screen and resource links](screening.json) · [Methodology](../../METHODOLOGY.md)
+[Detailed reviews](README.md) · [Structured screen and resource links](screening.json) · [Methodology](../../README.md#methodology)
 
 ## Videos-tab uploads
 

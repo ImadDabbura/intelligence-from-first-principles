@@ -1,6 +1,6 @@
 # EMERGENCE.
 
-[Original episode](https://www.youtube.com/watch?v=MDt2e8XtUcA) · [All reviews](../README.md) · [Learning path](../learning-path.md)
+[Original episode](https://www.youtube.com/watch?v=MDt2e8XtUcA) · Source: Machine Learning Street Talk · [All reviews](../README.md) · [Learning path](../learning-path.md)
 
 Published: 2022-04-29 · Decision: **Selected passages** · Confidence: high
 

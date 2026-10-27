@@ -1,6 +1,6 @@
 # Don't invent faster horses - Prof. Jeff Clune
 
-[Original episode](https://www.youtube.com/watch?v=mw5WIDGRLnA) · [All reviews](../README.md) · [Learning path](../learning-path.md)
+[Original episode](https://www.youtube.com/watch?v=mw5WIDGRLnA) · Source: Machine Learning Street Talk · [All reviews](../README.md) · [Learning path](../learning-path.md)
 
 Published: 2025-01-03 · Decision: **Core** · Confidence: High on relevance and algorithmic distinctions; long-run open-endedness remains unproved.
 

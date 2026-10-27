@@ -1,6 +1,6 @@
 # Francois Chollet - On the Measure Of Intelligence
 
-[Original episode](https://www.youtube.com/watch?v=mEVnu-KZjq4) · [All reviews](../README.md) · [Learning path](../learning-path.md)
+[Original episode](https://www.youtube.com/watch?v=mEVnu-KZjq4) · Source: Machine Learning Street Talk · [All reviews](../README.md) · [Learning path](../learning-path.md)
 
 Published: 2020-06-18 · Decision: **Worthwhile** · Confidence: High for the methodological value of the dispute; low for several technical generalizations made by the panel.
 

@@ -1,6 +1,6 @@
 # Harri Valpola: System 2 AI and Planning in Model-Based Reinforcement Learning
 
-[Original episode](https://www.youtube.com/watch?v=HnZDmxYnpg4) · [All reviews](../README.md) · [Learning path](../learning-path.md)
+[Original episode](https://www.youtube.com/watch?v=HnZDmxYnpg4) · Source: Machine Learning Street Talk · [All reviews](../README.md) · [Learning path](../learning-path.md)
 
 Published: 2020-05-25 · Decision: **Core** · Confidence: high
 

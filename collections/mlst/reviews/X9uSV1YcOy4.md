@@ -1,6 +1,6 @@
 # #53 Prof. BOB COECKE - Quantum Natural Language Processing
 
-[Original episode](https://www.youtube.com/watch?v=X9uSV1YcOy4) · [All reviews](../README.md) · [Learning path](../learning-path.md)
+[Original episode](https://www.youtube.com/watch?v=X9uSV1YcOy4) · Source: Machine Learning Street Talk · [All reviews](../README.md) · [Learning path](../learning-path.md)
 
 Published: 2021-05-19 · Decision: **Worthwhile** · Confidence: high
 

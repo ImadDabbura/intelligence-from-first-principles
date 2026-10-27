@@ -1,6 +1,6 @@
 # How can we add knowledge to AI agents?
 
-[Original episode](https://www.youtube.com/watch?v=qxEfcrmTWO4) · [All reviews](../README.md) · [Learning path](../learning-path.md)
+[Original episode](https://www.youtube.com/watch?v=qxEfcrmTWO4) · Source: Machine Learning Street Talk · [All reviews](../README.md) · [Learning path](../learning-path.md)
 
 Published: 2023-11-05 · Decision: **Worthwhile** · Confidence: high about value and limitations; medium on local ASR detail
 

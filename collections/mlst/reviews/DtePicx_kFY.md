@@ -1,6 +1,6 @@
 # He Co-Invented the Transformer. Now: Continuous Thought Machines [Llion Jones / Luke Darlow]
 
-[Original episode](https://www.youtube.com/watch?v=DtePicx_kFY) · [All reviews](../README.md) · [Learning path](../learning-path.md)
+[Original episode](https://www.youtube.com/watch?v=DtePicx_kFY) · Source: Machine Learning Street Talk · [All reviews](../README.md) · [Learning path](../learning-path.md)
 
 Published: 2025-11-23 · Decision: **Worthwhile** · Confidence: high for adaptive-computation concepts; conditional for superiority claims
 

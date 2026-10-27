@@ -1,6 +1,6 @@
 # Why Greatness Cannot Be Planned — Kenneth Stanley
 
-[Original episode](https://www.youtube.com/watch?v=lhYGXYeMq_E) · [All reviews](../README.md) · [Learning path](../learning-path.md)
+[Original episode](https://www.youtube.com/watch?v=lhYGXYeMq_E) · Source: Machine Learning Street Talk · [All reviews](../README.md) · [Learning path](../learning-path.md)
 
 Published: 2021-01-19 · Decision: **Core** · Confidence: High for conceptual value; medium for the broad scientific and institutional extrapolations.
 

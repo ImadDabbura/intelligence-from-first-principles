@@ -1,6 +1,6 @@
 # Speech Recognition Is Not a Solved Problem — Pavan Kumar Reddy
 
-[Original episode](https://www.youtube.com/watch?v=ixu0H8bsCts) · [All reviews](../README.md) · [Learning path](../learning-path.md)
+[Original episode](https://www.youtube.com/watch?v=ixu0H8bsCts) · Source: Machine Learning Street Talk · [All reviews](../README.md) · [Learning path](../learning-path.md)
 
 Published: 2026-09-14 · Decision: **Worthwhile** · Confidence: high
 

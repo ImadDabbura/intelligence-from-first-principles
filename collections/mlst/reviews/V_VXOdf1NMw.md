@@ -1,6 +1,6 @@
 # KARL FRISTON - INTELLIGENCE 3.0
 
-[Original episode](https://www.youtube.com/watch?v=V_VXOdf1NMw) · [All reviews](../README.md) · [Learning path](../learning-path.md)
+[Original episode](https://www.youtube.com/watch?v=V_VXOdf1NMw) · Source: Machine Learning Street Talk · [All reviews](../README.md) · [Learning path](../learning-path.md)
 
 Published: 2023-03-11 · Decision: **Worthwhile** · Confidence: high about conceptual value and limitations
 

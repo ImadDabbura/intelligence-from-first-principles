@@ -1,6 +1,6 @@
 # #036 - Max Welling: Quantum, Manifolds & Symmetries in ML
 
-[Original episode](https://www.youtube.com/watch?v=mmDw5glry9w) · [All reviews](../README.md) · [Learning path](../learning-path.md)
+[Original episode](https://www.youtube.com/watch?v=mmDw5glry9w) · Source: Machine Learning Street Talk · [All reviews](../README.md) · [Learning path](../learning-path.md)
 
 Published: 2021-01-03 · Decision: **Core** · Confidence: High for inductive-bias and probabilistic-numerics value; the quantum and edge-of-chaos sections are exploratory rather than established prescriptions.
 

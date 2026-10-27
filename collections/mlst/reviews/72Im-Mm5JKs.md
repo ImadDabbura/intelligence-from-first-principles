@@ -1,6 +1,6 @@
 # The AI That Replaces Hours of Model Tuning - Frank Hutter
 
-[Original episode](https://www.youtube.com/watch?v=72Im-Mm5JKs) · [All reviews](../README.md) · [Learning path](../learning-path.md)
+[Original episode](https://www.youtube.com/watch?v=72Im-Mm5JKs) · Source: Machine Learning Street Talk · [All reviews](../README.md) · [Learning path](../learning-path.md)
 
 Published: 2026-09-23 · Decision: **Core** · Confidence: high
 

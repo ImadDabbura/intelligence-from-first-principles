@@ -1,6 +1,6 @@
 # "We need AIs with PHYSICAL experience" (Jeff Beck)
 
-[Original episode](https://www.youtube.com/watch?v=zv6qzWecj5c) · [All reviews](../README.md) · [Learning path](../learning-path.md)
+[Original episode](https://www.youtube.com/watch?v=zv6qzWecj5c) · Source: Machine Learning Street Talk · [All reviews](../README.md) · [Learning path](../learning-path.md)
 
 Published: 2025-04-10 · Decision: **Worthwhile** · Confidence: high for identifiability and model-selection lessons; low for universal anti-LLM conclusions
 

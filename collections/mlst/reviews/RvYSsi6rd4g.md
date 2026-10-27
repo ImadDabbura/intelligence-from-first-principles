@@ -1,6 +1,6 @@
 # Your Brain Doesn't Command Your Body. It Predicts It. [Max Bennett]
 
-[Original episode](https://www.youtube.com/watch?v=RvYSsi6rd4g) · [All reviews](../README.md) · [Learning path](../learning-path.md)
+[Original episode](https://www.youtube.com/watch?v=RvYSsi6rd4g) · Source: Machine Learning Street Talk · [All reviews](../README.md) · [Learning path](../learning-path.md)
 
 Published: 2025-12-29 · Decision: **Core** · Confidence: High conceptual relevance; moderate confidence in the proposed neuroevolutionary synthesis, which is explicitly speculative in several crucial places.
 

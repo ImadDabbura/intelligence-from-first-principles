@@ -1,6 +1,6 @@
 # Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer
 
-[Original episode](https://www.youtube.com/watch?v=N-7rdJK4xlE) · [All reviews](../README.md) · [Learning path](../learning-path.md)
+[Original episode](https://www.youtube.com/watch?v=N-7rdJK4xlE) · Source: Machine Learning Street Talk · [All reviews](../README.md) · [Learning path](../learning-path.md)
 
 Published: 2020-04-23 · Decision: **Selected passages** · Confidence: high
 

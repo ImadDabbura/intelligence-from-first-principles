@@ -1,6 +1,6 @@
 # NEURAL NETWORKS ARE WEIRD! - Neel Nanda (DeepMind)
 
-[Original episode](https://www.youtube.com/watch?v=YpFaPKOeNME) · [All reviews](../README.md) · [Learning path](../learning-path.md)
+[Original episode](https://www.youtube.com/watch?v=YpFaPKOeNME) · Source: Machine Learning Street Talk · [All reviews](../README.md) · [Learning path](../learning-path.md)
 
 Published: 2024-12-07 · Decision: **Core** · Confidence: High for first-principles value; empirical findings are scoped to the particular models and experiments discussed.
 

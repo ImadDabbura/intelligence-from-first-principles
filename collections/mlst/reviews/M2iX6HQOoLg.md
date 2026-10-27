@@ -1,6 +1,6 @@
 # What If Intelligence Didn't Evolve? It "Was There" From the Start! - Blaise Agüera y Arcas
 
-[Original episode](https://www.youtube.com/watch?v=M2iX6HQOoLg) · [All reviews](../README.md) · [Learning path](../learning-path.md)
+[Original episode](https://www.youtube.com/watch?v=M2iX6HQOoLg) · Source: Machine Learning Street Talk · [All reviews](../README.md) · [Learning path](../learning-path.md)
 
 Published: 2026-02-15 · Decision: **Worthwhile** · Confidence: high that the artificial-life experiment is conceptually valuable; low for universal extrapolations
 

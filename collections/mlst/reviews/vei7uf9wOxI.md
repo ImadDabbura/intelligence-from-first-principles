@@ -1,6 +1,6 @@
 # Learning at test time in LLMs [Jonas Hübotter]
 
-[Original episode](https://www.youtube.com/watch?v=vei7uf9wOxI) · [All reviews](../README.md) · [Learning path](../learning-path.md)
+[Original episode](https://www.youtube.com/watch?v=vei7uf9wOxI) · Source: Machine Learning Street Talk · [All reviews](../README.md) · [Learning path](../learning-path.md)
 
 Published: 2024-11-16 · Decision: **Core** · Confidence: high
 

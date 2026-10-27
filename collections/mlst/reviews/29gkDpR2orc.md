@@ -1,6 +1,6 @@
 # AI BENCHMARKS ARE BROKEN! [Prof. MELANIE MITCHELL]
 
-[Original episode](https://www.youtube.com/watch?v=29gkDpR2orc) · [All reviews](../README.md) · [Learning path](../learning-path.md)
+[Original episode](https://www.youtube.com/watch?v=29gkDpR2orc) · Source: Machine Learning Street Talk · [All reviews](../README.md) · [Learning path](../learning-path.md)
 
 Published: 2023-09-10 · Decision: **Core** · Confidence: High for the experimental-method contribution; lower for philosophical conclusions or historical claims about particular model capabilities.
 

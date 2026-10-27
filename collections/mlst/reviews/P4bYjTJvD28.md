@@ -1,6 +1,6 @@
 # What Building an AI Scientist Actually Requires Beyond Intelligence — Edward Hughes
 
-[Original episode](https://www.youtube.com/watch?v=P4bYjTJvD28) · [All reviews](../README.md) · [Learning path](../learning-path.md)
+[Original episode](https://www.youtube.com/watch?v=P4bYjTJvD28) · Source: Machine Learning Street Talk · [All reviews](../README.md) · [Learning path](../learning-path.md)
 
 Published: 2026-09-11 · Decision: **Worthwhile** · Confidence: High relevance to scientific agency; moderate confidence in empirical generality and philosophical claims.
 

@@ -1,6 +1,6 @@
 # The ChatGPT Paradox: Impressive Yet Incomplete
 
-[Original episode](https://www.youtube.com/watch?v=7bmhjt1cpRs) · [All reviews](../README.md) · [Learning path](../learning-path.md)
+[Original episode](https://www.youtube.com/watch?v=7bmhjt1cpRs) · Source: Machine Learning Street Talk · [All reviews](../README.md) · [Learning path](../learning-path.md)
 
 Published: 2024-10-16 · Decision: **Worthwhile** · Confidence: high
 

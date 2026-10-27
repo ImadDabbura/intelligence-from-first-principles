@@ -1,6 +1,6 @@
 # #107 - Dr. RAPHAËL MILLIÈRE - Linguistics, Theory of Mind, Grounding
 
-[Original episode](https://www.youtube.com/watch?v=fhn6ZtD6XeE) · [All reviews](../README.md) · [Learning path](../learning-path.md)
+[Original episode](https://www.youtube.com/watch?v=fhn6ZtD6XeE) · Source: Machine Learning Street Talk · [All reviews](../README.md) · [Learning path](../learning-path.md)
 
 Published: 2023-03-13 · Decision: **Core** · Confidence: High on foundational conceptual value; individual historical empirical claims are not independently replicated.
 

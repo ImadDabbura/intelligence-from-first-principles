@@ -1,6 +1,6 @@
 # #55 Dr. ISHAN MISRA - Self-Supervised Vision Models
 
-[Original episode](https://www.youtube.com/watch?v=EXJmodhu4_4) · [All reviews](../README.md) · [Learning path](../learning-path.md)
+[Original episode](https://www.youtube.com/watch?v=EXJmodhu4_4) · Source: Machine Learning Street Talk · [All reviews](../README.md) · [Learning path](../learning-path.md)
 
 Published: 2021-06-20 · Decision: **Core** · Confidence: High for the enduring conceptual distinctions; moderate for explanatory stories about why particular optimization tricks work.
 

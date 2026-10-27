@@ -2,9 +2,9 @@
 
 Snapshot: **26 October 2026**. The first filter covers **269 uploads published 9 April 2020–26 October 2026**. The detailed review covers **131 selected episodes published 9 April 2020–9 October 2026**.
 
-[Learning path](learning-path.md) · [First filter](screening.md) · [Methodology](../../METHODOLOGY.md) · [Scope record](scope-and-method.json)
+[Learning path](learning-path.md) · [First filter](screening.md) · [Methodology](../../README.md#methodology) · [Scope record](scope-and-method.json)
 
-These are my AI-assisted research notes and viewing priorities. The remaining 138 uploads are outside this transcript-review pass. The interactive report is `reports/catalogue.html`; download or clone the repository to open it in a browser.
+These are my AI-assisted research notes and viewing priorities. The remaining 138 uploads are outside this transcript-review pass. The shared interactive report is [at the repository root](../../index.html); download or clone the repository to open it in a browser.
 
 ## Core (53)
 

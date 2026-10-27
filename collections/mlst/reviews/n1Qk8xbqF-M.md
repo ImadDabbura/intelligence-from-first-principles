@@ -1,6 +1,6 @@
 # How Researchers Test AI for Hidden Goals — Apollo Research
 
-[Original episode](https://www.youtube.com/watch?v=n1Qk8xbqF-M) · [All reviews](../README.md) · [Learning path](../learning-path.md)
+[Original episode](https://www.youtube.com/watch?v=n1Qk8xbqF-M) · Source: Machine Learning Street Talk · [All reviews](../README.md) · [Learning path](../learning-path.md)
 
 Published: 2026-07-31 · Decision: **Worthwhile** · Confidence: high on conceptual relevance; moderate on causal interpretation
 

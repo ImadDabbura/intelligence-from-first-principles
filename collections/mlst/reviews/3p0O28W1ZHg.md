@@ -1,6 +1,6 @@
 # Test-Time Adaptation: the key to reasoning with DL
 
-[Original episode](https://www.youtube.com/watch?v=3p0O28W1ZHg) · [All reviews](../README.md) · [Learning path](../learning-path.md)
+[Original episode](https://www.youtube.com/watch?v=3p0O28W1ZHg) · Source: Machine Learning Street Talk · [All reviews](../README.md) · [Learning path](../learning-path.md)
 
 Published: 2025-03-22 · Decision: **Worthwhile** · Confidence: high for adaptation/representation lessons; moderate for empirical attribution and mechanism
 

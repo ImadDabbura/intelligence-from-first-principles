@@ -1,6 +1,6 @@
 # The Hidden Math Behind All Living Systems
 
-[Original episode](https://www.youtube.com/watch?v=hf18w6CuY8o) · [All reviews](../README.md) · [Learning path](../learning-path.md)
+[Original episode](https://www.youtube.com/watch?v=hf18w6CuY8o) · Source: Machine Learning Street Talk · [All reviews](../README.md) · [Learning path](../learning-path.md)
 
 Published: 2024-10-22 · Decision: **Worthwhile** · Confidence: high
 

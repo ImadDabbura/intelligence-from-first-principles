@@ -1,6 +1,6 @@
 # This is why Deep Learning is really weird.
 
-[Original episode](https://www.youtube.com/watch?v=sJXn4Cl4oww) · [All reviews](../README.md) · [Learning path](../learning-path.md)
+[Original episode](https://www.youtube.com/watch?v=sJXn4Cl4oww) · Source: Machine Learning Street Talk · [All reviews](../README.md) · [Learning path](../learning-path.md)
 
 Published: 2023-12-26 · Decision: **Worthwhile** · Confidence: high for conceptual organization and research methodology; moderate for some informal explanations
 

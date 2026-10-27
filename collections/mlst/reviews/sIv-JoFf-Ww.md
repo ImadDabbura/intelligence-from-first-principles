@@ -1,6 +1,6 @@
 # Exploring Open-Ended Algorithms: POET
 
-[Original episode](https://www.youtube.com/watch?v=sIv-JoFf-Ww) · [All reviews](../README.md) · [Learning path](../learning-path.md)
+[Original episode](https://www.youtube.com/watch?v=sIv-JoFf-Ww) · Source: Machine Learning Street Talk · [All reviews](../README.md) · [Learning path](../learning-path.md)
 
 Published: 2020-04-09 · Decision: **Selected passages** · Confidence: high that core questions are useful; moderate on technical precision of this informal panel
 

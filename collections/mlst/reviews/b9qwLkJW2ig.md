@@ -1,6 +1,6 @@
 # NLP is not NLU and GPT-3 - Walid Saba
 
-[Original episode](https://www.youtube.com/watch?v=b9qwLkJW2ig) · [All reviews](../README.md) · [Learning path](../learning-path.md)
+[Original episode](https://www.youtube.com/watch?v=b9qwLkJW2ig) · Source: Machine Learning Street Talk · [All reviews](../README.md) · [Learning path](../learning-path.md)
 
 Published: 2020-11-04 · Decision: **Selected passages** · Confidence: high
 

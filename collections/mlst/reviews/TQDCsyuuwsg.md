@@ -1,6 +1,6 @@
 # Exploring Program Synthesis: Francois Chollet, Kevin Ellis, Zenna Tavares
 
-[Original episode](https://www.youtube.com/watch?v=TQDCsyuuwsg) · [All reviews](../README.md) · [Learning path](../learning-path.md)
+[Original episode](https://www.youtube.com/watch?v=TQDCsyuuwsg) · Source: Machine Learning Street Talk · [All reviews](../README.md) · [Learning path](../learning-path.md)
 
 Published: 2025-03-23 · Decision: **Worthwhile** · Confidence: high for conceptual value; moderate for empirical claims
 

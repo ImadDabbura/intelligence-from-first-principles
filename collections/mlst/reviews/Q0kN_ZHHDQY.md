@@ -1,6 +1,6 @@
 # 039 - Lena Voita - NLP
 
-[Original episode](https://www.youtube.com/watch?v=Q0kN_ZHHDQY) · [All reviews](../README.md) · [Learning path](../learning-path.md)
+[Original episode](https://www.youtube.com/watch?v=Q0kN_ZHHDQY) · Source: Machine Learning Street Talk · [All reviews](../README.md) · [Learning path](../learning-path.md)
 
 Published: 2021-01-23 · Decision: **Core** · Confidence: high
 

@@ -1,6 +1,6 @@
 # What Most People Get Wrong About Evolution | Akarsh Kumar
 
-[Original episode](https://www.youtube.com/watch?v=615B5nyMFPk) · [All reviews](../README.md) · [Learning path](../learning-path.md)
+[Original episode](https://www.youtube.com/watch?v=615B5nyMFPk) · Source: Machine Learning Street Talk · [All reviews](../README.md) · [Learning path](../learning-path.md)
 
 Published: 2026-10-09 · Decision: **Worthwhile** · Confidence: high
 

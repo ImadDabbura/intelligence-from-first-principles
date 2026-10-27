@@ -1,6 +1,6 @@
 # #92 - SARA HOOKER - Fairness, Interpretability, Language Models
 
-[Original episode](https://www.youtube.com/watch?v=7oJui4eSCoY) · [All reviews](../README.md) · [Learning path](../learning-path.md)
+[Original episode](https://www.youtube.com/watch?v=7oJui4eSCoY) · Source: Machine Learning Street Talk · [All reviews](../README.md) · [Learning path](../learning-path.md)
 
 Published: 2022-12-22 · Decision: **Worthwhile** · Confidence: high
 

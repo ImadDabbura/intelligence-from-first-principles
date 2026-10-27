@@ -1,6 +1,6 @@
 # #67 Prof. KARL FRISTON 2.0 [Unplugged]
 
-[Original episode](https://www.youtube.com/watch?v=xKQ-F2-o8uM) · [All reviews](../README.md) · [Learning path](../learning-path.md)
+[Original episode](https://www.youtube.com/watch?v=xKQ-F2-o8uM) · Source: Machine Learning Street Talk · [All reviews](../README.md) · [Learning path](../learning-path.md)
 
 Published: 2022-03-02 · Decision: **Worthwhile** · Confidence: high on relevance, conditional on mathematical claims
 

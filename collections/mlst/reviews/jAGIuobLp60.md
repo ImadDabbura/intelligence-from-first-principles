@@ -1,6 +1,6 @@
 # #71 - ZAK JOST (Graph Neural Networks + Geometric DL) [UNPLUGGED]
 
-[Original episode](https://www.youtube.com/watch?v=jAGIuobLp60) · [All reviews](../README.md) · [Learning path](../learning-path.md)
+[Original episode](https://www.youtube.com/watch?v=jAGIuobLp60) · Source: Machine Learning Street Talk · [All reviews](../README.md) · [Learning path](../learning-path.md)
 
 Published: 2022-03-25 · Decision: **Worthwhile** · Confidence: high
 

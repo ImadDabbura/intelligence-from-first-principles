@@ -1,6 +1,6 @@
 # When AI Discovers the Next Transformer — Robert Lange
 
-[Original episode](https://www.youtube.com/watch?v=EInEmGaMRLc) · [All reviews](../README.md) · [Learning path](../learning-path.md)
+[Original episode](https://www.youtube.com/watch?v=EInEmGaMRLc) · Source: Machine Learning Street Talk · [All reviews](../README.md) · [Learning path](../learning-path.md)
 
 Published: 2026-03-13 · Decision: **Core** · Confidence: high
 

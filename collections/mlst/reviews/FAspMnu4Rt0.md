@@ -1,6 +1,6 @@
 # Transformers Need Glasses! [Federico Barbero]
 
-[Original episode](https://www.youtube.com/watch?v=FAspMnu4Rt0) · [All reviews](../README.md) · [Learning path](../learning-path.md)
+[Original episode](https://www.youtube.com/watch?v=FAspMnu4Rt0) · Source: Machine Learning Street Talk · [All reviews](../README.md) · [Learning path](../learning-path.md)
 
 Published: 2025-03-08 · Decision: **Core** · Confidence: high for mechanistic educational value; bounded confidence in broader extrapolations
 

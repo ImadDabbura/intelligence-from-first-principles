@@ -1,6 +1,6 @@
 # Neural Networks Are Elastic Origami! [Prof. Randall Balestriero]
 
-[Original episode](https://www.youtube.com/watch?v=l3O2J3LMxqI) · [All reviews](../README.md) · [Learning path](../learning-path.md)
+[Original episode](https://www.youtube.com/watch?v=l3O2J3LMxqI) · Source: Machine Learning Street Talk · [All reviews](../README.md) · [Learning path](../learning-path.md)
 
 Published: 2025-02-08 · Decision: **Core** · Confidence: high
 

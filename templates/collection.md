@@ -22,9 +22,9 @@ For each item: original URL, title, date, publisher material examined, promised 
 
 Link completed reviews. Keep deferred items and missing sources visible; do not count them as completed reviews or rejections.
 
-## Learning path
+## Place in the shared report
 
-Suggested starting points, conceptual dependencies, optional branches and overlap with other collections.
+Register the source in the root `collections.json`. Suggest starting points, conceptual dependencies and optional branches for the root `learning-path.json`, including overlap with other sources. See [the data format](data-format.md).
 
 ## Review process
 

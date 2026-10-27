@@ -1,6 +1,6 @@
 # Solving Chollet's ARC-AGI with GPT4o
 
-[Original episode](https://www.youtube.com/watch?v=z9j3wB1RRGA) · [All reviews](../README.md) · [Learning path](../learning-path.md)
+[Original episode](https://www.youtube.com/watch?v=z9j3wB1RRGA) · Source: Machine Learning Street Talk · [All reviews](../README.md) · [Learning path](../learning-path.md)
 
 Published: 2024-07-06 · Decision: **Worthwhile** · Confidence: high for the first technical block; moderate for broader cognitive interpretations
 

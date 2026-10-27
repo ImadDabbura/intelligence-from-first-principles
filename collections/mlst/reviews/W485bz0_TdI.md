@@ -1,6 +1,6 @@
 # Is ChatGPT an N-gram model on steroids?
 
-[Original episode](https://www.youtube.com/watch?v=W485bz0_TdI) · [All reviews](../README.md) · [Learning path](../learning-path.md)
+[Original episode](https://www.youtube.com/watch?v=W485bz0_TdI) · Source: Machine Learning Street Talk · [All reviews](../README.md) · [Learning path](../learning-path.md)
 
 Published: 2024-08-14 · Decision: **Worthwhile** · Confidence: high
 

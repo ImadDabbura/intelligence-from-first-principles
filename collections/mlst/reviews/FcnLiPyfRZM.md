@@ -1,6 +1,6 @@
 # 29.4% ARC-AGI-2 🤯 (TOP SCORE!) - Jeremy Berman
 
-[Original episode](https://www.youtube.com/watch?v=FcnLiPyfRZM) · [All reviews](../README.md) · [Learning path](../learning-path.md)
+[Original episode](https://www.youtube.com/watch?v=FcnLiPyfRZM) · Source: Machine Learning Street Talk · [All reviews](../README.md) · [Learning path](../learning-path.md)
 
 Published: 2025-09-27 · Decision: **Selected passages** · Confidence: high
 

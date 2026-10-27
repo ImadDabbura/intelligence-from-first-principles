@@ -1,6 +1,6 @@
 # Sara Hooker - The Hardware Lottery, Sparsity and Fairness
 
-[Original episode](https://www.youtube.com/watch?v=sQFxbQ7ade0) · [All reviews](../README.md) · [Learning path](../learning-path.md)
+[Original episode](https://www.youtube.com/watch?v=sQFxbQ7ade0) · Source: Machine Learning Street Talk · [All reviews](../README.md) · [Learning path](../learning-path.md)
 
 Published: 2020-10-20 · Decision: **Worthwhile** · Confidence: high for enduring concepts; historical forecasts are low-confidence
 

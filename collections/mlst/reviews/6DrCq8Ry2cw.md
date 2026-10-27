@@ -1,6 +1,6 @@
 # The AI Paradigm That Nobody Talks About — Tim Rocktäschel
 
-[Original episode](https://www.youtube.com/watch?v=6DrCq8Ry2cw) · [All reviews](../README.md) · [Learning path](../learning-path.md)
+[Original episode](https://www.youtube.com/watch?v=6DrCq8Ry2cw) · Source: Machine Learning Street Talk · [All reviews](../README.md) · [Learning path](../learning-path.md)
 
 Published: 2024-10-04 · Decision: **Core** · Confidence: high for conceptual relevance; moderate for proposed route to general intelligence
 

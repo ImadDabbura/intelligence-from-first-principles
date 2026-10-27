@@ -1,6 +1,6 @@
 # #81  JULIAN TOGELIUS, Prof. KEN STANLEY - AGI, Games, Diversity & Creativity [UNPLUGGED]
 
-[Original episode](https://www.youtube.com/watch?v=iqkkkA9dtY0) · [All reviews](../README.md) · [Learning path](../learning-path.md)
+[Original episode](https://www.youtube.com/watch?v=iqkkkA9dtY0) · Source: Machine Learning Street Talk · [All reviews](../README.md) · [Learning path](../learning-path.md)
 
 Published: 2022-11-19 · Decision: **Worthwhile** · Confidence: high for research framing; moderate for algorithmic claims
 

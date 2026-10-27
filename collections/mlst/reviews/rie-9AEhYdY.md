@@ -1,6 +1,6 @@
 # WE MUST ADD STRUCTURE TO DEEP LEARNING BECAUSE...
 
-[Original episode](https://www.youtube.com/watch?v=rie-9AEhYdY) · [All reviews](../README.md) · [Learning path](../learning-path.md)
+[Original episode](https://www.youtube.com/watch?v=rie-9AEhYdY) · Source: Machine Learning Street Talk · [All reviews](../README.md) · [Learning path](../learning-path.md)
 
 Published: 2024-04-01 · Decision: **Worthwhile** · Confidence: High on conceptual relevance; moderate on claims about practical architecture benefits.
 

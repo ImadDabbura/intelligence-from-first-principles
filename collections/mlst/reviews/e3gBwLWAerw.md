@@ -1,6 +1,6 @@
 # He won a Nobel here for AlphaFold. Then he left. - John Jumper
 
-[Original episode](https://www.youtube.com/watch?v=e3gBwLWAerw) · [All reviews](../README.md) · [Learning path](../learning-path.md)
+[Original episode](https://www.youtube.com/watch?v=e3gBwLWAerw) · Source: Machine Learning Street Talk · [All reviews](../README.md) · [Learning path](../learning-path.md)
 
 Published: 2026-06-22 · Decision: **Core** · Confidence: high
 

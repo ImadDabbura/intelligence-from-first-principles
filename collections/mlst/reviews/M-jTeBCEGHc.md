@@ -1,6 +1,6 @@
 # The Real Reason Huge AI Models Actually Work [Prof. Andrew Wilson]
 
-[Original episode](https://www.youtube.com/watch?v=M-jTeBCEGHc) · [All reviews](../README.md) · [Learning path](../learning-path.md)
+[Original episode](https://www.youtube.com/watch?v=M-jTeBCEGHc) · Source: Machine Learning Street Talk · [All reviews](../README.md) · [Learning path](../learning-path.md)
 
 Published: 2025-09-19 · Decision: **Core** · Confidence: Very high relevance; distinguish formal frameworks from the proposed explanation of scale.
 

@@ -1,6 +1,6 @@
 # Tau Language: The Software Synthesis Future [Sponsored] - Ohad Asor
 
-[Original episode](https://www.youtube.com/watch?v=JVLpxm5jT2s) · [All reviews](../README.md) · [Learning path](../learning-path.md)
+[Original episode](https://www.youtube.com/watch?v=JVLpxm5jT2s) · Source: Machine Learning Street Talk · [All reviews](../README.md) · [Learning path](../learning-path.md)
 
 Published: 2025-03-12 · Decision: **Drop** · Confidence: High for excluding this episode from the recommended learning sequence; the specific Tau formalism itself is not independently assessed here.
 

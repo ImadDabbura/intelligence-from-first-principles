@@ -1,6 +1,6 @@
 # ImageNet Moment for Reinforcement Learning? [Prof. Jakob Foerster]
 
-[Original episode](https://www.youtube.com/watch?v=Jr_nGkCG3og) · [All reviews](../README.md) · [Learning path](../learning-path.md)
+[Original episode](https://www.youtube.com/watch?v=Jr_nGkCG3og) · Source: Machine Learning Street Talk · [All reviews](../README.md) · [Learning path](../learning-path.md)
 
 Published: 2025-02-18 · Decision: **Worthwhile** · Confidence: high for meta-learning and evaluation content
 

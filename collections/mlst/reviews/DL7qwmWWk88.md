@@ -1,6 +1,6 @@
 # The Gap Between Humans and Machines Is ___ [Dr. Max Bartolo]
 
-[Original episode](https://www.youtube.com/watch?v=DL7qwmWWk88) · [All reviews](../README.md) · [Learning path](../learning-path.md)
+[Original episode](https://www.youtube.com/watch?v=DL7qwmWWk88) · Source: Machine Learning Street Talk · [All reviews](../README.md) · [Learning path](../learning-path.md)
 
 Published: 2025-03-18 · Decision: **Worthwhile** · Confidence: High for conceptual value; moderate for empirical generality, since this is an interview rather than a reproduced study.
 

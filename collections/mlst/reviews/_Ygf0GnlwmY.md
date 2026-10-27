@@ -1,6 +1,6 @@
 # Mechanistic Interpretability - NEEL NANDA (DeepMind)
 
-[Original episode](https://www.youtube.com/watch?v=_Ygf0GnlwmY) · [All reviews](../README.md) · [Learning path](../learning-path.md)
+[Original episode](https://www.youtube.com/watch?v=_Ygf0GnlwmY) · Source: Machine Learning Street Talk · [All reviews](../README.md) · [Learning path](../learning-path.md)
 
 Published: 2023-10-28 · Decision: **Core** · Confidence: high for conceptual and methodological value; medium for transfer of small-model findings to frontier systems
 

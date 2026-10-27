@@ -1,6 +1,6 @@
 # #063 - Prof. YOSHUA BENGIO - GFlowNets, Consciousness & Causality
 
-[Original episode](https://www.youtube.com/watch?v=M49TMqK5uCE) · [All reviews](../README.md) · [Learning path](../learning-path.md)
+[Original episode](https://www.youtube.com/watch?v=M49TMqK5uCE) · Source: Machine Learning Street Talk · [All reviews](../README.md) · [Learning path](../learning-path.md)
 
 Published: 2022-02-21 · Decision: **Core** · Confidence: high
 

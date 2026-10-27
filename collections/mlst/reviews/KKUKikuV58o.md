@@ -1,6 +1,6 @@
 # AI Isn't Creative [Prof. Kenneth Stanley]
 
-[Original episode](https://www.youtube.com/watch?v=KKUKikuV58o) · [All reviews](../README.md) · [Learning path](../learning-path.md)
+[Original episode](https://www.youtube.com/watch?v=KKUKikuV58o) · Source: Machine Learning Street Talk · [All reviews](../README.md) · [Learning path](../learning-path.md)
 
 Published: 2025-07-05 · Decision: **Core** · Confidence: High relevance; moderate confidence in the general representational hypothesis, not its strongest claims.
 

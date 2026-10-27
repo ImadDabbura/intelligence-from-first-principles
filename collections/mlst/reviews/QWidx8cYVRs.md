@@ -1,6 +1,6 @@
 # The Mathematical Foundations of Intelligence [Professor Yi Ma]
 
-[Original episode](https://www.youtube.com/watch?v=QWidx8cYVRs) · [All reviews](../README.md) · [Learning path](../learning-path.md)
+[Original episode](https://www.youtube.com/watch?v=QWidx8cYVRs) · Source: Machine Learning Street Talk · [All reviews](../README.md) · [Learning path](../learning-path.md)
 
 Published: 2025-12-13 · Decision: **Core** · Confidence: high for mathematical research programme; moderate for extension to intelligence generally
 

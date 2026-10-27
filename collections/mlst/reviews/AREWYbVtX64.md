@@ -1,6 +1,6 @@
 # Intelligence is collective, not artificial — Prof. Michael I. Jordan (UC Berkeley / Inria)
 
-[Original episode](https://www.youtube.com/watch?v=AREWYbVtX64) · [All reviews](../README.md) · [Learning path](../learning-path.md)
+[Original episode](https://www.youtube.com/watch?v=AREWYbVtX64) · Source: Machine Learning Street Talk · [All reviews](../README.md) · [Learning path](../learning-path.md)
 
 Published: 2026-05-20 · Decision: **Core** · Confidence: high
 

@@ -1,6 +1,6 @@
 # How Do AI Models Actually Think? [Dr. Laura Ruis]
 
-[Original episode](https://www.youtube.com/watch?v=14DXtvRJeNU) · [All reviews](../README.md) · [Learning path](../learning-path.md)
+[Original episode](https://www.youtube.com/watch?v=14DXtvRJeNU) · Source: Machine Learning Street Talk · [All reviews](../README.md) · [Learning path](../learning-path.md)
 
 Published: 2025-01-19 · Decision: **Worthwhile** · Confidence: high
 

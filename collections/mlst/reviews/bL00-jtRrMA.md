@@ -1,6 +1,6 @@
 # Autopoietic Enactivism and the Free Energy Principle - Prof. Friston, Prof Buckley, Dr. Ramstead
 
-[Original episode](https://www.youtube.com/watch?v=bL00-jtRrMA) · [All reviews](../README.md) · [Learning path](../learning-path.md)
+[Original episode](https://www.youtube.com/watch?v=bL00-jtRrMA) · Source: Machine Learning Street Talk · [All reviews](../README.md) · [Learning path](../learning-path.md)
 
 Published: 2023-09-05 · Decision: **Worthwhile** · Confidence: high about philosophical and modeling value; medium about ASR terminology
 

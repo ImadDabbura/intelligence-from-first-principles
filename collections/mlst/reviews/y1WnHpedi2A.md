@@ -1,6 +1,6 @@
 # Do you think that ChatGPT can reason? [Prof. Subbarao Kambhampati]
 
-[Original episode](https://www.youtube.com/watch?v=y1WnHpedi2A) · [All reviews](../README.md) · [Learning path](../learning-path.md)
+[Original episode](https://www.youtube.com/watch?v=y1WnHpedi2A) · Source: Machine Learning Street Talk · [All reviews](../README.md) · [Learning path](../learning-path.md)
 
 Published: 2024-07-29 · Decision: **Worthwhile** · Confidence: high
 

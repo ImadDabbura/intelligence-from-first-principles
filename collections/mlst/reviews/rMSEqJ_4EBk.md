@@ -1,6 +1,6 @@
 # Google Researcher Shows Life "Emerges From Code" [Blaise Agüera y Arcas]
 
-[Original episode](https://www.youtube.com/watch?v=rMSEqJ_4EBk) · [All reviews](../README.md) · [Learning path](../learning-path.md)
+[Original episode](https://www.youtube.com/watch?v=rMSEqJ_4EBk) · Source: Machine Learning Street Talk · [All reviews](../README.md) · [Learning path](../learning-path.md)
 
 Published: 2025-10-21 · Decision: **Worthwhile** · Confidence: high for experiment’s conceptual interest; low for several universal philosophical extrapolations
 

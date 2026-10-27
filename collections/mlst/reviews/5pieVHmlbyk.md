@@ -1,6 +1,6 @@
 # The Thermodynamic AI Chip · Thomas Ahle
 
-[Original episode](https://www.youtube.com/watch?v=5pieVHmlbyk) · [All reviews](../README.md) · [Learning path](../learning-path.md)
+[Original episode](https://www.youtube.com/watch?v=5pieVHmlbyk) · Source: Machine Learning Street Talk · [All reviews](../README.md) · [Learning path](../learning-path.md)
 
 Published: 2026-06-28 · Decision: **Worthwhile** · Confidence: high for specification and inference distinctions; moderate for hardware detail
 

@@ -1,6 +1,6 @@
 # The Man Who Invented Modern AI (Before Everyone Else) — Jürgen Schmidhuber
 
-[Original episode](https://www.youtube.com/watch?v=DP454c1K_vQ) · [All reviews](../README.md) · [Learning path](../learning-path.md)
+[Original episode](https://www.youtube.com/watch?v=DP454c1K_vQ) · Source: Machine Learning Street Talk · [All reviews](../README.md) · [Learning path](../learning-path.md)
 
 Published: 2024-08-28 · Decision: **Worthwhile** · Confidence: high for useful distinctions; moderate for the episode as a technically reliable standalone source
 

@@ -1,6 +1,6 @@
 # SWaV: Unsupervised Learning of Visual Features by Contrasting Cluster Assignments (Mathilde Caron)
 
-[Original episode](https://www.youtube.com/watch?v=uqJ2hbDGHjY) · [All reviews](../README.md) · [Learning path](../learning-path.md)
+[Original episode](https://www.youtube.com/watch?v=uqJ2hbDGHjY) · Source: Machine Learning Street Talk · [All reviews](../README.md) · [Learning path](../learning-path.md)
 
 Published: 2020-09-13 · Decision: **Core** · Confidence: high for mechanism; moderate for speculative explanations of transfer
 

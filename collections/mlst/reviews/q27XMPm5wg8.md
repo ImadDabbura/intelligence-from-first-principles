@@ -1,6 +1,6 @@
 # ORIGINAL FATHER OF AI ON DANGERS! (Prof. Jürgen Schmidhuber)
 
-[Original episode](https://www.youtube.com/watch?v=q27XMPm5wg8) · [All reviews](../README.md) · [Learning path](../learning-path.md)
+[Original episode](https://www.youtube.com/watch?v=q27XMPm5wg8) · Source: Machine Learning Street Talk · [All reviews](../README.md) · [Learning path](../learning-path.md)
 
 Published: 2023-08-13 · Decision: **Worthwhile** · Confidence: high
 

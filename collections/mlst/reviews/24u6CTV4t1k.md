@@ -1,6 +1,6 @@
 # #87 - ADELE MYERS - Regression-Based Elastic Metric Learning on Shape Spaces of Cell Curves #NEURIPS
 
-[Original episode](https://www.youtube.com/watch?v=24u6CTV4t1k) · [All reviews](../README.md) · [Learning path](../learning-path.md)
+[Original episode](https://www.youtube.com/watch?v=24u6CTV4t1k) · Source: Machine Learning Street Talk · [All reviews](../README.md) · [Learning path](../learning-path.md)
 
 Published: 2022-12-11 · Decision: **Worthwhile** · Confidence: High for the distinct modeling lesson; moderate for empirical scope and transfer beyond the synthetic setting.
 

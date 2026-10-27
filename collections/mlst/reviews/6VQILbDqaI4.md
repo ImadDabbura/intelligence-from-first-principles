@@ -1,6 +1,6 @@
 # #59 JEFF HAWKINS - Thousand Brains Theory
 
-[Original episode](https://www.youtube.com/watch?v=6VQILbDqaI4) · [All reviews](../README.md) · [Learning path](../learning-path.md)
+[Original episode](https://www.youtube.com/watch?v=6VQILbDqaI4) · Source: Machine Learning Street Talk · [All reviews](../README.md) · [Learning path](../learning-path.md)
 
 Published: 2021-09-03 · Decision: **Core** · Confidence: High conceptual relevance; the universal cortical account is a hypothesis, not established neuroscience.
 

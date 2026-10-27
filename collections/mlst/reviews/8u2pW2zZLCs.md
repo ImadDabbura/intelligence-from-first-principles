@@ -1,6 +1,6 @@
 # LSTM: The Comeback Story? [Prof. Sepp Hochreiter]
 
-[Original episode](https://www.youtube.com/watch?v=8u2pW2zZLCs) · [All reviews](../README.md) · [Learning path](../learning-path.md)
+[Original episode](https://www.youtube.com/watch?v=8u2pW2zZLCs) · Source: Machine Learning Street Talk · [All reviews](../README.md) · [Learning path](../learning-path.md)
 
 Published: 2025-02-11 · Decision: **Worthwhile** · Confidence: high
 

@@ -1,6 +1,6 @@
 # The Brain Is Just Specialized Agents Talking To Each Other — Dr. Jeff Beck
 
-[Original episode](https://www.youtube.com/watch?v=Ucqfb33GJJ4) · [All reviews](../README.md) · [Learning path](../learning-path.md)
+[Original episode](https://www.youtube.com/watch?v=Ucqfb33GJJ4) · Source: Machine Learning Street Talk · [All reviews](../README.md) · [Learning path](../learning-path.md)
 
 Published: 2026-01-25 · Decision: **Selected passages** · Confidence: high on relevance; mathematical shorthand requires correction
 

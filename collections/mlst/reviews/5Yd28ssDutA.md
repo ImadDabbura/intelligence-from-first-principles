@@ -1,6 +1,6 @@
 # #84 LAURA RUIS - Large language models are not zero-shot communicators [NEURIPS UNPLUGGED]
 
-[Original episode](https://www.youtube.com/watch?v=5Yd28ssDutA) · [All reviews](../README.md) · [Learning path](../learning-path.md)
+[Original episode](https://www.youtube.com/watch?v=5Yd28ssDutA) · Source: Machine Learning Street Talk · [All reviews](../README.md) · [Learning path](../learning-path.md)
 
 Published: 2022-12-06 · Decision: **Worthwhile** · Confidence: high
 

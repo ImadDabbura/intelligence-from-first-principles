@@ -1,6 +1,6 @@
 # Strange Geometric Shapes Found Inside AIs — Tom McGrath
 
-[Original episode](https://www.youtube.com/watch?v=_egu7OFem-k) · [All reviews](../README.md) · [Learning path](../learning-path.md)
+[Original episode](https://www.youtube.com/watch?v=_egu7OFem-k) · Source: Machine Learning Street Talk · [All reviews](../README.md) · [Learning path](../learning-path.md)
 
 Published: 2026-09-02 · Decision: **Core** · Confidence: High on conceptual relevance; moderate on empirical breadth because papers and audio were not independently checked.
 

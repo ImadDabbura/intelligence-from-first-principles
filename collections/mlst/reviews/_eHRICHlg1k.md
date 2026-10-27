@@ -1,6 +1,6 @@
 # #52 - Dr. HADI SALMAN - Adversarial Examples Beyond Security [MIT]
 
-[Original episode](https://www.youtube.com/watch?v=_eHRICHlg1k) · [All reviews](../README.md) · [Learning path](../learning-path.md)
+[Original episode](https://www.youtube.com/watch?v=_eHRICHlg1k) · Source: Machine Learning Street Talk · [All reviews](../README.md) · [Learning path](../learning-path.md)
 
 Published: 2021-04-30 · Decision: **Core** · Confidence: High conceptual relevance; empirical results interpreted within the experiments described.
 

@@ -1,6 +1,6 @@
 # This man builds intelligent machines
 
-[Original episode](https://www.youtube.com/watch?v=2wnJ6E6rQsU) · [All reviews](../README.md) · [Learning path](../learning-path.md)
+[Original episode](https://www.youtube.com/watch?v=2wnJ6E6rQsU) · Source: Machine Learning Street Talk · [All reviews](../README.md) · [Learning path](../learning-path.md)
 
 Published: 2023-11-20 · Decision: **Worthwhile** · Confidence: High for the engineering questions; lower for claims that active inference uniquely solves them or follows unconditionally from physics.
 

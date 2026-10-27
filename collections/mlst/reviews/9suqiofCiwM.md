@@ -1,6 +1,6 @@
 # AutoGrad Changed Everything (Not Transformers) [Dr. Jeff Beck]
 
-[Original episode](https://www.youtube.com/watch?v=9suqiofCiwM) · [All reviews](../README.md) · [Learning path](../learning-path.md)
+[Original episode](https://www.youtube.com/watch?v=9suqiofCiwM) · Source: Machine Learning Street Talk · [All reviews](../README.md) · [Learning path](../learning-path.md)
 
 Published: 2025-12-31 · Decision: **Worthwhile** · Confidence: high
 

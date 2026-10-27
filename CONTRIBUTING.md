@@ -14,24 +14,23 @@ Link to the review and the specific statement. Include a timestamp or primary so
 
 Disagreements about the research objective are welcome too; distinguish them from a factual error in the notes.
 
-## Add a collection
+## Add a source
 
-1. Create `collections/<collection-name>/` and start with `templates/collection.md`.
-2. State the source, snapshot date, publication interval, inclusion rules and exclusions.
-3. Record the first-stage decisions before selecting transcripts for the second stage.
-4. Use `templates/episode-review.md` for new reviews. Record source coverage and AI assistance accurately.
-5. Reconcile overlap and propose a learning order. Record unresolved issues instead of silently filling gaps.
-6. Link the collection from the root README when it is ready to read.
+1. Create `collections/<source-id>/` and record its scope, dates and known gaps.
+2. Add the source to `collections.json` with its name, original URL, format, snapshot date and data directory.
+3. Follow the [data format](templates/data-format.md) for screening, episode metadata, reviews and evidence records. Keep the first filter separate from completed transcript reviews.
+4. Add useful episodes to the root `learning-path.json` using `<source-id>:<episode-id>` references. Compare them with existing entries across sources.
+5. Run `python3 scripts/build_report.py` and `python3 scripts/build_report.py --check`. The source appears in the existing report and filter.
 
-The MLST JSON schema preserves the original audit. Future collections can begin as Markdown using these templates; the MLST build script does not automatically ingest a new collection.
+The [README methodology](README.md#methodology) applies across sources. Each source keeps its own coverage boundaries and evidence; a new source does not change the dates of an older snapshot.
 
 ## Edit the MLST collection
 
-Edit the structured records, not the generated Markdown or HTML. Episode reviews live in `collections/mlst/reviews/*.json`; metadata, the first-stage screen, source records and learning path live beside that directory. Then run:
+Edit the structured records, not the generated Markdown or HTML. Episode reviews live in `collections/mlst/reviews/*.json`; metadata, the first-stage screen and source records live beside that directory. The cross-source learning path lives at the repository root; the collection’s path preserves its original MLST study sequence. Then run:
 
 ```sh
-python3 scripts/build_mlst.py
-python3 scripts/build_mlst.py --check
+python3 scripts/build_report.py
+python3 scripts/build_report.py --check
 ```
 
 Keep downloaded transcripts, full publisher notes, audio, credentials and machine-specific paths out of commits. The public records retain source hashes, edition caveats and original links; raw working material belongs in a local ignored directory.

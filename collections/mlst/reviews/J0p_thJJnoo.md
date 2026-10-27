@@ -1,6 +1,6 @@
 # #51 FRANCOIS CHOLLET - Intelligence and Generalisation
 
-[Original episode](https://www.youtube.com/watch?v=J0p_thJJnoo) · [All reviews](../README.md) · [Learning path](../learning-path.md)
+[Original episode](https://www.youtube.com/watch?v=J0p_thJJnoo) · Source: Machine Learning Street Talk · [All reviews](../README.md) · [Learning path](../learning-path.md)
 
 Published: 2021-04-16 · Decision: **Core** · Confidence: high
 

@@ -1,6 +1,6 @@
 # Test-Time Adaptation: A New Frontier in AI [Dr. Jonas Hübotter]
 
-[Original episode](https://www.youtube.com/watch?v=C6sSs6NgANo) · [All reviews](../README.md) · [Learning path](../learning-path.md)
+[Original episode](https://www.youtube.com/watch?v=C6sSs6NgANo) · Source: Machine Learning Street Talk · [All reviews](../README.md) · [Learning path](../learning-path.md)
 
 Published: 2024-11-30 · Decision: **Core** · Confidence: high
 

@@ -1,6 +1,6 @@
 # The Professor Who Proved ChatGPT Can't Think — Subbarao Kambhampati
 
-[Original episode](https://www.youtube.com/watch?v=2xFTNXK6AzQ) · [All reviews](../README.md) · [Learning path](../learning-path.md)
+[Original episode](https://www.youtube.com/watch?v=2xFTNXK6AzQ) · Source: Machine Learning Street Talk · [All reviews](../README.md) · [Learning path](../learning-path.md)
 
 Published: 2025-01-22 · Decision: **Worthwhile** · Confidence: high for evaluation principles; low for conjectured o1 internals
 

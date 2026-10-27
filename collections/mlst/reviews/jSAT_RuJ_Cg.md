@@ -1,6 +1,6 @@
 # Chollet's ARC Challenge + Current Winners
 
-[Original episode](https://www.youtube.com/watch?v=jSAT_RuJ_Cg) · [All reviews](../README.md) · [Learning path](../learning-path.md)
+[Original episode](https://www.youtube.com/watch?v=jSAT_RuJ_Cg) · Source: Machine Learning Street Talk · [All reviews](../README.md) · [Learning path](../learning-path.md)
 
 Published: 2024-06-18 · Decision: **Worthwhile** · Confidence: high on conceptual value; medium on unpublished implementation details
 

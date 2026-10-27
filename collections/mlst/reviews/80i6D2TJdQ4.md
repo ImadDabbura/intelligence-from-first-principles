@@ -1,6 +1,6 @@
 # #91 - HATTIE ZHOU - Teaching Algorithmic Reasoning via In-context Learning #NeurIPS
 
-[Original episode](https://www.youtube.com/watch?v=80i6D2TJdQ4) · [All reviews](../README.md) · [Learning path](../learning-path.md)
+[Original episode](https://www.youtube.com/watch?v=80i6D2TJdQ4) · Source: Machine Learning Street Talk · [All reviews](../README.md) · [Learning path](../learning-path.md)
 
 Published: 2022-12-20 · Decision: **Worthwhile** · Confidence: high
 

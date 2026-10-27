@@ -1,6 +1,6 @@
 # The Geometric Deep Learning Blueprint — Michael Bronstein
 
-[Original episode](https://www.youtube.com/watch?v=bIZB1hIJ4u8) · [All reviews](../README.md) · [Learning path](../learning-path.md)
+[Original episode](https://www.youtube.com/watch?v=bIZB1hIJ4u8) · Source: Machine Learning Street Talk · [All reviews](../README.md) · [Learning path](../learning-path.md)
 
 Published: 2021-09-18 · Decision: **Core** · Confidence: Very high: directly addresses mathematical structures, generalization, and architectural assumptions; individual historical and empirical claims are not independently audited.
 

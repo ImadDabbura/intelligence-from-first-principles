@@ -1,6 +1,6 @@
 # #86 - Prof. YANN LECUN and Dr. RANDALL BALESTRIERO - SSL, Data Augmentation [NEURIPS2022]
 
-[Original episode](https://www.youtube.com/watch?v=9dLd6n9yT8U) · [All reviews](../README.md) · [Learning path](../learning-path.md)
+[Original episode](https://www.youtube.com/watch?v=9dLd6n9yT8U) · Source: Machine Learning Street Talk · [All reviews](../README.md) · [Learning path](../learning-path.md)
 
 Published: 2022-12-10 · Decision: **Worthwhile** · Confidence: high
 

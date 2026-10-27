@@ -1,6 +1,6 @@
 # AI Is Learning at the Wrong Level of Abstraction — Matthieu Wyart
 
-[Original episode](https://www.youtube.com/watch?v=revreN8LZ_M) · [All reviews](../README.md) · [Learning path](../learning-path.md)
+[Original episode](https://www.youtube.com/watch?v=revreN8LZ_M) · Source: Machine Learning Street Talk · [All reviews](../README.md) · [Learning path](../learning-path.md)
 
 Published: 2026-08-10 · Decision: **Core** · Confidence: high
 

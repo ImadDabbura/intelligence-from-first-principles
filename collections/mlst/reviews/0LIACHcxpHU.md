@@ -1,6 +1,6 @@
 # #047 Interpretable Machine Learning - Christoph Molnar
 
-[Original episode](https://www.youtube.com/watch?v=0LIACHcxpHU) · [All reviews](../README.md) · [Learning path](../learning-path.md)
+[Original episode](https://www.youtube.com/watch?v=0LIACHcxpHU) · Source: Machine Learning Street Talk · [All reviews](../README.md) · [Learning path](../learning-path.md)
 
 Published: 2021-03-14 · Decision: **Worthwhile** · Confidence: high
 

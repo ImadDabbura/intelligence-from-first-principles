@@ -1,6 +1,6 @@
 # Dr. THOMAS PARR - Active Inference
 
-[Original episode](https://www.youtube.com/watch?v=bk_xCikDUDQ) · [All reviews](../README.md) · [Learning path](../learning-path.md)
+[Original episode](https://www.youtube.com/watch?v=bk_xCikDUDQ) · Source: Machine Learning Street Talk · [All reviews](../README.md) · [Learning path](../learning-path.md)
 
 Published: 2024-05-01 · Decision: **Core** · Confidence: high
 

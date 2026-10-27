@@ -1,6 +1,6 @@
 # How Physical AI Learns Across Language, Video and Action — Ming-Yu Liu
 
-[Original episode](https://www.youtube.com/watch?v=L6tLBApQN-g) · [All reviews](../README.md) · [Learning path](../learning-path.md)
+[Original episode](https://www.youtube.com/watch?v=L6tLBApQN-g) · Source: Machine Learning Street Talk · [All reviews](../README.md) · [Learning path](../learning-path.md)
 
 Published: 2026-09-15 · Decision: **Selected passages** · Confidence: high on pedagogical value; empirical performance claims not independently checked
 

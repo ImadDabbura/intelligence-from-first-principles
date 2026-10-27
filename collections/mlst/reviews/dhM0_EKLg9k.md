@@ -1,6 +1,6 @@
 # #62 Dr. GUY EMERSON + Walid Saba [Unplugged]
 
-[Original episode](https://www.youtube.com/watch?v=dhM0_EKLg9k) · [All reviews](../README.md) · [Learning path](../learning-path.md)
+[Original episode](https://www.youtube.com/watch?v=dhM0_EKLg9k) · Source: Machine Learning Street Talk · [All reviews](../README.md) · [Learning path](../learning-path.md)
 
 Published: 2022-03-03 · Decision: **Core** · Confidence: high
 

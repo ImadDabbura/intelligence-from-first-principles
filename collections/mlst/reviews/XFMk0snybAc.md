@@ -1,6 +1,6 @@
 # What is “reasoning” in modern AI?
 
-[Original episode](https://www.youtube.com/watch?v=XFMk0snybAc) · [All reviews](../README.md) · [Learning path](../learning-path.md)
+[Original episode](https://www.youtube.com/watch?v=XFMk0snybAc) · Source: Machine Learning Street Talk · [All reviews](../README.md) · [Learning path](../learning-path.md)
 
 Published: 2024-11-24 · Decision: **Core** · Confidence: high
 

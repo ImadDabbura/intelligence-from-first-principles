@@ -1,6 +1,6 @@
 # Can Latent Program Networks Solve Abstract Reasoning? [Clement Bonnet]
 
-[Original episode](https://www.youtube.com/watch?v=PHBItVuudbU) · [All reviews](../README.md) · [Learning path](../learning-path.md)
+[Original episode](https://www.youtube.com/watch?v=PHBItVuudbU) · Source: Machine Learning Street Talk · [All reviews](../README.md) · [Learning path](../learning-path.md)
 
 Published: 2025-02-19 · Decision: **Core** · Confidence: high for methodological lessons; moderate for proof-of-concept performance
 

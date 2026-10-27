@@ -1,6 +1,6 @@
 # ML Robustness & Engineering - Andrew Ilyas (MIT)
 
-[Original episode](https://www.youtube.com/watch?v=9BC9BsZRCKQ) · [All reviews](../README.md) · [Learning path](../learning-path.md)
+[Original episode](https://www.youtube.com/watch?v=9BC9BsZRCKQ) · Source: Machine Learning Street Talk · [All reviews](../README.md) · [Learning path](../learning-path.md)
 
 Published: 2024-08-21 · Decision: **Core** · Confidence: high
 

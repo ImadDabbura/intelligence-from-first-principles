@@ -1,6 +1,6 @@
 # Is "Thermo" AI the future? [Guillaume Verdon aka "Beff Jezos"]
 
-[Original episode](https://www.youtube.com/watch?v=HR-_U0Pzl1Y) · [All reviews](../README.md) · [Learning path](../learning-path.md)
+[Original episode](https://www.youtube.com/watch?v=HR-_U0Pzl1Y) · Source: Machine Learning Street Talk · [All reviews](../README.md) · [Learning path](../learning-path.md)
 
 Published: 2025-07-21 · Decision: **Selected passages** · Confidence: high for limited hardware/inference lesson; low for broad physical and social claims
 

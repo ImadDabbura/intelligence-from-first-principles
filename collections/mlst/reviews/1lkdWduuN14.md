@@ -1,6 +1,6 @@
 # #85 Dr. Petar Veličković (Deepmind) - Categories, Graphs, Reasoning [NEURIPS22 UNPLUGGED]
 
-[Original episode](https://www.youtube.com/watch?v=1lkdWduuN14) · [All reviews](../README.md) · [Learning path](../learning-path.md)
+[Original episode](https://www.youtube.com/watch?v=1lkdWduuN14) · Source: Machine Learning Street Talk · [All reviews](../README.md) · [Learning path](../learning-path.md)
 
 Published: 2022-12-08 · Decision: **Core** · Confidence: high
 

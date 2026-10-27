@@ -1,6 +1,6 @@
 # This is what happens when you let AIs debate
 
-[Original episode](https://www.youtube.com/watch?v=WlWAhjPfROU) · [All reviews](../README.md) · [Learning path](../learning-path.md)
+[Original episode](https://www.youtube.com/watch?v=WlWAhjPfROU) · Source: Machine Learning Street Talk · [All reviews](../README.md) · [Learning path](../learning-path.md)
 
 Published: 2024-09-27 · Decision: **Selected passages** · Confidence: high
 

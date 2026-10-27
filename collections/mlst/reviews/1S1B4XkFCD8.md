@@ -1,6 +1,6 @@
 # Why More Data Cannot Replace Prior Structure - Alexander Mattick
 
-[Original episode](https://www.youtube.com/watch?v=1S1B4XkFCD8) · [All reviews](../README.md) · [Learning path](../learning-path.md)
+[Original episode](https://www.youtube.com/watch?v=1S1B4XkFCD8) · Source: Machine Learning Street Talk · [All reviews](../README.md) · [Learning path](../learning-path.md)
 
 Published: 2026-09-21 · Decision: **Worthwhile** · Confidence: high
 

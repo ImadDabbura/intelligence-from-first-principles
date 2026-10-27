@@ -1,139 +1,45 @@
 {
-  "review_date": "2026-10-26",
-  "profile": "Strong-math AI scientist studying the nature and mathematical anatomy of intelligence, broadly across learning paradigms.",
-  "methodology": {
-    "snapshot_date": "2026-10-26",
-    "previous_inventory_date": "2026-09-27",
-    "previous_inventory_count": 265,
-    "transcript_review_completed": "2026-10-26",
-    "editorial_revision_date": "2026-10-27",
-    "date_timezone": "America/Chicago",
-    "inventory_publication_range": {
-      "first": {
-        "date": "2020-04-09",
-        "id": "sIv-JoFf-Ww",
-        "title": "Exploring Open-Ended Algorithms: POET"
-      },
-      "last": {
-        "date": "2026-10-26",
-        "id": "IRJDwtAreB4",
-        "title": "Mathematics Just Changed Forever — Kevin Hartnett"
-      }
-    },
-    "selected_publication_range": {
-      "first": {
-        "date": "2020-04-09",
-        "id": "sIv-JoFf-Ww",
-        "title": "Exploring Open-Ended Algorithms: POET"
-      },
-      "last": {
-        "date": "2026-10-09",
-        "id": "615B5nyMFPk",
-        "title": "What Most People Get Wrong About Evolution | Akarsh Kumar"
-      }
-    },
-    "stage_one": {
-      "basis": "Publisher descriptions, chapter labels, available summaries/show notes, listed resources and recovered publisher reference comments. No additional full transcripts read during this stage.",
-      "videos_tab_uploads": 269,
-      "read_transcript_high": 131,
-      "read_transcript_medium": 115,
-      "skip": 15,
-      "insufficient_information": 8,
-      "matched_podcast_notes": 235,
-      "feed_entries": 272,
-      "supplementary_feed_entries": 37,
-      "separately_screened_livestreams": 2,
-      "shorts_included": false,
-      "resource_urls": 3049,
-      "pinned_reference_comments_recovered": 4
-    },
-    "stage_two": {
-      "basis": "Full available transcript texts for exactly the 131 high-priority Videos-tab entries, followed by comparison and selective primary-source checks.",
+  "schema_version": 1,
+  "collections": [
+    {
+      "id": "mlst",
+      "name": "Machine Learning Street Talk",
+      "short_name": "MLST",
+      "url": "https://www.youtube.com/@MachineLearningStreetTalk/videos",
+      "format": "Podcast",
+      "path": "collections/mlst",
+      "snapshot_date": "2026-10-26",
+      "coverage_note": "Videos-tab snapshot; Shorts excluded. Two livestreams and 37 unmatched feed entries were screened separately and are not counted as additional unique uploads. The 138 entries outside the detailed review are not transcript-based rejections.",
+      "screening_link": "collections/mlst/screening.md",
+      "scope_link": "collections/mlst/scope-and-method.json",
+      "screened": 269,
       "reviewed": 131,
-      "decisions": {
-        "worthwhile": 60,
-        "core": 53,
-        "selected_passages": 14,
-        "drop": 4
+      "inventory_range": {
+        "first": "2020-04-09",
+        "last": "2026-10-26"
       },
-      "outside_this_pass": {
-        "medium_priority": 115,
-        "first_stage_skip": 15,
-        "needs_more_information": 8,
-        "total": 138
-      },
-      "reused_transcripts": 100,
-      "recovered_transcripts": 31,
-      "local_audio_transcriptions": 22,
-      "new_youtube_caption_tracks": 2,
-      "other_recovered_publisher_transcripts": 7
-    },
-    "runtime": {
-      "all_269_full_video_seconds": 1372681,
-      "selected_131_full_video_seconds": 696403,
-      "meaning": "Full publisher-listed video runtimes, not actual watching time, transcript-edition durations, recommended passage time, or time spent on exercises."
-    },
-    "new_since_previous_inventory": [
-      {
-        "id": "IRJDwtAreB4",
-        "title": "Mathematics Just Changed Forever — Kevin Hartnett",
-        "published_date": "2026-10-26",
-        "url": "https://www.youtube.com/watch?v=IRJDwtAreB4",
-        "stage_one_priority": "medium",
-        "included_in_transcript_review": false
-      },
-      {
-        "id": "615B5nyMFPk",
-        "title": "What Most People Get Wrong About Evolution | Akarsh Kumar",
-        "published_date": "2026-10-09",
-        "url": "https://www.youtube.com/watch?v=615B5nyMFPk",
-        "stage_one_priority": "high",
-        "included_in_transcript_review": true
-      },
-      {
-        "id": "VoAPg8Fj6-c",
-        "title": "How a Voice Agent Learns the Rhythm of Conversation — Shawn Wen",
-        "published_date": "2026-10-01",
-        "url": "https://www.youtube.com/watch?v=VoAPg8Fj6-c",
-        "stage_one_priority": "medium",
-        "included_in_transcript_review": false
-      },
-      {
-        "id": "ZpQFebTK75A",
-        "title": "The Programming Language That Referees Mathematics — Leo de Moura",
-        "published_date": "2026-09-29",
-        "url": "https://www.youtube.com/watch?v=ZpQFebTK75A",
-        "stage_one_priority": "medium",
-        "included_in_transcript_review": false
+      "reviewed_range": {
+        "first": "2020-04-09",
+        "last": "2026-10-09"
       }
-    ],
-    "source_records": [
-      "screening.json",
-      "episodes.json",
-      "sources.json"
-    ],
-    "limits": [
-      "This is a saved inventory of publicly listed Videos-tab uploads, not a guarantee of every episode ever published, including deleted, private or unlisted material.",
-      "Two separately listed livestreams and 37 unmatched feed entries were screened separately; feed entries may be alternate edits and are not counted as additional unique video episodes.",
-      "The 138 entries outside stage two were not assessed in this transcript-review pass; some may appear in earlier separate work.",
-      "Publication after the snapshot and new availability changes are outside this report until a fresh inventory is explicitly collected.",
-      "A stage-one high or medium priority is a reading decision, not a watch recommendation or validation of the guest’s claims."
-    ]
-  },
+    }
+  ],
   "summary": {
-    "scope": 131,
+    "screened": 269,
     "reviewed": 131,
-    "transcripts_available": 131,
-    "reused_transcripts": 100,
-    "recovered_transcripts": 31,
-    "local_asr_transcripts": 22,
-    "youtube_captions_recovered": 2,
-    "words_in_reviewed_sources": 2100171,
     "decisions": {
       "worthwhile": 60,
       "core": 53,
-      "drop": 4,
-      "selected_passages": 14
+      "selected_passages": 14,
+      "drop": 4
+    },
+    "inventory_range": {
+      "first": "2020-04-09",
+      "last": "2026-10-26"
+    },
+    "reviewed_range": {
+      "first": "2020-04-09",
+      "last": "2026-10-09"
     }
   },
   "episodes": [
@@ -399,6 +305,14 @@
           "source_issue": null
         }
       ],
+      "key": "mlst:615B5nyMFPk",
+      "publisher": {
+        "id": "mlst",
+        "name": "Machine Learning Street Talk",
+        "short_name": "MLST",
+        "url": "https://www.youtube.com/@MachineLearningStreetTalk/videos",
+        "format": "Podcast"
+      },
       "review": {
         "id": "615B5nyMFPk",
         "title": "What Most People Get Wrong About Evolution | Akarsh Kumar",
@@ -473,7 +387,6 @@
         ],
         "source_record": "../sources.json"
       },
-      "decision": "worthwhile",
       "source": {
         "id": "615B5nyMFPk",
         "title": "What Most People Get Wrong About Evolution | Akarsh Kumar",
@@ -495,7 +408,9 @@
         "source_file": "615B5nyMFPk.publisher.txt",
         "source_url": "https://www.youtube.com/watch?v=615B5nyMFPk",
         "distribution": "Transcript retained in the private research archive; not distributed in this repository."
-      }
+      },
+      "decision": "worthwhile",
+      "review_link": "collections/mlst/reviews/615B5nyMFPk.json"
     },
     {
       "id": "yB6_iFGTq9k",
@@ -692,6 +607,14 @@
           "source_issue": null
         }
       ],
+      "key": "mlst:yB6_iFGTq9k",
+      "publisher": {
+        "id": "mlst",
+        "name": "Machine Learning Street Talk",
+        "short_name": "MLST",
+        "url": "https://www.youtube.com/@MachineLearningStreetTalk/videos",
+        "format": "Podcast"
+      },
       "review": {
         "id": "yB6_iFGTq9k",
         "title": "Can Rewriting an AI Agent Bend the Intelligence Curve? - Zhengyao Jiang",
@@ -758,7 +681,6 @@
         ],
         "source_record": "../sources.json"
       },
-      "decision": "worthwhile",
       "source": {
         "id": "yB6_iFGTq9k",
         "title": "Can Rewriting an AI Agent Bend the Intelligence Curve? - Zhengyao Jiang",
@@ -775,7 +697,9 @@
         "source_file": "yB6_iFGTq9k.txt",
         "source_url": "https://www.youtube.com/watch?v=yB6_iFGTq9k",
         "distribution": "Transcript retained in the private research archive; not distributed in this repository."
-      }
+      },
+      "decision": "worthwhile",
+      "review_link": "collections/mlst/reviews/yB6_iFGTq9k.json"
     },
     {
       "id": "72Im-Mm5JKs",
@@ -1076,6 +1000,14 @@
           "source_issue": null
         }
       ],
+      "key": "mlst:72Im-Mm5JKs",
+      "publisher": {
+        "id": "mlst",
+        "name": "Machine Learning Street Talk",
+        "short_name": "MLST",
+        "url": "https://www.youtube.com/@MachineLearningStreetTalk/videos",
+        "format": "Podcast"
+      },
       "review": {
         "id": "72Im-Mm5JKs",
         "title": "The AI That Replaces Hours of Model Tuning - Frank Hutter",
@@ -1155,7 +1087,6 @@
         ],
         "source_record": "../sources.json"
       },
-      "decision": "core",
       "source": {
         "id": "72Im-Mm5JKs",
         "title": "The AI That Replaces Hours of Model Tuning - Frank Hutter",
@@ -1175,7 +1106,9 @@
         "source_file": "72Im-Mm5JKs.publisher.txt",
         "source_url": "https://www.youtube.com/watch?v=72Im-Mm5JKs",
         "distribution": "Transcript retained in the private research archive; not distributed in this repository."
-      }
+      },
+      "decision": "core",
+      "review_link": "collections/mlst/reviews/72Im-Mm5JKs.json"
     },
     {
       "id": "1S1B4XkFCD8",
@@ -1363,6 +1296,14 @@
           "source_issue": null
         }
       ],
+      "key": "mlst:1S1B4XkFCD8",
+      "publisher": {
+        "id": "mlst",
+        "name": "Machine Learning Street Talk",
+        "short_name": "MLST",
+        "url": "https://www.youtube.com/@MachineLearningStreetTalk/videos",
+        "format": "Podcast"
+      },
       "review": {
         "id": "1S1B4XkFCD8",
         "title": "Why More Data Cannot Replace Prior Structure - Alexander Mattick",
@@ -1449,7 +1390,6 @@
         ],
         "source_record": "../sources.json"
       },
-      "decision": "worthwhile",
       "source": {
         "id": "1S1B4XkFCD8",
         "title": "Why More Data Cannot Replace Prior Structure - Alexander Mattick",
@@ -1470,7 +1410,9 @@
         "source_file": "1S1B4XkFCD8.publisher.txt",
         "source_url": "https://www.youtube.com/watch?v=1S1B4XkFCD8",
         "distribution": "Transcript retained in the private research archive; not distributed in this repository."
-      }
+      },
+      "decision": "worthwhile",
+      "review_link": "collections/mlst/reviews/1S1B4XkFCD8.json"
     },
     {
       "id": "L6tLBApQN-g",
@@ -1607,6 +1549,14 @@
           "source_issue": null
         }
       ],
+      "key": "mlst:L6tLBApQN-g",
+      "publisher": {
+        "id": "mlst",
+        "name": "Machine Learning Street Talk",
+        "short_name": "MLST",
+        "url": "https://www.youtube.com/@MachineLearningStreetTalk/videos",
+        "format": "Podcast"
+      },
       "review": {
         "id": "L6tLBApQN-g",
         "title": "How Physical AI Learns Across Language, Video and Action — Ming-Yu Liu",
@@ -1664,7 +1614,6 @@
         ],
         "source_record": "../sources.json"
       },
-      "decision": "selected_passages",
       "source": {
         "id": "L6tLBApQN-g",
         "title": "How Physical AI Learns Across Language, Video and Action — Ming-Yu Liu",
@@ -1681,7 +1630,9 @@
         "source_file": "L6tLBApQN-g.publisher.txt",
         "source_url": "https://www.youtube.com/watch?v=L6tLBApQN-g",
         "distribution": "Transcript retained in the private research archive; not distributed in this repository."
-      }
+      },
+      "decision": "selected_passages",
+      "review_link": "collections/mlst/reviews/L6tLBApQN-g.json"
     },
     {
       "id": "ixu0H8bsCts",
@@ -1827,6 +1778,14 @@
           "source_issue": null
         }
       ],
+      "key": "mlst:ixu0H8bsCts",
+      "publisher": {
+        "id": "mlst",
+        "name": "Machine Learning Street Talk",
+        "short_name": "MLST",
+        "url": "https://www.youtube.com/@MachineLearningStreetTalk/videos",
+        "format": "Podcast"
+      },
       "review": {
         "id": "ixu0H8bsCts",
         "title": "Speech Recognition Is Not a Solved Problem — Pavan Kumar Reddy",
@@ -1907,7 +1866,6 @@
         "external_citations": [],
         "source_record": "../sources.json"
       },
-      "decision": "worthwhile",
       "source": {
         "id": "ixu0H8bsCts",
         "title": "Speech Recognition Is Not a Solved Problem — Pavan Kumar Reddy",
@@ -1927,7 +1885,9 @@
         "source_file": "ixu0H8bsCts.txt",
         "source_url": "https://www.youtube.com/watch?v=ixu0H8bsCts",
         "distribution": "Transcript retained in the private research archive; not distributed in this repository."
-      }
+      },
+      "decision": "worthwhile",
+      "review_link": "collections/mlst/reviews/ixu0H8bsCts.json"
     },
     {
       "id": "P4bYjTJvD28",
@@ -2184,6 +2144,14 @@
           "source_issue": null
         }
       ],
+      "key": "mlst:P4bYjTJvD28",
+      "publisher": {
+        "id": "mlst",
+        "name": "Machine Learning Street Talk",
+        "short_name": "MLST",
+        "url": "https://www.youtube.com/@MachineLearningStreetTalk/videos",
+        "format": "Podcast"
+      },
       "review": {
         "id": "P4bYjTJvD28",
         "title": "What Building an AI Scientist Actually Requires Beyond Intelligence — Edward Hughes",
@@ -2256,7 +2224,6 @@
         ],
         "source_record": "../sources.json"
       },
-      "decision": "worthwhile",
       "source": {
         "id": "P4bYjTJvD28",
         "title": "What Building an AI Scientist Actually Requires Beyond Intelligence — Edward Hughes",
@@ -2273,7 +2240,9 @@
         "source_file": "P4bYjTJvD28.publisher.txt",
         "source_url": "https://www.youtube.com/watch?v=P4bYjTJvD28",
         "distribution": "Transcript retained in the private research archive; not distributed in this repository."
-      }
+      },
+      "decision": "worthwhile",
+      "review_link": "collections/mlst/reviews/P4bYjTJvD28.json"
     },
     {
       "id": "_egu7OFem-k",
@@ -2410,6 +2379,14 @@
           "source_issue": null
         }
       ],
+      "key": "mlst:_egu7OFem-k",
+      "publisher": {
+        "id": "mlst",
+        "name": "Machine Learning Street Talk",
+        "short_name": "MLST",
+        "url": "https://www.youtube.com/@MachineLearningStreetTalk/videos",
+        "format": "Podcast"
+      },
       "review": {
         "id": "_egu7OFem-k",
         "title": "Strange Geometric Shapes Found Inside AIs — Tom McGrath",
@@ -2474,7 +2451,6 @@
         ],
         "source_record": "../sources.json"
       },
-      "decision": "core",
       "source": {
         "id": "_egu7OFem-k",
         "title": "Strange Geometric Shapes Found Inside AIs — Tom McGrath",
@@ -2491,7 +2467,9 @@
         "source_file": "_egu7OFem-k.publisher.txt",
         "source_url": "https://www.youtube.com/watch?v=_egu7OFem-k",
         "distribution": "Transcript retained in the private research archive; not distributed in this repository."
-      }
+      },
+      "decision": "core",
+      "review_link": "collections/mlst/reviews/_egu7OFem-k.json"
     },
     {
       "id": "revreN8LZ_M",
@@ -2656,6 +2634,14 @@
           "source_issue": null
         }
       ],
+      "key": "mlst:revreN8LZ_M",
+      "publisher": {
+        "id": "mlst",
+        "name": "Machine Learning Street Talk",
+        "short_name": "MLST",
+        "url": "https://www.youtube.com/@MachineLearningStreetTalk/videos",
+        "format": "Podcast"
+      },
       "review": {
         "id": "revreN8LZ_M",
         "title": "AI Is Learning at the Wrong Level of Abstraction — Matthieu Wyart",
@@ -2747,7 +2733,6 @@
         ],
         "source_record": "../sources.json"
       },
-      "decision": "core",
       "source": {
         "id": "revreN8LZ_M",
         "title": "AI Is Learning at the Wrong Level of Abstraction — Matthieu Wyart",
@@ -2767,7 +2752,9 @@
         "source_file": "revreN8LZ_M.publisher.txt",
         "source_url": "https://www.youtube.com/watch?v=revreN8LZ_M",
         "distribution": "Transcript retained in the private research archive; not distributed in this repository."
-      }
+      },
+      "decision": "core",
+      "review_link": "collections/mlst/reviews/revreN8LZ_M.json"
     },
     {
       "id": "n1Qk8xbqF-M",
@@ -2922,6 +2909,14 @@
           "source_issue": null
         }
       ],
+      "key": "mlst:n1Qk8xbqF-M",
+      "publisher": {
+        "id": "mlst",
+        "name": "Machine Learning Street Talk",
+        "short_name": "MLST",
+        "url": "https://www.youtube.com/@MachineLearningStreetTalk/videos",
+        "format": "Podcast"
+      },
       "review": {
         "id": "n1Qk8xbqF-M",
         "title": "How Researchers Test AI for Hidden Goals — Apollo Research",
@@ -2993,7 +2988,6 @@
         "citations": [],
         "source_record": "../sources.json"
       },
-      "decision": "worthwhile",
       "source": {
         "id": "n1Qk8xbqF-M",
         "title": "How Researchers Test AI for Hidden Goals — Apollo Research",
@@ -3013,7 +3007,9 @@
         "source_file": "n1Qk8xbqF-M.publisher.txt",
         "source_url": "https://www.youtube.com/watch?v=n1Qk8xbqF-M",
         "distribution": "Transcript retained in the private research archive; not distributed in this repository."
-      }
+      },
+      "decision": "worthwhile",
+      "review_link": "collections/mlst/reviews/n1Qk8xbqF-M.json"
     },
     {
       "id": "Vg6FBKTlfOw",
@@ -3193,6 +3189,14 @@
           "source_issue": null
         }
       ],
+      "key": "mlst:Vg6FBKTlfOw",
+      "publisher": {
+        "id": "mlst",
+        "name": "Machine Learning Street Talk",
+        "short_name": "MLST",
+        "url": "https://www.youtube.com/@MachineLearningStreetTalk/videos",
+        "format": "Podcast"
+      },
       "review": {
         "id": "Vg6FBKTlfOw",
         "title": "ARC-AGI-3 winning team - Millennia of minds, compressed into words.",
@@ -3274,7 +3278,6 @@
         "external_citations": [],
         "source_record": "../sources.json"
       },
-      "decision": "worthwhile",
       "source": {
         "id": "Vg6FBKTlfOw",
         "title": "ARC-AGI-3 winning team - Millennia of minds, compressed into words.",
@@ -3294,7 +3297,9 @@
         "source_file": "Vg6FBKTlfOw.publisher.txt",
         "source_url": "https://www.youtube.com/watch?v=Vg6FBKTlfOw",
         "distribution": "Transcript retained in the private research archive; not distributed in this repository."
-      }
+      },
+      "decision": "worthwhile",
+      "review_link": "collections/mlst/reviews/Vg6FBKTlfOw.json"
     },
     {
       "id": "5pieVHmlbyk",
@@ -3485,6 +3490,14 @@
           "source_issue": null
         }
       ],
+      "key": "mlst:5pieVHmlbyk",
+      "publisher": {
+        "id": "mlst",
+        "name": "Machine Learning Street Talk",
+        "short_name": "MLST",
+        "url": "https://www.youtube.com/@MachineLearningStreetTalk/videos",
+        "format": "Podcast"
+      },
       "review": {
         "id": "5pieVHmlbyk",
         "title": "The Thermodynamic AI Chip · Thomas Ahle",
@@ -3557,7 +3570,6 @@
         ],
         "source_record": "../sources.json"
       },
-      "decision": "worthwhile",
       "source": {
         "id": "5pieVHmlbyk",
         "title": "The Thermodynamic AI Chip · Thomas Ahle",
@@ -3574,7 +3586,9 @@
         "source_file": "5pieVHmlbyk.publisher.txt",
         "source_url": "https://www.youtube.com/watch?v=5pieVHmlbyk",
         "distribution": "Transcript retained in the private research archive; not distributed in this repository."
-      }
+      },
+      "decision": "worthwhile",
+      "review_link": "collections/mlst/reviews/5pieVHmlbyk.json"
     },
     {
       "id": "e3gBwLWAerw",
@@ -3753,6 +3767,14 @@
           "source_issue": null
         }
       ],
+      "key": "mlst:e3gBwLWAerw",
+      "publisher": {
+        "id": "mlst",
+        "name": "Machine Learning Street Talk",
+        "short_name": "MLST",
+        "url": "https://www.youtube.com/@MachineLearningStreetTalk/videos",
+        "format": "Podcast"
+      },
       "review": {
         "id": "e3gBwLWAerw",
         "title": "He won a Nobel here for AlphaFold. Then he left. - John Jumper",
@@ -3819,7 +3841,6 @@
         ],
         "source_record": "../sources.json"
       },
-      "decision": "core",
       "source": {
         "id": "e3gBwLWAerw",
         "title": "He won a Nobel here for AlphaFold. Then he left. - John Jumper",
@@ -3836,7 +3857,9 @@
         "source_file": "e3gBwLWAerw.publisher.txt",
         "source_url": "https://www.youtube.com/watch?v=e3gBwLWAerw",
         "distribution": "Transcript retained in the private research archive; not distributed in this repository."
-      }
+      },
+      "decision": "core",
+      "review_link": "collections/mlst/reviews/e3gBwLWAerw.json"
     },
     {
       "id": "AREWYbVtX64",
@@ -4026,6 +4049,14 @@
           "source_issue": null
         }
       ],
+      "key": "mlst:AREWYbVtX64",
+      "publisher": {
+        "id": "mlst",
+        "name": "Machine Learning Street Talk",
+        "short_name": "MLST",
+        "url": "https://www.youtube.com/@MachineLearningStreetTalk/videos",
+        "format": "Podcast"
+      },
       "review": {
         "id": "AREWYbVtX64",
         "title": "Intelligence is collective, not artificial — Prof. Michael I. Jordan (UC Berkeley / Inria)",
@@ -4091,7 +4122,6 @@
         ],
         "source_record": "../sources.json"
       },
-      "decision": "core",
       "source": {
         "id": "AREWYbVtX64",
         "title": "Intelligence is collective, not artificial — Prof. Michael I. Jordan (UC Berkeley / Inria)",
@@ -4108,7 +4138,9 @@
         "source_file": "AREWYbVtX64.publisher.txt",
         "source_url": "https://www.youtube.com/watch?v=AREWYbVtX64",
         "distribution": "Transcript retained in the private research archive; not distributed in this repository."
-      }
+      },
+      "decision": "core",
+      "review_link": "collections/mlst/reviews/AREWYbVtX64.json"
     },
     {
       "id": "EInEmGaMRLc",
@@ -4267,6 +4299,14 @@
           "source_issue": null
         }
       ],
+      "key": "mlst:EInEmGaMRLc",
+      "publisher": {
+        "id": "mlst",
+        "name": "Machine Learning Street Talk",
+        "short_name": "MLST",
+        "url": "https://www.youtube.com/@MachineLearningStreetTalk/videos",
+        "format": "Podcast"
+      },
       "review": {
         "id": "EInEmGaMRLc",
         "title": "When AI Discovers the Next Transformer — Robert Lange",
@@ -4345,7 +4385,6 @@
         "external_citations": [],
         "source_record": "../sources.json"
       },
-      "decision": "core",
       "source": {
         "id": "EInEmGaMRLc",
         "title": "When AI Discovers the Next Transformer — Robert Lange",
@@ -4365,7 +4404,9 @@
         "source_file": "EInEmGaMRLc.publisher.txt",
         "source_url": "https://www.youtube.com/watch?v=EInEmGaMRLc",
         "distribution": "Transcript retained in the private research archive; not distributed in this repository."
-      }
+      },
+      "decision": "core",
+      "review_link": "collections/mlst/reviews/EInEmGaMRLc.json"
     },
     {
       "id": "M2iX6HQOoLg",
@@ -4507,6 +4548,14 @@
           "source_issue": null
         }
       ],
+      "key": "mlst:M2iX6HQOoLg",
+      "publisher": {
+        "id": "mlst",
+        "name": "Machine Learning Street Talk",
+        "short_name": "MLST",
+        "url": "https://www.youtube.com/@MachineLearningStreetTalk/videos",
+        "format": "Podcast"
+      },
       "review": {
         "id": "M2iX6HQOoLg",
         "title": "What If Intelligence Didn't Evolve? It \"Was There\" From the Start! - Blaise Agüera y Arcas",
@@ -4576,7 +4625,6 @@
         ],
         "source_record": "../sources.json"
       },
-      "decision": "worthwhile",
       "source": {
         "id": "M2iX6HQOoLg",
         "title": "What If Intelligence Didn't Evolve? It \"Was There\" From the Start! - Blaise Agüera y Arcas",
@@ -4593,7 +4641,9 @@
         "source_file": "M2iX6HQOoLg.publisher.txt",
         "source_url": "https://www.youtube.com/watch?v=M2iX6HQOoLg",
         "distribution": "Transcript retained in the private research archive; not distributed in this repository."
-      }
+      },
+      "decision": "worthwhile",
+      "review_link": "collections/mlst/reviews/M2iX6HQOoLg.json"
     },
     {
       "id": "Ucqfb33GJJ4",
@@ -4717,6 +4767,14 @@
           "source_issue": null
         }
       ],
+      "key": "mlst:Ucqfb33GJJ4",
+      "publisher": {
+        "id": "mlst",
+        "name": "Machine Learning Street Talk",
+        "short_name": "MLST",
+        "url": "https://www.youtube.com/@MachineLearningStreetTalk/videos",
+        "format": "Podcast"
+      },
       "review": {
         "id": "Ucqfb33GJJ4",
         "title": "The Brain Is Just Specialized Agents Talking To Each Other — Dr. Jeff Beck",
@@ -4782,7 +4840,6 @@
         ],
         "source_record": "../sources.json"
       },
-      "decision": "selected_passages",
       "source": {
         "id": "Ucqfb33GJJ4",
         "title": "The Brain Is Just Specialized Agents Talking To Each Other — Dr. Jeff Beck",
@@ -4799,7 +4856,9 @@
         "source_file": "Ucqfb33GJJ4.publisher.txt",
         "source_url": "https://www.youtube.com/watch?v=Ucqfb33GJJ4",
         "distribution": "Transcript retained in the private research archive; not distributed in this repository."
-      }
+      },
+      "decision": "selected_passages",
+      "review_link": "collections/mlst/reviews/Ucqfb33GJJ4.json"
     },
     {
       "id": "9suqiofCiwM",
@@ -4909,6 +4968,14 @@
           "source_issue": null
         }
       ],
+      "key": "mlst:9suqiofCiwM",
+      "publisher": {
+        "id": "mlst",
+        "name": "Machine Learning Street Talk",
+        "short_name": "MLST",
+        "url": "https://www.youtube.com/@MachineLearningStreetTalk/videos",
+        "format": "Podcast"
+      },
       "review": {
         "id": "9suqiofCiwM",
         "title": "AutoGrad Changed Everything (Not Transformers) [Dr. Jeff Beck]",
@@ -4983,7 +5050,6 @@
         ],
         "source_record": "../sources.json"
       },
-      "decision": "worthwhile",
       "source": {
         "id": "9suqiofCiwM",
         "title": "AutoGrad Changed Everything (Not Transformers) [Dr. Jeff Beck]",
@@ -5000,7 +5066,9 @@
         "source_file": "9suqiofCiwM.publisher.txt",
         "source_url": "https://www.youtube.com/watch?v=9suqiofCiwM",
         "distribution": "Transcript retained in the private research archive; not distributed in this repository."
-      }
+      },
+      "decision": "worthwhile",
+      "review_link": "collections/mlst/reviews/9suqiofCiwM.json"
     },
     {
       "id": "RvYSsi6rd4g",
@@ -5182,6 +5250,14 @@
           "source_issue": null
         }
       ],
+      "key": "mlst:RvYSsi6rd4g",
+      "publisher": {
+        "id": "mlst",
+        "name": "Machine Learning Street Talk",
+        "short_name": "MLST",
+        "url": "https://www.youtube.com/@MachineLearningStreetTalk/videos",
+        "format": "Podcast"
+      },
       "review": {
         "id": "RvYSsi6rd4g",
         "title": "Your Brain Doesn't Command Your Body. It Predicts It. [Max Bennett]",
@@ -5255,7 +5331,6 @@
         ],
         "source_record": "../sources.json"
       },
-      "decision": "core",
       "source": {
         "id": "RvYSsi6rd4g",
         "title": "Your Brain Doesn't Command Your Body. It Predicts It. [Max Bennett]",
@@ -5272,7 +5347,9 @@
         "source_file": "RvYSsi6rd4g.publisher.txt",
         "source_url": "https://www.youtube.com/watch?v=RvYSsi6rd4g",
         "distribution": "Transcript retained in the private research archive; not distributed in this repository."
-      }
+      },
+      "decision": "core",
+      "review_link": "collections/mlst/reviews/RvYSsi6rd4g.json"
     },
     {
       "id": "AWqvBdqCAAE",
@@ -5410,6 +5487,14 @@
           "source_issue": null
         }
       ],
+      "key": "mlst:AWqvBdqCAAE",
+      "publisher": {
+        "id": "mlst",
+        "name": "Machine Learning Street Talk",
+        "short_name": "MLST",
+        "url": "https://www.youtube.com/@MachineLearningStreetTalk/videos",
+        "format": "Podcast"
+      },
       "review": {
         "id": "AWqvBdqCAAE",
         "title": "The \"Final Boss\" of Deep Learning",
@@ -5482,7 +5567,6 @@
         ],
         "source_record": "../sources.json"
       },
-      "decision": "core",
       "source": {
         "id": "AWqvBdqCAAE",
         "title": "The \"Final Boss\" of Deep Learning",
@@ -5502,7 +5586,9 @@
         "source_file": "AWqvBdqCAAE.publisher.txt",
         "source_url": "https://www.youtube.com/watch?v=AWqvBdqCAAE",
         "distribution": "Transcript retained in the private research archive; not distributed in this repository."
-      }
+      },
+      "decision": "core",
+      "review_link": "collections/mlst/reviews/AWqvBdqCAAE.json"
     },
     {
       "id": "QWidx8cYVRs",
@@ -5726,6 +5812,14 @@
           "source_issue": null
         }
       ],
+      "key": "mlst:QWidx8cYVRs",
+      "publisher": {
+        "id": "mlst",
+        "name": "Machine Learning Street Talk",
+        "short_name": "MLST",
+        "url": "https://www.youtube.com/@MachineLearningStreetTalk/videos",
+        "format": "Podcast"
+      },
       "review": {
         "id": "QWidx8cYVRs",
         "title": "The Mathematical Foundations of Intelligence [Professor Yi Ma]",
@@ -5805,7 +5899,6 @@
         ],
         "source_record": "../sources.json"
       },
-      "decision": "core",
       "source": {
         "id": "QWidx8cYVRs",
         "title": "The Mathematical Foundations of Intelligence [Professor Yi Ma]",
@@ -5826,7 +5919,9 @@
         "source_file": "QWidx8cYVRs.publisher.txt",
         "source_url": "https://www.youtube.com/watch?v=QWidx8cYVRs",
         "distribution": "Transcript retained in the private research archive; not distributed in this repository."
-      }
+      },
+      "decision": "core",
+      "review_link": "collections/mlst/reviews/QWidx8cYVRs.json"
     },
     {
       "id": "4APMGvicmxY",
@@ -6043,6 +6138,14 @@
           "source_issue": null
         }
       ],
+      "key": "mlst:4APMGvicmxY",
+      "publisher": {
+        "id": "mlst",
+        "name": "Machine Learning Street Talk",
+        "short_name": "MLST",
+        "url": "https://www.youtube.com/@MachineLearningStreetTalk/videos",
+        "format": "Podcast"
+      },
       "review": {
         "id": "4APMGvicmxY",
         "title": "Tensor Logic \"Unifies\" AI Paradigms [Pedro Domingos]",
@@ -6112,7 +6215,6 @@
         ],
         "source_record": "../sources.json"
       },
-      "decision": "worthwhile",
       "source": {
         "id": "4APMGvicmxY",
         "title": "Tensor Logic \"Unifies\" AI Paradigms [Pedro Domingos]",
@@ -6129,7 +6231,9 @@
         "source_file": "4APMGvicmxY.publisher.txt",
         "source_url": "https://www.youtube.com/watch?v=4APMGvicmxY",
         "distribution": "Transcript retained in the private research archive; not distributed in this repository."
-      }
+      },
+      "decision": "worthwhile",
+      "review_link": "collections/mlst/reviews/4APMGvicmxY.json"
     },
     {
       "id": "DtePicx_kFY",
@@ -6381,6 +6485,14 @@
           "source_issue": null
         }
       ],
+      "key": "mlst:DtePicx_kFY",
+      "publisher": {
+        "id": "mlst",
+        "name": "Machine Learning Street Talk",
+        "short_name": "MLST",
+        "url": "https://www.youtube.com/@MachineLearningStreetTalk/videos",
+        "format": "Podcast"
+      },
       "review": {
         "id": "DtePicx_kFY",
         "title": "He Co-Invented the Transformer. Now: Continuous Thought Machines [Llion Jones / Luke Darlow]",
@@ -6448,7 +6560,6 @@
         ],
         "source_record": "../sources.json"
       },
-      "decision": "worthwhile",
       "source": {
         "id": "DtePicx_kFY",
         "title": "He Co-Invented the Transformer. Now: Continuous Thought Machines [Llion Jones / Luke Darlow]",
@@ -6465,7 +6576,9 @@
         "source_file": "DtePicx_kFY.publisher.txt",
         "source_url": "https://www.youtube.com/watch?v=DtePicx_kFY",
         "distribution": "Transcript retained in the private research archive; not distributed in this repository."
-      }
+      },
+      "decision": "worthwhile",
+      "review_link": "collections/mlst/reviews/DtePicx_kFY.json"
     },
     {
       "id": "rMSEqJ_4EBk",
@@ -6724,6 +6837,14 @@
           "source_issue": null
         }
       ],
+      "key": "mlst:rMSEqJ_4EBk",
+      "publisher": {
+        "id": "mlst",
+        "name": "Machine Learning Street Talk",
+        "short_name": "MLST",
+        "url": "https://www.youtube.com/@MachineLearningStreetTalk/videos",
+        "format": "Podcast"
+      },
       "review": {
         "id": "rMSEqJ_4EBk",
         "title": "Google Researcher Shows Life \"Emerges From Code\" [Blaise Agüera y Arcas]",
@@ -6807,7 +6928,6 @@
         ],
         "source_record": "../sources.json"
       },
-      "decision": "worthwhile",
       "source": {
         "id": "rMSEqJ_4EBk",
         "title": "Google Researcher Shows Life \"Emerges From Code\" [Blaise Agüera y Arcas]",
@@ -6827,7 +6947,9 @@
         "source_file": "rMSEqJ_4EBk.publisher.txt",
         "source_url": "https://www.youtube.com/watch?v=rMSEqJ_4EBk",
         "distribution": "Transcript retained in the private research archive; not distributed in this repository."
-      }
+      },
+      "decision": "worthwhile",
+      "review_link": "collections/mlst/reviews/rMSEqJ_4EBk.json"
     },
     {
       "id": "FcnLiPyfRZM",
@@ -7073,6 +7195,14 @@
           "source_issue": null
         }
       ],
+      "key": "mlst:FcnLiPyfRZM",
+      "publisher": {
+        "id": "mlst",
+        "name": "Machine Learning Street Talk",
+        "short_name": "MLST",
+        "url": "https://www.youtube.com/@MachineLearningStreetTalk/videos",
+        "format": "Podcast"
+      },
       "review": {
         "id": "FcnLiPyfRZM",
         "title": "29.4% ARC-AGI-2 🤯 (TOP SCORE!) - Jeremy Berman",
@@ -7146,7 +7276,6 @@
         "external_citations": [],
         "source_record": "../sources.json"
       },
-      "decision": "selected_passages",
       "source": {
         "id": "FcnLiPyfRZM",
         "title": "29.4% ARC-AGI-2 🤯 (TOP SCORE!) - Jeremy Berman",
@@ -7166,7 +7295,9 @@
         "source_file": "FcnLiPyfRZM.publisher.txt",
         "source_url": "https://www.youtube.com/watch?v=FcnLiPyfRZM",
         "distribution": "Transcript retained in the private research archive; not distributed in this repository."
-      }
+      },
+      "decision": "selected_passages",
+      "review_link": "collections/mlst/reviews/FcnLiPyfRZM.json"
     },
     {
       "id": "M-jTeBCEGHc",
@@ -7312,6 +7443,14 @@
           "source_issue": null
         }
       ],
+      "key": "mlst:M-jTeBCEGHc",
+      "publisher": {
+        "id": "mlst",
+        "name": "Machine Learning Street Talk",
+        "short_name": "MLST",
+        "url": "https://www.youtube.com/@MachineLearningStreetTalk/videos",
+        "format": "Podcast"
+      },
       "review": {
         "id": "M-jTeBCEGHc",
         "title": "The Real Reason Huge AI Models Actually Work [Prof. Andrew Wilson]",
@@ -7383,7 +7522,6 @@
         ],
         "source_record": "../sources.json"
       },
-      "decision": "core",
       "source": {
         "id": "M-jTeBCEGHc",
         "title": "The Real Reason Huge AI Models Actually Work [Prof. Andrew Wilson]",
@@ -7400,7 +7538,9 @@
         "source_file": "M-jTeBCEGHc.publisher.txt",
         "source_url": "https://www.youtube.com/watch?v=M-jTeBCEGHc",
         "distribution": "Transcript retained in the private research archive; not distributed in this repository."
-      }
+      },
+      "decision": "core",
+      "review_link": "collections/mlst/reviews/M-jTeBCEGHc.json"
     },
     {
       "id": "ekgvWeHidJs",
@@ -7507,6 +7647,14 @@
           "source_issue": null
         }
       ],
+      "key": "mlst:ekgvWeHidJs",
+      "publisher": {
+        "id": "mlst",
+        "name": "Machine Learning Street Talk",
+        "short_name": "MLST",
+        "url": "https://www.youtube.com/@MachineLearningStreetTalk/videos",
+        "format": "Podcast"
+      },
       "review": {
         "id": "ekgvWeHidJs",
         "title": "Type a Sentence, Get a Playable 3D World in 3 Seconds - Shlomi Fuchter & Jack Parker-Holder",
@@ -7585,7 +7733,6 @@
         ],
         "source_record": "../sources.json"
       },
-      "decision": "selected_passages",
       "source": {
         "id": "ekgvWeHidJs",
         "title": "Type a Sentence, Get a Playable 3D World in 3 Seconds - Shlomi Fuchter & Jack Parker-Holder",
@@ -7605,7 +7752,9 @@
         "source_file": "ekgvWeHidJs.publisher.txt",
         "source_url": "https://www.youtube.com/watch?v=ekgvWeHidJs",
         "distribution": "Transcript retained in the private research archive; not distributed in this repository."
-      }
+      },
+      "decision": "selected_passages",
+      "review_link": "collections/mlst/reviews/ekgvWeHidJs.json"
     },
     {
       "id": "HR-_U0Pzl1Y",
@@ -7756,6 +7905,14 @@
           "source_issue": null
         }
       ],
+      "key": "mlst:HR-_U0Pzl1Y",
+      "publisher": {
+        "id": "mlst",
+        "name": "Machine Learning Street Talk",
+        "short_name": "MLST",
+        "url": "https://www.youtube.com/@MachineLearningStreetTalk/videos",
+        "format": "Podcast"
+      },
       "review": {
         "id": "HR-_U0Pzl1Y",
         "title": "Is \"Thermo\" AI the future? [Guillaume Verdon aka \"Beff Jezos\"]",
@@ -7822,7 +7979,6 @@
         ],
         "source_record": "../sources.json"
       },
-      "decision": "selected_passages",
       "source": {
         "id": "HR-_U0Pzl1Y",
         "title": "Is \"Thermo\" AI the future? [Guillaume Verdon aka \"Beff Jezos\"]",
@@ -7839,7 +7995,9 @@
         "source_file": "HR-_U0Pzl1Y.publisher.txt",
         "source_url": "https://www.youtube.com/watch?v=HR-_U0Pzl1Y",
         "distribution": "Transcript retained in the private research archive; not distributed in this repository."
-      }
+      },
+      "decision": "selected_passages",
+      "review_link": "collections/mlst/reviews/HR-_U0Pzl1Y.json"
     },
     {
       "id": "KKUKikuV58o",
@@ -7938,6 +8096,14 @@
           "source_issue": null
         }
       ],
+      "key": "mlst:KKUKikuV58o",
+      "publisher": {
+        "id": "mlst",
+        "name": "Machine Learning Street Talk",
+        "short_name": "MLST",
+        "url": "https://www.youtube.com/@MachineLearningStreetTalk/videos",
+        "format": "Podcast"
+      },
       "review": {
         "id": "KKUKikuV58o",
         "title": "AI Isn't Creative [Prof. Kenneth Stanley]",
@@ -8015,7 +8181,6 @@
         "citations": [],
         "source_record": "../sources.json"
       },
-      "decision": "core",
       "source": {
         "id": "KKUKikuV58o",
         "title": "AI Isn't Creative [Prof. Kenneth Stanley]",
@@ -8035,7 +8200,9 @@
         "source_file": "KKUKikuV58o.publisher.txt",
         "source_url": "https://www.youtube.com/watch?v=KKUKikuV58o",
         "distribution": "Transcript retained in the private research archive; not distributed in this repository."
-      }
+      },
+      "decision": "core",
+      "review_link": "collections/mlst/reviews/KKUKikuV58o.json"
     },
     {
       "id": "vC9nAosXrJw",
@@ -8124,6 +8291,14 @@
           "source_issue": null
         }
       ],
+      "key": "mlst:vC9nAosXrJw",
+      "publisher": {
+        "id": "mlst",
+        "name": "Machine Learning Street Talk",
+        "short_name": "MLST",
+        "url": "https://www.youtube.com/@MachineLearningStreetTalk/videos",
+        "format": "Podcast"
+      },
       "review": {
         "id": "vC9nAosXrJw",
         "title": "Wild breakthrough on Math after 56 years... [Exclusive]",
@@ -8214,7 +8389,6 @@
         ],
         "source_record": "../sources.json"
       },
-      "decision": "core",
       "source": {
         "id": "vC9nAosXrJw",
         "title": "Wild breakthrough on Math after 56 years... [Exclusive]",
@@ -8234,7 +8408,9 @@
         "source_file": "vC9nAosXrJw.publisher.txt",
         "source_url": "https://www.youtube.com/watch?v=vC9nAosXrJw",
         "distribution": "Transcript retained in the private research archive; not distributed in this repository."
-      }
+      },
+      "decision": "core",
+      "review_link": "collections/mlst/reviews/vC9nAosXrJw.json"
     },
     {
       "id": "SP-kORMUZns",
@@ -8370,6 +8546,14 @@
           "source_issue": null
         }
       ],
+      "key": "mlst:SP-kORMUZns",
+      "publisher": {
+        "id": "mlst",
+        "name": "Machine Learning Street Talk",
+        "short_name": "MLST",
+        "url": "https://www.youtube.com/@MachineLearningStreetTalk/videos",
+        "format": "Podcast"
+      },
       "review": {
         "id": "SP-kORMUZns",
         "title": "Build Specialist LLMs Like It’s 2019 (Randall Balestriero)",
@@ -8436,7 +8620,6 @@
         "citations": [],
         "source_record": "../sources.json"
       },
-      "decision": "worthwhile",
       "source": {
         "id": "SP-kORMUZns",
         "title": "Build Specialist LLMs Like It’s 2019 (Randall Balestriero)",
@@ -8456,7 +8639,9 @@
         "source_file": "SP-kORMUZns.publisher.txt",
         "source_url": "https://www.youtube.com/watch?v=SP-kORMUZns",
         "distribution": "Transcript retained in the private research archive; not distributed in this repository."
-      }
+      },
+      "decision": "worthwhile",
+      "review_link": "collections/mlst/reviews/SP-kORMUZns.json"
     },
     {
       "id": "zv6qzWecj5c",
@@ -8627,6 +8812,14 @@
           "source_issue": null
         }
       ],
+      "key": "mlst:zv6qzWecj5c",
+      "publisher": {
+        "id": "mlst",
+        "name": "Machine Learning Street Talk",
+        "short_name": "MLST",
+        "url": "https://www.youtube.com/@MachineLearningStreetTalk/videos",
+        "format": "Podcast"
+      },
       "review": {
         "id": "zv6qzWecj5c",
         "title": "\"We need AIs with PHYSICAL experience\" (Jeff Beck)",
@@ -8701,7 +8894,6 @@
         "citations": [],
         "source_record": "../sources.json"
       },
-      "decision": "worthwhile",
       "source": {
         "id": "zv6qzWecj5c",
         "title": "\"We need AIs with PHYSICAL experience\" (Jeff Beck)",
@@ -8721,7 +8913,9 @@
         "source_file": "zv6qzWecj5c.publisher.txt",
         "source_url": "https://www.youtube.com/watch?v=zv6qzWecj5c",
         "distribution": "Transcript retained in the private research archive; not distributed in this repository."
-      }
+      },
+      "decision": "worthwhile",
+      "review_link": "collections/mlst/reviews/zv6qzWecj5c.json"
     },
     {
       "id": "oYTm0p3DCzg",
@@ -8896,6 +9090,14 @@
           "source_issue": null
         }
       ],
+      "key": "mlst:oYTm0p3DCzg",
+      "publisher": {
+        "id": "mlst",
+        "name": "Machine Learning Street Talk",
+        "short_name": "MLST",
+        "url": "https://www.youtube.com/@MachineLearningStreetTalk/videos",
+        "format": "Podcast"
+      },
       "review": {
         "id": "oYTm0p3DCzg",
         "title": "Why Program Synthesis Is Next (Kevin Ellis and Zenna Tavares)",
@@ -8975,7 +9177,6 @@
         "citations": [],
         "source_record": "../sources.json"
       },
-      "decision": "core",
       "source": {
         "id": "oYTm0p3DCzg",
         "title": "Why Program Synthesis Is Next (Kevin Ellis and Zenna Tavares)",
@@ -8995,7 +9196,9 @@
         "source_file": "oYTm0p3DCzg.publisher.txt",
         "source_url": "https://www.youtube.com/watch?v=oYTm0p3DCzg",
         "distribution": "Transcript retained in the private research archive; not distributed in this repository."
-      }
+      },
+      "decision": "core",
+      "review_link": "collections/mlst/reviews/oYTm0p3DCzg.json"
     },
     {
       "id": "TQDCsyuuwsg",
@@ -9134,6 +9337,14 @@
           "source_issue": null
         }
       ],
+      "key": "mlst:TQDCsyuuwsg",
+      "publisher": {
+        "id": "mlst",
+        "name": "Machine Learning Street Talk",
+        "short_name": "MLST",
+        "url": "https://www.youtube.com/@MachineLearningStreetTalk/videos",
+        "format": "Podcast"
+      },
       "review": {
         "id": "TQDCsyuuwsg",
         "title": "Exploring Program Synthesis: Francois Chollet, Kevin Ellis, Zenna Tavares",
@@ -9198,7 +9409,6 @@
         "external_citations": [],
         "source_record": "../sources.json"
       },
-      "decision": "worthwhile",
       "source": {
         "id": "TQDCsyuuwsg",
         "title": "Exploring Program Synthesis: Francois Chollet, Kevin Ellis, Zenna Tavares",
@@ -9218,7 +9428,9 @@
         "source_file": "TQDCsyuuwsg.publisher.txt",
         "source_url": "https://www.youtube.com/watch?v=TQDCsyuuwsg",
         "distribution": "Transcript retained in the private research archive; not distributed in this repository."
-      }
+      },
+      "decision": "worthwhile",
+      "review_link": "collections/mlst/reviews/TQDCsyuuwsg.json"
     },
     {
       "id": "3p0O28W1ZHg",
@@ -9421,6 +9633,14 @@
           "source_issue": null
         }
       ],
+      "key": "mlst:3p0O28W1ZHg",
+      "publisher": {
+        "id": "mlst",
+        "name": "Machine Learning Street Talk",
+        "short_name": "MLST",
+        "url": "https://www.youtube.com/@MachineLearningStreetTalk/videos",
+        "format": "Podcast"
+      },
       "review": {
         "id": "3p0O28W1ZHg",
         "title": "Test-Time Adaptation: the key to reasoning with DL",
@@ -9489,7 +9709,6 @@
         "citations": [],
         "source_record": "../sources.json"
       },
-      "decision": "worthwhile",
       "source": {
         "id": "3p0O28W1ZHg",
         "title": "Test-Time Adaptation: the key to reasoning with DL",
@@ -9509,7 +9728,9 @@
         "source_file": "3p0O28W1ZHg.publisher.txt",
         "source_url": "https://www.youtube.com/watch?v=3p0O28W1ZHg",
         "distribution": "Transcript retained in the private research archive; not distributed in this repository."
-      }
+      },
+      "decision": "worthwhile",
+      "review_link": "collections/mlst/reviews/3p0O28W1ZHg.json"
     },
     {
       "id": "yQPduek-Q5s",
@@ -9694,6 +9915,14 @@
           "source_issue": null
         }
       ],
+      "key": "mlst:yQPduek-Q5s",
+      "publisher": {
+        "id": "mlst",
+        "name": "Machine Learning Street Talk",
+        "short_name": "MLST",
+        "url": "https://www.youtube.com/@MachineLearningStreetTalk/videos",
+        "format": "Podcast"
+      },
       "review": {
         "id": "yQPduek-Q5s",
         "title": "Moving Beyond Surface Statistics (Apple researcher) [Iman Mirzadeh]",
@@ -9774,7 +10003,6 @@
         ],
         "source_record": "../sources.json"
       },
-      "decision": "worthwhile",
       "source": {
         "id": "yQPduek-Q5s",
         "title": "Moving Beyond Surface Statistics (Apple researcher) [Iman Mirzadeh]",
@@ -9794,7 +10022,9 @@
         "source_file": "yQPduek-Q5s.publisher.txt",
         "source_url": "https://www.youtube.com/watch?v=yQPduek-Q5s",
         "distribution": "Transcript retained in the private research archive; not distributed in this repository."
-      }
+      },
+      "decision": "worthwhile",
+      "review_link": "collections/mlst/reviews/yQPduek-Q5s.json"
     },
     {
       "id": "DL7qwmWWk88",
@@ -10008,6 +10238,14 @@
           "source_issue": null
         }
       ],
+      "key": "mlst:DL7qwmWWk88",
+      "publisher": {
+        "id": "mlst",
+        "name": "Machine Learning Street Talk",
+        "short_name": "MLST",
+        "url": "https://www.youtube.com/@MachineLearningStreetTalk/videos",
+        "format": "Podcast"
+      },
       "review": {
         "id": "DL7qwmWWk88",
         "title": "The Gap Between Humans and Machines Is ___ [Dr. Max Bartolo]",
@@ -10082,7 +10320,6 @@
         ],
         "source_record": "../sources.json"
       },
-      "decision": "worthwhile",
       "source": {
         "id": "DL7qwmWWk88",
         "title": "The Gap Between Humans and Machines Is ___ [Dr. Max Bartolo]",
@@ -10099,7 +10336,9 @@
         "source_file": "DL7qwmWWk88.publisher.txt",
         "source_url": "https://www.youtube.com/watch?v=DL7qwmWWk88",
         "distribution": "Transcript retained in the private research archive; not distributed in this repository."
-      }
+      },
+      "decision": "worthwhile",
+      "review_link": "collections/mlst/reviews/DL7qwmWWk88.json"
     },
     {
       "id": "mt3Im4j5iaQ",
@@ -10166,6 +10405,14 @@
           "source_issue": null
         }
       ],
+      "key": "mlst:mt3Im4j5iaQ",
+      "publisher": {
+        "id": "mlst",
+        "name": "Machine Learning Street Talk",
+        "short_name": "MLST",
+        "url": "https://www.youtube.com/@MachineLearningStreetTalk/videos",
+        "format": "Podcast"
+      },
       "review": {
         "id": "mt3Im4j5iaQ",
         "title": "Panel discussion on ARC Prize 2024 (Zurich)",
@@ -10236,7 +10483,6 @@
         "external_citations": [],
         "source_record": "../sources.json"
       },
-      "decision": "selected_passages",
       "source": {
         "id": "mt3Im4j5iaQ",
         "title": "Panel discussion on ARC Prize 2024 (Zurich)",
@@ -10256,7 +10502,9 @@
         "source_file": "mt3Im4j5iaQ.publisher.txt",
         "source_url": "https://www.youtube.com/watch?v=mt3Im4j5iaQ",
         "distribution": "Transcript retained in the private research archive; not distributed in this repository."
-      }
+      },
+      "decision": "selected_passages",
+      "review_link": "collections/mlst/reviews/mt3Im4j5iaQ.json"
     },
     {
       "id": "JVLpxm5jT2s",
@@ -10464,6 +10712,14 @@
           "source_issue": null
         }
       ],
+      "key": "mlst:JVLpxm5jT2s",
+      "publisher": {
+        "id": "mlst",
+        "name": "Machine Learning Street Talk",
+        "short_name": "MLST",
+        "url": "https://www.youtube.com/@MachineLearningStreetTalk/videos",
+        "format": "Podcast"
+      },
       "review": {
         "id": "JVLpxm5jT2s",
         "title": "Tau Language: The Software Synthesis Future [Sponsored] - Ohad Asor",
@@ -10528,7 +10784,6 @@
         ],
         "source_record": "../sources.json"
       },
-      "decision": "drop",
       "source": {
         "id": "JVLpxm5jT2s",
         "title": "Tau Language: The Software Synthesis Future [Sponsored] - Ohad Asor",
@@ -10545,7 +10800,9 @@
         "source_file": "JVLpxm5jT2s.publisher.txt",
         "source_url": "https://www.youtube.com/watch?v=JVLpxm5jT2s",
         "distribution": "Transcript retained in the private research archive; not distributed in this repository."
-      }
+      },
+      "decision": "drop",
+      "review_link": "collections/mlst/reviews/JVLpxm5jT2s.json"
     },
     {
       "id": "FAspMnu4Rt0",
@@ -10723,6 +10980,14 @@
           "source_issue": null
         }
       ],
+      "key": "mlst:FAspMnu4Rt0",
+      "publisher": {
+        "id": "mlst",
+        "name": "Machine Learning Street Talk",
+        "short_name": "MLST",
+        "url": "https://www.youtube.com/@MachineLearningStreetTalk/videos",
+        "format": "Podcast"
+      },
       "review": {
         "id": "FAspMnu4Rt0",
         "title": "Transformers Need Glasses! [Federico Barbero]",
@@ -10795,7 +11060,6 @@
         ],
         "source_record": "../sources.json"
       },
-      "decision": "core",
       "source": {
         "id": "FAspMnu4Rt0",
         "title": "Transformers Need Glasses! [Federico Barbero]",
@@ -10815,7 +11079,9 @@
         "source_file": "FAspMnu4Rt0.publisher.txt",
         "source_url": "https://www.youtube.com/watch?v=FAspMnu4Rt0",
         "distribution": "Transcript retained in the private research archive; not distributed in this repository."
-      }
+      },
+      "decision": "core",
+      "review_link": "collections/mlst/reviews/FAspMnu4Rt0.json"
     },
     {
       "id": "1kwbp8hRRfs",
@@ -10940,6 +11206,14 @@
           "source_issue": null
         }
       ],
+      "key": "mlst:1kwbp8hRRfs",
+      "publisher": {
+        "id": "mlst",
+        "name": "Machine Learning Street Talk",
+        "short_name": "MLST",
+        "url": "https://www.youtube.com/@MachineLearningStreetTalk/videos",
+        "format": "Podcast"
+      },
       "review": {
         "id": "1kwbp8hRRfs",
         "title": "Can AI Improve Itself? [Chris Lu, Robert Lange, Cong Lu]",
@@ -11024,7 +11298,6 @@
         ],
         "source_record": "../sources.json"
       },
-      "decision": "core",
       "source": {
         "id": "1kwbp8hRRfs",
         "title": "Can AI Improve Itself? [Chris Lu, Robert Lange, Cong Lu]",
@@ -11044,7 +11317,9 @@
         "source_file": "1kwbp8hRRfs.publisher.txt",
         "source_url": "https://www.youtube.com/watch?v=1kwbp8hRRfs",
         "distribution": "Transcript retained in the private research archive; not distributed in this repository."
-      }
+      },
+      "decision": "core",
+      "review_link": "collections/mlst/reviews/1kwbp8hRRfs.json"
     },
     {
       "id": "PHBItVuudbU",
@@ -11202,6 +11477,14 @@
           "source_issue": null
         }
       ],
+      "key": "mlst:PHBItVuudbU",
+      "publisher": {
+        "id": "mlst",
+        "name": "Machine Learning Street Talk",
+        "short_name": "MLST",
+        "url": "https://www.youtube.com/@MachineLearningStreetTalk/videos",
+        "format": "Podcast"
+      },
       "review": {
         "id": "PHBItVuudbU",
         "title": "Can Latent Program Networks Solve Abstract Reasoning? [Clement Bonnet]",
@@ -11270,7 +11553,6 @@
         "citations": [],
         "source_record": "../sources.json"
       },
-      "decision": "core",
       "source": {
         "id": "PHBItVuudbU",
         "title": "Can Latent Program Networks Solve Abstract Reasoning? [Clement Bonnet]",
@@ -11290,7 +11572,9 @@
         "source_file": "PHBItVuudbU.publisher.txt",
         "source_url": "https://www.youtube.com/watch?v=PHBItVuudbU",
         "distribution": "Transcript retained in the private research archive; not distributed in this repository."
-      }
+      },
+      "decision": "core",
+      "review_link": "collections/mlst/reviews/PHBItVuudbU.json"
     },
     {
       "id": "Jr_nGkCG3og",
@@ -11556,6 +11840,14 @@
           "source_issue": null
         }
       ],
+      "key": "mlst:Jr_nGkCG3og",
+      "publisher": {
+        "id": "mlst",
+        "name": "Machine Learning Street Talk",
+        "short_name": "MLST",
+        "url": "https://www.youtube.com/@MachineLearningStreetTalk/videos",
+        "format": "Podcast"
+      },
       "review": {
         "id": "Jr_nGkCG3og",
         "title": "ImageNet Moment for Reinforcement Learning? [Prof. Jakob Foerster]",
@@ -11622,7 +11914,6 @@
         ],
         "source_record": "../sources.json"
       },
-      "decision": "worthwhile",
       "source": {
         "id": "Jr_nGkCG3og",
         "title": "ImageNet Moment for Reinforcement Learning? [Prof. Jakob Foerster]",
@@ -11639,7 +11930,9 @@
         "source_file": "Jr_nGkCG3og.publisher.txt",
         "source_url": "https://www.youtube.com/watch?v=Jr_nGkCG3og",
         "distribution": "Transcript retained in the private research archive; not distributed in this repository."
-      }
+      },
+      "decision": "worthwhile",
+      "review_link": "collections/mlst/reviews/Jr_nGkCG3og.json"
     },
     {
       "id": "mTX_sAq--zY",
@@ -11819,6 +12112,14 @@
           "source_issue": null
         }
       ],
+      "key": "mlst:mTX_sAq--zY",
+      "publisher": {
+        "id": "mlst",
+        "name": "Machine Learning Street Talk",
+        "short_name": "MLST",
+        "url": "https://www.youtube.com/@MachineLearningStreetTalk/videos",
+        "format": "Podcast"
+      },
       "review": {
         "id": "mTX_sAq--zY",
         "title": "The ARC Prize 2024 Winning Algorithm [Daniel Franzen and Jan Disselhoff]",
@@ -11883,7 +12184,6 @@
         ],
         "source_record": "../sources.json"
       },
-      "decision": "worthwhile",
       "source": {
         "id": "mTX_sAq--zY",
         "title": "The ARC Prize 2024 Winning Algorithm [Daniel Franzen and Jan Disselhoff]",
@@ -11900,7 +12200,9 @@
         "source_file": "mTX_sAq--zY.publisher.txt",
         "source_url": "https://www.youtube.com/watch?v=mTX_sAq--zY",
         "distribution": "Transcript retained in the private research archive; not distributed in this repository."
-      }
+      },
+      "decision": "worthwhile",
+      "review_link": "collections/mlst/reviews/mTX_sAq--zY.json"
     },
     {
       "id": "8u2pW2zZLCs",
@@ -12112,6 +12414,14 @@
           "source_issue": null
         }
       ],
+      "key": "mlst:8u2pW2zZLCs",
+      "publisher": {
+        "id": "mlst",
+        "name": "Machine Learning Street Talk",
+        "short_name": "MLST",
+        "url": "https://www.youtube.com/@MachineLearningStreetTalk/videos",
+        "format": "Podcast"
+      },
       "review": {
         "id": "8u2pW2zZLCs",
         "title": "LSTM: The Comeback Story? [Prof. Sepp Hochreiter]",
@@ -12185,7 +12495,6 @@
         ],
         "source_record": "../sources.json"
       },
-      "decision": "worthwhile",
       "source": {
         "id": "8u2pW2zZLCs",
         "title": "LSTM: The Comeback Story? [Prof. Sepp Hochreiter]",
@@ -12205,7 +12514,9 @@
         "source_file": "8u2pW2zZLCs.publisher.txt",
         "source_url": "https://www.youtube.com/watch?v=8u2pW2zZLCs",
         "distribution": "Transcript retained in the private research archive; not distributed in this repository."
-      }
+      },
+      "decision": "worthwhile",
+      "review_link": "collections/mlst/reviews/8u2pW2zZLCs.json"
     },
     {
       "id": "l3O2J3LMxqI",
@@ -12454,6 +12765,14 @@
           "source_issue": null
         }
       ],
+      "key": "mlst:l3O2J3LMxqI",
+      "publisher": {
+        "id": "mlst",
+        "name": "Machine Learning Street Talk",
+        "short_name": "MLST",
+        "url": "https://www.youtube.com/@MachineLearningStreetTalk/videos",
+        "format": "Podcast"
+      },
       "review": {
         "id": "l3O2J3LMxqI",
         "title": "Neural Networks Are Elastic Origami! [Prof. Randall Balestriero]",
@@ -12535,7 +12854,6 @@
         ],
         "source_record": "../sources.json"
       },
-      "decision": "core",
       "source": {
         "id": "l3O2J3LMxqI",
         "title": "Neural Networks Are Elastic Origami! [Prof. Randall Balestriero]",
@@ -12556,7 +12874,9 @@
         "source_file": "l3O2J3LMxqI.publisher.txt",
         "source_url": "https://www.youtube.com/watch?v=l3O2J3LMxqI",
         "distribution": "Transcript retained in the private research archive; not distributed in this repository."
-      }
+      },
+      "decision": "core",
+      "review_link": "collections/mlst/reviews/l3O2J3LMxqI.json"
     },
     {
       "id": "2xFTNXK6AzQ",
@@ -12757,6 +13077,14 @@
           "source_issue": null
         }
       ],
+      "key": "mlst:2xFTNXK6AzQ",
+      "publisher": {
+        "id": "mlst",
+        "name": "Machine Learning Street Talk",
+        "short_name": "MLST",
+        "url": "https://www.youtube.com/@MachineLearningStreetTalk/videos",
+        "format": "Podcast"
+      },
       "review": {
         "id": "2xFTNXK6AzQ",
         "title": "The Professor Who Proved ChatGPT Can't Think — Subbarao Kambhampati",
@@ -12834,7 +13162,6 @@
         "citations": [],
         "source_record": "../sources.json"
       },
-      "decision": "worthwhile",
       "source": {
         "id": "2xFTNXK6AzQ",
         "title": "The Professor Who Proved ChatGPT Can't Think — Subbarao Kambhampati",
@@ -12854,7 +13181,9 @@
         "source_file": "2xFTNXK6AzQ.publisher.txt",
         "source_url": "https://www.youtube.com/watch?v=2xFTNXK6AzQ",
         "distribution": "Transcript retained in the private research archive; not distributed in this repository."
-      }
+      },
+      "decision": "worthwhile",
+      "review_link": "collections/mlst/reviews/2xFTNXK6AzQ.json"
     },
     {
       "id": "14DXtvRJeNU",
@@ -13082,6 +13411,14 @@
           "source_issue": null
         }
       ],
+      "key": "mlst:14DXtvRJeNU",
+      "publisher": {
+        "id": "mlst",
+        "name": "Machine Learning Street Talk",
+        "short_name": "MLST",
+        "url": "https://www.youtube.com/@MachineLearningStreetTalk/videos",
+        "format": "Podcast"
+      },
       "review": {
         "id": "14DXtvRJeNU",
         "title": "How Do AI Models Actually Think? [Dr. Laura Ruis]",
@@ -13157,7 +13494,6 @@
         ],
         "source_record": "../sources.json"
       },
-      "decision": "worthwhile",
       "source": {
         "id": "14DXtvRJeNU",
         "title": "How Do AI Models Actually Think? [Dr. Laura Ruis]",
@@ -13174,7 +13510,9 @@
         "source_file": "14DXtvRJeNU.publisher.txt",
         "source_url": "https://www.youtube.com/watch?v=14DXtvRJeNU",
         "distribution": "Transcript retained in the private research archive; not distributed in this repository."
-      }
+      },
+      "decision": "worthwhile",
+      "review_link": "collections/mlst/reviews/14DXtvRJeNU.json"
     },
     {
       "id": "G1ARvwQntAU",
@@ -13365,6 +13703,14 @@
           "source_issue": null
         }
       ],
+      "key": "mlst:G1ARvwQntAU",
+      "publisher": {
+        "id": "mlst",
+        "name": "Machine Learning Street Talk",
+        "short_name": "MLST",
+        "url": "https://www.youtube.com/@MachineLearningStreetTalk/videos",
+        "format": "Podcast"
+      },
       "review": {
         "id": "G1ARvwQntAU",
         "title": "MIGHT THE ROBOTS TAKE OVER? [Prof. Yoshua Bengio]",
@@ -13433,7 +13779,6 @@
         "external_citations": [],
         "source_record": "../sources.json"
       },
-      "decision": "worthwhile",
       "source": {
         "id": "G1ARvwQntAU",
         "title": "MIGHT THE ROBOTS TAKE OVER? [Prof. Yoshua Bengio]",
@@ -13453,7 +13798,9 @@
         "source_file": "G1ARvwQntAU.publisher.txt",
         "source_url": "https://www.youtube.com/watch?v=G1ARvwQntAU",
         "distribution": "Transcript retained in the private research archive; not distributed in this repository."
-      }
+      },
+      "decision": "worthwhile",
+      "review_link": "collections/mlst/reviews/G1ARvwQntAU.json"
     },
     {
       "id": "w9WE1aOPjHc",
@@ -13570,6 +13917,14 @@
           "source_issue": null
         }
       ],
+      "key": "mlst:w9WE1aOPjHc",
+      "publisher": {
+        "id": "mlst",
+        "name": "Machine Learning Street Talk",
+        "short_name": "MLST",
+        "url": "https://www.youtube.com/@MachineLearningStreetTalk/videos",
+        "format": "Podcast"
+      },
       "review": {
         "id": "w9WE1aOPjHc",
         "title": "François Chollet on OpenAI o-models and ARC",
@@ -13654,7 +14009,6 @@
         "citations": [],
         "source_record": "../sources.json"
       },
-      "decision": "worthwhile",
       "source": {
         "id": "w9WE1aOPjHc",
         "title": "François Chollet on OpenAI o-models and ARC",
@@ -13674,7 +14028,9 @@
         "source_file": "w9WE1aOPjHc.publisher.txt",
         "source_url": "https://www.youtube.com/watch?v=w9WE1aOPjHc",
         "distribution": "Transcript retained in the private research archive; not distributed in this repository."
-      }
+      },
+      "decision": "worthwhile",
+      "review_link": "collections/mlst/reviews/w9WE1aOPjHc.json"
     },
     {
       "id": "mw5WIDGRLnA",
@@ -13824,6 +14180,14 @@
           "source_issue": null
         }
       ],
+      "key": "mlst:mw5WIDGRLnA",
+      "publisher": {
+        "id": "mlst",
+        "name": "Machine Learning Street Talk",
+        "short_name": "MLST",
+        "url": "https://www.youtube.com/@MachineLearningStreetTalk/videos",
+        "format": "Podcast"
+      },
       "review": {
         "id": "mw5WIDGRLnA",
         "title": "Don't invent faster horses - Prof. Jeff Clune",
@@ -13897,7 +14261,6 @@
         ],
         "source_record": "../sources.json"
       },
-      "decision": "core",
       "source": {
         "id": "mw5WIDGRLnA",
         "title": "Don't invent faster horses - Prof. Jeff Clune",
@@ -13914,7 +14277,9 @@
         "source_file": "mw5WIDGRLnA.publisher.txt",
         "source_url": "https://www.youtube.com/watch?v=mw5WIDGRLnA",
         "distribution": "Transcript retained in the private research archive; not distributed in this repository."
-      }
+      },
+      "decision": "core",
+      "review_link": "collections/mlst/reviews/mw5WIDGRLnA.json"
     },
     {
       "id": "YpFaPKOeNME",
@@ -14033,6 +14398,14 @@
           "source_issue": null
         }
       ],
+      "key": "mlst:YpFaPKOeNME",
+      "publisher": {
+        "id": "mlst",
+        "name": "Machine Learning Street Talk",
+        "short_name": "MLST",
+        "url": "https://www.youtube.com/@MachineLearningStreetTalk/videos",
+        "format": "Podcast"
+      },
       "review": {
         "id": "YpFaPKOeNME",
         "title": "NEURAL NETWORKS ARE WEIRD! - Neel Nanda (DeepMind)",
@@ -14120,7 +14493,6 @@
         "citations": [],
         "source_record": "../sources.json"
       },
-      "decision": "core",
       "source": {
         "id": "YpFaPKOeNME",
         "title": "NEURAL NETWORKS ARE WEIRD! - Neel Nanda (DeepMind)",
@@ -14140,7 +14512,9 @@
         "source_file": "YpFaPKOeNME.publisher.txt",
         "source_url": "https://www.youtube.com/watch?v=YpFaPKOeNME",
         "distribution": "Transcript retained in the private research archive; not distributed in this repository."
-      }
+      },
+      "decision": "core",
+      "review_link": "collections/mlst/reviews/YpFaPKOeNME.json"
     },
     {
       "id": "C6sSs6NgANo",
@@ -14214,6 +14588,14 @@
           "source_issue": null
         }
       ],
+      "key": "mlst:C6sSs6NgANo",
+      "publisher": {
+        "id": "mlst",
+        "name": "Machine Learning Street Talk",
+        "short_name": "MLST",
+        "url": "https://www.youtube.com/@MachineLearningStreetTalk/videos",
+        "format": "Podcast"
+      },
       "review": {
         "id": "C6sSs6NgANo",
         "title": "Test-Time Adaptation: A New Frontier in AI [Dr. Jonas Hübotter]",
@@ -14295,7 +14677,6 @@
         ],
         "source_record": "../sources.json"
       },
-      "decision": "core",
       "source": {
         "id": "C6sSs6NgANo",
         "title": "Test-Time Adaptation: A New Frontier in AI [Dr. Jonas Hübotter]",
@@ -14315,7 +14696,9 @@
         "source_file": "C6sSs6NgANo.publisher.txt",
         "source_url": "https://www.youtube.com/watch?v=C6sSs6NgANo",
         "distribution": "Transcript retained in the private research archive; not distributed in this repository."
-      }
+      },
+      "decision": "core",
+      "review_link": "collections/mlst/reviews/C6sSs6NgANo.json"
     },
     {
       "id": "XFMk0snybAc",
@@ -14547,6 +14930,14 @@
           "source_issue": null
         }
       ],
+      "key": "mlst:XFMk0snybAc",
+      "publisher": {
+        "id": "mlst",
+        "name": "Machine Learning Street Talk",
+        "short_name": "MLST",
+        "url": "https://www.youtube.com/@MachineLearningStreetTalk/videos",
+        "format": "Podcast"
+      },
       "review": {
         "id": "XFMk0snybAc",
         "title": "What is “reasoning” in modern AI?",
@@ -14632,7 +15023,6 @@
         ],
         "source_record": "../sources.json"
       },
-      "decision": "core",
       "source": {
         "id": "XFMk0snybAc",
         "title": "What is “reasoning” in modern AI?",
@@ -14652,7 +15042,9 @@
         "source_file": "XFMk0snybAc.publisher.txt",
         "source_url": "https://www.youtube.com/watch?v=XFMk0snybAc",
         "distribution": "Transcript retained in the private research archive; not distributed in this repository."
-      }
+      },
+      "decision": "core",
+      "review_link": "collections/mlst/reviews/XFMk0snybAc.json"
     },
     {
       "id": "VgPrjHxIS0I",
@@ -14797,6 +15189,14 @@
           "source_issue": null
         }
       ],
+      "key": "mlst:VgPrjHxIS0I",
+      "publisher": {
+        "id": "mlst",
+        "name": "Machine Learning Street Talk",
+        "short_name": "MLST",
+        "url": "https://www.youtube.com/@MachineLearningStreetTalk/videos",
+        "format": "Podcast"
+      },
       "review": {
         "id": "VgPrjHxIS0I",
         "title": "AI Interpretability, Safety, and Meaning - Nora Belrose",
@@ -14885,7 +15285,6 @@
         ],
         "source_record": "../sources.json"
       },
-      "decision": "core",
       "source": {
         "id": "VgPrjHxIS0I",
         "title": "AI Interpretability, Safety, and Meaning - Nora Belrose",
@@ -14907,7 +15306,9 @@
         "source_file": "VgPrjHxIS0I.publisher.txt",
         "source_url": "https://www.youtube.com/watch?v=VgPrjHxIS0I",
         "distribution": "Transcript retained in the private research archive; not distributed in this repository."
-      }
+      },
+      "decision": "core",
+      "review_link": "collections/mlst/reviews/VgPrjHxIS0I.json"
     },
     {
       "id": "vei7uf9wOxI",
@@ -15062,6 +15463,14 @@
           "source_issue": null
         }
       ],
+      "key": "mlst:vei7uf9wOxI",
+      "publisher": {
+        "id": "mlst",
+        "name": "Machine Learning Street Talk",
+        "short_name": "MLST",
+        "url": "https://www.youtube.com/@MachineLearningStreetTalk/videos",
+        "format": "Podcast"
+      },
       "review": {
         "id": "vei7uf9wOxI",
         "title": "Learning at test time in LLMs [Jonas Hübotter]",
@@ -15135,7 +15544,6 @@
         ],
         "source_record": "../sources.json"
       },
-      "decision": "core",
       "source": {
         "id": "vei7uf9wOxI",
         "title": "Learning at test time in LLMs [Jonas Hübotter]",
@@ -15155,7 +15563,9 @@
         "source_file": "vei7uf9wOxI.publisher.txt",
         "source_url": "https://www.youtube.com/watch?v=vei7uf9wOxI",
         "distribution": "Transcript retained in the private research archive; not distributed in this repository."
-      }
+      },
+      "decision": "core",
+      "review_link": "collections/mlst/reviews/vei7uf9wOxI.json"
     },
     {
       "id": "6w5xr8BYV8M",
@@ -15272,6 +15682,14 @@
           "source_issue": null
         }
       ],
+      "key": "mlst:6w5xr8BYV8M",
+      "publisher": {
+        "id": "mlst",
+        "name": "Machine Learning Street Talk",
+        "short_name": "MLST",
+        "url": "https://www.youtube.com/@MachineLearningStreetTalk/videos",
+        "format": "Podcast"
+      },
       "review": {
         "id": "6w5xr8BYV8M",
         "title": "Michael Levin - Why Intelligence Isn't Limited To Brains.",
@@ -15342,7 +15760,6 @@
         ],
         "source_record": "../sources.json"
       },
-      "decision": "core",
       "source": {
         "id": "6w5xr8BYV8M",
         "title": "Michael Levin - Why Intelligence Isn't Limited To Brains.",
@@ -15359,7 +15776,9 @@
         "source_file": "6w5xr8BYV8M.publisher.txt",
         "source_url": "https://www.youtube.com/watch?v=6w5xr8BYV8M",
         "distribution": "Transcript retained in the private research archive; not distributed in this repository."
-      }
+      },
+      "decision": "core",
+      "review_link": "collections/mlst/reviews/6w5xr8BYV8M.json"
     },
     {
       "id": "hf18w6CuY8o",
@@ -15388,6 +15807,14 @@
           "source_issue": null
         }
       ],
+      "key": "mlst:hf18w6CuY8o",
+      "publisher": {
+        "id": "mlst",
+        "name": "Machine Learning Street Talk",
+        "short_name": "MLST",
+        "url": "https://www.youtube.com/@MachineLearningStreetTalk/videos",
+        "format": "Podcast"
+      },
       "review": {
         "id": "hf18w6CuY8o",
         "title": "The Hidden Math Behind All Living Systems",
@@ -15486,7 +15913,6 @@
         ],
         "source_record": "../sources.json"
       },
-      "decision": "worthwhile",
       "source": {
         "id": "hf18w6CuY8o",
         "title": "The Hidden Math Behind All Living Systems",
@@ -15507,7 +15933,9 @@
         "source_file": "hf18w6CuY8o.publisher.txt",
         "source_url": "https://www.youtube.com/watch?v=hf18w6CuY8o",
         "distribution": "Transcript retained in the private research archive; not distributed in this repository."
-      }
+      },
+      "decision": "worthwhile",
+      "review_link": "collections/mlst/reviews/hf18w6CuY8o.json"
     },
     {
       "id": "3ZTNps2PraM",
@@ -15623,6 +16051,14 @@
           "source_issue": null
         }
       ],
+      "key": "mlst:3ZTNps2PraM",
+      "publisher": {
+        "id": "mlst",
+        "name": "Machine Learning Street Talk",
+        "short_name": "MLST",
+        "url": "https://www.youtube.com/@MachineLearningStreetTalk/videos",
+        "format": "Podcast"
+      },
       "review": {
         "id": "3ZTNps2PraM",
         "title": "Decompiling Dreams: A New Approach to ARC?",
@@ -15686,7 +16122,6 @@
         "citations": [],
         "source_record": "../sources.json"
       },
-      "decision": "core",
       "source": {
         "id": "3ZTNps2PraM",
         "title": "Decompiling Dreams: A New Approach to ARC?",
@@ -15706,7 +16141,9 @@
         "source_file": "3ZTNps2PraM.publisher.txt",
         "source_url": "https://www.youtube.com/watch?v=3ZTNps2PraM",
         "distribution": "Transcript retained in the private research archive; not distributed in this repository."
-      }
+      },
+      "decision": "core",
+      "review_link": "collections/mlst/reviews/3ZTNps2PraM.json"
     },
     {
       "id": "7bmhjt1cpRs",
@@ -15949,6 +16386,14 @@
           "source_issue": null
         }
       ],
+      "key": "mlst:7bmhjt1cpRs",
+      "publisher": {
+        "id": "mlst",
+        "name": "Machine Learning Street Talk",
+        "short_name": "MLST",
+        "url": "https://www.youtube.com/@MachineLearningStreetTalk/videos",
+        "format": "Podcast"
+      },
       "review": {
         "id": "7bmhjt1cpRs",
         "title": "The ChatGPT Paradox: Impressive Yet Incomplete",
@@ -16013,7 +16458,6 @@
         ],
         "source_record": "../sources.json"
       },
-      "decision": "worthwhile",
       "source": {
         "id": "7bmhjt1cpRs",
         "title": "The ChatGPT Paradox: Impressive Yet Incomplete",
@@ -16030,7 +16474,9 @@
         "source_file": "7bmhjt1cpRs.publisher.txt",
         "source_url": "https://www.youtube.com/watch?v=7bmhjt1cpRs",
         "distribution": "Transcript retained in the private research archive; not distributed in this repository."
-      }
+      },
+      "decision": "worthwhile",
+      "review_link": "collections/mlst/reviews/7bmhjt1cpRs.json"
     },
     {
       "id": "ZTE-JVd_QkA",
@@ -16217,6 +16663,14 @@
           "source_issue": null
         }
       ],
+      "key": "mlst:ZTE-JVd_QkA",
+      "publisher": {
+        "id": "mlst",
+        "name": "Machine Learning Street Talk",
+        "short_name": "MLST",
+        "url": "https://www.youtube.com/@MachineLearningStreetTalk/videos",
+        "format": "Podcast"
+      },
       "review": {
         "id": "ZTE-JVd_QkA",
         "title": "Biologically-inspired AI and Mortal Computation",
@@ -16299,7 +16753,6 @@
         "citations": [],
         "source_record": "../sources.json"
       },
-      "decision": "worthwhile",
       "source": {
         "id": "ZTE-JVd_QkA",
         "title": "Biologically-inspired AI and Mortal Computation",
@@ -16319,7 +16772,9 @@
         "source_file": "ZTE-JVd_QkA.publisher.txt",
         "source_url": "https://www.youtube.com/watch?v=ZTE-JVd_QkA",
         "distribution": "Transcript retained in the private research archive; not distributed in this repository."
-      }
+      },
+      "decision": "worthwhile",
+      "review_link": "collections/mlst/reviews/ZTE-JVd_QkA.json"
     },
     {
       "id": "s7_NlkBwdj8",
@@ -16484,6 +16939,14 @@
           "source_issue": null
         }
       ],
+      "key": "mlst:s7_NlkBwdj8",
+      "publisher": {
+        "id": "mlst",
+        "name": "Machine Learning Street Talk",
+        "short_name": "MLST",
+        "url": "https://www.youtube.com/@MachineLearningStreetTalk/videos",
+        "format": "Podcast"
+      },
       "review": {
         "id": "s7_NlkBwdj8",
         "title": "It's Not About Scale, It's About Abstraction",
@@ -16545,7 +17008,6 @@
         ],
         "source_record": "../sources.json"
       },
-      "decision": "worthwhile",
       "source": {
         "id": "s7_NlkBwdj8",
         "title": "It's Not About Scale, It's About Abstraction",
@@ -16562,7 +17024,9 @@
         "source_file": "s7_NlkBwdj8.publisher.txt",
         "source_url": "https://www.youtube.com/watch?v=s7_NlkBwdj8",
         "distribution": "Transcript retained in the private research archive; not distributed in this repository."
-      }
+      },
+      "decision": "worthwhile",
+      "review_link": "collections/mlst/reviews/s7_NlkBwdj8.json"
     },
     {
       "id": "6DrCq8Ry2cw",
@@ -16832,6 +17296,14 @@
           "source_issue": null
         }
       ],
+      "key": "mlst:6DrCq8Ry2cw",
+      "publisher": {
+        "id": "mlst",
+        "name": "Machine Learning Street Talk",
+        "short_name": "MLST",
+        "url": "https://www.youtube.com/@MachineLearningStreetTalk/videos",
+        "format": "Podcast"
+      },
       "review": {
         "id": "6DrCq8Ry2cw",
         "title": "The AI Paradigm That Nobody Talks About — Tim Rocktäschel",
@@ -16914,7 +17386,6 @@
         ],
         "source_record": "../sources.json"
       },
-      "decision": "core",
       "source": {
         "id": "6DrCq8Ry2cw",
         "title": "The AI Paradigm That Nobody Talks About — Tim Rocktäschel",
@@ -16934,7 +17405,9 @@
         "source_file": "6DrCq8Ry2cw.publisher.txt",
         "source_url": "https://www.youtube.com/watch?v=6DrCq8Ry2cw",
         "distribution": "Transcript retained in the private research archive; not distributed in this repository."
-      }
+      },
+      "decision": "core",
+      "review_link": "collections/mlst/reviews/6DrCq8Ry2cw.json"
     },
     {
       "id": "WlWAhjPfROU",
@@ -17137,6 +17610,14 @@
           "source_issue": null
         }
       ],
+      "key": "mlst:WlWAhjPfROU",
+      "publisher": {
+        "id": "mlst",
+        "name": "Machine Learning Street Talk",
+        "short_name": "MLST",
+        "url": "https://www.youtube.com/@MachineLearningStreetTalk/videos",
+        "format": "Podcast"
+      },
       "review": {
         "id": "WlWAhjPfROU",
         "title": "This is what happens when you let AIs debate",
@@ -17211,7 +17692,6 @@
         ],
         "source_record": "../sources.json"
       },
-      "decision": "selected_passages",
       "source": {
         "id": "WlWAhjPfROU",
         "title": "This is what happens when you let AIs debate",
@@ -17232,7 +17712,9 @@
         "source_file": "WlWAhjPfROU.publisher.txt",
         "source_url": "https://www.youtube.com/watch?v=WlWAhjPfROU",
         "distribution": "Transcript retained in the private research archive; not distributed in this repository."
-      }
+      },
+      "decision": "selected_passages",
+      "review_link": "collections/mlst/reviews/WlWAhjPfROU.json"
     },
     {
       "id": "meUtWtY00H8",
@@ -17380,6 +17862,14 @@
           "source_issue": null
         }
       ],
+      "key": "mlst:meUtWtY00H8",
+      "publisher": {
+        "id": "mlst",
+        "name": "Machine Learning Street Talk",
+        "short_name": "MLST",
+        "url": "https://www.youtube.com/@MachineLearningStreetTalk/videos",
+        "format": "Podcast"
+      },
       "review": {
         "id": "meUtWtY00H8",
         "title": "Rethinking the Mind - Prof. Mark Solms",
@@ -17456,7 +17946,6 @@
         ],
         "source_record": "../sources.json"
       },
-      "decision": "worthwhile",
       "source": {
         "id": "meUtWtY00H8",
         "title": "Rethinking the Mind - Prof. Mark Solms",
@@ -17473,7 +17962,9 @@
         "source_file": "meUtWtY00H8.publisher.txt",
         "source_url": "https://www.youtube.com/watch?v=meUtWtY00H8",
         "distribution": "Transcript retained in the private research archive; not distributed in this repository."
-      }
+      },
+      "decision": "worthwhile",
+      "review_link": "collections/mlst/reviews/meUtWtY00H8.json"
     },
     {
       "id": "kbt0ZFoI2Hc",
@@ -17601,6 +18092,14 @@
           "source_issue": null
         }
       ],
+      "key": "mlst:kbt0ZFoI2Hc",
+      "publisher": {
+        "id": "mlst",
+        "name": "Machine Learning Street Talk",
+        "short_name": "MLST",
+        "url": "https://www.youtube.com/@MachineLearningStreetTalk/videos",
+        "format": "Podcast"
+      },
       "review": {
         "id": "kbt0ZFoI2Hc",
         "title": "AIs can now imagine video games in real-time — Ashley Edwards on Genie",
@@ -17669,7 +18168,6 @@
         ],
         "source_record": "../sources.json"
       },
-      "decision": "worthwhile",
       "source": {
         "id": "kbt0ZFoI2Hc",
         "title": "AIs can now imagine video games in real-time",
@@ -17691,7 +18189,9 @@
         "source_file": "kbt0ZFoI2Hc.local-asr.txt",
         "source_url": "https://www.youtube.com/watch?v=kbt0ZFoI2Hc",
         "distribution": "Transcript retained in the private research archive; not distributed in this repository."
-      }
+      },
+      "decision": "worthwhile",
+      "review_link": "collections/mlst/reviews/kbt0ZFoI2Hc.json"
     },
     {
       "id": "DP454c1K_vQ",
@@ -17867,6 +18367,14 @@
           "source_issue": null
         }
       ],
+      "key": "mlst:DP454c1K_vQ",
+      "publisher": {
+        "id": "mlst",
+        "name": "Machine Learning Street Talk",
+        "short_name": "MLST",
+        "url": "https://www.youtube.com/@MachineLearningStreetTalk/videos",
+        "format": "Podcast"
+      },
       "review": {
         "id": "DP454c1K_vQ",
         "title": "The Man Who Invented Modern AI (Before Everyone Else) — Jürgen Schmidhuber",
@@ -17967,7 +18475,6 @@
         ],
         "source_record": "../sources.json"
       },
-      "decision": "worthwhile",
       "source": {
         "id": "DP454c1K_vQ",
         "title": "The Man Who Invented Modern AI (Before Everyone Else) — Jürgen Schmidhuber",
@@ -17987,7 +18494,9 @@
         "source_file": "DP454c1K_vQ.local-asr.txt",
         "source_url": "https://www.youtube.com/watch?v=DP454c1K_vQ",
         "distribution": "Transcript retained in the private research archive; not distributed in this repository."
-      }
+      },
+      "decision": "worthwhile",
+      "review_link": "collections/mlst/reviews/DP454c1K_vQ.json"
     },
     {
       "id": "9BC9BsZRCKQ",
@@ -18171,6 +18680,14 @@
           "source_issue": null
         }
       ],
+      "key": "mlst:9BC9BsZRCKQ",
+      "publisher": {
+        "id": "mlst",
+        "name": "Machine Learning Street Talk",
+        "short_name": "MLST",
+        "url": "https://www.youtube.com/@MachineLearningStreetTalk/videos",
+        "format": "Podcast"
+      },
       "review": {
         "id": "9BC9BsZRCKQ",
         "title": "ML Robustness & Engineering - Andrew Ilyas (MIT)",
@@ -18266,7 +18783,6 @@
         ],
         "source_record": "../sources.json"
       },
-      "decision": "core",
       "source": {
         "id": "9BC9BsZRCKQ",
         "title": "ML Robustness & Engineering - Andrew Ilyas (MIT)",
@@ -18286,7 +18802,9 @@
         "source_file": "9BC9BsZRCKQ.publisher.txt",
         "source_url": "https://www.youtube.com/watch?v=9BC9BsZRCKQ",
         "distribution": "Transcript retained in the private research archive; not distributed in this repository."
-      }
+      },
+      "decision": "core",
+      "review_link": "collections/mlst/reviews/9BC9BsZRCKQ.json"
     },
     {
       "id": "W485bz0_TdI",
@@ -18324,6 +18842,14 @@
           "source_issue": null
         }
       ],
+      "key": "mlst:W485bz0_TdI",
+      "publisher": {
+        "id": "mlst",
+        "name": "Machine Learning Street Talk",
+        "short_name": "MLST",
+        "url": "https://www.youtube.com/@MachineLearningStreetTalk/videos",
+        "format": "Podcast"
+      },
       "review": {
         "id": "W485bz0_TdI",
         "title": "Is ChatGPT an N-gram model on steroids?",
@@ -18393,7 +18919,6 @@
         ],
         "source_record": "../sources.json"
       },
-      "decision": "worthwhile",
       "source": {
         "id": "W485bz0_TdI",
         "title": "Is ChatGPT an N-gram model on steroids?",
@@ -18415,7 +18940,9 @@
         "source_file": "W485bz0_TdI.local-asr.txt",
         "source_url": "https://www.youtube.com/watch?v=W485bz0_TdI",
         "distribution": "Transcript retained in the private research archive; not distributed in this repository."
-      }
+      },
+      "decision": "worthwhile",
+      "review_link": "collections/mlst/reviews/W485bz0_TdI.json"
     },
     {
       "id": "y1WnHpedi2A",
@@ -18707,6 +19234,14 @@
           "source_issue": null
         }
       ],
+      "key": "mlst:y1WnHpedi2A",
+      "publisher": {
+        "id": "mlst",
+        "name": "Machine Learning Street Talk",
+        "short_name": "MLST",
+        "url": "https://www.youtube.com/@MachineLearningStreetTalk/videos",
+        "format": "Podcast"
+      },
       "review": {
         "id": "y1WnHpedi2A",
         "title": "Do you think that ChatGPT can reason? [Prof. Subbarao Kambhampati]",
@@ -18796,7 +19331,6 @@
         ],
         "source_record": "../sources.json"
       },
-      "decision": "worthwhile",
       "source": {
         "id": "y1WnHpedi2A",
         "title": "Do you think that ChatGPT can reason? [Prof. Subbarao Kambhampati]",
@@ -18818,7 +19352,9 @@
         "source_file": "y1WnHpedi2A.local-asr.txt",
         "source_url": "https://www.youtube.com/watch?v=y1WnHpedi2A",
         "distribution": "Transcript retained in the private research archive; not distributed in this repository."
-      }
+      },
+      "decision": "worthwhile",
+      "review_link": "collections/mlst/reviews/y1WnHpedi2A.json"
     },
     {
       "id": "z9j3wB1RRGA",
@@ -19035,6 +19571,14 @@
           "source_issue": null
         }
       ],
+      "key": "mlst:z9j3wB1RRGA",
+      "publisher": {
+        "id": "mlst",
+        "name": "Machine Learning Street Talk",
+        "short_name": "MLST",
+        "url": "https://www.youtube.com/@MachineLearningStreetTalk/videos",
+        "format": "Podcast"
+      },
       "review": {
         "id": "z9j3wB1RRGA",
         "title": "Solving Chollet's ARC-AGI with GPT4o",
@@ -19121,7 +19665,6 @@
         ],
         "source_record": "../sources.json"
       },
-      "decision": "worthwhile",
       "source": {
         "id": "z9j3wB1RRGA",
         "title": "Solving Chollet's ARC-AGI with GPT4o",
@@ -19141,7 +19684,9 @@
         "source_file": "z9j3wB1RRGA.local-asr.txt",
         "source_url": "https://www.youtube.com/watch?v=z9j3wB1RRGA",
         "distribution": "Transcript retained in the private research archive; not distributed in this repository."
-      }
+      },
+      "decision": "worthwhile",
+      "review_link": "collections/mlst/reviews/z9j3wB1RRGA.json"
     },
     {
       "id": "jSAT_RuJ_Cg",
@@ -19258,6 +19803,14 @@
           "source_issue": null
         }
       ],
+      "key": "mlst:jSAT_RuJ_Cg",
+      "publisher": {
+        "id": "mlst",
+        "name": "Machine Learning Street Talk",
+        "short_name": "MLST",
+        "url": "https://www.youtube.com/@MachineLearningStreetTalk/videos",
+        "format": "Podcast"
+      },
       "review": {
         "id": "jSAT_RuJ_Cg",
         "title": "Chollet's ARC Challenge + Current Winners",
@@ -19340,7 +19893,6 @@
         "citations": [],
         "source_record": "../sources.json"
       },
-      "decision": "worthwhile",
       "source": {
         "id": "jSAT_RuJ_Cg",
         "title": "Chollet's ARC Challenge + Current Winners",
@@ -19362,7 +19914,9 @@
         "source_file": "jSAT_RuJ_Cg.local-asr.txt",
         "source_url": "https://www.youtube.com/watch?v=jSAT_RuJ_Cg",
         "distribution": "Transcript retained in the private research archive; not distributed in this repository."
-      }
+      },
+      "decision": "worthwhile",
+      "review_link": "collections/mlst/reviews/jSAT_RuJ_Cg.json"
     },
     {
       "id": "Bpgloy1dDn0",
@@ -19497,6 +20051,14 @@
           "source_issue": null
         }
       ],
+      "key": "mlst:Bpgloy1dDn0",
+      "publisher": {
+        "id": "mlst",
+        "name": "Machine Learning Street Talk",
+        "short_name": "MLST",
+        "url": "https://www.youtube.com/@MachineLearningStreetTalk/videos",
+        "format": "Podcast"
+      },
       "review": {
         "id": "Bpgloy1dDn0",
         "title": "Mapping GPT revealed something strange...",
@@ -19589,7 +20151,6 @@
         ],
         "source_record": "../sources.json"
       },
-      "decision": "worthwhile",
       "source": {
         "id": "Bpgloy1dDn0",
         "title": "Mapping GPT revealed something strange...",
@@ -19612,7 +20173,9 @@
         "source_file": "Bpgloy1dDn0.local-asr.txt",
         "source_url": "https://www.youtube.com/watch?v=Bpgloy1dDn0",
         "distribution": "Transcript retained in the private research archive; not distributed in this repository."
-      }
+      },
+      "decision": "worthwhile",
+      "review_link": "collections/mlst/reviews/Bpgloy1dDn0.json"
     },
     {
       "id": "bk_xCikDUDQ",
@@ -19665,6 +20228,14 @@
           "source_issue": null
         }
       ],
+      "key": "mlst:bk_xCikDUDQ",
+      "publisher": {
+        "id": "mlst",
+        "name": "Machine Learning Street Talk",
+        "short_name": "MLST",
+        "url": "https://www.youtube.com/@MachineLearningStreetTalk/videos",
+        "format": "Podcast"
+      },
       "review": {
         "id": "bk_xCikDUDQ",
         "title": "Dr. THOMAS PARR - Active Inference",
@@ -19743,7 +20314,6 @@
         "citations": [],
         "source_record": "../sources.json"
       },
-      "decision": "core",
       "source": {
         "id": "bk_xCikDUDQ",
         "title": "Dr. THOMAS PARR - Active Inference",
@@ -19765,7 +20335,9 @@
         "source_file": "bk_xCikDUDQ.publisher.txt",
         "source_url": "https://www.youtube.com/watch?v=bk_xCikDUDQ",
         "distribution": "Transcript retained in the private research archive; not distributed in this repository."
-      }
+      },
+      "decision": "core",
+      "review_link": "collections/mlst/reviews/bk_xCikDUDQ.json"
     },
     {
       "id": "rie-9AEhYdY",
@@ -19861,6 +20433,14 @@
           "source_issue": null
         }
       ],
+      "key": "mlst:rie-9AEhYdY",
+      "publisher": {
+        "id": "mlst",
+        "name": "Machine Learning Street Talk",
+        "short_name": "MLST",
+        "url": "https://www.youtube.com/@MachineLearningStreetTalk/videos",
+        "format": "Podcast"
+      },
       "review": {
         "id": "rie-9AEhYdY",
         "title": "WE MUST ADD STRUCTURE TO DEEP LEARNING BECAUSE...",
@@ -19920,7 +20500,6 @@
         ],
         "source_record": "../sources.json"
       },
-      "decision": "worthwhile",
       "source": {
         "id": "rie-9AEhYdY",
         "title": "WE MUST ADD STRUCTURE TO DEEP LEARNING BECAUSE...",
@@ -19937,7 +20516,9 @@
         "source_file": "rie-9AEhYdY.publisher.txt",
         "source_url": "https://www.youtube.com/watch?v=rie-9AEhYdY",
         "distribution": "Transcript retained in the private research archive; not distributed in this repository."
-      }
+      },
+      "decision": "worthwhile",
+      "review_link": "collections/mlst/reviews/rie-9AEhYdY.json"
     },
     {
       "id": "s3C0sEwixkQ",
@@ -19993,6 +20574,14 @@
           "source_issue": null
         }
       ],
+      "key": "mlst:s3C0sEwixkQ",
+      "publisher": {
+        "id": "mlst",
+        "name": "Machine Learning Street Talk",
+        "short_name": "MLST",
+        "url": "https://www.youtube.com/@MachineLearningStreetTalk/videos",
+        "format": "Podcast"
+      },
       "review": {
         "id": "s3C0sEwixkQ",
         "title": "Building a GENERAL AI agent with reinforcement learning",
@@ -20076,7 +20665,6 @@
         ],
         "source_record": "../sources.json"
       },
-      "decision": "core",
       "source": {
         "id": "s3C0sEwixkQ",
         "title": "Building a GENERAL AI agent with reinforcement learning",
@@ -20093,7 +20681,9 @@
         "source_file": "s3C0sEwixkQ.local-asr.txt",
         "source_url": "https://www.youtube.com/watch?v=s3C0sEwixkQ",
         "distribution": "Transcript retained in the private research archive; not distributed in this repository."
-      }
+      },
+      "decision": "core",
+      "review_link": "collections/mlst/reviews/s3C0sEwixkQ.json"
     },
     {
       "id": "sJXn4Cl4oww",
@@ -20313,6 +20903,14 @@
           "source_issue": null
         }
       ],
+      "key": "mlst:sJXn4Cl4oww",
+      "publisher": {
+        "id": "mlst",
+        "name": "Machine Learning Street Talk",
+        "short_name": "MLST",
+        "url": "https://www.youtube.com/@MachineLearningStreetTalk/videos",
+        "format": "Podcast"
+      },
       "review": {
         "id": "sJXn4Cl4oww",
         "title": "This is why Deep Learning is really weird.",
@@ -20404,7 +21002,6 @@
         ],
         "source_record": "../sources.json"
       },
-      "decision": "worthwhile",
       "source": {
         "id": "sJXn4Cl4oww",
         "title": "This is why Deep Learning is really weird.",
@@ -20424,7 +21021,9 @@
         "source_file": "sJXn4Cl4oww.local-asr.txt",
         "source_url": "https://www.youtube.com/watch?v=sJXn4Cl4oww",
         "distribution": "Transcript retained in the private research archive; not distributed in this repository."
-      }
+      },
+      "decision": "worthwhile",
+      "review_link": "collections/mlst/reviews/sJXn4Cl4oww.json"
     },
     {
       "id": "2wnJ6E6rQsU",
@@ -20549,6 +21148,14 @@
           "source_issue": null
         }
       ],
+      "key": "mlst:2wnJ6E6rQsU",
+      "publisher": {
+        "id": "mlst",
+        "name": "Machine Learning Street Talk",
+        "short_name": "MLST",
+        "url": "https://www.youtube.com/@MachineLearningStreetTalk/videos",
+        "format": "Podcast"
+      },
       "review": {
         "id": "2wnJ6E6rQsU",
         "title": "This man builds intelligent machines",
@@ -20635,7 +21242,6 @@
         ],
         "source_record": "../sources.json"
       },
-      "decision": "worthwhile",
       "source": {
         "id": "2wnJ6E6rQsU",
         "title": "This man builds intelligent machines",
@@ -20652,7 +21258,9 @@
         "source_file": "2wnJ6E6rQsU.local-asr.txt",
         "source_url": "https://www.youtube.com/watch?v=2wnJ6E6rQsU",
         "distribution": "Transcript retained in the private research archive; not distributed in this repository."
-      }
+      },
+      "decision": "worthwhile",
+      "review_link": "collections/mlst/reviews/2wnJ6E6rQsU.json"
     },
     {
       "id": "qxEfcrmTWO4",
@@ -20716,6 +21324,14 @@
           "source_issue": null
         }
       ],
+      "key": "mlst:qxEfcrmTWO4",
+      "publisher": {
+        "id": "mlst",
+        "name": "Machine Learning Street Talk",
+        "short_name": "MLST",
+        "url": "https://www.youtube.com/@MachineLearningStreetTalk/videos",
+        "format": "Podcast"
+      },
       "review": {
         "id": "qxEfcrmTWO4",
         "title": "How can we add knowledge to AI agents?",
@@ -20789,7 +21405,6 @@
         ],
         "source_record": "../sources.json"
       },
-      "decision": "worthwhile",
       "source": {
         "id": "qxEfcrmTWO4",
         "title": "How can we add knowledge to AI agents?",
@@ -20811,7 +21426,9 @@
         "source_file": "qxEfcrmTWO4.local-asr.txt",
         "source_url": "https://www.youtube.com/watch?v=qxEfcrmTWO4",
         "distribution": "Transcript retained in the private research archive; not distributed in this repository."
-      }
+      },
+      "decision": "worthwhile",
+      "review_link": "collections/mlst/reviews/qxEfcrmTWO4.json"
     },
     {
       "id": "_Ygf0GnlwmY",
@@ -21148,6 +21765,14 @@
           "source_issue": null
         }
       ],
+      "key": "mlst:_Ygf0GnlwmY",
+      "publisher": {
+        "id": "mlst",
+        "name": "Machine Learning Street Talk",
+        "short_name": "MLST",
+        "url": "https://www.youtube.com/@MachineLearningStreetTalk/videos",
+        "format": "Podcast"
+      },
       "review": {
         "id": "_Ygf0GnlwmY",
         "title": "Mechanistic Interpretability - NEEL NANDA (DeepMind)",
@@ -21210,7 +21835,6 @@
         ],
         "source_record": "../sources.json"
       },
-      "decision": "core",
       "source": {
         "id": "_Ygf0GnlwmY",
         "title": "Mechanistic Interpretability - NEEL NANDA (DeepMind)",
@@ -21230,7 +21854,9 @@
         "source_file": "_Ygf0GnlwmY.publisher.txt",
         "source_url": "https://www.youtube.com/watch?v=_Ygf0GnlwmY",
         "distribution": "Transcript retained in the private research archive; not distributed in this repository."
-      }
+      },
+      "decision": "core",
+      "review_link": "collections/mlst/reviews/_Ygf0GnlwmY.json"
     },
     {
       "id": "29gkDpR2orc",
@@ -21541,6 +22167,14 @@
           "source_issue": null
         }
       ],
+      "key": "mlst:29gkDpR2orc",
+      "publisher": {
+        "id": "mlst",
+        "name": "Machine Learning Street Talk",
+        "short_name": "MLST",
+        "url": "https://www.youtube.com/@MachineLearningStreetTalk/videos",
+        "format": "Podcast"
+      },
       "review": {
         "id": "29gkDpR2orc",
         "title": "AI BENCHMARKS ARE BROKEN! [Prof. MELANIE MITCHELL]",
@@ -21604,7 +22238,6 @@
         ],
         "source_record": "../sources.json"
       },
-      "decision": "core",
       "source": {
         "id": "29gkDpR2orc",
         "title": "AI BENCHMARKS ARE BROKEN! [Prof. MELANIE MITCHELL]",
@@ -21621,7 +22254,9 @@
         "source_file": "29gkDpR2orc.local-asr.txt",
         "source_url": "https://www.youtube.com/watch?v=29gkDpR2orc",
         "distribution": "Transcript retained in the private research archive; not distributed in this repository."
-      }
+      },
+      "decision": "core",
+      "review_link": "collections/mlst/reviews/29gkDpR2orc.json"
     },
     {
       "id": "bL00-jtRrMA",
@@ -21685,6 +22320,14 @@
           "source_issue": null
         }
       ],
+      "key": "mlst:bL00-jtRrMA",
+      "publisher": {
+        "id": "mlst",
+        "name": "Machine Learning Street Talk",
+        "short_name": "MLST",
+        "url": "https://www.youtube.com/@MachineLearningStreetTalk/videos",
+        "format": "Podcast"
+      },
       "review": {
         "id": "bL00-jtRrMA",
         "title": "Autopoietic Enactivism and the Free Energy Principle - Prof. Friston, Prof Buckley, Dr. Ramstead",
@@ -21769,7 +22412,6 @@
         ],
         "source_record": "../sources.json"
       },
-      "decision": "worthwhile",
       "source": {
         "id": "bL00-jtRrMA",
         "title": "Autopoietic Enactivism and the Free Energy Principle - Prof. Friston, Prof Buckley, Dr. Ramstead",
@@ -21791,7 +22433,9 @@
         "source_file": "bL00-jtRrMA.local-asr.txt",
         "source_url": "https://www.youtube.com/watch?v=bL00-jtRrMA",
         "distribution": "Transcript retained in the private research archive; not distributed in this repository."
-      }
+      },
+      "decision": "worthwhile",
+      "review_link": "collections/mlst/reviews/bL00-jtRrMA.json"
     },
     {
       "id": "q27XMPm5wg8",
@@ -21862,6 +22506,14 @@
           "source_issue": null
         }
       ],
+      "key": "mlst:q27XMPm5wg8",
+      "publisher": {
+        "id": "mlst",
+        "name": "Machine Learning Street Talk",
+        "short_name": "MLST",
+        "url": "https://www.youtube.com/@MachineLearningStreetTalk/videos",
+        "format": "Podcast"
+      },
       "review": {
         "id": "q27XMPm5wg8",
         "title": "ORIGINAL FATHER OF AI ON DANGERS! (Prof. Jürgen Schmidhuber)",
@@ -21934,7 +22586,6 @@
         "citations": [],
         "source_record": "../sources.json"
       },
-      "decision": "worthwhile",
       "source": {
         "id": "q27XMPm5wg8",
         "title": "ORIGINAL FATHER OF AI ON DANGERS! (Prof. Jürgen Schmidhuber)",
@@ -21954,7 +22605,9 @@
         "source_file": "q27XMPm5wg8.publisher.txt",
         "source_url": "https://www.youtube.com/watch?v=q27XMPm5wg8",
         "distribution": "Transcript retained in the private research archive; not distributed in this repository."
-      }
+      },
+      "decision": "worthwhile",
+      "review_link": "collections/mlst/reviews/q27XMPm5wg8.json"
     },
     {
       "id": "8qb28P7ksyE",
@@ -22137,6 +22790,14 @@
           "source_issue": null
         }
       ],
+      "key": "mlst:8qb28P7ksyE",
+      "publisher": {
+        "id": "mlst",
+        "name": "Machine Learning Street Talk",
+        "short_name": "MLST",
+        "url": "https://www.youtube.com/@MachineLearningStreetTalk/videos",
+        "format": "Podcast"
+      },
       "review": {
         "id": "8qb28P7ksyE",
         "title": "The Physics of AI",
@@ -22224,7 +22885,6 @@
         ],
         "source_record": "../sources.json"
       },
-      "decision": "selected_passages",
       "source": {
         "id": "8qb28P7ksyE",
         "title": "The Physics of AI",
@@ -22246,7 +22906,9 @@
         "source_file": "8qb28P7ksyE.local-asr.txt",
         "source_url": "https://www.youtube.com/watch?v=8qb28P7ksyE",
         "distribution": "Transcript retained in the private research archive; not distributed in this repository."
-      }
+      },
+      "decision": "selected_passages",
+      "review_link": "collections/mlst/reviews/8qb28P7ksyE.json"
     },
     {
       "id": "4KIQH1VEwBI",
@@ -22305,6 +22967,14 @@
           "source_issue": null
         }
       ],
+      "key": "mlst:4KIQH1VEwBI",
+      "publisher": {
+        "id": "mlst",
+        "name": "Machine Learning Street Talk",
+        "short_name": "MLST",
+        "url": "https://www.youtube.com/@MachineLearningStreetTalk/videos",
+        "format": "Podcast"
+      },
       "review": {
         "id": "4KIQH1VEwBI",
         "title": "Can ChatGPT Handle Infinite Possibilities? - Walid Saba",
@@ -22375,7 +23045,6 @@
         ],
         "source_record": "../sources.json"
       },
-      "decision": "drop",
       "source": {
         "id": "4KIQH1VEwBI",
         "title": "Can ChatGPT Handle Infinite Possibilities? - Walid Saba",
@@ -22397,7 +23066,9 @@
         "source_file": "4KIQH1VEwBI.youtube-captions.txt",
         "source_url": "https://www.youtube.com/watch?v=4KIQH1VEwBI",
         "distribution": "Transcript retained in the private research archive; not distributed in this repository."
-      }
+      },
+      "decision": "drop",
+      "review_link": "collections/mlst/reviews/4KIQH1VEwBI.json"
     },
     {
       "id": "fhn6ZtD6XeE",
@@ -22694,6 +23365,14 @@
           "source_issue": null
         }
       ],
+      "key": "mlst:fhn6ZtD6XeE",
+      "publisher": {
+        "id": "mlst",
+        "name": "Machine Learning Street Talk",
+        "short_name": "MLST",
+        "url": "https://www.youtube.com/@MachineLearningStreetTalk/videos",
+        "format": "Podcast"
+      },
       "review": {
         "id": "fhn6ZtD6XeE",
         "title": "#107 - Dr. RAPHAËL MILLIÈRE - Linguistics, Theory of Mind, Grounding",
@@ -22765,7 +23444,6 @@
         ],
         "source_record": "../sources.json"
       },
-      "decision": "core",
       "source": {
         "id": "fhn6ZtD6XeE",
         "title": "#107 - Dr. RAPHAËL MILLIÈRE - Linguistics, Theory of Mind, Grounding",
@@ -22782,7 +23460,9 @@
         "source_file": "fhn6ZtD6XeE.local-asr.txt",
         "source_url": "https://www.youtube.com/watch?v=fhn6ZtD6XeE",
         "distribution": "Transcript retained in the private research archive; not distributed in this repository."
-      }
+      },
+      "decision": "core",
+      "review_link": "collections/mlst/reviews/fhn6ZtD6XeE.json"
     },
     {
       "id": "V_VXOdf1NMw",
@@ -23025,6 +23705,14 @@
           "source_issue": null
         }
       ],
+      "key": "mlst:V_VXOdf1NMw",
+      "publisher": {
+        "id": "mlst",
+        "name": "Machine Learning Street Talk",
+        "short_name": "MLST",
+        "url": "https://www.youtube.com/@MachineLearningStreetTalk/videos",
+        "format": "Podcast"
+      },
       "review": {
         "id": "V_VXOdf1NMw",
         "title": "KARL FRISTON - INTELLIGENCE 3.0",
@@ -23119,7 +23807,6 @@
         ],
         "source_record": "../sources.json"
       },
-      "decision": "worthwhile",
       "source": {
         "id": "V_VXOdf1NMw",
         "title": "KARL FRISTON - INTELLIGENCE 3.0",
@@ -23141,7 +23828,9 @@
         "source_file": "V_VXOdf1NMw.publisher.txt",
         "source_url": "https://www.youtube.com/watch?v=V_VXOdf1NMw",
         "distribution": "Transcript retained in the private research archive; not distributed in this repository."
-      }
+      },
+      "decision": "worthwhile",
+      "review_link": "collections/mlst/reviews/V_VXOdf1NMw.json"
     },
     {
       "id": "snUf_LIfQII",
@@ -23192,6 +23881,14 @@
           "source_issue": null
         }
       ],
+      "key": "mlst:snUf_LIfQII",
+      "publisher": {
+        "id": "mlst",
+        "name": "Machine Learning Street Talk",
+        "short_name": "MLST",
+        "url": "https://www.youtube.com/@MachineLearningStreetTalk/videos",
+        "format": "Podcast"
+      },
       "review": {
         "id": "snUf_LIfQII",
         "title": "#101 DR. WALID SABA - Extrapolation, Compositionality and Learnability",
@@ -23258,7 +23955,6 @@
         ],
         "source_record": "../sources.json"
       },
-      "decision": "drop",
       "source": {
         "id": "snUf_LIfQII",
         "title": "#101 DR. WALID SABA - Extrapolation, Compositionality and Learnability",
@@ -23281,7 +23977,9 @@
         "source_file": "snUf_LIfQII.local-asr.txt",
         "source_url": "https://www.youtube.com/watch?v=snUf_LIfQII",
         "distribution": "Transcript retained in the private research archive; not distributed in this repository."
-      }
+      },
+      "decision": "drop",
+      "review_link": "collections/mlst/reviews/snUf_LIfQII.json"
     },
     {
       "id": "VvXfK-Qle-Y",
@@ -23353,6 +24051,14 @@
           "source_issue": null
         }
       ],
+      "key": "mlst:VvXfK-Qle-Y",
+      "publisher": {
+        "id": "mlst",
+        "name": "Machine Learning Street Talk",
+        "short_name": "MLST",
+        "url": "https://www.youtube.com/@MachineLearningStreetTalk/videos",
+        "format": "Podcast"
+      },
       "review": {
         "id": "VvXfK-Qle-Y",
         "title": "#97 SREEJAN KUMAR - Human Inductive Biases in Machines from Language",
@@ -23419,7 +24125,6 @@
         ],
         "source_record": "../sources.json"
       },
-      "decision": "core",
       "source": {
         "id": "VvXfK-Qle-Y",
         "title": "#97 SREEJAN KUMAR - Human Inductive Biases in Machines from Language",
@@ -23441,7 +24146,9 @@
         "source_file": "VvXfK-Qle-Y.local-asr.txt",
         "source_url": "https://www.youtube.com/watch?v=VvXfK-Qle-Y",
         "distribution": "Transcript retained in the private research archive; not distributed in this repository."
-      }
+      },
+      "decision": "core",
+      "review_link": "collections/mlst/reviews/VvXfK-Qle-Y.json"
     },
     {
       "id": "7oJui4eSCoY",
@@ -23560,6 +24267,14 @@
           "source_issue": null
         }
       ],
+      "key": "mlst:7oJui4eSCoY",
+      "publisher": {
+        "id": "mlst",
+        "name": "Machine Learning Street Talk",
+        "short_name": "MLST",
+        "url": "https://www.youtube.com/@MachineLearningStreetTalk/videos",
+        "format": "Podcast"
+      },
       "review": {
         "id": "7oJui4eSCoY",
         "title": "#92 - SARA HOOKER - Fairness, Interpretability, Language Models",
@@ -23641,7 +24356,6 @@
         ],
         "source_record": "../sources.json"
       },
-      "decision": "worthwhile",
       "source": {
         "id": "7oJui4eSCoY",
         "title": "#92 - SARA HOOKER - Fairness, Interpretability, Language Models",
@@ -23663,7 +24377,9 @@
         "source_file": "7oJui4eSCoY.local-asr.txt",
         "source_url": "https://www.youtube.com/watch?v=7oJui4eSCoY",
         "distribution": "Transcript retained in the private research archive; not distributed in this repository."
-      }
+      },
+      "decision": "worthwhile",
+      "review_link": "collections/mlst/reviews/7oJui4eSCoY.json"
     },
     {
       "id": "80i6D2TJdQ4",
@@ -23771,6 +24487,14 @@
           "source_issue": null
         }
       ],
+      "key": "mlst:80i6D2TJdQ4",
+      "publisher": {
+        "id": "mlst",
+        "name": "Machine Learning Street Talk",
+        "short_name": "MLST",
+        "url": "https://www.youtube.com/@MachineLearningStreetTalk/videos",
+        "format": "Podcast"
+      },
       "review": {
         "id": "80i6D2TJdQ4",
         "title": "#91 - HATTIE ZHOU - Teaching Algorithmic Reasoning via In-context Learning",
@@ -23843,7 +24567,6 @@
         ],
         "source_record": "../sources.json"
       },
-      "decision": "worthwhile",
       "source": {
         "id": "80i6D2TJdQ4",
         "title": "#91 - HATTIE ZHOU - Teaching Algorithmic Reasoning via In-context Learning #NeurIPS",
@@ -23866,7 +24589,9 @@
         "source_file": "80i6D2TJdQ4.local-asr.txt",
         "source_url": "https://www.youtube.com/watch?v=80i6D2TJdQ4",
         "distribution": "Transcript retained in the private research archive; not distributed in this repository."
-      }
+      },
+      "decision": "worthwhile",
+      "review_link": "collections/mlst/reviews/80i6D2TJdQ4.json"
     },
     {
       "id": "24u6CTV4t1k",
@@ -23917,6 +24642,14 @@
           "source_issue": null
         }
       ],
+      "key": "mlst:24u6CTV4t1k",
+      "publisher": {
+        "id": "mlst",
+        "name": "Machine Learning Street Talk",
+        "short_name": "MLST",
+        "url": "https://www.youtube.com/@MachineLearningStreetTalk/videos",
+        "format": "Podcast"
+      },
       "review": {
         "id": "24u6CTV4t1k",
         "title": "#87 - ADELE MYERS - Regression-Based Elastic Metric Learning on Shape Spaces of Cell Curves #NEURIPS",
@@ -23992,7 +24725,6 @@
         ],
         "source_record": "../sources.json"
       },
-      "decision": "worthwhile",
       "source": {
         "id": "24u6CTV4t1k",
         "title": "#87 - ADELE MYERS - Regression-Based Elastic Metric Learning on Shape Spaces of Cell Curves #NEURIPS",
@@ -24015,7 +24747,9 @@
         "source_file": "24u6CTV4t1k.youtube-captions.txt",
         "source_url": "https://www.youtube.com/watch?v=24u6CTV4t1k",
         "distribution": "Transcript retained in the private research archive; not distributed in this repository."
-      }
+      },
+      "decision": "worthwhile",
+      "review_link": "collections/mlst/reviews/24u6CTV4t1k.json"
     },
     {
       "id": "9dLd6n9yT8U",
@@ -24171,6 +24905,14 @@
           "source_issue": null
         }
       ],
+      "key": "mlst:9dLd6n9yT8U",
+      "publisher": {
+        "id": "mlst",
+        "name": "Machine Learning Street Talk",
+        "short_name": "MLST",
+        "url": "https://www.youtube.com/@MachineLearningStreetTalk/videos",
+        "format": "Podcast"
+      },
       "review": {
         "id": "9dLd6n9yT8U",
         "title": "#86 - Prof. YANN LECUN and Dr. RANDALL BALESTRIERO - SSL, Data Augmentation [NEURIPS2022]",
@@ -24261,7 +25003,6 @@
         ],
         "source_record": "../sources.json"
       },
-      "decision": "worthwhile",
       "source": {
         "id": "9dLd6n9yT8U",
         "title": "#86 - Prof. YANN LECUN and Dr. RANDALL BALESTRIERO - SSL, Data Augmentation [NEURIPS2022]",
@@ -24283,7 +25024,9 @@
         "source_file": "9dLd6n9yT8U.local-asr.txt",
         "source_url": "https://www.youtube.com/watch?v=9dLd6n9yT8U",
         "distribution": "Transcript retained in the private research archive; not distributed in this repository."
-      }
+      },
+      "decision": "worthwhile",
+      "review_link": "collections/mlst/reviews/9dLd6n9yT8U.json"
     },
     {
       "id": "1lkdWduuN14",
@@ -24570,6 +25313,14 @@
           "source_issue": null
         }
       ],
+      "key": "mlst:1lkdWduuN14",
+      "publisher": {
+        "id": "mlst",
+        "name": "Machine Learning Street Talk",
+        "short_name": "MLST",
+        "url": "https://www.youtube.com/@MachineLearningStreetTalk/videos",
+        "format": "Podcast"
+      },
       "review": {
         "id": "1lkdWduuN14",
         "title": "#85 Dr. Petar Veličković (Deepmind) - Categories, Graphs, Reasoning [NEURIPS22 UNPLUGGED]",
@@ -24651,7 +25402,6 @@
         ],
         "source_record": "../sources.json"
       },
-      "decision": "core",
       "source": {
         "id": "1lkdWduuN14",
         "title": "#85 Dr. Petar Veličković (Deepmind) - Categories, Graphs, Reasoning [NEURIPS22 UNPLUGGED]",
@@ -24673,7 +25423,9 @@
         "source_file": "1lkdWduuN14.local-asr.txt",
         "source_url": "https://www.youtube.com/watch?v=1lkdWduuN14",
         "distribution": "Transcript retained in the private research archive; not distributed in this repository."
-      }
+      },
+      "decision": "core",
+      "review_link": "collections/mlst/reviews/1lkdWduuN14.json"
     },
     {
       "id": "5Yd28ssDutA",
@@ -24790,6 +25542,14 @@
           "source_issue": null
         }
       ],
+      "key": "mlst:5Yd28ssDutA",
+      "publisher": {
+        "id": "mlst",
+        "name": "Machine Learning Street Talk",
+        "short_name": "MLST",
+        "url": "https://www.youtube.com/@MachineLearningStreetTalk/videos",
+        "format": "Podcast"
+      },
       "review": {
         "id": "5Yd28ssDutA",
         "title": "#84 LAURA RUIS - Large language models are not zero-shot communicators [NEURIPS UNPLUGGED]",
@@ -24860,7 +25620,6 @@
         ],
         "source_record": "../sources.json"
       },
-      "decision": "worthwhile",
       "source": {
         "id": "5Yd28ssDutA",
         "title": "#84 LAURA RUIS - Large language models are not zero-shot communicators [NEURIPS UNPLUGGED]",
@@ -24882,7 +25641,9 @@
         "source_file": "5Yd28ssDutA.local-asr.txt",
         "source_url": "https://www.youtube.com/watch?v=5Yd28ssDutA",
         "distribution": "Transcript retained in the private research archive; not distributed in this repository."
-      }
+      },
+      "decision": "worthwhile",
+      "review_link": "collections/mlst/reviews/5Yd28ssDutA.json"
     },
     {
       "id": "iqkkkA9dtY0",
@@ -25053,6 +25814,14 @@
           "source_issue": null
         }
       ],
+      "key": "mlst:iqkkkA9dtY0",
+      "publisher": {
+        "id": "mlst",
+        "name": "Machine Learning Street Talk",
+        "short_name": "MLST",
+        "url": "https://www.youtube.com/@MachineLearningStreetTalk/videos",
+        "format": "Podcast"
+      },
       "review": {
         "id": "iqkkkA9dtY0",
         "title": "#81  JULIAN TOGELIUS, Prof. KEN STANLEY - AGI, Games, Diversity & Creativity [UNPLUGGED]",
@@ -25127,7 +25896,6 @@
         "citations": [],
         "source_record": "../sources.json"
       },
-      "decision": "worthwhile",
       "source": {
         "id": "iqkkkA9dtY0",
         "title": "#81  JULIAN TOGELIUS, Prof. KEN STANLEY - AGI, Games, Diversity & Creativity [UNPLUGGED]",
@@ -25147,7 +25915,9 @@
         "source_file": "iqkkkA9dtY0.hf.txt",
         "source_url": "https://www.youtube.com/watch?v=iqkkkA9dtY0",
         "distribution": "Transcript retained in the private research archive; not distributed in this repository."
-      }
+      },
+      "decision": "worthwhile",
+      "review_link": "collections/mlst/reviews/iqkkkA9dtY0.json"
     },
     {
       "id": "MDt2e8XtUcA",
@@ -25448,6 +26218,14 @@
           "source_issue": null
         }
       ],
+      "key": "mlst:MDt2e8XtUcA",
+      "publisher": {
+        "id": "mlst",
+        "name": "Machine Learning Street Talk",
+        "short_name": "MLST",
+        "url": "https://www.youtube.com/@MachineLearningStreetTalk/videos",
+        "format": "Podcast"
+      },
       "review": {
         "id": "MDt2e8XtUcA",
         "title": "EMERGENCE.",
@@ -25522,7 +26300,6 @@
         ],
         "source_record": "../sources.json"
       },
-      "decision": "selected_passages",
       "source": {
         "id": "MDt2e8XtUcA",
         "title": "EMERGENCE.",
@@ -25542,7 +26319,9 @@
         "source_file": "MDt2e8XtUcA.hf.txt",
         "source_url": "https://www.youtube.com/watch?v=MDt2e8XtUcA",
         "distribution": "Transcript retained in the private research archive; not distributed in this repository."
-      }
+      },
+      "decision": "selected_passages",
+      "review_link": "collections/mlst/reviews/MDt2e8XtUcA.json"
     },
     {
       "id": "jAGIuobLp60",
@@ -25828,6 +26607,14 @@
           "source_issue": null
         }
       ],
+      "key": "mlst:jAGIuobLp60",
+      "publisher": {
+        "id": "mlst",
+        "name": "Machine Learning Street Talk",
+        "short_name": "MLST",
+        "url": "https://www.youtube.com/@MachineLearningStreetTalk/videos",
+        "format": "Podcast"
+      },
       "review": {
         "id": "jAGIuobLp60",
         "title": "#71 - ZAK JOST (Graph Neural Networks + Geometric DL) [UNPLUGGED]",
@@ -25895,7 +26682,6 @@
         ],
         "source_record": "../sources.json"
       },
-      "decision": "worthwhile",
       "source": {
         "id": "jAGIuobLp60",
         "title": "#71 - ZAK JOST (Graph Neural Networks + Geometric DL) [UNPLUGGED]",
@@ -25912,7 +26698,9 @@
         "source_file": "jAGIuobLp60.hf.txt",
         "source_url": "https://www.youtube.com/watch?v=jAGIuobLp60",
         "distribution": "Transcript retained in the private research archive; not distributed in this repository."
-      }
+      },
+      "decision": "worthwhile",
+      "review_link": "collections/mlst/reviews/jAGIuobLp60.json"
     },
     {
       "id": "ZaOp1KNhpUQ",
@@ -25982,6 +26770,14 @@
           "source_issue": null
         }
       ],
+      "key": "mlst:ZaOp1KNhpUQ",
+      "publisher": {
+        "id": "mlst",
+        "name": "Machine Learning Street Talk",
+        "short_name": "MLST",
+        "url": "https://www.youtube.com/@MachineLearningStreetTalk/videos",
+        "format": "Podcast"
+      },
       "review": {
         "id": "ZaOp1KNhpUQ",
         "title": "#69 DR. THOMAS LUX - Interpolation of Sparse High-Dimensional Data [UNPLUGGED]",
@@ -26057,7 +26853,6 @@
         ],
         "source_record": "../sources.json"
       },
-      "decision": "selected_passages",
       "source": {
         "id": "ZaOp1KNhpUQ",
         "title": "#69 DR. THOMAS LUX - Interpolation of Sparse High-Dimensional Data [UNPLUGGED]",
@@ -26077,7 +26872,9 @@
         "source_file": "ZaOp1KNhpUQ.hf.txt",
         "source_url": "https://www.youtube.com/watch?v=ZaOp1KNhpUQ",
         "distribution": "Transcript retained in the private research archive; not distributed in this repository."
-      }
+      },
+      "decision": "selected_passages",
+      "review_link": "collections/mlst/reviews/ZaOp1KNhpUQ.json"
     },
     {
       "id": "dhM0_EKLg9k",
@@ -26132,6 +26929,14 @@
           "source_issue": null
         }
       ],
+      "key": "mlst:dhM0_EKLg9k",
+      "publisher": {
+        "id": "mlst",
+        "name": "Machine Learning Street Talk",
+        "short_name": "MLST",
+        "url": "https://www.youtube.com/@MachineLearningStreetTalk/videos",
+        "format": "Podcast"
+      },
       "review": {
         "id": "dhM0_EKLg9k",
         "title": "#62 Dr. GUY EMERSON + Walid Saba [Unplugged]",
@@ -26201,7 +27006,6 @@
         "external_citations": [],
         "source_record": "../sources.json"
       },
-      "decision": "core",
       "source": {
         "id": "dhM0_EKLg9k",
         "title": "#62 Dr. GUY EMERSON + Walid Saba [Unplugged]",
@@ -26221,7 +27025,9 @@
         "source_file": "dhM0_EKLg9k.hf.txt",
         "source_url": "https://www.youtube.com/watch?v=dhM0_EKLg9k",
         "distribution": "Transcript retained in the private research archive; not distributed in this repository."
-      }
+      },
+      "decision": "core",
+      "review_link": "collections/mlst/reviews/dhM0_EKLg9k.json"
     },
     {
       "id": "xKQ-F2-o8uM",
@@ -26281,6 +27087,14 @@
           "source_issue": null
         }
       ],
+      "key": "mlst:xKQ-F2-o8uM",
+      "publisher": {
+        "id": "mlst",
+        "name": "Machine Learning Street Talk",
+        "short_name": "MLST",
+        "url": "https://www.youtube.com/@MachineLearningStreetTalk/videos",
+        "format": "Podcast"
+      },
       "review": {
         "id": "xKQ-F2-o8uM",
         "title": "#67 Prof. KARL FRISTON 2.0 [Unplugged]",
@@ -26375,7 +27189,6 @@
         ],
         "source_record": "../sources.json"
       },
-      "decision": "worthwhile",
       "source": {
         "id": "xKQ-F2-o8uM",
         "title": "#67 Prof. KARL FRISTON 2.0 [Unplugged]",
@@ -26395,7 +27208,9 @@
         "source_file": "xKQ-F2-o8uM.hf.txt",
         "source_url": "https://www.youtube.com/watch?v=xKQ-F2-o8uM",
         "distribution": "Transcript retained in the private research archive; not distributed in this repository."
-      }
+      },
+      "decision": "worthwhile",
+      "review_link": "collections/mlst/reviews/xKQ-F2-o8uM.json"
     },
     {
       "id": "M49TMqK5uCE",
@@ -26502,6 +27317,14 @@
           "source_issue": null
         }
       ],
+      "key": "mlst:M49TMqK5uCE",
+      "publisher": {
+        "id": "mlst",
+        "name": "Machine Learning Street Talk",
+        "short_name": "MLST",
+        "url": "https://www.youtube.com/@MachineLearningStreetTalk/videos",
+        "format": "Podcast"
+      },
       "review": {
         "id": "M49TMqK5uCE",
         "title": "#063 - Prof. YOSHUA BENGIO - GFlowNets, Consciousness & Causality",
@@ -26585,7 +27408,6 @@
         ],
         "source_record": "../sources.json"
       },
-      "decision": "core",
       "source": {
         "id": "M49TMqK5uCE",
         "title": "#063 - Prof. YOSHUA BENGIO - GFlowNets, Consciousness & Causality",
@@ -26605,7 +27427,9 @@
         "source_file": "M49TMqK5uCE.hf.txt",
         "source_url": "https://www.youtube.com/watch?v=M49TMqK5uCE",
         "distribution": "Transcript retained in the private research archive; not distributed in this repository."
-      }
+      },
+      "decision": "core",
+      "review_link": "collections/mlst/reviews/M49TMqK5uCE.json"
     },
     {
       "id": "86ib0sfdFtw",
@@ -26778,6 +27602,14 @@
           "source_issue": null
         }
       ],
+      "key": "mlst:86ib0sfdFtw",
+      "publisher": {
+        "id": "mlst",
+        "name": "Machine Learning Street Talk",
+        "short_name": "MLST",
+        "url": "https://www.youtube.com/@MachineLearningStreetTalk/videos",
+        "format": "Podcast"
+      },
       "review": {
         "id": "86ib0sfdFtw",
         "title": "Why LeCun Thinks Deep Learning Isn't Enough — Yann LeCun",
@@ -26869,7 +27701,6 @@
         ],
         "source_record": "../sources.json"
       },
-      "decision": "core",
       "source": {
         "id": "86ib0sfdFtw",
         "title": "Why LeCun Thinks Deep Learning Isn't Enough — Yann LeCun",
@@ -26890,7 +27721,9 @@
         "source_file": "86ib0sfdFtw.hf.txt",
         "source_url": "https://www.youtube.com/watch?v=86ib0sfdFtw",
         "distribution": "Transcript retained in the private research archive; not distributed in this repository."
-      }
+      },
+      "decision": "core",
+      "review_link": "collections/mlst/reviews/86ib0sfdFtw.json"
     },
     {
       "id": "bIZB1hIJ4u8",
@@ -26942,6 +27775,14 @@
           "source_issue": null
         }
       ],
+      "key": "mlst:bIZB1hIJ4u8",
+      "publisher": {
+        "id": "mlst",
+        "name": "Machine Learning Street Talk",
+        "short_name": "MLST",
+        "url": "https://www.youtube.com/@MachineLearningStreetTalk/videos",
+        "format": "Podcast"
+      },
       "review": {
         "id": "bIZB1hIJ4u8",
         "title": "The Geometric Deep Learning Blueprint — Michael Bronstein",
@@ -27021,7 +27862,6 @@
         ],
         "source_record": "../sources.json"
       },
-      "decision": "core",
       "source": {
         "id": "bIZB1hIJ4u8",
         "title": "The Geometric Deep Learning Blueprint — Michael Bronstein",
@@ -27038,7 +27878,9 @@
         "source_file": "bIZB1hIJ4u8.hf.txt",
         "source_url": "https://www.youtube.com/watch?v=bIZB1hIJ4u8",
         "distribution": "Transcript retained in the private research archive; not distributed in this repository."
-      }
+      },
+      "decision": "core",
+      "review_link": "collections/mlst/reviews/bIZB1hIJ4u8.json"
     },
     {
       "id": "6VQILbDqaI4",
@@ -27294,6 +28136,14 @@
           "source_issue": null
         }
       ],
+      "key": "mlst:6VQILbDqaI4",
+      "publisher": {
+        "id": "mlst",
+        "name": "Machine Learning Street Talk",
+        "short_name": "MLST",
+        "url": "https://www.youtube.com/@MachineLearningStreetTalk/videos",
+        "format": "Podcast"
+      },
       "review": {
         "id": "6VQILbDqaI4",
         "title": "#59 JEFF HAWKINS - Thousand Brains Theory",
@@ -27379,7 +28229,6 @@
         ],
         "source_record": "../sources.json"
       },
-      "decision": "core",
       "source": {
         "id": "6VQILbDqaI4",
         "title": "#59 JEFF HAWKINS - Thousand Brains Theory",
@@ -27399,7 +28248,9 @@
         "source_file": "6VQILbDqaI4.hf.txt",
         "source_url": "https://www.youtube.com/watch?v=6VQILbDqaI4",
         "distribution": "Transcript retained in the private research archive; not distributed in this repository."
-      }
+      },
+      "decision": "core",
+      "review_link": "collections/mlst/reviews/6VQILbDqaI4.json"
     },
     {
       "id": "EXJmodhu4_4",
@@ -27576,6 +28427,14 @@
           "source_issue": null
         }
       ],
+      "key": "mlst:EXJmodhu4_4",
+      "publisher": {
+        "id": "mlst",
+        "name": "Machine Learning Street Talk",
+        "short_name": "MLST",
+        "url": "https://www.youtube.com/@MachineLearningStreetTalk/videos",
+        "format": "Podcast"
+      },
       "review": {
         "id": "EXJmodhu4_4",
         "title": "#55 Dr. ISHAN MISRA - Self-Supervised Vision Models",
@@ -27646,7 +28505,6 @@
         ],
         "source_record": "../sources.json"
       },
-      "decision": "core",
       "source": {
         "id": "EXJmodhu4_4",
         "title": "#55 Dr. ISHAN MISRA - Self-Supervised Vision Models",
@@ -27663,7 +28521,9 @@
         "source_file": "EXJmodhu4_4.hf.txt",
         "source_url": "https://www.youtube.com/watch?v=EXJmodhu4_4",
         "distribution": "Transcript retained in the private research archive; not distributed in this repository."
-      }
+      },
+      "decision": "core",
+      "review_link": "collections/mlst/reviews/EXJmodhu4_4.json"
     },
     {
       "id": "X9uSV1YcOy4",
@@ -27794,6 +28654,14 @@
           "source_issue": null
         }
       ],
+      "key": "mlst:X9uSV1YcOy4",
+      "publisher": {
+        "id": "mlst",
+        "name": "Machine Learning Street Talk",
+        "short_name": "MLST",
+        "url": "https://www.youtube.com/@MachineLearningStreetTalk/videos",
+        "format": "Podcast"
+      },
       "review": {
         "id": "X9uSV1YcOy4",
         "title": "#53 Prof. BOB COECKE - Quantum Natural Language Processing",
@@ -27879,7 +28747,6 @@
         ],
         "source_record": "../sources.json"
       },
-      "decision": "worthwhile",
       "source": {
         "id": "X9uSV1YcOy4",
         "title": "#53 Prof. BOB COECKE - Quantum Natural Language Processing",
@@ -27900,7 +28767,9 @@
         "source_file": "X9uSV1YcOy4.hf.txt",
         "source_url": "https://www.youtube.com/watch?v=X9uSV1YcOy4",
         "distribution": "Transcript retained in the private research archive; not distributed in this repository."
-      }
+      },
+      "decision": "worthwhile",
+      "review_link": "collections/mlst/reviews/X9uSV1YcOy4.json"
     },
     {
       "id": "_eHRICHlg1k",
@@ -28031,6 +28900,14 @@
           "source_issue": null
         }
       ],
+      "key": "mlst:_eHRICHlg1k",
+      "publisher": {
+        "id": "mlst",
+        "name": "Machine Learning Street Talk",
+        "short_name": "MLST",
+        "url": "https://www.youtube.com/@MachineLearningStreetTalk/videos",
+        "format": "Podcast"
+      },
       "review": {
         "id": "_eHRICHlg1k",
         "title": "#52 - Dr. HADI SALMAN - Adversarial Examples Beyond Security [MIT]",
@@ -28100,7 +28977,6 @@
         ],
         "source_record": "../sources.json"
       },
-      "decision": "core",
       "source": {
         "id": "_eHRICHlg1k",
         "title": "#52 - Dr. HADI SALMAN - Adversarial Examples Beyond Security [MIT]",
@@ -28117,7 +28993,9 @@
         "source_file": "_eHRICHlg1k.hf.txt",
         "source_url": "https://www.youtube.com/watch?v=_eHRICHlg1k",
         "distribution": "Transcript retained in the private research archive; not distributed in this repository."
-      }
+      },
+      "decision": "core",
+      "review_link": "collections/mlst/reviews/_eHRICHlg1k.json"
     },
     {
       "id": "J0p_thJJnoo",
@@ -28217,6 +29095,14 @@
           "source_issue": null
         }
       ],
+      "key": "mlst:J0p_thJJnoo",
+      "publisher": {
+        "id": "mlst",
+        "name": "Machine Learning Street Talk",
+        "short_name": "MLST",
+        "url": "https://www.youtube.com/@MachineLearningStreetTalk/videos",
+        "format": "Podcast"
+      },
       "review": {
         "id": "J0p_thJJnoo",
         "title": "#51 FRANCOIS CHOLLET - Intelligence and Generalisation",
@@ -28296,7 +29182,6 @@
         "citations": [],
         "source_record": "../sources.json"
       },
-      "decision": "core",
       "source": {
         "id": "J0p_thJJnoo",
         "title": "#51 FRANCOIS CHOLLET - Intelligence and Generalisation",
@@ -28316,7 +29201,9 @@
         "source_file": "J0p_thJJnoo.hf.txt",
         "source_url": "https://www.youtube.com/watch?v=J0p_thJJnoo",
         "distribution": "Transcript retained in the private research archive; not distributed in this repository."
-      }
+      },
+      "decision": "core",
+      "review_link": "collections/mlst/reviews/J0p_thJJnoo.json"
     },
     {
       "id": "ehNGGYFO6ms",
@@ -28488,6 +29375,14 @@
           "source_issue": null
         }
       ],
+      "key": "mlst:ehNGGYFO6ms",
+      "publisher": {
+        "id": "mlst",
+        "name": "Machine Learning Street Talk",
+        "short_name": "MLST",
+        "url": "https://www.youtube.com/@MachineLearningStreetTalk/videos",
+        "format": "Podcast"
+      },
       "review": {
         "id": "ehNGGYFO6ms",
         "title": "#50 Dr. CHRISTIAN SZEGEDY - Formal Reasoning, Program Synthesis",
@@ -28573,7 +29468,6 @@
         "external_citations": [],
         "source_record": "../sources.json"
       },
-      "decision": "core",
       "source": {
         "id": "ehNGGYFO6ms",
         "title": "#50 Dr. CHRISTIAN SZEGEDY - Formal Reasoning, Program Synthesis",
@@ -28593,7 +29487,9 @@
         "source_file": "ehNGGYFO6ms.hf.txt",
         "source_url": "https://www.youtube.com/watch?v=ehNGGYFO6ms",
         "distribution": "Transcript retained in the private research archive; not distributed in this repository."
-      }
+      },
+      "decision": "core",
+      "review_link": "collections/mlst/reviews/ehNGGYFO6ms.json"
     },
     {
       "id": "hfaZwgk_iS0",
@@ -28756,6 +29652,14 @@
           "source_issue": null
         }
       ],
+      "key": "mlst:hfaZwgk_iS0",
+      "publisher": {
+        "id": "mlst",
+        "name": "Machine Learning Street Talk",
+        "short_name": "MLST",
+        "url": "https://www.youtube.com/@MachineLearningStreetTalk/videos",
+        "format": "Podcast"
+      },
       "review": {
         "id": "hfaZwgk_iS0",
         "title": "#49 - Meta-Gradients in RL - Dr. Tom Zahavy (DeepMind)",
@@ -28830,7 +29734,6 @@
         "external_citations": [],
         "source_record": "../sources.json"
       },
-      "decision": "core",
       "source": {
         "id": "hfaZwgk_iS0",
         "title": "#49 - Meta-Gradients in RL - Dr. Tom Zahavy (DeepMind)",
@@ -28850,7 +29753,9 @@
         "source_file": "hfaZwgk_iS0.hf.txt",
         "source_url": "https://www.youtube.com/watch?v=hfaZwgk_iS0",
         "distribution": "Transcript retained in the private research archive; not distributed in this repository."
-      }
+      },
+      "decision": "core",
+      "review_link": "collections/mlst/reviews/hfaZwgk_iS0.json"
     },
     {
       "id": "0LIACHcxpHU",
@@ -28982,6 +29887,14 @@
           "source_issue": null
         }
       ],
+      "key": "mlst:0LIACHcxpHU",
+      "publisher": {
+        "id": "mlst",
+        "name": "Machine Learning Street Talk",
+        "short_name": "MLST",
+        "url": "https://www.youtube.com/@MachineLearningStreetTalk/videos",
+        "format": "Podcast"
+      },
       "review": {
         "id": "0LIACHcxpHU",
         "title": "#047 Interpretable Machine Learning - Christoph Molnar",
@@ -29055,7 +29968,6 @@
         "citations": [],
         "source_record": "../sources.json"
       },
-      "decision": "worthwhile",
       "source": {
         "id": "0LIACHcxpHU",
         "title": "#047 Interpretable Machine Learning - Christoph Molnar",
@@ -29075,7 +29987,9 @@
         "source_file": "0LIACHcxpHU.hf.txt",
         "source_url": "https://www.youtube.com/watch?v=0LIACHcxpHU",
         "distribution": "Transcript retained in the private research archive; not distributed in this repository."
-      }
+      },
+      "decision": "worthwhile",
+      "review_link": "collections/mlst/reviews/0LIACHcxpHU.json"
     },
     {
       "id": "aisgNLypUKs",
@@ -29134,6 +30048,14 @@
           "source_issue": null
         }
       ],
+      "key": "mlst:aisgNLypUKs",
+      "publisher": {
+        "id": "mlst",
+        "name": "Machine Learning Street Talk",
+        "short_name": "MLST",
+        "url": "https://www.youtube.com/@MachineLearningStreetTalk/videos",
+        "format": "Podcast"
+      },
       "review": {
         "id": "aisgNLypUKs",
         "title": "#041 Dr. SIMON STRINGER - Biologically Plausible Neural Networks",
@@ -29210,7 +30132,6 @@
         "citations": [],
         "source_record": "../sources.json"
       },
-      "decision": "worthwhile",
       "source": {
         "id": "aisgNLypUKs",
         "title": "#041 Dr. SIMON STRINGER - Biologically Plausible Neural Networks",
@@ -29230,7 +30151,9 @@
         "source_file": "aisgNLypUKs.hf.txt",
         "source_url": "https://www.youtube.com/watch?v=aisgNLypUKs",
         "distribution": "Transcript retained in the private research archive; not distributed in this repository."
-      }
+      },
+      "decision": "worthwhile",
+      "review_link": "collections/mlst/reviews/aisgNLypUKs.json"
     },
     {
       "id": "2PenK06tvE4",
@@ -29433,6 +30356,14 @@
           "source_issue": null
         }
       ],
+      "key": "mlst:2PenK06tvE4",
+      "publisher": {
+        "id": "mlst",
+        "name": "Machine Learning Street Talk",
+        "short_name": "MLST",
+        "url": "https://www.youtube.com/@MachineLearningStreetTalk/videos",
+        "format": "Podcast"
+      },
       "review": {
         "id": "2PenK06tvE4",
         "title": "#040 - Adversarial Examples (Dr. Nicholas Carlini, Dr. Wieland Brendel, Florian Tramèr)",
@@ -29502,7 +30433,6 @@
         ],
         "source_record": "../sources.json"
       },
-      "decision": "core",
       "source": {
         "id": "2PenK06tvE4",
         "title": "#040 - Adversarial Examples (Dr. Nicholas Carlini, Dr. Wieland Brendel, Florian Tramèr)",
@@ -29519,7 +30449,9 @@
         "source_file": "2PenK06tvE4.hf.txt",
         "source_url": "https://www.youtube.com/watch?v=2PenK06tvE4",
         "distribution": "Transcript retained in the private research archive; not distributed in this repository."
-      }
+      },
+      "decision": "core",
+      "review_link": "collections/mlst/reviews/2PenK06tvE4.json"
     },
     {
       "id": "Q0kN_ZHHDQY",
@@ -29628,6 +30560,14 @@
           "source_issue": null
         }
       ],
+      "key": "mlst:Q0kN_ZHHDQY",
+      "publisher": {
+        "id": "mlst",
+        "name": "Machine Learning Street Talk",
+        "short_name": "MLST",
+        "url": "https://www.youtube.com/@MachineLearningStreetTalk/videos",
+        "format": "Podcast"
+      },
       "review": {
         "id": "Q0kN_ZHHDQY",
         "title": "039 - Lena Voita - NLP",
@@ -29708,7 +30648,6 @@
         ],
         "source_record": "../sources.json"
       },
-      "decision": "core",
       "source": {
         "id": "Q0kN_ZHHDQY",
         "title": "039 - Lena Voita - NLP",
@@ -29728,7 +30667,9 @@
         "source_file": "Q0kN_ZHHDQY.hf.txt",
         "source_url": "https://www.youtube.com/watch?v=Q0kN_ZHHDQY",
         "distribution": "Transcript retained in the private research archive; not distributed in this repository."
-      }
+      },
+      "decision": "core",
+      "review_link": "collections/mlst/reviews/Q0kN_ZHHDQY.json"
     },
     {
       "id": "lhYGXYeMq_E",
@@ -29747,6 +30688,14 @@
           "source_issue": null
         }
       ],
+      "key": "mlst:lhYGXYeMq_E",
+      "publisher": {
+        "id": "mlst",
+        "name": "Machine Learning Street Talk",
+        "short_name": "MLST",
+        "url": "https://www.youtube.com/@MachineLearningStreetTalk/videos",
+        "format": "Podcast"
+      },
       "review": {
         "id": "lhYGXYeMq_E",
         "title": "Why Greatness Cannot Be Planned — Kenneth Stanley",
@@ -29810,7 +30759,6 @@
         ],
         "source_record": "../sources.json"
       },
-      "decision": "core",
       "source": {
         "id": "lhYGXYeMq_E",
         "title": "Why Greatness Cannot Be Planned — Kenneth Stanley",
@@ -29827,7 +30775,9 @@
         "source_file": "lhYGXYeMq_E.hf.txt",
         "source_url": "https://www.youtube.com/watch?v=lhYGXYeMq_E",
         "distribution": "Transcript retained in the private research archive; not distributed in this repository."
-      }
+      },
+      "decision": "core",
+      "review_link": "collections/mlst/reviews/lhYGXYeMq_E.json"
     },
     {
       "id": "RQ31MHw84o0",
@@ -29864,6 +30814,14 @@
           "source_issue": null
         }
       ],
+      "key": "mlst:RQ31MHw84o0",
+      "publisher": {
+        "id": "mlst",
+        "name": "Machine Learning Street Talk",
+        "short_name": "MLST",
+        "url": "https://www.youtube.com/@MachineLearningStreetTalk/videos",
+        "format": "Podcast"
+      },
       "review": {
         "id": "RQ31MHw84o0",
         "title": "#037 - Tour De Bayesian with Connor Tann",
@@ -29933,7 +30891,6 @@
         ],
         "source_record": "../sources.json"
       },
-      "decision": "selected_passages",
       "source": {
         "id": "RQ31MHw84o0",
         "title": "#037 - Tour De Bayesian with Connor Tann",
@@ -29950,7 +30907,9 @@
         "source_file": "RQ31MHw84o0.hf.txt",
         "source_url": "https://www.youtube.com/watch?v=RQ31MHw84o0",
         "distribution": "Transcript retained in the private research archive; not distributed in this repository."
-      }
+      },
+      "decision": "selected_passages",
+      "review_link": "collections/mlst/reviews/RQ31MHw84o0.json"
     },
     {
       "id": "mmDw5glry9w",
@@ -30033,6 +30992,14 @@
           "source_issue": null
         }
       ],
+      "key": "mlst:mmDw5glry9w",
+      "publisher": {
+        "id": "mlst",
+        "name": "Machine Learning Street Talk",
+        "short_name": "MLST",
+        "url": "https://www.youtube.com/@MachineLearningStreetTalk/videos",
+        "format": "Podcast"
+      },
       "review": {
         "id": "mmDw5glry9w",
         "title": "#036 - Max Welling: Quantum, Manifolds & Symmetries in ML",
@@ -30099,7 +31066,6 @@
         ],
         "source_record": "../sources.json"
       },
-      "decision": "core",
       "source": {
         "id": "mmDw5glry9w",
         "title": "#036 - Max Welling: Quantum, Manifolds & Symmetries in ML",
@@ -30116,7 +31082,9 @@
         "source_file": "mmDw5glry9w.hf.txt",
         "source_url": "https://www.youtube.com/watch?v=mmDw5glry9w",
         "distribution": "Transcript retained in the private research archive; not distributed in this repository."
-      }
+      },
+      "decision": "core",
+      "review_link": "collections/mlst/reviews/mmDw5glry9w.json"
     },
     {
       "id": "KkR24ieh5Ow",
@@ -30144,6 +31112,14 @@
           "source_issue": null
         }
       ],
+      "key": "mlst:KkR24ieh5Ow",
+      "publisher": {
+        "id": "mlst",
+        "name": "Machine Learning Street Talk",
+        "short_name": "MLST",
+        "url": "https://www.youtube.com/@MachineLearningStreetTalk/videos",
+        "format": "Podcast"
+      },
       "review": {
         "id": "KkR24ieh5Ow",
         "title": "#033 Karl Friston - The Free Energy Principle",
@@ -30222,7 +31198,6 @@
         "citations": [],
         "source_record": "../sources.json"
       },
-      "decision": "worthwhile",
       "source": {
         "id": "KkR24ieh5Ow",
         "title": "#033 Karl Friston - The Free Energy Principle",
@@ -30242,7 +31217,9 @@
         "source_file": "KkR24ieh5Ow.hf.txt",
         "source_url": "https://www.youtube.com/watch?v=KkR24ieh5Ow",
         "distribution": "Transcript retained in the private research archive; not distributed in this repository."
-      }
+      },
+      "decision": "worthwhile",
+      "review_link": "collections/mlst/reviews/KkR24ieh5Ow.json"
     },
     {
       "id": "1EqJyMy0LnE",
@@ -30306,6 +31283,14 @@
           "source_issue": null
         }
       ],
+      "key": "mlst:1EqJyMy0LnE",
+      "publisher": {
+        "id": "mlst",
+        "name": "Machine Learning Street Talk",
+        "short_name": "MLST",
+        "url": "https://www.youtube.com/@MachineLearningStreetTalk/videos",
+        "format": "Podcast"
+      },
       "review": {
         "id": "1EqJyMy0LnE",
         "title": "#032- Simon Kornblith / GoogleAI - SimCLR and Paper Haul!",
@@ -30376,7 +31361,6 @@
         ],
         "source_record": "../sources.json"
       },
-      "decision": "core",
       "source": {
         "id": "1EqJyMy0LnE",
         "title": "#032- Simon Kornblith / GoogleAI - SimCLR and Paper Haul!",
@@ -30393,7 +31377,9 @@
         "source_file": "1EqJyMy0LnE.hf.txt",
         "source_url": "https://www.youtube.com/watch?v=1EqJyMy0LnE",
         "distribution": "Transcript retained in the private research archive; not distributed in this repository."
-      }
+      },
+      "decision": "core",
+      "review_link": "collections/mlst/reviews/1EqJyMy0LnE.json"
     },
     {
       "id": "h-dYzjF8eFA",
@@ -30429,6 +31415,14 @@
           "source_issue": null
         }
       ],
+      "key": "mlst:h-dYzjF8eFA",
+      "publisher": {
+        "id": "mlst",
+        "name": "Machine Learning Street Talk",
+        "short_name": "MLST",
+        "url": "https://www.youtube.com/@MachineLearningStreetTalk/videos",
+        "format": "Podcast"
+      },
       "review": {
         "id": "h-dYzjF8eFA",
         "title": "The Math Behind Every Recommendation You've Ever Seen - Wouter Koolen",
@@ -30507,7 +31501,6 @@
         ],
         "source_record": "../sources.json"
       },
-      "decision": "core",
       "source": {
         "id": "h-dYzjF8eFA",
         "title": "The Math Behind Every Recommendation You've Ever Seen - Wouter Koolen",
@@ -30527,7 +31520,9 @@
         "source_file": "h-dYzjF8eFA.hf.txt",
         "source_url": "https://www.youtube.com/watch?v=h-dYzjF8eFA",
         "distribution": "Transcript retained in the private research archive; not distributed in this repository."
-      }
+      },
+      "decision": "core",
+      "review_link": "collections/mlst/reviews/h-dYzjF8eFA.json"
     },
     {
       "id": "b9qwLkJW2ig",
@@ -30556,6 +31551,14 @@
           "source_issue": null
         }
       ],
+      "key": "mlst:b9qwLkJW2ig",
+      "publisher": {
+        "id": "mlst",
+        "name": "Machine Learning Street Talk",
+        "short_name": "MLST",
+        "url": "https://www.youtube.com/@MachineLearningStreetTalk/videos",
+        "format": "Podcast"
+      },
       "review": {
         "id": "b9qwLkJW2ig",
         "title": "NLP is not NLU and GPT-3 - Walid Saba",
@@ -30624,7 +31627,6 @@
         "external_citations": [],
         "source_record": "../sources.json"
       },
-      "decision": "selected_passages",
       "source": {
         "id": "b9qwLkJW2ig",
         "title": "NLP is not NLU and GPT-3 - Walid Saba",
@@ -30644,7 +31646,9 @@
         "source_file": "b9qwLkJW2ig.hf.txt",
         "source_url": "https://www.youtube.com/watch?v=b9qwLkJW2ig",
         "distribution": "Transcript retained in the private research archive; not distributed in this repository."
-      }
+      },
+      "decision": "selected_passages",
+      "review_link": "collections/mlst/reviews/b9qwLkJW2ig.json"
     },
     {
       "id": "sQFxbQ7ade0",
@@ -30705,6 +31709,14 @@
           "source_issue": null
         }
       ],
+      "key": "mlst:sQFxbQ7ade0",
+      "publisher": {
+        "id": "mlst",
+        "name": "Machine Learning Street Talk",
+        "short_name": "MLST",
+        "url": "https://www.youtube.com/@MachineLearningStreetTalk/videos",
+        "format": "Podcast"
+      },
       "review": {
         "id": "sQFxbQ7ade0",
         "title": "Sara Hooker - The Hardware Lottery, Sparsity and Fairness",
@@ -30776,7 +31788,6 @@
         ],
         "source_record": "../sources.json"
       },
-      "decision": "worthwhile",
       "source": {
         "id": "sQFxbQ7ade0",
         "title": "Sara Hooker - The Hardware Lottery, Sparsity and Fairness",
@@ -30793,7 +31804,9 @@
         "source_file": "sQFxbQ7ade0.hf.txt",
         "source_url": "https://www.youtube.com/watch?v=sQFxbQ7ade0",
         "distribution": "Transcript retained in the private research archive; not distributed in this repository."
-      }
+      },
+      "decision": "worthwhile",
+      "review_link": "collections/mlst/reviews/sQFxbQ7ade0.json"
     },
     {
       "id": "y_RjsDHl5Y4",
@@ -30803,6 +31816,14 @@
       "duration_seconds": 5849,
       "new_since_previous_inventory": false,
       "publisher_resources": [],
+      "key": "mlst:y_RjsDHl5Y4",
+      "publisher": {
+        "id": "mlst",
+        "name": "Machine Learning Street Talk",
+        "short_name": "MLST",
+        "url": "https://www.youtube.com/@MachineLearningStreetTalk/videos",
+        "format": "Podcast"
+      },
       "review": {
         "id": "y_RjsDHl5Y4",
         "title": "Kernels!",
@@ -30878,7 +31899,6 @@
         ],
         "source_record": "../sources.json"
       },
-      "decision": "drop",
       "source": {
         "id": "y_RjsDHl5Y4",
         "title": "Kernels!",
@@ -30898,7 +31918,9 @@
         "source_file": "y_RjsDHl5Y4.hf.txt",
         "source_url": "https://www.youtube.com/watch?v=y_RjsDHl5Y4",
         "distribution": "Transcript retained in the private research archive; not distributed in this repository."
-      }
+      },
+      "decision": "drop",
+      "review_link": "collections/mlst/reviews/y_RjsDHl5Y4.json"
     },
     {
       "id": "uqJ2hbDGHjY",
@@ -30945,6 +31967,14 @@
           "source_issue": null
         }
       ],
+      "key": "mlst:uqJ2hbDGHjY",
+      "publisher": {
+        "id": "mlst",
+        "name": "Machine Learning Street Talk",
+        "short_name": "MLST",
+        "url": "https://www.youtube.com/@MachineLearningStreetTalk/videos",
+        "format": "Podcast"
+      },
       "review": {
         "id": "uqJ2hbDGHjY",
         "title": "SWaV: Unsupervised Learning of Visual Features by Contrasting Cluster Assignments (Mathilde Caron)",
@@ -31020,7 +32050,6 @@
         "citations": [],
         "source_record": "../sources.json"
       },
-      "decision": "core",
       "source": {
         "id": "uqJ2hbDGHjY",
         "title": "SWaV: Unsupervised Learning of Visual Features by Contrasting Cluster Assignments (Mathilde Caron)",
@@ -31040,7 +32069,9 @@
         "source_file": "uqJ2hbDGHjY.hf.txt",
         "source_url": "https://www.youtube.com/watch?v=uqJ2hbDGHjY",
         "distribution": "Transcript retained in the private research archive; not distributed in this repository."
-      }
+      },
+      "decision": "core",
+      "review_link": "collections/mlst/reviews/uqJ2hbDGHjY.json"
     },
     {
       "id": "mEVnu-KZjq4",
@@ -31059,6 +32090,14 @@
           "source_issue": null
         }
       ],
+      "key": "mlst:mEVnu-KZjq4",
+      "publisher": {
+        "id": "mlst",
+        "name": "Machine Learning Street Talk",
+        "short_name": "MLST",
+        "url": "https://www.youtube.com/@MachineLearningStreetTalk/videos",
+        "format": "Podcast"
+      },
       "review": {
         "id": "mEVnu-KZjq4",
         "title": "Francois Chollet - On the Measure Of Intelligence",
@@ -31143,7 +32182,6 @@
         ],
         "source_record": "../sources.json"
       },
-      "decision": "worthwhile",
       "source": {
         "id": "mEVnu-KZjq4",
         "title": "Francois Chollet - On the Measure Of Intelligence",
@@ -31163,7 +32201,9 @@
         "source_file": "mEVnu-KZjq4.hf.txt",
         "source_url": "https://www.youtube.com/watch?v=mEVnu-KZjq4",
         "distribution": "Transcript retained in the private research archive; not distributed in this repository."
-      }
+      },
+      "decision": "worthwhile",
+      "review_link": "collections/mlst/reviews/mEVnu-KZjq4.json"
     },
     {
       "id": "HnZDmxYnpg4",
@@ -31273,6 +32313,14 @@
           "source_issue": null
         }
       ],
+      "key": "mlst:HnZDmxYnpg4",
+      "publisher": {
+        "id": "mlst",
+        "name": "Machine Learning Street Talk",
+        "short_name": "MLST",
+        "url": "https://www.youtube.com/@MachineLearningStreetTalk/videos",
+        "format": "Podcast"
+      },
       "review": {
         "id": "HnZDmxYnpg4",
         "title": "Harri Valpola: System 2 AI and Planning in Model-Based Reinforcement Learning",
@@ -31362,7 +32410,6 @@
         ],
         "source_record": "../sources.json"
       },
-      "decision": "core",
       "source": {
         "id": "HnZDmxYnpg4",
         "title": "Harri Valpola: System 2 AI and Planning in Model-Based Reinforcement Learning",
@@ -31382,7 +32429,9 @@
         "source_file": "HnZDmxYnpg4.hf.txt",
         "source_url": "https://www.youtube.com/watch?v=HnZDmxYnpg4",
         "distribution": "Transcript retained in the private research archive; not distributed in this repository."
-      }
+      },
+      "decision": "core",
+      "review_link": "collections/mlst/reviews/HnZDmxYnpg4.json"
     },
     {
       "id": "SfjJoevBbjU",
@@ -31492,6 +32541,14 @@
           "source_issue": null
         }
       ],
+      "key": "mlst:SfjJoevBbjU",
+      "publisher": {
+        "id": "mlst",
+        "name": "Machine Learning Street Talk",
+        "short_name": "MLST",
+        "url": "https://www.youtube.com/@MachineLearningStreetTalk/videos",
+        "format": "Podcast"
+      },
       "review": {
         "id": "SfjJoevBbjU",
         "title": "The Lottery Ticket Hypothesis with Jonathan Frankle",
@@ -31558,7 +32615,6 @@
         "citations": [],
         "source_record": "../sources.json"
       },
-      "decision": "core",
       "source": {
         "id": "SfjJoevBbjU",
         "title": "The Lottery Ticket Hypothesis with Jonathan Frankle",
@@ -31578,7 +32634,9 @@
         "source_file": "SfjJoevBbjU.hf.txt",
         "source_url": "https://www.youtube.com/watch?v=SfjJoevBbjU",
         "distribution": "Transcript retained in the private research archive; not distributed in this repository."
-      }
+      },
+      "decision": "core",
+      "review_link": "collections/mlst/reviews/SfjJoevBbjU.json"
     },
     {
       "id": "N-7rdJK4xlE",
@@ -31706,6 +32764,14 @@
           "source_issue": null
         }
       ],
+      "key": "mlst:N-7rdJK4xlE",
+      "publisher": {
+        "id": "mlst",
+        "name": "Machine Learning Street Talk",
+        "short_name": "MLST",
+        "url": "https://www.youtube.com/@MachineLearningStreetTalk/videos",
+        "format": "Podcast"
+      },
       "review": {
         "id": "N-7rdJK4xlE",
         "title": "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer",
@@ -31787,7 +32853,6 @@
         ],
         "source_record": "../sources.json"
       },
-      "decision": "selected_passages",
       "source": {
         "id": "N-7rdJK4xlE",
         "title": "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer",
@@ -31807,7 +32872,9 @@
         "source_file": "N-7rdJK4xlE.hf.txt",
         "source_url": "https://www.youtube.com/watch?v=N-7rdJK4xlE",
         "distribution": "Transcript retained in the private research archive; not distributed in this repository."
-      }
+      },
+      "decision": "selected_passages",
+      "review_link": "collections/mlst/reviews/N-7rdJK4xlE.json"
     },
     {
       "id": "1MprzvYNpY8",
@@ -31853,6 +32920,14 @@
           "source_issue": null
         }
       ],
+      "key": "mlst:1MprzvYNpY8",
+      "publisher": {
+        "id": "mlst",
+        "name": "Machine Learning Street Talk",
+        "short_name": "MLST",
+        "url": "https://www.youtube.com/@MachineLearningStreetTalk/videos",
+        "format": "Podcast"
+      },
       "review": {
         "id": "1MprzvYNpY8",
         "title": "CURL: Contrastive Unsupervised Representations for Reinforcement Learning",
@@ -31935,7 +33010,6 @@
         ],
         "source_record": "../sources.json"
       },
-      "decision": "worthwhile",
       "source": {
         "id": "1MprzvYNpY8",
         "title": "CURL: Contrastive Unsupervised Representations for Reinforcement Learning",
@@ -31955,7 +33029,9 @@
         "source_file": "1MprzvYNpY8.hf.txt",
         "source_url": "https://www.youtube.com/watch?v=1MprzvYNpY8",
         "distribution": "Transcript retained in the private research archive; not distributed in this repository."
-      }
+      },
+      "decision": "worthwhile",
+      "review_link": "collections/mlst/reviews/1MprzvYNpY8.json"
     },
     {
       "id": "sIv-JoFf-Ww",
@@ -32083,6 +33159,14 @@
           "source_issue": null
         }
       ],
+      "key": "mlst:sIv-JoFf-Ww",
+      "publisher": {
+        "id": "mlst",
+        "name": "Machine Learning Street Talk",
+        "short_name": "MLST",
+        "url": "https://www.youtube.com/@MachineLearningStreetTalk/videos",
+        "format": "Podcast"
+      },
       "review": {
         "id": "sIv-JoFf-Ww",
         "title": "Exploring Open-Ended Algorithms: POET",
@@ -32158,7 +33242,6 @@
         "citations": [],
         "source_record": "../sources.json"
       },
-      "decision": "selected_passages",
       "source": {
         "id": "sIv-JoFf-Ww",
         "title": "Exploring Open-Ended Algorithms: POET",
@@ -32178,16 +33261,18 @@
         "source_file": "sIv-JoFf-Ww.hf.txt",
         "source_url": "https://www.youtube.com/watch?v=sIv-JoFf-Ww",
         "distribution": "Transcript retained in the private research archive; not distributed in this repository."
-      }
+      },
+      "decision": "selected_passages",
+      "review_link": "collections/mlst/reviews/sIv-JoFf-Ww.json"
     }
   ],
   "roadmap": {
     "premise": "I’ll begin with how intelligence is recognized and measured, then work through the structures that support learning, abstraction, reasoning and action. From there, I want to understand how systems improve themselves, discover new problems and organize intelligence across multiple agents.",
     "how_to_use": "The anchor episodes are my starting points. The deeper branches give me worked examples and alternative explanations when I want to pursue a question further. I plan to use the exercises to check what I actually understand, and the overlap notes to decide whether another interview adds enough to be worth my time.",
     "start": [
-      "M-jTeBCEGHc",
-      "h-dYzjF8eFA",
-      "bIZB1hIJ4u8"
+      "mlst:M-jTeBCEGHc",
+      "mlst:h-dYzjF8eFA",
+      "mlst:bIZB1hIJ4u8"
     ],
     "modules": [
       {
@@ -32195,19 +33280,19 @@
         "question": "What distinguishes acquired skill, learning efficiency, decodable information and an actual computational mechanism?",
         "lesson": "Before interpreting a score or an explanation, I need to specify the system boundary and what is being estimated. The same behavior can fit different beliefs, preferences or policies; interventions should separate these explanations.",
         "anchors": [
-          "J0p_thJJnoo",
-          "Q0kN_ZHHDQY",
-          "YpFaPKOeNME"
+          "mlst:J0p_thJJnoo",
+          "mlst:Q0kN_ZHHDQY",
+          "mlst:YpFaPKOeNME"
         ],
         "deepen": [
-          "29gkDpR2orc",
-          "fhn6ZtD6XeE",
-          "_egu7OFem-k",
-          "2PenK06tvE4",
-          "0LIACHcxpHU",
-          "DL7qwmWWk88",
-          "W485bz0_TdI",
-          "n1Qk8xbqF-M"
+          "mlst:29gkDpR2orc",
+          "mlst:fhn6ZtD6XeE",
+          "mlst:_egu7OFem-k",
+          "mlst:2PenK06tvE4",
+          "mlst:0LIACHcxpHU",
+          "mlst:DL7qwmWWk88",
+          "mlst:W485bz0_TdI",
+          "mlst:n1Qk8xbqF-M"
         ],
         "exercise": "I want to take one apparent reasoning capability and design separate tests of task elicitation, novel composition, internal causal use and robustness. For each successful test, I’ll record what it still leaves unidentified."
       },
@@ -32216,15 +33301,15 @@
         "question": "How can a huge hypothesis class generalize, and when should structure be built in?",
         "lesson": "Capacity, preference over functions, optimization and invariance are different objects.",
         "anchors": [
-          "M-jTeBCEGHc",
-          "mmDw5glry9w",
-          "bIZB1hIJ4u8"
+          "mlst:M-jTeBCEGHc",
+          "mlst:mmDw5glry9w",
+          "mlst:bIZB1hIJ4u8"
         ],
         "deepen": [
-          "SfjJoevBbjU",
-          "1S1B4XkFCD8",
-          "sQFxbQ7ade0",
-          "jAGIuobLp60"
+          "mlst:SfjJoevBbjU",
+          "mlst:1S1B4XkFCD8",
+          "mlst:sQFxbQ7ade0",
+          "mlst:jAGIuobLp60"
         ],
         "exercise": "I could specify a task transformation group and compare invariance, equivariance and augmentation. Then I’d change the task so the assumed symmetry becomes wrong and measure the cost of that prior."
       },
@@ -32233,18 +33318,18 @@
         "question": "What information should a representation retain, discard or make easy to use?",
         "lesson": "Learning objectives, data structure and downstream use jointly determine what counts as a useful abstraction.",
         "anchors": [
-          "1EqJyMy0LnE",
-          "revreN8LZ_M",
-          "QWidx8cYVRs"
+          "mlst:1EqJyMy0LnE",
+          "mlst:revreN8LZ_M",
+          "mlst:QWidx8cYVRs"
         ],
         "deepen": [
-          "EXJmodhu4_4",
-          "uqJ2hbDGHjY",
-          "l3O2J3LMxqI",
-          "VvXfK-Qle-Y",
-          "9BC9BsZRCKQ",
-          "VgPrjHxIS0I",
-          "24u6CTV4t1k"
+          "mlst:EXJmodhu4_4",
+          "mlst:uqJ2hbDGHjY",
+          "mlst:l3O2J3LMxqI",
+          "mlst:VvXfK-Qle-Y",
+          "mlst:9BC9BsZRCKQ",
+          "mlst:VgPrjHxIS0I",
+          "mlst:24u6CTV4t1k"
         ],
         "exercise": "A useful experiment would start with hierarchical data generated from two independent latent factors. I’d vary the prediction target or positive-pair construction and check which factor becomes accessible, transferable and causally used."
       },
@@ -32253,20 +33338,20 @@
         "question": "What separates representing a solution, discovering it and executing it reliably?",
         "lesson": "Typed composition, proposal priors, search and verification can play different roles in one intelligent system. Learning abstractions changes which hypotheses are computationally accessible, even when expressivity is unchanged.",
         "anchors": [
-          "oYTm0p3DCzg",
-          "XFMk0snybAc",
-          "1lkdWduuN14",
-          "3ZTNps2PraM"
+          "mlst:oYTm0p3DCzg",
+          "mlst:XFMk0snybAc",
+          "mlst:1lkdWduuN14",
+          "mlst:3ZTNps2PraM"
         ],
         "deepen": [
-          "PHBItVuudbU",
-          "AWqvBdqCAAE",
-          "ehNGGYFO6ms",
-          "dhM0_EKLg9k",
-          "X9uSV1YcOy4",
-          "FAspMnu4Rt0",
-          "rie-9AEhYdY",
-          "z9j3wB1RRGA"
+          "mlst:PHBItVuudbU",
+          "mlst:AWqvBdqCAAE",
+          "mlst:ehNGGYFO6ms",
+          "mlst:dhM0_EKLg9k",
+          "mlst:X9uSV1YcOy4",
+          "mlst:FAspMnu4Rt0",
+          "mlst:rie-9AEhYdY",
+          "mlst:z9j3wB1RRGA"
         ],
         "exercise": "I want to solve the same small task family with a direct network, a learned program proposal plus an exact interpreter, and latent search. I’d track proposal coverage, search cost and execution errors separately."
       },
@@ -32275,16 +33360,16 @@
         "question": "How should a finite learner spend observations, memory and adaptation compute?",
         "lesson": "Information is valuable relative to a decision and existing knowledge; similarity and confidence alone are insufficient acquisition rules.",
         "anchors": [
-          "h-dYzjF8eFA",
-          "C6sSs6NgANo",
-          "72Im-Mm5JKs"
+          "mlst:h-dYzjF8eFA",
+          "mlst:C6sSs6NgANo",
+          "mlst:72Im-Mm5JKs"
         ],
         "deepen": [
-          "vei7uf9wOxI",
-          "7oJui4eSCoY",
-          "M49TMqK5uCE",
-          "3p0O28W1ZHg",
-          "mTX_sAq--zY"
+          "mlst:vei7uf9wOxI",
+          "mlst:7oJui4eSCoY",
+          "mlst:M49TMqK5uCE",
+          "mlst:3p0O28W1ZHg",
+          "mlst:mTX_sAq--zY"
         ],
         "exercise": "I could build a redundant candidate pool and compare nearest-neighbor retrieval with conditional uncertainty reduction. Deliberately misspecifying the representation and task prior should help me locate the limits of each approach."
       },
@@ -32293,18 +33378,18 @@
         "question": "How do inference, active sensing and planning interact when the model is wrong?",
         "lesson": "Prediction accuracy, decision adequacy and closed-loop stability are distinct requirements. Optimizers can exploit their own models' errors.",
         "anchors": [
-          "HnZDmxYnpg4",
-          "bk_xCikDUDQ",
-          "s3C0sEwixkQ"
+          "mlst:HnZDmxYnpg4",
+          "mlst:bk_xCikDUDQ",
+          "mlst:s3C0sEwixkQ"
         ],
         "deepen": [
-          "2wnJ6E6rQsU",
-          "86ib0sfdFtw",
-          "kbt0ZFoI2Hc",
-          "9suqiofCiwM",
-          "Bpgloy1dDn0",
-          "KkR24ieh5Ow",
-          "xKQ-F2-o8uM"
+          "mlst:2wnJ6E6rQsU",
+          "mlst:86ib0sfdFtw",
+          "mlst:kbt0ZFoI2Hc",
+          "mlst:9suqiofCiwM",
+          "mlst:Bpgloy1dDn0",
+          "mlst:KkR24ieh5Ow",
+          "mlst:xKQ-F2-o8uM"
         ],
         "exercise": "I want to construct a partially observed control task with a misspecified learned model. I’d compare prediction loss with achieved return, look for cases where more planning worsens the policy, and then add an action chosen for information."
       },
@@ -32313,17 +33398,17 @@
         "question": "Can the learning rule, task generator, search archive or experimental policy itself adapt?",
         "lesson": "I need to specify the inner and outer variables, timescales and held-out objectives. Improving an artifact does not automatically improve the process that produced it.",
         "anchors": [
-          "hfaZwgk_iS0",
-          "1kwbp8hRRfs",
-          "EInEmGaMRLc"
+          "mlst:hfaZwgk_iS0",
+          "mlst:1kwbp8hRRfs",
+          "mlst:EInEmGaMRLc"
         ],
         "deepen": [
-          "Jr_nGkCG3og",
-          "yB6_iFGTq9k",
-          "vC9nAosXrJw",
-          "e3gBwLWAerw",
-          "P4bYjTJvD28",
-          "DP454c1K_vQ"
+          "mlst:Jr_nGkCG3og",
+          "mlst:yB6_iFGTq9k",
+          "mlst:vC9nAosXrJw",
+          "mlst:e3gBwLWAerw",
+          "mlst:P4bYjTJvD28",
+          "mlst:DP454c1K_vQ"
         ],
         "exercise": "A small search loop with an archive, proposer and verifier would let me freeze each component in turn and test transfer to unseen task families. I’d also check whether the search can exploit the evaluator."
       },
@@ -32332,18 +33417,18 @@
         "question": "What maintains discovery when distance to a fixed target is misleading?",
         "lesson": "Diversity, representation neighborhoods, curricula and observers shape open-ended search. Novelty alone is not intelligence. Sampling a reward-weighted distribution differs from optimizing its maximum; a sampler alone does not supply an exploration objective.",
         "anchors": [
-          "lhYGXYeMq_E",
-          "KKUKikuV58o",
-          "6DrCq8Ry2cw"
+          "mlst:lhYGXYeMq_E",
+          "mlst:KKUKikuV58o",
+          "mlst:6DrCq8Ry2cw"
         ],
         "deepen": [
-          "mw5WIDGRLnA",
-          "615B5nyMFPk",
-          "rMSEqJ_4EBk",
-          "M2iX6HQOoLg",
-          "iqkkkA9dtY0",
-          "sIv-JoFf-Ww",
-          "M49TMqK5uCE"
+          "mlst:mw5WIDGRLnA",
+          "mlst:615B5nyMFPk",
+          "mlst:rMSEqJ_4EBk",
+          "mlst:M2iX6HQOoLg",
+          "mlst:iqkkkA9dtY0",
+          "mlst:sIv-JoFf-Ww",
+          "mlst:M49TMqK5uCE"
         ],
         "exercise": "I could compare objective search, novelty search and quality diversity in a deceptive environment, then change the behavior descriptor and record which stepping stones disappear. I’d measure collective coverage separately from the competence of one deployable generalist."
       },
@@ -32352,19 +33437,19 @@
         "question": "How do feedback, reference frames, communication and incentives organize competence across scales?",
         "lesson": "Biological and collective accounts suggest different mechanisms; similar behavior does not uniquely identify the same implementation. Shared beliefs and compatible representations do not guarantee aligned incentives.",
         "anchors": [
-          "6w5xr8BYV8M",
-          "6VQILbDqaI4",
-          "AREWYbVtX64"
+          "mlst:6w5xr8BYV8M",
+          "mlst:6VQILbDqaI4",
+          "mlst:AREWYbVtX64"
         ],
         "deepen": [
-          "RvYSsi6rd4g",
-          "hf18w6CuY8o",
-          "meUtWtY00H8",
-          "ZTE-JVd_QkA",
-          "aisgNLypUKs",
-          "WlWAhjPfROU",
-          "zv6qzWecj5c",
-          "V_VXOdf1NMw"
+          "mlst:RvYSsi6rd4g",
+          "mlst:hf18w6CuY8o",
+          "mlst:meUtWtY00H8",
+          "mlst:ZTE-JVd_QkA",
+          "mlst:aisgNLypUKs",
+          "mlst:WlWAhjPfROU",
+          "mlst:zv6qzWecj5c",
+          "mlst:V_VXOdf1NMw"
         ],
         "exercise": "I want to choose a proposed agent boundary and identify its state, observations, actions, memory, preferences and evidence of adaptation. The next step would be an intervention that distinguishes feedback regulation from model-based planning."
       }
@@ -32374,148 +33459,148 @@
         "claim": "Prior structure is unavoidable; its location is a design choice.",
         "explanation": "Priors can enter through architectures, task generators, objectives, language targets, programs and search procedures. The useful question is which prior supports which transfer, and at what total cost.",
         "episodes": [
-          "M-jTeBCEGHc",
-          "bIZB1hIJ4u8",
-          "72Im-Mm5JKs",
-          "VvXfK-Qle-Y"
+          "mlst:M-jTeBCEGHc",
+          "mlst:bIZB1hIJ4u8",
+          "mlst:72Im-Mm5JKs",
+          "mlst:VvXfK-Qle-Y"
         ]
       },
       {
         "claim": "Statistical learning and compositional structure are not mutually exclusive categories.",
         "explanation": "Wyart supplies a tractable statistical route to hierarchy, while Ellis, Chaudhuri and Petar show how executable structure changes search and generalization. None proves that one recipe covers all intelligence. Claims that neural systems only interpolate require a specified definition and counterexample-sensitive scope.",
         "episodes": [
-          "revreN8LZ_M",
-          "oYTm0p3DCzg",
-          "1lkdWduuN14",
-          "86ib0sfdFtw"
+          "mlst:revreN8LZ_M",
+          "mlst:oYTm0p3DCzg",
+          "mlst:1lkdWduuN14",
+          "mlst:86ib0sfdFtw"
         ]
       },
       {
         "claim": "A representation is useful relative to an operation or decision.",
         "explanation": "Information can be present but hard to decode, easy to decode but unused, or predictive without supporting intervention. I need to keep accessibility, causal use and control adequacy separate.",
         "episodes": [
-          "Q0kN_ZHHDQY",
-          "1EqJyMy0LnE",
-          "HnZDmxYnpg4",
-          "_egu7OFem-k"
+          "mlst:Q0kN_ZHHDQY",
+          "mlst:1EqJyMy0LnE",
+          "mlst:HnZDmxYnpg4",
+          "mlst:_egu7OFem-k"
         ]
       },
       {
         "claim": "Search success, correctness and discovery are different achievements.",
         "explanation": "Candidate generators, search policies, archives and verifiers contribute separately. A sound formal verifier certifies a specified property under assumptions; an interpreter or empirical test establishes only the tested behavior. Neither certifies that a task specification captures intent or that a discovery is scientifically important.",
         "episodes": [
-          "ehNGGYFO6ms",
-          "XFMk0snybAc",
-          "vC9nAosXrJw",
-          "EInEmGaMRLc"
+          "mlst:ehNGGYFO6ms",
+          "mlst:XFMk0snybAc",
+          "mlst:vC9nAosXrJw",
+          "mlst:EInEmGaMRLc"
         ]
       },
       {
         "claim": "Free-energy and biological accounts are research frameworks with explicit commitments.",
         "explanation": "My interest is in the inference–action mechanisms and the generative model, boundary, preferences and physical assumptions they require. A variational identity does not by itself establish a universal theory of intelligence or consciousness.",
         "episodes": [
-          "bk_xCikDUDQ",
-          "xKQ-F2-o8uM",
-          "qxEfcrmTWO4",
-          "6w5xr8BYV8M"
+          "mlst:bk_xCikDUDQ",
+          "mlst:xKQ-F2-o8uM",
+          "mlst:qxEfcrmTWO4",
+          "mlst:6w5xr8BYV8M"
         ]
       },
       {
         "claim": "Open-endedness changes the object of study, but does not remove evaluation assumptions.",
         "explanation": "Task generation, novelty measures, learned judges and population memory shape which discoveries become available. Preserving stepping stones is a concrete mechanism; inevitable unlimited creativity is a stronger claim.",
         "episodes": [
-          "lhYGXYeMq_E",
-          "KKUKikuV58o",
-          "6DrCq8Ry2cw",
-          "mw5WIDGRLnA"
+          "mlst:lhYGXYeMq_E",
+          "mlst:KKUKikuV58o",
+          "mlst:6DrCq8Ry2cw",
+          "mlst:mw5WIDGRLnA"
         ]
       }
     ],
     "overlap_guidance": [
       {
         "episodes": [
-          "C6sSs6NgANo",
-          "vei7uf9wOxI"
+          "mlst:C6sSs6NgANo",
+          "mlst:vei7uf9wOxI"
         ],
         "note": "The two Hübotter interviews share conditional information acquisition and test-time specialization. I’ll start with the earlier foundation and return to the later episode for its updated application and representation caveats."
       },
       {
         "episodes": [
-          "J0p_thJJnoo",
-          "s7_NlkBwdj8",
-          "w9WE1aOPjHc",
-          "mEVnu-KZjq4"
+          "mlst:J0p_thJJnoo",
+          "mlst:s7_NlkBwdj8",
+          "mlst:w9WE1aOPjHc",
+          "mlst:mEVnu-KZjq4"
         ],
         "note": "The main Chollet interview is my starting point for skill-acquisition efficiency. The later talk, update and panel add critiques and historical context; I don’t need to finish all of them before moving on to constructive mechanisms."
       },
       {
         "episodes": [
-          "bIZB1hIJ4u8",
-          "jAGIuobLp60",
-          "1lkdWduuN14",
-          "AWqvBdqCAAE"
+          "mlst:bIZB1hIJ4u8",
+          "mlst:jAGIuobLp60",
+          "mlst:1lkdWduuN14",
+          "mlst:AWqvBdqCAAE"
         ],
         "note": "Bronstein supplies the geometric foundation, Jost an accessible GNN bridge, Petar concrete algorithmic and topology examples, and Dudzik a broader compositional framework. That gives me a useful progression through their overlapping material."
       },
       {
         "episodes": [
-          "1EqJyMy0LnE",
-          "EXJmodhu4_4",
-          "uqJ2hbDGHjY",
-          "9dLd6n9yT8U"
+          "mlst:1EqJyMy0LnE",
+          "mlst:EXJmodhu4_4",
+          "mlst:uqJ2hbDGHjY",
+          "mlst:9dLd6n9yT8U"
         ],
         "note": "I’ll start with Kornblith. Misra is a follow-up for broader assumptions, while SWaV offers a worked anti-collapse mechanism. The short LeCun/Balestriero episode consolidates the spectral viewpoint."
       },
       {
         "episodes": [
-          "YpFaPKOeNME",
-          "_Ygf0GnlwmY",
-          "_egu7OFem-k"
+          "mlst:YpFaPKOeNME",
+          "mlst:_Ygf0GnlwmY",
+          "mlst:_egu7OFem-k"
         ],
         "note": "Nanda’s newer interview is my broad methodological starting point. The older episode and McGrath add particular techniques and geometric structures. The distinction to preserve is between reading a probe and identifying a mechanism."
       },
       {
         "episodes": [
-          "bk_xCikDUDQ",
-          "KkR24ieh5Ow",
-          "xKQ-F2-o8uM",
-          "V_VXOdf1NMw",
-          "8qb28P7ksyE",
-          "bL00-jtRrMA"
+          "mlst:bk_xCikDUDQ",
+          "mlst:KkR24ieh5Ow",
+          "mlst:xKQ-F2-o8uM",
+          "mlst:V_VXOdf1NMw",
+          "mlst:8qb28P7ksyE",
+          "mlst:bL00-jtRrMA"
         ],
         "note": "Parr gives me the clearest starting point for inference and action. The longer Friston/Ramstead discussions are opportunities to compare formulations and examine their assumptions; I shouldn’t count them as six independent confirmations of one universal claim."
       },
       {
         "episodes": [
-          "y1WnHpedi2A",
-          "2xFTNXK6AzQ"
+          "mlst:y1WnHpedi2A",
+          "mlst:2xFTNXK6AzQ"
         ],
         "note": "I’ll use the earlier Kambhampati interview for composable validators, domain-model acquisition and partial testing guarantees, then add passages from the later planning discussion. Neither supports a general theorem that autoregressive models cannot reason."
       },
       {
         "episodes": [
-          "jSAT_RuJ_Cg",
-          "3p0O28W1ZHg"
+          "mlst:jSAT_RuJ_Cg",
+          "mlst:3p0O28W1ZHg"
         ],
         "note": "The later MindsAI interview is my starting point for the more developed algorithmic account. The early panel adds task-dependent objecthood, the optimizer as part of the agent, and the difference between generating examples and generating new concepts."
       },
       {
         "episodes": [
-          "Q0kN_ZHHDQY",
-          "VgPrjHxIS0I",
-          "YpFaPKOeNME",
-          "9BC9BsZRCKQ"
+          "mlst:Q0kN_ZHHDQY",
+          "mlst:VgPrjHxIS0I",
+          "mlst:YpFaPKOeNME",
+          "mlst:9BC9BsZRCKQ"
         ],
         "note": "I’m keeping these together because they address different questions: probe complexity measures accessibility; erasure tests what survives a specified intervention; circuit analysis reconstructs computation; data attribution studies dependence on training examples. None alone establishes all four."
       },
       {
         "episodes": [
-          "M2iX6HQOoLg",
-          "rMSEqJ_4EBk"
+          "mlst:M2iX6HQOoLg",
+          "mlst:rMSEqJ_4EBk"
         ],
         "note": "The BFF talks substantially overlap. I only need one technical account before turning to the linked July 2026 corrective paper. I want to keep initial replicator discovery separate from later population takeover when evaluating the merger explanation."
       }
-    ]
-  },
-  "public_edition": "Raw transcripts and full publisher descriptions are not distributed."
+    ],
+    "orientation_note": "I’ll begin with generalization, information acquisition and geometric structure, then follow the questions below. The deeper branches are optional; this is a conceptual sequence rather than a strict prerequisite chain."
+  }
 }

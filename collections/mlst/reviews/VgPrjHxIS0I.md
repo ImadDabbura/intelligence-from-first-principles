@@ -1,6 +1,6 @@
 # AI Interpretability, Safety, and Meaning - Nora Belrose
 
-[Original episode](https://www.youtube.com/watch?v=VgPrjHxIS0I) · [All reviews](../README.md) · [Learning path](../learning-path.md)
+[Original episode](https://www.youtube.com/watch?v=VgPrjHxIS0I) · Source: Machine Learning Street Talk · [All reviews](../README.md) · [Learning path](../learning-path.md)
 
 Published: 2024-11-17 · Decision: **Core** · Confidence: high for technical sections; medium for broader philosophical value
 

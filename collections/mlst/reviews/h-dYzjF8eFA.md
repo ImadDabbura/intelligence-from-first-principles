@@ -1,6 +1,6 @@
 # The Math Behind Every Recommendation You've Ever Seen - Wouter Koolen
 
-[Original episode](https://www.youtube.com/watch?v=h-dYzjF8eFA) · [All reviews](../README.md) · [Learning path](../learning-path.md)
+[Original episode](https://www.youtube.com/watch?v=h-dYzjF8eFA) · Source: Machine Learning Street Talk · [All reviews](../README.md) · [Learning path](../learning-path.md)
 
 Published: 2020-11-20 · Decision: **Core** · Confidence: high
 

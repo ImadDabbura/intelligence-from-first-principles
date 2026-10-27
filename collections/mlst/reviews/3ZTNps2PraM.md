@@ -1,6 +1,6 @@
 # Decompiling Dreams: A New Approach to ARC?
 
-[Original episode](https://www.youtube.com/watch?v=3ZTNps2PraM) · [All reviews](../README.md) · [Learning path](../learning-path.md)
+[Original episode](https://www.youtube.com/watch?v=3ZTNps2PraM) · Source: Machine Learning Street Talk · [All reviews](../README.md) · [Learning path](../learning-path.md)
 
 Published: 2024-10-19 · Decision: **Core** · Confidence: high for mechanism and limitations; moderate for reported comparative results
 

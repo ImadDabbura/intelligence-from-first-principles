@@ -1,6 +1,6 @@
 # Why LeCun Thinks Deep Learning Isn't Enough — Yann LeCun
 
-[Original episode](https://www.youtube.com/watch?v=86ib0sfdFtw) · [All reviews](../README.md) · [Learning path](../learning-path.md)
+[Original episode](https://www.youtube.com/watch?v=86ib0sfdFtw) · Source: Machine Learning Street Talk · [All reviews](../README.md) · [Learning path](../learning-path.md)
 
 Published: 2022-01-04 · Decision: **Core** · Confidence: High for the guests’ methodological distinctions; several introductory conclusions require correction.
 

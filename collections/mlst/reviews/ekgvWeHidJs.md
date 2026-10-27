@@ -1,6 +1,6 @@
 # Type a Sentence, Get a Playable 3D World in 3 Seconds - Shlomi Fuchter & Jack Parker-Holder
 
-[Original episode](https://www.youtube.com/watch?v=ekgvWeHidJs) · [All reviews](../README.md) · [Learning path](../learning-path.md)
+[Original episode](https://www.youtube.com/watch?v=ekgvWeHidJs) · Source: Machine Learning Street Talk · [All reviews](../README.md) · [Learning path](../learning-path.md)
 
 Published: 2025-08-05 · Decision: **Selected passages** · Confidence: high
 

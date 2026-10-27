@@ -1,6 +1,6 @@
 # Building a GENERAL AI agent with reinforcement learning
 
-[Original episode](https://www.youtube.com/watch?v=s3C0sEwixkQ) · [All reviews](../README.md) · [Learning path](../learning-path.md)
+[Original episode](https://www.youtube.com/watch?v=s3C0sEwixkQ) · Source: Machine Learning Street Talk · [All reviews](../README.md) · [Learning path](../learning-path.md)
 
 Published: 2024-03-20 · Decision: **Core** · Confidence: High for the mathematical problem formulation and research value; moderate for broad claims about general intelligence.
 

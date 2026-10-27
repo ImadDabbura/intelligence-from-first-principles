@@ -1,6 +1,6 @@
 # #033 Karl Friston - The Free Energy Principle
 
-[Original episode](https://www.youtube.com/watch?v=KkR24ieh5Ow) · [All reviews](../README.md) · [Learning path](../learning-path.md)
+[Original episode](https://www.youtube.com/watch?v=KkR24ieh5Ow) · Source: Machine Learning Street Talk · [All reviews](../README.md) · [Learning path](../learning-path.md)
 
 Published: 2020-12-13 · Decision: **Worthwhile** · Confidence: high
 

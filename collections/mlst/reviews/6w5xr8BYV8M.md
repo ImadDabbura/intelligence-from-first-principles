@@ -1,6 +1,6 @@
 # Michael Levin - Why Intelligence Isn't Limited To Brains.
 
-[Original episode](https://www.youtube.com/watch?v=6w5xr8BYV8M) · [All reviews](../README.md) · [Learning path](../learning-path.md)
+[Original episode](https://www.youtube.com/watch?v=6w5xr8BYV8M) · Source: Machine Learning Street Talk · [All reviews](../README.md) · [Learning path](../learning-path.md)
 
 Published: 2024-10-24 · Decision: **Core** · Confidence: high for conceptual value; moderate for the strength of the broader empirical interpretation
 

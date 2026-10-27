@@ -1,6 +1,6 @@
 # MIGHT THE ROBOTS TAKE OVER? [Prof. Yoshua Bengio]
 
-[Original episode](https://www.youtube.com/watch?v=G1ARvwQntAU) · [All reviews](../README.md) · [Learning path](../learning-path.md)
+[Original episode](https://www.youtube.com/watch?v=G1ARvwQntAU) · Source: Machine Learning Street Talk · [All reviews](../README.md) · [Learning path](../learning-path.md)
 
 Published: 2025-01-15 · Decision: **Worthwhile** · Confidence: high
 

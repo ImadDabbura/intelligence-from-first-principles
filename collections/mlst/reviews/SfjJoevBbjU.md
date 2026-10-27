@@ -1,6 +1,6 @@
 # The Lottery Ticket Hypothesis with Jonathan Frankle
 
-[Original episode](https://www.youtube.com/watch?v=SfjJoevBbjU) · [All reviews](../README.md) · [Learning path](../learning-path.md)
+[Original episode](https://www.youtube.com/watch?v=SfjJoevBbjU) · Source: Machine Learning Street Talk · [All reviews](../README.md) · [Learning path](../learning-path.md)
 
 Published: 2020-05-02 · Decision: **Core** · Confidence: high
 

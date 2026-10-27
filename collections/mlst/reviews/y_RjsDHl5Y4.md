@@ -1,6 +1,6 @@
 # Kernels!
 
-[Original episode](https://www.youtube.com/watch?v=y_RjsDHl5Y4) · [All reviews](../README.md) · [Learning path](../learning-path.md)
+[Original episode](https://www.youtube.com/watch?v=y_RjsDHl5Y4) · Source: Machine Learning Street Talk · [All reviews](../README.md) · [Learning path](../learning-path.md)
 
 Published: 2020-09-18 · Decision: **Drop** · Confidence: high
 

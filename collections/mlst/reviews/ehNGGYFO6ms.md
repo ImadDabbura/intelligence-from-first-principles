@@ -1,6 +1,6 @@
 # #50 Dr. CHRISTIAN SZEGEDY - Formal Reasoning, Program Synthesis
 
-[Original episode](https://www.youtube.com/watch?v=ehNGGYFO6ms) · [All reviews](../README.md) · [Learning path](../learning-path.md)
+[Original episode](https://www.youtube.com/watch?v=ehNGGYFO6ms) · Source: Machine Learning Street Talk · [All reviews](../README.md) · [Learning path](../learning-path.md)
 
 Published: 2021-04-03 · Decision: **Core** · Confidence: high
 

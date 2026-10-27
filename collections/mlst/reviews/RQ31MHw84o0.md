@@ -1,6 +1,6 @@
 # #037 - Tour De Bayesian with Connor Tann
 
-[Original episode](https://www.youtube.com/watch?v=RQ31MHw84o0) · [All reviews](../README.md) · [Learning path](../learning-path.md)
+[Original episode](https://www.youtube.com/watch?v=RQ31MHw84o0) · Source: Machine Learning Street Talk · [All reviews](../README.md) · [Learning path](../learning-path.md)
 
 Published: 2021-01-10 · Decision: **Selected passages** · Confidence: High. The underlying concepts are fundamental, but this introductory conversation contains enough overstatement that I plan to watch selectively.
 

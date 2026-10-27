@@ -1,6 +1,6 @@
 # François Chollet on OpenAI o-models and ARC
 
-[Original episode](https://www.youtube.com/watch?v=w9WE1aOPjHc) · [All reviews](../README.md) · [Learning path](../learning-path.md)
+[Original episode](https://www.youtube.com/watch?v=w9WE1aOPjHc) · Source: Machine Learning Street Talk · [All reviews](../README.md) · [Learning path](../learning-path.md)
 
 Published: 2025-01-08 · Decision: **Worthwhile** · Confidence: high on relevance; mixed on technical assertions
 

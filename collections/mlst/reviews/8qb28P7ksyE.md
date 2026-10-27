@@ -1,6 +1,6 @@
 # The Physics of AI
 
-[Original episode](https://www.youtube.com/watch?v=8qb28P7ksyE) · [All reviews](../README.md) · [Learning path](../learning-path.md)
+[Original episode](https://www.youtube.com/watch?v=8qb28P7ksyE) · Source: Machine Learning Street Talk · [All reviews](../README.md) · [Learning path](../learning-path.md)
 
 Published: 2023-07-15 · Decision: **Selected passages** · Confidence: high about selection and substantive limits
 

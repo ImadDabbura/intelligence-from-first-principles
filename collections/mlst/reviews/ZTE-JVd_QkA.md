@@ -1,6 +1,6 @@
 # Biologically-inspired AI and Mortal Computation
 
-[Original episode](https://www.youtube.com/watch?v=ZTE-JVd_QkA) · [All reviews](../README.md) · [Learning path](../learning-path.md)
+[Original episode](https://www.youtube.com/watch?v=ZTE-JVd_QkA) · Source: Machine Learning Street Talk · [All reviews](../README.md) · [Learning path](../learning-path.md)
 
 Published: 2024-10-15 · Decision: **Worthwhile** · Confidence: high on learning mechanisms; moderate on broader framework
 

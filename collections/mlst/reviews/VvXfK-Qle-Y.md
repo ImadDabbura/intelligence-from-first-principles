@@ -1,6 +1,6 @@
 # #97 SREEJAN KUMAR - Human Inductive Biases in Machines from Language
 
-[Original episode](https://www.youtube.com/watch?v=VvXfK-Qle-Y) · [All reviews](../README.md) · [Learning path](../learning-path.md)
+[Original episode](https://www.youtube.com/watch?v=VvXfK-Qle-Y) · Source: Machine Learning Street Talk · [All reviews](../README.md) · [Learning path](../learning-path.md)
 
 Published: 2023-01-28 · Decision: **Core** · Confidence: high
 

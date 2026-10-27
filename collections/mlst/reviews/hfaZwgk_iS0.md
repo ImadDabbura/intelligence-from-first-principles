@@ -1,6 +1,6 @@
 # #49 - Meta-Gradients in RL - Dr. Tom Zahavy (DeepMind)
 
-[Original episode](https://www.youtube.com/watch?v=hfaZwgk_iS0) · [All reviews](../README.md) · [Learning path](../learning-path.md)
+[Original episode](https://www.youtube.com/watch?v=hfaZwgk_iS0) · Source: Machine Learning Street Talk · [All reviews](../README.md) · [Learning path](../learning-path.md)
 
 Published: 2021-03-23 · Decision: **Core** · Confidence: high
 

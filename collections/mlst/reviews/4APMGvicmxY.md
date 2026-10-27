@@ -1,6 +1,6 @@
 # Tensor Logic "Unifies" AI Paradigms [Pedro Domingos]
 
-[Original episode](https://www.youtube.com/watch?v=4APMGvicmxY) · [All reviews](../README.md) · [Learning path](../learning-path.md)
+[Original episode](https://www.youtube.com/watch?v=4APMGvicmxY) · Source: Machine Learning Street Talk · [All reviews](../README.md) · [Learning path](../learning-path.md)
 
 Published: 2025-12-07 · Decision: **Worthwhile** · Confidence: High that the representational questions are useful; low that the interview establishes the advertised unification, learning, or performance guarantees.
 

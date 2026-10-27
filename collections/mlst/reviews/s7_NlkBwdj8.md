@@ -1,6 +1,6 @@
 # It's Not About Scale, It's About Abstraction
 
-[Original episode](https://www.youtube.com/watch?v=s7_NlkBwdj8) · [All reviews](../README.md) · [Learning path](../learning-path.md)
+[Original episode](https://www.youtube.com/watch?v=s7_NlkBwdj8) · Source: Machine Learning Street Talk · [All reviews](../README.md) · [Learning path](../learning-path.md)
 
 Published: 2024-10-12 · Decision: **Worthwhile** · Confidence: high for the abstraction framework, qualified for categorical claims about neural limitations
 

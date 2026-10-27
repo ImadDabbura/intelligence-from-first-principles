@@ -1,6 +1,6 @@
 # Can Rewriting an AI Agent Bend the Intelligence Curve? - Zhengyao Jiang
 
-[Original episode](https://www.youtube.com/watch?v=yB6_iFGTq9k) · [All reviews](../README.md) · [Learning path](../learning-path.md)
+[Original episode](https://www.youtube.com/watch?v=yB6_iFGTq9k) · Source: Machine Learning Street Talk · [All reviews](../README.md) · [Learning path](../learning-path.md)
 
 Published: 2026-09-26 · Decision: **Worthwhile** · Confidence: high on conceptual distinctions; benchmark claims remain interview reports
 

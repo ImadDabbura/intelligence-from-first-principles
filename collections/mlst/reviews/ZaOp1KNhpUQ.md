@@ -1,6 +1,6 @@
 # #69 DR. THOMAS LUX - Interpolation of Sparse High-Dimensional Data [UNPLUGGED]
 
-[Original episode](https://www.youtube.com/watch?v=ZaOp1KNhpUQ) · [All reviews](../README.md) · [Learning path](../learning-path.md)
+[Original episode](https://www.youtube.com/watch?v=ZaOp1KNhpUQ) · Source: Machine Learning Street Talk · [All reviews](../README.md) · [Learning path](../learning-path.md)
 
 Published: 2022-03-12 · Decision: **Selected passages** · Confidence: high
 

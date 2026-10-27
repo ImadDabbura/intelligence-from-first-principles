@@ -1,6 +1,6 @@
 # Build Specialist LLMs Like It’s 2019 (Randall Balestriero)
 
-[Original episode](https://www.youtube.com/watch?v=SP-kORMUZns) · [All reviews](../README.md) · [Learning path](../learning-path.md)
+[Original episode](https://www.youtube.com/watch?v=SP-kORMUZns) · Source: Machine Learning Street Talk · [All reviews](../README.md) · [Learning path](../learning-path.md)
 
 Published: 2025-04-23 · Decision: **Worthwhile** · Confidence: high for conceptual value; experimental claims limited to discussed tasks
 

@@ -85,21 +85,11 @@ def build():
     }
     assert summary['reused_transcripts'] == method['stage_two']['reused_transcripts']
     assert summary['recovered_transcripts'] == method['stage_two']['recovered_transcripts']
-    payload = {
-        'review_date': method['transcript_review_completed'],
-        'profile': screening['methodology']['profile'],
-        'methodology': method, 'summary': summary, 'episodes': episodes, 'roadmap': path,
-        'public_edition': 'Raw transcripts and full publisher descriptions are not distributed.',
-    }
     outputs = {}
-    outputs[C / 'reports/review-catalogue.json'] = json_text(payload)
-    template = (ROOT / 'scripts/mlst-report-template.html').read_text(encoding='utf-8')
-    assert template.count('__PAYLOAD__') == 1
-    outputs[C / 'reports/catalogue.html'] = template.replace('__PAYLOAD__', json.dumps(payload, ensure_ascii=False).replace('</', '<\\/'))
 
     for e in episodes:
         r, s = e['review'], e['source']
-        content = f"# {e['title']}\n\n[Original episode]({e['url']}) · [All reviews](../README.md) · [Learning path](../learning-path.md)\n\n"
+        content = f"# {e['title']}\n\n[Original episode]({e['url']}) · Source: Machine Learning Street Talk · [All reviews](../README.md) · [Learning path](../learning-path.md)\n\n"
         content += f"Published: {str(e['published_at'])[:10]} · Decision: **{label(r['decision'])}** · Confidence: {r['confidence']}\n\n"
         for title, key in [('Central claim','thesis'), ('Ideas I want to keep','contributions'), ('Mathematical anatomy','mathematical_anatomy'), ('Evidence, limitations and corrections','evidence_and_limits'), ('Relevance to my research','first_principles_value'), ('My viewing plan','watch_guidance'), ('Objections and open questions','counterarguments'), ('An experiment I could try','exercise'), ('Connections in my notes','connections')]:
             content += f'## {title}\n\n{md(r[key])}\n\n'
@@ -114,8 +104,8 @@ def build():
 
     content = '# Machine Learning Street Talk\n\n'
     content += 'Snapshot: **26 October 2026**. The first filter covers **269 uploads published 9 April 2020–26 October 2026**. The detailed review covers **131 selected episodes published 9 April 2020–9 October 2026**.\n\n'
-    content += '[Learning path](learning-path.md) · [First filter](screening.md) · [Methodology](../../METHODOLOGY.md) · [Scope record](scope-and-method.json)\n\n'
-    content += 'These are my AI-assisted research notes and viewing priorities. The remaining 138 uploads are outside this transcript-review pass. The interactive report is `reports/catalogue.html`; download or clone the repository to open it in a browser.\n\n'
+    content += '[Learning path](learning-path.md) · [First filter](screening.md) · [Methodology](../../README.md#methodology) · [Scope record](scope-and-method.json)\n\n'
+    content += 'These are my AI-assisted research notes and viewing priorities. The remaining 138 uploads are outside this transcript-review pass. The shared interactive report is [at the repository root](../../index.html); download or clone the repository to open it in a browser.\n\n'
     for decision in DECISIONS:
         content += f'## {label(decision)} ({counts[decision]})\n\n'
         content += '\n'.join('- ' + link(e) for e in sorted(episodes, key=lambda e:e['title'].casefold()) if e['decision'] == decision) + '\n\n'
@@ -133,13 +123,13 @@ def build():
         for item in path[key]:
             content += md({k: v for k, v in item.items() if k != 'episodes'}) + '\n\n'
             content += '\n'.join('- ' + link(by_id[i]) for i in item.get('episodes', [])) + '\n\n'
-    content += '[All episode reviews](README.md) · [Methodology](../../METHODOLOGY.md)\n'
+    content += '[All episode reviews](README.md) · [Methodology](../../README.md#methodology)\n'
     outputs[C / 'learning-path.md'] = content
 
     content = '# First filter\n\n'
     content += 'Snapshot: **26 October 2026**. I screened publisher descriptions, summaries, notes and resources before selecting any new full transcripts for review. High and medium priority are reading decisions, not recommendations to watch.\n\n'
     content += '**269 Videos-tab uploads: 131 high priority, 115 medium priority, 15 skips and 8 with insufficient information.** Only the 131 high-priority uploads advanced to this transcript-review pass.\n\n'
-    content += 'Two livestreams and 37 unmatched podcast-feed entries appear separately below. Feed entries may be alternate editions; they are not 37 additional verified videos. Full publisher text stays in the private archive; the structured public record retains resource links.\n\n[Detailed reviews](README.md) · [Structured screen and resource links](screening.json) · [Methodology](../../METHODOLOGY.md)\n\n'
+    content += 'Two livestreams and 37 unmatched podcast-feed entries appear separately below. Feed entries may be alternate editions; they are not 37 additional verified videos. Full publisher text stays in the private archive; the structured public record retains resource links.\n\n[Detailed reviews](README.md) · [Structured screen and resource links](screening.json) · [Methodology](../../README.md#methodology)\n\n'
     for title, group in [('Videos-tab uploads','episodes'), ('Separate livestreams','livestreams'), ('Supplementary feed entries','supplementary_feed_entries')]:
         content += f'## {title}\n\n'
         for e in screening[group]:

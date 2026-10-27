@@ -1,6 +1,6 @@
 # Can AI Improve Itself? [Chris Lu, Robert Lange, Cong Lu]
 
-[Original episode](https://www.youtube.com/watch?v=1kwbp8hRRfs) · [All reviews](../README.md) · [Learning path](../learning-path.md)
+[Original episode](https://www.youtube.com/watch?v=1kwbp8hRRfs) · Source: Machine Learning Street Talk · [All reviews](../README.md) · [Learning path](../learning-path.md)
 
 Published: 2025-03-01 · Decision: **Core** · Confidence: high
 

@@ -1,6 +1,6 @@
 # Rethinking the Mind - Prof. Mark Solms
 
-[Original episode](https://www.youtube.com/watch?v=meUtWtY00H8) · [All reviews](../README.md) · [Learning path](../learning-path.md)
+[Original episode](https://www.youtube.com/watch?v=meUtWtY00H8) · Source: Machine Learning Street Talk · [All reviews](../README.md) · [Learning path](../learning-path.md)
 
 Published: 2024-09-18 · Decision: **Worthwhile** · Confidence: High for distinct conceptual relevance; moderate for the proposed consciousness theory and low for treating its strongest sufficiency claims as established.
 

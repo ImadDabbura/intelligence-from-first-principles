@@ -365,4 +365,4 @@ I want to choose a proposed agent boundary and identify its state, observations,
 - [What If Intelligence Didn't Evolve? It "Was There" From the Start! - Blaise Agüera y Arcas](reviews/M2iX6HQOoLg.md)
 - [Google Researcher Shows Life "Emerges From Code" \[Blaise Agüera y Arcas\]](reviews/rMSEqJ_4EBk.md)
 
-[All episode reviews](README.md) · [Methodology](../../METHODOLOGY.md)
+[All episode reviews](README.md) · [Methodology](../../README.md#methodology)

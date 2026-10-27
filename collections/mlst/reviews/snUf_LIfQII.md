@@ -1,6 +1,6 @@
 # #101 DR. WALID SABA - Extrapolation, Compositionality and Learnability
 
-[Original episode](https://www.youtube.com/watch?v=snUf_LIfQII) · [All reviews](../README.md) · [Learning path](../learning-path.md)
+[Original episode](https://www.youtube.com/watch?v=snUf_LIfQII) · Source: Machine Learning Street Talk · [All reviews](../README.md) · [Learning path](../learning-path.md)
 
 Published: 2023-02-10 · Decision: **Drop** · Confidence: high
 

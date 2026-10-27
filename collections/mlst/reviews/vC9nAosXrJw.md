@@ -1,6 +1,6 @@
 # Wild breakthrough on Math after 56 years... [Exclusive]
 
-[Original episode](https://www.youtube.com/watch?v=vC9nAosXrJw) · [All reviews](../README.md) · [Learning path](../learning-path.md)
+[Original episode](https://www.youtube.com/watch?v=vC9nAosXrJw) · Source: Machine Learning Street Talk · [All reviews](../README.md) · [Learning path](../learning-path.md)
 
 Published: 2025-05-14 · Decision: **Core** · Confidence: high
 

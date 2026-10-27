@@ -1,6 +1,6 @@
 # Moving Beyond Surface Statistics (Apple researcher) [Iman Mirzadeh]
 
-[Original episode](https://www.youtube.com/watch?v=yQPduek-Q5s) · [All reviews](../README.md) · [Learning path](../learning-path.md)
+[Original episode](https://www.youtube.com/watch?v=yQPduek-Q5s) · Source: Machine Learning Street Talk · [All reviews](../README.md) · [Learning path](../learning-path.md)
 
 Published: 2025-03-19 · Decision: **Worthwhile** · Confidence: high
 

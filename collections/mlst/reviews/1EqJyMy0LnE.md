@@ -1,6 +1,6 @@
 # #032- Simon Kornblith / GoogleAI - SimCLR and Paper Haul!
 
-[Original episode](https://www.youtube.com/watch?v=1EqJyMy0LnE) · [All reviews](../README.md) · [Learning path](../learning-path.md)
+[Original episode](https://www.youtube.com/watch?v=1EqJyMy0LnE) · Source: Machine Learning Street Talk · [All reviews](../README.md) · [Learning path](../learning-path.md)
 
 Published: 2020-12-05 · Decision: **Core** · Confidence: high
 

@@ -1,6 +1,6 @@
 # CURL: Contrastive Unsupervised Representations for Reinforcement Learning
 
-[Original episode](https://www.youtube.com/watch?v=1MprzvYNpY8) · [All reviews](../README.md) · [Learning path](../learning-path.md)
+[Original episode](https://www.youtube.com/watch?v=1MprzvYNpY8) · Source: Machine Learning Street Talk · [All reviews](../README.md) · [Learning path](../learning-path.md)
 
 Published: 2020-04-17 · Decision: **Worthwhile** · Confidence: high
 

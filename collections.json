@@ -1,0 +1,14 @@
+[
+  {
+    "id": "mlst",
+    "name": "Machine Learning Street Talk",
+    "short_name": "MLST",
+    "url": "https://www.youtube.com/@MachineLearningStreetTalk/videos",
+    "format": "Podcast",
+    "path": "collections/mlst",
+    "snapshot_date": "2026-10-26",
+    "coverage_note": "Videos-tab snapshot; Shorts excluded. Two livestreams and 37 unmatched feed entries were screened separately and are not counted as additional unique uploads. The 138 entries outside the detailed review are not transcript-based rejections.",
+    "screening_link": "collections/mlst/screening.md",
+    "scope_link": "collections/mlst/scope-and-method.json"
+  }
+]

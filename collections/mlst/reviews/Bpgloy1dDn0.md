@@ -1,6 +1,6 @@
 # Mapping GPT revealed something strange...
 
-[Original episode](https://www.youtube.com/watch?v=Bpgloy1dDn0) · [All reviews](../README.md) · [Learning path](../learning-path.md)
+[Original episode](https://www.youtube.com/watch?v=Bpgloy1dDn0) · Source: Machine Learning Street Talk · [All reviews](../README.md) · [Learning path](../learning-path.md)
 
 Published: 2024-05-23 · Decision: **Worthwhile** · Confidence: high
 

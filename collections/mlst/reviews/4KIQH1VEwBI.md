@@ -1,6 +1,6 @@
 # Can ChatGPT Handle Infinite Possibilities? - Walid Saba
 
-[Original episode](https://www.youtube.com/watch?v=4KIQH1VEwBI) · [All reviews](../README.md) · [Learning path](../learning-path.md)
+[Original episode](https://www.youtube.com/watch?v=4KIQH1VEwBI) · Source: Machine Learning Street Talk · [All reviews](../README.md) · [Learning path](../learning-path.md)
 
 Published: 2023-04-15 · Decision: **Drop** · Confidence: high
 

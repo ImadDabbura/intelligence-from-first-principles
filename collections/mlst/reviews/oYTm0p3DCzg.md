@@ -1,6 +1,6 @@
 # Why Program Synthesis Is Next (Kevin Ellis and Zenna Tavares)
 
-[Original episode](https://www.youtube.com/watch?v=oYTm0p3DCzg) · [All reviews](../README.md) · [Learning path](../learning-path.md)
+[Original episode](https://www.youtube.com/watch?v=oYTm0p3DCzg) · Source: Machine Learning Street Talk · [All reviews](../README.md) · [Learning path](../learning-path.md)
 
 Published: 2025-04-08 · Decision: **Core** · Confidence: high
 

@@ -1,10 +1,10 @@
 # Intelligence from first principles
 
-How does a system learn from experience, form useful abstractions, reason about unfamiliar situations and decide what to do next?
+I want to understand learning, modeling, intelligence and statistical structure from first principles deeply enough to discover better ways of building intelligent systems, and to explain those insights clearly to serious people.
 
-This is my working collection of research notes on those questions. I’m interested in the mathematical and statistical structures that make intelligence possible, across learning theory, program synthesis, control, neuroscience and evolution. Language models are one part of that picture.
+I am especially drawn to the **mathematical anatomy of learning systems**: how their representations, objectives, assumptions and learning dynamics fit together. I want to understand which structures make learning possible, why they work, where they fail and what those limits suggest about how to build better systems.
 
-Podcasts and lectures often introduce ideas I would otherwise miss. I want to keep the ones that change how I think: a mechanism I can reconstruct, an assumption I can examine, a counterexample that exposes a gap, or an experiment I could actually try. The notes record why an episode earns a place and where its argument stops being convincing.
+This collection is part of that work. I use podcasts, lectures and courses to find ideas I can reconstruct mathematically, test and explain in my own words. AI-assisted reviews help me choose what deserves closer study. The notes keep the mechanisms, evidence, open questions and possible experiments close to each source.
 
 ## One report, across sources
 

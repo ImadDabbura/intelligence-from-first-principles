@@ -1,0 +1,72 @@
+{
+  "id": "80i6D2TJdQ4",
+  "title": "#91 - HATTIE ZHOU - Teaching Algorithmic Reasoning via In-context Learning",
+  "words_read": 3305,
+  "coverage": {
+    "status": "complete_available_text",
+    "method": "Read complete locally generated transcript of publisher RSS audio, including the closing Markus interview.",
+    "first_timestamp": "00:00:00",
+    "last_timestamp": "00:21:11",
+    "caveats": [
+      "Local Whisper-large-v3-turbo transcription; not corrected word-by-word against audio.",
+      "RSS duration1274seconds closely matches video1275seconds; timestamps still refer to podcast audio.",
+      "Names and mathematical boundary conditions may be transcribed imperfectly."
+    ]
+  },
+  "decision": "worthwhile",
+  "confidence": "high",
+  "thesis": "Examples of correct answers can leave the generating procedure highly underdetermined. Explicitly specifying intermediate operations reduces that ambiguity and can improve extrapolation, even without updating model weights. This is evidence about eliciting a procedure, not yet about discovering novel algorithms autonomously.",
+  "contributions": [
+    "A scratchpad containing values differs from an algorithmic explanation specifying how each value is obtained. Observing a few input-output traces may support many incompatible procedures; more operational detail constrains the intended interpretation.",
+    "Length extrapolation is a useful intervention: evaluate the same rule on harder inputs outside the demonstrated range rather than treating in-distribution arithmetic accuracy as evidence of the intended algorithm.",
+    "Acquiring or eliciting an execution skill is distinct from inventing the skill. The speaker explicitly identifies autonomous algorithm discovery as another frontier, which prevents the headline from doing too much explanatory work.",
+    "A problem-solving template can combine explicit control structure with learned local interpretation. The math-word-problem discussion motivates that hybrid, while candidly lacking a complete benchmark or precise universal procedure.",
+    "The closing discussion distinguishes inexpensive candidate generation from exact checking: a weak conjecture generator can still be useful when a formal checker supplies trustworthy feedback."
+  ],
+  "mathematical_anatomy": {
+    "objects": "A pretrained conditional sequence model, a prompt containing algorithmic demonstrations, execution traces, and test inputs with different lengths or compositions.",
+    "objective": "Correct outputs and valid intermediate states beyond the demonstration distribution; no weight update is required in the illustrated setup.",
+    "mechanism": "The prompt supplies operational structure that narrows the set of plausible programs consistent with examples. Autoregressive generation provides additional sequential computation, but each step remains fallible.",
+    "assumptions": "The model can interpret instructions, maintain needed state, apply local operations and fit the trace within its context/computation budget.",
+    "limits": "Finite successful tests cannot establish unbounded algorithmic correctness. Trace-answer agreement is evidence of consistency, not proof the trace caused the answer. A correct algorithm is correct on its specified domain; merely being an algorithm does not imply distribution-independent correctness."
+  },
+  "evidence_and_limits": [
+    "The addition example offers a testable mechanism: disambiguate carry and digit-update rules, then increase digit length. At one point the transcript says carry when the sum is greater than10; the correct threshold is at least10, including the incoming carry.",
+    "The speaker's suspicion that fine-tuning would mainly overfit is conjecture here, not a demonstrated impossibility or a general superiority theorem for prompting.",
+    "The compression explanation of emergent abilities is a plausible hypothesis, not a mechanism established by these experiments. More parameters do not automatically force memorization or preclude learning regularities.",
+    "The host's neural-net-versus-Turing-machine framing omits resource assumptions. Fixed finite resources constrain ordinary computers too; the relevant distinctions are fixed-depth evaluation, recurrent computation, external memory and asymptotic model families.",
+    "The interview is from 2022. I retain its experimental logic, treating its capability statements as historical rather than as the performance frontier."
+  ],
+  "first_principles_value": "Worth my attention because it makes specification ambiguity concrete. The lesson generalizes beyond LLM prompting: learning failures may come from an underidentified procedure, inadequate execution resources, or a missing primitive, and these require different interventions.",
+  "watch_guidance": {
+    "mode": "I will focus on the technical interview.",
+    "ranges": [
+      {
+        "start": "00:01:45",
+        "end": "00:13:20",
+        "reason": "Definition, procedure-versus-trace distinction, prompting intervention, extrapolation and limitations."
+      },
+      {
+        "start": "00:18:42",
+        "end": "00:21:11",
+        "reason": "Candidate generation, formal verification and context for mathematical reasoning."
+      }
+    ],
+    "edition": "Podcast-edition timestamps, near-equal duration to YouTube; exact alignment not checked."
+  },
+  "counterarguments": "A detailed prompt may supply most of the human-designed algorithm. That does not make the result uninteresting, but it changes the attribution of intelligence. I would test whether the model can compose primitives, detect a deliberately erroneous instruction, and remain correct under new surface forms; these are different from copying a supplied trace.",
+  "exercise": "I want to compare answer-only examples, bare scratchpads and fully specified addition traces at equal prompt budgets, varying digit length and carry-chain length independently. Final answers, each transition and sensitivity to a corrupted intermediate step would be scored against an exact program baseline. A derivation of how per-step error compounds with trace length would then be compared with observed failures.",
+  "connections": [
+    "Wyart: latent algorithms and scale-dependent generalization",
+    "Kambhampati: testing reasoning claims under controlled transformations",
+    "Lessard: explicit compositional structure and execution",
+    "AlphaEvolve: generation need not be reliable if verification is strong"
+  ],
+  "external_sources": [
+    {
+      "url": "https://arxiv.org/abs/2211.09066",
+      "purpose": "Checked primary paper identification, four-stage framework and scope of arithmetic experiments."
+    }
+  ],
+  "source_record": "../sources.json"
+}

@@ -1,0 +1,115 @@
+# Your Brain Doesn't Command Your Body. It Predicts It. [Max Bennett]
+
+[Original episode](https://www.youtube.com/watch?v=RvYSsi6rd4g) · [All reviews](../README.md) · [Learning path](../learning-path.md)
+
+Published: 2025-12-29 · Decision: **Core** · Confidence: High conceptual relevance; moderate confidence in the proposed neuroevolutionary synthesis, which is explicitly speculative in several crucial places.
+
+## Central claim
+
+I want to model intelligence as interacting capacities for inference, counterfactual simulation, selective planning, self-modeling, modeling other minds, and communicating imagined experience. The episode is valuable as a testable architectural decomposition, not as a settled anatomical blueprint.
+
+## Ideas I want to keep
+
+- A generative perceptual model can potentially support both interpreting ambiguous sensory evidence and imagining absent situations. Bennett links perceptual completion, episodic reconstruction, and future simulation, then asks the more difficult question: which imagined trajectory is worth computing? Merely possessing a simulator does not solve planning.
+
+- Planning has two resource-allocation problems: selecting candidate actions and deciding when to stop habitual action to deliberate. The AlphaGo analogy suggests using a learned policy to propose trajectories and disagreement or uncertainty to trigger simulation. Bennett explicitly says the corresponding mammalian mechanism is not known.
+
+- Self-models and models of other minds introduce nested latent variables: bodily state and inferred intent, then beliefs about another agent’s knowledge and simulations. Reusing one’s own action-generating model as a prior for others can save data, while also creating projection errors. This is a distinct question from whether a system passes a verbal false-belief puzzle.
+
+- Language changes the training data available to a population. Agents can learn from their own actions, their imagined actions, others’ observed actions, and others’ imagined actions. The last channel allows counterfactual plans and compressed experience to propagate beyond direct observation, supporting cumulative cultural search.
+
+- The evolutionary reconstruction uses ingroup, outgroup, and ecological conditions rather than reading human function directly from isolated anatomy. The explicit gaps in comparative data make this a useful lesson in inference under incomplete historical evidence.
+
+## Mathematical anatomy
+
+**Objects:** An environment state, observations and actions, an internal generative model, an action policy, interoceptive variables, and nested beliefs about agents. These are explanatory abstractions; the interview does not provide a fully specified neural algorithm.
+
+**Objective:** Perceptual inference explains observations; planning evaluates imagined consequences; active-inference-style control tries to realize preferred predicted states. Cultural transmission has a different selection criterion: propagation can favor ideas that are neither true nor beneficial to every individual.
+
+**Mechanism:** Condition a latent model on evidence, simulate candidate interventions, evaluate outcomes, and execute or revise. A second-order model predicts how another agent’s information changes its choices. Communication distills some internally generated trajectories into another learner.
+
+**Assumptions:** Simulations must preserve action-relevant causal relationships; candidate proposals must cover useful alternatives; uncertainty must justify computation costs. Shared human mechanisms are a useful prior for theory of mind only insofar as the other person actually shares them.
+
+**Limits:** A generic generative model need not identify causal interventions from observational data. Model-based control is not exclusive to active inference, and reward-based formulations can include information-seeking and hierarchical goals. An explicit plan can aid explanation without making every reported reason faithful.
+
+## Evidence, limitations and corrections
+
+- At 00:07:32 Bennett distinguishes the claim that neocortex enables system-level simulation from the stronger claim that the entire algorithm resides there. He rejects a literal stack of independent evolutionary brain layers.
+
+- Rat place-cell sequences and restaurant-row behavior are presented as evidence for prospective and counterfactual processing. They do not directly reveal subjective imagination or regret; neural decoding plus behavior supports narrower functional interpretations. Primary studies were not independently audited for this review.
+
+- The proposed layer-four developmental story at 00:51:04–00:54:21 is explicitly speculative. Likewise, the granular-prefrontal simulation-of-simulations mapping and energetic explanation for hierarchy depth are hypotheses, not demonstrated computations.
+
+- The saved false-belief description at 01:46:39 says Sally would look in the box after placing her marble in the basket; that contradicts its own setup. The intended answer is the original basket. This may be a speech or transcription error; audio was not checked.
+
+- Late claims that language-model inputs receive equal weight, inference merely retrieves prelearned models, or active agents necessarily reject false information are too strong. Learned priors, inference computation, tools, experimental design, and identifiability determine these outcomes. Historical model comparisons are not current benchmark findings.
+
+## Relevance to my research
+
+Core for expanding the anatomy of intelligence beyond prediction accuracy: deliberation has a cost, self-modeling changes the state space, and communication changes the population’s learning process. Its greatest value is the connected set of hypotheses to formalize and challenge, rather than memorizing a five-step evolutionary narrative.
+
+## My viewing plan
+
+**Mode:** Substantial conceptual chapters
+
+**Segments:** - **Start:** 00:07:32
+  
+  **End:** 00:23:19
+  
+  **Purpose:** Generative perception, simulation, and what understanding requires beyond classification.
+
+- **Start:** 00:34:17
+  
+  **End:** 01:08:00
+  
+  **Purpose:** Control as prediction, selective planning, self-models, and historical inference.
+
+- **Start:** 01:34:54
+  
+  **End:** 02:01:09
+  
+  **Purpose:** Nested mental models, false belief, and learning from imagined experience.
+
+- **Start:** 02:50:38
+  
+  **End:** 02:58:00
+  
+  **Purpose:** Why communication requires an evolutionary stability argument.
+
+- **Start:** 02:58:52
+  
+  **End:** 03:16:42
+  
+  **Purpose:** Intervention and world-model claims for critical examination.
+
+**Edition:** All 36,910 words of the saved publisher transcript through 03:17:04 were read. It contains references to earlier conversations and repeated themes; timings belong to this combined edition.
+
+## Objections and open questions
+
+Many behavioral results admit multiple algorithms. Neural activation is not sufficient to identify a computation, lesions can affect distributed circuits, and a plausible evolutionary story can overfit sparse species observations. Similarity to oneself is not necessary for accurately modeling another agent. A useful research program must compare these hypotheses with alternative architectures and ablation predictions.
+
+## An experiment I could try
+
+My proposed experiment is a partially observed navigation task with a learned simulator and a policy. Under matched compute, I would compare always-plan, never-plan, uncertainty-triggered planning and a trigger based on expected value of computation. A second agent with different observations would test action prediction from world state alone versus an explicit belief state. Allowing agents to exchange observed versus imagined trajectories would then reveal both transfer and propagation of model errors.
+
+## Connections in my notes
+
+- Active inference versus model-based reinforcement learning; epistemic action and bounded rationality.
+
+- Hawkins-style distributed models, Grossberg matching ideas, and Hinton-style knowledge distillation are explicitly discussed as connections, not established equivalences.
+
+## Source and coverage
+
+**Read:** Entire available transcript, sequentially; not audio verified.
+
+**Last timestamp:** 03:17:04
+
+**Source caveats:** ASR/publisher transcript may contain wording and mathematical transcription errors; timestamps refer to this saved edition.
+
+Source type: Publisher transcript. Reviewed text: 36,799 words.
+
+Transcript file: `RvYSsi6rd4g.publisher.txt` (not distributed).
+
+SHA-256: `f78def04867b6d2cb827e01fa621356dbbf4ea52c47c084a5f626a32b5ffb19c`.
+
+[Structured review](RvYSsi6rd4g.json) · [Source ledger](../sources.json)

@@ -1,0 +1,139 @@
+# KARL FRISTON - INTELLIGENCE 3.0
+
+[Original episode](https://www.youtube.com/watch?v=V_VXOdf1NMw) · [All reviews](../README.md) · [Learning path](../learning-path.md)
+
+Published: 2023-03-11 · Decision: **Worthwhile** · Confidence: high about conceptual value and limitations
+
+## Central claim
+
+The distinctive contribution is a compositional picture of intelligence: agents exchange uncertain beliefs, infer at multiple time scales, and coordinate through shared factors and selective communication. The accompanying claims that this necessarily produces ethical harmony or settles consciousness go beyond the mechanisms described.
+
+## Ideas I want to keep
+
+- At 25–31 minutes the sat-nav example makes reciprocal epistemic agency concrete. A conventional app receives a destination and returns a plan; the proposed app also asks questions that reduce uncertainty about the user. This changes the interaction protocol and data-acquisition policy, rather than merely increasing a model’s size.
+
+- The 57–61 minute account unifies state estimation, parameter learning, structural revision, and evolutionary selection as inference at different time scales. It is a useful modeling decomposition: current state and slow parameters can both be uncertain while differing in dynamical persistence and the evidence required to revise them.
+
+- The 75–88 minute section distinguishes metric contiguity, graph topology, hierarchical depth, and factorized breadth. Local convolution exploits spatial regularity; object/attribute factors represent separable causes that must recombine nonlinearly through a likelihood. This is more informative than the generic assertion that everything is hierarchical.
+
+- At 102–109 minutes communication becomes a technical problem: agents might pass sufficient statistics of beliefs directly, but need compatible latent semantics and decisions about whom to listen to. Shared representations, message routing, and calibration are separate requirements. Language is presented as an evolved coordination interface, not merely a bag of tokens.
+
+- The later ethics discussion inadvertently supplies an important counterexample to its own optimism: an autocracy can reduce uncertainty by making everyone behave alike. Friston then invokes credentials, contracts, and governance constraints and finally admits there are no guarantees. That sequence exposes why epistemic coordination is not sufficient for desirable coordination.
+
+## Mathematical anatomy
+
+**Objects:** Agents with latent variables, observations, preferred outcomes, approximate posterior beliefs, and graphs of conditional dependencies. Across scales: fast states z, slower parameters theta, structures m, and messages between partially shared latent factors.
+
+**Assumptions:** Agents need compatible semantics or translation between their model factors, valid treatment of shared evidence, and justified approximations to inference. A sparsity pattern does not automatically provide a statistical blanket, and large size alone does not prove a universal hierarchy.
+
+**Objective:** Within a chosen model, variational free energy balances posterior-to-prior KL and expected likelihood. A common planning form minimizes negative expected information gain plus negative expected log preference. Specifying a preference distribution over many outcome dimensions remains a normative choice; dimensional richness does not eliminate it.
+
+**Mechanism:** A standard illustration of the message-passing idea is q_i(z) proportional to p_i(z) times incoming likelihood messages. This requires care: multiplying already-correlated posteriors can count shared observations repeatedly. Multi-timescale updates separate inference, learning, and architecture search, while factorized beliefs trade computational tractability for dependency approximation.
+
+**Limits:** Generalized synchronization or consensus can occur on wrong beliefs. Agreement does not imply aligned utilities, truth, fairness, or respect for individuals. A model of possible futures can support planning without establishing phenomenal consciousness. Complexity measured by KL is not automatically the minimum number of edges or minimum physical energy.
+
+## Evidence, limitations and corrections
+
+- Friston first calls the perspective assumption-free and later explicitly commits to state dynamics and time-scale separation. The interview does not provide the additional conditions needed for its large-system blanket claim. The universal statement should be read as a research position, not an audited theorem.
+
+- The assertion that an external observer can never know internal states because of a blanket is too strong: conditional independence blocks direct dependence once the blanket is known; it does not imply those internal states cannot be inferred, sometimes very accurately, from blanket observations.
+
+- The 129–135 minute claim that is equals ought substitutes characteristic or preferred states for ethical justification. Persistence of a harmful institution would not establish that it should persist. The later need for protective constraints confirms that ethics has not disappeared into physics.
+
+- The final section explicitly acknowledges that an ecosystem still has competition, wars, access problems, and no guarantees. That concession qualifies the earlier promises of inevitable harmony. Claims connecting psychiatric diagnoses to absent selfhood or moral failure are unsupported generalizations and have no evidential place in my scientific model of agency.
+
+- Friston acknowledges unfamiliarity with GLOM and with the actual ChatGPT interface at recording time. The episode’s neural interpolation-only claims, universal architecture forecasts, and description of transformer permutation properties are not reliable technical assessments. A causal decoder with positional information is not simply a permutation-invariant function.
+
+- The publisher white-paper abstract describes a vision and roadmap, not a demonstrated system achieving broad collective intelligence. The episode likewise offers no quantitative collective-intelligence result or experiment discriminating its consciousness account.
+
+## Relevance to my research
+
+Worthwhile for the statistical organization of intelligence across agents and scales. The best new question is how to share uncertain, partially overlapping world models without erasing diversity or counting the same evidence twice. I would approach the social and consciousness sections as claims to test, not as deductions that a good probabilistic objective makes unavoidable.
+
+## My viewing plan
+
+**Mode:** chapters
+
+**Segments:** - **Start:** 00:25:06
+  
+  **End:** 00:38:03
+  
+  **Purpose:** Reciprocal curiosity, distributed agency, and counterfactual futures.
+
+- **Start:** 00:57:02
+  
+  **End:** 01:01:04
+  
+  **Purpose:** State, parameter, and structure inference across time scales.
+
+- **Start:** 01:15:00
+  
+  **End:** 01:29:11
+  
+  **Purpose:** Metric versus topological structure and factorized object/attribute representations.
+
+- **Start:** 01:41:00
+  
+  **End:** 01:50:03
+  
+  **Purpose:** Belief messages, shared semantics, and selective routing.
+
+- **Start:** 02:39:00
+  
+  **End:** 02:48:01
+  
+  **Purpose:** Optional critical comparison between the promise that ethics disappears and the eventual admission that governance and guarantees remain unresolved.
+
+**Edition note:** Entire publisher transcript read through 02:59:06. RSS and video durations differ by one second; two publisher chapter lists disagree in places. Ranges use observed transcript timing.
+
+## Objections and open questions
+
+- Local agents can be intelligible and efficient but incur communication costs, coordination failures, or incompatibility between ontologies. A large jointly trained model may share useful abstractions more efficiently for some tasks.
+
+- A shared objective family does not specify a unique algorithm or establish equivalence among evolution, neural learning, and cultural coordination; each mapping needs its own variables, update rule, and empirical test.
+
+## An experiment I could try
+
+My proposed experiment uses three Bayesian agents estimating a latent state from partly overlapping sensors. I would compare centralized inference, naive posterior multiplication and provenance-aware message passing through overconfidence, predictive accuracy, communication cost and robustness when one agent is biased. Giving the agents conflicting outcome preferences would then test whether equal beliefs lead to cooperation and what additional mechanism is required.
+
+## Connections in my notes
+
+- Thomas Parr: clearer foundation for inference, active sampling, and learned preferences.
+
+- Hawkins: object-relative models and consensus offer a more concrete neural comparison for distributed representations.
+
+- Molnar: explicit labels and a graph do not alone establish causal validity.
+
+- Stanley: diversity and useful disagreement can be prerequisites for discovering new solutions.
+
+## Primary sources checked
+
+- **Url:** https://arxiv.org/abs/2212.01354
+  
+  **Claim:** Primary abstract checked; the work presents a roadmap for ecosystems of shared intelligence, not an empirical demonstration.
+
+- **Url:** https://arxiv.org/abs/2205.10190
+  
+  **Claim:** Primary abstract checked on the distinction between sparse coupling and statistical blankets.
+
+## Source and coverage
+
+**Status:** complete_available_text
+
+**Method:** Read entire saved transcript in contiguous bounded chunks; only repeated timestamp/speaker-label formatting suppressed during reading. Audio and video not checked.
+
+**Last timestamp:** 02:59:19
+
+**Caveats:** - ASR transcription can corrupt names and mathematical terminology; transcript completeness is not an audio audit.
+
+- Source is recovered publisher transcript; completeness here means all available publisher text, not independently verified audio completeness.
+
+- Entire publisher transcript read through 02:59:06. RSS and video durations differ by one second; two publisher chapter lists disagree in places. Ranges use observed transcript timing.
+
+Source type: Publisher transcript. Reviewed text: 32,293 words.
+
+Transcript file: `V_VXOdf1NMw.publisher.txt` (not distributed).
+
+SHA-256: `3a5807fc12558dabe5eaabaa907d795a6db93cf772c51663ef88d11c0b233586`.
+
+[Structured review](V_VXOdf1NMw.json) · [Source ledger](../sources.json)

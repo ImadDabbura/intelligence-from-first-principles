@@ -1,0 +1,95 @@
+{
+  "id": "9BC9BsZRCKQ",
+  "title": "ML Robustness & Engineering - Andrew Ilyas (MIT)",
+  "words_read": 19337,
+  "coverage": {
+    "status": "complete_available_text",
+    "start": "00:00:00",
+    "end": "01:27:39",
+    "caveats": [
+      "Read the complete recovered publisher transcript; audio not independently checked. Speaker attribution is generic and several names/technical terms are mistranscribed. Numerical examples in the conversation can be illustrative rather than paper-table results."
+    ]
+  },
+  "decision": "core",
+  "confidence": "high",
+  "thesis": "I want to study a learning system as a data-dependent scientific object: intervening on the dataset, measuring changes after retraining, and distinguishing genuinely predictive but fragile features from both memorization and robust causal structure.",
+  "contributions": [
+    "At 06:38–23:53, datamodeling shifts the unit of analysis from a trained network to the learning algorithm. For a fixed test input, a surrogate predicts its output from the binary membership vector of a training subset. The surprising empirical observation is useful near-linearity in data space despite nonlinear training. Coefficients have shared training-example coordinates across architectures, enabling comparisons that arbitrary hidden representations do not naturally allow.",
+    "At 26:24–36:50, TRAK makes the distinction between a useful approximation and an exact mechanism concrete. It linearizes outputs around trained parameters, applies influence-style reasoning, projects huge gradient features, and averages across trained models. Smaller random projections can improve attribution before becoming too small, suggesting a regularization effect rather than merely information loss. This is a valuable example of computational approximation changing statistical behavior.",
+    "At 37:10–40:49, textual entailment and actual training influence come apart. Retrieval can recover documents that state a fact while another attribution method identifies examples whose removal changes the prediction more. The intervention target therefore determines what counts as correct attribution. This does not mean an influential example is the logical source, nor that deletion fully erases a concept.",
+    "At 53:18–01:01:48, adversarially perturbed and relabeled training data can still yield above-chance accuracy on ordinary images. That challenges the belief that small adversarial signals must be useless noise. Predictiveness under the original distribution, stability to small perturbations and human perceptual salience are separate properties. Adversarial training changes which predictive features remain usable.",
+    "At 59:05–01:00:24 and 01:15:35–01:25:40, the discussion separates robustness to test-input perturbations, removal of training data and distribution/causal changes. It then moves upstream to collection: ambiguous ImageNet labels and occupation self-selection illustrate how a model can learn the sampling procedure rather than the intended target structure."
+  ],
+  "mathematical_anatomy": {
+    "objects": "A randomized training procedure A, source dataset D, subset indicator z, test point x, prediction statistic m(A(D_z),x), surrogate coefficients w_x, gradient features, and an explicitly chosen perturbation or selection model.",
+    "objective": "Predict dataset counterfactuals g_x(z)≈E_A[m(A(D_z),x)], rather than assign a uniquely fair share of credit. Robust learning instead minimizes E_(x,y)[max_{δ in Δ} loss(fθ(x+δ),y)]. These are distinct optimization problems, with different intervention domains.",
+    "mechanism": "Fit a linear datamodel b_x+w_x·z by repeated subset training. TRAK approximates output variation through first-order parameter features and influence-style estimates, with projection and ensembling. The episode uses correct-class margin as an informative real-valued statistic. Removing influential subsets and retraining tests the surrogate’s practical counterfactual predictions.",
+    "assumptions": "Results depend on subset sampling distribution and size, training procedure, random-seed averaging, output statistic and projection choice. Adversarial robustness is always relative to Δ, a norm/radius or another allowable transformation set. Self-selection recovery assumes a specified structural data-generation model, not arbitrary missing-not-at-random observations.",
+    "limits": "A linear fit need not capture interactions or extrapolate to very different subset sizes. Correlation measures ranking/co-movement and does not establish numerical calibration. Datamodel coordinates align examples, but do not make causal effects globally invariant to dataset changes. Parameter linearization is local and is not proof that the original network learns no nonlinear features."
+  },
+  "evidence_and_limits": [
+    "The interview reports very high random-subset correlation and weaker but useful deliberately selected-subset performance. These are empirical regularities, not a theorem about all learning algorithms. The proposed width/linearity explanation is explicitly called unverified folklore.",
+    "The cats/dogs 90% example at 56:53 is a simplified narrative, not a universal quantitative result of the original study. The authors’ original poster reports different dataset-specific accuracies; the durable conclusion is that non-robust information can generalize.",
+    "The non-robust-feature explanation establishes an important mechanism, not exclusivity. A primary Distill discussion constructs adversarial vulnerability without such features; overfitting and other sources of brittleness can coexist.",
+    "Dense data support is suggestive of broad abstraction, while sparse support can expose exemplar dependence; neither alone settles reasoning, semantics or causal understanding. Ilyas appropriately refuses to equate these undefined concepts.",
+    "The selection-bias result is explicitly restricted to a well-specified generative model. Applying a wrong strategic-selection model can move estimates in an unknown direction. Human perceptual robustness likewise should not be interpreted as universal immunity to adversarial or perceptual failures."
+  ],
+  "first_principles_value": "Very high for my research and distinct from circuit interpretation: it supplies an experimentally grounded way to ask what learning depends on, what a feature buys, and which invariances an objective actually enforces. The pipeline viewpoint prevents attributing every failure to the architecture while ignoring labels, selection and deployment.",
+  "watch_guidance": {
+    "mode": "I plan to watch the full technical conversation.",
+    "ranges": [
+      {
+        "start": "00:06:38",
+        "end": "00:43:54",
+        "why": "Datamodels, TRAK and the distinction between entailment and intervention-based attribution."
+      },
+      {
+        "start": "00:53:18",
+        "end": "01:10:46",
+        "why": "Predictive non-robust features and different robustness definitions."
+      },
+      {
+        "start": "01:15:35",
+        "end": "01:25:40",
+        "why": "Collection bias and limits of self-selection correction."
+      }
+    ],
+    "edition_note": "Ranges are observed in the recovered publisher edition ending 01:27:39; opening sponsor and closing career material can be skipped."
+  },
+  "counterarguments": "Attribution through retraining may be too expensive and coarse to reveal an actual inference-time algorithm. Its strength is complementary: a circuit story without data counterfactuals can miss learning dependence, while a datamodel without circuits cannot uniquely identify computation. Robust features also depend on what invariances I choose to demand.",
+  "exercise": "I want to construct a small classification dataset with one stable causal feature, a strongly predictive but perturbable feature and a rare subgroup supported by few examples. Models trained on random subsets would supply per-test-point margin datamodels. Held-out random subsets and adversarially chosen removals would be evaluated with correlation and calibration plotted separately. Comparing data-removal brittleness, input-perturbation robustness and shifted-test accuracy would expose where these orderings disagree.",
+  "connections": [
+    "Nanda: interventions and informative metrics, but on training examples instead of activations.",
+    "Belrose: concept accessibility/erasure differs from deletion of influential training evidence.",
+    "Balestriero: training objectives bias selected features; local geometric smoothness is not equivalent to all forms of robustness.",
+    "Koolen: prospective data acquisition must optimize information relevant to an explicit decision."
+  ],
+  "external_citations": [
+    {
+      "title": "Datamodels: Predicting Predictions from Training Data",
+      "url": "https://arxiv.org/abs/2202.00622",
+      "use": "Primary datamodel formulation."
+    },
+    {
+      "title": "TRAK: Attributing Model Behavior at Scale",
+      "url": "https://arxiv.org/abs/2303.14186",
+      "use": "Primary attribution method."
+    },
+    {
+      "title": "Adversarial Examples Are Not Bugs, They Are Features",
+      "url": "https://arxiv.org/abs/1905.02175",
+      "use": "Primary non-robust feature experiment."
+    },
+    {
+      "title": "Authors’ adversarial-features poster",
+      "url": "https://people.csail.mit.edu/tsipras/bugs_poster.pdf",
+      "use": "Dataset-specific numerical examples differ from the simplified cats/dogs story."
+    },
+    {
+      "title": "Adversarial Examples are Just Bugs, Too",
+      "url": "https://distill.pub/2019/advex-bugs-discussion/response-5/",
+      "use": "Primary counterexample to an exclusive non-robust-feature explanation."
+    }
+  ],
+  "source_record": "../sources.json"
+}

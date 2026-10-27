@@ -1,0 +1,78 @@
+{
+  "id": "h-dYzjF8eFA",
+  "title": "The Math Behind Every Recommendation You've Ever Seen - Wouter Koolen",
+  "words_read": 18455,
+  "coverage": {
+    "status": "complete_available_text",
+    "start": "00:00:00",
+    "end": "01:48:15",
+    "caveats": [
+      "Full saved transcript read including 12-minute recap and postscript. No audio verified. Postscript explicitly lacks guest recording; do not attribute its quantum-computation claims to Koolen."
+    ]
+  },
+  "decision": "core",
+  "confidence": "high",
+  "thesis": "One of the clearest mathematical foundations for intelligence as selective information acquisition: the right experiment depends on which decision the information must support, and optimal behavior cannot be separated from the feedback model, objective and resource regime.",
+  "contributions": [
+    "At 18:57–25:20, full-information learning, bandits and RL differ by what an action changes: observations, future state, or neither. The portfolio dispute is especially instructive: unknown returns do not make a problem bandit feedback if unchosen returns become observable. The information interface needs to be specified before the algorithm is selected.",
+    "At 26:16–36:18, maximizing reward during learning differs from identifying the best option for later deployment. This can change inferior-arm sampling from logarithmic to a positive asymptotic fraction in the discussed independent-arm regimes. Fixed budget, fixed confidence and simple regret are different experimental contracts, not interchangeable names for exploration.",
+    "At 37:28–45:47, planning is itself an information-allocation problem. Winning imaginary rollouts is not the objective; choosing a good actual move is. Search can compensate for an imperfect value function by evaluating deeper and propagating information. A regret-oriented component can therefore be mismatched to a best-move identification objective.",
+    "At 47:12–57:05, lower bounds become constructive: identify alternative models that would change the correct answer, quantify distinguishability, and allocate samples to rule them out efficiently. The proposed exploration compiler would consume distributional assumptions and an answer specification, not a vague command to “be curious”.",
+    "At 1:12:41–1:18:44 and 1:27:23–1:33:17, asymptotic optimality can hide practical failure. A provisional estimate may allocate no samples to a region that would correct it. Baseline exploration and a valid stopping rule solve different problems: learning efficiency versus decision reliability.",
+    "At 1:39:34–1:44:33, Murphy sampling illustrates decision-directed pessimism: sample posterior worlds conditioned on a bad branch, then inspect its weakest arm. The surprising success in a restricted maximin problem, and failure to readily extend it one level deeper, show why elegant algorithms remain assumption-specific."
+  ],
+  "mathematical_anatomy": {
+    "objects": "Arms with distributions nu_i and means mu_i; a history-dependent sampling rule; stopping time tau; terminal recommendation a_hat. In a game tree, the answer is the root move after min/max propagation, not the best leaf. Contextual variants learn a policy from features to arms.",
+    "objective": "Cumulative regret sums mu_star-mu_A_t. Fixed-confidence identification minimizes E[tau] subject to P(a_hat != a_star)<=delta across the stipulated model class. Fixed-budget identification instead constrains samples and minimizes error; these objectives induce different sampling priorities.",
+    "mechanism": "For regular independent parametric arms, a characteristic information rate has the form sup_w inf_{alternative lambda} sum_i w_i KL(nu_i,lambda_i), where alternatives change the correct answer and w is an allocation simplex. Its reciprocal controls leading log(1/delta) sample complexity. The procedure estimates the instance, tracks promising allocation proportions, retains enough exploration to correct errors, and stops only when evidence excludes wrong answers.",
+    "assumptions": "The sharp picture depends on a specified family, feedback protocol, identifiability and appropriate separation of answers. The transcript describes one-parameter families, structural restrictions and different answer maps; changing these changes the alternative set. Adversarial regret also needs a defined comparator and adversary timing, rather than an omnipotent opponent.",
+    "limits": "Maximizing information about every parameter can waste samples irrelevant to the decision. A prior or causal structure can reduce needed experiments only when its restrictions are correct. Statistical oracle reductions do not make the supervised optimization oracle tractable. Small-delta asymptotics do not determine finite-confidence performance."
+  },
+  "evidence_and_limits": [
+    "The primary Garivier–Kaufmann publication confirms Track-and-Stop, optimal allocation tracking and asymptotic fixed-confidence optimality for the stated bandit setting; the entire proof is not audited here.",
+    "The opening recap overstates finite-sample optimality relative to the guest’s careful later discussion. The main interview explicitly emphasizes mixed practical behavior and unresolved lower-order terms.",
+    "At 30:01–30:23 pure exploration is equated with maximum information about all distributions. The sharper interpretation is information needed for the requested answer; a high-entropy irrelevant arm need not deserve attention.",
+    "The clinical-trial analogies simplify ethical, regulatory, delayed-feedback and heterogeneous-patient constraints. They are illustrations of objectives, not validated trial-design or medical guidance, and contemporary regulations were not checked.",
+    "The fixed-confidence/Las Vegas analogy at 36:18 is imperfect: fixed confidence still permits nonzero error, whereas Las Vegas algorithms conventionally guarantee correctness. At 1:05:13–1:06:09 the host’s mirror-descent-as-Hilbert-kernel account is also imprecise; mirror descent is based on a chosen convex geometry/Bregman divergence.",
+    "The exploration compiler is a research aspiration in this historical interview. Murphy sampling’s broader optimality and current compiler availability were not verified. Guest limits and failed extensions are part of the evidence, not gaps to silently fill."
+  ],
+  "first_principles_value": "A close fit to my questions about active learning, scientific experimentation, planning and bounded reasoning. The transferable principle is to ask which alternative worlds would change my action, then allocate evidence and computation to distinguishing them. This remains useful far beyond any particular language architecture.",
+  "watch_guidance": {
+    "mode": "full",
+    "ranges": [
+      {
+        "start": "00:16:47",
+        "end": "00:57:05",
+        "why": "Core foundations: feedback, objectives, planning and constructive lower bounds."
+      },
+      {
+        "start": "00:58:24",
+        "end": "01:22:47",
+        "why": "Reward-free exploration, causal structure, adversarial learning, finite-time limitations and contextual policies."
+      },
+      {
+        "start": "01:27:23",
+        "end": "01:44:33",
+        "why": "Moderate confidence, safe stopping and Murphy sampling."
+      }
+    ],
+    "edition_note": "I would skip the repeated introductory montage and postscript. Exact ranges from local edition; guest recording ends before postscript.",
+    "intention": "I plan to watch the full main interview, skipping the repeated introductory montage and postscript."
+  },
+  "counterarguments": "Bandits deliberately remove state transitions and may hide the representation learning that makes real intelligence hard. Yet this is a reason to understand what the abstraction isolates, not dismiss it: it exposes objective mismatches that remain present inside more elaborate systems. Information-theoretic optimality must always be read relative to the chosen model class.",
+  "exercise": "I would simulate three Bernoulli arms, two nearly tied and one clearly inferior, and compare UCB-style cumulative-reward behavior with a confidence-based best-arm procedure under equal budgets. The plots would track cumulative regret, final error and sampling proportions. Adding a two-level maximin tree whose estimated best branch initially hides a poor leaf would test self-confirmation without forced exploration. I would keep the stopping test fixed while varying allocation heuristics.",
+  "connections": [
+    "Lange: experiment selection and bandit allocation inside automated scientific search require the right objective.",
+    "Zahavy: nonstationarity and changing tasks challenge stationary assumptions.",
+    "Valpola: planning quality depends on model error and where computation is spent.",
+    "Rocktäschel: novelty seeking differs from decision-directed information acquisition."
+  ],
+  "external_citations": [
+    {
+      "title": "Optimal Best Arm Identification with Fixed Confidence",
+      "url": "https://proceedings.mlr.press/v49/garivier16a.html",
+      "use": "Primary abstract checked for Track-and-Stop and its asymptotic setting, not a full proof audit."
+    }
+  ],
+  "source_record": "../sources.json"
+}

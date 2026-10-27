@@ -1,0 +1,2555 @@
+[
+  {
+    "id": "615B5nyMFPk",
+    "title": "What Most People Get Wrong About Evolution | Akarsh Kumar",
+    "status": "reviewed_available_text",
+    "source_type": "publisher_transcript",
+    "words_in_selected_file": 9710,
+    "sha256": "fd1ee89f3dbd830a53f6d49fe0ec62fff7bb61503f077bf2c94676a5dd8ea505",
+    "reused": false,
+    "source_notes": {
+      "status": "complete_available_text",
+      "first_timestamp": "00:00:00",
+      "last_timestamp": "00:47:43",
+      "method": "Entire publisher transcript read; truncated middle was separately reread in full.",
+      "caveats": [
+        "Publisher ASR contains obvious technical/name errors; audio and visual demonstrations were not independently checked.",
+        "Timestamp endpoint is consistent with the current 47:55 video; exact alignment is not certified."
+      ]
+    },
+    "source_file": "615B5nyMFPk.publisher.txt",
+    "source_url": "https://www.youtube.com/watch?v=615B5nyMFPk",
+    "distribution": "Transcript retained in the private research archive; not distributed in this repository."
+  },
+  {
+    "id": "yB6_iFGTq9k",
+    "title": "Can Rewriting an AI Agent Bend the Intelligence Curve? - Zhengyao Jiang",
+    "status": "reviewed_available_text",
+    "source_type": "existing_caption_or_archive",
+    "words_in_selected_file": 5751,
+    "sha256": "c8b3ea1b67dfd1c6c0d46fa7ad0e9938d0de83f324d8a3ecdeee1a34586cb716",
+    "reused": true,
+    "source_notes": {
+      "read": "Entire available transcript, sequentially; not audio verified.",
+      "last_timestamp": "00:43:29",
+      "source_caveats": "ASR/publisher transcript may contain wording and mathematical transcription errors; timestamps refer to this saved edition."
+    },
+    "source_file": "yB6_iFGTq9k.txt",
+    "source_url": "https://www.youtube.com/watch?v=yB6_iFGTq9k",
+    "distribution": "Transcript retained in the private research archive; not distributed in this repository."
+  },
+  {
+    "id": "72Im-Mm5JKs",
+    "title": "The AI That Replaces Hours of Model Tuning - Frank Hutter",
+    "status": "reviewed_available_text",
+    "source_type": "publisher_transcript",
+    "words_in_selected_file": 20073,
+    "sha256": "ec7d844e5bb486cf0e36f67f2be43760990e191ece19d2960e2315ec7af9b7c0",
+    "reused": true,
+    "source_notes": {
+      "status": "complete_available_text",
+      "start": "00:00:00",
+      "end": "01:52:39",
+      "caveats": [
+        "Read all 20,188 source words including commercial discussion and appended TabPFN-3.5 update. Publisher transcript with speaker labels; no audio verification. Product comparisons refer to the recording and update, not an independently rerun benchmark."
+      ]
+    },
+    "source_file": "72Im-Mm5JKs.publisher.txt",
+    "source_url": "https://www.youtube.com/watch?v=72Im-Mm5JKs",
+    "distribution": "Transcript retained in the private research archive; not distributed in this repository."
+  },
+  {
+    "id": "1S1B4XkFCD8",
+    "title": "Why More Data Cannot Replace Prior Structure - Alexander Mattick",
+    "status": "reviewed_available_text",
+    "source_type": "publisher_transcript",
+    "words_in_selected_file": 26455,
+    "sha256": "0d4e1520089f8a5dad69f913f7179bc21ed5e4b0e3851d254ce8d7b278a96776",
+    "reused": true,
+    "source_notes": {
+      "status": "complete_available_text",
+      "start": "00:00:00",
+      "end": "02:14:14",
+      "caveats": [
+        "Read complete publisher transcript, 28,000 source words; no audio verification.",
+        "Names and technical terms contain transcription errors; quoted theoretical positions are interpreted conservatively."
+      ]
+    },
+    "source_file": "1S1B4XkFCD8.publisher.txt",
+    "source_url": "https://www.youtube.com/watch?v=1S1B4XkFCD8",
+    "distribution": "Transcript retained in the private research archive; not distributed in this repository."
+  },
+  {
+    "id": "L6tLBApQN-g",
+    "title": "How Physical AI Learns Across Language, Video and Action — Ming-Yu Liu",
+    "status": "reviewed_available_text",
+    "source_type": "publisher_transcript",
+    "words_in_selected_file": 3872,
+    "sha256": "b5960e8a030f4fc8efe33820c93089eeaacac43dfe5dc2e9b6d427cdaede1d8e",
+    "reused": true,
+    "source_notes": {
+      "read": "Entire available transcript, sequentially; not audio verified.",
+      "last_timestamp": "00:25:52",
+      "source_caveats": "ASR/publisher transcript may contain wording and mathematical transcription errors; timestamps refer to this saved edition."
+    },
+    "source_file": "L6tLBApQN-g.publisher.txt",
+    "source_url": "https://www.youtube.com/watch?v=L6tLBApQN-g",
+    "distribution": "Transcript retained in the private research archive; not distributed in this repository."
+  },
+  {
+    "id": "ixu0H8bsCts",
+    "title": "Speech Recognition Is Not a Solved Problem — Pavan Kumar Reddy",
+    "status": "reviewed_available_text",
+    "source_type": "existing_caption_or_archive",
+    "words_in_selected_file": 15600,
+    "sha256": "9ceedae433cb3b6e637444daa02009d5b4f8f04aeb8047bcdb90cd04959dae87",
+    "reused": true,
+    "source_notes": {
+      "status": "complete_available_text",
+      "start": "00:00:00",
+      "end": "01:41:34",
+      "caveats": [
+        "Complete locally recovered caption transcript read. Header identifies an en-GB non-auto-generated track; that is source metadata, not independent accuracy certification. Timestamps mark roughly minute-long segments, so ranges are coarse. Audio was not checked. Episode explicitly produced in partnership with Mistral AI."
+      ]
+    },
+    "source_file": "ixu0H8bsCts.txt",
+    "source_url": "https://www.youtube.com/watch?v=ixu0H8bsCts",
+    "distribution": "Transcript retained in the private research archive; not distributed in this repository."
+  },
+  {
+    "id": "P4bYjTJvD28",
+    "title": "What Building an AI Scientist Actually Requires Beyond Intelligence — Edward Hughes",
+    "status": "reviewed_available_text",
+    "source_type": "publisher_transcript",
+    "words_in_selected_file": 23972,
+    "sha256": "bda9aade702e425afdabba3a665aa7e2bd74d1203eddc322766e1c73455b1876",
+    "reused": true,
+    "source_notes": {
+      "read": "Entire available transcript, sequentially; not audio verified.",
+      "last_timestamp": "02:01:43",
+      "source_caveats": "ASR/publisher transcript may contain wording and mathematical transcription errors; timestamps refer to this saved edition."
+    },
+    "source_file": "P4bYjTJvD28.publisher.txt",
+    "source_url": "https://www.youtube.com/watch?v=P4bYjTJvD28",
+    "distribution": "Transcript retained in the private research archive; not distributed in this repository."
+  },
+  {
+    "id": "_egu7OFem-k",
+    "title": "Strange Geometric Shapes Found Inside AIs — Tom McGrath",
+    "status": "reviewed_available_text",
+    "source_type": "publisher_transcript",
+    "words_in_selected_file": 20292,
+    "sha256": "e2a0cb8bed930b34d6bdc21dde0774d97db3e1320e12eb1dba1ed3c0a319d14c",
+    "reused": true,
+    "source_notes": {
+      "read": "Entire available transcript, sequentially; not audio verified.",
+      "last_timestamp": "01:40:00",
+      "source_caveats": "ASR/publisher transcript may contain wording and mathematical transcription errors; timestamps refer to this saved edition."
+    },
+    "source_file": "_egu7OFem-k.publisher.txt",
+    "source_url": "https://www.youtube.com/watch?v=_egu7OFem-k",
+    "distribution": "Transcript retained in the private research archive; not distributed in this repository."
+  },
+  {
+    "id": "revreN8LZ_M",
+    "title": "AI Is Learning at the Wrong Level of Abstraction — Matthieu Wyart",
+    "status": "reviewed_available_text",
+    "source_type": "publisher_transcript",
+    "words_in_selected_file": 14804,
+    "sha256": "bc7c96b0502dc619c1e6c927b24556cfd732dd5fb839b244625668879619b1f6",
+    "reused": true,
+    "source_notes": {
+      "status": "complete_available_text",
+      "start": "00:00:00",
+      "end": "01:18:51",
+      "caveats": [
+        "Complete publisher transcript read in contiguous chunks. Audio and displayed figures not verified. Some transcription errors affect technical terms; claims below follow the coherent surrounding explanation rather than literal garbled phrases."
+      ]
+    },
+    "source_file": "revreN8LZ_M.publisher.txt",
+    "source_url": "https://www.youtube.com/watch?v=revreN8LZ_M",
+    "distribution": "Transcript retained in the private research archive; not distributed in this repository."
+  },
+  {
+    "id": "n1Qk8xbqF-M",
+    "title": "How Researchers Test AI for Hidden Goals — Apollo Research",
+    "status": "reviewed_available_text",
+    "source_type": "publisher_transcript",
+    "words_in_selected_file": 14064,
+    "sha256": "e6836f8a100b7a0b7501833ef551ce6e6516dad97d227761e3c612658f1ceea6",
+    "reused": true,
+    "source_notes": {
+      "status": "complete_available_text",
+      "method": "Read entire saved transcript; any truncated tool section reread in bounded chunks. Audio not checked.",
+      "last_timestamp": "01:18:53",
+      "caveats": [
+        "ASR transcription can corrupt names and mathematical terminology; transcript completeness is not an audio audit."
+      ]
+    },
+    "source_file": "n1Qk8xbqF-M.publisher.txt",
+    "source_url": "https://www.youtube.com/watch?v=n1Qk8xbqF-M",
+    "distribution": "Transcript retained in the private research archive; not distributed in this repository."
+  },
+  {
+    "id": "Vg6FBKTlfOw",
+    "title": "ARC-AGI-3 winning team - Millennia of minds, compressed into words.",
+    "status": "reviewed_available_text",
+    "source_type": "publisher_transcript",
+    "words_in_selected_file": 17980,
+    "sha256": "2ae4fa8a0f20876818e3bab3c29ab9eedf03ce47a1bcbbab9b83ec2149c27ca2",
+    "reused": true,
+    "source_notes": {
+      "status": "complete_available_text",
+      "start": "00:00:00",
+      "end": "01:24:26",
+      "caveats": [
+        "Complete publisher transcript read. No audio or interactive game demonstrations verified. Opening montage repeats later material. Scores, competition rules and future plans are interview-era reports, not independently checked current standings."
+      ]
+    },
+    "source_file": "Vg6FBKTlfOw.publisher.txt",
+    "source_url": "https://www.youtube.com/watch?v=Vg6FBKTlfOw",
+    "distribution": "Transcript retained in the private research archive; not distributed in this repository."
+  },
+  {
+    "id": "5pieVHmlbyk",
+    "title": "The Thermodynamic AI Chip · Thomas Ahle",
+    "status": "reviewed_available_text",
+    "source_type": "publisher_transcript",
+    "words_in_selected_file": 13139,
+    "sha256": "73709586839dcca2f447e52716e21fa2b520aa4453b8aaaf64a93255e56bfe94",
+    "reused": true,
+    "source_notes": {
+      "read": "Entire available transcript, sequentially; not audio verified.",
+      "last_timestamp": "01:02:51",
+      "source_caveats": "ASR/publisher transcript may contain wording and mathematical transcription errors; timestamps refer to this saved edition."
+    },
+    "source_file": "5pieVHmlbyk.publisher.txt",
+    "source_url": "https://www.youtube.com/watch?v=5pieVHmlbyk",
+    "distribution": "Transcript retained in the private research archive; not distributed in this repository."
+  },
+  {
+    "id": "e3gBwLWAerw",
+    "title": "He won a Nobel here for AlphaFold. Then he left. - John Jumper",
+    "status": "reviewed_available_text",
+    "source_type": "publisher_transcript",
+    "words_in_selected_file": 10697,
+    "sha256": "a40318cf6ba134e96b9e277977c673671904aa86bf3a5afd0e92751c09ce9a37",
+    "reused": true,
+    "source_notes": {
+      "read": "Entire available transcript, sequentially; not audio verified.",
+      "last_timestamp": "00:52:59",
+      "source_caveats": "ASR/publisher transcript may contain wording and mathematical transcription errors; timestamps refer to this saved edition."
+    },
+    "source_file": "e3gBwLWAerw.publisher.txt",
+    "source_url": "https://www.youtube.com/watch?v=e3gBwLWAerw",
+    "distribution": "Transcript retained in the private research archive; not distributed in this repository."
+  },
+  {
+    "id": "AREWYbVtX64",
+    "title": "Intelligence is collective, not artificial — Prof. Michael I. Jordan (UC Berkeley / Inria)",
+    "status": "reviewed_available_text",
+    "source_type": "publisher_transcript",
+    "words_in_selected_file": 15477,
+    "sha256": "928ff2bec3f28aaa438a3878e6eef5f03b219583063a5a9b362ddd6266d1f2a4",
+    "reused": true,
+    "source_notes": {
+      "read": "Entire available transcript, sequentially; not audio verified.",
+      "last_timestamp": "01:17:03",
+      "source_caveats": "ASR/publisher transcript may contain wording and mathematical transcription errors; timestamps refer to this saved edition."
+    },
+    "source_file": "AREWYbVtX64.publisher.txt",
+    "source_url": "https://www.youtube.com/watch?v=AREWYbVtX64",
+    "distribution": "Transcript retained in the private research archive; not distributed in this repository."
+  },
+  {
+    "id": "EInEmGaMRLc",
+    "title": "When AI Discovers the Next Transformer — Robert Lange",
+    "status": "reviewed_available_text",
+    "source_type": "publisher_transcript",
+    "words_in_selected_file": 14651,
+    "sha256": "e4f2fefc33f6dca625aeaa7b47b34da5319895ed115b262ef71b247f64593a64",
+    "reused": true,
+    "source_notes": {
+      "status": "complete_available_text",
+      "start": "00:00:00",
+      "end": "01:18:02",
+      "caveats": [
+        "Complete publisher transcript read in contiguous chunks. Audio and displayed evolutionary graphs not checked. The title describes a hoped-for milestone; the interview does not report discovery of a replacement for the Transformer."
+      ]
+    },
+    "source_file": "EInEmGaMRLc.publisher.txt",
+    "source_url": "https://www.youtube.com/watch?v=EInEmGaMRLc",
+    "distribution": "Transcript retained in the private research archive; not distributed in this repository."
+  },
+  {
+    "id": "M2iX6HQOoLg",
+    "title": "What If Intelligence Didn't Evolve? It \"Was There\" From the Start! - Blaise Agüera y Arcas",
+    "status": "reviewed_available_text",
+    "source_type": "publisher_transcript",
+    "words_in_selected_file": 11072,
+    "sha256": "4be8e0cac17e6a69fcec754342f118eec689419e4ee1864be9662d94342f6f6c",
+    "reused": true,
+    "source_notes": {
+      "read": "Entire available transcript, sequentially; not audio verified.",
+      "last_timestamp": "00:55:38",
+      "source_caveats": "ASR/publisher transcript may contain wording and mathematical transcription errors; timestamps refer to this saved edition."
+    },
+    "source_file": "M2iX6HQOoLg.publisher.txt",
+    "source_url": "https://www.youtube.com/watch?v=M2iX6HQOoLg",
+    "distribution": "Transcript retained in the private research archive; not distributed in this repository."
+  },
+  {
+    "id": "Ucqfb33GJJ4",
+    "title": "The Brain Is Just Specialized Agents Talking To Each Other — Dr. Jeff Beck",
+    "status": "reviewed_available_text",
+    "source_type": "publisher_transcript",
+    "words_in_selected_file": 9166,
+    "sha256": "488a38d18f7810efe3501d0e09afd37a54aeb93a5ba928d507dbd56b3084091c",
+    "reused": true,
+    "source_notes": {
+      "read": "Entire available transcript, sequentially; not audio verified.",
+      "last_timestamp": "00:46:46",
+      "source_caveats": "ASR/publisher transcript may contain wording and mathematical transcription errors; timestamps refer to this saved edition."
+    },
+    "source_file": "Ucqfb33GJJ4.publisher.txt",
+    "source_url": "https://www.youtube.com/watch?v=Ucqfb33GJJ4",
+    "distribution": "Transcript retained in the private research archive; not distributed in this repository."
+  },
+  {
+    "id": "9suqiofCiwM",
+    "title": "AutoGrad Changed Everything (Not Transformers) [Dr. Jeff Beck]",
+    "status": "reviewed_available_text",
+    "source_type": "publisher_transcript",
+    "words_in_selected_file": 14956,
+    "sha256": "9b990c3677d3f69a9d6c7df87a0d5295704ab6654f78785b79b171a47b619cf3",
+    "reused": true,
+    "source_notes": {
+      "read": "Entire available transcript, sequentially; not audio verified.",
+      "last_timestamp": "01:14:58",
+      "source_caveats": "ASR/publisher transcript may contain wording and mathematical transcription errors; timestamps refer to this saved edition."
+    },
+    "source_file": "9suqiofCiwM.publisher.txt",
+    "source_url": "https://www.youtube.com/watch?v=9suqiofCiwM",
+    "distribution": "Transcript retained in the private research archive; not distributed in this repository."
+  },
+  {
+    "id": "RvYSsi6rd4g",
+    "title": "Your Brain Doesn't Command Your Body. It Predicts It. [Max Bennett]",
+    "status": "reviewed_available_text",
+    "source_type": "publisher_transcript",
+    "words_in_selected_file": 36799,
+    "sha256": "f78def04867b6d2cb827e01fa621356dbbf4ea52c47c084a5f626a32b5ffb19c",
+    "reused": true,
+    "source_notes": {
+      "read": "Entire available transcript, sequentially; not audio verified.",
+      "last_timestamp": "03:17:04",
+      "source_caveats": "ASR/publisher transcript may contain wording and mathematical transcription errors; timestamps refer to this saved edition."
+    },
+    "source_file": "RvYSsi6rd4g.publisher.txt",
+    "source_url": "https://www.youtube.com/watch?v=RvYSsi6rd4g",
+    "distribution": "Transcript retained in the private research archive; not distributed in this repository."
+  },
+  {
+    "id": "AWqvBdqCAAE",
+    "title": "The \"Final Boss\" of Deep Learning",
+    "status": "reviewed_available_text",
+    "source_type": "publisher_transcript",
+    "words_in_selected_file": 7956,
+    "sha256": "9719a92fd8f0bf0fb48dd1a6422be51b6fff829e991bf9da9b2d11e5d9c84acd",
+    "reused": true,
+    "source_notes": {
+      "status": "complete_available_text",
+      "method": "Read entire saved transcript; any truncated tool section reread in bounded chunks. Audio not checked.",
+      "last_timestamp": "00:43:15",
+      "caveats": [
+        "ASR transcription can corrupt names and mathematical terminology; transcript completeness is not an audio audit."
+      ]
+    },
+    "source_file": "AWqvBdqCAAE.publisher.txt",
+    "source_url": "https://www.youtube.com/watch?v=AWqvBdqCAAE",
+    "distribution": "Transcript retained in the private research archive; not distributed in this repository."
+  },
+  {
+    "id": "QWidx8cYVRs",
+    "title": "The Mathematical Foundations of Intelligence [Professor Yi Ma]",
+    "status": "reviewed_available_text",
+    "source_type": "publisher_transcript",
+    "words_in_selected_file": 11943,
+    "sha256": "3857a0a5f1f1f737654f8f9d471190c0205139373b1c49754872970e25db6a22",
+    "reused": true,
+    "source_notes": {
+      "status": "complete_available_text",
+      "method": "Read entire saved transcript; any truncated tool section reread in bounded chunks. Audio not checked.",
+      "last_timestamp": "01:05:19",
+      "caveats": [
+        "ASR transcription can corrupt names and mathematical terminology; transcript completeness is not an audio audit.",
+        "Selected transcript is consistent with current shorter65-minute edit; prior original version had33:45additional material. Current chapter anchors match, but audio not audited."
+      ]
+    },
+    "source_file": "QWidx8cYVRs.publisher.txt",
+    "source_url": "https://www.youtube.com/watch?v=QWidx8cYVRs",
+    "distribution": "Transcript retained in the private research archive; not distributed in this repository."
+  },
+  {
+    "id": "4APMGvicmxY",
+    "title": "Tensor Logic \"Unifies\" AI Paradigms [Pedro Domingos]",
+    "status": "reviewed_available_text",
+    "source_type": "publisher_transcript",
+    "words_in_selected_file": 17620,
+    "sha256": "7890860bd9991b4b816abe015b1c9320a5a12ca940e880b8cc8a1eb636d3e279",
+    "reused": true,
+    "source_notes": {
+      "read": "Entire available transcript, sequentially; not audio verified.",
+      "last_timestamp": "01:27:47",
+      "source_caveats": "ASR/publisher transcript may contain wording and mathematical transcription errors; timestamps refer to this saved edition."
+    },
+    "source_file": "4APMGvicmxY.publisher.txt",
+    "source_url": "https://www.youtube.com/watch?v=4APMGvicmxY",
+    "distribution": "Transcript retained in the private research archive; not distributed in this repository."
+  },
+  {
+    "id": "DtePicx_kFY",
+    "title": "He Co-Invented the Transformer. Now: Continuous Thought Machines [Llion Jones / Luke Darlow]",
+    "status": "reviewed_available_text",
+    "source_type": "publisher_transcript",
+    "words_in_selected_file": 12436,
+    "sha256": "eccda42c96f24dbf81ffd2f71dcdd9f705a2da3f31293adb1b13c5a32f487486",
+    "reused": true,
+    "source_notes": {
+      "read": "Entire available transcript, sequentially; not audio verified.",
+      "last_timestamp": "01:12:34",
+      "source_caveats": "ASR/publisher transcript may contain wording and mathematical transcription errors; timestamps refer to this saved edition."
+    },
+    "source_file": "DtePicx_kFY.publisher.txt",
+    "source_url": "https://www.youtube.com/watch?v=DtePicx_kFY",
+    "distribution": "Transcript retained in the private research archive; not distributed in this repository."
+  },
+  {
+    "id": "rMSEqJ_4EBk",
+    "title": "Google Researcher Shows Life \"Emerges From Code\" [Blaise Agüera y Arcas]",
+    "status": "reviewed_available_text",
+    "source_type": "publisher_transcript",
+    "words_in_selected_file": 11687,
+    "sha256": "3c279d8588c16d95e7abc0ddc225feae1197e9b9109e63db1b2dc6eb9639d514",
+    "reused": true,
+    "source_notes": {
+      "status": "complete_available_text",
+      "method": "Read entire saved transcript; any truncated tool section reread in bounded chunks. Audio not checked.",
+      "last_timestamp": "00:59:49",
+      "caveats": [
+        "ASR transcription can corrupt names and mathematical terminology; transcript completeness is not an audio audit."
+      ]
+    },
+    "source_file": "rMSEqJ_4EBk.publisher.txt",
+    "source_url": "https://www.youtube.com/watch?v=rMSEqJ_4EBk",
+    "distribution": "Transcript retained in the private research archive; not distributed in this repository."
+  },
+  {
+    "id": "FcnLiPyfRZM",
+    "title": "29.4% ARC-AGI-2 🤯 (TOP SCORE!) - Jeremy Berman",
+    "status": "reviewed_available_text",
+    "source_type": "publisher_transcript",
+    "words_in_selected_file": 13603,
+    "sha256": "3befab7f58db24d5c7011427c38c74d878f78927a28c0808d9d12ffa1e859054",
+    "reused": true,
+    "source_notes": {
+      "status": "complete_available_text",
+      "start": "00:00:00",
+      "end": "01:06:03",
+      "caveats": [
+        "Complete publisher transcript read; last timestamp begins a long closing passage. Audio and current leaderboard not checked. Performance claims refer to the interview period."
+      ]
+    },
+    "source_file": "FcnLiPyfRZM.publisher.txt",
+    "source_url": "https://www.youtube.com/watch?v=FcnLiPyfRZM",
+    "distribution": "Transcript retained in the private research archive; not distributed in this repository."
+  },
+  {
+    "id": "M-jTeBCEGHc",
+    "title": "The Real Reason Huge AI Models Actually Work [Prof. Andrew Wilson]",
+    "status": "reviewed_available_text",
+    "source_type": "publisher_transcript",
+    "words_in_selected_file": 23246,
+    "sha256": "0ebfcc03c889a72511d8cb83ac8a01aa0fbb7bc5961491343b9d139887c8eff2",
+    "reused": true,
+    "source_notes": {
+      "read": "Entire available transcript, sequentially; not audio verified.",
+      "last_timestamp": "02:03:19",
+      "source_caveats": "ASR/publisher transcript may contain wording and mathematical transcription errors; timestamps refer to this saved edition."
+    },
+    "source_file": "M-jTeBCEGHc.publisher.txt",
+    "source_url": "https://www.youtube.com/watch?v=M-jTeBCEGHc",
+    "distribution": "Transcript retained in the private research archive; not distributed in this repository."
+  },
+  {
+    "id": "ekgvWeHidJs",
+    "title": "Type a Sentence, Get a Playable 3D World in 3 Seconds - Shlomi Fuchter & Jack Parker-Holder",
+    "status": "reviewed_available_text",
+    "source_type": "publisher_transcript",
+    "words_in_selected_file": 11256,
+    "sha256": "e5e77c98ca302adceaf955d4423b81280dbc45a2cae393eab38e87e9998a89ff",
+    "reused": true,
+    "source_notes": {
+      "status": "complete_available_text",
+      "start": "00:00:00",
+      "end": "00:58:07",
+      "caveats": [
+        "Complete publisher transcript read in two contiguous ranges. Visual demonstrations were not inspected, so claims about their apparent quality are reports from the interview, not independent observations."
+      ]
+    },
+    "source_file": "ekgvWeHidJs.publisher.txt",
+    "source_url": "https://www.youtube.com/watch?v=ekgvWeHidJs",
+    "distribution": "Transcript retained in the private research archive; not distributed in this repository."
+  },
+  {
+    "id": "HR-_U0Pzl1Y",
+    "title": "Is \"Thermo\" AI the future? [Guillaume Verdon aka \"Beff Jezos\"]",
+    "status": "reviewed_available_text",
+    "source_type": "publisher_transcript",
+    "words_in_selected_file": 13187,
+    "sha256": "8eec7a26de0a2c724c4b714d56ee69068a0131b9f88a401f3cfb53b14ef60986",
+    "reused": true,
+    "source_notes": {
+      "read": "Entire available transcript, sequentially; not audio verified.",
+      "last_timestamp": "01:23:18",
+      "source_caveats": "ASR/publisher transcript may contain wording and mathematical transcription errors; timestamps refer to this saved edition."
+    },
+    "source_file": "HR-_U0Pzl1Y.publisher.txt",
+    "source_url": "https://www.youtube.com/watch?v=HR-_U0Pzl1Y",
+    "distribution": "Transcript retained in the private research archive; not distributed in this repository."
+  },
+  {
+    "id": "KKUKikuV58o",
+    "title": "AI Isn't Creative [Prof. Kenneth Stanley]",
+    "status": "reviewed_available_text",
+    "source_type": "publisher_transcript",
+    "words_in_selected_file": 25292,
+    "sha256": "21cfa1ab7e9511f6506c280b3e3d290f432f3a25774295cc8bb434449fdb89c2",
+    "reused": true,
+    "source_notes": {
+      "status": "complete_available_text",
+      "method": "Read entire saved transcript; any truncated tool section reread in bounded chunks. Audio not checked.",
+      "last_timestamp": "02:16:20",
+      "caveats": [
+        "ASR transcription can corrupt names and mathematical terminology; transcript completeness is not an audio audit."
+      ]
+    },
+    "source_file": "KKUKikuV58o.publisher.txt",
+    "source_url": "https://www.youtube.com/watch?v=KKUKikuV58o",
+    "distribution": "Transcript retained in the private research archive; not distributed in this repository."
+  },
+  {
+    "id": "vC9nAosXrJw",
+    "title": "Wild breakthrough on Math after 56 years... [Exclusive]",
+    "status": "reviewed_available_text",
+    "source_type": "publisher_transcript",
+    "words_in_selected_file": 15179,
+    "sha256": "027462489fe332975d433f35781e354f52cbb696815783315f9a45cd2f491e0d",
+    "reused": true,
+    "source_notes": {
+      "status": "complete_available_text",
+      "method": "Read entire saved transcript; any truncated tool section reread in bounded chunks. Audio not checked.",
+      "last_timestamp": "01:13:46",
+      "caveats": [
+        "ASR transcription can corrupt names and mathematical terminology; transcript completeness is not an audio audit."
+      ]
+    },
+    "source_file": "vC9nAosXrJw.publisher.txt",
+    "source_url": "https://www.youtube.com/watch?v=vC9nAosXrJw",
+    "distribution": "Transcript retained in the private research archive; not distributed in this repository."
+  },
+  {
+    "id": "SP-kORMUZns",
+    "title": "Build Specialist LLMs Like It’s 2019 (Randall Balestriero)",
+    "status": "reviewed_available_text",
+    "source_type": "publisher_transcript",
+    "words_in_selected_file": 7131,
+    "sha256": "e8595adedf14caff21714f7e42711b56c5d847629fbedf4d7b1e0d0993b725f3",
+    "reused": true,
+    "source_notes": {
+      "status": "complete_available_text",
+      "method": "Read entire saved transcript; any truncated tool section reread in bounded chunks. Audio not checked.",
+      "last_timestamp": "00:34:13",
+      "caveats": [
+        "ASR transcription can corrupt names and mathematical terminology; transcript completeness is not an audio audit."
+      ]
+    },
+    "source_file": "SP-kORMUZns.publisher.txt",
+    "source_url": "https://www.youtube.com/watch?v=SP-kORMUZns",
+    "distribution": "Transcript retained in the private research archive; not distributed in this repository."
+  },
+  {
+    "id": "zv6qzWecj5c",
+    "title": "\"We need AIs with PHYSICAL experience\" (Jeff Beck)",
+    "status": "reviewed_available_text",
+    "source_type": "publisher_transcript",
+    "words_in_selected_file": 9794,
+    "sha256": "f047d17415a390349090236b60e30026f9093432a0cb66e6dabb5d373b86d20d",
+    "reused": true,
+    "source_notes": {
+      "status": "complete_available_text",
+      "method": "Read entire saved transcript; any truncated tool section reread in bounded chunks. Audio not checked.",
+      "last_timestamp": "00:46:41",
+      "caveats": [
+        "ASR transcription can corrupt names and mathematical terminology; transcript completeness is not an audio audit."
+      ]
+    },
+    "source_file": "zv6qzWecj5c.publisher.txt",
+    "source_url": "https://www.youtube.com/watch?v=zv6qzWecj5c",
+    "distribution": "Transcript retained in the private research archive; not distributed in this repository."
+  },
+  {
+    "id": "oYTm0p3DCzg",
+    "title": "Why Program Synthesis Is Next (Kevin Ellis and Zenna Tavares)",
+    "status": "reviewed_available_text",
+    "source_type": "publisher_transcript",
+    "words_in_selected_file": 15836,
+    "sha256": "921213ea72116837beac6f05bb5e0006c06f66f1f1ab0069db1d4f83114ba50c",
+    "reused": true,
+    "source_notes": {
+      "status": "complete_available_text",
+      "method": "Read entire saved transcript; any truncated tool section reread in bounded chunks. Audio not checked.",
+      "last_timestamp": "01:16:38",
+      "caveats": [
+        "ASR transcription can corrupt names and mathematical terminology; transcript completeness is not an audio audit."
+      ]
+    },
+    "source_file": "oYTm0p3DCzg.publisher.txt",
+    "source_url": "https://www.youtube.com/watch?v=oYTm0p3DCzg",
+    "distribution": "Transcript retained in the private research archive; not distributed in this repository."
+  },
+  {
+    "id": "TQDCsyuuwsg",
+    "title": "Exploring Program Synthesis: Francois Chollet, Kevin Ellis, Zenna Tavares",
+    "status": "reviewed_available_text",
+    "source_type": "publisher_transcript",
+    "words_in_selected_file": 6253,
+    "sha256": "e5984c3948600e1b8468311ed77538644c193f9100c9f6b0b37406ec684d3cd3",
+    "reused": true,
+    "source_notes": {
+      "status": "complete_available_text",
+      "start": "00:00:00",
+      "end": "00:31:34",
+      "caveats": [
+        "Read the complete publisher transcript, including a separately recovered passage omitted by tool display truncation. Audio and current-cut alignment not verified. ASR corrupts names and technical terms; reasoning below uses unambiguous surrounding context."
+      ]
+    },
+    "source_file": "TQDCsyuuwsg.publisher.txt",
+    "source_url": "https://www.youtube.com/watch?v=TQDCsyuuwsg",
+    "distribution": "Transcript retained in the private research archive; not distributed in this repository."
+  },
+  {
+    "id": "3p0O28W1ZHg",
+    "title": "Test-Time Adaptation: the key to reasoning with DL",
+    "status": "reviewed_available_text",
+    "source_type": "publisher_transcript",
+    "words_in_selected_file": 12402,
+    "sha256": "8ac58412e0548f426f873a0d073b66c85d57401e243e3f5c8210f6eb41cd34d9",
+    "reused": true,
+    "source_notes": {
+      "status": "complete_available_text",
+      "method": "Read entire saved transcript; any truncated tool section reread in bounded chunks. Audio not checked.",
+      "last_timestamp": "01:03:17",
+      "caveats": [
+        "ASR transcription can corrupt names and mathematical terminology; transcript completeness is not an audio audit."
+      ]
+    },
+    "source_file": "3p0O28W1ZHg.publisher.txt",
+    "source_url": "https://www.youtube.com/watch?v=3p0O28W1ZHg",
+    "distribution": "Transcript retained in the private research archive; not distributed in this repository."
+  },
+  {
+    "id": "yQPduek-Q5s",
+    "title": "Moving Beyond Surface Statistics (Apple researcher) [Iman Mirzadeh]",
+    "status": "reviewed_available_text",
+    "source_type": "publisher_transcript",
+    "words_in_selected_file": 12831,
+    "sha256": "fea1b6647b4b29f8ad295d7de766295e4039bc240c49026935d9a3f128e0df9b",
+    "reused": true,
+    "source_notes": {
+      "status": "complete_available_text",
+      "start": "00:00:00",
+      "end": "01:11:17",
+      "caveats": [
+        "Complete publisher transcript read. Audio not verified. The source appears to begin with highlights and an interview segment referring to previous discussion; coverage refers to the saved edition."
+      ]
+    },
+    "source_file": "yQPduek-Q5s.publisher.txt",
+    "source_url": "https://www.youtube.com/watch?v=yQPduek-Q5s",
+    "distribution": "Transcript retained in the private research archive; not distributed in this repository."
+  },
+  {
+    "id": "DL7qwmWWk88",
+    "title": "The Gap Between Humans and Machines Is ___ [Dr. Max Bartolo]",
+    "status": "reviewed_available_text",
+    "source_type": "publisher_transcript",
+    "words_in_selected_file": 15713,
+    "sha256": "c1ed1ef4a29a4747337680e8e4a0666e3b423345a59ba5533de082a5c34da809",
+    "reused": true,
+    "source_notes": {
+      "read": "Entire available transcript, sequentially; not audio verified.",
+      "last_timestamp": "01:23:01",
+      "source_caveats": "ASR/publisher transcript may contain wording and mathematical transcription errors; timestamps refer to this saved edition."
+    },
+    "source_file": "DL7qwmWWk88.publisher.txt",
+    "source_url": "https://www.youtube.com/watch?v=DL7qwmWWk88",
+    "distribution": "Transcript retained in the private research archive; not distributed in this repository."
+  },
+  {
+    "id": "mt3Im4j5iaQ",
+    "title": "Panel discussion on ARC Prize 2024 (Zurich)",
+    "status": "reviewed_available_text",
+    "source_type": "publisher_transcript",
+    "words_in_selected_file": 8035,
+    "sha256": "41b1a8031eb5ebdd4f35a9cddf00d7207257d061ce62ef9e0abf770305b3d911",
+    "reused": true,
+    "source_notes": {
+      "status": "complete_available_text",
+      "start": "00:00:00",
+      "end": "00:39:19",
+      "caveats": [
+        "Complete publisher transcript read in two contiguous character ranges. Audio not verified. Many names/model labels have ASR errors."
+      ]
+    },
+    "source_file": "mt3Im4j5iaQ.publisher.txt",
+    "source_url": "https://www.youtube.com/watch?v=mt3Im4j5iaQ",
+    "distribution": "Transcript retained in the private research archive; not distributed in this repository."
+  },
+  {
+    "id": "JVLpxm5jT2s",
+    "title": "Tau Language: The Software Synthesis Future [Sponsored] - Ohad Asor",
+    "status": "reviewed_available_text",
+    "source_type": "publisher_transcript",
+    "words_in_selected_file": 17896,
+    "sha256": "5b0e673866ba0eeb19c2294ecaf30c76973257eaf8aee6804a0c79a38c43913d",
+    "reused": true,
+    "source_notes": {
+      "read": "Entire available transcript, sequentially; not audio verified.",
+      "last_timestamp": "01:41:04",
+      "source_caveats": "ASR/publisher transcript may contain wording and mathematical transcription errors; timestamps refer to this saved edition."
+    },
+    "source_file": "JVLpxm5jT2s.publisher.txt",
+    "source_url": "https://www.youtube.com/watch?v=JVLpxm5jT2s",
+    "distribution": "Transcript retained in the private research archive; not distributed in this repository."
+  },
+  {
+    "id": "FAspMnu4Rt0",
+    "title": "Transformers Need Glasses! [Federico Barbero]",
+    "status": "reviewed_available_text",
+    "source_type": "publisher_transcript",
+    "words_in_selected_file": 12195,
+    "sha256": "7114e330722c18d7364d5ba85d3904510ccbcad727f470a25dd9edc7ccfc494d",
+    "reused": true,
+    "source_notes": {
+      "status": "complete_available_text",
+      "start": "00:00:00",
+      "end": "01:00:44",
+      "caveats": [
+        "Complete publisher transcript read in three contiguous ranges. Audio and current model behavior not tested."
+      ]
+    },
+    "source_file": "FAspMnu4Rt0.publisher.txt",
+    "source_url": "https://www.youtube.com/watch?v=FAspMnu4Rt0",
+    "distribution": "Transcript retained in the private research archive; not distributed in this repository."
+  },
+  {
+    "id": "1kwbp8hRRfs",
+    "title": "Can AI Improve Itself? [Chris Lu, Robert Lange, Cong Lu]",
+    "status": "reviewed_available_text",
+    "source_type": "publisher_transcript",
+    "words_in_selected_file": 20461,
+    "sha256": "0fa2346840e502ccebb01ff3df5fbb559d7fa583340943d18b202f3b1f3ad889",
+    "reused": true,
+    "source_notes": {
+      "status": "complete_available_text",
+      "method": "Read entire saved transcript; any truncated tool section reread in bounded chunks. Audio not checked.",
+      "last_timestamp": "01:37:52",
+      "caveats": [
+        "ASR transcription can corrupt names and mathematical terminology; transcript completeness is not an audio audit."
+      ]
+    },
+    "source_file": "1kwbp8hRRfs.publisher.txt",
+    "source_url": "https://www.youtube.com/watch?v=1kwbp8hRRfs",
+    "distribution": "Transcript retained in the private research archive; not distributed in this repository."
+  },
+  {
+    "id": "PHBItVuudbU",
+    "title": "Can Latent Program Networks Solve Abstract Reasoning? [Clement Bonnet]",
+    "status": "reviewed_available_text",
+    "source_type": "publisher_transcript",
+    "words_in_selected_file": 10522,
+    "sha256": "abd7a78394796dcdbf0d5f6bdf6062fd7a60037040da94e178dba0e9ddd6ef25",
+    "reused": true,
+    "source_notes": {
+      "status": "complete_available_text",
+      "method": "Read entire saved transcript; any truncated tool section reread in bounded chunks. Audio not checked.",
+      "last_timestamp": "00:51:14",
+      "caveats": [
+        "ASR transcription can corrupt names and mathematical terminology; transcript completeness is not an audio audit."
+      ]
+    },
+    "source_file": "PHBItVuudbU.publisher.txt",
+    "source_url": "https://www.youtube.com/watch?v=PHBItVuudbU",
+    "distribution": "Transcript retained in the private research archive; not distributed in this repository."
+  },
+  {
+    "id": "Jr_nGkCG3og",
+    "title": "ImageNet Moment for Reinforcement Learning? [Prof. Jakob Foerster]",
+    "status": "reviewed_available_text",
+    "source_type": "publisher_transcript",
+    "words_in_selected_file": 11145,
+    "sha256": "29112ff497020a562ae100fdc00f50d6ab5223c2a473efb036af1650fd8690ff",
+    "reused": true,
+    "source_notes": {
+      "read": "Entire available transcript, sequentially; not audio verified.",
+      "last_timestamp": "00:53:19",
+      "source_caveats": "ASR/publisher transcript may contain wording and mathematical transcription errors; timestamps refer to this saved edition."
+    },
+    "source_file": "Jr_nGkCG3og.publisher.txt",
+    "source_url": "https://www.youtube.com/watch?v=Jr_nGkCG3og",
+    "distribution": "Transcript retained in the private research archive; not distributed in this repository."
+  },
+  {
+    "id": "mTX_sAq--zY",
+    "title": "The ARC Prize 2024 Winning Algorithm [Daniel Franzen and Jan Disselhoff]",
+    "status": "reviewed_available_text",
+    "source_type": "publisher_transcript",
+    "words_in_selected_file": 13020,
+    "sha256": "3bd4fd5034ac0377144a2cf9dc16a3df4281b6dd6f72f6e8af809100a487d235",
+    "reused": true,
+    "source_notes": {
+      "read": "Entire available transcript, sequentially; not audio verified.",
+      "last_timestamp": "01:08:53",
+      "source_caveats": "ASR/publisher transcript may contain wording and mathematical transcription errors; timestamps refer to this saved edition."
+    },
+    "source_file": "mTX_sAq--zY.publisher.txt",
+    "source_url": "https://www.youtube.com/watch?v=mTX_sAq--zY",
+    "distribution": "Transcript retained in the private research archive; not distributed in this repository."
+  },
+  {
+    "id": "8u2pW2zZLCs",
+    "title": "LSTM: The Comeback Story? [Prof. Sepp Hochreiter]",
+    "status": "reviewed_available_text",
+    "source_type": "publisher_transcript",
+    "words_in_selected_file": 12181,
+    "sha256": "10d63b374d040de167fa152a7d7eb8107291f814fd467e8db0075b89603ad197",
+    "reused": true,
+    "source_notes": {
+      "status": "complete_available_text",
+      "start": "00:00:00",
+      "end": "01:06:55",
+      "caveats": [
+        "Read the complete publisher transcript, including introduction, historical discussion and commercial ending. Audio and equations on screen were not independently checked. Automatic transcription occasionally garbles technical expressions."
+      ]
+    },
+    "source_file": "8u2pW2zZLCs.publisher.txt",
+    "source_url": "https://www.youtube.com/watch?v=8u2pW2zZLCs",
+    "distribution": "Transcript retained in the private research archive; not distributed in this repository."
+  },
+  {
+    "id": "l3O2J3LMxqI",
+    "title": "Neural Networks Are Elastic Origami! [Prof. Randall Balestriero]",
+    "status": "reviewed_available_text",
+    "source_type": "publisher_transcript",
+    "words_in_selected_file": 16240,
+    "sha256": "d6b05c247b44baf34afc1565eaae486650cfd2d4e3d2778023df3a00d34029b1",
+    "reused": true,
+    "source_notes": {
+      "status": "complete_available_text",
+      "start": "00:00:00",
+      "end": "01:17:53",
+      "caveats": [
+        "Complete publisher transcript read, including preview and sponsor; no audio or displayed figures verified.",
+        "ASR repeatedly renders affine as a fine, grokking as working, and mathematical terms imperfectly. Timestamps refer to this publisher edition."
+      ]
+    },
+    "source_file": "l3O2J3LMxqI.publisher.txt",
+    "source_url": "https://www.youtube.com/watch?v=l3O2J3LMxqI",
+    "distribution": "Transcript retained in the private research archive; not distributed in this repository."
+  },
+  {
+    "id": "2xFTNXK6AzQ",
+    "title": "The Professor Who Proved ChatGPT Can't Think — Subbarao Kambhampati",
+    "status": "reviewed_available_text",
+    "source_type": "publisher_transcript",
+    "words_in_selected_file": 15109,
+    "sha256": "87394e1fd3a73a1dca7b55524d41a3344cd378e6de3ce12cfe0ccb368c7d46e5",
+    "reused": true,
+    "source_notes": {
+      "status": "complete_available_text",
+      "method": "Read entire saved transcript; any truncated tool section reread in bounded chunks. Audio not checked.",
+      "last_timestamp": "01:28:03",
+      "caveats": [
+        "ASR transcription can corrupt names and mathematical terminology; transcript completeness is not an audio audit."
+      ]
+    },
+    "source_file": "2xFTNXK6AzQ.publisher.txt",
+    "source_url": "https://www.youtube.com/watch?v=2xFTNXK6AzQ",
+    "distribution": "Transcript retained in the private research archive; not distributed in this repository."
+  },
+  {
+    "id": "14DXtvRJeNU",
+    "title": "How Do AI Models Actually Think? [Dr. Laura Ruis]",
+    "status": "reviewed_available_text",
+    "source_type": "publisher_transcript",
+    "words_in_selected_file": 15068,
+    "sha256": "c08c18a8f1b0b69462d5117a986c9f4a60026fdd3cfa8e21feee85261b85bee2",
+    "reused": true,
+    "source_notes": {
+      "read": "Entire available transcript, sequentially; not audio verified.",
+      "last_timestamp": "01:17:51",
+      "source_caveats": "ASR/publisher transcript may contain wording and mathematical transcription errors; timestamps refer to this saved edition."
+    },
+    "source_file": "14DXtvRJeNU.publisher.txt",
+    "source_url": "https://www.youtube.com/watch?v=14DXtvRJeNU",
+    "distribution": "Transcript retained in the private research archive; not distributed in this repository."
+  },
+  {
+    "id": "G1ARvwQntAU",
+    "title": "MIGHT THE ROBOTS TAKE OVER? [Prof. Yoshua Bengio]",
+    "status": "reviewed_available_text",
+    "source_type": "publisher_transcript",
+    "words_in_selected_file": 17510,
+    "sha256": "a6e55e9146aaff633ef9c1595709af097c00a04726b11f491abbe049f10611ec",
+    "reused": true,
+    "source_notes": {
+      "status": "complete_available_text",
+      "start": "00:00:00",
+      "end": "01:41:23",
+      "caveats": [
+        "Read all 19,182 source words, including opening montage, sponsorship and governance discussion. Timestamped publisher transcript; speech recognition and speaker attribution are imperfect. No audio verification."
+      ]
+    },
+    "source_file": "G1ARvwQntAU.publisher.txt",
+    "source_url": "https://www.youtube.com/watch?v=G1ARvwQntAU",
+    "distribution": "Transcript retained in the private research archive; not distributed in this repository."
+  },
+  {
+    "id": "w9WE1aOPjHc",
+    "title": "François Chollet on OpenAI o-models and ARC",
+    "status": "reviewed_available_text",
+    "source_type": "publisher_transcript",
+    "words_in_selected_file": 16297,
+    "sha256": "aede89ab7b560b0b70cdc0bcd8ce42e2caa3f9de22678f3bc24f699f99bf2552",
+    "reused": true,
+    "source_notes": {
+      "status": "complete_available_text",
+      "method": "Read entire saved transcript; any truncated tool section reread in bounded chunks. Audio not checked.",
+      "last_timestamp": "01:26:16",
+      "caveats": [
+        "ASR transcription can corrupt names and mathematical terminology; transcript completeness is not an audio audit."
+      ]
+    },
+    "source_file": "w9WE1aOPjHc.publisher.txt",
+    "source_url": "https://www.youtube.com/watch?v=w9WE1aOPjHc",
+    "distribution": "Transcript retained in the private research archive; not distributed in this repository."
+  },
+  {
+    "id": "mw5WIDGRLnA",
+    "title": "Don't invent faster horses - Prof. Jeff Clune",
+    "status": "reviewed_available_text",
+    "source_type": "publisher_transcript",
+    "words_in_selected_file": 26384,
+    "sha256": "0599beb1ccff558c67253fc32ca8d6d6a3f6f27bd5c2554e3f81575c867a0ff4",
+    "reused": true,
+    "source_notes": {
+      "read": "Entire available transcript, sequentially; not audio verified.",
+      "last_timestamp": "02:00:01",
+      "source_caveats": "ASR/publisher transcript may contain wording and mathematical transcription errors; timestamps refer to this saved edition."
+    },
+    "source_file": "mw5WIDGRLnA.publisher.txt",
+    "source_url": "https://www.youtube.com/watch?v=mw5WIDGRLnA",
+    "distribution": "Transcript retained in the private research archive; not distributed in this repository."
+  },
+  {
+    "id": "YpFaPKOeNME",
+    "title": "NEURAL NETWORKS ARE WEIRD! - Neel Nanda (DeepMind)",
+    "status": "reviewed_available_text",
+    "source_type": "publisher_transcript",
+    "words_in_selected_file": 41439,
+    "sha256": "af23f9ca9cbf55756fada0760a35c5ae5e3e46433107631d02b5d28b5149359c",
+    "reused": true,
+    "source_notes": {
+      "status": "complete_available_text",
+      "method": "Read entire saved transcript; any truncated tool section reread in bounded chunks. Audio not checked.",
+      "last_timestamp": "03:42:27",
+      "caveats": [
+        "ASR transcription can corrupt names and mathematical terminology; transcript completeness is not an audio audit."
+      ]
+    },
+    "source_file": "YpFaPKOeNME.publisher.txt",
+    "source_url": "https://www.youtube.com/watch?v=YpFaPKOeNME",
+    "distribution": "Transcript retained in the private research archive; not distributed in this repository."
+  },
+  {
+    "id": "C6sSs6NgANo",
+    "title": "Test-Time Adaptation: A New Frontier in AI [Dr. Jonas Hübotter]",
+    "status": "reviewed_available_text",
+    "source_type": "publisher_transcript",
+    "words_in_selected_file": 22371,
+    "sha256": "b4c99c31a5da4a07a53201b1161d98322cb8860e8b6a6cca37fdbf6334ceeef4",
+    "reused": true,
+    "source_notes": {
+      "status": "complete_available_text",
+      "method": "Read entire saved transcript; any truncated tool section reread in bounded chunks. Audio not checked.",
+      "last_timestamp": "01:45:44",
+      "caveats": [
+        "ASR transcription can corrupt names and mathematical terminology; transcript completeness is not an audio audit."
+      ]
+    },
+    "source_file": "C6sSs6NgANo.publisher.txt",
+    "source_url": "https://www.youtube.com/watch?v=C6sSs6NgANo",
+    "distribution": "Transcript retained in the private research archive; not distributed in this repository."
+  },
+  {
+    "id": "XFMk0snybAc",
+    "title": "What is “reasoning” in modern AI?",
+    "status": "reviewed_available_text",
+    "source_type": "publisher_transcript",
+    "words_in_selected_file": 20994,
+    "sha256": "61dc7e3a94d1ffd205ae2dc8d6fb4d440c341ced496d19c75c10bcf39afb2f15",
+    "reused": true,
+    "source_notes": {
+      "status": "complete_available_text",
+      "start": "00:00:00",
+      "end": "01:44:17",
+      "caveats": [
+        "Read all 22,541 source words including montage and sponsorship. Publisher transcript repeatedly transcribes abstraction as obstruction, LaSR as laser, and COPRA as COBRA; interpreted these using surrounding context and primary-paper records. No audio verification."
+      ]
+    },
+    "source_file": "XFMk0snybAc.publisher.txt",
+    "source_url": "https://www.youtube.com/watch?v=XFMk0snybAc",
+    "distribution": "Transcript retained in the private research archive; not distributed in this repository."
+  },
+  {
+    "id": "VgPrjHxIS0I",
+    "title": "AI Interpretability, Safety, and Meaning - Nora Belrose",
+    "status": "reviewed_available_text",
+    "source_type": "publisher_transcript",
+    "words_in_selected_file": 28289,
+    "sha256": "ad6f1f75742363fa325b526b5358f02dd900cfe35861cdd0020912e5e45cd3eb",
+    "reused": true,
+    "source_notes": {
+      "status": "complete_available_text",
+      "start": "00:00:00",
+      "end": "02:29:39",
+      "caveats": [
+        "Read all 30,485 source words of publisher transcript; not audio verified.",
+        "Technical interview occupies first 45 minutes; later sections discuss philosophy, agency, ethics and personal views.",
+        "QLEACE experiments are explicitly unpublished at the time of the interview; they are reviewed as reported results, not independently reproduced."
+      ]
+    },
+    "source_file": "VgPrjHxIS0I.publisher.txt",
+    "source_url": "https://www.youtube.com/watch?v=VgPrjHxIS0I",
+    "distribution": "Transcript retained in the private research archive; not distributed in this repository."
+  },
+  {
+    "id": "vei7uf9wOxI",
+    "title": "Learning at test time in LLMs [Jonas Hübotter]",
+    "status": "reviewed_available_text",
+    "source_type": "publisher_transcript",
+    "words_in_selected_file": 10225,
+    "sha256": "41c2f0156dad594f5be26bec44de2a597c86be27f9e3d01a2a1f24eb72333644",
+    "reused": true,
+    "source_notes": {
+      "status": "complete_available_text",
+      "start": "00:00:00",
+      "end": "00:50:57",
+      "caveats": [
+        "Complete publisher transcript read in two contiguous ranges. Slides and audio not inspected; formulas described verbally, not transcribed exactly."
+      ]
+    },
+    "source_file": "vei7uf9wOxI.publisher.txt",
+    "source_url": "https://www.youtube.com/watch?v=vei7uf9wOxI",
+    "distribution": "Transcript retained in the private research archive; not distributed in this repository."
+  },
+  {
+    "id": "6w5xr8BYV8M",
+    "title": "Michael Levin - Why Intelligence Isn't Limited To Brains.",
+    "status": "reviewed_available_text",
+    "source_type": "publisher_transcript",
+    "words_in_selected_file": 13841,
+    "sha256": "03fa7c9112070f4bcc912d098ef84a2996f04e1ae1351b44037e492fd9a6c392",
+    "reused": true,
+    "source_notes": {
+      "read": "Entire available transcript, sequentially; not audio verified.",
+      "last_timestamp": "01:03:15",
+      "source_caveats": "ASR/publisher transcript may contain wording and mathematical transcription errors; timestamps refer to this saved edition."
+    },
+    "source_file": "6w5xr8BYV8M.publisher.txt",
+    "source_url": "https://www.youtube.com/watch?v=6w5xr8BYV8M",
+    "distribution": "Transcript retained in the private research archive; not distributed in this repository."
+  },
+  {
+    "id": "hf18w6CuY8o",
+    "title": "The Hidden Math Behind All Living Systems",
+    "status": "reviewed_available_text",
+    "source_type": "publisher_transcript",
+    "words_in_selected_file": 34319,
+    "sha256": "67eb1ea35b337c8e75516127b86e6a46c1eb110631a82586369c6bd7a4b0c5b9",
+    "reused": true,
+    "source_notes": {
+      "status": "complete_available_text",
+      "start": "00:00:00",
+      "end": "02:45:18",
+      "caveats": [
+        "Read complete publisher transcript, 36,141 source words; not audio verified.",
+        "The available edition includes an extended closing discussion and a late conceptual recap; no assumption that chapter order matches another release."
+      ]
+    },
+    "source_file": "hf18w6CuY8o.publisher.txt",
+    "source_url": "https://www.youtube.com/watch?v=hf18w6CuY8o",
+    "distribution": "Transcript retained in the private research archive; not distributed in this repository."
+  },
+  {
+    "id": "3ZTNps2PraM",
+    "title": "Decompiling Dreams: A New Approach to ARC?",
+    "status": "reviewed_available_text",
+    "source_type": "publisher_transcript",
+    "words_in_selected_file": 10135,
+    "sha256": "6c8a07f524aad142af4119fdfc0e1165742dd8a9e03e4e666e9d2cc78a401c74",
+    "reused": true,
+    "source_notes": {
+      "status": "complete_available_text",
+      "method": "Read entire saved transcript; any truncated tool section reread in bounded chunks. Audio not checked.",
+      "last_timestamp": "00:51:12",
+      "caveats": [
+        "ASR transcription can corrupt names and mathematical terminology; transcript completeness is not an audio audit."
+      ]
+    },
+    "source_file": "3ZTNps2PraM.publisher.txt",
+    "source_url": "https://www.youtube.com/watch?v=3ZTNps2PraM",
+    "distribution": "Transcript retained in the private research archive; not distributed in this repository."
+  },
+  {
+    "id": "7bmhjt1cpRs",
+    "title": "The ChatGPT Paradox: Impressive Yet Incomplete",
+    "status": "reviewed_available_text",
+    "source_type": "publisher_transcript",
+    "words_in_selected_file": 13351,
+    "sha256": "ac294f16320cae1e54e0e97ef906c68516912dad37de95eda27c39b6051ff470",
+    "reused": true,
+    "source_notes": {
+      "read": "Entire available transcript, sequentially; not audio verified.",
+      "last_timestamp": "01:08:09",
+      "source_caveats": "ASR/publisher transcript may contain wording and mathematical transcription errors; timestamps refer to this saved edition."
+    },
+    "source_file": "7bmhjt1cpRs.publisher.txt",
+    "source_url": "https://www.youtube.com/watch?v=7bmhjt1cpRs",
+    "distribution": "Transcript retained in the private research archive; not distributed in this repository."
+  },
+  {
+    "id": "ZTE-JVd_QkA",
+    "title": "Biologically-inspired AI and Mortal Computation",
+    "status": "reviewed_available_text",
+    "source_type": "publisher_transcript",
+    "words_in_selected_file": 16674,
+    "sha256": "f4a9a62973abe39b829ec57de9384e82fb272eed9b7fb69f4281760dbdd2cd83",
+    "reused": true,
+    "source_notes": {
+      "status": "complete_available_text",
+      "method": "Read entire saved transcript; any truncated tool section reread in bounded chunks. Audio not checked.",
+      "last_timestamp": "01:23:09",
+      "caveats": [
+        "ASR transcription can corrupt names and mathematical terminology; transcript completeness is not an audio audit."
+      ]
+    },
+    "source_file": "ZTE-JVd_QkA.publisher.txt",
+    "source_url": "https://www.youtube.com/watch?v=ZTE-JVd_QkA",
+    "distribution": "Transcript retained in the private research archive; not distributed in this repository."
+  },
+  {
+    "id": "s7_NlkBwdj8",
+    "title": "It's Not About Scale, It's About Abstraction",
+    "status": "reviewed_available_text",
+    "source_type": "publisher_transcript",
+    "words_in_selected_file": 8540,
+    "sha256": "2863e473bd42368b96e80758ed0d6f4d74bf0a609f81c2bac5f3a183a5b9d16b",
+    "reused": true,
+    "source_notes": {
+      "read": "Entire available transcript, sequentially; not audio verified.",
+      "last_timestamp": "00:46:11",
+      "source_caveats": "ASR/publisher transcript may contain wording and mathematical transcription errors; timestamps refer to this saved edition."
+    },
+    "source_file": "s7_NlkBwdj8.publisher.txt",
+    "source_url": "https://www.youtube.com/watch?v=s7_NlkBwdj8",
+    "distribution": "Transcript retained in the private research archive; not distributed in this repository."
+  },
+  {
+    "id": "6DrCq8Ry2cw",
+    "title": "The AI Paradigm That Nobody Talks About — Tim Rocktäschel",
+    "status": "reviewed_available_text",
+    "source_type": "publisher_transcript",
+    "words_in_selected_file": 11062,
+    "sha256": "f2e5b24393d1db86c490a0537a322eb7c7c9a63d93097ad7049ac6aa94ae8eb0",
+    "reused": true,
+    "source_notes": {
+      "status": "complete_available_text",
+      "start": "00:00:00",
+      "end": "00:55:00",
+      "caveats": [
+        "Complete publisher transcript read in two contiguous ranges. Source includes page breaks, editorial reference markers and transcription errors. Audio not verified."
+      ]
+    },
+    "source_file": "6DrCq8Ry2cw.publisher.txt",
+    "source_url": "https://www.youtube.com/watch?v=6DrCq8Ry2cw",
+    "distribution": "Transcript retained in the private research archive; not distributed in this repository."
+  },
+  {
+    "id": "WlWAhjPfROU",
+    "title": "This is what happens when you let AIs debate",
+    "status": "reviewed_available_text",
+    "source_type": "publisher_transcript",
+    "words_in_selected_file": 10392,
+    "sha256": "46d7ab52bedbe822be5ce54a22a2c15d970dba74622f2f1a9259fce7827ecf99",
+    "reused": false,
+    "source_notes": {
+      "status": "complete_available_text",
+      "method": "Read all 60,710 characters in three contiguous chunks.",
+      "first_timestamp": "00:00:00",
+      "last_timestamp": "00:45:19",
+      "caveats": [
+        "Publisher transcript; ASR speaker attribution and names are imperfect. No audio verification."
+      ]
+    },
+    "source_file": "WlWAhjPfROU.publisher.txt",
+    "source_url": "https://www.youtube.com/watch?v=WlWAhjPfROU",
+    "distribution": "Transcript retained in the private research archive; not distributed in this repository."
+  },
+  {
+    "id": "meUtWtY00H8",
+    "title": "Rethinking the Mind - Prof. Mark Solms",
+    "status": "reviewed_available_text",
+    "source_type": "publisher_transcript",
+    "words_in_selected_file": 17139,
+    "sha256": "6613ce98ac56fce4c56ee2efd1e19a75d4f8f270dc7bc9c744993f0df608c703",
+    "reused": false,
+    "source_notes": {
+      "read": "Entire available selected transcript read sequentially; audio not verified.",
+      "last_timestamp": "01:26:36",
+      "source_caveats": "Publisher transcript edition; wording, speaker labeling and mathematical transcription may contain errors. Timings refer only to this source."
+    },
+    "source_file": "meUtWtY00H8.publisher.txt",
+    "source_url": "https://www.youtube.com/watch?v=meUtWtY00H8",
+    "distribution": "Transcript retained in the private research archive; not distributed in this repository."
+  },
+  {
+    "id": "kbt0ZFoI2Hc",
+    "title": "AIs can now imagine video games in real-time",
+    "status": "reviewed_available_text",
+    "source_type": "local_asr",
+    "words_in_selected_file": 4937,
+    "sha256": "46eb03d5601dc39773ff120363bc263ef09aa57736c89221a30c8bfd2db1e050",
+    "reused": false,
+    "source_notes": {
+      "status": "complete_available_text",
+      "first_timestamp": "00:00:00",
+      "last_timestamp": "00:24:57",
+      "method": "Complete podcast transcript read; the short truncated08:55–09:59 interval was reread separately.",
+      "caveats": [
+        "Local Whisper-large-v3-turbo ASR, not manually aligned or corrected against audio.",
+        "Podcast1504seconds and video1505seconds nearly match; timestamps refer to podcast."
+      ]
+    },
+    "source_file": "kbt0ZFoI2Hc.local-asr.txt",
+    "source_url": "https://www.youtube.com/watch?v=kbt0ZFoI2Hc",
+    "distribution": "Transcript retained in the private research archive; not distributed in this repository."
+  },
+  {
+    "id": "DP454c1K_vQ",
+    "title": "The Man Who Invented Modern AI (Before Everyone Else) — Jürgen Schmidhuber",
+    "status": "reviewed_available_text",
+    "source_type": "local_asr",
+    "words_in_selected_file": 14169,
+    "sha256": "bd88a77a67036a5aa50a1530fbc69853cabe7ccea0b730dd3b0eaf477bc5dc56",
+    "reused": false,
+    "source_notes": {
+      "status": "complete_available_text",
+      "start": "00:00:00",
+      "end": "01:39:22",
+      "caveats": [
+        "Read all local-ASR text, not audio. This is explicitly part one, despite an introduction mentioning a seven-hour conversation; review covers only this approximately 100-minute edition. ASR corrupts names and terms such as OOPS, Levin and Kolmogorov."
+      ]
+    },
+    "source_file": "DP454c1K_vQ.local-asr.txt",
+    "source_url": "https://www.youtube.com/watch?v=DP454c1K_vQ",
+    "distribution": "Transcript retained in the private research archive; not distributed in this repository."
+  },
+  {
+    "id": "9BC9BsZRCKQ",
+    "title": "ML Robustness & Engineering - Andrew Ilyas (MIT)",
+    "status": "reviewed_available_text",
+    "source_type": "publisher_transcript",
+    "words_in_selected_file": 18363,
+    "sha256": "ddc70f248db43e5d4f8847300d08a281f2c693f0d31c10f45aa0082c56996525",
+    "reused": false,
+    "source_notes": {
+      "status": "complete_available_text",
+      "start": "00:00:00",
+      "end": "01:27:39",
+      "caveats": [
+        "Read the complete recovered publisher transcript; audio not independently checked. Speaker attribution is generic and several names/technical terms are mistranscribed. Numerical examples in the conversation can be illustrative rather than paper-table results."
+      ]
+    },
+    "source_file": "9BC9BsZRCKQ.publisher.txt",
+    "source_url": "https://www.youtube.com/watch?v=9BC9BsZRCKQ",
+    "distribution": "Transcript retained in the private research archive; not distributed in this repository."
+  },
+  {
+    "id": "W485bz0_TdI",
+    "title": "Is ChatGPT an N-gram model on steroids?",
+    "status": "reviewed_available_text",
+    "source_type": "local_asr",
+    "words_in_selected_file": 6123,
+    "sha256": "3522799676894f5dd2a11de64c1a22cb48c0adbd6631680297d8d0b96a22207f",
+    "reused": false,
+    "source_notes": {
+      "status": "complete_available_text",
+      "method": "Read complete local ASR text in bounded sections; not an independent audio verification.",
+      "first_timestamp": "00:00:00",
+      "last_timestamp": "00:32:51",
+      "caveats": [
+        "Local Whisper-large-v3-turbo transcription; proper names and technical notation may be inaccurate.",
+        "Timestamps refer to the recovered podcast edition; exact alignment with the current YouTube edit is not certified."
+      ]
+    },
+    "source_file": "W485bz0_TdI.local-asr.txt",
+    "source_url": "https://www.youtube.com/watch?v=W485bz0_TdI",
+    "distribution": "Transcript retained in the private research archive; not distributed in this repository."
+  },
+  {
+    "id": "y1WnHpedi2A",
+    "title": "Do you think that ChatGPT can reason? [Prof. Subbarao Kambhampati]",
+    "status": "reviewed_available_text",
+    "source_type": "local_asr",
+    "words_in_selected_file": 16179,
+    "sha256": "98bf2ac5a52da9334cd4241463088768bb7367ebd7c757059e411622e08ec1f1",
+    "reused": false,
+    "source_notes": {
+      "status": "complete_available_text",
+      "method": "Read entire saved transcript in contiguous bounded chunks; only repeated timestamp/speaker-label formatting suppressed during reading. Audio and video not checked.",
+      "last_timestamp": "01:42:13",
+      "caveats": [
+        "ASR transcription can corrupt names and mathematical terminology; transcript completeness is not an audio audit.",
+        "Source is local Whisper-large-v3-turbo ASR of publisher RSS podcast audio; names, formulas, and speaker assignments can be inaccurate.",
+        "All local publisher-podcast ASR read through 01:42:02. Matched RSS is one second shorter than listed video; timings not independently aligned."
+      ]
+    },
+    "source_file": "y1WnHpedi2A.local-asr.txt",
+    "source_url": "https://www.youtube.com/watch?v=y1WnHpedi2A",
+    "distribution": "Transcript retained in the private research archive; not distributed in this repository."
+  },
+  {
+    "id": "z9j3wB1RRGA",
+    "title": "Solving Chollet's ARC-AGI with GPT4o",
+    "status": "reviewed_available_text",
+    "source_type": "local_asr",
+    "words_in_selected_file": 29440,
+    "sha256": "5ba6d10fffb0c8299e316cb84396ddfcd9c1d207a7ee6ae4458a619becb1f7ff",
+    "reused": false,
+    "source_notes": {
+      "status": "complete_available_text",
+      "start": "00:00:00",
+      "end": "02:17:57",
+      "caveats": [
+        "Read all 31,501 words of the local-ASR text, not audio. No speaker diarization; several model names and quantities are corrupted or loosely recalled. The episode discusses a historical 2024 method, followed by an extended speculative agency/risk debate."
+      ]
+    },
+    "source_file": "z9j3wB1RRGA.local-asr.txt",
+    "source_url": "https://www.youtube.com/watch?v=z9j3wB1RRGA",
+    "distribution": "Transcript retained in the private research archive; not distributed in this repository."
+  },
+  {
+    "id": "jSAT_RuJ_Cg",
+    "title": "Chollet's ARC Challenge + Current Winners",
+    "status": "reviewed_available_text",
+    "source_type": "local_asr",
+    "words_in_selected_file": 20761,
+    "sha256": "6abc4b76c9367cbe70100a9ad3db840649974fcca7703b7e33dad4b40b21f361",
+    "reused": false,
+    "source_notes": {
+      "status": "complete_available_text",
+      "method": "Read entire saved transcript in contiguous bounded chunks; only repeated timestamp/speaker-label formatting suppressed during reading. Audio and video not checked.",
+      "last_timestamp": "02:14:15",
+      "caveats": [
+        "ASR transcription can corrupt names and mathematical terminology; transcript completeness is not an audio audit.",
+        "Source is local Whisper-large-v3-turbo ASR of publisher RSS podcast audio; names, formulas, and speaker assignments can be inaccurate.",
+        "Full local publisher-podcast ASR read through 02:14:08. Podcast duration is 45 seconds shorter than listed video; timestamps refer to the podcast. Visual grid examples in the introduction were not inspected."
+      ]
+    },
+    "source_file": "jSAT_RuJ_Cg.local-asr.txt",
+    "source_url": "https://www.youtube.com/watch?v=jSAT_RuJ_Cg",
+    "distribution": "Transcript retained in the private research archive; not distributed in this repository."
+  },
+  {
+    "id": "Bpgloy1dDn0",
+    "title": "Mapping GPT revealed something strange...",
+    "status": "reviewed_available_text",
+    "source_type": "local_asr",
+    "words_in_selected_file": 15321,
+    "sha256": "63062ed8cd79f759b444e8bb50f7e9bb92b12ab1298afc7c156715acd44d361d",
+    "reused": false,
+    "source_notes": {
+      "status": "complete_available_text",
+      "method": "Read complete local ASR text in bounded sections; not an independent audio verification.",
+      "first_timestamp": "00:00:00",
+      "last_timestamp": "01:17:05",
+      "caveats": [
+        "Local Whisper-large-v3-turbo transcription; proper names and technical notation may be inaccurate.",
+        "Timestamps refer to the recovered podcast edition; exact alignment with the current YouTube edit is not certified.",
+        "Recovered podcast includes an explicitly appended technical segment after the main interview, extending to 77 minutes. The selected YouTube metadata is about 69 minutes; appendix timestamps must not be assumed to exist in that edit."
+      ]
+    },
+    "source_file": "Bpgloy1dDn0.local-asr.txt",
+    "source_url": "https://www.youtube.com/watch?v=Bpgloy1dDn0",
+    "distribution": "Transcript retained in the private research archive; not distributed in this repository."
+  },
+  {
+    "id": "bk_xCikDUDQ",
+    "title": "Dr. THOMAS PARR - Active Inference",
+    "status": "reviewed_available_text",
+    "source_type": "publisher_transcript",
+    "words_in_selected_file": 19012,
+    "sha256": "2835410b4b9950a90c3e9ca322c0a48bd7b45f0bf0647253bc48d24c6d0ac557",
+    "reused": false,
+    "source_notes": {
+      "status": "complete_available_text",
+      "method": "Read entire saved transcript in contiguous bounded chunks; only repeated timestamp/speaker-label formatting suppressed during reading. Audio and video not checked.",
+      "last_timestamp": "01:36:52",
+      "caveats": [
+        "ASR transcription can corrupt names and mathematical terminology; transcript completeness is not an audio audit.",
+        "Source is recovered publisher transcript; completeness here means all available publisher text, not independently verified audio completeness.",
+        "Complete publisher transcript read through 01:36. Listed video and matched RSS durations agree; publisher RSS links an alternate YouTube ID. Times are observed transcript times, not independently audio-aligned."
+      ]
+    },
+    "source_file": "bk_xCikDUDQ.publisher.txt",
+    "source_url": "https://www.youtube.com/watch?v=bk_xCikDUDQ",
+    "distribution": "Transcript retained in the private research archive; not distributed in this repository."
+  },
+  {
+    "id": "rie-9AEhYdY",
+    "title": "WE MUST ADD STRUCTURE TO DEEP LEARNING BECAUSE...",
+    "status": "reviewed_available_text",
+    "source_type": "publisher_transcript",
+    "words_in_selected_file": 20274,
+    "sha256": "29d39dcf1f1a82c79f6ff99f4865e43f8d8770ad2a7fe42a8e671a801d734c76",
+    "reused": false,
+    "source_notes": {
+      "read": "Entire available selected transcript read sequentially; audio not verified.",
+      "last_timestamp": null,
+      "source_caveats": "Publisher transcript edition; wording, speaker labeling and mathematical transcription may contain errors. Timings refer only to this source."
+    },
+    "source_file": "rie-9AEhYdY.publisher.txt",
+    "source_url": "https://www.youtube.com/watch?v=rie-9AEhYdY",
+    "distribution": "Transcript retained in the private research archive; not distributed in this repository."
+  },
+  {
+    "id": "s3C0sEwixkQ",
+    "title": "Building a GENERAL AI agent with reinforcement learning",
+    "status": "reviewed_available_text",
+    "source_type": "local_asr",
+    "words_in_selected_file": 24506,
+    "sha256": "295b20386f6264f367dfa7127356274a15038597f530ce0b240f5ac31d865a78",
+    "reused": false,
+    "source_notes": {
+      "read": "Entire available selected transcript read sequentially; audio not verified.",
+      "last_timestamp": "01:57:11",
+      "source_caveats": "Local ASR recovered from episode audio; names, equations and speaker attribution may be inaccurate. Timestamps are ASR segment anchors."
+    },
+    "source_file": "s3C0sEwixkQ.local-asr.txt",
+    "source_url": "https://www.youtube.com/watch?v=s3C0sEwixkQ",
+    "distribution": "Transcript retained in the private research archive; not distributed in this repository."
+  },
+  {
+    "id": "sJXn4Cl4oww",
+    "title": "This is why Deep Learning is really weird.",
+    "status": "reviewed_available_text",
+    "source_type": "local_asr",
+    "words_in_selected_file": 20582,
+    "sha256": "88660e8835d8dfd725ed381357baf4910317d7e67040be75e90ab9b1314cba39",
+    "reused": false,
+    "source_notes": {
+      "status": "complete_available_text",
+      "start": "00:00:00",
+      "end": "02:06:36",
+      "caveats": [
+        "Read all 22,033 words of local-ASR transcript, not audio. Technical visuals from the book are described but not supplied in this transcript. ASR occasionally corrupts names and terms. Opening narration summarizes the book with stronger wording than the later discussion; historical capability and employment claims are not current assessments."
+      ]
+    },
+    "source_file": "sJXn4Cl4oww.local-asr.txt",
+    "source_url": "https://www.youtube.com/watch?v=sJXn4Cl4oww",
+    "distribution": "Transcript retained in the private research archive; not distributed in this repository."
+  },
+  {
+    "id": "2wnJ6E6rQsU",
+    "title": "This man builds intelligent machines",
+    "status": "reviewed_available_text",
+    "source_type": "local_asr",
+    "words_in_selected_file": 21694,
+    "sha256": "bed0d9b6588a926c175ada624d34b862d8ed1576916f87ecb65bb09b5d066f19",
+    "reused": false,
+    "source_notes": {
+      "read": "Entire available selected transcript read sequentially; audio not verified.",
+      "last_timestamp": "02:27:37",
+      "source_caveats": "Local ASR recovered from episode audio; names, equations and speaker attribution may be inaccurate. Timestamps are ASR segment anchors."
+    },
+    "source_file": "2wnJ6E6rQsU.local-asr.txt",
+    "source_url": "https://www.youtube.com/watch?v=2wnJ6E6rQsU",
+    "distribution": "Transcript retained in the private research archive; not distributed in this repository."
+  },
+  {
+    "id": "qxEfcrmTWO4",
+    "title": "How can we add knowledge to AI agents?",
+    "status": "reviewed_available_text",
+    "source_type": "local_asr",
+    "words_in_selected_file": 9160,
+    "sha256": "0575e9962b2a65f91742f0d38ea4ec13d03322c9c4bbfacb0a6d716e759f9345",
+    "reused": false,
+    "source_notes": {
+      "status": "complete_available_text",
+      "method": "Read entire saved transcript in contiguous bounded chunks; only repeated timestamp/speaker-label formatting suppressed during reading. Audio and video not checked.",
+      "last_timestamp": "00:49:52",
+      "caveats": [
+        "ASR transcription can corrupt names and mathematical terminology; transcript completeness is not an audio audit.",
+        "Source is local Whisper-large-v3-turbo ASR of publisher RSS podcast audio; names, formulas, and speaker assignments can be inaccurate.",
+        "Observed timestamps in locally transcribed publisher podcast; RSS duration differs from listed video by one second. No audio alignment verified."
+      ]
+    },
+    "source_file": "qxEfcrmTWO4.local-asr.txt",
+    "source_url": "https://www.youtube.com/watch?v=qxEfcrmTWO4",
+    "distribution": "Transcript retained in the private research archive; not distributed in this repository."
+  },
+  {
+    "id": "_Ygf0GnlwmY",
+    "title": "Mechanistic Interpretability - NEEL NANDA (DeepMind)",
+    "status": "reviewed_available_text",
+    "source_type": "publisher_transcript",
+    "words_in_selected_file": 39923,
+    "sha256": "a9c62af6495cfee6fdc695809c889dbed7f8c37c09835035ea47ffe4f6ee2594",
+    "reused": true,
+    "source_notes": {
+      "status": "complete_available_text",
+      "start": "Opening woods conversation",
+      "end": "Closing thanks; final source character 226666",
+      "caveats": [
+        "Read all 39,923 words of the publisher text, not the audio. This is an untimed alternate edition; no reliable video timestamps can be recovered from it. Speaker labels and technical terms contain transcription errors. Historical research and forecast claims describe the interview period, not current field coverage."
+      ]
+    },
+    "source_file": "_Ygf0GnlwmY.publisher.txt",
+    "source_url": "https://www.youtube.com/watch?v=_Ygf0GnlwmY",
+    "distribution": "Transcript retained in the private research archive; not distributed in this repository."
+  },
+  {
+    "id": "29gkDpR2orc",
+    "title": "AI BENCHMARKS ARE BROKEN! [Prof. MELANIE MITCHELL]",
+    "status": "reviewed_available_text",
+    "source_type": "local_asr",
+    "words_in_selected_file": 9479,
+    "sha256": "33d90904547535da0eaffe5a276a48fbbd5988b7717a11cbdf07ff074874b876",
+    "reused": false,
+    "source_notes": {
+      "read": "Entire available selected transcript read sequentially; audio not verified.",
+      "last_timestamp": "01:01:45",
+      "source_caveats": "Local ASR recovered from episode audio; names, equations and speaker attribution may be inaccurate. Timestamps are ASR segment anchors."
+    },
+    "source_file": "29gkDpR2orc.local-asr.txt",
+    "source_url": "https://www.youtube.com/watch?v=29gkDpR2orc",
+    "distribution": "Transcript retained in the private research archive; not distributed in this repository."
+  },
+  {
+    "id": "bL00-jtRrMA",
+    "title": "Autopoietic Enactivism and the Free Energy Principle - Prof. Friston, Prof Buckley, Dr. Ramstead",
+    "status": "reviewed_available_text",
+    "source_type": "local_asr",
+    "words_in_selected_file": 15234,
+    "sha256": "0e663c9b4a3b19c7660d47160a98216acefbc6d12a78d8b35fcf87a00a29b087",
+    "reused": false,
+    "source_notes": {
+      "status": "complete_available_text",
+      "method": "Read entire saved transcript in contiguous bounded chunks; only repeated timestamp/speaker-label formatting suppressed during reading. Audio and video not checked.",
+      "last_timestamp": "01:34:42",
+      "caveats": [
+        "ASR transcription can corrupt names and mathematical terminology; transcript completeness is not an audio audit.",
+        "Source is local Whisper-large-v3-turbo ASR of publisher RSS podcast audio; names, formulas, and speaker assignments can be inaccurate.",
+        "Full locally transcribed publisher podcast read through 01:34; listed video and RSS durations match, but audio alignment was not checked."
+      ]
+    },
+    "source_file": "bL00-jtRrMA.local-asr.txt",
+    "source_url": "https://www.youtube.com/watch?v=bL00-jtRrMA",
+    "distribution": "Transcript retained in the private research archive; not distributed in this repository."
+  },
+  {
+    "id": "q27XMPm5wg8",
+    "title": "ORIGINAL FATHER OF AI ON DANGERS! (Prof. Jürgen Schmidhuber)",
+    "status": "reviewed_available_text",
+    "source_type": "publisher_transcript",
+    "words_in_selected_file": 14683,
+    "sha256": "7d8c93477e881521363f4d4a83d373e7a2735e93cef72e0ed68046517e83274a",
+    "reused": true,
+    "source_notes": {
+      "status": "complete_available_text",
+      "method": "Read entire SRT transcript, first third including timecodes and remaining portions with subtitle indices removed; spoken content preserved. Audio not checked.",
+      "last_timestamp": "01:21:01",
+      "caveats": [
+        "Historical SRT transcript; words_read includes subtitle numbering/timecodes. Attribution and political claims are not independently verified."
+      ]
+    },
+    "source_file": "q27XMPm5wg8.publisher.txt",
+    "source_url": "https://www.youtube.com/watch?v=q27XMPm5wg8",
+    "distribution": "Transcript retained in the private research archive; not distributed in this repository."
+  },
+  {
+    "id": "8qb28P7ksyE",
+    "title": "The Physics of AI",
+    "status": "reviewed_available_text",
+    "source_type": "local_asr",
+    "words_in_selected_file": 18187,
+    "sha256": "05bae8bc95752934c83ad05d6cdfcdc2591e5b17c94d66428a613db45acda23e",
+    "reused": false,
+    "source_notes": {
+      "status": "complete_available_text",
+      "method": "Read entire saved transcript in contiguous bounded chunks; only repeated timestamp/speaker-label formatting suppressed during reading. Audio and video not checked.",
+      "last_timestamp": "02:05:45",
+      "caveats": [
+        "ASR transcription can corrupt names and mathematical terminology; transcript completeness is not an audio audit.",
+        "Source is local Whisper-large-v3-turbo ASR of publisher RSS podcast audio; names, formulas, and speaker assignments can be inaccurate.",
+        "Complete local ASR of publisher podcast read through 02:05. Podcast is 490 seconds longer than the listed 01:57:40 video. These ranges refer to podcast edition, not assumed YouTube offsets."
+      ]
+    },
+    "source_file": "8qb28P7ksyE.local-asr.txt",
+    "source_url": "https://www.youtube.com/watch?v=8qb28P7ksyE",
+    "distribution": "Transcript retained in the private research archive; not distributed in this repository."
+  },
+  {
+    "id": "4KIQH1VEwBI",
+    "title": "Can ChatGPT Handle Infinite Possibilities? - Walid Saba",
+    "status": "reviewed_available_text",
+    "source_type": "youtube_automatic_captions",
+    "words_in_selected_file": 2516,
+    "sha256": "9fab762c66fdc422379f85529ff2129a27ed92ea472d5e01f883a7cf6c35f451",
+    "reused": false,
+    "source_notes": {
+      "status": "complete_available_text",
+      "method": "Read all 392 normalized YouTube automatic English captions in order, including opening question, closing halting discussion, and sign-off. Not an independent audio verification.",
+      "first_timestamp": "00:00:00",
+      "last_timestamp": "00:15:56",
+      "caveats": [
+        "Recovered on 2026-10-26 from the exact YouTube video ID, whose listed duration is 15:58. No related interview is substituted.",
+        "Automatic captions misrecognize technical terms, including Turing, recursively enumerable, and Turing complete. Interpretations below follow clear surrounding context; no audio check is claimed."
+      ]
+    },
+    "source_file": "4KIQH1VEwBI.youtube-captions.txt",
+    "source_url": "https://www.youtube.com/watch?v=4KIQH1VEwBI",
+    "distribution": "Transcript retained in the private research archive; not distributed in this repository."
+  },
+  {
+    "id": "fhn6ZtD6XeE",
+    "title": "#107 - Dr. RAPHAËL MILLIÈRE - Linguistics, Theory of Mind, Grounding",
+    "status": "reviewed_available_text",
+    "source_type": "local_asr",
+    "words_in_selected_file": 15277,
+    "sha256": "adb1e4998852646892ab87c3c8deadb2007b6df5b5cbf77c54b014bcaac2f25a",
+    "reused": false,
+    "source_notes": {
+      "read": "Entire available selected transcript read sequentially; audio not verified.",
+      "last_timestamp": "01:43:53",
+      "source_caveats": "Local ASR recovered from episode audio; names, equations and speaker attribution may be inaccurate. Timestamps are ASR segment anchors."
+    },
+    "source_file": "fhn6ZtD6XeE.local-asr.txt",
+    "source_url": "https://www.youtube.com/watch?v=fhn6ZtD6XeE",
+    "distribution": "Transcript retained in the private research archive; not distributed in this repository."
+  },
+  {
+    "id": "V_VXOdf1NMw",
+    "title": "KARL FRISTON - INTELLIGENCE 3.0",
+    "status": "reviewed_available_text",
+    "source_type": "publisher_transcript",
+    "words_in_selected_file": 32293,
+    "sha256": "3a5807fc12558dabe5eaabaa907d795a6db93cf772c51663ef88d11c0b233586",
+    "reused": false,
+    "source_notes": {
+      "status": "complete_available_text",
+      "method": "Read entire saved transcript in contiguous bounded chunks; only repeated timestamp/speaker-label formatting suppressed during reading. Audio and video not checked.",
+      "last_timestamp": "02:59:19",
+      "caveats": [
+        "ASR transcription can corrupt names and mathematical terminology; transcript completeness is not an audio audit.",
+        "Source is recovered publisher transcript; completeness here means all available publisher text, not independently verified audio completeness.",
+        "Entire publisher transcript read through 02:59:06. RSS and video durations differ by one second; two publisher chapter lists disagree in places. Ranges use observed transcript timing."
+      ]
+    },
+    "source_file": "V_VXOdf1NMw.publisher.txt",
+    "source_url": "https://www.youtube.com/watch?v=V_VXOdf1NMw",
+    "distribution": "Transcript retained in the private research archive; not distributed in this repository."
+  },
+  {
+    "id": "snUf_LIfQII",
+    "title": "#101 DR. WALID SABA - Extrapolation, Compositionality and Learnability",
+    "status": "reviewed_available_text",
+    "source_type": "local_asr",
+    "words_in_selected_file": 7365,
+    "sha256": "51ce49f637cb3ea92aeb1d3677b3c4f65312f4e64b178a4b1cdafcc3a077e8c3",
+    "reused": false,
+    "source_notes": {
+      "status": "complete_available_text",
+      "method": "Read complete local ASR text in bounded sections; not an independent audio verification.",
+      "first_timestamp": "00:00:00",
+      "last_timestamp": "00:49:10",
+      "caveats": [
+        "Local Whisper-large-v3-turbo transcription; proper names and technical notation may be inaccurate.",
+        "Timestamps refer to the recovered podcast edition; exact alignment with the current YouTube edit is not certified.",
+        "Recovered public Ivoox podcast archive is about 49 minutes. Publisher description mentions a later vagueness/behaviorism portion that is absent from this available audio; no review of that unavailable material is claimed."
+      ]
+    },
+    "source_file": "snUf_LIfQII.local-asr.txt",
+    "source_url": "https://www.youtube.com/watch?v=snUf_LIfQII",
+    "distribution": "Transcript retained in the private research archive; not distributed in this repository."
+  },
+  {
+    "id": "VvXfK-Qle-Y",
+    "title": "#97 SREEJAN KUMAR - Human Inductive Biases in Machines from Language",
+    "status": "reviewed_available_text",
+    "source_type": "local_asr",
+    "words_in_selected_file": 4000,
+    "sha256": "93b8548343e716d1b18f4f3121b169324c007ae0e8ab26bf258e9cdafec0cf6e",
+    "reused": false,
+    "source_notes": {
+      "status": "complete_available_text",
+      "first_timestamp": "00:00:00",
+      "last_timestamp": "00:24:57",
+      "method": "Read every line of locally generated publisher-podcast transcript.",
+      "caveats": [
+        "Local Whisper-large-v3-turbo ASR; names imperfect and audio not independently corrected.",
+        "Podcast and video both 1,498 seconds, but exact timestamp alignment not certified."
+      ]
+    },
+    "source_file": "VvXfK-Qle-Y.local-asr.txt",
+    "source_url": "https://www.youtube.com/watch?v=VvXfK-Qle-Y",
+    "distribution": "Transcript retained in the private research archive; not distributed in this repository."
+  },
+  {
+    "id": "7oJui4eSCoY",
+    "title": "#92 - SARA HOOKER - Fairness, Interpretability, Language Models",
+    "status": "reviewed_available_text",
+    "source_type": "local_asr",
+    "words_in_selected_file": 9147,
+    "sha256": "01b8d2ec214f23bf169ade6ab7058baf6b9c0eec916669a4690d9139a371c42d",
+    "reused": false,
+    "source_notes": {
+      "status": "complete_available_text",
+      "method": "Read complete local ASR text in bounded sections; not an independent audio verification.",
+      "first_timestamp": "00:00:00",
+      "last_timestamp": "00:51:30",
+      "caveats": [
+        "Local Whisper-large-v3-turbo transcription; proper names and technical notation may be inaccurate.",
+        "Timestamps refer to the recovered podcast edition; exact alignment with the current YouTube edit is not certified."
+      ]
+    },
+    "source_file": "7oJui4eSCoY.local-asr.txt",
+    "source_url": "https://www.youtube.com/watch?v=7oJui4eSCoY",
+    "distribution": "Transcript retained in the private research archive; not distributed in this repository."
+  },
+  {
+    "id": "80i6D2TJdQ4",
+    "title": "#91 - HATTIE ZHOU - Teaching Algorithmic Reasoning via In-context Learning #NeurIPS",
+    "status": "reviewed_available_text",
+    "source_type": "local_asr",
+    "words_in_selected_file": 3075,
+    "sha256": "87045e1cd86e509e8627824d47af060c1f9a9ed1df5b8e99e1fe164bedbef0de",
+    "reused": false,
+    "source_notes": {
+      "status": "complete_available_text",
+      "method": "Read complete locally generated transcript of publisher RSS audio, including the closing Markus interview.",
+      "first_timestamp": "00:00:00",
+      "last_timestamp": "00:21:11",
+      "caveats": [
+        "Local Whisper-large-v3-turbo transcription; not corrected word-by-word against audio.",
+        "RSS duration1274seconds closely matches video1275seconds; timestamps still refer to podcast audio.",
+        "Names and mathematical boundary conditions may be transcribed imperfectly."
+      ]
+    },
+    "source_file": "80i6D2TJdQ4.local-asr.txt",
+    "source_url": "https://www.youtube.com/watch?v=80i6D2TJdQ4",
+    "distribution": "Transcript retained in the private research archive; not distributed in this repository."
+  },
+  {
+    "id": "24u6CTV4t1k",
+    "title": "#87 - ADELE MYERS - Regression-Based Elastic Metric Learning on Shape Spaces of Cell Curves #NEURIPS",
+    "status": "reviewed_available_text",
+    "source_type": "youtube_automatic_captions",
+    "words_in_selected_file": 1618,
+    "sha256": "4852ae6e543dd25229d4e249c1fad7100473d8af828dd4d8149eb54bab39077a",
+    "reused": false,
+    "source_notes": {
+      "status": "complete_available_text",
+      "method": "Read all 271 nonempty YouTube caption events, 1,618 spoken words, sequentially from introduction through closing thanks.",
+      "first_timestamp": "00:00:00",
+      "last_timestamp": "00:12:46",
+      "caveats": [
+        "English automatic captions recovered directly for the exact YouTube video on 26 October 2026. No independent audio or gesture verification.",
+        "Technical names are mistranscribed, including Riemannian geometry and Nina Miolane. The bending/stretching demonstration depends on gestures absent from the text.",
+        "Last text begins at 766.5 seconds, consistent with the listed 769-second video. Caption display duration extends slightly beyond the recording; it is not extra spoken material."
+      ]
+    },
+    "source_file": "24u6CTV4t1k.youtube-captions.txt",
+    "source_url": "https://www.youtube.com/watch?v=24u6CTV4t1k",
+    "distribution": "Transcript retained in the private research archive; not distributed in this repository."
+  },
+  {
+    "id": "9dLd6n9yT8U",
+    "title": "#86 - Prof. YANN LECUN and Dr. RANDALL BALESTRIERO - SSL, Data Augmentation [NEURIPS2022]",
+    "status": "reviewed_available_text",
+    "source_type": "local_asr",
+    "words_in_selected_file": 5507,
+    "sha256": "eec27ea2fc603ce197996cb11b319049eeba8ae6f4188b9326f5464f846a2d15",
+    "reused": false,
+    "source_notes": {
+      "status": "complete_available_text",
+      "method": "Read complete local ASR text in bounded sections; not an independent audio verification.",
+      "first_timestamp": "00:00:00",
+      "last_timestamp": "00:30:26",
+      "caveats": [
+        "Local Whisper-large-v3-turbo transcription; proper names and technical notation may be inaccurate.",
+        "Timestamps refer to the recovered podcast edition; exact alignment with the current YouTube edit is not certified."
+      ]
+    },
+    "source_file": "9dLd6n9yT8U.local-asr.txt",
+    "source_url": "https://www.youtube.com/watch?v=9dLd6n9yT8U",
+    "distribution": "Transcript retained in the private research archive; not distributed in this repository."
+  },
+  {
+    "id": "1lkdWduuN14",
+    "title": "#85 Dr. Petar Veličković (Deepmind) - Categories, Graphs, Reasoning [NEURIPS22 UNPLUGGED]",
+    "status": "reviewed_available_text",
+    "source_type": "local_asr",
+    "words_in_selected_file": 7304,
+    "sha256": "3a229a38614e797d957ed03cb6cd33d49c4e5595587ca7c448f491b7726392dc",
+    "reused": false,
+    "source_notes": {
+      "status": "complete_available_text",
+      "method": "Read complete local ASR text in bounded sections; not an independent audio verification.",
+      "first_timestamp": "00:00:00",
+      "last_timestamp": "00:36:52",
+      "caveats": [
+        "Local Whisper-large-v3-turbo transcription; proper names and technical notation may be inaccurate.",
+        "Timestamps refer to the recovered podcast edition; exact alignment with the current YouTube edit is not certified."
+      ]
+    },
+    "source_file": "1lkdWduuN14.local-asr.txt",
+    "source_url": "https://www.youtube.com/watch?v=1lkdWduuN14",
+    "distribution": "Transcript retained in the private research archive; not distributed in this repository."
+  },
+  {
+    "id": "5Yd28ssDutA",
+    "title": "#84 LAURA RUIS - Large language models are not zero-shot communicators [NEURIPS UNPLUGGED]",
+    "status": "reviewed_available_text",
+    "source_type": "local_asr",
+    "words_in_selected_file": 4588,
+    "sha256": "5e40e881c01bb8defede9853905e39bcb45f12ed94e487666093dfeb712b9e52",
+    "reused": false,
+    "source_notes": {
+      "status": "complete_available_text",
+      "method": "Read complete local ASR text in bounded sections; not an independent audio verification.",
+      "first_timestamp": "00:00:00",
+      "last_timestamp": "00:27:45",
+      "caveats": [
+        "Local Whisper-large-v3-turbo transcription; proper names and technical notation may be inaccurate.",
+        "Timestamps refer to the recovered podcast edition; exact alignment with the current YouTube edit is not certified."
+      ]
+    },
+    "source_file": "5Yd28ssDutA.local-asr.txt",
+    "source_url": "https://www.youtube.com/watch?v=5Yd28ssDutA",
+    "distribution": "Transcript retained in the private research archive; not distributed in this repository."
+  },
+  {
+    "id": "iqkkkA9dtY0",
+    "title": "#81  JULIAN TOGELIUS, Prof. KEN STANLEY - AGI, Games, Diversity & Creativity [UNPLUGGED]",
+    "status": "reviewed_available_text",
+    "source_type": "existing_caption_or_archive",
+    "words_in_selected_file": 10535,
+    "sha256": "042bf184b61bb1e5bc45f7cf4f58159a1553274544708719438a225eaf5d1980",
+    "reused": true,
+    "source_notes": {
+      "status": "complete_available_text",
+      "method": "Read entire saved transcript; any truncated tool section reread in bounded chunks. Audio not checked.",
+      "last_timestamp": "01:09:41",
+      "caveats": [
+        "ASR transcription can corrupt names and mathematical terminology; transcript completeness is not an audio audit."
+      ]
+    },
+    "source_file": "iqkkkA9dtY0.hf.txt",
+    "source_url": "https://www.youtube.com/watch?v=iqkkkA9dtY0",
+    "distribution": "Transcript retained in the private research archive; not distributed in this repository."
+  },
+  {
+    "id": "MDt2e8XtUcA",
+    "title": "EMERGENCE.",
+    "status": "reviewed_available_text",
+    "source_type": "existing_caption_or_archive",
+    "words_in_selected_file": 19737,
+    "sha256": "9d8632809c860e464a660859543ce1c1ff28f4f8eecc2d6b084cf943217b4cb2",
+    "reused": true,
+    "source_notes": {
+      "status": "complete_available_text",
+      "method": "Read entire saved transcript; any truncated tool section reread in bounded chunks. Audio not checked.",
+      "last_timestamp": "01:55:28",
+      "caveats": [
+        "ASR transcription can corrupt names and mathematical terminology; transcript completeness is not an audio audit."
+      ]
+    },
+    "source_file": "MDt2e8XtUcA.hf.txt",
+    "source_url": "https://www.youtube.com/watch?v=MDt2e8XtUcA",
+    "distribution": "Transcript retained in the private research archive; not distributed in this repository."
+  },
+  {
+    "id": "jAGIuobLp60",
+    "title": "#71 - ZAK JOST (Graph Neural Networks + Geometric DL) [UNPLUGGED]",
+    "status": "reviewed_available_text",
+    "source_type": "existing_caption_or_archive",
+    "words_in_selected_file": 10318,
+    "sha256": "949d67e263a7b7727cc8fb693f3ae96944f59a6282668eefa764397508d39d8d",
+    "reused": true,
+    "source_notes": {
+      "read": "Entire available transcript, sequentially; not audio verified.",
+      "last_timestamp": "01:02:30",
+      "source_caveats": "ASR/publisher transcript may contain wording and mathematical transcription errors; timestamps refer to this saved edition."
+    },
+    "source_file": "jAGIuobLp60.hf.txt",
+    "source_url": "https://www.youtube.com/watch?v=jAGIuobLp60",
+    "distribution": "Transcript retained in the private research archive; not distributed in this repository."
+  },
+  {
+    "id": "ZaOp1KNhpUQ",
+    "title": "#69 DR. THOMAS LUX - Interpolation of Sparse High-Dimensional Data [UNPLUGGED]",
+    "status": "reviewed_available_text",
+    "source_type": "existing_caption_or_archive",
+    "words_in_selected_file": 9584,
+    "sha256": "9fad35dc2e2d487e3e449c058082f39bd8c4e4f8df1f2f3c2422ed9406272e49",
+    "reused": true,
+    "source_notes": {
+      "status": "complete_available_text",
+      "start": "00:00:00",
+      "end": "00:50:37",
+      "caveats": [
+        "Complete HF transcript read in two contiguous ranges. No audio/visual inspection; geometric drawings are not available in this textual source."
+      ]
+    },
+    "source_file": "ZaOp1KNhpUQ.hf.txt",
+    "source_url": "https://www.youtube.com/watch?v=ZaOp1KNhpUQ",
+    "distribution": "Transcript retained in the private research archive; not distributed in this repository."
+  },
+  {
+    "id": "dhM0_EKLg9k",
+    "title": "#62 Dr. GUY EMERSON + Walid Saba [Unplugged]",
+    "status": "reviewed_available_text",
+    "source_type": "existing_caption_or_archive",
+    "words_in_selected_file": 16150,
+    "sha256": "7ec80c1058227f7ae22d3e3a4a4f90f14ac43127c2ad8698c4ed428401e68b8f",
+    "reused": true,
+    "source_notes": {
+      "status": "complete_available_text",
+      "start": "00:00:00",
+      "end": "01:29:13",
+      "caveats": [
+        "Complete saved transcript read; no audio verification. ASR confuses names and technical terms, with occasional repetition. Historical discussion of then-current language models is not a present capability assessment."
+      ]
+    },
+    "source_file": "dhM0_EKLg9k.hf.txt",
+    "source_url": "https://www.youtube.com/watch?v=dhM0_EKLg9k",
+    "distribution": "Transcript retained in the private research archive; not distributed in this repository."
+  },
+  {
+    "id": "xKQ-F2-o8uM",
+    "title": "#67 Prof. KARL FRISTON 2.0 [Unplugged]",
+    "status": "reviewed_available_text",
+    "source_type": "existing_caption_or_archive",
+    "words_in_selected_file": 15048,
+    "sha256": "e5e8d6bb8ccf437403aaf68e9891b190f2da82370c0e3a717e8812546872323d",
+    "reused": true,
+    "source_notes": {
+      "status": "complete_available_text",
+      "method": "Read entire saved transcript; any truncated tool section reread in bounded chunks. Audio not checked.",
+      "last_timestamp": "01:42:08",
+      "caveats": [
+        "ASR transcription can corrupt names and mathematical terminology; transcript completeness is not an audio audit."
+      ]
+    },
+    "source_file": "xKQ-F2-o8uM.hf.txt",
+    "source_url": "https://www.youtube.com/watch?v=xKQ-F2-o8uM",
+    "distribution": "Transcript retained in the private research archive; not distributed in this repository."
+  },
+  {
+    "id": "M49TMqK5uCE",
+    "title": "#063 - Prof. YOSHUA BENGIO - GFlowNets, Consciousness & Causality",
+    "status": "reviewed_available_text",
+    "source_type": "existing_caption_or_archive",
+    "words_in_selected_file": 14612,
+    "sha256": "a4187bc24bc4262de40931f9f8d4eaa9186eaa09fbdeddf5f1b40d2b2da43b3d",
+    "reused": true,
+    "source_notes": {
+      "status": "complete_available_text",
+      "method": "Read entire saved transcript; any truncated tool section reread in bounded chunks. Audio not checked.",
+      "last_timestamp": "01:32:56",
+      "caveats": [
+        "ASR transcription can corrupt names and mathematical terminology; transcript completeness is not an audio audit."
+      ]
+    },
+    "source_file": "M49TMqK5uCE.hf.txt",
+    "source_url": "https://www.youtube.com/watch?v=M49TMqK5uCE",
+    "distribution": "Transcript retained in the private research archive; not distributed in this repository."
+  },
+  {
+    "id": "86ib0sfdFtw",
+    "title": "Why LeCun Thinks Deep Learning Isn't Enough — Yann LeCun",
+    "status": "reviewed_available_text",
+    "source_type": "existing_caption_or_archive",
+    "words_in_selected_file": 32972,
+    "sha256": "20787c01778da02268cfbf02959a1c9866d34e516486d016b4465da5d4e739fd",
+    "reused": true,
+    "source_notes": {
+      "status": "complete_available_text",
+      "method": "Read all eight contiguous chunks of saved HF transcript, including introduction, both interviews, and debrief. Audio not checked.",
+      "last_timestamp": "03:19:04",
+      "caveats": [
+        "ASR names and technical terms can be corrupted.",
+        "Saved transcript anchors differ from current description and RSS chapter lists: LeCun discussion begins around 00:58, Balestriero around 01:50. I’ll use transcript search because the current publisher chapters may not align."
+      ]
+    },
+    "source_file": "86ib0sfdFtw.hf.txt",
+    "source_url": "https://www.youtube.com/watch?v=86ib0sfdFtw",
+    "distribution": "Transcript retained in the private research archive; not distributed in this repository."
+  },
+  {
+    "id": "bIZB1hIJ4u8",
+    "title": "The Geometric Deep Learning Blueprint — Michael Bronstein",
+    "status": "reviewed_available_text",
+    "source_type": "existing_caption_or_archive",
+    "words_in_selected_file": 34971,
+    "sha256": "e98a773d30d7a51b5d241d6a84101e0f22919bc710d1e77aa384443a2cfcab23",
+    "reused": true,
+    "source_notes": {
+      "read": "Entire available transcript, sequentially; not audio verified.",
+      "last_timestamp": "03:33:22",
+      "source_caveats": "ASR/publisher transcript may contain wording and mathematical transcription errors; timestamps refer to this saved edition."
+    },
+    "source_file": "bIZB1hIJ4u8.hf.txt",
+    "source_url": "https://www.youtube.com/watch?v=bIZB1hIJ4u8",
+    "distribution": "Transcript retained in the private research archive; not distributed in this repository."
+  },
+  {
+    "id": "6VQILbDqaI4",
+    "title": "#59 JEFF HAWKINS - Thousand Brains Theory",
+    "status": "reviewed_available_text",
+    "source_type": "existing_caption_or_archive",
+    "words_in_selected_file": 28216,
+    "sha256": "5f1192703219edca02b1cbd0261da6e3d1c826f11aeaf8f5ccedae4e731d4603",
+    "reused": true,
+    "source_notes": {
+      "status": "complete_available_text",
+      "method": "Read entire saved transcript; any truncated tool section reread in bounded chunks. Audio not checked.",
+      "last_timestamp": "02:34:59",
+      "caveats": [
+        "ASR transcription can corrupt names and mathematical terminology; transcript completeness is not an audio audit."
+      ]
+    },
+    "source_file": "6VQILbDqaI4.hf.txt",
+    "source_url": "https://www.youtube.com/watch?v=6VQILbDqaI4",
+    "distribution": "Transcript retained in the private research archive; not distributed in this repository."
+  },
+  {
+    "id": "EXJmodhu4_4",
+    "title": "#55 Dr. ISHAN MISRA - Self-Supervised Vision Models",
+    "status": "reviewed_available_text",
+    "source_type": "existing_caption_or_archive",
+    "words_in_selected_file": 17500,
+    "sha256": "855557c25f70f40084b05d74848a83afa206eb2b915129f0e4bc65b9cf7f72ca",
+    "reused": true,
+    "source_notes": {
+      "read": "Entire available transcript, sequentially; not audio verified.",
+      "last_timestamp": "01:36:20",
+      "source_caveats": "ASR/publisher transcript may contain wording and mathematical transcription errors; timestamps refer to this saved edition."
+    },
+    "source_file": "EXJmodhu4_4.hf.txt",
+    "source_url": "https://www.youtube.com/watch?v=EXJmodhu4_4",
+    "distribution": "Transcript retained in the private research archive; not distributed in this repository."
+  },
+  {
+    "id": "X9uSV1YcOy4",
+    "title": "#53 Prof. BOB COECKE - Quantum Natural Language Processing",
+    "status": "reviewed_available_text",
+    "source_type": "existing_caption_or_archive",
+    "words_in_selected_file": 24086,
+    "sha256": "0c56c5f0445b44954818302badda8eb4d5304101d3aa7c7024586e19a59e070e",
+    "reused": true,
+    "source_notes": {
+      "status": "complete_available_text",
+      "start": "00:00:00",
+      "end": "02:17:45",
+      "caveats": [
+        "Read all 25,587 source words; text review, not audio verification.",
+        "Interview approximately 00:19:29–01:50:36; substantial introductory and closing host interpretation."
+      ]
+    },
+    "source_file": "X9uSV1YcOy4.hf.txt",
+    "source_url": "https://www.youtube.com/watch?v=X9uSV1YcOy4",
+    "distribution": "Transcript retained in the private research archive; not distributed in this repository."
+  },
+  {
+    "id": "_eHRICHlg1k",
+    "title": "#52 - Dr. HADI SALMAN - Adversarial Examples Beyond Security [MIT]",
+    "status": "reviewed_available_text",
+    "source_type": "existing_caption_or_archive",
+    "words_in_selected_file": 20727,
+    "sha256": "ba0714693700a46e7e59216ed731758662d1c53851115a66f6998d40a09374a5",
+    "reused": true,
+    "source_notes": {
+      "read": "Entire available transcript, sequentially; not audio verified.",
+      "last_timestamp": "01:48:15",
+      "source_caveats": "ASR/publisher transcript may contain wording and mathematical transcription errors; timestamps refer to this saved edition."
+    },
+    "source_file": "_eHRICHlg1k.hf.txt",
+    "source_url": "https://www.youtube.com/watch?v=_eHRICHlg1k",
+    "distribution": "Transcript retained in the private research archive; not distributed in this repository."
+  },
+  {
+    "id": "J0p_thJJnoo",
+    "title": "#51 FRANCOIS CHOLLET - Intelligence and Generalisation",
+    "status": "reviewed_available_text",
+    "source_type": "existing_caption_or_archive",
+    "words_in_selected_file": 20606,
+    "sha256": "73fd3b92a6a178e57bffa4c73853836c276b3725951317972520a042e5d44ea7",
+    "reused": true,
+    "source_notes": {
+      "status": "complete_available_text",
+      "method": "Read entire saved transcript; any truncated tool section reread in bounded chunks. Audio not checked.",
+      "last_timestamp": "02:01:48",
+      "caveats": [
+        "ASR transcription can corrupt names and mathematical terminology; transcript completeness is not an audio audit."
+      ]
+    },
+    "source_file": "J0p_thJJnoo.hf.txt",
+    "source_url": "https://www.youtube.com/watch?v=J0p_thJJnoo",
+    "distribution": "Transcript retained in the private research archive; not distributed in this repository."
+  },
+  {
+    "id": "ehNGGYFO6ms",
+    "title": "#50 Dr. CHRISTIAN SZEGEDY - Formal Reasoning, Program Synthesis",
+    "status": "reviewed_available_text",
+    "source_type": "existing_caption_or_archive",
+    "words_in_selected_file": 14901,
+    "sha256": "e06bd9e5ef4b266ad49f0078781f2eb27abe18f7ba754ba42cba9c11578dc792",
+    "reused": true,
+    "source_notes": {
+      "status": "complete_available_text",
+      "start": "00:00:00",
+      "end": "01:33:23",
+      "caveats": [
+        "Complete saved transcript read. Audio not verified; transcription substantially garbles theorem names and one reported accuracy, so no precise quantitative claim is inferred from those passages. Historical forecasts are not treated as current evidence."
+      ]
+    },
+    "source_file": "ehNGGYFO6ms.hf.txt",
+    "source_url": "https://www.youtube.com/watch?v=ehNGGYFO6ms",
+    "distribution": "Transcript retained in the private research archive; not distributed in this repository."
+  },
+  {
+    "id": "hfaZwgk_iS0",
+    "title": "#49 - Meta-Gradients in RL - Dr. Tom Zahavy (DeepMind)",
+    "status": "reviewed_available_text",
+    "source_type": "existing_caption_or_archive",
+    "words_in_selected_file": 13938,
+    "sha256": "60cd06a272a868749752f102269399cfc9e73fc9023c3ad081e316a1efb56593",
+    "reused": true,
+    "source_notes": {
+      "status": "complete_available_text",
+      "start": "00:00:00",
+      "end": "01:24:56",
+      "caveats": [
+        "Complete transcript read, including introductory summary, technical discussion and research-history ending. Audio and plotted hyperparameter schedules not verified; automatic transcription contains names and occasional polarity errors."
+      ]
+    },
+    "source_file": "hfaZwgk_iS0.hf.txt",
+    "source_url": "https://www.youtube.com/watch?v=hfaZwgk_iS0",
+    "distribution": "Transcript retained in the private research archive; not distributed in this repository."
+  },
+  {
+    "id": "0LIACHcxpHU",
+    "title": "#047 Interpretable Machine Learning - Christoph Molnar",
+    "status": "reviewed_available_text",
+    "source_type": "existing_caption_or_archive",
+    "words_in_selected_file": 17460,
+    "sha256": "2027164b7df181631e28372a9e77f409f4fa0ed0cc6509dd9d59060796df91b3",
+    "reused": true,
+    "source_notes": {
+      "status": "complete_available_text",
+      "method": "Read entire saved transcript; any truncated tool section reread in bounded chunks. Audio not checked.",
+      "last_timestamp": "01:40:16",
+      "caveats": [
+        "ASR transcription can corrupt names and mathematical terminology; transcript completeness is not an audio audit."
+      ]
+    },
+    "source_file": "0LIACHcxpHU.hf.txt",
+    "source_url": "https://www.youtube.com/watch?v=0LIACHcxpHU",
+    "distribution": "Transcript retained in the private research archive; not distributed in this repository."
+  },
+  {
+    "id": "aisgNLypUKs",
+    "title": "#041 Dr. SIMON STRINGER - Biologically Plausible Neural Networks",
+    "status": "reviewed_available_text",
+    "source_type": "existing_caption_or_archive",
+    "words_in_selected_file": 17093,
+    "sha256": "7dd0417113000c8f5f666f64de79a2d92a1e3f70656ad944d7421d055b08e6e7",
+    "reused": true,
+    "source_notes": {
+      "status": "complete_available_text",
+      "method": "Read entire saved transcript; any truncated tool section reread in bounded chunks. Audio not checked.",
+      "last_timestamp": "01:27:00",
+      "caveats": [
+        "ASR transcription can corrupt names and mathematical terminology; transcript completeness is not an audio audit."
+      ]
+    },
+    "source_file": "aisgNLypUKs.hf.txt",
+    "source_url": "https://www.youtube.com/watch?v=aisgNLypUKs",
+    "distribution": "Transcript retained in the private research archive; not distributed in this repository."
+  },
+  {
+    "id": "2PenK06tvE4",
+    "title": "#040 - Adversarial Examples (Dr. Nicholas Carlini, Dr. Wieland Brendel, Florian Tramèr)",
+    "status": "reviewed_available_text",
+    "source_type": "existing_caption_or_archive",
+    "words_in_selected_file": 17379,
+    "sha256": "f9581886838a4274da5b7b8bc48e5d0456a9e18fdc8324060998cea247943425",
+    "reused": true,
+    "source_notes": {
+      "read": "Entire available transcript, sequentially; not audio verified.",
+      "last_timestamp": "01:36:11",
+      "source_caveats": "ASR/publisher transcript may contain wording and mathematical transcription errors; timestamps refer to this saved edition."
+    },
+    "source_file": "2PenK06tvE4.hf.txt",
+    "source_url": "https://www.youtube.com/watch?v=2PenK06tvE4",
+    "distribution": "Transcript retained in the private research archive; not distributed in this repository."
+  },
+  {
+    "id": "Q0kN_ZHHDQY",
+    "title": "039 - Lena Voita - NLP",
+    "status": "reviewed_available_text",
+    "source_type": "existing_caption_or_archive",
+    "words_in_selected_file": 20085,
+    "sha256": "d8e32949f9cb6f5db95063f411b4a10afdf43a3094e297cf29bb7e8f3d37596c",
+    "reused": true,
+    "source_notes": {
+      "status": "complete_available_text",
+      "start": "00:00:00",
+      "end": "01:58:13",
+      "caveats": [
+        "Read all 21,429 source words. The released edit contains a 21-minute host monologue, reconstructed introductory explanation, a blog tour, then the surviving interview from about 49:28. At 21:26 the hosts explicitly say the first 10–15 minutes of the original conversation were not recorded. Complete reading of this file does not recover that missing conversation. No audio verification; names and technical terms contain recognition errors."
+      ]
+    },
+    "source_file": "Q0kN_ZHHDQY.hf.txt",
+    "source_url": "https://www.youtube.com/watch?v=Q0kN_ZHHDQY",
+    "distribution": "Transcript retained in the private research archive; not distributed in this repository."
+  },
+  {
+    "id": "lhYGXYeMq_E",
+    "title": "Why Greatness Cannot Be Planned — Kenneth Stanley",
+    "status": "reviewed_available_text",
+    "source_type": "existing_caption_or_archive",
+    "words_in_selected_file": 32094,
+    "sha256": "8ac3ee44fbfa85ca716262af9496e51bd528d1ddc3d3f706e7caee52ef7e76dc",
+    "reused": true,
+    "source_notes": {
+      "read": "Entire available transcript, sequentially; not audio verified.",
+      "last_timestamp": "02:46:22",
+      "source_caveats": "ASR/publisher transcript may contain wording and mathematical transcription errors; timestamps refer to this saved edition."
+    },
+    "source_file": "lhYGXYeMq_E.hf.txt",
+    "source_url": "https://www.youtube.com/watch?v=lhYGXYeMq_E",
+    "distribution": "Transcript retained in the private research archive; not distributed in this repository."
+  },
+  {
+    "id": "RQ31MHw84o0",
+    "title": "#037 - Tour De Bayesian with Connor Tann",
+    "status": "reviewed_available_text",
+    "source_type": "existing_caption_or_archive",
+    "words_in_selected_file": 16783,
+    "sha256": "c0ba6d0f5fb0c1609fd01235aa5b845c5c30daaff979ba3152e0c1f2db6be8bb",
+    "reused": true,
+    "source_notes": {
+      "read": "Entire available transcript, sequentially; not audio verified.",
+      "last_timestamp": "01:35:23",
+      "source_caveats": "ASR/publisher transcript may contain wording and mathematical transcription errors; timestamps refer to this saved edition."
+    },
+    "source_file": "RQ31MHw84o0.hf.txt",
+    "source_url": "https://www.youtube.com/watch?v=RQ31MHw84o0",
+    "distribution": "Transcript retained in the private research archive; not distributed in this repository."
+  },
+  {
+    "id": "mmDw5glry9w",
+    "title": "#036 - Max Welling: Quantum, Manifolds & Symmetries in ML",
+    "status": "reviewed_available_text",
+    "source_type": "existing_caption_or_archive",
+    "words_in_selected_file": 18442,
+    "sha256": "1dab5d566544f5350de3997fbbcb7e86fcc00fcee5256259fe600817b0deac22",
+    "reused": true,
+    "source_notes": {
+      "read": "Entire available transcript, sequentially; not audio verified.",
+      "last_timestamp": "01:42:25",
+      "source_caveats": "ASR/publisher transcript may contain wording and mathematical transcription errors; timestamps refer to this saved edition."
+    },
+    "source_file": "mmDw5glry9w.hf.txt",
+    "source_url": "https://www.youtube.com/watch?v=mmDw5glry9w",
+    "distribution": "Transcript retained in the private research archive; not distributed in this repository."
+  },
+  {
+    "id": "KkR24ieh5Ow",
+    "title": "#033 Karl Friston - The Free Energy Principle",
+    "status": "reviewed_available_text",
+    "source_type": "existing_caption_or_archive",
+    "words_in_selected_file": 17482,
+    "sha256": "6a787a4c3cb1e7e5ffd46c527601442ff261fd174199a264b775eb834f684fca",
+    "reused": true,
+    "source_notes": {
+      "status": "complete_available_text",
+      "method": "Read entire saved transcript; any truncated tool section reread in bounded chunks. Audio not checked.",
+      "last_timestamp": "01:51:20",
+      "caveats": [
+        "ASR transcription can corrupt names and mathematical terminology; transcript completeness is not an audio audit."
+      ]
+    },
+    "source_file": "KkR24ieh5Ow.hf.txt",
+    "source_url": "https://www.youtube.com/watch?v=KkR24ieh5Ow",
+    "distribution": "Transcript retained in the private research archive; not distributed in this repository."
+  },
+  {
+    "id": "1EqJyMy0LnE",
+    "title": "#032- Simon Kornblith / GoogleAI - SimCLR and Paper Haul!",
+    "status": "reviewed_available_text",
+    "source_type": "existing_caption_or_archive",
+    "words_in_selected_file": 15451,
+    "sha256": "428f577ddaf439825aeae65ac5c492321af6887700fc4a79aaefdf3359ec7c34",
+    "reused": true,
+    "source_notes": {
+      "read": "Entire available transcript, sequentially; not audio verified.",
+      "last_timestamp": "01:30:25",
+      "source_caveats": "ASR/publisher transcript may contain wording and mathematical transcription errors; timestamps refer to this saved edition."
+    },
+    "source_file": "1EqJyMy0LnE.hf.txt",
+    "source_url": "https://www.youtube.com/watch?v=1EqJyMy0LnE",
+    "distribution": "Transcript retained in the private research archive; not distributed in this repository."
+  },
+  {
+    "id": "h-dYzjF8eFA",
+    "title": "The Math Behind Every Recommendation You've Ever Seen - Wouter Koolen",
+    "status": "reviewed_available_text",
+    "source_type": "existing_caption_or_archive",
+    "words_in_selected_file": 17382,
+    "sha256": "651555735351ce72bf1222885bed51a3d14ebb3760248d7462eac54532fbc18c",
+    "reused": true,
+    "source_notes": {
+      "status": "complete_available_text",
+      "start": "00:00:00",
+      "end": "01:48:15",
+      "caveats": [
+        "Full saved transcript read including 12-minute recap and postscript. No audio verified. Postscript explicitly lacks guest recording; do not attribute its quantum-computation claims to Koolen."
+      ]
+    },
+    "source_file": "h-dYzjF8eFA.hf.txt",
+    "source_url": "https://www.youtube.com/watch?v=h-dYzjF8eFA",
+    "distribution": "Transcript retained in the private research archive; not distributed in this repository."
+  },
+  {
+    "id": "b9qwLkJW2ig",
+    "title": "NLP is not NLU and GPT-3 - Walid Saba",
+    "status": "reviewed_available_text",
+    "source_type": "existing_caption_or_archive",
+    "words_in_selected_file": 23007,
+    "sha256": "cb31e6fe4280ee562aff80536699b8d5cb52132fed22e5eddc00008f383d6e06",
+    "reused": true,
+    "source_notes": {
+      "status": "complete_available_text",
+      "start": "00:00:00",
+      "end": "02:20:21",
+      "caveats": [
+        "Read all 24,779 source words. First approximately36 minutes are an edited host introduction with excerpts, commentary and demonstrations; the sustained interview begins36:06. Transcript repeatedly spells intension as intention and corrupts names. No audio verification."
+      ]
+    },
+    "source_file": "b9qwLkJW2ig.hf.txt",
+    "source_url": "https://www.youtube.com/watch?v=b9qwLkJW2ig",
+    "distribution": "Transcript retained in the private research archive; not distributed in this repository."
+  },
+  {
+    "id": "sQFxbQ7ade0",
+    "title": "Sara Hooker - The Hardware Lottery, Sparsity and Fairness",
+    "status": "reviewed_available_text",
+    "source_type": "existing_caption_or_archive",
+    "words_in_selected_file": 15457,
+    "sha256": "1259b4cc8980b7db3ace3d08f87008dea8b12ea0f64e75ab8d86b17d23fc5ece",
+    "reused": true,
+    "source_notes": {
+      "read": "Entire available transcript, sequentially; not audio verified.",
+      "last_timestamp": "01:30:35",
+      "source_caveats": "Complete Hugging Face alternate edit, ending01:30:35, includes about11minutes of host introduction and differs from the current YouTube edition. Timestamp alignment is not certified; do not assume constant offset. ASR mislabels structured/unstructured sparsity in one passage and capsule networks elsewhere."
+    },
+    "source_file": "sQFxbQ7ade0.hf.txt",
+    "source_url": "https://www.youtube.com/watch?v=sQFxbQ7ade0",
+    "distribution": "Transcript retained in the private research archive; not distributed in this repository."
+  },
+  {
+    "id": "y_RjsDHl5Y4",
+    "title": "Kernels!",
+    "status": "reviewed_available_text",
+    "source_type": "existing_caption_or_archive",
+    "words_in_selected_file": 17002,
+    "sha256": "92215c67f97ac0407524100e116ae19ec369d1b1b1615cf587b765093b35b73d",
+    "reused": true,
+    "source_notes": {
+      "status": "complete_available_text",
+      "start": "00:00:00",
+      "end": "01:37:23",
+      "caveats": [
+        "Full saved transcript read, including montage and closing discussion. No audio or displayed equations checked. Some transcript gaps and malformed words exist; criticisms refer to repeated explicit statements rather than assuming every garble was spoken exactly."
+      ]
+    },
+    "source_file": "y_RjsDHl5Y4.hf.txt",
+    "source_url": "https://www.youtube.com/watch?v=y_RjsDHl5Y4",
+    "distribution": "Transcript retained in the private research archive; not distributed in this repository."
+  },
+  {
+    "id": "uqJ2hbDGHjY",
+    "title": "SWaV: Unsupervised Learning of Visual Features by Contrasting Cluster Assignments (Mathilde Caron)",
+    "status": "reviewed_available_text",
+    "source_type": "existing_caption_or_archive",
+    "words_in_selected_file": 13139,
+    "sha256": "3d578fd4c8887f907829683661c67174729f2f2528161e647cf62846feaf49d5",
+    "reused": true,
+    "source_notes": {
+      "status": "complete_available_text",
+      "method": "Read entire saved transcript; any truncated tool section reread in bounded chunks. Audio not checked.",
+      "last_timestamp": "01:27:27",
+      "caveats": [
+        "ASR transcription can corrupt names and mathematical terminology; transcript completeness is not an audio audit."
+      ]
+    },
+    "source_file": "uqJ2hbDGHjY.hf.txt",
+    "source_url": "https://www.youtube.com/watch?v=uqJ2hbDGHjY",
+    "distribution": "Transcript retained in the private research archive; not distributed in this repository."
+  },
+  {
+    "id": "mEVnu-KZjq4",
+    "title": "Francois Chollet - On the Measure Of Intelligence",
+    "status": "reviewed_available_text",
+    "source_type": "existing_caption_or_archive",
+    "words_in_selected_file": 24066,
+    "sha256": "aa5e8f74e01e19915b67050ef607bc1f157d48618fc1810821e68aaef2900d08",
+    "reused": true,
+    "source_notes": {
+      "status": "complete_available_text",
+      "method": "Read entire saved transcript; any truncated tool section reread in bounded chunks. Audio not checked.",
+      "last_timestamp": "02:33:29",
+      "caveats": [
+        "ASR transcription can corrupt names and mathematical terminology; transcript completeness is not an audio audit."
+      ]
+    },
+    "source_file": "mEVnu-KZjq4.hf.txt",
+    "source_url": "https://www.youtube.com/watch?v=mEVnu-KZjq4",
+    "distribution": "Transcript retained in the private research archive; not distributed in this repository."
+  },
+  {
+    "id": "HnZDmxYnpg4",
+    "title": "Harri Valpola: System 2 AI and Planning in Model-Based Reinforcement Learning",
+    "status": "reviewed_available_text",
+    "source_type": "existing_caption_or_archive",
+    "words_in_selected_file": 13402,
+    "sha256": "dd0f2eabd8263bbc8fba659c732b80e0b221fdfacd31a1410cfab6d2494dc3d2",
+    "reused": true,
+    "source_notes": {
+      "status": "complete_available_text",
+      "start": "00:00:00",
+      "end": "01:38:20",
+      "caveats": [
+        "Complete local transcript read, including the introductory paper explainer and company discussion. A truncated output passage at 00:11:04–00:12:27 was explicitly reread. Audio and displayed diagrams not verified."
+      ]
+    },
+    "source_file": "HnZDmxYnpg4.hf.txt",
+    "source_url": "https://www.youtube.com/watch?v=HnZDmxYnpg4",
+    "distribution": "Transcript retained in the private research archive; not distributed in this repository."
+  },
+  {
+    "id": "SfjJoevBbjU",
+    "title": "The Lottery Ticket Hypothesis with Jonathan Frankle",
+    "status": "reviewed_available_text",
+    "source_type": "existing_caption_or_archive",
+    "words_in_selected_file": 16714,
+    "sha256": "f4b9bb0d2fe036f1e268ecdf8f51c925e6685b9df946c4728ab5f18a5945159d",
+    "reused": true,
+    "source_notes": {
+      "status": "complete_available_text",
+      "method": "Read entire saved transcript; any truncated tool section reread in bounded chunks. Audio not checked.",
+      "last_timestamp": "01:26:43",
+      "caveats": [
+        "ASR transcription can corrupt names and mathematical terminology; transcript completeness is not an audio audit."
+      ]
+    },
+    "source_file": "SfjJoevBbjU.hf.txt",
+    "source_url": "https://www.youtube.com/watch?v=SfjJoevBbjU",
+    "distribution": "Transcript retained in the private research archive; not distributed in this repository."
+  },
+  {
+    "id": "N-7rdJK4xlE",
+    "title": "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer",
+    "status": "reviewed_available_text",
+    "source_type": "existing_caption_or_archive",
+    "words_in_selected_file": 16774,
+    "sha256": "9c54045e31c872c4be3d969c835aeba1aa28a4b468faf98738f18af23c775c25",
+    "reused": true,
+    "source_notes": {
+      "status": "complete_available_text",
+      "start": "00:00:00",
+      "end": "01:39:58",
+      "caveats": [
+        "Complete saved transcript including introductory overview and closing discussion read. No audio or screen-shared tables verified. Early historical paper discussion, not author interview; many explanations are tentative or mistaken."
+      ]
+    },
+    "source_file": "N-7rdJK4xlE.hf.txt",
+    "source_url": "https://www.youtube.com/watch?v=N-7rdJK4xlE",
+    "distribution": "Transcript retained in the private research archive; not distributed in this repository."
+  },
+  {
+    "id": "1MprzvYNpY8",
+    "title": "CURL: Contrastive Unsupervised Representations for Reinforcement Learning",
+    "status": "reviewed_available_text",
+    "source_type": "existing_caption_or_archive",
+    "words_in_selected_file": 10951,
+    "sha256": "66e0e7206ac17dac2aa9ad9a66523413cc2b69f1d56718b48d8d5dd2ed8eddf6",
+    "reused": true,
+    "source_notes": {
+      "status": "complete_available_text",
+      "start": "00:00:00",
+      "end": "01:14:39",
+      "caveats": [
+        "Complete HF transcript read in two contiguous ranges. Audio not verified; names and loss terminology occasionally mistranscribed."
+      ]
+    },
+    "source_file": "1MprzvYNpY8.hf.txt",
+    "source_url": "https://www.youtube.com/watch?v=1MprzvYNpY8",
+    "distribution": "Transcript retained in the private research archive; not distributed in this repository."
+  },
+  {
+    "id": "sIv-JoFf-Ww",
+    "title": "Exploring Open-Ended Algorithms: POET",
+    "status": "reviewed_available_text",
+    "source_type": "existing_caption_or_archive",
+    "words_in_selected_file": 12661,
+    "sha256": "3b586c93623ae49cf84e8611b138e3851dfd28c2ee3ca5848c79c541234e77ed",
+    "reused": true,
+    "source_notes": {
+      "status": "complete_available_text",
+      "method": "Read entire saved transcript; any truncated tool section reread in bounded chunks. Audio not checked.",
+      "last_timestamp": "01:12:54",
+      "caveats": [
+        "ASR transcription can corrupt names and mathematical terminology; transcript completeness is not an audio audit."
+      ]
+    },
+    "source_file": "sIv-JoFf-Ww.hf.txt",
+    "source_url": "https://www.youtube.com/watch?v=sIv-JoFf-Ww",
+    "distribution": "Transcript retained in the private research archive; not distributed in this repository."
+  }
+]

@@ -1,0 +1,119 @@
+{
+  "snapshot_date": "2026-10-26",
+  "previous_inventory_date": "2026-09-27",
+  "previous_inventory_count": 265,
+  "transcript_review_completed": "2026-10-26",
+  "editorial_revision_date": "2026-10-27",
+  "date_timezone": "America/Chicago",
+  "inventory_publication_range": {
+    "first": {
+      "date": "2020-04-09",
+      "id": "sIv-JoFf-Ww",
+      "title": "Exploring Open-Ended Algorithms: POET"
+    },
+    "last": {
+      "date": "2026-10-26",
+      "id": "IRJDwtAreB4",
+      "title": "Mathematics Just Changed Forever — Kevin Hartnett"
+    }
+  },
+  "selected_publication_range": {
+    "first": {
+      "date": "2020-04-09",
+      "id": "sIv-JoFf-Ww",
+      "title": "Exploring Open-Ended Algorithms: POET"
+    },
+    "last": {
+      "date": "2026-10-09",
+      "id": "615B5nyMFPk",
+      "title": "What Most People Get Wrong About Evolution | Akarsh Kumar"
+    }
+  },
+  "stage_one": {
+    "basis": "Publisher descriptions, chapter labels, available summaries/show notes, listed resources and recovered publisher reference comments. No additional full transcripts read during this stage.",
+    "videos_tab_uploads": 269,
+    "read_transcript_high": 131,
+    "read_transcript_medium": 115,
+    "skip": 15,
+    "insufficient_information": 8,
+    "matched_podcast_notes": 235,
+    "feed_entries": 272,
+    "supplementary_feed_entries": 37,
+    "separately_screened_livestreams": 2,
+    "shorts_included": false,
+    "resource_urls": 3049,
+    "pinned_reference_comments_recovered": 4
+  },
+  "stage_two": {
+    "basis": "Full available transcript texts for exactly the 131 high-priority Videos-tab entries, followed by comparison and selective primary-source checks.",
+    "reviewed": 131,
+    "decisions": {
+      "worthwhile": 60,
+      "core": 53,
+      "selected_passages": 14,
+      "drop": 4
+    },
+    "outside_this_pass": {
+      "medium_priority": 115,
+      "first_stage_skip": 15,
+      "needs_more_information": 8,
+      "total": 138
+    },
+    "reused_transcripts": 100,
+    "recovered_transcripts": 31,
+    "local_audio_transcriptions": 22,
+    "new_youtube_caption_tracks": 2,
+    "other_recovered_publisher_transcripts": 7
+  },
+  "runtime": {
+    "all_269_full_video_seconds": 1372681,
+    "selected_131_full_video_seconds": 696403,
+    "meaning": "Full publisher-listed video runtimes, not actual watching time, transcript-edition durations, recommended passage time, or time spent on exercises."
+  },
+  "new_since_previous_inventory": [
+    {
+      "id": "IRJDwtAreB4",
+      "title": "Mathematics Just Changed Forever — Kevin Hartnett",
+      "published_date": "2026-10-26",
+      "url": "https://www.youtube.com/watch?v=IRJDwtAreB4",
+      "stage_one_priority": "medium",
+      "included_in_transcript_review": false
+    },
+    {
+      "id": "615B5nyMFPk",
+      "title": "What Most People Get Wrong About Evolution | Akarsh Kumar",
+      "published_date": "2026-10-09",
+      "url": "https://www.youtube.com/watch?v=615B5nyMFPk",
+      "stage_one_priority": "high",
+      "included_in_transcript_review": true
+    },
+    {
+      "id": "VoAPg8Fj6-c",
+      "title": "How a Voice Agent Learns the Rhythm of Conversation — Shawn Wen",
+      "published_date": "2026-10-01",
+      "url": "https://www.youtube.com/watch?v=VoAPg8Fj6-c",
+      "stage_one_priority": "medium",
+      "included_in_transcript_review": false
+    },
+    {
+      "id": "ZpQFebTK75A",
+      "title": "The Programming Language That Referees Mathematics — Leo de Moura",
+      "published_date": "2026-09-29",
+      "url": "https://www.youtube.com/watch?v=ZpQFebTK75A",
+      "stage_one_priority": "medium",
+      "included_in_transcript_review": false
+    }
+  ],
+  "source_records": [
+    "screening.json",
+    "episodes.json",
+    "sources.json"
+  ],
+  "limits": [
+    "This is a saved inventory of publicly listed Videos-tab uploads, not a guarantee of every episode ever published, including deleted, private or unlisted material.",
+    "Two separately listed livestreams and 37 unmatched feed entries were screened separately; feed entries may be alternate edits and are not counted as additional unique video episodes.",
+    "The 138 entries outside stage two were not assessed in this transcript-review pass; some may appear in earlier separate work.",
+    "Publication after the snapshot and new availability changes are outside this report until a fresh inventory is explicitly collected.",
+    "A stage-one high or medium priority is a reading decision, not a watch recommendation or validation of the guest’s claims."
+  ]
+}

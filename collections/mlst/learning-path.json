@@ -1,0 +1,336 @@
+{
+  "premise": "I’ll begin with how intelligence is recognized and measured, then work through the structures that support learning, abstraction, reasoning and action. From there, I want to understand how systems improve themselves, discover new problems and organize intelligence across multiple agents.",
+  "how_to_use": "The anchor episodes are my starting points. The deeper branches give me worked examples and alternative explanations when I want to pursue a question further. I plan to use the exercises to check what I actually understand, and the overlap notes to decide whether another interview adds enough to be worth my time.",
+  "start": [
+    "M-jTeBCEGHc",
+    "h-dYzjF8eFA",
+    "bIZB1hIJ4u8"
+  ],
+  "modules": [
+    {
+      "title": "1 · What would count as understanding intelligence?",
+      "question": "What distinguishes acquired skill, learning efficiency, decodable information and an actual computational mechanism?",
+      "lesson": "Before interpreting a score or an explanation, I need to specify the system boundary and what is being estimated. The same behavior can fit different beliefs, preferences or policies; interventions should separate these explanations.",
+      "anchors": [
+        "J0p_thJJnoo",
+        "Q0kN_ZHHDQY",
+        "YpFaPKOeNME"
+      ],
+      "deepen": [
+        "29gkDpR2orc",
+        "fhn6ZtD6XeE",
+        "_egu7OFem-k",
+        "2PenK06tvE4",
+        "0LIACHcxpHU",
+        "DL7qwmWWk88",
+        "W485bz0_TdI",
+        "n1Qk8xbqF-M"
+      ],
+      "exercise": "I want to take one apparent reasoning capability and design separate tests of task elicitation, novel composition, internal causal use and robustness. For each successful test, I’ll record what it still leaves unidentified."
+    },
+    {
+      "title": "2 · Which prior structure makes learning possible?",
+      "question": "How can a huge hypothesis class generalize, and when should structure be built in?",
+      "lesson": "Capacity, preference over functions, optimization and invariance are different objects.",
+      "anchors": [
+        "M-jTeBCEGHc",
+        "mmDw5glry9w",
+        "bIZB1hIJ4u8"
+      ],
+      "deepen": [
+        "SfjJoevBbjU",
+        "1S1B4XkFCD8",
+        "sQFxbQ7ade0",
+        "jAGIuobLp60"
+      ],
+      "exercise": "I could specify a task transformation group and compare invariance, equivariance and augmentation. Then I’d change the task so the assumed symmetry becomes wrong and measure the cost of that prior."
+    },
+    {
+      "title": "3 · How do useful abstractions emerge?",
+      "question": "What information should a representation retain, discard or make easy to use?",
+      "lesson": "Learning objectives, data structure and downstream use jointly determine what counts as a useful abstraction.",
+      "anchors": [
+        "1EqJyMy0LnE",
+        "revreN8LZ_M",
+        "QWidx8cYVRs"
+      ],
+      "deepen": [
+        "EXJmodhu4_4",
+        "uqJ2hbDGHjY",
+        "l3O2J3LMxqI",
+        "VvXfK-Qle-Y",
+        "9BC9BsZRCKQ",
+        "VgPrjHxIS0I",
+        "24u6CTV4t1k"
+      ],
+      "exercise": "A useful experiment would start with hierarchical data generated from two independent latent factors. I’d vary the prediction target or positive-pair construction and check which factor becomes accessible, transferable and causally used."
+    },
+    {
+      "title": "4 · How does structure become executable reasoning?",
+      "question": "What separates representing a solution, discovering it and executing it reliably?",
+      "lesson": "Typed composition, proposal priors, search and verification can play different roles in one intelligent system. Learning abstractions changes which hypotheses are computationally accessible, even when expressivity is unchanged.",
+      "anchors": [
+        "oYTm0p3DCzg",
+        "XFMk0snybAc",
+        "1lkdWduuN14",
+        "3ZTNps2PraM"
+      ],
+      "deepen": [
+        "PHBItVuudbU",
+        "AWqvBdqCAAE",
+        "ehNGGYFO6ms",
+        "dhM0_EKLg9k",
+        "X9uSV1YcOy4",
+        "FAspMnu4Rt0",
+        "rie-9AEhYdY",
+        "z9j3wB1RRGA"
+      ],
+      "exercise": "I want to solve the same small task family with a direct network, a learned program proposal plus an exact interpreter, and latent search. I’d track proposal coverage, search cost and execution errors separately."
+    },
+    {
+      "title": "5 · Which evidence is worth acquiring?",
+      "question": "How should a finite learner spend observations, memory and adaptation compute?",
+      "lesson": "Information is valuable relative to a decision and existing knowledge; similarity and confidence alone are insufficient acquisition rules.",
+      "anchors": [
+        "h-dYzjF8eFA",
+        "C6sSs6NgANo",
+        "72Im-Mm5JKs"
+      ],
+      "deepen": [
+        "vei7uf9wOxI",
+        "7oJui4eSCoY",
+        "M49TMqK5uCE",
+        "3p0O28W1ZHg",
+        "mTX_sAq--zY"
+      ],
+      "exercise": "I could build a redundant candidate pool and compare nearest-neighbor retrieval with conditional uncertainty reduction. Deliberately misspecifying the representation and task prior should help me locate the limits of each approach."
+    },
+    {
+      "title": "6 · When is a world model good enough to act?",
+      "question": "How do inference, active sensing and planning interact when the model is wrong?",
+      "lesson": "Prediction accuracy, decision adequacy and closed-loop stability are distinct requirements. Optimizers can exploit their own models' errors.",
+      "anchors": [
+        "HnZDmxYnpg4",
+        "bk_xCikDUDQ",
+        "s3C0sEwixkQ"
+      ],
+      "deepen": [
+        "2wnJ6E6rQsU",
+        "86ib0sfdFtw",
+        "kbt0ZFoI2Hc",
+        "9suqiofCiwM",
+        "Bpgloy1dDn0",
+        "KkR24ieh5Ow",
+        "xKQ-F2-o8uM"
+      ],
+      "exercise": "I want to construct a partially observed control task with a misspecified learned model. I’d compare prediction loss with achieved return, look for cases where more planning worsens the policy, and then add an action chosen for information."
+    },
+    {
+      "title": "7 · What can change in a learning system?",
+      "question": "Can the learning rule, task generator, search archive or experimental policy itself adapt?",
+      "lesson": "I need to specify the inner and outer variables, timescales and held-out objectives. Improving an artifact does not automatically improve the process that produced it.",
+      "anchors": [
+        "hfaZwgk_iS0",
+        "1kwbp8hRRfs",
+        "EInEmGaMRLc"
+      ],
+      "deepen": [
+        "Jr_nGkCG3og",
+        "yB6_iFGTq9k",
+        "vC9nAosXrJw",
+        "e3gBwLWAerw",
+        "P4bYjTJvD28",
+        "DP454c1K_vQ"
+      ],
+      "exercise": "A small search loop with an archive, proposer and verifier would let me freeze each component in turn and test transfer to unseen task families. I’d also check whether the search can exploit the evaluator."
+    },
+    {
+      "title": "8 · Where do new problems and possibilities come from?",
+      "question": "What maintains discovery when distance to a fixed target is misleading?",
+      "lesson": "Diversity, representation neighborhoods, curricula and observers shape open-ended search. Novelty alone is not intelligence. Sampling a reward-weighted distribution differs from optimizing its maximum; a sampler alone does not supply an exploration objective.",
+      "anchors": [
+        "lhYGXYeMq_E",
+        "KKUKikuV58o",
+        "6DrCq8Ry2cw"
+      ],
+      "deepen": [
+        "mw5WIDGRLnA",
+        "615B5nyMFPk",
+        "rMSEqJ_4EBk",
+        "M2iX6HQOoLg",
+        "iqkkkA9dtY0",
+        "sIv-JoFf-Ww",
+        "M49TMqK5uCE"
+      ],
+      "exercise": "I could compare objective search, novelty search and quality diversity in a deceptive environment, then change the behavior descriptor and record which stepping stones disappear. I’d measure collective coverage separately from the competence of one deployable generalist."
+    },
+    {
+      "title": "9 · Which parts of intelligence extend beyond one model or brain?",
+      "question": "How do feedback, reference frames, communication and incentives organize competence across scales?",
+      "lesson": "Biological and collective accounts suggest different mechanisms; similar behavior does not uniquely identify the same implementation. Shared beliefs and compatible representations do not guarantee aligned incentives.",
+      "anchors": [
+        "6w5xr8BYV8M",
+        "6VQILbDqaI4",
+        "AREWYbVtX64"
+      ],
+      "deepen": [
+        "RvYSsi6rd4g",
+        "hf18w6CuY8o",
+        "meUtWtY00H8",
+        "ZTE-JVd_QkA",
+        "aisgNLypUKs",
+        "WlWAhjPfROU",
+        "zv6qzWecj5c",
+        "V_VXOdf1NMw"
+      ],
+      "exercise": "I want to choose a proposed agent boundary and identify its state, observations, actions, memory, preferences and evidence of adaptation. The next step would be an intervention that distinguishes feedback regulation from model-based planning."
+    }
+  ],
+  "reconciled_findings": [
+    {
+      "claim": "Prior structure is unavoidable; its location is a design choice.",
+      "explanation": "Priors can enter through architectures, task generators, objectives, language targets, programs and search procedures. The useful question is which prior supports which transfer, and at what total cost.",
+      "episodes": [
+        "M-jTeBCEGHc",
+        "bIZB1hIJ4u8",
+        "72Im-Mm5JKs",
+        "VvXfK-Qle-Y"
+      ]
+    },
+    {
+      "claim": "Statistical learning and compositional structure are not mutually exclusive categories.",
+      "explanation": "Wyart supplies a tractable statistical route to hierarchy, while Ellis, Chaudhuri and Petar show how executable structure changes search and generalization. None proves that one recipe covers all intelligence. Claims that neural systems only interpolate require a specified definition and counterexample-sensitive scope.",
+      "episodes": [
+        "revreN8LZ_M",
+        "oYTm0p3DCzg",
+        "1lkdWduuN14",
+        "86ib0sfdFtw"
+      ]
+    },
+    {
+      "claim": "A representation is useful relative to an operation or decision.",
+      "explanation": "Information can be present but hard to decode, easy to decode but unused, or predictive without supporting intervention. I need to keep accessibility, causal use and control adequacy separate.",
+      "episodes": [
+        "Q0kN_ZHHDQY",
+        "1EqJyMy0LnE",
+        "HnZDmxYnpg4",
+        "_egu7OFem-k"
+      ]
+    },
+    {
+      "claim": "Search success, correctness and discovery are different achievements.",
+      "explanation": "Candidate generators, search policies, archives and verifiers contribute separately. A sound formal verifier certifies a specified property under assumptions; an interpreter or empirical test establishes only the tested behavior. Neither certifies that a task specification captures intent or that a discovery is scientifically important.",
+      "episodes": [
+        "ehNGGYFO6ms",
+        "XFMk0snybAc",
+        "vC9nAosXrJw",
+        "EInEmGaMRLc"
+      ]
+    },
+    {
+      "claim": "Free-energy and biological accounts are research frameworks with explicit commitments.",
+      "explanation": "My interest is in the inference–action mechanisms and the generative model, boundary, preferences and physical assumptions they require. A variational identity does not by itself establish a universal theory of intelligence or consciousness.",
+      "episodes": [
+        "bk_xCikDUDQ",
+        "xKQ-F2-o8uM",
+        "qxEfcrmTWO4",
+        "6w5xr8BYV8M"
+      ]
+    },
+    {
+      "claim": "Open-endedness changes the object of study, but does not remove evaluation assumptions.",
+      "explanation": "Task generation, novelty measures, learned judges and population memory shape which discoveries become available. Preserving stepping stones is a concrete mechanism; inevitable unlimited creativity is a stronger claim.",
+      "episodes": [
+        "lhYGXYeMq_E",
+        "KKUKikuV58o",
+        "6DrCq8Ry2cw",
+        "mw5WIDGRLnA"
+      ]
+    }
+  ],
+  "overlap_guidance": [
+    {
+      "episodes": [
+        "C6sSs6NgANo",
+        "vei7uf9wOxI"
+      ],
+      "note": "The two Hübotter interviews share conditional information acquisition and test-time specialization. I’ll start with the earlier foundation and return to the later episode for its updated application and representation caveats."
+    },
+    {
+      "episodes": [
+        "J0p_thJJnoo",
+        "s7_NlkBwdj8",
+        "w9WE1aOPjHc",
+        "mEVnu-KZjq4"
+      ],
+      "note": "The main Chollet interview is my starting point for skill-acquisition efficiency. The later talk, update and panel add critiques and historical context; I don’t need to finish all of them before moving on to constructive mechanisms."
+    },
+    {
+      "episodes": [
+        "bIZB1hIJ4u8",
+        "jAGIuobLp60",
+        "1lkdWduuN14",
+        "AWqvBdqCAAE"
+      ],
+      "note": "Bronstein supplies the geometric foundation, Jost an accessible GNN bridge, Petar concrete algorithmic and topology examples, and Dudzik a broader compositional framework. That gives me a useful progression through their overlapping material."
+    },
+    {
+      "episodes": [
+        "1EqJyMy0LnE",
+        "EXJmodhu4_4",
+        "uqJ2hbDGHjY",
+        "9dLd6n9yT8U"
+      ],
+      "note": "I’ll start with Kornblith. Misra is a follow-up for broader assumptions, while SWaV offers a worked anti-collapse mechanism. The short LeCun/Balestriero episode consolidates the spectral viewpoint."
+    },
+    {
+      "episodes": [
+        "YpFaPKOeNME",
+        "_Ygf0GnlwmY",
+        "_egu7OFem-k"
+      ],
+      "note": "Nanda’s newer interview is my broad methodological starting point. The older episode and McGrath add particular techniques and geometric structures. The distinction to preserve is between reading a probe and identifying a mechanism."
+    },
+    {
+      "episodes": [
+        "bk_xCikDUDQ",
+        "KkR24ieh5Ow",
+        "xKQ-F2-o8uM",
+        "V_VXOdf1NMw",
+        "8qb28P7ksyE",
+        "bL00-jtRrMA"
+      ],
+      "note": "Parr gives me the clearest starting point for inference and action. The longer Friston/Ramstead discussions are opportunities to compare formulations and examine their assumptions; I shouldn’t count them as six independent confirmations of one universal claim."
+    },
+    {
+      "episodes": [
+        "y1WnHpedi2A",
+        "2xFTNXK6AzQ"
+      ],
+      "note": "I’ll use the earlier Kambhampati interview for composable validators, domain-model acquisition and partial testing guarantees, then add passages from the later planning discussion. Neither supports a general theorem that autoregressive models cannot reason."
+    },
+    {
+      "episodes": [
+        "jSAT_RuJ_Cg",
+        "3p0O28W1ZHg"
+      ],
+      "note": "The later MindsAI interview is my starting point for the more developed algorithmic account. The early panel adds task-dependent objecthood, the optimizer as part of the agent, and the difference between generating examples and generating new concepts."
+    },
+    {
+      "episodes": [
+        "Q0kN_ZHHDQY",
+        "VgPrjHxIS0I",
+        "YpFaPKOeNME",
+        "9BC9BsZRCKQ"
+      ],
+      "note": "I’m keeping these together because they address different questions: probe complexity measures accessibility; erasure tests what survives a specified intervention; circuit analysis reconstructs computation; data attribution studies dependence on training examples. None alone establishes all four."
+    },
+    {
+      "episodes": [
+        "M2iX6HQOoLg",
+        "rMSEqJ_4EBk"
+      ],
+      "note": "The BFF talks substantially overlap. I only need one technical account before turning to the linked July 2026 corrective paper. I want to keep initial replicator discovery separate from later population takeover when evaluating the merger explanation."
+    }
+  ]
+}

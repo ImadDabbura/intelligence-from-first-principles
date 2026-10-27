@@ -1,0 +1,119 @@
+# When AI Discovers the Next Transformer — Robert Lange
+
+[Original episode](https://www.youtube.com/watch?v=EInEmGaMRLc) · [All reviews](../README.md) · [Learning path](../learning-path.md)
+
+Published: 2026-03-13 · Decision: **Core** · Confidence: high
+
+## Central claim
+
+Intelligent scientific discovery requires more than generating candidate answers: it must preserve useful intermediate ideas, select experiments, reformulate problems and keep evaluation trustworthy. Shinka Evolve gives a concrete architecture for part of that loop, while the interview identifies what remains missing from open-ended automated science.
+
+## Ideas I want to keep
+
+- At 00:07:33–00:13:43 and 00:17:22–00:21:37, the central bottleneck is choosing the problem itself. Circle packing with small constraint slack can be a useful surrogate before returning to exact feasibility. Discovering the relaxation or reduction is a different capability from optimizing inside an already supplied evaluator.
+
+- At 00:14:23–00:16:36 and 00:23:22–00:25:36, archives and islands retain divergent programs while crossovers, summaries and a global scratchpad transfer discoveries. Information sharing improves reuse but can homogenize the population; diversity and communication must be jointly controlled.
+
+- At 00:27:31–00:32:12, choosing the mutation model becomes its own learning problem. Bandit allocation can save expensive evaluations, but improvement credited to the latest mutation may depend on earlier stepping stones. This makes local reward attribution an imperfect measure of a model’s long-run contribution.
+
+- At 00:32:12–00:37:11, local diffs, complete rewrites and crossovers define different search neighborhoods. Restricting mutable code preserves the evaluator interface, while whole-program changes permit escapes from local structural assumptions. Search behavior depends materially on these operators, not just the base model.
+
+- At 01:00:07–01:01:20 and 01:08:15–01:14:59, scientific papers are recognized as selected paths through a much larger experimental tree. Training on only the successful written narrative hides failed hypotheses and decision points. AI Scientist v2 uses adaptive experiment-tree exploration instead of executing an initial plan linearly; paper writing is a presentation layer, not the core scientific achievement.
+
+## Mathematical anatomy
+
+**Objects:** An archive of candidate programs and lineage, mutation operators, an evaluator, multiple proposal models, a model-selection policy and summaries of accumulated evidence.
+
+**Objective:** Improve verified solutions per evaluation or unit cost while retaining useful diversity; multiobjective cases additionally seek a set of performance/resource tradeoffs.
+
+**Mechanism:** Sample parent and inspiration programs, select a model/operator, generate a mutation, execute the evaluator and update the archive and selection statistics. A separate outer loop could change tasks or surrogates, but the disclosed main method largely keeps its target problem fixed.
+
+**Assumptions:** Evaluator outputs correlate with the intended scientific goal; generated programs cannot tamper with the evaluation; diverse proposals have useful probability mass; archive summaries retain essential evidence.
+
+**Limits:** Stochastic evolving rewards violate a naive stationary-bandit picture. Standard UCB logarithmic regret is not automatically a guarantee against an arbitrary optimal switching policy. Embedding novelty is not semantic or scientific novelty, and a Pareto set need not form the convex hull claimed conversationally.
+
+## Evidence, limitations and corrections
+
+- The circle-packing account includes a valuable admission: a slackened proxy was easier than exact feasibility, and reported candidates required adjustment. This directly motivates checking constraints independently rather than trusting fitness alone.
+
+- Applications to agent scaffolds, heuristic competitions and mixture-of-experts objectives are reported experiments. Scores, cost advantages and comparative baselines were not independently reproduced; these are historical interview claims.
+
+- Lange repeatedly distinguishes future ARC improvements and longer autonomous runs from completed evidence. The title should not be interpreted as a completed discovery of the next Transformer; he explicitly says there has not yet been a widely diffused architectural breakthrough of that kind.
+
+- A workshop-review threshold for one generated paper is weak evidence for reliable autonomous science. Multiple submissions, reviewer noise, experiment correctness and selection effects matter; executable results do not automatically justify a causal or general scientific claim.
+
+- Claims about future employment, human control of objectives and the fraction of researchers using AI are speculative or anecdotal. They are peripheral to the architectural contribution.
+
+## Relevance to my research
+
+Core for my research into intelligence because it concretely separates variation, selection, memory, credit assignment, problem formulation and verification. It also provides a productive counterexample to the idea that adaptation must always mean changing neural weights: an evolving external archive and experimental policy can adapt a system built around frozen models.
+
+## My viewing plan
+
+**Mode:** I will focus on these chapters.
+
+**Ranges:** - **Start:** 00:03:29
+  
+  **End:** 00:32:12
+  
+  **Why:** Main mechanisms, surrogate problems, diversity, semantic transfer and model-selection tradeoffs.
+
+- **Start:** 00:32:12
+  
+  **End:** 00:38:51
+  
+  **Why:** Mutation operators and the verification bottleneck.
+
+- **Start:** 00:47:00
+  
+  **End:** 00:50:18
+  
+  **Why:** Different applications and explicit limits on untested ARC claims.
+
+- **Start:** 01:00:07
+  
+  **End:** 01:01:20
+  
+  **Why:** Why full experimental trees contain knowledge missing from published success narratives.
+
+- **Start:** 01:08:15
+  
+  **End:** 01:17:28
+  
+  **Why:** Adaptive scientific experimentation, reproducibility and the difference between papers and discoveries.
+
+**Edition note:** Observed publisher timestamps; sponsorship and broad labor-market speculation are not needed for the technical argument. I may watch the full episode to explore its implications for my research workflow.
+
+## Objections and open questions
+
+A fixed, excellent evaluator can already produce major discoveries; autonomous problem invention is not necessary for every useful scientific contribution. Conversely, co-evolving tasks and solutions can generate self-serving easy problems unless external relevance and held-out checks anchor the loop. Maintaining diversity consumes resources and needs evidence of downstream usefulness.
+
+## An experiment I could try
+
+I want to construct a small program-evolution experiment for packing or scheduling, comparing one strong model, uniform model mixing and bandit selection under equal evaluation cost. The entire lineage, including failures, would be retained. Local diffs versus rewrites and isolated islands versus global summaries would vary independently. Adding a relaxed surrogate with an exact final checker would let me measure how often apparent gains survive verification and transfer to changed problem sizes.
+
+## Connections in my notes
+
+- Berman’s ARC solver: English versus executable hypotheses trades flexibility against verifier reliability.
+
+- Rocktäschel: novelty must remain learnable and useful to an observer; task–solution coevolution broadens fixed-objective search.
+
+- Valpola: an optimizer can exploit errors in its evaluator; stronger search increases the need for independent validation.
+
+## Source and coverage
+
+**Status:** complete_available_text
+
+**Start:** 00:00:00
+
+**End:** 01:18:02
+
+**Caveats:** - Complete publisher transcript read in contiguous chunks. Audio and displayed evolutionary graphs not checked. The title describes a hoped-for milestone; the interview does not report discovery of a replacement for the Transformer.
+
+Source type: Publisher transcript. Reviewed text: 14,651 words.
+
+Transcript file: `EInEmGaMRLc.publisher.txt` (not distributed).
+
+SHA-256: `e4f2fefc33f6dca625aeaa7b47b34da5319895ed115b262ef71b247f64593a64`.
+
+[Structured review](EInEmGaMRLc.json) · [Source ledger](../sources.json)

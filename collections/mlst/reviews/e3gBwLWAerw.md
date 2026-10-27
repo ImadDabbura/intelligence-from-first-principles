@@ -1,0 +1,109 @@
+# He won a Nobel here for AlphaFold. Then he left. - John Jumper
+
+[Original episode](https://www.youtube.com/watch?v=e3gBwLWAerw) · [All reviews](../README.md) · [Learning path](../learning-path.md)
+
+Published: 2026-06-22 · Decision: **Core** · Confidence: high
+
+## Central claim
+
+A powerful scientific predictor emerges from the interaction of task structure, representation, loss, communication and empirical iteration; predicting a measurement is different from explaining or simulating the underlying natural process.
+
+## Ideas I want to keep
+
+- The scope of AlphaFold is specified unusually carefully: it predicts a class of structural measurements, not the entire cell, the folding trajectory or a cure for disease. This is a model-boundary lesson directly transferable to any theory of intelligence.
+
+- The account of Evoformer separates evolutionary-sequence information from pairwise geometric representations. The structure module must reconcile roughly n² relations into n spatial objects. This explains why representational choice and information exchange can matter more than an architecture label.
+
+- Local residue reference frames support frame-aligned point error (FAPE). The loss compares other atoms as seen from each residue’s frame, providing many locally registered consistency constraints. This is a concrete example of choosing the geometry of the learning signal.
+
+- Treating residues temporarily as a “gas” relaxes rigid chain constraints during optimization. A physically faithful intermediate parameterization can be a poor computational route to a physically valid final answer; this sharply distinguishes simulation from inference.
+
+- Ablation results challenge monocausal stories about equivariance. The guest reports a small single-removal loss for invariant point attention but a much larger combined removal with recycling. Redundant mechanisms mean additive attribution of total progress is misleading.
+
+- The distinction between the algorithm written in code and the algorithm learned in weights is central. Iterative geometric refinement can emerge, and recycling then supports it. Architectural research can help the computation the model is already trying to learn.
+
+## Mathematical anatomy
+
+**Objects:** Protein sequences and related-sequence alignments, pairwise representations z_ij, residue frames T_i, atomic positions x_j, and iterative/recycled predictions.
+
+**Objective:** Predict structures matching experimental supervision using losses sensitive to local and global geometry. A schematic FAPE term compares T_i⁻¹x_j to its target in the target local frame, averaged across pairs, with implementation-specific details omitted.
+
+**Mechanism:** Exchange information between sequence/evolution and pairwise geometry; harmonize constraints into coordinates; refine iteratively. In AlphaFold 3 the guest describes a large conditioning trunk followed by a diffusion geometry engine, rather than attributing everything to denoising.
+
+**Assumptions:** Training structures and sequence relationships supply sufficient regularity for the target class. Evaluation must respect novel structures and distinguish prediction confidence from experimental confirmation.
+
+**Limits:** Structural accuracy does not identify folding dynamics, cellular context, binding affinity or therapeutic effects. A learned output can be highly useful without furnishing a compact human explanation.
+
+## Evidence, limitations and corrections
+
+- The interview supplies concrete ablation recollections and describes published supplements, but numerical values were not independently re-derived here. The main inference is supported by the pattern of small individual and larger joint removals, not by exact percentage credit.
+
+- The transcript contains a numerical inconsistency: “1%” of roughly 150,000 structures is described as 15,000. The claimed data-efficiency comparison requires the original study before exact factors can be quoted.
+
+- The mechanistic midnolin example is narrated as prediction followed by targeted deletion experiments; that sequence is more evidentially informative than a plausible predicted binding image alone. This review did not audit the biological experiment.
+
+- Explanations of AlphaFold 3’s internal computation are the designer’s interpretations. A coordinate projection of intermediate layers can suggest an algorithm but is not by itself a causal identification of every internal operation.
+
+- The intro contains career-news and promotional material that does not support the scientific recommendation. No current employment or product claim is needed for the conclusions here.
+
+## Relevance to my research
+
+Essential for calibrating my intuition-first approach: intuitions should generate structural hypotheses and falsifiable ablations, not become explanations merely because a familiar mathematical keyword appears. This episode teaches how to move between a problem’s anatomy, a trainable representation and evidence about what actually matters.
+
+## My viewing plan
+
+**Mode:** full main interview
+
+**Segments:** - **Start:** 00:07:38
+  
+  **End:** 00:22:13
+  
+  **Purpose:** What is predicted, how experimental evidence uses predictions, and the boundary of the scientific claim.
+
+- **Start:** 00:22:13
+  
+  **End:** 00:35:15
+  
+  **Purpose:** Representation, FAPE, optimization geometry, ablations and data efficiency.
+
+- **Start:** 00:36:43
+  
+  **End:** 00:49:03
+  
+  **Purpose:** Prediction/control/understanding, learned algorithms, recycling and architectural humility.
+
+**Edition:** Saved publisher edition; I would skip sponsor segment 05:54–06:55 and career-news framing when focusing on principles.
+
+## Objections and open questions
+
+The success of one highly structured domain does not establish that all intelligence requires hand-engineered priors. Conversely, a small marginal contribution after other mechanisms are present does not show a prior was never useful or can always be removed. The correct object of analysis is the full system and its development/evaluation conditions.
+
+## An experiment I could try
+
+I would create a toy point-configuration prediction problem with pairwise constraints, comparing direct coordinate prediction, rigid chained-coordinate optimization and independently movable local frames with a consistency loss. Adding iterative recycling and running single and double ablations at equal compute would test whether the apparent importance of symmetry changes when recycling is removed. My notes would distinguish what each model predicts from the physical dynamics it does not identify.
+
+## Connections in my notes
+
+- Geometric deep learning and useful versus decorative priors
+
+- Representation learning and optimization geometry
+
+- Mechanistic evidence through interventions and ablations
+
+- Scientific prediction versus causal understanding
+
+## Source and coverage
+
+**Read:** Entire available transcript, sequentially; not audio verified.
+
+**Last timestamp:** 00:52:59
+
+**Source caveats:** ASR/publisher transcript may contain wording and mathematical transcription errors; timestamps refer to this saved edition.
+
+Source type: Publisher transcript. Reviewed text: 10,697 words.
+
+Transcript file: `e3gBwLWAerw.publisher.txt` (not distributed).
+
+SHA-256: `a40318cf6ba134e96b9e277977c673671904aa86bf3a5afd0e92751c09ce9a37`.
+
+[Structured review](e3gBwLWAerw.json) · [Source ledger](../sources.json)

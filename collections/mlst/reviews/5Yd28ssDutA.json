@@ -1,0 +1,70 @@
+{
+  "id": "5Yd28ssDutA",
+  "title": "#84 LAURA RUIS - Large language models are not zero-shot communicators [NEURIPS UNPLUGGED]",
+  "words_read": 4588,
+  "coverage": {
+    "status": "complete_available_text",
+    "method": "Read complete local ASR text in bounded sections; not an independent audio verification.",
+    "first_timestamp": "00:00:00",
+    "last_timestamp": "00:27:45",
+    "caveats": [
+      "Local Whisper-large-v3-turbo transcription; proper names and technical notation may be inaccurate.",
+      "Timestamps refer to the recovered podcast edition; exact alignment with the current YouTube edit is not certified."
+    ]
+  },
+  "decision": "worthwhile",
+  "confidence": "high",
+  "thesis": "Communication requires recovering intended meaning from shared context, and aggregate language scores can conceal failures of that inference. The durable lesson is how to operationalize and evaluate pragmatics while separating competence, task elicitation and social learning.",
+  "contributions": [
+    "The task distinguishes literal sentence content from an implied yes/no answer, such as inferring inability to attend a party from an explanation about work or illness. Shared world knowledge enters the interpretation.",
+    "The study compares base models, instruction-tuned models and few-shot prompting, emphasizing systematic evaluation across examples and prompt wordings instead of celebrated single demonstrations.",
+    "A taxonomy distinguishes relatively conventional implicatures from more context-dependent examples. Aggregate gains can concentrate on the easier category, leaving the mechanism of interest unresolved.",
+    "Ruis explicitly treats in-context examples as potentially priming an already available capability rather than necessarily teaching a new inference algorithm. She also cautions that passing this benchmark would not settle general pragmatic understanding."
+  ],
+  "mathematical_anatomy": {
+    "objects": "Utterance u, intended response m, shared context c, model prediction and a distribution over pragmatic situations.",
+    "objective": "A useful reconstruction is inference over P(m|u,c), evaluated on both conventional and context-dependent subsets. This is an explanatory formalization; the interview does not derive a probabilistic pragmatic model.",
+    "mechanism": "Instruction and demonstrations may identify the task or response convention; human feedback may change which intentions the model tries to satisfy. The interview proposes interactive social pressure as an additional training signal, not a completed causal demonstration.",
+    "assumptions": "The annotated intended meaning is sufficiently shared, prompts elicit comparable tasks, and human/model conditions are meaningfully matched.",
+    "limits": "A binary label compresses genuine ambiguity. A plausible cautious answer can be scored as wrong even when an unusual context makes it defensible; calibrated probability and context counterfactuals are useful complements."
+  },
+  "evidence_and_limits": [
+    "All reported model rankings and roughly 70–80% figures belong to the 2022 experiment and interview. They are not a claim about current systems.",
+    "A performance association with OpenAI instruction-tuned systems does not isolate RLHF as the cause: pretraining, supervised tuning, data, architecture and prompt sensitivity are possible confounders.",
+    "The early ChatGPT party example is an anecdote; the speaker’s insistence on a systematic test is more informative than that demonstration.",
+    "A few-shot plateau is consistent with task identification but does not prove that no information is learned from examples. Distinguishing mechanisms needs matched interventions.",
+    "The informal phrase about moving into an area of weight space should be read as a metaphor. Ordinary prompting changes activations and conditioning, not necessarily model weights.",
+    "The guest acknowledges uncertainty about embodiment and scaling. The discussion offers research hypotheses rather than a proof that text-only learning cannot acquire relevant knowledge."
+  ],
+  "first_principles_value": "A worthwhile compact companion to Kumar and the broader evaluation episodes in my research program. It makes intelligence relational: success depends on the agent, shared assumptions and the communicative task. Its strongest contribution is disciplined measurement of a narrow cognitive ability, rather than a mathematical theory of pragmatics.",
+  "watch_guidance": {
+    "mode": "I will focus on the main interview sections below.",
+    "ranges": [
+      {
+        "start": "00:03:44",
+        "end": "00:12:09",
+        "reason": "Task design, comparison groups and competence versus elicitation."
+      },
+      {
+        "start": "00:19:40",
+        "end": "00:26:10",
+        "reason": "Interactive learning hypotheses, subset analysis and limits of benchmark success."
+      }
+    ],
+    "edition": "Recovered podcast audio"
+  },
+  "counterarguments": "An agent optimized for cautious literal truth may reasonably avoid a categorical implicature. Evaluation must specify whether the goal is most likely speaker intent, logical entailment, social coordination or risk-sensitive decision making; these need not have the same optimum.",
+  "exercise": "I want to construct paired dialogues with identical utterances but different shared contexts, including work that ends before the party and work that overlaps it. Elicited probabilities over intended answers would allow comparison of zero-shot and example-primed conditions, with calibration and error reported by implicature type. Whole contextual mechanisms would be held out rather than merely paraphrases.",
+  "connections": [
+    "Kumar: human inductive biases and auxiliary supervision",
+    "Lampinen/Hattie: elicitation versus acquired algorithms",
+    "Chollet/Mitchell: capability measurement and generalization"
+  ],
+  "external_sources": [
+    {
+      "url": "https://lauraruis.github.io/2022/09/29/comm.html",
+      "purpose": "Primary author source identifying the historical benchmark and research scope."
+    }
+  ],
+  "source_record": "../sources.json"
+}

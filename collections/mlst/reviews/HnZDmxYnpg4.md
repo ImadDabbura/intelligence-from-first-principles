@@ -1,0 +1,133 @@
+# Harri Valpola: System 2 AI and Planning in Model-Based Reinforcement Learning
+
+[Original episode](https://www.youtube.com/watch?v=HnZDmxYnpg4) · [All reviews](../README.md) · [Learning path](../learning-path.md)
+
+Published: 2020-05-25 · Decision: **Core** · Confidence: high
+
+## Central claim
+
+Planning is an optimization process that can actively exploit the errors of its own learned world model. This is a fundamental correction to the intuition that better prediction plus more search automatically yields better intelligence. The episode connects model-based control, epistemic uncertainty, denoising and the tension between conservative action and exploration.
+
+## Ideas I want to keep
+
+- At 00:08:37–00:20:31 and 00:48:55–00:53:03, the optimizer is effectively an adversary of the forward model. A predictor accurate on observed trajectories can recommend physically impossible shortcuts because search deliberately visits inputs where prediction was never tested. Stronger optimization can therefore make the realized outcome worse.
+
+- At 01:04:14–01:08:03, a denoising autoencoder supplies a direction back toward familiar trajectories. Reward improvement is balanced against leaving the empirical support of the dynamics model. This turns unsupervised learning of experience into a control regularizer rather than just a feature extractor.
+
+- At 01:11:34–01:13:43, uncertainty estimators can themselves be exploited. Ensembles may confidently agree on the same wrong answer, and a learned density model can share blind spots with the predictor. The issue is the reliability of the entire optimized system, not whether one component has a nominal uncertainty output.
+
+- At 00:47:33–00:48:55 and 01:31:26–01:33:18, a world model has two different uses: generating experience to train a policy, and planning anew for the present state. Receding-horizon control executes one action, observes the result and replans, reducing commitment to a long imagined trajectory.
+
+- At 00:26:20–00:31:44 and 01:18:24–01:25:39, deliberation is defined algorithmically through internal simulation rather than through verbal explanation. A black-box dynamics model may support transparent comparisons of predicted consequences without providing a human-readable causal derivation of those predictions.
+
+## Mathematical anatomy
+
+**Objects:** Learned dynamics, state/action trajectories, reward, a finite planning horizon, the distribution of observed trajectory windows and a learned denoising map.
+
+**Objective:** Optimize predicted cumulative reward while penalizing departure from reliable experience; schematically maximize R_hat(trajectory)+lambda log p_data(trajectory).
+
+**Mechanism:** Backpropagate through rolled-out dynamics to improve controls and add a density-score direction. For an optimal squared-error denoiser under Gaussian corruption, g(z)−z equals sigma² times the score of the noise-convolved density, not automatically the clean-data score. This identity needs the specified corruption and optimality assumptions.
+
+**Assumptions:** Training trajectories sufficiently cover safe useful behavior; density is informative about model trustworthiness; the dynamics remain applicable; optimization, state estimation and replanning fit within the control timescale.
+
+**Limits:** High density does not certify low prediction error or safety. A regularizer may suppress beneficial novelty and does not by itself solve exploration. Hidden state, drift and accumulated rollout error remain. The disclosed method is not a universal solution to model exploitation.
+
+## Evidence, limitations and corrections
+
+- The primary 2019 paper reports improved planning with gradient-based and gradient-free optimizers and initial learning on motor-control tasks. This supports the specific technique, not the interview’s broad claim to have solved the problem generally.
+
+- The paper’s denoiser identity concerns a Gaussian-smoothed distribution; the interview’s shorthand about an exact score of the input distribution omits that distinction. A finite trained denoiser is still an approximation.
+
+- Assertions that models cannot know anything outside experienced support are too absolute: structure can enable extrapolation. The valid concern is lack of a guarantee under unrestricted shift, amplified by optimizing the model.
+
+- The discussion of human development and consciousness is speculative and unnecessary for the technical conclusion. System 1/System 2 is an architectural analogy here, not a demonstrated anatomical division or proof of consciousness.
+
+- Company deployments and blanket statements about ensembles, Gaussian-process scaling and negligible inference cost are regime-dependent interview claims. The disclosed exploration component is incomplete, explicitly described as unpublished.
+
+## Relevance to my research
+
+Core for my research because it reveals a general failure mode of intelligence built from learned evaluators: selecting the apparent best option changes the error distribution. Understanding this is useful for planning, scientific search, reward modeling and any agent that optimizes through an imperfect internal model. The bridge from denoising to a score field adds genuine mathematical structure.
+
+## My viewing plan
+
+**Mode:** chapters
+
+**Ranges:** - **Start:** 00:08:37
+  
+  **End:** 00:20:31
+  
+  **Why:** Concrete visual intuition for model exploitation and conservative trajectory optimization.
+
+- **Start:** 00:26:20
+  
+  **End:** 00:33:08
+  
+  **Why:** Useful algorithmic separation of policies, world models and online planning.
+
+- **Start:** 00:47:33
+  
+  **End:** 00:53:03
+  
+  **Why:** Why online planning differs from training in imagination.
+
+- **Start:** 01:01:44
+  
+  **End:** 01:16:39
+  
+  **Why:** Core technical account of denoising regularization, ensemble failure and uncertainty.
+
+- **Start:** 01:18:24
+  
+  **End:** 01:25:39
+  
+  **Why:** Prediction-based explanation versus causal/object-structured representation.
+
+**Edition note:** The saved edition includes a roughly twenty-minute introduction/explainer before the interview. These timestamps belong to that edition and cannot be assumed to match an interview-only cut.
+
+## Objections and open questions
+
+Conservative density constraints can trap an agent in mediocre behavior. A principled planner should sometimes seek information outside familiar support, with calibrated uncertainty and bounded consequences. Structural dynamics priors or robust-control constraints may outperform a generic density penalty; comparison depends on the environment and available knowledge.
+
+## An experiment I could try
+
+My proposed experiment is to train a dynamics network on trajectories from a limited region of a simple nonlinear two-dimensional control system. With the predictor fixed, increasing planning iterations would expose the gap between predicted and realized return. I would compare a denoising trajectory penalty, an ensemble penalty and an explicit known-safe constraint using reward optimism, state-space coverage and true return. Changing the dynamics would then test why familiar inputs do not guarantee validity after drift.
+
+## Connections in my notes
+
+- Genie3: a convincing learned simulator still needs task-grounded validation before optimized policies can be trusted.
+
+- Rocktäschel: novelty-seeking and reliable exploitation must be coupled rather than conflated.
+
+- Hochreiter: state and memory choices determine what a recurrent dynamics model can retain about delayed processes.
+
+## Primary sources checked
+
+- **Title:** Regularizing Trajectory Optimization with Denoising Autoencoders
+  
+  **Url:** https://papers.neurips.cc/paper_files/paper/2019/hash/21fe5b8ba755eeaece7a450849876228-Abstract.html
+  
+  **Use:** Checked scope of published evidence.
+
+- **Title:** Regularizing Trajectory Optimization with Denoising Autoencoders — paper
+  
+  **Url:** https://papers.nips.cc/paper_files/paper/2019/file/21fe5b8ba755eeaece7a450849876228-Paper.pdf
+  
+  **Use:** Checked Gaussian-corruption score identity and its smoothed-density qualification; experiments not reproduced.
+
+## Source and coverage
+
+**Status:** complete_available_text
+
+**Start:** 00:00:00
+
+**End:** 01:38:20
+
+**Caveats:** - Complete local transcript read, including the introductory paper explainer and company discussion. A truncated output passage at 00:11:04–00:12:27 was explicitly reread. Audio and displayed diagrams not verified.
+
+Source type: Existing caption or archive. Reviewed text: 13,402 words.
+
+Transcript file: `HnZDmxYnpg4.hf.txt` (not distributed).
+
+SHA-256: `dd0f2eabd8263bbc8fba659c732b80e0b221fdfacd31a1410cfab6d2494dc3d2`.
+
+[Structured review](HnZDmxYnpg4.json) · [Source ledger](../sources.json)

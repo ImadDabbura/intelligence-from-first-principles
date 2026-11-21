@@ -22,10 +22,90 @@
         "first": "2020-04-09",
         "last": "2026-10-09"
       }
+    },
+    {
+      "id": "lectures",
+      "name": "Originator lectures and seminars",
+      "short_name": "Lectures",
+      "url": "https://github.com/ImadDabbura/intelligence-from-first-principles",
+      "format": "Lecture",
+      "path": "collections/lectures",
+      "snapshot_date": "2026-11-21",
+      "coverage_note": "Selected lectures and seminars by the originators of unifying programmes, across venues. Pilot set; not an inventory of any venue.",
+      "screened": 5,
+      "reviewed": 0,
+      "inventory_range": {
+        "first": "2022-01-13",
+        "last": "2022-01-13"
+      },
+      "reviewed_range": {
+        "first": null,
+        "last": null
+      }
+    },
+    {
+      "id": "axrp",
+      "name": "AXRP – the AI X-risk Research Podcast",
+      "short_name": "AXRP",
+      "url": "https://axrp.net/",
+      "format": "Podcast",
+      "path": "collections/axrp",
+      "snapshot_date": "2026-11-21",
+      "coverage_note": "Selected episodes only; not an inventory of the feed.",
+      "screened": 1,
+      "reviewed": 0,
+      "inventory_range": {
+        "first": "2024-05-07",
+        "last": "2024-05-07"
+      },
+      "reviewed_range": {
+        "first": null,
+        "last": null
+      }
+    },
+    {
+      "id": "information-bottleneck",
+      "name": "The Information Bottleneck",
+      "short_name": "Info Bottleneck",
+      "url": "https://www.the-information-bottleneck.com/",
+      "format": "Podcast",
+      "path": "collections/information-bottleneck",
+      "snapshot_date": "2026-11-21",
+      "coverage_note": "Selected episodes only; not an inventory of the feed.",
+      "screened": 1,
+      "reviewed": 0,
+      "inventory_range": {
+        "first": "2026-08-17",
+        "last": "2026-08-17"
+      },
+      "reviewed_range": {
+        "first": null,
+        "last": null
+      }
+    },
+    {
+      "id": "readings",
+      "name": "Originator writing",
+      "short_name": "Readings",
+      "url": "https://github.com/ImadDabbura/intelligence-from-first-principles",
+      "format": "Reading",
+      "path": "collections/readings",
+      "snapshot_date": "2026-11-21",
+      "coverage_note": "Expository and founding papers by the originators of unifying programmes. Textbooks are excluded. Pilot set.",
+      "screened": 4,
+      "reviewed": 0,
+      "inventory_range": {
+        "first": "2000-07-20",
+        "last": "2020-10-22"
+      },
+      "reviewed_range": {
+        "first": null,
+        "last": null
+      }
     }
   ],
   "summary": {
-    "screened": 269,
+    "screened": 280,
     "reviewed": 131,
     "decisions": {
       "worthwhile": 60,
@@ -34,7 +114,7 @@
       "drop": 4
     },
     "inventory_range": {
-      "first": "2020-04-09",
+      "first": "2000-07-20",
       "last": "2026-10-26"
     },
     "reviewed_range": {

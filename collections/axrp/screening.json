@@ -1,0 +1,49 @@
+{
+  "methodology": {
+    "bar": "Originator of a unifying principle derives its consequences densely enough to change a mental model. Must pass A–C; D–F scored 0–2 for ranking.",
+    "rubric": {
+      "A": "Originator or primary architect",
+      "B": "Unifying principle",
+      "C": "Derivation shown",
+      "D": "Contested or falsifiable",
+      "E": "Density",
+      "F": "Model update beyond the existing collection"
+    },
+    "decisions": "Same as MLST: read_transcript is not a watch recommendation."
+  },
+  "episodes": [
+    {
+      "id": "hdB9gIwD6x4",
+      "title": "31 - Singular Learning Theory with Daniel Murfet",
+      "url": "https://axrp.net/episode/2024/05/07/episode-31-singular-learning-theory-dan-murfet.html",
+      "published_at": "2024-05-07",
+      "duration_seconds": null,
+      "screening": {
+        "id": "hdB9gIwD6x4",
+        "index": 0,
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "generalization",
+          "Bayesian learning"
+        ],
+        "publisher_promise": "Interview on singular learning theory as a theory of Bayesian statistics broad enough to encompass deep networks; full transcript on the episode page.",
+        "screening_reason": "Long-form interview with the main architect of SLT for deep learning; the host presses on what the theory claims and how it could be tested. Pairs with the metauni introduction (lectures collection). Rubric: A originator ✓ · B unifying principle ✓ · C derivation ✓ · D 2 · E 2 · F 2.",
+        "evidence": [],
+        "transcript_question": "Which SLT claims are theorems, which are conjectures about deep networks, and what evidence (phase transitions, learning-coefficient estimates) is offered?",
+        "caveat": "Length not shown; transcript available on the episode page."
+      },
+      "notes_scope": "Publisher and venue metadata only; no transcript read in this pass.",
+      "resources": [
+        {
+          "url": "https://youtu.be/hdB9gIwD6x4",
+          "category": "Video",
+          "origins": [
+            "Venue page"
+          ],
+          "source_issue": null
+        }
+      ]
+    }
+  ]
+}

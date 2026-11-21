@@ -1,0 +1,114 @@
+{
+  "methodology": {
+    "bar": "Originator of a unifying principle derives its consequences densely enough to change a mental model. Must pass A–C; D–F scored 0–2 for ranking.",
+    "rubric": {
+      "A": "Originator or primary architect",
+      "B": "Unifying principle",
+      "C": "Derivation shown",
+      "D": "Contested or falsifiable",
+      "E": "Density",
+      "F": "Model update beyond the existing collection"
+    },
+    "decisions": "Same as MLST: read_transcript is not a watch recommendation."
+  },
+  "episodes": [
+    {
+      "id": "arxiv-1908-08484",
+      "title": "Minimum Description Length Revisited — Peter Grünwald and Teemu Roos",
+      "url": "https://arxiv.org/abs/1908.08484",
+      "published_at": "2019-08-21",
+      "duration_seconds": null,
+      "screening": {
+        "id": "arxiv-1908-08484",
+        "index": 0,
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "compression",
+          "model selection"
+        ],
+        "publisher_promise": "An up-to-date introduction to and overview of the MDL principle.",
+        "screening_reason": "The architect of modern MDL sets out learning as compression, with universal codes, the link to Bayes and to frequentist guarantees, and where MDL departs from both. It is the formal backbone behind the repo’s compression claims (Wilson, Ma, Tishby). Rubric: A originator ✓ · B unifying principle ✓ · C derivation ✓ · D 2 · E 2 · F 2.",
+        "evidence": [],
+        "transcript_question": "Which notion of code length makes compression and generalization equivalent, and where does the equivalence break?",
+        "caveat": "Reading, not a recording; full text on arXiv."
+      },
+      "notes_scope": "Publisher and venue metadata only; no transcript read in this pass.",
+      "resources": []
+    },
+    {
+      "id": "arxiv-2010-11560",
+      "title": "Deep Learning is Singular, and That’s Good — Murfet, Wei, Gong, Li, Gell-Redman, Quella",
+      "url": "https://arxiv.org/abs/2010.11560",
+      "published_at": "2020-10-22",
+      "duration_seconds": null,
+      "screening": {
+        "id": "arxiv-2010-11560",
+        "index": 1,
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "generalization",
+          "Bayesian learning"
+        ],
+        "publisher_promise": "An invitation to singular learning theory as a vehicle for understanding deep learning (IEEE TNNLS, 2023).",
+        "screening_reason": "The written entry point to SLT for deep learning, by its main architect: why the Fisher information is degenerate in neural networks and what replaces BIC-style complexity. Rubric: A originator ✓ · B unifying principle ✓ · C derivation ✓ · D 2 · E 2 · F 2.",
+        "evidence": [],
+        "transcript_question": "Read alongside the metauni introduction: which derivations are complete here, and which are deferred to Watanabe?",
+        "caveat": "Reading; full text on arXiv."
+      },
+      "notes_scope": "Publisher and venue metadata only; no transcript read in this pass.",
+      "resources": []
+    },
+    {
+      "id": "arxiv-physics-0007070",
+      "title": "Predictability, Complexity and Learning — Bialek, Nemenman and Tishby",
+      "url": "https://arxiv.org/abs/physics/0007070",
+      "published_at": "2000-07-20",
+      "duration_seconds": null,
+      "screening": {
+        "id": "arxiv-physics-0007070",
+        "index": 2,
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "information",
+          "prediction",
+          "complexity"
+        ],
+        "publisher_promise": "Defines predictive information, the mutual information between past and future, and relates it to learning and complexity (Neural Computation, 2001).",
+        "screening_reason": "The originating paper for predictive information, co-authored by Tishby, the user’s exemplar: it connects the sub-extensive part of entropy to model complexity and learning curves. It is the theoretical root of the information bottleneck seminar. Rubric: A originator ✓ · B unifying principle ✓ · C derivation ✓ · D 1 · E 2 · F 2.",
+        "evidence": [],
+        "transcript_question": "How does the divergence of predictive information classify model complexity, and how does that relate to the learning-curve exponents in SLT and statistical physics?",
+        "caveat": "Reading; full text on arXiv."
+      },
+      "notes_scope": "Publisher and venue metadata only; no transcript read in this pass.",
+      "resources": []
+    },
+    {
+      "id": "arxiv-0712-4381",
+      "title": "Efficient Representation as a Design Principle for Neural Coding and Computation — Bialek, de Ruyter van Steveninck and Tishby",
+      "url": "https://arxiv.org/abs/0712.4381",
+      "published_at": "2007-12-28",
+      "duration_seconds": null,
+      "screening": {
+        "id": "arxiv-0712-4381",
+        "index": 3,
+        "decision": "read_transcript",
+        "priority": "medium",
+        "theme": [
+          "information",
+          "natural intelligence",
+          "representation"
+        ],
+        "publisher_promise": "Reviews fly-vision experiments on efficient representation and proposes an information-theoretic optimality principle.",
+        "screening_reason": "Efficient coding tested against neural data by its originators: the natural-intelligence counterpart to rate reduction (Ma) and the information bottleneck. Rubric: A originator ✓ · B unifying principle ✓ · C derivation ✓ · D 2 (tested on data) · E 2 · F 1.",
+        "evidence": [],
+        "transcript_question": "Which predictions of the optimality principle are tested, and which would distinguish efficient coding from predictive coding?",
+        "caveat": "Reading; based on a 2006 ISIT presentation."
+      },
+      "notes_scope": "Publisher and venue metadata only; no transcript read in this pass.",
+      "resources": []
+    }
+  ]
+}

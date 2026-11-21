@@ -1,0 +1,41 @@
+{
+  "methodology": {
+    "bar": "Originator of a unifying principle derives its consequences densely enough to change a mental model. Must pass A–C; D–F scored 0–2 for ranking.",
+    "rubric": {
+      "A": "Originator or primary architect",
+      "B": "Unifying principle",
+      "C": "Derivation shown",
+      "D": "Contested or falsifiable",
+      "E": "Density",
+      "F": "Model update beyond the existing collection"
+    },
+    "decisions": "Same as MLST: read_transcript is not a watch recommendation."
+  },
+  "episodes": [
+    {
+      "id": "surya-ganguli-the-physics-of-intelligence-051",
+      "title": "Surya Ganguli: The Physics of Intelligence",
+      "url": "https://www.the-information-bottleneck.com/p/surya-ganguli-the-physics-of-intelligence-051",
+      "published_at": "2026-08-17",
+      "duration_seconds": 5122,
+      "screening": {
+        "id": "surya-ganguli-the-physics-of-intelligence-051",
+        "index": 0,
+        "decision": "read_transcript",
+        "priority": "medium",
+        "theme": [
+          "statistical physics",
+          "scaling",
+          "data"
+        ],
+        "publisher_promise": "Deep learning theory, neural scaling laws, beating them with data selection, and the origin of diffusion models.",
+        "screening_reason": "Ganguli explains his statistical-physics programme in a long interview with researcher hosts. Medium because it is a broad tour; the lecture (MhZ_QjZKzHU) carries the derivations. Rubric: A originator ✓ · B unifying principle ✓ · C derivation ✓ · D 2 · E 1 · F 2 (data pruning beating power-law scaling).",
+        "evidence": [],
+        "transcript_question": "Is the data-pruning argument derived (and under which data model), or reported?",
+        "caveat": "No transcript shown; audio only."
+      },
+      "notes_scope": "Publisher and venue metadata only; no transcript read in this pass.",
+      "resources": []
+    }
+  ]
+}

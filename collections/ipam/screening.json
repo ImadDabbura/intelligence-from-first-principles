@@ -932,6 +932,530 @@
       },
       "notes_scope": "Publisher metadata only; no transcript read in this pass.",
       "resources": []
+    },
+    {
+      "id": "NFeZ6MggJjw",
+      "title": "Pratik Chaudhari: \"Unraveling the mysteries of stochastic gradient descent on deep neural networks\"",
+      "url": "https://www.youtube.com/watch?v=NFeZ6MggJjw",
+      "published_at": "2018-02-16",
+      "duration_seconds": 2340,
+      "screening": {
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "sgd",
+          "implicit regularization",
+          "out-of-equilibrium"
+        ],
+        "publisher_promise": "Shows SGD performs variational inference with an entropic term, minimizing a different potential than the loss and converging to limit cycles.",
+        "screening_reason": "Originator of the result derives a nonequilibrium account of SGD's implicit bias with falsifiable predictions about trajectories and generalization. Rubric: A✓ B✓ C✓ · D 2 · E 2 · F 2.",
+        "transcript_question": "Does the derivation connect the non-isotropic noise potential to generalization concretely, and has the limit-cycle claim survived later work?",
+        "caveat": "publisher abstract only; speaker inferred from title",
+        "speaker": "Pratik Chaudhari",
+        "modules": [
+          2
+        ],
+        "id": "NFeZ6MggJjw",
+        "index": 30,
+        "evidence": [],
+        "workshop": "New Deep Learning Techniques 2018"
+      },
+      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
+      "resources": []
+    },
+    {
+      "id": "O6itYc2nnnM",
+      "title": "Yoshua Bengio: \"Representation Learning and Deep Learning, Pt. 1\"",
+      "url": "https://www.youtube.com/watch?v=O6itYc2nnnM",
+      "published_at": "2015-08-25",
+      "duration_seconds": 3660,
+      "screening": {
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "representation learning",
+          "priors",
+          "disentangling"
+        ],
+        "publisher_promise": "Opens Bengio's tutorial on why deep, distributed representations should be learned and which priors make it work.",
+        "screening_reason": "Architect's tutorial central to module 3, setting out the priors (distributed, depth, disentangling factors) behind representation learning. Rubric: A✓ B✓ C✓ · D 1 · E 2 · F 1.",
+        "transcript_question": "Does Bengio give an argument for depth and distributed codes (e.g. exponential efficiency) rather than just motivation?",
+        "caveat": "no abstract; judged from title and workshop only; part of a multi-part series",
+        "speaker": "Yoshua Bengio",
+        "modules": [
+          2,
+          3
+        ],
+        "id": "O6itYc2nnnM",
+        "index": 31,
+        "evidence": [],
+        "workshop": "Graduate Summer School: Deep Learning, Feature Learning 2012"
+      },
+      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
+      "resources": []
+    },
+    {
+      "id": "oOB4evKlEmQ",
+      "title": "Yann LeCun: \"Deep Learning, Graphical Models, Energy-Based Models, Structured Prediction, Pt. 1\"",
+      "url": "https://www.youtube.com/watch?v=oOB4evKlEmQ",
+      "published_at": "2015-08-24",
+      "duration_seconds": 3720,
+      "screening": {
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "energy-based models",
+          "structured prediction",
+          "graphical models"
+        ],
+        "publisher_promise": "Opens LeCun's lectures unifying deep learning, graphical models and structured prediction under energy-based learning.",
+        "screening_reason": "Architect of energy-based learning sets out the unifying framework and loss design that later grounds JEPA-style world models. Rubric: A✓ B✓ C✓ · D 1 · E 2 · F 1.",
+        "transcript_question": "Does part 1 derive which loss functions are valid for energy-based learning (contrastive vs collapse) or only introduce notation?",
+        "caveat": "no abstract; judged from title and workshop only; part of a multi-part series",
+        "speaker": "Yann LeCun",
+        "modules": [
+          3,
+          4
+        ],
+        "id": "oOB4evKlEmQ",
+        "index": 32,
+        "evidence": [],
+        "workshop": "Graduate Summer School: Deep Learning, Feature Learning 2012"
+      },
+      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
+      "resources": []
+    },
+    {
+      "id": "zbg49SMP5kY",
+      "title": "Stefano Soatto: \"Invariance and disentanglement in deep representations\"",
+      "url": "https://www.youtube.com/watch?v=zbg49SMP5kY",
+      "published_at": "2018-02-16",
+      "duration_seconds": 2160,
+      "screening": {
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "information bottleneck",
+          "invariance",
+          "disentanglement"
+        ],
+        "publisher_promise": "Presents an emergence theory of deep representations from sufficiency, invariance, minimality and independence, linking SGD-regularized losses to these properties.",
+        "screening_reason": "Originator derives desirable representation properties from information theory and proves regularized training yields them; directly on module 3. Rubric: A✓ B✓ C✓ · D 2 · E 2 · F 2.",
+        "transcript_question": "Does the theorem chain from regularized loss to invariance and minimality hold up, and what assumptions does it need?",
+        "caveat": "publisher abstract only; speaker inferred from title",
+        "speaker": "Stefano Soatto",
+        "modules": [
+          2,
+          3
+        ],
+        "id": "zbg49SMP5kY",
+        "index": 33,
+        "evidence": [],
+        "workshop": "New Deep Learning Techniques 2018"
+      },
+      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
+      "resources": []
+    },
+    {
+      "id": "v9lx4XN3w9c",
+      "title": "Joseph Landsberg: \"Introduction to the Geometry of Tensors (Part 1/2)\"",
+      "url": "https://www.youtube.com/watch?v=v9lx4XN3w9c",
+      "published_at": "2021-03-24",
+      "duration_seconds": 4320,
+      "screening": {
+        "id": "v9lx4XN3w9c",
+        "index": 34,
+        "decision": "read_transcript",
+        "priority": "high",
+        "track": "maths",
+        "pillars": [
+          "§2",
+          "§15",
+          "§28"
+        ],
+        "theme": [
+          "maths track",
+          "§2",
+          "§15"
+        ],
+        "publisher_promise": "",
+        "screening_reason": "Landsberg's introductory tutorial teaches tensor geometry from a leading architect's perspective. (Maths track: architect-taught exposition of a Compass pillar.)",
+        "evidence": [],
+        "transcript_question": "How does tensor geometry explain rank, decomposition and computational difficulty?",
+        "caveat": "Full derivations, prerequisites and breadth of exposition are unverified.",
+        "speaker": "Joseph Landsberg",
+        "modules": [],
+        "workshop": "Tensor Methods and Emerging Applications to the Physical and Data Sciences Tutorials 2021"
+      },
+      "notes_scope": "Publisher metadata only; screened on the maths track by Codex; no transcript read.",
+      "resources": []
+    },
+    {
+      "id": "MkYEh0UJKcE",
+      "title": "Lek-Heng Lim: \"What is a tensor? (Part 1/2)\"",
+      "url": "https://www.youtube.com/watch?v=MkYEh0UJKcE",
+      "published_at": "2021-03-24",
+      "duration_seconds": 4260,
+      "screening": {
+        "id": "MkYEh0UJKcE",
+        "index": 35,
+        "decision": "read_transcript",
+        "priority": "high",
+        "track": "maths",
+        "pillars": [
+          "§2",
+          "§15",
+          "§46"
+        ],
+        "theme": [
+          "maths track",
+          "§2",
+          "§15"
+        ],
+        "publisher_promise": "",
+        "screening_reason": "Lim's opening tutorial unifies the fundamental definitions of tensors and their computational meaning. (Maths track: architect-taught exposition of a Compass pillar.)",
+        "evidence": [],
+        "transcript_question": "Why are transformation laws, multilinear maps and tensor products equivalent tensor viewpoints?",
+        "caveat": "Full derivations, prerequisites and breadth of exposition are unverified.",
+        "speaker": "Lek-Heng Lim",
+        "modules": [],
+        "workshop": "Tensor Methods and Emerging Applications to the Physical and Data Sciences Tutorials 2021"
+      },
+      "notes_scope": "Publisher metadata only; screened on the maths track by Codex; no transcript read.",
+      "resources": []
+    },
+    {
+      "id": "K8t24xm7tn8",
+      "title": "Ming Yuan: \"Low Rank Tensor Methods in High Dimensional Data Analysis (Part 1/2)\"",
+      "url": "https://www.youtube.com/watch?v=K8t24xm7tn8",
+      "published_at": "2021-03-24",
+      "duration_seconds": 4920,
+      "screening": {
+        "id": "K8t24xm7tn8",
+        "index": 36,
+        "decision": "read_transcript",
+        "priority": "high",
+        "track": "maths",
+        "pillars": [
+          "§15",
+          "§6",
+          "§10"
+        ],
+        "theme": [
+          "maths track",
+          "§15",
+          "§6"
+        ],
+        "publisher_promise": "",
+        "screening_reason": "Yuan's opening tutorial develops statistical and computational foundations of low-rank tensor analysis. (Maths track: architect-taught exposition of a Compass pillar.)",
+        "evidence": [],
+        "transcript_question": "How do tensor structure and rank affect estimation and computational complexity?",
+        "caveat": "Full derivations, prerequisites and breadth of exposition are unverified.",
+        "speaker": "Ming Yuan",
+        "modules": [],
+        "workshop": "Tensor Methods and Emerging Applications to the Physical and Data Sciences Tutorials 2021"
+      },
+      "notes_scope": "Publisher metadata only; screened on the maths track by Codex; no transcript read.",
+      "resources": []
+    },
+    {
+      "id": "3im-Djrm9GY",
+      "title": "Frank Verstraete: \"Mathematical Aspects of Tensor Networks (Part 1/2)\"",
+      "url": "https://www.youtube.com/watch?v=3im-Djrm9GY",
+      "published_at": "2021-03-24",
+      "duration_seconds": 5040,
+      "screening": {
+        "id": "3im-Djrm9GY",
+        "index": 37,
+        "decision": "read_transcript",
+        "priority": "high",
+        "track": "maths",
+        "pillars": [
+          "§15",
+          "§2",
+          "§33"
+        ],
+        "theme": [
+          "maths track",
+          "§15",
+          "§2"
+        ],
+        "publisher_promise": "",
+        "screening_reason": "A tensor-network architect explicitly teaches fundamental theorems, area laws and manifold structure in an introductory series. (Maths track: architect-taught exposition of a Compass pillar.)",
+        "evidence": [],
+        "transcript_question": "How do area laws and the fundamental MPS theorem explain tensor-network expressivity?",
+        "caveat": "Proof detail and prerequisites unverified.",
+        "speaker": "Frank Verstraete",
+        "modules": [],
+        "workshop": "Tensor Methods and Emerging Applications to the Physical and Data Sciences Tutorials 2021"
+      },
+      "notes_scope": "Publisher metadata only; screened on the maths track by Codex; no transcript read.",
+      "resources": []
+    },
+    {
+      "id": "4rF7xsBg7h4",
+      "title": "Hugo Duminil-Copin - Critical phenomena through the lens of the Ising model - Green Family Lecture",
+      "url": "https://www.youtube.com/watch?v=4rF7xsBg7h4",
+      "published_at": "2024-05-22",
+      "duration_seconds": 3360,
+      "screening": {
+        "id": "4rF7xsBg7h4",
+        "index": 38,
+        "decision": "read_transcript",
+        "priority": "high",
+        "track": "maths",
+        "pillars": [
+          "§4",
+          "§33"
+        ],
+        "theme": [
+          "maths track",
+          "§4",
+          "§33"
+        ],
+        "publisher_promise": "",
+        "screening_reason": "A leading architect uses a named lecture to explain critical phenomena through the central Ising model. (Maths track: architect-taught exposition of a Compass pillar.)",
+        "evidence": [],
+        "transcript_question": "How do dimensionality and correlations determine Ising critical behavior?",
+        "caveat": "Abstract truncated; proof detail unverified.",
+        "speaker": "Hugo Duminil-Copin",
+        "modules": [],
+        "workshop": "IPAM"
+      },
+      "notes_scope": "Publisher metadata only; screened on the maths track by Codex; no transcript read.",
+      "resources": []
+    },
+    {
+      "id": "EeSuvatIl8k",
+      "title": "Gregory Beylkin - On algorithms in high dimensions - IPAM at UCLA",
+      "url": "https://www.youtube.com/watch?v=EeSuvatIl8k",
+      "published_at": "2024-09-27",
+      "duration_seconds": 3000,
+      "screening": {
+        "id": "EeSuvatIl8k",
+        "index": 39,
+        "decision": "read_transcript",
+        "priority": "high",
+        "track": "maths",
+        "pillars": [
+          "§15",
+          "§42",
+          "§2b"
+        ],
+        "theme": [
+          "maths track",
+          "§15",
+          "§42"
+        ],
+        "publisher_promise": "",
+        "screening_reason": "Beylkin's broad review of high-dimensional function representations teaches core numerical tools from a leading contributor. (Maths track: architect-taught exposition of a Compass pillar.)",
+        "evidence": [],
+        "transcript_question": "How do separated representations avoid dimensional explosion, and when do they fail?",
+        "caveat": "Full derivations and prerequisites are not specified.",
+        "speaker": "Gregory Beylkin",
+        "modules": [],
+        "workshop": "2024 Analyzing High-dimensional Traces of Intelligent Behavior"
+      },
+      "notes_scope": "Publisher metadata only; screened on the maths track by Codex; no transcript read.",
+      "resources": []
+    },
+    {
+      "id": "Hhhtsi2tKlI",
+      "title": "Daniel Kuhn: \"Wasserstein Distributionally Robust Optimization: Theory and Applications in Machi...\"",
+      "url": "https://www.youtube.com/watch?v=Hhhtsi2tKlI",
+      "published_at": "2020-04-09",
+      "duration_seconds": 3660,
+      "screening": {
+        "id": "Hhhtsi2tKlI",
+        "index": 40,
+        "decision": "read_transcript",
+        "priority": "high",
+        "track": "maths",
+        "pillars": [
+          "§7",
+          "§26",
+          "§10"
+        ],
+        "theme": [
+          "maths track",
+          "§7",
+          "§26"
+        ],
+        "publisher_promise": "",
+        "screening_reason": "Kuhn's theory-and-applications exposition teaches Wasserstein robustness from a leading architect of the framework. (Maths track: architect-taught exposition of a Compass pillar.)",
+        "evidence": [],
+        "transcript_question": "How does a Wasserstein ambiguity set yield tractable robust decisions with statistical guarantees?",
+        "caveat": "The supplied abstract is truncated and proof depth is unverified.",
+        "speaker": "Daniel Kuhn",
+        "modules": [],
+        "workshop": "Intersections between Control, Learning and Optimization 2020"
+      },
+      "notes_scope": "Publisher metadata only; screened on the maths track by Codex; no transcript read.",
+      "resources": []
+    },
+    {
+      "id": "NuVBHXYBC4k",
+      "title": "Emmanuel Candès: “The Knockoffs Framework: New Statistical Tools for Replicable Selections”",
+      "url": "https://www.youtube.com/watch?v=NuVBHXYBC4k",
+      "published_at": "2018-10-05",
+      "duration_seconds": 4260,
+      "screening": {
+        "id": "NuVBHXYBC4k",
+        "index": 41,
+        "decision": "read_transcript",
+        "priority": "high",
+        "track": "maths",
+        "pillars": [
+          "§10",
+          "§15"
+        ],
+        "theme": [
+          "maths track",
+          "§10",
+          "§15"
+        ],
+        "publisher_promise": "",
+        "screening_reason": "Candès develops the knockoffs framework in a named lecture, teaching a central approach to rigorous variable selection. (Maths track: architect-taught exposition of a Compass pillar.)",
+        "evidence": [],
+        "transcript_question": "How does knockoff exchangeability yield false-discovery control without strong modeling assumptions?",
+        "caveat": "The supplied abstract is truncated and exact proof coverage is unverified.",
+        "speaker": "Emmanuel Candès",
+        "modules": [],
+        "workshop": "Public Lectures"
+      },
+      "notes_scope": "Publisher metadata only; screened on the maths track by Codex; no transcript read.",
+      "resources": []
+    },
+    {
+      "id": "chGMgHyplPI",
+      "title": "Sebastian Pokutta: \"Structured ML Training via Conditional Gradients\"",
+      "url": "https://www.youtube.com/watch?v=chGMgHyplPI",
+      "published_at": "2021-03-04",
+      "duration_seconds": 1440,
+      "screening": {
+        "id": "chGMgHyplPI",
+        "index": 42,
+        "decision": "read_transcript",
+        "priority": "high",
+        "track": "maths",
+        "pillars": [
+          "§7"
+        ],
+        "theme": [
+          "maths track",
+          "§7"
+        ],
+        "publisher_promise": "",
+        "screening_reason": "A leading conditional-gradient researcher offers a broad survey of central methods and their structural optimization role. (Maths track: architect-taught exposition of a Compass pillar.)",
+        "evidence": [],
+        "transcript_question": "Why do conditional-gradient methods exploit polyhedral structure, and what determines their convergence?",
+        "caveat": "The balance of derivations, applications, and recent results is unverified.",
+        "speaker": "Sebastian Pokutta",
+        "modules": [],
+        "workshop": "Deep Learning and Combinatorial Optimization 2021"
+      },
+      "notes_scope": "Publisher metadata only; screened on the maths track by Codex; no transcript read.",
+      "resources": []
+    },
+    {
+      "id": "dY249vF0Pps",
+      "title": "Jorge Nocedal: \"Tutorial on Optimization Methods for Machine Learning, Pt. 1\"",
+      "url": "https://www.youtube.com/watch?v=dY249vF0Pps",
+      "published_at": "2015-08-26",
+      "duration_seconds": 3660,
+      "screening": {
+        "id": "dY249vF0Pps",
+        "index": 43,
+        "decision": "read_transcript",
+        "priority": "high",
+        "track": "maths",
+        "pillars": [
+          "§7",
+          "§8"
+        ],
+        "theme": [
+          "maths track",
+          "§7",
+          "§8"
+        ],
+        "publisher_promise": "",
+        "screening_reason": "A foundational optimization tutorial by Nocedal directly serves the optimization spine and starts the series. (Maths track: architect-taught exposition of a Compass pillar.)",
+        "evidence": [],
+        "transcript_question": "How do curvature and conditioning determine optimization-method choice?",
+        "caveat": "No abstract verifies the exact syllabus.",
+        "speaker": "Jorge Nocedal",
+        "modules": [],
+        "workshop": "Graduate Summer School: Deep Learning, Feature Learning 2012"
+      },
+      "notes_scope": "Publisher metadata only; screened on the maths track by Codex; no transcript read.",
+      "resources": []
+    },
+    {
+      "id": "Em6mQQy4wYA",
+      "title": "Iain Murray: \"Introduction to MCMC for Deep Learning\"",
+      "url": "https://www.youtube.com/watch?v=Em6mQQy4wYA",
+      "published_at": "2015-08-26",
+      "duration_seconds": 3720,
+      "screening": {
+        "id": "Em6mQQy4wYA",
+        "index": 44,
+        "decision": "read_transcript",
+        "priority": "high",
+        "track": "maths",
+        "pillars": [
+          "§32",
+          "§17"
+        ],
+        "theme": [
+          "maths track",
+          "§32",
+          "§17"
+        ],
+        "publisher_promise": "",
+        "screening_reason": "Murray's summer-school introduction offers foundational MCMC instruction from a leading sampling researcher. (Maths track: architect-taught exposition of a Compass pillar.)",
+        "evidence": [],
+        "transcript_question": "Why does an MCMC chain converge to its target and what controls mixing?",
+        "caveat": "No abstract verifies proof coverage.",
+        "speaker": "Iain Murray",
+        "modules": [],
+        "workshop": "Graduate Summer School: Deep Learning, Feature Learning 2012"
+      },
+      "notes_scope": "Publisher metadata only; screened on the maths track by Codex; no transcript read.",
+      "resources": []
+    },
+    {
+      "id": "G6OxltPNcHs",
+      "title": "Dan-Virgil Voiculescu - Around Free Entropy - IPAM at UCLA",
+      "url": "https://www.youtube.com/watch?v=G6OxltPNcHs",
+      "published_at": "2025-02-24",
+      "duration_seconds": 3420,
+      "screening": {
+        "id": "G6OxltPNcHs",
+        "index": 45,
+        "decision": "read_transcript",
+        "priority": "high",
+        "track": "maths",
+        "pillars": [
+          "§4",
+          "§29",
+          "§9"
+        ],
+        "theme": [
+          "maths track",
+          "§4",
+          "§29"
+        ],
+        "publisher_promise": "",
+        "screening_reason": "The creator of free entropy gives an explicit background survey of its objects and applications. (Maths track: architect-taught exposition of a Compass pillar.)",
+        "evidence": [],
+        "transcript_question": "How does free entropy encode noncommutative randomness and connect to random matrices?",
+        "caveat": "Full exposition, prerequisites, and derivation depth are unverified.",
+        "speaker": "Dan-Virgil Voiculescu",
+        "modules": [],
+        "workshop": "IPAM"
+      },
+      "notes_scope": "Publisher metadata only; screened on the maths track by Codex; no transcript read.",
+      "resources": []
     }
   ]
 }

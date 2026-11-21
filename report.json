@@ -132,7 +132,7 @@
       "path": "collections/simons-institute",
       "snapshot_date": "2026-11-21",
       "coverage_note": "YouTube snapshot: 57 of 287 playlists selected as relevant; all 1,261 talks in them screened from metadata (42 high, 453 medium, 742 skip, 24 insufficient information). Only the high-priority talks are listed. Course-type playlists (e.g. the 2022 Deep Learning Theory summer school) could not be listed and are a known gap; 39 videos were private or deleted.",
-      "screened": 42,
+      "screened": 49,
       "reviewed": 0,
       "inventory_range": {
         "first": "2014-01-28",
@@ -172,10 +172,10 @@
       "path": "collections/college-de-france",
       "snapshot_date": "2026-11-21",
       "coverage_note": "Selected playlists screened from metadata on 2026-11-21: 295 items, 7 high priority before de-duplication; only high-priority items are listed. Most talks are in French. Full course series are hosted on college-de-france.fr, not YouTube, and are a known gap.",
-      "screened": 6,
+      "screened": 8,
       "reviewed": 0,
       "inventory_range": {
-        "first": "2018-02-15",
+        "first": "2017-12-19",
         "last": "2025-10-24"
       },
       "reviewed_range": {
@@ -192,7 +192,7 @@
       "path": "collections/fields",
       "snapshot_date": "2026-11-21",
       "coverage_note": "Selected playlists screened from metadata on 2026-11-21: 653 items, 14 high priority before de-duplication; only high-priority items are listed.",
-      "screened": 12,
+      "screened": 14,
       "reviewed": 0,
       "inventory_range": {
         "first": "2021-04-05",
@@ -232,11 +232,11 @@
       "path": "collections/ias",
       "snapshot_date": "2026-11-21",
       "coverage_note": "Selected playlists screened from metadata on 2026-11-21: 1039 items, 5 high priority before de-duplication; only high-priority items are listed. Most of the archive is pure mathematics. Screening covered talks downloaded by 21 Nov 2026; the remainder is pending.",
-      "screened": 3,
+      "screened": 12,
       "reviewed": 0,
       "inventory_range": {
         "first": "2017-11-13",
-        "last": "2024-01-30"
+        "last": "2026-11-12"
       },
       "reviewed_range": {
         "first": null,
@@ -252,7 +252,7 @@
       "path": "collections/isaac-newton",
       "snapshot_date": "2026-11-21",
       "coverage_note": "Selected playlists screened from metadata on 2026-11-21: 1071 items, 22 high priority before de-duplication; only high-priority items are listed. Covers the main channel and INI Seminar Room 1. Screening covered talks downloaded by 21 Nov 2026; the remainder is pending.",
-      "screened": 20,
+      "screened": 27,
       "reviewed": 0,
       "inventory_range": {
         "first": "2023-08-07",
@@ -272,7 +272,7 @@
       "path": "collections/ipam",
       "snapshot_date": "2026-11-21",
       "coverage_note": "Selected playlists screened from metadata on 2026-11-21: 1161 items, 30 high priority before de-duplication; only high-priority items are listed. Screening covered talks downloaded by 21 Nov 2026; the remainder is pending.",
-      "screened": 30,
+      "screened": 46,
       "reviewed": 0,
       "inventory_range": {
         "first": "2015-08-24",
@@ -385,7 +385,7 @@
     }
   ],
   "summary": {
-    "screened": 534,
+    "screened": 577,
     "reviewed": 131,
     "decisions": {
       "worthwhile": 60,
@@ -395,7 +395,7 @@
     },
     "inventory_range": {
       "first": "1957-05-15",
-      "last": "2026-10-26"
+      "last": "2026-11-12"
     },
     "reviewed_range": {
       "first": "2020-04-09",

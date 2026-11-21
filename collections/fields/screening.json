@@ -382,6 +382,70 @@
       },
       "notes_scope": "Publisher metadata only; no transcript read in this pass.",
       "resources": []
+    },
+    {
+      "id": "lBaDjBO3ZFU",
+      "title": "Free Independence of Random Variables",
+      "url": "https://www.youtube.com/watch?v=lBaDjBO3ZFU",
+      "published_at": "2022-06-13",
+      "duration_seconds": 3600,
+      "screening": {
+        "id": "lBaDjBO3ZFU",
+        "index": 12,
+        "decision": "read_transcript",
+        "priority": "high",
+        "track": "maths",
+        "pillars": [
+          "§4",
+          "§29"
+        ],
+        "theme": [
+          "maths track",
+          "§4",
+          "§29"
+        ],
+        "publisher_promise": "",
+        "screening_reason": "Mingo's opening free-probability lecture anchors a series on a central random-matrix concept. (Maths track: architect-taught exposition of a Compass pillar.)",
+        "evidence": [],
+        "transcript_question": "How does free independence replace classical independence in matrix limits?",
+        "caveat": "Metadata does not verify prerequisites or the extent of derivations.",
+        "speaker": "James Mingo",
+        "modules": [],
+        "workshop": "Workshop on Noncommutative Geometry, Free Probability Theory and Random Matrix Theory"
+      },
+      "notes_scope": "Publisher metadata only; screened on the maths track by Codex; no transcript read.",
+      "resources": []
+    },
+    {
+      "id": "fzDtMurYuGs",
+      "title": "Asymptotics of matrix integrals and topological recursion",
+      "url": "https://www.youtube.com/watch?v=fzDtMurYuGs",
+      "published_at": "2022-06-20",
+      "duration_seconds": 4140,
+      "screening": {
+        "id": "fzDtMurYuGs",
+        "index": 13,
+        "decision": "read_transcript",
+        "priority": "high",
+        "track": "maths",
+        "pillars": [
+          "§29"
+        ],
+        "theme": [
+          "maths track",
+          "§29"
+        ],
+        "publisher_promise": "",
+        "screening_reason": "Borot's opening matrix-integral lecture develops a central asymptotic framework across a series. (Maths track: architect-taught exposition of a Compass pillar.)",
+        "evidence": [],
+        "transcript_question": "How do matrix-integral asymptotics produce topological recursion?",
+        "caveat": "Metadata does not verify prerequisites or the extent of derivations.",
+        "speaker": "Gaetan Borot",
+        "modules": [],
+        "workshop": "Workshop on Noncommutative Geometry, Free Probability Theory and Random Matrix Theory"
+      },
+      "notes_scope": "Publisher metadata only; screened on the maths track by Codex; no transcript read.",
+      "resources": []
     }
   ]
 }

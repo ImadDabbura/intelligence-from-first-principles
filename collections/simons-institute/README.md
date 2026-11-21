@@ -82,6 +82,20 @@ Metadata only (YouTube title and description), screened against the A–F origin
 - [Presentation of Evolution and Algorithms](https://www.youtube.com/watch?v=PwAq-JYyxd8) — Christos Papadimitriou, Umesh Vazirani
 - [Presentation of Evolvability](https://www.youtube.com/watch?v=0yBBd89QBgk) — Leslie Valiant, Vitaly Feldman, Varun Kanade, Elaine Angelino
 
+- [Tractable Probabilistic Circuits](https://www.youtube.com/watch?v=oXE5XXgLXK0) — Guy Van den Broeck · maths track §31 §20
+
+- [An Introduction to Potential Outcomes, DAGs and Single-World Intervention Graphs](https://www.youtube.com/watch?v=YdlRaocOWMc) — Thomas Richardson · maths track §22 §20
+
+- [Prediction, Generalization, Complexity: Revisiting the Classical View from Statistics Part 1](https://www.youtube.com/watch?v=mwnoEZgsZpA) — Ryan Tibshirani · maths track §10 §12
+
+- [An overview of classical robust statistics and generalizations to the future](https://www.youtube.com/watch?v=MR6BY1I22rI) — Po-Ling Loh · maths track §10 §6
+
+- [Overview of Statistical Learning Theory Part 1](https://www.youtube.com/watch?v=BxQxsuRjoR8) — Nati Srebro · maths track §12 §7 §13
+
+- [Robust Optimization and Generalization](https://www.youtube.com/watch?v=oAPSAwGKWOc) — John Duchi · maths track §7 §12
+
+- [Crash Course on Probabilistically Checkable Proofs (PCP): Introduction](https://www.youtube.com/watch?v=twGSezF8eKk) — Irit Dinur · maths track §12b §1
+
 ## Transcript reviews
 
 None yet.

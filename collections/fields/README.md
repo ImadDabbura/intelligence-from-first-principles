@@ -30,6 +30,10 @@ Metadata only, screened against the A–F originator rubric by parallel AI scree
 - [Weaving together machine learning, theoretical physics, and neuroscience](https://www.youtube.com/watch?v=QKspImAueqY) — Surya Ganguli
 - [Renormalization Group Flow, Optimal Transport, and Diffusion Models](https://www.youtube.com/watch?v=bHLdAFLBrGA) — Jordan Cotler
 
+- [Free Independence of Random Variables](https://www.youtube.com/watch?v=lBaDjBO3ZFU) — James Mingo · maths track §4 §29
+
+- [Asymptotics of matrix integrals and topological recursion](https://www.youtube.com/watch?v=fzDtMurYuGs) — Gaetan Borot · maths track §29
+
 ## Transcript reviews
 
 None yet.

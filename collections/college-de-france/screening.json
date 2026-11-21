@@ -197,6 +197,73 @@
       },
       "notes_scope": "Publisher metadata only; no transcript read in this pass.",
       "resources": []
+    },
+    {
+      "id": "CgCJ4YA5-YU",
+      "title": "Physique statistique - Bernard Derrida (2015)",
+      "url": "https://www.youtube.com/watch?v=CgCJ4YA5-YU",
+      "published_at": "2022-04-21",
+      "duration_seconds": 3540,
+      "screening": {
+        "id": "CgCJ4YA5-YU",
+        "index": 6,
+        "decision": "read_transcript",
+        "priority": "high",
+        "track": "maths",
+        "pillars": [
+          "§33",
+          "§4"
+        ],
+        "theme": [
+          "maths track",
+          "§33",
+          "§4"
+        ],
+        "publisher_promise": "",
+        "screening_reason": "Derrida's inaugural lecture develops central statistical-physics ideas including irreversibility, transitions, and disorder. (Maths track: architect-taught exposition of a Compass pillar.)",
+        "evidence": [],
+        "transcript_question": "How do microscopic randomness and collective effects produce macroscopic laws?",
+        "caveat": "The balance of derivations and qualitative explanation is unverified.",
+        "speaker": "Bernard Derrida",
+        "modules": [],
+        "workshop": "Statistical physics, random matrices, information, evolution maths (channel uploads)"
+      },
+      "notes_scope": "Publisher metadata only; screened on the maths track by Codex; no transcript read.",
+      "resources": []
+    },
+    {
+      "id": "sbr9beKE6ko",
+      "title": "Algorithmes (1) - Claire Mathieu (2017-2018)",
+      "url": "https://www.youtube.com/watch?v=sbr9beKE6ko",
+      "published_at": "2017-12-19",
+      "duration_seconds": 3480,
+      "screening": {
+        "id": "sbr9beKE6ko",
+        "index": 7,
+        "decision": "read_transcript",
+        "priority": "high",
+        "track": "maths",
+        "pillars": [
+          "§11",
+          "§4",
+          "§44"
+        ],
+        "theme": [
+          "maths track",
+          "§11",
+          "§4"
+        ],
+        "publisher_promise": "",
+        "screening_reason": "Mathieu's opening lecture explicitly develops and analyzes randomized distributed algorithms including Luby's algorithm. (Maths track: architect-taught exposition of a Compass pillar.)",
+        "evidence": [],
+        "transcript_question": "Why does randomization efficiently break symmetry in distributed graph algorithms?",
+        "caveat": "The completeness of the analysis is unverified.",
+        "speaker": "Claire Mathieu",
+        "modules": [],
+        "workshop": "Informatics chairs (Berry, Leroy, Mathieu, Abiteboul, Chazelle, Boissonnat, Fontana, Coquand, others) (channel uploads)"
+      },
+      "notes_scope": "Publisher metadata only; screened on the maths track by Codex; no transcript read.",
+      "resources": []
     }
   ]
 }

@@ -621,6 +621,233 @@
       },
       "notes_scope": "Publisher metadata only; no transcript read in this pass.",
       "resources": []
+    },
+    {
+      "id": "P20Kz8a6Uyo",
+      "title": "MDL | Dr. Matthew Colbrook | Can stable and accurate neural networks be computed?",
+      "url": "https://www.youtube.com/watch?v=P20Kz8a6Uyo",
+      "published_at": "2025-12-15",
+      "duration_seconds": 3180,
+      "screening": {
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "computability",
+          "stability",
+          "barriers"
+        ],
+        "publisher_promise": "Shows that some well-conditioned scientific-computing problems admit accurate, stable neural networks that no algorithm, even randomised, can train, with a graded hierarchy of achievable precision versus data, linked to Smale's 18th problem.",
+        "screening_reason": "An originator of the non-computability barrier for stable neural networks presents a foundational impossibility result separating existence of good networks from their algorithmic trainability, which reframes what approximation theorems guarantee. Rubric: A✓ B✓ C✓ · D 2 · E 2 · F 2.",
+        "transcript_question": "Does the talk derive the precision-versus-data hierarchy from a general principle about computability of learned maps, and does it say which problem classes escape the barrier?",
+        "caveat": "publisher abstract only; speaker from description",
+        "speaker": "Matthew Colbrook",
+        "modules": [
+          2,
+          4,
+          1
+        ],
+        "id": "P20Kz8a6Uyo",
+        "index": 20,
+        "evidence": [],
+        "workshop": "Mathematics of deep learning [MDL] (no playlist; grouped by title code)"
+      },
+      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
+      "resources": []
+    },
+    {
+      "id": "gTnmyMRGfmc",
+      "title": "MDLW04 | Prof. Stefanie Jegelka | Learning and Extrapolation in Graph Neural Networks",
+      "url": "https://www.youtube.com/watch?v=gTnmyMRGfmc",
+      "published_at": "2025-12-15",
+      "duration_seconds": 3900,
+      "screening": {
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "graph neural networks",
+          "extrapolation",
+          "algorithmic alignment"
+        ],
+        "publisher_promise": "Explains how message-passing GNN invariances and architecture shape learning, generalisation and extrapolation beyond the training range.",
+        "screening_reason": "Jegelka originated the algorithmic-alignment and linear-extrapolation results for GNNs: architecture-task alignment predicts sample efficiency and how networks extrapolate. One hour by the architect, central to inductive bias and executable reasoning. Rubric: A✓ B✓ C✓ · D 1 · E 2 · F 2.",
+        "transcript_question": "Does the talk derive when architecture-task alignment yields extrapolation, and what prediction does it make for out-of-range inputs?",
+        "caveat": "publisher abstract only",
+        "speaker": "Stefanie Jegelka",
+        "modules": [
+          2,
+          4
+        ],
+        "id": "gTnmyMRGfmc",
+        "index": 21,
+        "evidence": [],
+        "workshop": "Mathematics of deep learning [MDLW04] (no playlist; grouped by title code)"
+      },
+      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
+      "resources": []
+    },
+    {
+      "id": "8ruKndlxYB0",
+      "title": "Prof. Cristopher Moore | Information-theoretic bounds and phase transitions in community...",
+      "url": "https://www.youtube.com/watch?v=8ruKndlxYB0",
+      "published_at": "2025-12-15",
+      "duration_seconds": 2040,
+      "screening": {
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "phase transitions",
+          "community detection",
+          "statistical physics"
+        ],
+        "publisher_promise": "Covers information-theoretic limits and phase transitions for community detection and high-dimensional clustering.",
+        "screening_reason": "Moore co-originated the cavity-method prediction of detectability thresholds in the block model; this is the statistical-physics view of when structure is learnable at all, with sharp falsifiable thresholds and computational-statistical gaps. Rubric: A✓ B✓ C✓ · D 2 · E 1 · F 2.",
+        "transcript_question": "Does the talk derive the detectability threshold and explain the gap between information-theoretic and efficient algorithms?",
+        "caveat": "title and speaker only; no abstract in metadata",
+        "speaker": "Cristopher Moore",
+        "modules": [
+          2,
+          3
+        ],
+        "id": "8ruKndlxYB0",
+        "index": 22,
+        "evidence": [],
+        "workshop": "INI Seminar Room 1 (no playlist or code; title keyword-matched)"
+      },
+      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
+      "resources": []
+    },
+    {
+      "id": "EnKeielPNWM",
+      "title": "Prof. Weinan E | Mathematics of Deep Learning:  Some Open Problems",
+      "url": "https://www.youtube.com/watch?v=EnKeielPNWM",
+      "published_at": "2025-12-15",
+      "duration_seconds": 4140,
+      "screening": {
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "open problems",
+          "function spaces",
+          "mean-field dynamics"
+        ],
+        "publisher_promise": "Lecture setting out open problems in the mathematics of deep learning.",
+        "screening_reason": "Weinan E is the architect of the function-space (Barron/flow-induced spaces) and mean-field programme for neural networks; an hour on what remains open, organised around approximation, generalisation and training dynamics, is a principled map of the field. Rubric: A✓ B✓ C✓ · D 2 · E 2 · F 1.",
+        "transcript_question": "Which open problems does E prioritise, and how does his function-space framework explain why some are hard?",
+        "caveat": "title and speaker only; no abstract in metadata",
+        "speaker": "Weinan E",
+        "modules": [
+          1,
+          2
+        ],
+        "id": "EnKeielPNWM",
+        "index": 23,
+        "evidence": [],
+        "workshop": "INI Seminar Room 1 (no playlist or code; title keyword-matched)"
+      },
+      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
+      "resources": []
+    },
+    {
+      "id": "-3phFTQUxpo",
+      "title": "Prof. Edward Kennedy | Machine learning & nonparametric efficiency in causal inference  ( Part 1 )",
+      "url": "https://www.youtube.com/watch?v=-3phFTQUxpo",
+      "published_at": "2026-01-23",
+      "duration_seconds": 3420,
+      "screening": {
+        "id": "-3phFTQUxpo",
+        "index": 24,
+        "decision": "read_transcript",
+        "priority": "high",
+        "track": "maths",
+        "pillars": [
+          "§10",
+          "§22",
+          "§12"
+        ],
+        "theme": [
+          "maths track",
+          "§10",
+          "§22"
+        ],
+        "publisher_promise": "",
+        "screening_reason": "Kennedy's opening foundations lecture connects nonparametric efficiency and machine learning in a central area of his work. (Maths track: architect-taught exposition of a Compass pillar.)",
+        "evidence": [],
+        "transcript_question": "How do influence functions and orthogonality permit efficient causal estimation with learned nuisance functions?",
+        "caveat": "No substantive abstract; proof coverage and teaching depth are unverified.",
+        "speaker": "Edward Kennedy",
+        "modules": [],
+        "workshop": "Foundations of causal inference [CIFW01]"
+      },
+      "notes_scope": "Publisher metadata only; screened on the maths track by Codex; no transcript read.",
+      "resources": []
+    },
+    {
+      "id": "513lZzSfayY",
+      "title": "VMVW03 | Mr. Gabriel Peyre | Optimal Transport and Deep Generative Models",
+      "url": "https://www.youtube.com/watch?v=513lZzSfayY",
+      "published_at": "2024-06-27",
+      "duration_seconds": 3540,
+      "screening": {
+        "id": "513lZzSfayY",
+        "index": 25,
+        "decision": "read_transcript",
+        "priority": "high",
+        "track": "maths",
+        "pillars": [
+          "§26",
+          "§35",
+          "§48"
+        ],
+        "theme": [
+          "maths track",
+          "§26",
+          "§35"
+        ],
+        "publisher_promise": "",
+        "screening_reason": "Peyre's hour-long unifying review explains generative learning through optimal-transport losses. (Maths track: architect-taught exposition of a Compass pillar.)",
+        "evidence": [],
+        "transcript_question": "How do minimum Kantorovich estimators unify generative-model objectives?",
+        "caveat": "The abstract is truncated before detailed derivations and examples.",
+        "speaker": "Gabriel Peyre",
+        "modules": [],
+        "workshop": "VMVW03"
+      },
+      "notes_scope": "Publisher metadata only; screened on the maths track by Codex; no transcript read.",
+      "resources": []
+    },
+    {
+      "id": "RVnYVWPf1ec",
+      "title": "VMVW03 | Prof. John Ball | Nonlinear elasticity and image processing",
+      "url": "https://www.youtube.com/watch?v=RVnYVWPf1ec",
+      "published_at": "2025-12-15",
+      "duration_seconds": 3600,
+      "screening": {
+        "id": "RVnYVWPf1ec",
+        "index": 26,
+        "decision": "read_transcript",
+        "priority": "high",
+        "track": "maths",
+        "pillars": [
+          "§25",
+          "§8",
+          "§43"
+        ],
+        "theme": [
+          "maths track",
+          "§25",
+          "§8"
+        ],
+        "publisher_promise": "",
+        "screening_reason": "Ball's explicit hour-long survey offers an architect's account of nonlinear elasticity and its variational foundations. (Maths track: architect-taught exposition of a Compass pillar.)",
+        "evidence": [],
+        "transcript_question": "How do elastic energy, admissible deformations, and nonconvexity determine existence of equilibria?",
+        "caveat": "The brief abstract does not enumerate theorems or depth of derivations.",
+        "speaker": "John Ball",
+        "modules": [],
+        "workshop": "VMVW03"
+      },
+      "notes_scope": "Publisher metadata only; screened on the maths track by Codex; no transcript read.",
+      "resources": []
     }
   ]
 }

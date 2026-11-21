@@ -104,6 +104,298 @@
       },
       "notes_scope": "Publisher metadata only; no transcript read in this pass.",
       "resources": []
+    },
+    {
+      "id": "vdAji1Dc-VM",
+      "title": "What is the Unique Games Conjecture? - Irit Dveer Dinur",
+      "url": "https://www.youtube.com/watch?v=vdAji1Dc-VM",
+      "published_at": "2026-11-12",
+      "duration_seconds": 4140,
+      "screening": {
+        "id": "vdAji1Dc-VM",
+        "index": 3,
+        "decision": "read_transcript",
+        "priority": "high",
+        "track": "maths",
+        "pillars": [
+          "§12b"
+        ],
+        "theme": [
+          "maths track",
+          "§12b"
+        ],
+        "publisher_promise": "",
+        "screening_reason": "Dinur's explicitly introductory lecture explains the field and background of a central approximation-complexity conjecture. (Maths track: architect-taught exposition of a Compass pillar.)",
+        "evidence": [],
+        "transcript_question": "How does the Unique Games Conjecture organize hardness of approximation?",
+        "caveat": "Metadata does not verify the full pedagogical depth or prerequisites.",
+        "speaker": "Irit Dveer Dinur",
+        "modules": [],
+        "workshop": "IAS"
+      },
+      "notes_scope": "Publisher metadata only; screened on the maths track by Codex; no transcript read.",
+      "resources": []
+    },
+    {
+      "id": "KTn7Xj0BiRA",
+      "title": "What we still don’t know about critical percolation - Tom Hutchcroft",
+      "url": "https://www.youtube.com/watch?v=KTn7Xj0BiRA",
+      "published_at": "2026-11-02",
+      "duration_seconds": 3900,
+      "screening": {
+        "id": "KTn7Xj0BiRA",
+        "index": 4,
+        "decision": "read_transcript",
+        "priority": "high",
+        "track": "maths",
+        "pillars": [
+          "§4",
+          "§33"
+        ],
+        "theme": [
+          "maths track",
+          "§4",
+          "§33"
+        ],
+        "publisher_promise": "",
+        "screening_reason": "A leading percolation theorist explicitly surveys central phase-transition questions and their conceptual difficulties. (Maths track: architect-taught exposition of a Compass pillar.)",
+        "evidence": [],
+        "transcript_question": "What makes critical percolation different from subcritical and supercritical behavior?",
+        "caveat": "Metadata does not verify the full pedagogical depth or prerequisites.",
+        "speaker": "Tom Hutchcroft",
+        "modules": [],
+        "workshop": "IAS"
+      },
+      "notes_scope": "Publisher metadata only; screened on the maths track by Codex; no transcript read.",
+      "resources": []
+    },
+    {
+      "id": "hJdcd1SR_tA",
+      "title": "An Introduction to Geodesic Convexity  - Nisheeth Vishnoi",
+      "url": "https://www.youtube.com/watch?v=hJdcd1SR_tA",
+      "published_at": "2018-06-08",
+      "duration_seconds": 4980,
+      "screening": {
+        "id": "hJdcd1SR_tA",
+        "index": 5,
+        "decision": "read_transcript",
+        "priority": "high",
+        "track": "maths",
+        "pillars": [
+          "§7",
+          "§28"
+        ],
+        "theme": [
+          "maths track",
+          "§7",
+          "§28"
+        ],
+        "publisher_promise": "",
+        "screening_reason": "Vishnoi's explicit introduction teaches geodesic convexity at the optimization-geometry interface. (Maths track: architect-taught exposition of a Compass pillar.)",
+        "evidence": [],
+        "transcript_question": "How does geodesic convexity preserve the key guarantees of convex optimization?",
+        "caveat": "Exact derivations and prerequisites unlisted.",
+        "speaker": "Nisheeth Vishnoi",
+        "modules": [],
+        "workshop": "IAS"
+      },
+      "notes_scope": "Publisher metadata only; screened on the maths track by Codex; no transcript read.",
+      "resources": []
+    },
+    {
+      "id": "3jksqrYuvuk",
+      "title": "An introduction to Invariant Theory - Harm Derksen",
+      "url": "https://www.youtube.com/watch?v=3jksqrYuvuk",
+      "published_at": "2018-06-08",
+      "duration_seconds": 3600,
+      "screening": {
+        "id": "3jksqrYuvuk",
+        "index": 6,
+        "decision": "read_transcript",
+        "priority": "high",
+        "track": "maths",
+        "pillars": [
+          "§14b"
+        ],
+        "theme": [
+          "maths track",
+          "§14b"
+        ],
+        "publisher_promise": "",
+        "screening_reason": "Derksen's explicit introduction offers foundational invariant theory from a leading specialist. (Maths track: architect-taught exposition of a Compass pillar.)",
+        "evidence": [],
+        "transcript_question": "How do group actions and invariant polynomials organize orbit structure?",
+        "caveat": "Coverage and prerequisites unlisted.",
+        "speaker": "Harm Derksen",
+        "modules": [],
+        "workshop": "IAS"
+      },
+      "notes_scope": "Publisher metadata only; screened on the maths track by Codex; no transcript read.",
+      "resources": []
+    },
+    {
+      "id": "HhTGyDuNI_w",
+      "title": "A gentle introduction to group representation theory -Peter Buergisser",
+      "url": "https://www.youtube.com/watch?v=HhTGyDuNI_w",
+      "published_at": "2018-06-08",
+      "duration_seconds": 4980,
+      "screening": {
+        "id": "HhTGyDuNI_w",
+        "index": 7,
+        "decision": "read_transcript",
+        "priority": "high",
+        "track": "maths",
+        "pillars": [
+          "§14b",
+          "§2"
+        ],
+        "theme": [
+          "maths track",
+          "§14b",
+          "§2"
+        ],
+        "publisher_promise": "",
+        "screening_reason": "Bürgisser's gentle introduction builds representation-theoretic foundations in an algorithmic setting. (Maths track: architect-taught exposition of a Compass pillar.)",
+        "evidence": [],
+        "transcript_question": "How do representations decompose group actions into linear building blocks?",
+        "caveat": "Exact syllabus unlisted.",
+        "speaker": "Peter Buergisser",
+        "modules": [],
+        "workshop": "IAS"
+      },
+      "notes_scope": "Publisher metadata only; screened on the maths track by Codex; no transcript read.",
+      "resources": []
+    },
+    {
+      "id": "dLn_50Tpdf8",
+      "title": "An Introduction to Liouville Theory - Antti Kupiainen",
+      "url": "https://www.youtube.com/watch?v=dLn_50Tpdf8",
+      "published_at": "2018-05-15",
+      "duration_seconds": 4500,
+      "screening": {
+        "id": "dLn_50Tpdf8",
+        "index": 8,
+        "decision": "read_transcript",
+        "priority": "high",
+        "track": "maths",
+        "pillars": [
+          "§4",
+          "§33"
+        ],
+        "theme": [
+          "maths track",
+          "§4",
+          "§33"
+        ],
+        "publisher_promise": "",
+        "screening_reason": "Kupiainen's explicit introduction offers a leading probabilist's entry into Liouville theory. (Maths track: architect-taught exposition of a Compass pillar.)",
+        "evidence": [],
+        "transcript_question": "How are random fields used to construct Liouville theory?",
+        "caveat": "Detailed syllabus unlisted.",
+        "speaker": "Antti Kupiainen",
+        "modules": [],
+        "workshop": "IAS"
+      },
+      "notes_scope": "Publisher metadata only; screened on the maths track by Codex; no transcript read.",
+      "resources": []
+    },
+    {
+      "id": "CiYvUboEKUQ",
+      "title": "Exceptional holonomy and related geometric structures: Basic theory - Simon Donaldson",
+      "url": "https://www.youtube.com/watch?v=CiYvUboEKUQ",
+      "published_at": "2018-04-03",
+      "duration_seconds": 3480,
+      "screening": {
+        "id": "CiYvUboEKUQ",
+        "index": 9,
+        "decision": "read_transcript",
+        "priority": "high",
+        "track": "maths",
+        "pillars": [
+          "§28"
+        ],
+        "theme": [
+          "maths track",
+          "§28"
+        ],
+        "publisher_promise": "",
+        "screening_reason": "Donaldson's opening Morse lecture explicitly teaches the basic theory of exceptional holonomy. (Maths track: architect-taught exposition of a Compass pillar.)",
+        "evidence": [],
+        "transcript_question": "How does holonomy constrain geometric structures on a manifold?",
+        "caveat": "Advanced prerequisites unlisted.",
+        "speaker": "Simon Donaldson",
+        "modules": [],
+        "workshop": "IAS"
+      },
+      "notes_scope": "Publisher metadata only; screened on the maths track by Codex; no transcript read.",
+      "resources": []
+    },
+    {
+      "id": "ubT35yXMq5Y",
+      "title": "Beyond Worst-Case Analysis in Online Learning - Tim Roughgarden",
+      "url": "https://www.youtube.com/watch?v=ubT35yXMq5Y",
+      "published_at": "2025-11-17",
+      "duration_seconds": 4140,
+      "screening": {
+        "id": "ubT35yXMq5Y",
+        "index": 10,
+        "decision": "read_transcript",
+        "priority": "high",
+        "track": "maths",
+        "pillars": [
+          "§13",
+          "§12"
+        ],
+        "theme": [
+          "maths track",
+          "§13",
+          "§12"
+        ],
+        "publisher_promise": "",
+        "screening_reason": "A leading algorithms scholar gives a broad colloquium on the conceptual limits of worst-case online-learning analysis. (Maths track: architect-taught exposition of a Compass pillar.)",
+        "evidence": [],
+        "transcript_question": "How can online-learning guarantees exploit structure while retaining robustness?",
+        "caveat": "The truncated abstract does not verify the extent of derivations.",
+        "speaker": "Tim Roughgarden",
+        "modules": [],
+        "workshop": "IAS"
+      },
+      "notes_scope": "Publisher metadata only; screened on the maths track by Codex; no transcript read.",
+      "resources": []
+    },
+    {
+      "id": "EpiA__cYeZQ",
+      "title": "Terng Lecture Course: TLog-concavity and Matroids - Part 1 - Josephine Yu",
+      "url": "https://www.youtube.com/watch?v=EpiA__cYeZQ",
+      "published_at": "2025-05-19",
+      "duration_seconds": 4260,
+      "screening": {
+        "id": "EpiA__cYeZQ",
+        "index": 11,
+        "decision": "read_transcript",
+        "priority": "high",
+        "track": "maths",
+        "pillars": [
+          "§7",
+          "§45",
+          "§32"
+        ],
+        "theme": [
+          "maths track",
+          "§7",
+          "§45"
+        ],
+        "publisher_promise": "",
+        "screening_reason": "A named course by a leading tropical geometer develops log-concavity, independence and connections to mixing from basic objects. (Maths track: architect-taught exposition of a Compass pillar.)",
+        "evidence": [],
+        "transcript_question": "How does matroid geometry yield log-concavity and implications for mixing?",
+        "caveat": "Supplied metadata does not verify full lecture depth or prerequisites.",
+        "speaker": "Josephine Yu",
+        "modules": [],
+        "workshop": "IAS"
+      },
+      "notes_scope": "Publisher metadata only; screened on the maths track by Codex; no transcript read.",
+      "resources": []
     }
   ]
 }

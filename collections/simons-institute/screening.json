@@ -1304,6 +1304,238 @@
       },
       "notes_scope": "YouTube title and description only; no transcript read in this pass.",
       "resources": []
+    },
+    {
+      "id": "oXE5XXgLXK0",
+      "title": "Tractable Probabilistic Circuits",
+      "url": "https://www.youtube.com/watch?v=oXE5XXgLXK0",
+      "published_at": "2022-03-21",
+      "duration_seconds": 2220,
+      "screening": {
+        "id": "oXE5XXgLXK0",
+        "index": 42,
+        "decision": "read_transcript",
+        "priority": "high",
+        "track": "maths",
+        "pillars": [
+          "§31",
+          "§20"
+        ],
+        "theme": [
+          "maths track",
+          "§31",
+          "§20"
+        ],
+        "publisher_promise": "",
+        "screening_reason": "A leading probabilistic-circuits researcher gives an overview of the structural foundations of tractable inference. (Maths track: architect-taught exposition of a Compass pillar.)",
+        "evidence": [],
+        "transcript_question": "Which circuit constraints make marginalization, entropy, and expectations computationally tractable?",
+        "caveat": "The overview is explicit but the amount of derivation is unverified.",
+        "speaker": "Guy Van den Broeck",
+        "modules": [],
+        "workshop": "Algorithmic Aspects of Causal Inference"
+      },
+      "notes_scope": "Publisher metadata only; screened on the maths track by Codex; no transcript read.",
+      "resources": []
+    },
+    {
+      "id": "YdlRaocOWMc",
+      "title": "An Introduction to Potential Outcomes, DAGs and Single-World Intervention Graphs",
+      "url": "https://www.youtube.com/watch?v=YdlRaocOWMc",
+      "published_at": "2022-01-21",
+      "duration_seconds": 4140,
+      "screening": {
+        "id": "YdlRaocOWMc",
+        "index": 43,
+        "decision": "read_transcript",
+        "priority": "high",
+        "track": "maths",
+        "pillars": [
+          "§22",
+          "§20"
+        ],
+        "theme": [
+          "maths track",
+          "§22",
+          "§20"
+        ],
+        "publisher_promise": "",
+        "screening_reason": "Richardson introduces potential outcomes and intervention graphs in a foundational boot camp as an architect of the framework. (Maths track: architect-taught exposition of a Compass pillar.)",
+        "evidence": [],
+        "transcript_question": "How do single-world intervention graphs unify potential outcomes with graphical conditional independence?",
+        "caveat": "No abstract details the derivations or exact session order.",
+        "speaker": "Thomas Richardson",
+        "modules": [],
+        "workshop": "Causality Boot Camp"
+      },
+      "notes_scope": "Publisher metadata only; screened on the maths track by Codex; no transcript read.",
+      "resources": []
+    },
+    {
+      "id": "mwnoEZgsZpA",
+      "title": "Prediction, Generalization, Complexity: Revisiting the Classical View from Statistics Part 1",
+      "url": "https://www.youtube.com/watch?v=mwnoEZgsZpA",
+      "published_at": "2024-10-04",
+      "duration_seconds": 4680,
+      "screening": {
+        "id": "mwnoEZgsZpA",
+        "index": 44,
+        "decision": "read_transcript",
+        "priority": "high",
+        "track": "maths",
+        "pillars": [
+          "§10",
+          "§12"
+        ],
+        "theme": [
+          "maths track",
+          "§10",
+          "§12"
+        ],
+        "publisher_promise": "",
+        "screening_reason": "A leading statistician gives a boot-camp review connecting prediction error, optimism and model complexity. (Maths track: architect-taught exposition of a Compass pillar.)",
+        "evidence": [],
+        "transcript_question": "Why do fixed-X and random-X viewpoints yield different generalization analyses?",
+        "caveat": "Metadata does not verify the full technical depth or derivations.",
+        "speaker": "Ryan Tibshirani",
+        "modules": [],
+        "workshop": "Modern Paradigms in Generalization Boot Camp"
+      },
+      "notes_scope": "Publisher metadata only; screened on the maths track by Codex; no transcript read.",
+      "resources": []
+    },
+    {
+      "id": "MR6BY1I22rI",
+      "title": "An overview of classical robust statistics and generalizations to the future",
+      "url": "https://www.youtube.com/watch?v=MR6BY1I22rI",
+      "published_at": "2024-10-04",
+      "duration_seconds": 4500,
+      "screening": {
+        "id": "MR6BY1I22rI",
+        "index": 45,
+        "decision": "read_transcript",
+        "priority": "high",
+        "track": "maths",
+        "pillars": [
+          "§10",
+          "§6"
+        ],
+        "theme": [
+          "maths track",
+          "§10",
+          "§6"
+        ],
+        "publisher_promise": "",
+        "screening_reason": "A leading robust-statistics researcher offers an explicitly self-contained overview of central classical concepts. (Maths track: architect-taught exposition of a Compass pillar.)",
+        "evidence": [],
+        "transcript_question": "How do contamination models, influence and robustness determine estimation guarantees?",
+        "caveat": "Metadata does not verify the full technical depth or derivations.",
+        "speaker": "Po-Ling Loh",
+        "modules": [],
+        "workshop": "Modern Paradigms in Generalization Boot Camp"
+      },
+      "notes_scope": "Publisher metadata only; screened on the maths track by Codex; no transcript read.",
+      "resources": []
+    },
+    {
+      "id": "BxQxsuRjoR8",
+      "title": "Overview of Statistical Learning Theory Part 1",
+      "url": "https://www.youtube.com/watch?v=BxQxsuRjoR8",
+      "published_at": "2024-10-04",
+      "duration_seconds": 4620,
+      "screening": {
+        "id": "BxQxsuRjoR8",
+        "index": 46,
+        "decision": "read_transcript",
+        "priority": "high",
+        "track": "maths",
+        "pillars": [
+          "§12",
+          "§7",
+          "§13"
+        ],
+        "theme": [
+          "maths track",
+          "§12",
+          "§7"
+        ],
+        "publisher_promise": "",
+        "screening_reason": "A major learning theorist explicitly teaches classical capacity control and its connections to optimization. (Maths track: architect-taught exposition of a Compass pillar.)",
+        "evidence": [],
+        "transcript_question": "How do VC theory, PAC-Bayes and optimization-based capacity control fit together?",
+        "caveat": "Metadata does not verify the full technical depth or derivations.",
+        "speaker": "Nati Srebro",
+        "modules": [],
+        "workshop": "Modern Paradigms in Generalization Boot Camp"
+      },
+      "notes_scope": "Publisher metadata only; screened on the maths track by Codex; no transcript read.",
+      "resources": []
+    },
+    {
+      "id": "oAPSAwGKWOc",
+      "title": "Robust Optimization and Generalization",
+      "url": "https://www.youtube.com/watch?v=oAPSAwGKWOc",
+      "published_at": "2024-10-02",
+      "duration_seconds": 4620,
+      "screening": {
+        "id": "oAPSAwGKWOc",
+        "index": 47,
+        "decision": "read_transcript",
+        "priority": "high",
+        "track": "maths",
+        "pillars": [
+          "§7",
+          "§12"
+        ],
+        "theme": [
+          "maths track",
+          "§7",
+          "§12"
+        ],
+        "publisher_promise": "",
+        "screening_reason": "A leading optimization and statistics researcher provides a boot-camp overview linking robust optimization and generalization. (Maths track: architect-taught exposition of a Compass pillar.)",
+        "evidence": [],
+        "transcript_question": "How do uncertainty sets turn robustness into generalization guarantees?",
+        "caveat": "Metadata does not verify the full technical depth or derivations.",
+        "speaker": "John Duchi",
+        "modules": [],
+        "workshop": "Modern Paradigms in Generalization Boot Camp"
+      },
+      "notes_scope": "Publisher metadata only; screened on the maths track by Codex; no transcript read.",
+      "resources": []
+    },
+    {
+      "id": "twGSezF8eKk",
+      "title": "Crash Course on Probabilistically Checkable Proofs (PCP): Introduction",
+      "url": "https://www.youtube.com/watch?v=twGSezF8eKk",
+      "published_at": "2020-08-19",
+      "duration_seconds": 3660,
+      "screening": {
+        "id": "twGSezF8eKk",
+        "index": 48,
+        "decision": "read_transcript",
+        "priority": "high",
+        "track": "maths",
+        "pillars": [
+          "§12b",
+          "§1"
+        ],
+        "theme": [
+          "maths track",
+          "§12b",
+          "§1"
+        ],
+        "publisher_promise": "",
+        "screening_reason": "A PCP architect introduces the subject in an explicitly foundational boot-camp crash course. (Maths track: architect-taught exposition of a Compass pillar.)",
+        "evidence": [],
+        "transcript_question": "How can checking only a few proof locations certify global correctness?",
+        "caveat": "Metadata does not verify the full technical depth or derivations.",
+        "speaker": "Irit Dinur",
+        "modules": [],
+        "workshop": "Probability, Geometry, and Computation in High Dimensions Boot Camp"
+      },
+      "notes_scope": "Publisher metadata only; screened on the maths track by Codex; no transcript read.",
+      "resources": []
     }
   ]
 }

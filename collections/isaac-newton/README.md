@@ -8,8 +8,8 @@ Originator-grade expositions of unifying programmes of learning and intelligence
 
 - Original source: https://www.youtube.com/@isaacnewtoninstitute
 - Inventory date: 2026-11-21
-- Screened in this pass: 1071 items, 22 high priority before de-duplication against the rest of the collection.
-- Kept here: 20 high-priority items only.
+- Screened in this pass: 1479 items, 26 high priority before de-duplication against the rest of the collection.
+- Kept here: 24 high-priority items only.
 - Known gaps: Covers the main channel and INI Seminar Room 1. Screening covered talks downloaded by 21 Nov 2026; the remainder is pending.
 - Number reviewed in depth: 0
 
@@ -37,6 +37,16 @@ Metadata only, screened against the A–F originator rubric by parallel AI scree
 - [Prof. Eyke Hüllermeier | Uncertainty Quantification in Machine Learning: From Aleatoric to Epistemic](https://www.youtube.com/watch?v=-n-e0IYFMN4) — Eyke Hüllermeier
 - [Dr. Jennifer Chayes | Graphons and Machine Learning: Modeling and Estimation of Sparse Massive...](https://www.youtube.com/watch?v=tC52E7hJj9I) — Jennifer Chayes
 - [Dr. Jared Tanner | The surprising structure of Gaussian point clouds and its implications for......](https://www.youtube.com/watch?v=JnpyWRMX5e8) — Jared Tanner
+- [MDL | Dr. Matthew Colbrook | Can stable and accurate neural networks be computed?](https://www.youtube.com/watch?v=P20Kz8a6Uyo) — Matthew Colbrook
+- [MDLW04 | Prof. Stefanie Jegelka | Learning and Extrapolation in Graph Neural Networks](https://www.youtube.com/watch?v=gTnmyMRGfmc) — Stefanie Jegelka
+- [Prof. Cristopher Moore | Information-theoretic bounds and phase transitions in community...](https://www.youtube.com/watch?v=8ruKndlxYB0) — Cristopher Moore
+- [Prof. Weinan E | Mathematics of Deep Learning:  Some Open Problems](https://www.youtube.com/watch?v=EnKeielPNWM) — Weinan E
+
+- [Prof. Edward Kennedy | Machine learning & nonparametric efficiency in causal inference  ( Part 1 )](https://www.youtube.com/watch?v=-3phFTQUxpo) — Edward Kennedy · maths track §10 §22 §12
+
+- [VMVW03 | Mr. Gabriel Peyre | Optimal Transport and Deep Generative Models](https://www.youtube.com/watch?v=513lZzSfayY) — Gabriel Peyre · maths track §26 §35 §48
+
+- [VMVW03 | Prof. John Ball | Nonlinear elasticity and image processing](https://www.youtube.com/watch?v=RVnYVWPf1ec) — John Ball · maths track §25 §8 §43
 
 ## Transcript reviews
 

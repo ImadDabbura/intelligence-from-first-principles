@@ -24,6 +24,10 @@ Metadata only, screened against the A–F originator rubric by parallel AI scree
 - [Modèles multi-échelles et réseaux de neurones convolutifs (13) - Stéphane Mallat (2019-2020)](https://www.youtube.com/watch?v=enG1DKBCWwc) — Stéphane Mallat
 - [L'apprentissage face à la malédiction de la grande dimension (3) - Stéphane Mallat (2017-2018)](https://www.youtube.com/watch?v=WGIJOwvYmfE) — Stéphane Mallat
 
+- [Physique statistique - Bernard Derrida (2015)](https://www.youtube.com/watch?v=CgCJ4YA5-YU) — Bernard Derrida · maths track §33 §4
+
+- [Algorithmes (1) - Claire Mathieu (2017-2018)](https://www.youtube.com/watch?v=sbr9beKE6ko) — Claire Mathieu · maths track §11 §4 §44
+
 ## Transcript reviews
 
 None yet.

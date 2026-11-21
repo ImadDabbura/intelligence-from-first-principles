@@ -8,8 +8,8 @@ Originator-grade expositions of unifying programmes of learning and intelligence
 
 - Original source: https://www.youtube.com/@IPAMUCLA
 - Inventory date: 2026-11-21
-- Screened in this pass: 1161 items, 30 high priority before de-duplication against the rest of the collection.
-- Kept here: 30 high-priority items only.
+- Screened in this pass: 1270 items, 34 high priority before de-duplication against the rest of the collection.
+- Kept here: 34 high-priority items only.
 - Known gaps: Screening covered talks downloaded by 21 Nov 2026; the remainder is pending.
 - Number reviewed in depth: 0
 
@@ -47,6 +47,34 @@ Metadata only, screened against the A–F originator rubric by parallel AI scree
 - [Stéphane Mallat: "Scattering Invariant Deep Networks for Classification, Pt. 2"](https://www.youtube.com/watch?v=Gb8uaQn12Gk) — Stéphane Mallat
 - [Bruno Olshausen: "From Natural Scene Statistics to Models of Neural Coding & Representation, Pt. 2"](https://www.youtube.com/watch?v=iA3ueTS9BSw) — Bruno Olshausen
 - [Misha Belkin - The elusive generalization and easy optimization, Pt. 2 of 2 - IPAM at UCLA](https://www.youtube.com/watch?v=KVfLoN1Ls9w) — Misha Belkin
+- [Pratik Chaudhari: "Unraveling the mysteries of stochastic gradient descent on deep neural networks"](https://www.youtube.com/watch?v=NFeZ6MggJjw) — Pratik Chaudhari
+- [Yoshua Bengio: "Representation Learning and Deep Learning, Pt. 1"](https://www.youtube.com/watch?v=O6itYc2nnnM) — Yoshua Bengio
+- [Yann LeCun: "Deep Learning, Graphical Models, Energy-Based Models, Structured Prediction, Pt. 1"](https://www.youtube.com/watch?v=oOB4evKlEmQ) — Yann LeCun
+- [Stefano Soatto: "Invariance and disentanglement in deep representations"](https://www.youtube.com/watch?v=zbg49SMP5kY) — Stefano Soatto
+
+- [Joseph Landsberg: "Introduction to the Geometry of Tensors (Part 1/2)"](https://www.youtube.com/watch?v=v9lx4XN3w9c) — Joseph Landsberg · maths track §2 §15 §28
+
+- [Lek-Heng Lim: "What is a tensor? (Part 1/2)"](https://www.youtube.com/watch?v=MkYEh0UJKcE) — Lek-Heng Lim · maths track §2 §15 §46
+
+- [Ming Yuan: "Low Rank Tensor Methods in High Dimensional Data Analysis (Part 1/2)"](https://www.youtube.com/watch?v=K8t24xm7tn8) — Ming Yuan · maths track §15 §6 §10
+
+- [Frank Verstraete: "Mathematical Aspects of Tensor Networks (Part 1/2)"](https://www.youtube.com/watch?v=3im-Djrm9GY) — Frank Verstraete · maths track §15 §2 §33
+
+- [Hugo Duminil-Copin - Critical phenomena through the lens of the Ising model - Green Family Lecture](https://www.youtube.com/watch?v=4rF7xsBg7h4) — Hugo Duminil-Copin · maths track §4 §33
+
+- [Gregory Beylkin - On algorithms in high dimensions - IPAM at UCLA](https://www.youtube.com/watch?v=EeSuvatIl8k) — Gregory Beylkin · maths track §15 §42 §2b
+
+- [Daniel Kuhn: "Wasserstein Distributionally Robust Optimization: Theory and Applications in Machi..."](https://www.youtube.com/watch?v=Hhhtsi2tKlI) — Daniel Kuhn · maths track §7 §26 §10
+
+- [Emmanuel Candès: “The Knockoffs Framework: New Statistical Tools for Replicable Selections”](https://www.youtube.com/watch?v=NuVBHXYBC4k) — Emmanuel Candès · maths track §10 §15
+
+- [Sebastian Pokutta: "Structured ML Training via Conditional Gradients"](https://www.youtube.com/watch?v=chGMgHyplPI) — Sebastian Pokutta · maths track §7
+
+- [Jorge Nocedal: "Tutorial on Optimization Methods for Machine Learning, Pt. 1"](https://www.youtube.com/watch?v=dY249vF0Pps) — Jorge Nocedal · maths track §7 §8
+
+- [Iain Murray: "Introduction to MCMC for Deep Learning"](https://www.youtube.com/watch?v=Em6mQQy4wYA) — Iain Murray · maths track §32 §17
+
+- [Dan-Virgil Voiculescu - Around Free Entropy - IPAM at UCLA](https://www.youtube.com/watch?v=G6OxltPNcHs) — Dan-Virgil Voiculescu · maths track §4 §29 §9
 
 ## Transcript reviews
 

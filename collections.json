@@ -32,16 +32,6 @@
     "coverage_note": "Selected episodes only; not an inventory of the feed."
   },
   {
-    "id": "information-bottleneck",
-    "name": "The Information Bottleneck",
-    "short_name": "Info Bottleneck",
-    "url": "https://www.the-information-bottleneck.com/",
-    "format": "Podcast",
-    "path": "collections/information-bottleneck",
-    "snapshot_date": "2026-11-21",
-    "coverage_note": "Selected episodes only; not an inventory of the feed."
-  },
-  {
     "id": "readings",
     "name": "Originator writing",
     "short_name": "Readings",
@@ -70,5 +60,15 @@
     "path": "collections/brain-inspired",
     "snapshot_date": "2026-11-21",
     "coverage_note": "Selected episodes only; not an inventory of the feed."
+  },
+  {
+    "id": "simons-institute",
+    "name": "Simons Institute for the Theory of Computing",
+    "short_name": "Simons",
+    "url": "https://www.youtube.com/@SimonsInstituteTOC",
+    "format": "Lecture",
+    "path": "collections/simons-institute",
+    "snapshot_date": "2026-11-21",
+    "coverage_note": "YouTube snapshot: 57 of 287 playlists selected as relevant; all 1,261 talks in them screened from metadata (42 high, 453 medium, 742 skip, 24 insufficient information). Only the high-priority talks are listed. Course-type playlists (e.g. the 2022 Deep Learning Theory summer school) could not be listed and are a known gap; 39 videos were private or deleted."
   }
 ]

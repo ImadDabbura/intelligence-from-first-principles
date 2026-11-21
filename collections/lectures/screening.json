@@ -85,31 +85,6 @@
       "resources": []
     },
     {
-      "id": "uyg1z5PmePk",
-      "title": "Prof. William Bialek: Making predictions",
-      "url": "https://www.youtube.com/watch?v=uyg1z5PmePk",
-      "published_at": null,
-      "duration_seconds": null,
-      "screening": {
-        "id": "uyg1z5PmePk",
-        "index": 3,
-        "decision": "read_transcript",
-        "priority": "medium",
-        "theme": [
-          "information",
-          "prediction",
-          "natural intelligence"
-        ],
-        "publisher_promise": "Salam Distinguished Lecture at the International Centre for Theoretical Physics.",
-        "screening_reason": "Bialek is the originator, with Nemenman and Tishby, of predictive information: the information the past carries about the future as the quantity organisms and learners should extract. It is the physics-of-life root of Tishby’s information bottleneck, the user’s exemplar. Rubric: A originator ✓ · B unifying principle ✓ · C derivation ✓ · D 1 · E 2 · F 2.",
-        "evidence": [],
-        "transcript_question": "Does the lecture derive predictive information and its optimal-extraction principle, or stay at the level of examples?",
-        "caveat": "Content not verified: only the title and channel were confirmed (YouTube oEmbed). Medium until a passage confirms the derivation."
-      },
-      "notes_scope": "Publisher and venue metadata only; no transcript read in this pass.",
-      "resources": []
-    },
-    {
       "id": "tenenbaum-mansinghka-neurips-2017",
       "title": "Engineering and Reverse-Engineering Intelligence Using Probabilistic Programs, Program Induction, and Deep Learning",
       "url": "https://neurips.cc/virtual/2017/tutorial/8733",
@@ -117,7 +92,7 @@
       "duration_seconds": null,
       "screening": {
         "id": "tenenbaum-mansinghka-neurips-2017",
-        "index": 4,
+        "index": 3,
         "decision": "read_transcript",
         "priority": "high",
         "theme": [
@@ -151,7 +126,7 @@
       "duration_seconds": null,
       "screening": {
         "id": "XL07WEc2TRI",
-        "index": 5,
+        "index": 4,
         "decision": "read_transcript",
         "priority": "high",
         "theme": [
@@ -176,7 +151,7 @@
       "duration_seconds": null,
       "screening": {
         "id": "gJbgz-1YcWY",
-        "index": 6,
+        "index": 5,
         "decision": "read_transcript",
         "priority": "high",
         "theme": [
@@ -210,7 +185,7 @@
       "duration_seconds": null,
       "screening": {
         "id": "-DSuo7omAf4",
-        "index": 7,
+        "index": 6,
         "decision": "read_transcript",
         "priority": "high",
         "theme": [
@@ -223,30 +198,6 @@
         "evidence": [],
         "transcript_question": "How is the cost of computation formalized, and what does the framework predict that an unbounded Bayesian model does not?",
         "caveat": "Title and channel verified by YouTube oEmbed; the event page gives about 74 minutes (2023), not independently verified."
-      },
-      "notes_scope": "Publisher and venue metadata only; no transcript read in this pass.",
-      "resources": []
-    },
-    {
-      "id": "sFXFCUsqcYU",
-      "title": "Jessica Flack - Collective intelligence as collective computation: Future directions",
-      "url": "https://www.youtube.com/watch?v=sFXFCUsqcYU",
-      "published_at": null,
-      "duration_seconds": null,
-      "screening": {
-        "id": "sFXFCUsqcYU",
-        "index": 8,
-        "decision": "read_transcript",
-        "priority": "medium",
-        "theme": [
-          "collective intelligence",
-          "coarse-graining"
-        ],
-        "publisher_promise": "IPAM talk on collective intelligence as collective computation.",
-        "screening_reason": "Flack’s programme: collectives compute by coarse-graining micro-level information into macro variables that feed back on the parts. It is the strongest originator account for module 9 that the repo lacks. Rubric: A originator ✓ · B unifying principle ✓ · C derivation ✓ · D 1 · E 1 (a future-directions talk, may be less derived) · F 2.",
-        "evidence": [],
-        "transcript_question": "Is coarse-graining given a formal definition and a testable prediction, or stated as a research agenda?",
-        "caveat": "Title and channel verified by YouTube oEmbed; date and length not verified. Medium because the title suggests an agenda more than a derivation."
       },
       "notes_scope": "Publisher and venue metadata only; no transcript read in this pass.",
       "resources": []

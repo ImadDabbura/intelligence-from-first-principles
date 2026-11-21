@@ -86,31 +86,6 @@
       "resources": []
     },
     {
-      "id": "arxiv-0712-4381",
-      "title": "Efficient Representation as a Design Principle for Neural Coding and Computation — Bialek, de Ruyter van Steveninck and Tishby",
-      "url": "https://arxiv.org/abs/0712.4381",
-      "published_at": "2007-12-28",
-      "duration_seconds": null,
-      "screening": {
-        "id": "arxiv-0712-4381",
-        "index": 3,
-        "decision": "read_transcript",
-        "priority": "medium",
-        "theme": [
-          "information",
-          "natural intelligence",
-          "representation"
-        ],
-        "publisher_promise": "Reviews fly-vision experiments on efficient representation and proposes an information-theoretic optimality principle.",
-        "screening_reason": "Efficient coding tested against neural data by its originators: the natural-intelligence counterpart to rate reduction (Ma) and the information bottleneck. Rubric: A originator ✓ · B unifying principle ✓ · C derivation ✓ · D 2 (tested on data) · E 2 · F 1.",
-        "evidence": [],
-        "transcript_question": "Which predictions of the optimality principle are tested, and which would distinguish efficient coding from predictive coding?",
-        "caveat": "Reading; based on a 2006 ISIT presentation."
-      },
-      "notes_scope": "Publisher and venue metadata only; no transcript read in this pass.",
-      "resources": []
-    },
-    {
       "id": "arxiv-physics-0004057",
       "title": "The Information Bottleneck Method — Tishby, Pereira and Bialek",
       "url": "https://arxiv.org/abs/physics/0004057",
@@ -118,7 +93,7 @@
       "duration_seconds": null,
       "screening": {
         "id": "arxiv-physics-0004057",
-        "index": 4,
+        "index": 3,
         "decision": "read_transcript",
         "priority": "high",
         "theme": [
@@ -142,7 +117,7 @@
       "duration_seconds": null,
       "screening": {
         "id": "arxiv-1503-02406",
-        "index": 5,
+        "index": 4,
         "decision": "read_transcript",
         "priority": "high",
         "theme": [
@@ -166,7 +141,7 @@
       "duration_seconds": null,
       "screening": {
         "id": "arxiv-1810-10531",
-        "index": 6,
+        "index": 5,
         "decision": "read_transcript",
         "priority": "high",
         "theme": [
@@ -190,7 +165,7 @@
       "duration_seconds": null,
       "screening": {
         "id": "arxiv-2011-14522",
-        "index": 7,
+        "index": 6,
         "decision": "read_transcript",
         "priority": "high",
         "theme": [
@@ -214,7 +189,7 @@
       "duration_seconds": null,
       "screening": {
         "id": "arxiv-1601-04920",
-        "index": 8,
+        "index": 7,
         "decision": "read_transcript",
         "priority": "high",
         "theme": [
@@ -239,7 +214,7 @@
       "duration_seconds": null,
       "screening": {
         "id": "arxiv-2204-00607",
-        "index": 9,
+        "index": 8,
         "decision": "read_transcript",
         "priority": "high",
         "theme": [
@@ -263,7 +238,7 @@
       "duration_seconds": null,
       "screening": {
         "id": "jaynes-1957-physrev-106-620",
-        "index": 10,
+        "index": 9,
         "decision": "read_transcript",
         "priority": "high",
         "theme": [
@@ -276,30 +251,6 @@
         "evidence": [],
         "transcript_question": "What justifies maximum entropy as inference, and where does the choice of constraints carry the real assumptions?",
         "caveat": "Reading; the publisher page is paywalled, so a library copy is needed."
-      },
-      "notes_scope": "Publisher and venue metadata only; no transcript read in this pass.",
-      "resources": []
-    },
-    {
-      "id": "lieder-griffiths-2020-bbs",
-      "title": "Resource-Rational Analysis — Falk Lieder and Thomas L. Griffiths",
-      "url": "https://www.cambridge.org/core/product/identifier/S0140525X1900061X/type/journal_article",
-      "published_at": "2019-02-04",
-      "duration_seconds": null,
-      "screening": {
-        "id": "lieder-griffiths-2020-bbs",
-        "index": 11,
-        "decision": "read_transcript",
-        "priority": "medium",
-        "theme": [
-          "bounded rationality",
-          "metareasoning"
-        ],
-        "publisher_promise": "Cognition as the optimal use of limited computational resources (Behavioral and Brain Sciences 43, e1, target article with commentaries).",
-        "screening_reason": "The written statement of resource rationality, with open peer commentary that supplies the critiques. Rubric: A originator ✓ · B unifying principle ✓ · C derivation ✓ · D 2 · E 2 · F 2.",
-        "evidence": [],
-        "transcript_question": "Read the target article with two critical commentaries: is the framework falsifiable?",
-        "caveat": "Reading; publisher access is purchase-only. Medium until a free copy is found."
       },
       "notes_scope": "Publisher and venue metadata only; no transcript read in this pass.",
       "resources": []

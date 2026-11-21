@@ -32,7 +32,7 @@
       "path": "collections/lectures",
       "snapshot_date": "2026-11-21",
       "coverage_note": "Selected lectures and seminars by the originators of unifying programmes, across venues. Pilot set; not an inventory of any venue.",
-      "screened": 9,
+      "screened": 7,
       "reviewed": 0,
       "inventory_range": {
         "first": "2022-01-13",
@@ -64,26 +64,6 @@
       }
     },
     {
-      "id": "information-bottleneck",
-      "name": "The Information Bottleneck",
-      "short_name": "Info Bottleneck",
-      "url": "https://www.the-information-bottleneck.com/",
-      "format": "Podcast",
-      "path": "collections/information-bottleneck",
-      "snapshot_date": "2026-11-21",
-      "coverage_note": "Selected episodes only; not an inventory of the feed.",
-      "screened": 1,
-      "reviewed": 0,
-      "inventory_range": {
-        "first": "2026-08-17",
-        "last": "2026-08-17"
-      },
-      "reviewed_range": {
-        "first": null,
-        "last": null
-      }
-    },
-    {
       "id": "readings",
       "name": "Originator writing",
       "short_name": "Readings",
@@ -92,7 +72,7 @@
       "path": "collections/readings",
       "snapshot_date": "2026-11-21",
       "coverage_note": "Expository and founding papers by the originators of unifying programmes. Textbooks are excluded. Pilot set.",
-      "screened": 12,
+      "screened": 10,
       "reviewed": 0,
       "inventory_range": {
         "first": "1957-05-15",
@@ -142,10 +122,30 @@
         "first": null,
         "last": null
       }
+    },
+    {
+      "id": "simons-institute",
+      "name": "Simons Institute for the Theory of Computing",
+      "short_name": "Simons",
+      "url": "https://www.youtube.com/@SimonsInstituteTOC",
+      "format": "Lecture",
+      "path": "collections/simons-institute",
+      "snapshot_date": "2026-11-21",
+      "coverage_note": "YouTube snapshot: 57 of 287 playlists selected as relevant; all 1,261 talks in them screened from metadata (42 high, 453 medium, 742 skip, 24 insufficient information). Only the high-priority talks are listed. Course-type playlists (e.g. the 2022 Deep Learning Theory summer school) could not be listed and are a known gap; 39 videos were private or deleted.",
+      "screened": 42,
+      "reviewed": 0,
+      "inventory_range": {
+        "first": "2014-01-28",
+        "last": "2024-11-18"
+      },
+      "reviewed_range": {
+        "first": null,
+        "last": null
+      }
     }
   ],
   "summary": {
-    "screened": 295,
+    "screened": 332,
     "reviewed": 131,
     "decisions": {
       "worthwhile": 60,

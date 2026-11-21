@@ -1,0 +1,1309 @@
+{
+  "methodology": {
+    "bar": "Originator of a unifying principle derives its consequences densely enough to change a mental model. Must pass A–C; D–F scored 0–2 for ranking.",
+    "rubric": {
+      "A": "Originator or primary architect",
+      "B": "Unifying principle",
+      "C": "Derivation shown",
+      "D": "Contested or falsifiable",
+      "E": "Density",
+      "F": "Model update beyond the existing collection"
+    },
+    "decisions": "Same as MLST: read_transcript is not a watch recommendation.",
+    "access": "Playlists and video metadata listed with yt-dlp from the Simons Institute YouTube channel on 2026-11-21. 57 of 287 playlists were selected as relevant to learning, intelligence, the brain, information and statistical physics. All 1,261 talks in them were screened from titles, speakers and YouTube descriptions by six parallel AI screeners using one shared instruction set; only the high-priority talks are kept here.",
+    "full_screen_counts": {
+      "screened": 1261,
+      "high": 42,
+      "medium": 453,
+      "skip": 742,
+      "insufficient_information": 24
+    }
+  },
+  "episodes": [
+    {
+      "id": "io2OXE1Xw04",
+      "title": "A Curious Case Of Symmetric Binary Perceptron Model: Algorithms And Barriers",
+      "url": "https://www.youtube.com/watch?v=io2OXE1Xw04",
+      "published_at": "2021-10-14",
+      "duration_seconds": 3240,
+      "screening": {
+        "id": "io2OXE1Xw04",
+        "index": 0,
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "overlap gap property",
+          "algorithmic barriers",
+          "statistical physics"
+        ],
+        "publisher_promise": "Explaining why efficient algorithms succeed or fail on the symmetric binary perceptron through solution-space geometry.",
+        "screening_reason": "Gamarnik originated the overlap gap property, a unifying geometric principle predicting computational hardness from clustering of solutions; the perceptron is a learning model where the puzzle of algorithms beating predicted barriers is sharp. Rubric: A✓ B✓ C✓ · D 2 · E 2 · F 2.",
+        "evidence": [],
+        "transcript_question": "Does the talk show how the overlap gap property explains both the barrier and the rare dense clusters that efficient algorithms actually find?",
+        "caveat": "publisher metadata gives speaker and title only, no abstract; scope inferred from title",
+        "speaker": "David Gamarnik",
+        "modules": [
+          2
+        ],
+        "workshop": "Algorithmic Advances for Statistical Inference with Combinatorial Structure"
+      },
+      "notes_scope": "YouTube title and description only; no transcript read in this pass.",
+      "resources": []
+    },
+    {
+      "id": "Jd4W3pA1K2E",
+      "title": "The Brain as an Efficient, Robust Adaptive Learner",
+      "url": "https://www.youtube.com/watch?v=Jd4W3pA1K2E",
+      "published_at": "2018-04-16",
+      "duration_seconds": 3060,
+      "screening": {
+        "id": "Jd4W3pA1K2E",
+        "index": 1,
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "efficient coding",
+          "spiking networks",
+          "balanced networks"
+        ],
+        "publisher_promise": "Deriving spiking network dynamics and learning rules from the principle that neurons efficiently and robustly encode signals.",
+        "screening_reason": "Denève originated the derivation of balanced spiking networks from an efficient-coding loss, a principle-to-mechanism-to-prediction programme. Rubric: A✓ B✓ C✓ · D 2 · E 2 · F 2.",
+        "evidence": [],
+        "transcript_question": "Does the talk derive local learning rules and E/I balance directly from the coding objective, and what does that predict about robustness?",
+        "caveat": "publisher metadata gives speaker and title only, no abstract; scope inferred from title",
+        "speaker": "Sophie Denève",
+        "modules": [
+          3,
+          9
+        ],
+        "workshop": "Computational Theories of the Brain"
+      },
+      "notes_scope": "YouTube title and description only; no transcript read in this pass.",
+      "resources": []
+    },
+    {
+      "id": "LnXgs73OUjE",
+      "title": "The Prefrontal Cortex as a Meta-Reinforcement Learning System",
+      "url": "https://www.youtube.com/watch?v=LnXgs73OUjE",
+      "published_at": "2018-04-16",
+      "duration_seconds": 3300,
+      "screening": {
+        "id": "LnXgs73OUjE",
+        "index": 2,
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "meta-reinforcement learning",
+          "prefrontal cortex",
+          "dopamine"
+        ],
+        "publisher_promise": "Arguing the prefrontal cortex is a learned recurrent RL system shaped by dopaminergic slow learning, so that fast learning emerges from it.",
+        "screening_reason": "Botvinick originated the PFC-as-meta-RL account; one principle explains a range of behavioral and neural findings on learning to learn. Rubric: A✓ B✓ C✓ · D 2 · E 2 · F 2.",
+        "evidence": [],
+        "transcript_question": "Does the talk show how a slow weight-level RL loop produces a fast activity-level learning algorithm, and which neural predictions distinguish it?",
+        "caveat": "publisher metadata gives speaker and title only, no abstract; scope inferred from title",
+        "speaker": "Matthew Botvinick",
+        "modules": [
+          7,
+          9
+        ],
+        "workshop": "Computational Theories of the Brain"
+      },
+      "notes_scope": "YouTube title and description only; no transcript read in this pass.",
+      "resources": []
+    },
+    {
+      "id": "C2_5QFQZGvM",
+      "title": "The Sparse Manifold Transform",
+      "url": "https://www.youtube.com/watch?v=C2_5QFQZGvM",
+      "published_at": "2018-04-18",
+      "duration_seconds": 3240,
+      "screening": {
+        "id": "C2_5QFQZGvM",
+        "index": 3,
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "sparse coding",
+          "manifold learning",
+          "representation"
+        ],
+        "publisher_promise": "A transform combining sparse coding with manifold flattening so that representations linearize natural transformations.",
+        "screening_reason": "Olshausen originated sparse coding; the sparse manifold transform extends it into a unifying principle for how invariant, equivariant representations emerge from natural signal statistics. Rubric: A✓ B✓ C✓ · D 1 · E 2 · F 2.",
+        "evidence": [],
+        "transcript_question": "Does the talk derive how sparsity plus temporal slowness produces linearized manifold representations, and what does it predict for cortical codes?",
+        "caveat": "publisher metadata gives speaker and title only, no abstract; scope inferred from title",
+        "speaker": "Bruno Olshausen",
+        "modules": [
+          3,
+          9
+        ],
+        "workshop": "Computational Theories of the Brain"
+      },
+      "notes_scope": "YouTube title and description only; no transcript read in this pass.",
+      "resources": []
+    },
+    {
+      "id": "QOQYid8P3f8",
+      "title": "A Discrepancy-Based Theory of Adaptation",
+      "url": "https://www.youtube.com/watch?v=QOQYid8P3f8",
+      "published_at": "2024-11-18",
+      "duration_seconds": 3240,
+      "screening": {
+        "id": "QOQYid8P3f8",
+        "index": 4,
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "domain adaptation",
+          "discrepancy",
+          "learning theory"
+        ],
+        "publisher_promise": "A discrepancy-based theory of adaptation that yields reweighting bounds and algorithms for unsupervised and weakly supervised shift.",
+        "screening_reason": "Mohri originated discrepancy distance; one quantity organizes what is learnable under distribution shift, with bounds that derive the algorithms. Rubric: A✓ B✓ C✓ · D 1 · E 2 · F 1.",
+        "evidence": [],
+        "transcript_question": "How does discrepancy improve on H-divergence, and do the derived reweighting bounds predict when adaptation fails?",
+        "caveat": "publisher abstract only; speaker taken from description",
+        "speaker": "Mehryar Mohri",
+        "modules": [
+          2
+        ],
+        "workshop": "Domain Adaptation and Related Areas"
+      },
+      "notes_scope": "YouTube title and description only; no transcript read in this pass.",
+      "resources": []
+    },
+    {
+      "id": "I8KOeXuCLm4",
+      "title": "Is Deeper Better Only When Shallow Is Good?",
+      "url": "https://www.youtube.com/watch?v=I8KOeXuCLm4",
+      "published_at": "2019-08-05",
+      "duration_seconds": 2700,
+      "screening": {
+        "id": "I8KOeXuCLm4",
+        "index": 5,
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "depth",
+          "learnability",
+          "inductive bias"
+        ],
+        "publisher_promise": "Asking whether deep networks are learnable only when shallow approximations already perform well.",
+        "screening_reason": "Shalev-Shwartz is a principal learning theorist; the claim is a sharp, falsifiable principle on why depth helps only through learnable shallow signal, with likely proofs. Rubric: A✓ B✓ C✓ · D 2 · E 2 · F 2.",
+        "evidence": [],
+        "transcript_question": "Does the talk prove that gradient-based learning of deep nets requires shallow correlation with the target, and what counterexamples are considered?",
+        "caveat": "publisher metadata gives speaker and title only, no abstract; scope inferred from title",
+        "speaker": "Shai Shalev-Shwartz",
+        "modules": [
+          2
+        ],
+        "workshop": "Emerging Challenges in Deep Learning"
+      },
+      "notes_scope": "YouTube title and description only; no transcript read in this pass.",
+      "resources": []
+    },
+    {
+      "id": "BsX3FzIPVDQ",
+      "title": "Generalization in Diffusion Models Arises from Geometry-Adaptive Harmonic Rrepresentations",
+      "url": "https://www.youtube.com/watch?v=BsX3FzIPVDQ",
+      "published_at": "2024-10-16",
+      "duration_seconds": 3840,
+      "screening": {
+        "id": "BsX3FzIPVDQ",
+        "index": 6,
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "diffusion",
+          "inductive bias",
+          "harmonic representations"
+        ],
+        "publisher_promise": "Explains diffusion model generalisation by denoisers adapting to geometry-adaptive harmonic bases.",
+        "screening_reason": "Kadkhodaie led the work showing diffusion generalises rather than memorises because of a specific inductive bias; mechanism and falsifiable predictions. Rubric: A✓ B✓ C✓ · D 2 · E 2 · F 2.",
+        "evidence": [],
+        "transcript_question": "How is the geometry-adaptive harmonic basis identified from the denoiser Jacobian, and what predicts the memorisation-to-generalisation transition?",
+        "caveat": "title and speaker line only, no abstract; content inferred from title and speaker record",
+        "speaker": "Zahra Kadkhodaie",
+        "modules": [
+          2,
+          3
+        ],
+        "workshop": "Emerging Generalization Settings"
+      },
+      "notes_scope": "YouTube title and description only; no transcript read in this pass.",
+      "resources": []
+    },
+    {
+      "id": "rvLUo0xiSxg",
+      "title": "Out-of-Distribution Generalization as Reasoning: Are LLMs Competitive?",
+      "url": "https://www.youtube.com/watch?v=rvLUo0xiSxg",
+      "published_at": "2024-10-16",
+      "duration_seconds": 3720,
+      "screening": {
+        "id": "rvLUo0xiSxg",
+        "index": 7,
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "robust logic",
+          "pac learning",
+          "reasoning"
+        ],
+        "publisher_promise": "Proposes that out-of-distribution answers come from chaining beliefs each learned in the PAC sense, and asks whether LLMs compete.",
+        "screening_reason": "Valiant originated PAC learning and robust logic; here he derives reasoning as composition of learned rules, a unifying claim about generalisation beyond seen data. Rubric: A✓ B✓ C✓ · D 2 · E 2 · F 2.",
+        "evidence": [],
+        "transcript_question": "How does Valiant formalise chaining PAC-learned beliefs, and what testable difference from LLMs does it predict?",
+        "caveat": "publisher abstract only (truncated in metadata); speaker from description",
+        "speaker": "Leslie Valiant",
+        "modules": [
+          2,
+          4
+        ],
+        "workshop": "Emerging Generalization Settings"
+      },
+      "notes_scope": "YouTube title and description only; no transcript read in this pass.",
+      "resources": []
+    },
+    {
+      "id": "9V0bfZqT1Yo",
+      "title": "The Pitfalls of Next-token Prediction",
+      "url": "https://www.youtube.com/watch?v=9V0bfZqT1Yo",
+      "published_at": "2024-10-16",
+      "duration_seconds": 3480,
+      "screening": {
+        "id": "9V0bfZqT1Yo",
+        "index": 8,
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "next-token prediction",
+          "teacher forcing",
+          "planning"
+        ],
+        "publisher_promise": "Argues that teacher-forced training and autoregressive inference must be separated and that teacher forcing can fail to learn simple planning tasks.",
+        "screening_reason": "Nagarajan originated the path-star argument that teacher forcing, not autoregression, breaks lookahead learning; a sharp, falsifiable reframing of what next-token training can learn. Rubric: A✓ B✓ C✓ · D 2 · E 2 · F 2.",
+        "evidence": [],
+        "transcript_question": "Does the talk derive why teacher forcing yields a shortcut (Clever Hans) solution on path-star graphs, and what would falsify it?",
+        "caveat": "publisher abstract only (truncated in metadata); speaker from description",
+        "speaker": "Vaishnavh Nagarajan",
+        "modules": [
+          4,
+          1
+        ],
+        "workshop": "Emerging Generalization Settings"
+      },
+      "notes_scope": "YouTube title and description only; no transcript read in this pass.",
+      "resources": []
+    },
+    {
+      "id": "kF87KtFgQTU",
+      "title": "When calibration goes awry: hallucination in language models",
+      "url": "https://www.youtube.com/watch?v=kF87KtFgQTU",
+      "published_at": "2024-10-16",
+      "duration_seconds": 3960,
+      "screening": {
+        "id": "kF87KtFgQTU",
+        "index": 9,
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "hallucination",
+          "calibration",
+          "good-turing"
+        ],
+        "publisher_promise": "Shows that calibrated pretraining forces hallucinations at a rate tied to the Good-Turing missing-mass estimate.",
+        "screening_reason": "Kalai (with Vempala) originated the result that calibration statistically implies hallucination; one principle, a derivation and a quantitative prediction. Rubric: A✓ B✓ C✓ · D 2 · E 2 · F 2.",
+        "evidence": [],
+        "transcript_question": "Does the derivation show hallucination rate is lower-bounded by the singleton fraction of facts, and what assumption does that rest on?",
+        "caveat": "publisher abstract only (truncated in metadata); speaker from description",
+        "speaker": "Adam Kalai",
+        "modules": [
+          1,
+          5
+        ],
+        "workshop": "Emerging Generalization Settings"
+      },
+      "notes_scope": "YouTube title and description only; no transcript read in this pass.",
+      "resources": []
+    },
+    {
+      "id": "YwMiODT5qPU",
+      "title": "Computational Views of Evolution I",
+      "url": "https://www.youtube.com/watch?v=YwMiODT5qPU",
+      "published_at": "2014-01-28",
+      "duration_seconds": 3780,
+      "screening": {
+        "id": "YwMiODT5qPU",
+        "index": 10,
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "evolution as learning",
+          "multiplicative weights",
+          "sex and mixability"
+        ],
+        "publisher_promise": "Lecture on computational views of evolution, part I.",
+        "screening_reason": "Papadimitriou co-originated the result that selection under sex acts as multiplicative weights in a coordination game; an architect tutorial recasting evolution as learning. Rubric: A✓ B✓ C✓ · D 2 · E 2 · F 2.",
+        "evidence": [],
+        "transcript_question": "Does the lecture derive the equivalence between population genetics under weak selection and multiplicative-weights updates, and what does it predict about mixability?",
+        "caveat": "title and speaker line only, no abstract; content inferred from title and speaker record",
+        "speaker": "Christos Papadimitriou",
+        "modules": [
+          8
+        ],
+        "workshop": "Evolutionary Biology Boot Camp"
+      },
+      "notes_scope": "YouTube title and description only; no transcript read in this pass.",
+      "resources": []
+    },
+    {
+      "id": "9Th6qMLtJsU",
+      "title": "Statistical Physics Views of Evolution I",
+      "url": "https://www.youtube.com/watch?v=9Th6qMLtJsU",
+      "published_at": "2014-01-28",
+      "duration_seconds": 2820,
+      "screening": {
+        "id": "9Th6qMLtJsU",
+        "index": 11,
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "statistical physics",
+          "adaptation",
+          "clonal interference"
+        ],
+        "publisher_promise": "Lecture on statistical physics views of evolution, part I.",
+        "screening_reason": "Shraiman (with Neher) built the statistical-physics theory of rapidly adapting populations; an architect tutorial on an adjacent first principle. Rubric: A✓ B✓ C✓ · D 1 · E 2 · F 2.",
+        "evidence": [],
+        "transcript_question": "Does the lecture derive the travelling-wave or fitness-distribution picture of adaptation and its predictions for adaptation speed?",
+        "caveat": "title and speaker line only, no abstract; content inferred from title and speaker record",
+        "speaker": "Boris Shraiman",
+        "modules": [
+          8
+        ],
+        "workshop": "Evolutionary Biology Boot Camp"
+      },
+      "notes_scope": "YouTube title and description only; no transcript read in this pass.",
+      "resources": []
+    },
+    {
+      "id": "mUt7w4UoYqM",
+      "title": "A New Perspective on Adversarial Perturbations",
+      "url": "https://www.youtube.com/watch?v=mUt7w4UoYqM",
+      "published_at": "2019-07-17",
+      "duration_seconds": 2940,
+      "screening": {
+        "id": "mUt7w4UoYqM",
+        "index": 12,
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "adversarial examples",
+          "non-robust features"
+        ],
+        "publisher_promise": "Offers a new perspective in which adversarial perturbations exploit real but non-robust features in the data.",
+        "screening_reason": "Madry's group originated the features-not-bugs reframing, with falsifiable experiments (training on mislabelled non-robust data); changes how one sees what models learn. Rubric: A✓ B✓ C✓ · D 2 · E 2 · F 2.",
+        "evidence": [],
+        "transcript_question": "Does the talk show the relabelled non-robust dataset experiment and what it implies about the features models use?",
+        "caveat": "title and speaker line only, no abstract; content inferred from title and speaker record",
+        "speaker": "Aleksander Madry",
+        "modules": [
+          2,
+          3
+        ],
+        "workshop": "Frontiers of Deep Learning"
+      },
+      "notes_scope": "YouTube title and description only; no transcript read in this pass.",
+      "resources": []
+    },
+    {
+      "id": "GXpP-rXEDpk",
+      "title": "Benign Overfitting in Linear Prediction",
+      "url": "https://www.youtube.com/watch?v=GXpP-rXEDpk",
+      "published_at": "2019-07-15",
+      "duration_seconds": 2880,
+      "screening": {
+        "id": "GXpP-rXEDpk",
+        "index": 13,
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "benign overfitting",
+          "interpolation"
+        ],
+        "publisher_promise": "Characterises when interpolating linear predictors still generalise well.",
+        "screening_reason": "Bartlett co-originated benign overfitting, deriving conditions on the covariance spectrum (effective ranks); a reframing of capacity versus generalisation. Rubric: A✓ B✓ C✓ · D 2 · E 2 · F 2.",
+        "evidence": [],
+        "transcript_question": "Does the talk derive the effective-rank conditions and explain why they rarely hold in low dimensions?",
+        "caveat": "title and speaker line only, no abstract; content inferred from title and speaker record",
+        "speaker": "Peter Bartlett",
+        "modules": [
+          2
+        ],
+        "workshop": "Frontiers of Deep Learning"
+      },
+      "notes_scope": "YouTube title and description only; no transcript read in this pass.",
+      "resources": []
+    },
+    {
+      "id": "OBCciGnOJVs",
+      "title": "From Classical Statistics to Modern Machine Learning",
+      "url": "https://www.youtube.com/watch?v=OBCciGnOJVs",
+      "published_at": "2019-07-15",
+      "duration_seconds": 3000,
+      "screening": {
+        "id": "OBCciGnOJVs",
+        "index": 14,
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "double descent",
+          "interpolation"
+        ],
+        "publisher_promise": "Connects classical statistics to modern practice, explaining why interpolating models can generalise.",
+        "screening_reason": "Belkin originated the double descent framing that reconciles the bias-variance trade-off with interpolation; a unifying principle with clear predictions. Rubric: A✓ B✓ C✓ · D 2 · E 2 · F 2.",
+        "evidence": [],
+        "transcript_question": "Does the talk derive double descent from interpolation and inductive bias, and state when it should fail?",
+        "caveat": "title and speaker line only, no abstract; content inferred from title and speaker record",
+        "speaker": "Mikhail Belkin",
+        "modules": [
+          2
+        ],
+        "workshop": "Frontiers of Deep Learning"
+      },
+      "notes_scope": "YouTube title and description only; no transcript read in this pass.",
+      "resources": []
+    },
+    {
+      "id": "0D23NeBjCeQ",
+      "title": "A Theory for Emergence of Complex Skills in Language Models",
+      "url": "https://www.youtube.com/watch?v=0D23NeBjCeQ",
+      "published_at": "2023-08-16",
+      "duration_seconds": 3900,
+      "screening": {
+        "id": "0D23NeBjCeQ",
+        "index": 15,
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "emergence",
+          "skill composition",
+          "scaling laws"
+        ],
+        "publisher_promise": "Gives a mathematical theory for how complex skills emerge when language models are scaled.",
+        "screening_reason": "Arora (with Goyal) originated the random-graph theory that derives skill emergence from scaling laws; principle, derivation and prediction. Rubric: A✓ B✓ C✓ · D 2 · E 2 · F 2.",
+        "evidence": [],
+        "transcript_question": "Does the derivation from loss scaling to compositional skill emergence predict testable rates of k-skill competence?",
+        "caveat": "publisher abstract only (truncated in metadata); speaker from description",
+        "speaker": "Sanjeev Arora",
+        "modules": [
+          3,
+          4
+        ],
+        "workshop": "Large Language Models and Transformers"
+      },
+      "notes_scope": "YouTube title and description only; no transcript read in this pass.",
+      "resources": []
+    },
+    {
+      "id": "AKMuA_TVz3A",
+      "title": "An Observation on Generalization",
+      "url": "https://www.youtube.com/watch?v=AKMuA_TVz3A",
+      "published_at": "2023-08-14",
+      "duration_seconds": 3420,
+      "screening": {
+        "id": "AKMuA_TVz3A",
+        "index": 16,
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "compression",
+          "unsupervised learning",
+          "kolmogorov complexity"
+        ],
+        "publisher_promise": "Offers an observation on generalisation, linking unsupervised learning to compression.",
+        "screening_reason": "Sutskever presents his own argument that unsupervised learning works as approximate Kolmogorov compression; a unifying, contested principle. Rubric: A✓ B✓ C✓ · D 1 · E 2 · F 1.",
+        "evidence": [],
+        "transcript_question": "Does the talk make the compression argument precise (e.g. joint compression of the two datasets), and what testable claim follows?",
+        "caveat": "title and speaker line only, no abstract; content inferred from title and speaker record",
+        "speaker": "Ilya Sutskever",
+        "modules": [
+          2,
+          3
+        ],
+        "workshop": "Large Language Models and Transformers"
+      },
+      "notes_scope": "YouTube title and description only; no transcript read in this pass.",
+      "resources": []
+    },
+    {
+      "id": "Gag7H4M-GdQ",
+      "title": "Pretraining Task Diversity and the Emergence of Non-Bayesian In-Context Learning for Regression",
+      "url": "https://www.youtube.com/watch?v=Gag7H4M-GdQ",
+      "published_at": "2023-08-19",
+      "duration_seconds": 3960,
+      "screening": {
+        "id": "Gag7H4M-GdQ",
+        "index": 17,
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "in-context learning",
+          "task diversity",
+          "phase transition"
+        ],
+        "publisher_promise": "Shows a task-diversity threshold in pretraining below which a transformer acts as the Bayes estimator for the pretraining prior and above which it behaves like ridge regression and solves new tasks.",
+        "screening_reason": "An originator gives a sharp, falsifiable mechanism for when ICL generalises beyond its training prior, linking task diversity, Bayesian estimation and emergence, which bears on prior structure and meta-learning. Rubric: A✓ B✓ C✓ · D 2 · E 2 · F 2.",
+        "evidence": [],
+        "transcript_question": "What sets the location of the task-diversity threshold, and is there a derivation explaining why the model leaves the Bayes-optimal solution?",
+        "caveat": "publisher abstract only; speaker from description",
+        "speaker": "Surya Ganguli",
+        "modules": [
+          2,
+          4,
+          7
+        ],
+        "workshop": "Large Language Models and Transformers"
+      },
+      "notes_scope": "YouTube title and description only; no transcript read in this pass.",
+      "resources": []
+    },
+    {
+      "id": "MUvFuZpxLU8",
+      "title": "Understanding the Origins and Taxonomy of Neural Scaling Laws",
+      "url": "https://www.youtube.com/watch?v=MUvFuZpxLU8",
+      "published_at": "2023-08-16",
+      "duration_seconds": 3900,
+      "screening": {
+        "id": "MUvFuZpxLU8",
+        "index": 18,
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "scaling laws",
+          "variance-limited",
+          "resolution-limited"
+        ],
+        "publisher_promise": "Explains where neural scaling laws come from and classifies them into regimes.",
+        "screening_reason": "Bahri co-originated the variance-limited versus resolution-limited taxonomy, deriving scaling exponents from data-manifold dimension. Rubric: A✓ B✓ C✓ · D 1 · E 2 · F 2.",
+        "evidence": [],
+        "transcript_question": "Does the talk derive the resolution-limited exponent from intrinsic dimension and test it?",
+        "caveat": "title and speaker line only, no abstract; content inferred from title and speaker record",
+        "speaker": "Yasaman Bahri",
+        "modules": [
+          2
+        ],
+        "workshop": "Large Language Models and Transformers"
+      },
+      "notes_scope": "YouTube title and description only; no transcript read in this pass.",
+      "resources": []
+    },
+    {
+      "id": "h2I0Hs2K2KI",
+      "title": "The elusive generalization: classical bounds to double descent to grokking",
+      "url": "https://www.youtube.com/watch?v=h2I0Hs2K2KI",
+      "published_at": "2024-10-04",
+      "duration_seconds": 4800,
+      "screening": {
+        "id": "h2I0Hs2K2KI",
+        "index": 19,
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "double descent",
+          "interpolation",
+          "generalization"
+        ],
+        "publisher_promise": "Traces how empirical findings in neural networks forced a revision of generalisation theory, from classical bounds through interpolation and double descent to grokking.",
+        "screening_reason": "Belkin originated the double-descent and interpolation programme and is positioned to show why training loss stopped being a proxy for test loss, a central model update for module 2. Rubric: A✓ B✓ C✓ · D 2 · E 2 · F 2.",
+        "evidence": [],
+        "transcript_question": "What unifying account does Belkin give for why interpolating predictors generalise, and how does he connect it to grokking and early stopping?",
+        "caveat": "publisher abstract only; speaker from description",
+        "speaker": "Misha Belkin",
+        "modules": [
+          2
+        ],
+        "workshop": "Modern Paradigms in Generalization Boot Camp"
+      },
+      "notes_scope": "YouTube title and description only; no transcript read in this pass.",
+      "resources": []
+    },
+    {
+      "id": "rFp0tVQW_q0",
+      "title": "Understanding Generalization from Pre-training Loss to Downstream Tasks",
+      "url": "https://www.youtube.com/watch?v=rFp0tVQW_q0",
+      "published_at": "2024-10-04",
+      "duration_seconds": 4680,
+      "screening": {
+        "id": "rFp0tVQW_q0",
+        "index": 20,
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "contrastive learning",
+          "spectral graph",
+          "pretraining theory"
+        ],
+        "publisher_promise": "Shows that the contrastive loss yields embeddings whose distances reflect manifold or positive-pair graph distances, then adds the roles of architecture inductive bias and optimiser implicit bias.",
+        "screening_reason": "An originator derives why self-supervised pretraining extracts structure, from a loss to a spectral mechanism to predictions about downstream use; central to how representations emerge. Rubric: A✓ B✓ C✓ · D 1 · E 2 · F 2.",
+        "evidence": [],
+        "transcript_question": "Does the spectral contrastive argument explain downstream transfer on its own, or does Ma show that inductive and implicit biases are indispensable?",
+        "caveat": "publisher abstract only; speaker from description",
+        "speaker": "Tengyu Ma",
+        "modules": [
+          3,
+          2
+        ],
+        "workshop": "Modern Paradigms in Generalization Boot Camp"
+      },
+      "notes_scope": "YouTube title and description only; no transcript read in this pass.",
+      "resources": []
+    },
+    {
+      "id": "IBr8wmEeWnM",
+      "title": "What is the Statistical Complexity of Reinforcement Learning?",
+      "url": "https://www.youtube.com/watch?v=IBr8wmEeWnM",
+      "published_at": "2022-05-03",
+      "duration_seconds": 3180,
+      "screening": {
+        "id": "IBr8wmEeWnM",
+        "index": 21,
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "rl sample complexity",
+          "structural conditions",
+          "generalization"
+        ],
+        "publisher_promise": "Asks which representational or structural conditions make reinforcement learning sample-efficient, giving necessary and sufficient conditions in online and offline settings.",
+        "screening_reason": "An architect of RL theory seeks the RL analogue of VC dimension, the central question of when a world model or policy class is learnable. Rubric: A✓ B✓ C✓ · D 2 · E 2 · F 2.",
+        "evidence": [],
+        "transcript_question": "Does Kakade give a single structural measure that characterises RL sample complexity, and what lower bounds show it is necessary?",
+        "caveat": "publisher abstract only; speaker from description",
+        "speaker": "Sham Kakade",
+        "modules": [
+          2,
+          6
+        ],
+        "workshop": "Multi-Agent Reinforcement Learning and Bandit Learning"
+      },
+      "notes_scope": "YouTube title and description only; no transcript read in this pass.",
+      "resources": []
+    },
+    {
+      "id": "-_vc-lg40aw",
+      "title": "Circuitry and Mathematical Codes for Navigation in the Brain",
+      "url": "https://www.youtube.com/watch?v=-_vc-lg40aw",
+      "published_at": "2018-03-08",
+      "duration_seconds": 3600,
+      "screening": {
+        "id": "-_vc-lg40aw",
+        "index": 22,
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "grid cells",
+          "neural codes",
+          "navigation"
+        ],
+        "publisher_promise": "No abstract; the title promises an account of the circuitry and mathematical coding schemes the brain uses for navigation.",
+        "screening_reason": "Fiete is an originator of the theory of grid-cell codes and continuous attractor circuits, deriving representational structure from coding principles; strong on modules 3 and 9. Rubric: A✓ B✓ C✓ · D 2 · E 2 · F 2.",
+        "evidence": [],
+        "transcript_question": "Does Fiete derive the grid-cell code from coding-theoretic principles (capacity, error correction) and connect it to attractor circuit mechanisms?",
+        "caveat": "title and speaker only; no abstract",
+        "speaker": "Ila Fiete",
+        "modules": [
+          3,
+          9
+        ],
+        "workshop": "Open Lectures (2013–2019)"
+      },
+      "notes_scope": "YouTube title and description only; no transcript read in this pass.",
+      "resources": []
+    },
+    {
+      "id": "LyoFxdY6nl4",
+      "title": "The Deep Learning Revolution: What Does It Tell Us About Our Understanding of Intelligence?",
+      "url": "https://www.youtube.com/watch?v=LyoFxdY6nl4",
+      "published_at": "2018-04-10",
+      "duration_seconds": 3060,
+      "screening": {
+        "id": "LyoFxdY6nl4",
+        "index": 23,
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "information bottleneck",
+          "deep learning theory"
+        ],
+        "publisher_promise": "No abstract; the title promises a reflection on what deep learning reveals about intelligence, presumably through Tishby's information-theoretic lens.",
+        "screening_reason": "The originator of the information bottleneck theory of deep learning and an explicit exemplar for this collection. Rubric: A✓ B✓ C✓ · D 2 · E 2 · F 2.",
+        "evidence": [],
+        "transcript_question": "Does this lecture add anything beyond the Stanford seminar, such as a broader claim about intelligence or responses to critiques of the bottleneck picture?",
+        "caveat": "title and speaker only; no abstract",
+        "speaker": "Naftali Tishby",
+        "modules": [
+          2,
+          3
+        ],
+        "workshop": "Open Lectures (2013–2019)"
+      },
+      "notes_scope": "YouTube title and description only; no transcript read in this pass.",
+      "resources": []
+    },
+    {
+      "id": "-T8uSdWrGlY",
+      "title": "Statistical Physics and Computation in High Dimension",
+      "url": "https://www.youtube.com/watch?v=-T8uSdWrGlY",
+      "published_at": "2020-08-25",
+      "duration_seconds": 4680,
+      "screening": {
+        "id": "-T8uSdWrGlY",
+        "index": 24,
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "statistical physics",
+          "phase transitions",
+          "inference"
+        ],
+        "publisher_promise": "Opening lecture of a boot-camp tutorial on how statistical-physics methods characterise inference and computation in high-dimensional problems.",
+        "screening_reason": "Architects of the replica/cavity programme for inference teach the framework that yields exact information-theoretic and algorithmic thresholds; central to the adjacent-principle brief on phase transitions in learning. Rubric: A✓ B✓ C✓ · D 1 · E 2 · F 2.",
+        "evidence": [],
+        "transcript_question": "Does the first lecture derive the teacher-student/Bayes-optimal setup and the replica or cavity route to sharp thresholds, rather than only motivate it?",
+        "caveat": "publisher title and speakers only, no abstract; part 1 of a four-part series, later parts screened medium",
+        "speaker": "Florent Krzakala; Lenka Zdeborová",
+        "modules": [
+          2,
+          3
+        ],
+        "workshop": "Probability, Geometry, and Computation in High Dimensions Boot Camp"
+      },
+      "notes_scope": "YouTube title and description only; no transcript read in this pass.",
+      "resources": []
+    },
+    {
+      "id": "_QZmnQKjzaE",
+      "title": "Learning by Local Entropy Maximization",
+      "url": "https://www.youtube.com/watch?v=_QZmnQKjzaE",
+      "published_at": "2016-05-10",
+      "duration_seconds": 2880,
+      "screening": {
+        "id": "_QZmnQKjzaE",
+        "index": 25,
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "flat minima",
+          "local entropy",
+          "statistical physics"
+        ],
+        "publisher_promise": "Presents learning as maximisation of local entropy, favouring rare dense regions of good solutions over isolated minima.",
+        "screening_reason": "Zecchina co-originated the local-entropy account of why accessible wide minima exist and generalise in nonconvex networks; a principle-to-algorithm derivation central to the inductive-bias question. Rubric: A✓ B✓ C✓ · D 2 · E 2 · F 2.",
+        "evidence": [],
+        "transcript_question": "Does the talk derive the dominance of dense solution clusters from the Gardner-style analysis and show how a local-entropy objective yields concrete algorithms and generalisation predictions?",
+        "caveat": "publisher title and speaker only, no abstract",
+        "speaker": "Riccardo Zecchina",
+        "modules": [
+          2
+        ],
+        "workshop": "Random Instances and Phase Transitions"
+      },
+      "notes_scope": "YouTube title and description only; no transcript read in this pass.",
+      "resources": []
+    },
+    {
+      "id": "ACdjYP0-cMw",
+      "title": "Geometry, Optimization and Generalization in Multilayer Networks",
+      "url": "https://www.youtube.com/watch?v=ACdjYP0-cMw",
+      "published_at": "2017-03-27",
+      "duration_seconds": 2940,
+      "screening": {
+        "id": "ACdjYP0-cMw",
+        "index": 26,
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "implicit bias",
+          "optimization geometry",
+          "generalization"
+        ],
+        "publisher_promise": "Argues that the geometry of the optimisation algorithm, not explicit capacity control, drives generalisation in multilayer networks.",
+        "screening_reason": "Srebro is a primary architect of the implicit-regularisation view, where the optimiser's geometry selects a norm-like inductive bias; directly addresses capacity versus preference. Rubric: A✓ B✓ C✓ · D 2 · E 2 · F 2.",
+        "evidence": [],
+        "transcript_question": "Does Srebro derive which complexity measure (e.g. path-norm) the optimiser implicitly controls and connect it to a generalisation bound or testable prediction?",
+        "caveat": "publisher title and speaker only, no abstract; 2017 talk predates later implicit-bias results",
+        "speaker": "Nathan Srebro",
+        "modules": [
+          2
+        ],
+        "workshop": "Representation Learning"
+      },
+      "notes_scope": "YouTube title and description only; no transcript read in this pass.",
+      "resources": []
+    },
+    {
+      "id": "ceD736_Fknc",
+      "title": "Unsupervised Representation Learning",
+      "url": "https://www.youtube.com/watch?v=ceD736_Fknc",
+      "published_at": "2017-03-30",
+      "duration_seconds": 4140,
+      "screening": {
+        "id": "ceD736_Fknc",
+        "index": 27,
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "self-supervised learning",
+          "energy-based models",
+          "predictive learning"
+        ],
+        "publisher_promise": "Hour-long lecture making the case for unsupervised and predictive learning as the main route to representations and world models.",
+        "screening_reason": "LeCun is the architect of the energy-based, prediction-driven programme for representation learning; a long-form lecture likely lays out the principle and its mechanisms. Rubric: A✓ B✓ C✓ · D 2 · E 1 · F 1.",
+        "evidence": [],
+        "transcript_question": "Does the lecture give a concrete energy-based formulation of predictive learning (how collapse is avoided, what is predicted) or stay at the level of advocacy?",
+        "caveat": "publisher title and speaker only, no abstract; may be a vision talk rather than a derivation",
+        "speaker": "Yann LeCun",
+        "modules": [
+          3,
+          6
+        ],
+        "workshop": "Representation Learning"
+      },
+      "notes_scope": "YouTube title and description only; no transcript read in this pass.",
+      "resources": []
+    },
+    {
+      "id": "rk7fIhCH8Gc",
+      "title": "Insights on Gradient-Based Algorithms in High-Dimensional Learning",
+      "url": "https://www.youtube.com/watch?v=rk7fIhCH8Gc",
+      "published_at": "2020-09-14",
+      "duration_seconds": 3600,
+      "screening": {
+        "id": "rk7fIhCH8Gc",
+        "index": 28,
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "gradient dynamics",
+          "statistical physics",
+          "high-dimensional learning"
+        ],
+        "publisher_promise": "Shows how in several high-dimensional nonconvex models the performance of gradient descent and Langevin dynamics can be computed exactly through statistical physics.",
+        "screening_reason": "Zdeborová co-built the programme that gives exact asymptotics for learning dynamics in planted models, separating algorithmic from information-theoretic limits; principle, mechanism and quantitative prediction. Rubric: A✓ B✓ C✓ · D 1 · E 2 · F 2.",
+        "evidence": [],
+        "transcript_question": "Does the lecture derive the dynamical mean-field equations and show where gradient methods fail relative to Bayes-optimal thresholds, e.g. in the spiked matrix-tensor model?",
+        "caveat": "publisher abstract only",
+        "speaker": "Lenka Zdeborová",
+        "modules": [
+          2
+        ],
+        "workshop": "Richard M. Karp Distinguished Lectures"
+      },
+      "notes_scope": "YouTube title and description only; no transcript read in this pass.",
+      "resources": []
+    },
+    {
+      "id": "FNnHupgrILY",
+      "title": "Invariance, Causality and Novel Robustness",
+      "url": "https://www.youtube.com/watch?v=FNnHupgrILY",
+      "published_at": "2018-10-30",
+      "duration_seconds": 2640,
+      "screening": {
+        "id": "FNnHupgrILY",
+        "index": 29,
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "invariance",
+          "causality",
+          "distributional robustness"
+        ],
+        "publisher_promise": "Connects invariance across environments to causal structure and to a new form of robustness under distribution shift.",
+        "screening_reason": "Originator of invariant causal prediction and anchor regression: one principle (invariance across environments) yields causal identification and worst-case robustness, central to modules 2 and 6. Rubric: A✓ B✓ C✓ · D 2 · E 2 · F 2.",
+        "evidence": [],
+        "transcript_question": "Does the talk derive the formal equivalence between invariance, causal parents and distributional robustness, and state what it predicts out of distribution?",
+        "caveat": "title and speaker line only, no abstract; speaker from description",
+        "speaker": "Peter Bühlmann (ETH Zürich)",
+        "modules": [
+          2,
+          6
+        ],
+        "workshop": "Robust and High-Dimensional Statistics"
+      },
+      "notes_scope": "YouTube title and description only; no transcript read in this pass.",
+      "resources": []
+    },
+    {
+      "id": "36wVctp7POY",
+      "title": "The Statistical Complexity of Interactive Decision Making",
+      "url": "https://www.youtube.com/watch?v=36wVctp7POY",
+      "published_at": "2022-10-12",
+      "duration_seconds": 3660,
+      "screening": {
+        "id": "36wVctp7POY",
+        "index": 30,
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "decision-estimation coefficient",
+          "interactive learning"
+        ],
+        "publisher_promise": "Introduces the Decision-Estimation Coefficient as a complexity measure that is necessary and sufficient for sample-efficient interactive learning.",
+        "screening_reason": "The originator presents a unifying principle for bandits and RL, the interactive analogue of VC dimension, with matching lower and upper bounds; central to modules 5 and 6. Rubric: A✓ B✓ C✓ · D 1 · E 2 · F 2.",
+        "evidence": [],
+        "transcript_question": "Does the talk derive both the DEC lower bound and the E2D algorithm, and explain how the exploration-estimation tradeoff it encodes changes how to view RL sample complexity?",
+        "caveat": "publisher abstract only; speaker from description",
+        "speaker": "Dylan Foster (Microsoft Research)",
+        "modules": [
+          6,
+          5
+        ],
+        "workshop": "Structure of Constraints in Sequential Decision-Making"
+      },
+      "notes_scope": "YouTube title and description only; no transcript read in this pass.",
+      "resources": []
+    },
+    {
+      "id": "ilAwtIwCLRg",
+      "title": "Similarity Alignment: A Missing Link Between Structure, Function and Algorithms",
+      "url": "https://www.youtube.com/watch?v=ilAwtIwCLRg",
+      "published_at": "2018-03-21",
+      "duration_seconds": 5640,
+      "screening": {
+        "id": "ilAwtIwCLRg",
+        "index": 31,
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "similarity matching",
+          "biologically plausible learning"
+        ],
+        "publisher_promise": "Argues similarity alignment links neural structure, function and learning algorithms.",
+        "screening_reason": "The originator of the similarity-matching programme derives local Hebbian and anti-Hebbian network rules from a single objective, a principle-to-mechanism-to-prediction arc for modules 3 and 9. Rubric: A✓ B✓ C✓ · D 1 · E 2 · F 2.",
+        "evidence": [],
+        "transcript_question": "Does the talk derive network architecture and plasticity rules from the similarity-matching objective and give testable neural predictions?",
+        "caveat": "title and speaker line only, no abstract; speaker from description",
+        "speaker": "Mitya Chklovskii, Simons Foundation",
+        "modules": [
+          3,
+          9
+        ],
+        "workshop": "Targeted Discovery in Brain Data"
+      },
+      "notes_scope": "YouTube title and description only; no transcript read in this pass.",
+      "resources": []
+    },
+    {
+      "id": "EQTtBRM0sIs",
+      "title": "The Information Bottleneck Theory of Deep Neural Networks...",
+      "url": "https://www.youtube.com/watch?v=EQTtBRM0sIs",
+      "published_at": "2018-03-21",
+      "duration_seconds": 5880,
+      "screening": {
+        "id": "EQTtBRM0sIs",
+        "index": 32,
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "information bottleneck",
+          "deep learning theory"
+        ],
+        "publisher_promise": "Presents the information bottleneck theory of deep networks and its training phases.",
+        "screening_reason": "Exemplar-level: the originator derives representation learning from one information-theoretic principle, with predictions about fitting and compression phases; central to modules 2 and 3. Rubric: A✓ B✓ C✓ · D 2 · E 2 · F 2.",
+        "evidence": [],
+        "transcript_question": "Does this long version derive the compression phase and its link to SGD diffusion and generalization, and how does it answer the later critiques of the compression claim?",
+        "caveat": "title and speaker line only, no abstract; speaker from description",
+        "speaker": "Naftali Tishby, Hebrew University of Jerusalem",
+        "modules": [
+          3,
+          2
+        ],
+        "workshop": "Targeted Discovery in Brain Data"
+      },
+      "notes_scope": "YouTube title and description only; no transcript read in this pass.",
+      "resources": []
+    },
+    {
+      "id": "gyKSElqNjE4",
+      "title": "Neural Mechanisms of Vision",
+      "url": "https://www.youtube.com/watch?v=gyKSElqNjE4",
+      "published_at": "2018-01-19",
+      "duration_seconds": 5640,
+      "screening": {
+        "id": "gyKSElqNjE4",
+        "index": 33,
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "sparse coding",
+          "vision"
+        ],
+        "publisher_promise": "Tutorial on neural mechanisms of vision.",
+        "screening_reason": "Architect's tutorial by the co-originator of sparse coding: an efficient-coding objective that derives V1-like receptive fields, central to module 3. Rubric: A✓ B✓ C✓ · D 1 · E 2 · F 1.",
+        "evidence": [],
+        "transcript_question": "Does the tutorial derive receptive-field structure from sparse or efficient coding, and say what that principle predicts beyond V1?",
+        "caveat": "title and speaker line only, no abstract; speaker from description",
+        "speaker": "Bruno Olshausen, UC Berkeley",
+        "modules": [
+          3,
+          9
+        ],
+        "workshop": "The Brain and Computation Boot Camp"
+      },
+      "notes_scope": "YouTube title and description only; no transcript read in this pass.",
+      "resources": []
+    },
+    {
+      "id": "ze5-AqY_k6A",
+      "title": "The Science of Cause and Effect: From Deep Learning to Deep Understanding",
+      "url": "https://www.youtube.com/watch?v=ze5-AqY_k6A",
+      "published_at": "2022-04-07",
+      "duration_seconds": 6660,
+      "screening": {
+        "id": "ze5-AqY_k6A",
+        "index": 34,
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "causality",
+          "ladder of causation",
+          "understanding"
+        ],
+        "publisher_promise": "Pearl proposes a formal definition of understanding as answering prediction, intervention and counterfactual queries, with a calculus that yields explanation, transfer and missing-data recovery.",
+        "screening_reason": "The originator of the do-calculus derives what understanding requires from one hierarchy, directly answering module 1 and 6 questions; public-lecture format may limit density. Rubric: A✓ B✓ C✓ · D 2 · E 1 · F 1.",
+        "evidence": [],
+        "transcript_question": "Does Pearl derive concrete capabilities (transportability, missing-data recovery) from the three-rung hierarchy, or only assert them at public-lecture level?",
+        "caveat": "publisher abstract only; speaker from description",
+        "speaker": "Judea Pearl",
+        "modules": [
+          1,
+          6
+        ],
+        "workshop": "Theoretically Speaking"
+      },
+      "notes_scope": "YouTube title and description only; no transcript read in this pass.",
+      "resources": []
+    },
+    {
+      "id": "BrdaVSZBuyU",
+      "title": "Language Generation in the Limit",
+      "url": "https://www.youtube.com/watch?v=BrdaVSZBuyU",
+      "published_at": "2024-10-15",
+      "duration_seconds": 3120,
+      "screening": {
+        "id": "BrdaVSZBuyU",
+        "index": 35,
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "language generation",
+          "learning in the limit",
+          "gold-angluin"
+        ],
+        "publisher_promise": "Shows that generating valid new strings from an unknown language in an adversarial enumeration setting is possible, in sharp contrast to Gold and Angluin's impossibility for identification.",
+        "screening_reason": "The originator draws a principled distinction, generation versus identification, that reframes what next-token learners can achieve without distributional assumptions. Rubric: A✓ B✓ C✓ · D 2 · E 2 · F 2.",
+        "evidence": [],
+        "transcript_question": "How does the generation algorithm work, and what is the cost (breadth versus validity) that the separation from identification hides?",
+        "caveat": "publisher abstract only; speaker from description",
+        "speaker": "Jon Kleinberg",
+        "modules": [
+          1,
+          2
+        ],
+        "workshop": "Transformers as a Computational Model"
+      },
+      "notes_scope": "YouTube title and description only; no transcript read in this pass.",
+      "resources": []
+    },
+    {
+      "id": "7GVesfXD6_Q",
+      "title": "The Parallelism Tradeoff: Understanding Transformer Expressivity Through Circuit Complexity",
+      "url": "https://www.youtube.com/watch?v=7GVesfXD6_Q",
+      "published_at": "2024-10-15",
+      "duration_seconds": 2700,
+      "screening": {
+        "id": "7GVesfXD6_Q",
+        "index": 36,
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "transformers",
+          "circuit complexity",
+          "parallelism tradeoff"
+        ],
+        "publisher_promise": "Places log-precision transformers inside uniform constant-depth threshold circuits and proposes a general tradeoff: architectures as parallelizable as transformers inherit the same limits.",
+        "screening_reason": "The originator derives a falsifiable architectural principle from complexity theory, with predictions about tasks transformers cannot solve and a claimed weakness of the scaling paradigm. Rubric: A✓ B✓ C✓ · D 2 · E 2 · F 2.",
+        "evidence": [],
+        "transcript_question": "Does the parallelism tradeoff survive chain-of-thought and padding tokens, and what concrete predictions does Merrill commit to?",
+        "caveat": "publisher abstract only; speaker from description",
+        "speaker": "Will Merrill",
+        "modules": [
+          4
+        ],
+        "workshop": "Transformers as a Computational Model"
+      },
+      "notes_scope": "YouTube title and description only; no transcript read in this pass.",
+      "resources": []
+    },
+    {
+      "id": "rJF8g0XPauQ",
+      "title": "Educability (Virtual Talk)",
+      "url": "https://www.youtube.com/watch?v=rJF8g0XPauQ",
+      "published_at": "2024-08-01",
+      "duration_seconds": 3240,
+      "screening": {
+        "id": "rJF8g0XPauQ",
+        "index": 37,
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "educability",
+          "pac learning",
+          "definition of intelligence"
+        ],
+        "publisher_promise": "Proposes educability, combining learning from experience, learning from others and chaining learned knowledge, as a computationally specified replacement for intelligence.",
+        "screening_reason": "The PAC originator builds a behaviorally defined, computational account of the human capability, squarely on module 1. Rubric: A✓ B✓ C✓ · D 2 · E 2 · F 2.",
+        "evidence": [],
+        "transcript_question": "How does Valiant formalize the chaining of separately learned knowledge, and what does educability predict that 'intelligence' cannot?",
+        "caveat": "publisher abstract only; speaker from description",
+        "speaker": "Leslie Valiant",
+        "modules": [
+          1,
+          7,
+          9
+        ],
+        "workshop": "Understanding Higher-level Intelligence from AI, Psychology, and Neuroscience Perspectives"
+      },
+      "notes_scope": "YouTube title and description only; no transcript read in this pass.",
+      "resources": []
+    },
+    {
+      "id": "kNAmcaDAuyE",
+      "title": "Space is a latent sequence: A theory of hippocampus and PFC",
+      "url": "https://www.youtube.com/watch?v=kNAmcaDAuyE",
+      "published_at": "2024-08-01",
+      "duration_seconds": 4920,
+      "screening": {
+        "id": "kNAmcaDAuyE",
+        "index": 38,
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "hippocampus",
+          "latent sequence",
+          "cognitive maps"
+        ],
+        "publisher_promise": "Theory that space is a latent sequence: hippocampus and prefrontal cortex learn cognitive maps as higher-order sequence models.",
+        "screening_reason": "The originator of clone-structured cognitive graphs derives place cells and map-like behavior from sequence learning, a unifying principle across modules 3, 6 and 9. Rubric: A✓ B✓ C✓ · D 2 · E 2 · F 2.",
+        "evidence": [],
+        "transcript_question": "Does George show that place-field phenomena follow from latent sequence learning, with predictions that distinguish it from successor-representation accounts?",
+        "caveat": "no abstract, title and speaker only; inferred from title and known programme",
+        "speaker": "Dileep George",
+        "modules": [
+          3,
+          6,
+          9
+        ],
+        "workshop": "Understanding Higher-level Intelligence from AI, Psychology, and Neuroscience Perspectives"
+      },
+      "notes_scope": "YouTube title and description only; no transcript read in this pass.",
+      "resources": []
+    },
+    {
+      "id": "54RuBssDF_o",
+      "title": "Darwinian Machine Learning: Principles of Machine Learning in Evo-devo, Evo-eco and Evolutionary...",
+      "url": "https://www.youtube.com/watch?v=54RuBssDF_o",
+      "published_at": "2014-03-27",
+      "duration_seconds": 3420,
+      "screening": {
+        "id": "54RuBssDF_o",
+        "index": 39,
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "darwinian machine learning",
+          "evo-devo",
+          "associative learning"
+        ],
+        "publisher_promise": "Principles of machine learning applied to evo-devo, evo-eco and evolutionary transitions.",
+        "screening_reason": "The originator argues that evolution of developmental organization implements associative learning, a unifying principle connecting modules 2, 3 and 8. Rubric: A✓ B✓ C✓ · D 2 · E 2 · F 2.",
+        "evidence": [],
+        "transcript_question": "Does Watson derive that selection on regulatory interactions yields Hebbian-like generalization, and what does that predict?",
+        "caveat": "no abstract, title and speaker only; title truncated",
+        "speaker": "Richard Watson",
+        "modules": [
+          8,
+          2,
+          3
+        ],
+        "workshop": "Workshop on Computational Theories of Evolution"
+      },
+      "notes_scope": "YouTube title and description only; no transcript read in this pass.",
+      "resources": []
+    },
+    {
+      "id": "PwAq-JYyxd8",
+      "title": "Presentation of Evolution and Algorithms",
+      "url": "https://www.youtube.com/watch?v=PwAq-JYyxd8",
+      "published_at": "2014-03-27",
+      "duration_seconds": 3840,
+      "screening": {
+        "id": "PwAq-JYyxd8",
+        "index": 40,
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "evolution and algorithms",
+          "multiplicative weights",
+          "sex and mixability"
+        ],
+        "publisher_promise": "Presentation connecting evolution to algorithms, presumably including the result that sexual population genetics implements multiplicative-weights updates.",
+        "screening_reason": "The originators derive a learning-algorithm reading of natural selection, which reshapes evolution as learning; no abstract. Rubric: A✓ B✓ C✓ · D 2 · E 2 · F 2.",
+        "evidence": [],
+        "transcript_question": "Is the multiplicative-weights/mixability equivalence derived in the talk, and what does it predict about what selection optimizes?",
+        "caveat": "no abstract, title and speaker only; content inferred from speakers' known work",
+        "speaker": "Christos Papadimitriou, Umesh Vazirani",
+        "modules": [
+          8,
+          2
+        ],
+        "workshop": "Workshop on Computational Theories of Evolution"
+      },
+      "notes_scope": "YouTube title and description only; no transcript read in this pass.",
+      "resources": []
+    },
+    {
+      "id": "0yBBd89QBgk",
+      "title": "Presentation of Evolvability",
+      "url": "https://www.youtube.com/watch?v=0yBBd89QBgk",
+      "published_at": "2014-03-27",
+      "duration_seconds": 7380,
+      "screening": {
+        "id": "0yBBd89QBgk",
+        "index": 41,
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "evolvability",
+          "evolution as learning",
+          "pac"
+        ],
+        "publisher_promise": "Extended tutorial presentation of evolvability, Valiant's framework treating Darwinian evolution as a restricted form of PAC learning.",
+        "screening_reason": "The originator and core contributors derive what evolution can and cannot achieve from learning theory, the clearest 'evolution as learning' principle; a 2-hour architects' tutorial. Rubric: A✓ B✓ C✓ · D 2 · E 2 · F 2.",
+        "evidence": [],
+        "transcript_question": "Which function classes are provably evolvable, and how does the equivalence to correlational statistical-query learning constrain evolution?",
+        "caveat": "no abstract, title and speaker only; multi-speaker tutorial",
+        "speaker": "Leslie Valiant, Vitaly Feldman, Varun Kanade, Elaine Angelino",
+        "modules": [
+          8,
+          2
+        ],
+        "workshop": "Workshop on Computational Theories of Evolution"
+      },
+      "notes_scope": "YouTube title and description only; no transcript read in this pass.",
+      "resources": []
+    }
+  ]
+}

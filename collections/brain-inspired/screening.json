@@ -1,0 +1,41 @@
+{
+  "methodology": {
+    "bar": "Originator of a unifying principle derives its consequences densely enough to change a mental model. Must pass A–C; D–F scored 0–2 for ranking.",
+    "rubric": {
+      "A": "Originator or primary architect",
+      "B": "Unifying principle",
+      "C": "Derivation shown",
+      "D": "Contested or falsifiable",
+      "E": "Density",
+      "F": "Model update beyond the existing collection"
+    },
+    "decisions": "Same as MLST: read_transcript is not a watch recommendation."
+  },
+  "episodes": [
+    {
+      "id": "bi-052-andrew-saxe-deep-learning-theory",
+      "title": "BI 052 Andrew Saxe: Deep Learning Theory",
+      "url": "https://brain-inspired.castos.com/episodes/bi-052-andrew-saxe-deep-learning-theory",
+      "published_at": "2019-11-06",
+      "duration_seconds": 5148,
+      "screening": {
+        "id": "bi-052-andrew-saxe-deep-learning-theory",
+        "index": 0,
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "learning dynamics",
+          "representation",
+          "natural intelligence"
+        ],
+        "publisher_promise": "Interview on deep linear networks, how depth and initialization shape learning dynamics, replay and semantic development.",
+        "screening_reason": "Saxe derived exact learning dynamics in deep linear networks and used them to explain stage-like semantic development; he also co-authored the main critique of Tishby’s compression phase. Pairs with the Ganguli lecture and the Tishby seminar. Rubric: A originator ✓ · B unifying principle ✓ · C derivation ✓ · D 2 · E 2 · F 2.",
+        "evidence": [],
+        "transcript_question": "What do exact linear dynamics predict about the order of learning, and why does the compression phase depend on the nonlinearity?",
+        "caveat": "Audio only; show notes, no transcript shown."
+      },
+      "notes_scope": "Publisher and venue metadata only; no transcript read in this pass.",
+      "resources": []
+    }
+  ]
+}

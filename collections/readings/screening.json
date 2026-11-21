@@ -109,6 +109,200 @@
       },
       "notes_scope": "Publisher and venue metadata only; no transcript read in this pass.",
       "resources": []
+    },
+    {
+      "id": "arxiv-physics-0004057",
+      "title": "The Information Bottleneck Method — Tishby, Pereira and Bialek",
+      "url": "https://arxiv.org/abs/physics/0004057",
+      "published_at": "2000-04-24",
+      "duration_seconds": null,
+      "screening": {
+        "id": "arxiv-physics-0004057",
+        "index": 4,
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "information",
+          "representation"
+        ],
+        "publisher_promise": "Defines relevant information and the variational principle for compressing one variable while preserving information about another.",
+        "screening_reason": "The founding paper of the information bottleneck, the exemplar’s programme: the trade-off, its self-consistent equations and the iterative algorithm. Rubric: A originator ✓ · B unifying principle ✓ · C derivation ✓ · D 1 · E 2 · F 2.",
+        "evidence": [],
+        "transcript_question": "Derive the IB Lagrangian and its fixed-point equations; what is assumed about the joint distribution?",
+        "caveat": "Reading; full text on arXiv."
+      },
+      "notes_scope": "Publisher and venue metadata only; no transcript read in this pass.",
+      "resources": []
+    },
+    {
+      "id": "arxiv-1503-02406",
+      "title": "Deep Learning and the Information Bottleneck Principle — Tishby and Zaslavsky",
+      "url": "https://arxiv.org/abs/1503.02406",
+      "published_at": "2015-03-09",
+      "duration_seconds": null,
+      "screening": {
+        "id": "arxiv-1503-02406",
+        "index": 5,
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "information",
+          "generalization"
+        ],
+        "publisher_promise": "Analyzes deep networks through the information bottleneck and relates layers to bifurcation points of the IB trade-off.",
+        "screening_reason": "The paper behind the Stanford seminar; read with Saxe et al. (2018) for the critique. Rubric: A originator ✓ · B unifying principle ✓ · C derivation ✓ · D 2 · E 2 · F 2.",
+        "evidence": [],
+        "transcript_question": "Which claims are derived and which are conjectures later tested empirically?",
+        "caveat": "Reading; full text on arXiv."
+      },
+      "notes_scope": "Publisher and venue metadata only; no transcript read in this pass.",
+      "resources": []
+    },
+    {
+      "id": "arxiv-1810-10531",
+      "title": "A Mathematical Theory of Semantic Development in Deep Neural Networks — Saxe, McClelland and Ganguli",
+      "url": "https://arxiv.org/abs/1810.10531",
+      "published_at": "2018-10-23",
+      "duration_seconds": null,
+      "screening": {
+        "id": "arxiv-1810-10531",
+        "index": 6,
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "learning dynamics",
+          "representation"
+        ],
+        "publisher_promise": "Explains semantic-cognition phenomena with exact learning dynamics of deep linear networks (PNAS, 2019).",
+        "screening_reason": "The written core of the Saxe–Ganguli programme: representation structure derived from data statistics and learning dynamics. Rubric: A originator ✓ · B unifying principle ✓ · C derivation ✓ · D 1 · E 2 · F 2.",
+        "evidence": [],
+        "transcript_question": "How do singular values of the input–output correlation set the timescales of what is learned?",
+        "caveat": "Reading; full text on arXiv."
+      },
+      "notes_scope": "Publisher and venue metadata only; no transcript read in this pass.",
+      "resources": []
+    },
+    {
+      "id": "arxiv-2011-14522",
+      "title": "Feature Learning in Infinite-Width Neural Networks (Tensor Programs IV) — Yang and Hu",
+      "url": "https://arxiv.org/abs/2011.14522",
+      "published_at": "2020-11-30",
+      "duration_seconds": null,
+      "screening": {
+        "id": "arxiv-2011-14522",
+        "index": 7,
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "infinite width",
+          "feature learning"
+        ],
+        "publisher_promise": "Shows that standard and NTK parametrizations admit no feature-learning infinite-width limit, and proposes µP (ICML 2021).",
+        "screening_reason": "The written core of Tensor Programs; pairs with the Cartesian Cafe conversation. Rubric: A originator ✓ · B unifying principle ✓ · C derivation ✓ · D 1 · E 2 · F 2.",
+        "evidence": [],
+        "transcript_question": "What is the abc-parametrization, and what makes µP the maximal-update limit?",
+        "caveat": "Reading; full text on arXiv."
+      },
+      "notes_scope": "Publisher and venue metadata only; no transcript read in this pass.",
+      "resources": []
+    },
+    {
+      "id": "arxiv-1601-04920",
+      "title": "Understanding Deep Convolutional Networks — Stéphane Mallat",
+      "url": "https://arxiv.org/abs/1601.04920",
+      "published_at": "2016-01-19",
+      "duration_seconds": null,
+      "screening": {
+        "id": "arxiv-1601-04920",
+        "index": 8,
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "invariance",
+          "multiscale",
+          "structure"
+        ],
+        "publisher_promise": "Deep convolutional networks as cascades of filters and nonlinearities, with a mathematical framework for their invariants.",
+        "screening_reason": "Mallat’s own exposition of why invariance, separation and multiscale structure explain convolutional networks. Rubric: A originator ✓ · B unifying principle ✓ · C derivation ✓ · D 2 · E 2 · F 2.",
+        "evidence": [],
+        "transcript_question": "Which properties are proven for scattering and only conjectured for learned networks?",
+        "caveat": "Reading; full text on arXiv."
+      },
+      "notes_scope": "Publisher and venue metadata only; no transcript read in this pass.",
+      "resources": []
+    },
+    {
+      "id": "arxiv-2204-00607",
+      "title": "From Statistical to Causal Learning — Schölkopf and von Kügelgen",
+      "url": "https://arxiv.org/abs/2204.00607",
+      "published_at": "2022-04-01",
+      "duration_seconds": null,
+      "screening": {
+        "id": "arxiv-2204-00607",
+        "index": 9,
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "causality",
+          "representation"
+        ],
+        "publisher_promise": "Surveys the move from symbolic and statistical learning to interventional and causal models (ICM 2022 proceedings).",
+        "screening_reason": "The originator of the independent-causal-mechanisms programme sets out causal representation learning. No public recording of the ICLR 2022 talk could be confirmed, so the written version stands in. Rubric: A originator ✓ · B unifying principle ✓ · C derivation ✓ · D 2 (identifiability limits) · E 2 · F 2.",
+        "evidence": [],
+        "transcript_question": "What does the independent-mechanisms principle assume, and when are causal variables identifiable from data?",
+        "caveat": "Reading; full text on arXiv."
+      },
+      "notes_scope": "Publisher and venue metadata only; no transcript read in this pass.",
+      "resources": []
+    },
+    {
+      "id": "jaynes-1957-physrev-106-620",
+      "title": "Information Theory and Statistical Mechanics — E. T. Jaynes",
+      "url": "https://journals.aps.org/pr/abstract/10.1103/PhysRev.106.620",
+      "published_at": "1957-05-15",
+      "duration_seconds": null,
+      "screening": {
+        "id": "jaynes-1957-physrev-106-620",
+        "index": 10,
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "maximum entropy",
+          "inference",
+          "information"
+        ],
+        "publisher_promise": "Statistical mechanics treated as maximum-entropy statistical inference (Physical Review 106, 620).",
+        "screening_reason": "Adjacent first principle: the originating argument that maximum entropy is a rule of inference, not physics. It underlies energy-based, variational and free-energy accounts in the repo. Rubric: A originator ✓ · B unifying principle ✓ · C derivation ✓ · D 2 · E 2 · F 2.",
+        "evidence": [],
+        "transcript_question": "What justifies maximum entropy as inference, and where does the choice of constraints carry the real assumptions?",
+        "caveat": "Reading; the publisher page is paywalled, so a library copy is needed."
+      },
+      "notes_scope": "Publisher and venue metadata only; no transcript read in this pass.",
+      "resources": []
+    },
+    {
+      "id": "lieder-griffiths-2020-bbs",
+      "title": "Resource-Rational Analysis — Falk Lieder and Thomas L. Griffiths",
+      "url": "https://www.cambridge.org/core/product/identifier/S0140525X1900061X/type/journal_article",
+      "published_at": "2019-02-04",
+      "duration_seconds": null,
+      "screening": {
+        "id": "lieder-griffiths-2020-bbs",
+        "index": 11,
+        "decision": "read_transcript",
+        "priority": "medium",
+        "theme": [
+          "bounded rationality",
+          "metareasoning"
+        ],
+        "publisher_promise": "Cognition as the optimal use of limited computational resources (Behavioral and Brain Sciences 43, e1, target article with commentaries).",
+        "screening_reason": "The written statement of resource rationality, with open peer commentary that supplies the critiques. Rubric: A originator ✓ · B unifying principle ✓ · C derivation ✓ · D 2 · E 2 · F 2.",
+        "evidence": [],
+        "transcript_question": "Read the target article with two critical commentaries: is the framework falsifiable?",
+        "caveat": "Reading; publisher access is purchase-only. Medium until a free copy is found."
+      },
+      "notes_scope": "Publisher and venue metadata only; no transcript read in this pass.",
+      "resources": []
     }
   ]
 }

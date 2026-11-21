@@ -50,5 +50,25 @@
     "path": "collections/readings",
     "snapshot_date": "2026-11-21",
     "coverage_note": "Expository and founding papers by the originators of unifying programmes. Textbooks are excluded. Pilot set."
+  },
+  {
+    "id": "cartesian-cafe",
+    "name": "The Cartesian Cafe",
+    "short_name": "Cartesian Cafe",
+    "url": "https://cartesiancafe.podbean.com/",
+    "format": "Podcast",
+    "path": "collections/cartesian-cafe",
+    "snapshot_date": "2026-11-21",
+    "coverage_note": "Selected episodes only; not an inventory of the feed."
+  },
+  {
+    "id": "brain-inspired",
+    "name": "Brain Inspired",
+    "short_name": "Brain Inspired",
+    "url": "https://braininspired.co/",
+    "format": "Podcast",
+    "path": "collections/brain-inspired",
+    "snapshot_date": "2026-11-21",
+    "coverage_note": "Selected episodes only; not an inventory of the feed."
   }
 ]

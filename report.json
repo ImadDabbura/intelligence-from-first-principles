@@ -32,7 +32,7 @@
       "path": "collections/lectures",
       "snapshot_date": "2026-11-21",
       "coverage_note": "Selected lectures and seminars by the originators of unifying programmes, across venues. Pilot set; not an inventory of any venue.",
-      "screened": 5,
+      "screened": 9,
       "reviewed": 0,
       "inventory_range": {
         "first": "2022-01-13",
@@ -92,11 +92,51 @@
       "path": "collections/readings",
       "snapshot_date": "2026-11-21",
       "coverage_note": "Expository and founding papers by the originators of unifying programmes. Textbooks are excluded. Pilot set.",
-      "screened": 4,
+      "screened": 12,
       "reviewed": 0,
       "inventory_range": {
-        "first": "2000-07-20",
-        "last": "2020-10-22"
+        "first": "1957-05-15",
+        "last": "2022-04-01"
+      },
+      "reviewed_range": {
+        "first": null,
+        "last": null
+      }
+    },
+    {
+      "id": "cartesian-cafe",
+      "name": "The Cartesian Cafe",
+      "short_name": "Cartesian Cafe",
+      "url": "https://cartesiancafe.podbean.com/",
+      "format": "Podcast",
+      "path": "collections/cartesian-cafe",
+      "snapshot_date": "2026-11-21",
+      "coverage_note": "Selected episodes only; not an inventory of the feed.",
+      "screened": 2,
+      "reviewed": 0,
+      "inventory_range": {
+        "first": "2023-01-04",
+        "last": "2024-05-10"
+      },
+      "reviewed_range": {
+        "first": null,
+        "last": null
+      }
+    },
+    {
+      "id": "brain-inspired",
+      "name": "Brain Inspired",
+      "short_name": "Brain Inspired",
+      "url": "https://braininspired.co/",
+      "format": "Podcast",
+      "path": "collections/brain-inspired",
+      "snapshot_date": "2026-11-21",
+      "coverage_note": "Selected episodes only; not an inventory of the feed.",
+      "screened": 1,
+      "reviewed": 0,
+      "inventory_range": {
+        "first": "2019-11-06",
+        "last": "2019-11-06"
       },
       "reviewed_range": {
         "first": null,
@@ -105,7 +145,7 @@
     }
   ],
   "summary": {
-    "screened": 280,
+    "screened": 295,
     "reviewed": 131,
     "decisions": {
       "worthwhile": 60,
@@ -114,7 +154,7 @@
       "drop": 4
     },
     "inventory_range": {
-      "first": "2000-07-20",
+      "first": "1957-05-15",
       "last": "2026-10-26"
     },
     "reviewed_range": {

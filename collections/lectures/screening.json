@@ -142,6 +142,114 @@
           "source_issue": null
         }
       ]
+    },
+    {
+      "id": "XL07WEc2TRI",
+      "title": "Stanford Seminar - Information Theory of Deep Learning, Naftali Tishby",
+      "url": "https://www.youtube.com/watch?v=XL07WEc2TRI",
+      "published_at": null,
+      "duration_seconds": null,
+      "screening": {
+        "id": "XL07WEc2TRI",
+        "index": 5,
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "information",
+          "generalization",
+          "representation"
+        ],
+        "publisher_promise": "Stanford seminar by Naftali Tishby on the information theory of deep learning.",
+        "screening_reason": "The user’s exemplar for this bar: the originator of the information bottleneck argues that SGD first fits and then compresses, so that layers converge toward the IB bound. One principle is claimed to explain generalization and representation. Rubric: A originator ✓ · B unifying principle ✓ · C derivation ✓ · D 2 (the compression phase was disputed by Saxe et al., 2018) · E 2 · F 2.",
+        "evidence": [],
+        "transcript_question": "Which claims are IB identities, and which (the compression phase, its dependence on the activation function and on binning of mutual information) are empirical and contested?",
+        "caveat": "Title and channel verified by YouTube oEmbed; date and length not verified."
+      },
+      "notes_scope": "Publisher and venue metadata only; no transcript read in this pass.",
+      "resources": []
+    },
+    {
+      "id": "gJbgz-1YcWY",
+      "title": "Mathematical Mysteries of Deep Neural Networks — Stéphane Mallat (2019 Lytle Lecture)",
+      "url": "https://youtu.be/gJbgz-1YcWY",
+      "published_at": null,
+      "duration_seconds": null,
+      "screening": {
+        "id": "gJbgz-1YcWY",
+        "index": 6,
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "structure",
+          "invariance",
+          "multiscale"
+        ],
+        "publisher_promise": "University of Washington Lytle Lecture on what regularity deep networks exploit.",
+        "screening_reason": "Mallat built wavelet scattering: invariance and stability to deformations, obtained by iterating wavelet transforms and modulus, are derived as what a convolutional network must compute. It gives module 2 a constructive mathematical answer about priors, competing with learned-prior accounts. Rubric: A originator ✓ · B unifying principle ✓ · C derivation ✓ · D 2 (scattering versus learned features) · E 2 · F 2.",
+        "evidence": [],
+        "transcript_question": "What does scattering explain about CNNs, and where do learned networks exceed it (and why)?",
+        "caveat": "Video embedded on the UW ECE page (posted 18 Dec 2019); length and language not shown, presumably English."
+      },
+      "notes_scope": "Publisher and venue metadata only; no transcript read in this pass.",
+      "resources": [
+        {
+          "url": "https://www.ece.uw.edu/lytle/mathematical-mysteries-of-deep-neural-networks-stephane-mallat/",
+          "category": "Abstract",
+          "origins": [
+            "Venue page"
+          ],
+          "source_issue": null
+        }
+      ]
+    },
+    {
+      "id": "-DSuo7omAf4",
+      "title": "Tom Griffiths | CMBC Lecture: The Rational Use of Cognitive Resources",
+      "url": "https://www.youtube.com/watch?v=-DSuo7omAf4",
+      "published_at": null,
+      "duration_seconds": null,
+      "screening": {
+        "id": "-DSuo7omAf4",
+        "index": 7,
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "bounded rationality",
+          "metareasoning",
+          "natural intelligence"
+        ],
+        "publisher_promise": "Emory Center for Mind, Brain and Culture lecture on resource-rational models of cognition.",
+        "screening_reason": "Griffiths and Lieder’s resource rationality: replace unbounded optimality with optimal use of limited computation, so apparent biases become rational trade-offs. A unifying principle for reasoning under compute limits, relevant to module 5 and test-time compute. Rubric: A originator ✓ · B unifying principle ✓ · C derivation ✓ · D 2 (unfalsifiability critique in BBS commentaries) · E 2 · F 2.",
+        "evidence": [],
+        "transcript_question": "How is the cost of computation formalized, and what does the framework predict that an unbounded Bayesian model does not?",
+        "caveat": "Title and channel verified by YouTube oEmbed; the event page gives about 74 minutes (2023), not independently verified."
+      },
+      "notes_scope": "Publisher and venue metadata only; no transcript read in this pass.",
+      "resources": []
+    },
+    {
+      "id": "sFXFCUsqcYU",
+      "title": "Jessica Flack - Collective intelligence as collective computation: Future directions",
+      "url": "https://www.youtube.com/watch?v=sFXFCUsqcYU",
+      "published_at": null,
+      "duration_seconds": null,
+      "screening": {
+        "id": "sFXFCUsqcYU",
+        "index": 8,
+        "decision": "read_transcript",
+        "priority": "medium",
+        "theme": [
+          "collective intelligence",
+          "coarse-graining"
+        ],
+        "publisher_promise": "IPAM talk on collective intelligence as collective computation.",
+        "screening_reason": "Flack’s programme: collectives compute by coarse-graining micro-level information into macro variables that feed back on the parts. It is the strongest originator account for module 9 that the repo lacks. Rubric: A originator ✓ · B unifying principle ✓ · C derivation ✓ · D 1 · E 1 (a future-directions talk, may be less derived) · F 2.",
+        "evidence": [],
+        "transcript_question": "Is coarse-graining given a formal definition and a testable prediction, or stated as a research agenda?",
+        "caveat": "Title and channel verified by YouTube oEmbed; date and length not verified. Medium because the title suggests an agenda more than a derivation."
+      },
+      "notes_scope": "Publisher and venue metadata only; no transcript read in this pass.",
+      "resources": []
     }
   ]
 }

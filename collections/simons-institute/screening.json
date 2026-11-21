@@ -1536,6 +1536,141 @@
       },
       "notes_scope": "Publisher metadata only; screened on the maths track by Codex; no transcript read.",
       "resources": []
+    },
+    {
+      "id": "WtMgmbanJ4M",
+      "title": "Optimal Spectral Gaps | Richard M. Karp Distinguished Lecture",
+      "url": "https://www.youtube.com/watch?v=WtMgmbanJ4M",
+      "published_at": "2026-10-15",
+      "duration_seconds": 4200,
+      "screening": {
+        "id": "WtMgmbanJ4M",
+        "index": 49,
+        "decision": "read_transcript",
+        "priority": "high",
+        "track": "maths",
+        "pillars": [
+          "§4",
+          "§32",
+          "§29",
+          "§44"
+        ],
+        "theme": [
+          "maths track",
+          "§4",
+          "§32"
+        ],
+        "publisher_promise": "",
+        "screening_reason": "A leading probabilist gives a distinguished survey explaining spectral gaps and a general polynomial method. (Maths track: architect-taught exposition of a Compass pillar.)",
+        "evidence": [],
+        "transcript_question": "How does the polynomial method establish near-optimal spectral gaps and rapid exploration?",
+        "caveat": "The supplied metadata does not verify derivations, prerequisites or the balance between exposition and new results.",
+        "speaker": "Ramon van Handel",
+        "modules": [],
+        "workshop": "Richard M. Karp Distinguished Lectures"
+      },
+      "notes_scope": "Publisher metadata only; screened on the maths track by Codex; no transcript read.",
+      "resources": []
+    },
+    {
+      "id": "sKKQR80UV7M",
+      "title": "From Worst to Average Case in Statistical Problems | Richard M. Karp Distinguished Lecture",
+      "url": "https://www.youtube.com/watch?v=sKKQR80UV7M",
+      "published_at": "2024-12-02",
+      "duration_seconds": 3540,
+      "screening": {
+        "id": "sKKQR80UV7M",
+        "index": 50,
+        "decision": "read_transcript",
+        "priority": "high",
+        "track": "maths",
+        "pillars": [
+          "§10",
+          "§12"
+        ],
+        "theme": [
+          "maths track",
+          "§10",
+          "§12"
+        ],
+        "publisher_promise": "",
+        "screening_reason": "A leading statistician uses a distinguished lecture to connect foundational average-case and worst-case perspectives. (Maths track: architect-taught exposition of a Compass pillar.)",
+        "evidence": [],
+        "transcript_question": "When does an average-case statistical model change the meaning of learning optimality?",
+        "caveat": "The supplied metadata does not verify derivations, prerequisites or the balance between exposition and new results.",
+        "speaker": "Po-Ling Loh",
+        "modules": [],
+        "workshop": "Richard M. Karp Distinguished Lectures"
+      },
+      "notes_scope": "Publisher metadata only; screened on the maths track by Codex; no transcript read.",
+      "resources": []
+    },
+    {
+      "id": "ykxSLid2Y9A",
+      "title": "Graphons and Graphexes as Models of Large Sparse Networks",
+      "url": "https://www.youtube.com/watch?v=ykxSLid2Y9A",
+      "published_at": "2022-11-15",
+      "duration_seconds": 4560,
+      "screening": {
+        "id": "ykxSLid2Y9A",
+        "index": 51,
+        "decision": "read_transcript",
+        "priority": "high",
+        "track": "maths",
+        "pillars": [
+          "§4",
+          "§44",
+          "§10"
+        ],
+        "theme": [
+          "maths track",
+          "§4",
+          "§44"
+        ],
+        "publisher_promise": "",
+        "screening_reason": "A graph-limit architect explains central dense and sparse network-limit objects in a distinguished lecture. (Maths track: architect-taught exposition of a Compass pillar.)",
+        "evidence": [],
+        "transcript_question": "Why do dense and sparse graph limits require different probabilistic objects?",
+        "caveat": "The supplied metadata does not verify derivations, prerequisites or the balance between exposition and new results.",
+        "speaker": "Jennifer Chayes",
+        "modules": [],
+        "workshop": "Richard M. Karp Distinguished Lectures"
+      },
+      "notes_scope": "Publisher metadata only; screened on the maths track by Codex; no transcript read.",
+      "resources": []
+    },
+    {
+      "id": "xWLhdfMJ7kA",
+      "title": "Detection and Estimation through an Information Theory Lens",
+      "url": "https://www.youtube.com/watch?v=xWLhdfMJ7kA",
+      "published_at": "2015-03-25",
+      "duration_seconds": 1620,
+      "screening": {
+        "id": "xWLhdfMJ7kA",
+        "index": 52,
+        "decision": "read_transcript",
+        "priority": "high",
+        "track": "maths",
+        "pillars": [
+          "§9",
+          "§10"
+        ],
+        "theme": [
+          "maths track",
+          "§9",
+          "§10"
+        ],
+        "publisher_promise": "",
+        "screening_reason": "Verdu, an architect of information theory, surveying detection and estimation through information measures, building core links between the two pillars. (Maths track: architect-taught exposition of a Compass pillar.)",
+        "evidence": [],
+        "transcript_question": "How do information measures (divergence, mutual information, I-MMSE type identities) characterize the limits of detection and estimation?",
+        "caveat": "Workshop talk; survey depth inferred from title and speaker.",
+        "speaker": "Sergio Verdú",
+        "modules": [],
+        "workshop": "Workshop on Information Theory, Learning and Big Data"
+      },
+      "notes_scope": "Publisher metadata only; screened on the maths track by Codex; no transcript read.",
+      "resources": []
     }
   ]
 }

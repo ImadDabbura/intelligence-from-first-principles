@@ -133,6 +133,72 @@
       },
       "notes_scope": "Publisher metadata only; no transcript read in this pass.",
       "resources": []
+    },
+    {
+      "id": "k8_qNnr3YUE",
+      "title": "ICTP-SISSA Colloquium by Prof. Chris Jarzynski on \"Scaling Down the Laws of Thermodynamics\"",
+      "url": "https://www.youtube.com/watch?v=k8_qNnr3YUE",
+      "published_at": "2020-07-15",
+      "duration_seconds": 4740,
+      "screening": {
+        "id": "k8_qNnr3YUE",
+        "index": 4,
+        "decision": "read_transcript",
+        "priority": "high",
+        "track": "maths",
+        "pillars": [
+          "§33",
+          "§4"
+        ],
+        "theme": [
+          "maths track",
+          "§33",
+          "§4"
+        ],
+        "publisher_promise": "",
+        "screening_reason": "A principal architect of nonequilibrium thermodynamics explains how macroscopic laws extend to fluctuating microscopic systems. (Maths track: architect-taught exposition of a Compass pillar.)",
+        "evidence": [],
+        "transcript_question": "How do fluctuation relations recover thermodynamic laws while allowing microscopic violations?",
+        "caveat": "Abstract truncated; quantitative derivations unverified.",
+        "speaker": "Christopher Jarzynski",
+        "modules": [],
+        "workshop": "ICTP Colloquia"
+      },
+      "notes_scope": "Publisher metadata only; screened on the maths track by Codex; no transcript read.",
+      "resources": []
+    },
+    {
+      "id": "hZgAIU86kpM",
+      "title": "Giorgio Parisi: \"Theoretical progresses in off-­‐equilibrium behaviour\" - 1",
+      "url": "https://www.youtube.com/watch?v=hZgAIU86kpM",
+      "published_at": "2011-01-25",
+      "duration_seconds": 780,
+      "screening": {
+        "id": "hZgAIU86kpM",
+        "index": 5,
+        "decision": "read_transcript",
+        "priority": "high",
+        "track": "maths",
+        "pillars": [
+          "§33",
+          "§8b"
+        ],
+        "theme": [
+          "maths track",
+          "§33",
+          "§8b"
+        ],
+        "publisher_promise": "",
+        "screening_reason": "Dirac Medalist lecture series part 1 by Parisi, the architect of spin-glass theory, on off-equilibrium (glassy) dynamics central to stat physics of learning landscapes. (Maths track: architect-taught exposition of a Compass pillar.)",
+        "evidence": [],
+        "transcript_question": "What theoretical tools describe off-equilibrium glassy dynamics and aging, and why they matter for rugged landscapes?",
+        "caveat": "no abstract; recording age and level of detail unverified",
+        "speaker": "Giorgio Parisi",
+        "modules": [],
+        "workshop": "ICTP channel uploads (hand-picked, not in a selected playlist)"
+      },
+      "notes_scope": "Publisher metadata only; screened on the maths track by Codex; no transcript read.",
+      "resources": []
     }
   ]
 }

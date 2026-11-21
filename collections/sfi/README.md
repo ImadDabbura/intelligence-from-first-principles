@@ -26,6 +26,10 @@ Metadata only, screened against the A–F originator rubric by parallel AI scree
 - [A New Approach to Complex Systems Dynamics](https://www.youtube.com/watch?v=rxznTwBm2wU) — John Harte
 - [Sloppy Models, Differential Geometry, and Why Science Works](https://www.youtube.com/watch?v=QfaWnTToDWY) — Jim Sethna
 
+- [How Much Math Is Knowable?](https://www.youtube.com/watch?v=dQC7AIT91_g) — Scott Aaronson · maths track §12b §1
+
+- [An introduction to stochastic thermodynamics - Takahiro Sagawa / NEST](https://www.youtube.com/watch?v=m023IrSLF-k) — Takahiro Sagawa · maths track §33 §27
+
 ## Transcript reviews
 
 None yet.

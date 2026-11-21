@@ -848,6 +848,405 @@
       },
       "notes_scope": "Publisher metadata only; screened on the maths track by Codex; no transcript read.",
       "resources": []
+    },
+    {
+      "id": "i1IYMs1gmlA",
+      "title": "Prof. Sebastian Reich | PT1 | Uncertainty quantification and data assimilation",
+      "url": "https://www.youtube.com/watch?v=i1IYMs1gmlA",
+      "published_at": "2023-01-20",
+      "duration_seconds": 5340,
+      "screening": {
+        "id": "i1IYMs1gmlA",
+        "index": 27,
+        "decision": "read_transcript",
+        "priority": "high",
+        "track": "maths",
+        "pillars": [
+          "§30",
+          "§31",
+          "§27"
+        ],
+        "theme": [
+          "maths track",
+          "§30",
+          "§31"
+        ],
+        "publisher_promise": "",
+        "screening_reason": "Reich's first tutorial develops interacting-particle inference, mean-field limits and Bayesian versus frequentist validation at foundational depth. (Maths track: architect-taught exposition of a Compass pillar.)",
+        "evidence": [],
+        "transcript_question": "How do interacting-particle methods approximate Bayesian inference, and what does their mean-field limit guarantee?",
+        "caveat": "Metadata does not verify full mathematical coverage, derivations or prerequisites.",
+        "speaker": "Professor Sebastian Reich",
+        "modules": [],
+        "workshop": "DDEW01"
+      },
+      "notes_scope": "Publisher metadata only; screened on the maths track by Codex; no transcript read.",
+      "resources": []
+    },
+    {
+      "id": "P30ZG9mrQSg",
+      "title": "UNQW01 | Prof. Chris Oates | Bayesian Probabilistic Numerical Methods",
+      "url": "https://www.youtube.com/watch?v=P30ZG9mrQSg",
+      "published_at": "2025-12-15",
+      "duration_seconds": 3480,
+      "screening": {
+        "id": "P30ZG9mrQSg",
+        "index": 28,
+        "decision": "read_transcript",
+        "priority": "high",
+        "track": "maths",
+        "pillars": [
+          "§30",
+          "§42"
+        ],
+        "theme": [
+          "maths track",
+          "§30",
+          "§42"
+        ],
+        "publisher_promise": "",
+        "screening_reason": "A leading probabilistic-numerics contributor presents computation as Bayesian inversion in a foundational methodology session. (Maths track: architect-taught exposition of a Compass pillar.)",
+        "evidence": [],
+        "transcript_question": "How does conditioning on numerical information produce a posterior over computational error?",
+        "caveat": "Abstract truncated; detailed derivations unverified.",
+        "speaker": "Chris Oates",
+        "modules": [],
+        "workshop": "UNQW01"
+      },
+      "notes_scope": "Publisher metadata only; screened on the maths track by Codex; no transcript read.",
+      "resources": []
+    },
+    {
+      "id": "yP704yu1kF4",
+      "title": "Michael Goldstein | Uncertainty analysis for complex systems modelled by computer simulators",
+      "url": "https://www.youtube.com/watch?v=yP704yu1kF4",
+      "published_at": "2025-12-15",
+      "duration_seconds": 3180,
+      "screening": {
+        "id": "yP704yu1kF4",
+        "index": 29,
+        "decision": "read_transcript",
+        "priority": "high",
+        "track": "maths",
+        "pillars": [
+          "§30",
+          "§10"
+        ],
+        "theme": [
+          "maths track",
+          "§30",
+          "§10"
+        ],
+        "publisher_promise": "",
+        "screening_reason": "A principal architect of Bayes-linear uncertainty analysis gives an explicit overview of its general methodology. (Maths track: architect-taught exposition of a Compass pillar.)",
+        "evidence": [],
+        "transcript_question": "How do emulation and history matching separate uncertainty sources and constrain plausible inputs?",
+        "caveat": "Abstract truncated; mathematical detail should be checked.",
+        "speaker": "Michael Goldstein",
+        "modules": [],
+        "workshop": "UNQW01"
+      },
+      "notes_scope": "Publisher metadata only; screened on the maths track by Codex; no transcript read.",
+      "resources": []
+    },
+    {
+      "id": "EoZhx5LPfm8",
+      "title": "STSW04 | Matthew Stephens | On applications of Empirical Bayes approaches to Normal Means problem",
+      "url": "https://www.youtube.com/watch?v=EoZhx5LPfm8",
+      "published_at": "2025-12-15",
+      "duration_seconds": 2700,
+      "screening": {
+        "id": "EoZhx5LPfm8",
+        "index": 30,
+        "decision": "read_transcript",
+        "priority": "high",
+        "track": "maths",
+        "pillars": [
+          "§10",
+          "§30"
+        ],
+        "theme": [
+          "maths track",
+          "§10",
+          "§30"
+        ],
+        "publisher_promise": "",
+        "screening_reason": "A leading empirical-Bayes researcher explains the canonical normal-means problem and the central shrinkage principle. (Maths track: architect-taught exposition of a Compass pillar.)",
+        "evidence": [],
+        "transcript_question": "Why can empirical-Bayes shrinkage outperform coordinatewise maximum likelihood?",
+        "caveat": "Abstract truncated; balance of theory and applications unverified.",
+        "speaker": "Matthew Stephens",
+        "modules": [],
+        "workshop": "STSW04"
+      },
+      "notes_scope": "Publisher metadata only; screened on the maths track by Codex; no transcript read.",
+      "resources": []
+    },
+    {
+      "id": "aRjxnM5i8_g",
+      "title": "MDL | Prof. Lexing Ying | Lecture series: Selected topics in the mathematics of deep learning",
+      "url": "https://www.youtube.com/watch?v=aRjxnM5i8_g",
+      "published_at": "2025-12-15",
+      "duration_seconds": 3720,
+      "screening": {
+        "id": "aRjxnM5i8_g",
+        "index": 31,
+        "decision": "read_transcript",
+        "priority": "high",
+        "track": "maths",
+        "pillars": [
+          "§12",
+          "§25",
+          "§42"
+        ],
+        "theme": [
+          "maths track",
+          "§12",
+          "§25"
+        ],
+        "publisher_promise": "",
+        "screening_reason": "Lexing Ying lecture series on the mathematics of deep learning (NNs and PDEs); architect teaching at depth. (Maths track: architect-taught exposition of a Compass pillar.)",
+        "evidence": [],
+        "transcript_question": "How neural networks represent and solve PDEs, and what approximation theory guarantees.",
+        "caveat": "series: start with part 1; lecture order of the two parts unverified",
+        "speaker": "Professor Lexing Ying",
+        "modules": [],
+        "workshop": "Mathematics of deep learning [MDL] (no playlist; grouped by title code)"
+      },
+      "notes_scope": "Publisher metadata only; screened on the maths track by Codex; no transcript read.",
+      "resources": []
+    },
+    {
+      "id": "8kP5T1N_ACU",
+      "title": "MDL | Helmut Bölcskei | Rothschild Lecture:  The mathematical universe behind deep neural networks",
+      "url": "https://www.youtube.com/watch?v=8kP5T1N_ACU",
+      "published_at": "2025-12-15",
+      "duration_seconds": 4200,
+      "screening": {
+        "id": "8kP5T1N_ACU",
+        "index": 32,
+        "decision": "read_transcript",
+        "priority": "high",
+        "track": "maths",
+        "pillars": [
+          "§12",
+          "§14"
+        ],
+        "theme": [
+          "maths track",
+          "§12",
+          "§14"
+        ],
+        "publisher_promise": "",
+        "screening_reason": "Rothschild Lecture by Bölcskei, a leading figure in approximation theory of DNNs, on the mathematical universe behind deep networks. (Maths track: architect-taught exposition of a Compass pillar.)",
+        "evidence": [],
+        "transcript_question": "What approximation-theoretic and metric-entropy results characterize what deep networks can represent?",
+        "caveat": "named lecture; derivation depth unverified",
+        "speaker": "Professor Helmut Bölcskei",
+        "modules": [],
+        "workshop": "Mathematics of deep learning [MDL] (no playlist; grouped by title code)"
+      },
+      "notes_scope": "Publisher metadata only; screened on the maths track by Codex; no transcript read.",
+      "resources": []
+    },
+    {
+      "id": "9qSjwIOpvZw",
+      "title": "Target Trials, Structural Nest Models, and Marginal Structural Models",
+      "url": "https://www.youtube.com/watch?v=9qSjwIOpvZw",
+      "published_at": "2026-05-27",
+      "duration_seconds": 4020,
+      "screening": {
+        "id": "9qSjwIOpvZw",
+        "index": 33,
+        "decision": "read_transcript",
+        "priority": "high",
+        "track": "maths",
+        "pillars": [
+          "§22",
+          "§10"
+        ],
+        "theme": [
+          "maths track",
+          "§22",
+          "§10"
+        ],
+        "publisher_promise": "",
+        "screening_reason": "Rothschild lecture by James Robins, architect of g-methods, on target trials and structural nested/marginal structural models. (Maths track: architect-taught exposition of a Compass pillar.)",
+        "evidence": [],
+        "transcript_question": "How target-trial emulation and g-methods identify time-varying treatment effects.",
+        "caveat": "named lecture; derivation depth unverified",
+        "speaker": "Professor James Robins",
+        "modules": [],
+        "workshop": "Rothschild Distinguished Visiting Fellows Lectures"
+      },
+      "notes_scope": "Publisher metadata only; screened on the maths track by Codex; no transcript read.",
+      "resources": []
+    },
+    {
+      "id": "6h516bVWzOI",
+      "title": "Prof. Chus Sanz-Serna | Rothschild Lecture: Hamiltonian Monte Carlo and geometric integration",
+      "url": "https://www.youtube.com/watch?v=6h516bVWzOI",
+      "published_at": "2023-03-22",
+      "duration_seconds": 3300,
+      "screening": {
+        "id": "6h516bVWzOI",
+        "index": 34,
+        "decision": "read_transcript",
+        "priority": "high",
+        "track": "maths",
+        "pillars": [
+          "§32",
+          "§42"
+        ],
+        "theme": [
+          "maths track",
+          "§32",
+          "§42"
+        ],
+        "publisher_promise": "",
+        "screening_reason": "Rothschild lecture by Sanz-Serna, architect of geometric integration, on HMC. (Maths track: architect-taught exposition of a Compass pillar.)",
+        "evidence": [],
+        "transcript_question": "Why symplectic integrators make Hamiltonian Monte Carlo work.",
+        "caveat": "named lecture; derivation depth unverified",
+        "speaker": "Professor Chus Sanz-Serna",
+        "modules": [],
+        "workshop": "Rothschild Distinguished Visiting Fellows Lectures"
+      },
+      "notes_scope": "Publisher metadata only; screened on the maths track by Codex; no transcript read.",
+      "resources": []
+    },
+    {
+      "id": "L-AEmnHsiTQ",
+      "title": "Prof. Andrew Stuart | Rothschild Lecture: The Legacy of Rudolph Kalman",
+      "url": "https://www.youtube.com/watch?v=L-AEmnHsiTQ",
+      "published_at": "2023-03-22",
+      "duration_seconds": 3780,
+      "screening": {
+        "id": "L-AEmnHsiTQ",
+        "index": 35,
+        "decision": "read_transcript",
+        "priority": "high",
+        "track": "maths",
+        "pillars": [
+          "§31",
+          "§30",
+          "§49"
+        ],
+        "theme": [
+          "maths track",
+          "§31",
+          "§30"
+        ],
+        "publisher_promise": "",
+        "screening_reason": "Rothschild lecture by Andrew Stuart, architect of Bayesian inverse problems, on the legacy of Kalman. (Maths track: architect-taught exposition of a Compass pillar.)",
+        "evidence": [],
+        "transcript_question": "How the Kalman filter generalizes to modern data assimilation and inference.",
+        "caveat": "named lecture; derivation depth unverified",
+        "speaker": "Professor Andrew Stuart",
+        "modules": [],
+        "workshop": "Rothschild Distinguished Visiting Fellows Lectures"
+      },
+      "notes_scope": "Publisher metadata only; screened on the maths track by Codex; no transcript read.",
+      "resources": []
+    },
+    {
+      "id": "wIlPk66x1T0",
+      "title": "Prof. Martin Hairer | Rothschild Lecture: Random rubber bands",
+      "url": "https://www.youtube.com/watch?v=wIlPk66x1T0",
+      "published_at": "2023-03-22",
+      "duration_seconds": 4380,
+      "screening": {
+        "id": "wIlPk66x1T0",
+        "index": 36,
+        "decision": "read_transcript",
+        "priority": "high",
+        "track": "maths",
+        "pillars": [
+          "§27",
+          "§25"
+        ],
+        "theme": [
+          "maths track",
+          "§27",
+          "§25"
+        ],
+        "publisher_promise": "",
+        "screening_reason": "Rothschild lecture by Hairer, the architect of regularity structures, on random rubber bands (stochastic PDE). (Maths track: architect-taught exposition of a Compass pillar.)",
+        "evidence": [],
+        "transcript_question": "What makes singular SPDEs ill-posed and how they are renormalized.",
+        "caveat": "named lecture; may be accessible rather than technical",
+        "speaker": "Professor Martin Hairer",
+        "modules": [],
+        "workshop": "Rothschild Distinguished Visiting Fellows Lectures"
+      },
+      "notes_scope": "Publisher metadata only; screened on the maths track by Codex; no transcript read.",
+      "resources": []
+    },
+    {
+      "id": "ZdDi-w1iwac",
+      "title": "Prof. Leonid Pastur | Rothschild Lecture: Disordered systems and related spectra",
+      "url": "https://www.youtube.com/watch?v=ZdDi-w1iwac",
+      "published_at": "2023-03-21",
+      "duration_seconds": 4260,
+      "screening": {
+        "id": "ZdDi-w1iwac",
+        "index": 37,
+        "decision": "read_transcript",
+        "priority": "high",
+        "track": "maths",
+        "pillars": [
+          "§29",
+          "§33"
+        ],
+        "theme": [
+          "maths track",
+          "§29",
+          "§33"
+        ],
+        "publisher_promise": "",
+        "screening_reason": "Rothschild lecture by Pastur, a founder of random matrix theory, on disordered systems and their spectra. (Maths track: architect-taught exposition of a Compass pillar.)",
+        "evidence": [],
+        "transcript_question": "How spectra of random operators (Marchenko-Pastur, localization) are derived.",
+        "caveat": "named lecture; derivation depth unverified",
+        "speaker": "Professor Leonid Pastur",
+        "modules": [],
+        "workshop": "Rothschild Distinguished Visiting Fellows Lectures"
+      },
+      "notes_scope": "Publisher metadata only; screened on the maths track by Codex; no transcript read.",
+      "resources": []
+    },
+    {
+      "id": "TeQbOFqXMrY",
+      "title": "Prof. Avi Wigderson | Rothschild Lecture: The power and weakness of randomness, when you are...",
+      "url": "https://www.youtube.com/watch?v=TeQbOFqXMrY",
+      "published_at": "2023-03-21",
+      "duration_seconds": 4020,
+      "screening": {
+        "id": "TeQbOFqXMrY",
+        "index": 38,
+        "decision": "read_transcript",
+        "priority": "high",
+        "track": "maths",
+        "pillars": [
+          "§11",
+          "§12b"
+        ],
+        "theme": [
+          "maths track",
+          "§11",
+          "§12b"
+        ],
+        "publisher_promise": "",
+        "screening_reason": "Rothschild lecture by Wigderson, architect of pseudorandomness, on the power and weakness of randomness in computation. (Maths track: architect-taught exposition of a Compass pillar.)",
+        "evidence": [],
+        "transcript_question": "When does randomness help computation, and why hardness implies derandomization?",
+        "caveat": "named lecture; derivation depth unverified",
+        "speaker": "Professor Avi Wigderson",
+        "modules": [],
+        "workshop": "Rothschild Distinguished Visiting Fellows Lectures"
+      },
+      "notes_scope": "Publisher metadata only; screened on the maths track by Codex; no transcript read.",
+      "resources": []
     }
   ]
 }

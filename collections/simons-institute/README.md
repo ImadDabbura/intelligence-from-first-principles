@@ -96,6 +96,14 @@ Metadata only (YouTube title and description), screened against the A–F origin
 
 - [Crash Course on Probabilistically Checkable Proofs (PCP): Introduction](https://www.youtube.com/watch?v=twGSezF8eKk) — Irit Dinur · maths track §12b §1
 
+- [Optimal Spectral Gaps | Richard M. Karp Distinguished Lecture](https://www.youtube.com/watch?v=WtMgmbanJ4M) — Ramon van Handel · maths track §4 §32 §29 §44
+
+- [From Worst to Average Case in Statistical Problems | Richard M. Karp Distinguished Lecture](https://www.youtube.com/watch?v=sKKQR80UV7M) — Po-Ling Loh · maths track §10 §12
+
+- [Graphons and Graphexes as Models of Large Sparse Networks](https://www.youtube.com/watch?v=ykxSLid2Y9A) — Jennifer Chayes · maths track §4 §44 §10
+
+- [Detection and Estimation through an Information Theory Lens](https://www.youtube.com/watch?v=xWLhdfMJ7kA) — Sergio Verdú · maths track §9 §10
+
 ## Transcript reviews
 
 None yet.

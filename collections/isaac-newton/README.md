@@ -48,6 +48,30 @@ Metadata only, screened against the A–F originator rubric by parallel AI scree
 
 - [VMVW03 | Prof. John Ball | Nonlinear elasticity and image processing](https://www.youtube.com/watch?v=RVnYVWPf1ec) — John Ball · maths track §25 §8 §43
 
+- [Prof. Sebastian Reich | PT1 | Uncertainty quantification and data assimilation](https://www.youtube.com/watch?v=i1IYMs1gmlA) — Professor Sebastian Reich · maths track §30 §31 §27
+
+- [UNQW01 | Prof. Chris Oates | Bayesian Probabilistic Numerical Methods](https://www.youtube.com/watch?v=P30ZG9mrQSg) — Chris Oates · maths track §30 §42
+
+- [Michael Goldstein | Uncertainty analysis for complex systems modelled by computer simulators](https://www.youtube.com/watch?v=yP704yu1kF4) — Michael Goldstein · maths track §30 §10
+
+- [STSW04 | Matthew Stephens | On applications of Empirical Bayes approaches to Normal Means problem](https://www.youtube.com/watch?v=EoZhx5LPfm8) — Matthew Stephens · maths track §10 §30
+
+- [MDL | Prof. Lexing Ying | Lecture series: Selected topics in the mathematics of deep learning](https://www.youtube.com/watch?v=aRjxnM5i8_g) — Professor Lexing Ying · maths track §12 §25 §42
+
+- [MDL | Helmut Bölcskei | Rothschild Lecture:  The mathematical universe behind deep neural networks](https://www.youtube.com/watch?v=8kP5T1N_ACU) — Professor Helmut Bölcskei · maths track §12 §14
+
+- [Target Trials, Structural Nest Models, and Marginal Structural Models](https://www.youtube.com/watch?v=9qSjwIOpvZw) — Professor James Robins · maths track §22 §10
+
+- [Prof. Chus Sanz-Serna | Rothschild Lecture: Hamiltonian Monte Carlo and geometric integration](https://www.youtube.com/watch?v=6h516bVWzOI) — Professor Chus Sanz-Serna · maths track §32 §42
+
+- [Prof. Andrew Stuart | Rothschild Lecture: The Legacy of Rudolph Kalman](https://www.youtube.com/watch?v=L-AEmnHsiTQ) — Professor Andrew Stuart · maths track §31 §30 §49
+
+- [Prof. Martin Hairer | Rothschild Lecture: Random rubber bands](https://www.youtube.com/watch?v=wIlPk66x1T0) — Professor Martin Hairer · maths track §27 §25
+
+- [Prof. Leonid Pastur | Rothschild Lecture: Disordered systems and related spectra](https://www.youtube.com/watch?v=ZdDi-w1iwac) — Professor Leonid Pastur · maths track §29 §33
+
+- [Prof. Avi Wigderson | Rothschild Lecture: The power and weakness of randomness, when you are...](https://www.youtube.com/watch?v=TeQbOFqXMrY) — Professor Avi Wigderson · maths track §11 §12b
+
 ## Transcript reviews
 
 None yet.

@@ -258,6 +258,72 @@
       },
       "notes_scope": "Publisher metadata only; no transcript read in this pass.",
       "resources": []
+    },
+    {
+      "id": "dQC7AIT91_g",
+      "title": "How Much Math Is Knowable?",
+      "url": "https://www.youtube.com/watch?v=dQC7AIT91_g",
+      "published_at": "2025-09-10",
+      "duration_seconds": 3960,
+      "screening": {
+        "id": "dQC7AIT91_g",
+        "index": 8,
+        "decision": "read_transcript",
+        "priority": "high",
+        "track": "maths",
+        "pillars": [
+          "§12b",
+          "§1"
+        ],
+        "theme": [
+          "maths track",
+          "§12b",
+          "§1"
+        ],
+        "publisher_promise": "",
+        "screening_reason": "Aaronson's broad exposition connects incompleteness, uncomputability and Busy Beaver through central ideas taught by a leading complexity theorist. (Maths track: architect-taught exposition of a Compass pillar.)",
+        "evidence": [],
+        "transcript_question": "How do incompleteness and uncomputability limit which finite mathematical facts can be established?",
+        "caveat": "The balance between derivation, narrative and recent results is unverified.",
+        "speaker": "Scott Aaronson",
+        "modules": [],
+        "workshop": "SFI channel uploads (not in any playlist)"
+      },
+      "notes_scope": "Publisher metadata only; screened on the maths track by Codex; no transcript read.",
+      "resources": []
+    },
+    {
+      "id": "m023IrSLF-k",
+      "title": "An introduction to stochastic thermodynamics - Takahiro Sagawa / NEST",
+      "url": "https://www.youtube.com/watch?v=m023IrSLF-k",
+      "published_at": "2026-01-08",
+      "duration_seconds": 5520,
+      "screening": {
+        "id": "m023IrSLF-k",
+        "index": 9,
+        "decision": "read_transcript",
+        "priority": "high",
+        "track": "maths",
+        "pillars": [
+          "§33",
+          "§27"
+        ],
+        "theme": [
+          "maths track",
+          "§33",
+          "§27"
+        ],
+        "publisher_promise": "",
+        "screening_reason": "Introduction to stochastic thermodynamics by Sagawa, a leading figure; builds entropy production and fluctuation theorems that underpin diffusion-style models. (Maths track: architect-taught exposition of a Compass pillar.)",
+        "evidence": [],
+        "transcript_question": "How entropy production and fluctuation theorems arise from stochastic dynamics.",
+        "caveat": "workshop intro talk; length and derivation depth unverified",
+        "speaker": "Takahiro Sagawa",
+        "modules": [],
+        "workshop": "NeST: Neuromorphic Stochastic Thermodynamics"
+      },
+      "notes_scope": "Publisher metadata only; screened on the maths track by Codex; no transcript read.",
+      "resources": []
     }
   ]
 }

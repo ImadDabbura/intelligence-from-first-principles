@@ -76,6 +76,16 @@ Metadata only, screened against the A–F originator rubric by parallel AI scree
 
 - [Dan-Virgil Voiculescu - Around Free Entropy - IPAM at UCLA](https://www.youtube.com/watch?v=G6OxltPNcHs) — Dan-Virgil Voiculescu · maths track §4 §29 §9
 
+- [Wilfrid Gangbo: "Analytical Aspect of Mean Field Games (Part 1/2)"](https://www.youtube.com/watch?v=KI5n6OYzzW8) — Wilfrid Gangbo · maths track §26 §25 §19
+
+- [Katya Scheinberg: "Recent advances in Derivative-Free Optimization and its connection to reinfor..."](https://www.youtube.com/watch?v=WyKN8CyFZNI) — Katya Scheinberg · maths track §8 §7
+
+- [Alessio Figalli - Stability in Geometric & Functional Inequalities: Optimal Transport & Beyond](https://www.youtube.com/watch?v=Ktg-wOVCbCI) — Alessio Figalli · maths track §26 §3
+
+- [Jeremy Quastel: "Integrable fluctuations in 1+1 dimensional random growth"](https://www.youtube.com/watch?v=_DWpdGQgqXc) — Jeremy Quastel · maths track §4 §27 §25
+
+- [Steven Heilman - Variational Proofs of Isoperimetric Inequalities](https://www.youtube.com/watch?v=mifWCPug0_w) — Steven Heilman · maths track §6 §5 §4
+
 ## Transcript reviews
 
 None yet.

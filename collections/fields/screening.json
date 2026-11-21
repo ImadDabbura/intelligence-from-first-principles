@@ -446,6 +446,40 @@
       },
       "notes_scope": "Publisher metadata only; screened on the maths track by Codex; no transcript read.",
       "resources": []
+    },
+    {
+      "id": "lYcdELpUGsg",
+      "title": "Lecture 01 | Generalization Despite Interpolation: Wide Networks as Gaussian Processes",
+      "url": "https://www.youtube.com/watch?v=lYcdELpUGsg",
+      "published_at": "2026-10-02",
+      "duration_seconds": 6060,
+      "screening": {
+        "id": "lYcdELpUGsg",
+        "index": 14,
+        "decision": "read_transcript",
+        "priority": "high",
+        "track": "maths",
+        "pillars": [
+          "§33",
+          "§12",
+          "§17"
+        ],
+        "theme": [
+          "maths track",
+          "§33",
+          "§12"
+        ],
+        "publisher_promise": "",
+        "screening_reason": "Lecture 1 of Ringel's mini-course on statistical-mechanical approaches to deep learning, on wide networks as Gaussian processes; series: start with part 1. (Maths track: architect-taught exposition of a Compass pillar.)",
+        "evidence": [],
+        "transcript_question": "Why infinitely wide networks become Gaussian processes and how that explains generalization despite interpolation.",
+        "caveat": "Lecture level and rigor unverified.",
+        "speaker": "Zohar Ringel",
+        "modules": [],
+        "workshop": "Mini-Course on Statistical Mechanical Approaches to Deep Learning"
+      },
+      "notes_scope": "Publisher metadata only; screened on the maths track by Codex; no transcript read.",
+      "resources": []
     }
   ]
 }

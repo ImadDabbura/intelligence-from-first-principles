@@ -396,6 +396,269 @@
       },
       "notes_scope": "Publisher metadata only; screened on the maths track by Codex; no transcript read.",
       "resources": []
+    },
+    {
+      "id": "9csqQuYzi54",
+      "title": "Sard's Theorem for Min-functions According to Yomdin - Albert Fathi",
+      "url": "https://www.youtube.com/watch?v=9csqQuYzi54",
+      "published_at": "2026-10-21",
+      "duration_seconds": 3720,
+      "screening": {
+        "id": "9csqQuYzi54",
+        "index": 12,
+        "decision": "read_transcript",
+        "priority": "high",
+        "track": "maths",
+        "pillars": [
+          "§3",
+          "§8",
+          "§38"
+        ],
+        "theme": [
+          "maths track",
+          "§3",
+          "§8"
+        ],
+        "publisher_promise": "",
+        "screening_reason": "Fathi's learning seminar teaches quantitative Sard theory for minimized functions, connecting analysis to variational foundations. (Maths track: architect-taught exposition of a Compass pillar.)",
+        "evidence": [],
+        "transcript_question": "Why do minima of smooth families retain almost-everywhere regular level sets?",
+        "caveat": "Full derivations, prerequisites, and pedagogical depth are not verified by the metadata.",
+        "speaker": "Albert Fathi",
+        "modules": [],
+        "workshop": "IAS"
+      },
+      "notes_scope": "Publisher metadata only; screened on the maths track by Codex; no transcript read.",
+      "resources": []
+    },
+    {
+      "id": "PtCPLLuMK1o",
+      "title": "The Role of Exposition in the Future of Mathematics - Grant Sanderson",
+      "url": "https://www.youtube.com/watch?v=PtCPLLuMK1o",
+      "published_at": "2026-10-19",
+      "duration_seconds": 4020,
+      "screening": {
+        "id": "PtCPLLuMK1o",
+        "index": 13,
+        "decision": "read_transcript",
+        "priority": "high",
+        "track": "maths",
+        "pillars": [
+          "§0",
+          "§1"
+        ],
+        "theme": [
+          "maths track",
+          "§0",
+          "§1"
+        ],
+        "publisher_promise": "",
+        "screening_reason": "Sanderson demonstrates mathematical exposition through an explicit topological proof and discusses transferable understanding. (Maths track: architect-taught exposition of a Compass pillar.)",
+        "evidence": [],
+        "transcript_question": "How can visual exposition turn a surprising proof into reusable mathematical intuition?",
+        "caveat": "Full derivations, prerequisites, and pedagogical depth are not verified by the metadata.",
+        "speaker": "Grant Sanderson",
+        "modules": [],
+        "workshop": "IAS"
+      },
+      "notes_scope": "Publisher metadata only; screened on the maths track by Codex; no transcript read.",
+      "resources": []
+    },
+    {
+      "id": "zLqwRkkh7XY",
+      "title": "Probability and Intuition - Peter Winkler",
+      "url": "https://www.youtube.com/watch?v=zLqwRkkh7XY",
+      "published_at": "2026-10-13",
+      "duration_seconds": 4380,
+      "screening": {
+        "id": "zLqwRkkh7XY",
+        "index": 14,
+        "decision": "read_transcript",
+        "priority": "high",
+        "track": "maths",
+        "pillars": [
+          "§4"
+        ],
+        "theme": [
+          "maths track",
+          "§4"
+        ],
+        "publisher_promise": "",
+        "screening_reason": "Winkler's named expository lecture uses probability paradoxes to develop and correct central probabilistic intuitions. (Maths track: architect-taught exposition of a Compass pillar.)",
+        "evidence": [],
+        "transcript_question": "Which intuitive probability arguments fail, and how can conditioning repair them?",
+        "caveat": "Full derivations, prerequisites, and pedagogical depth are not verified by the metadata.",
+        "speaker": "Peter Winkler",
+        "modules": [],
+        "workshop": "IAS"
+      },
+      "notes_scope": "Publisher metadata only; screened on the maths track by Codex; no transcript read.",
+      "resources": []
+    },
+    {
+      "id": "RrGXUMObUjg",
+      "title": "Breaking the Bubble: From the Brachistochrone to the Simons Cone | Institute for Advanced Study",
+      "url": "https://www.youtube.com/watch?v=RrGXUMObUjg",
+      "published_at": "2026-06-02",
+      "duration_seconds": 3300,
+      "screening": {
+        "id": "RrGXUMObUjg",
+        "index": 15,
+        "decision": "read_transcript",
+        "priority": "high",
+        "track": "maths",
+        "pillars": [
+          "§1b",
+          "§8",
+          "§43"
+        ],
+        "theme": [
+          "maths track",
+          "§1b",
+          "§8"
+        ],
+        "publisher_promise": "",
+        "screening_reason": "De Lellis's commemorative lecture traces central variational ideas from classical optimization to minimal-surface singularities. (Maths track: architect-taught exposition of a Compass pillar.)",
+        "evidence": [],
+        "transcript_question": "How do variational principles lead from optimal paths to singular minimizing surfaces?",
+        "caveat": "Full derivations, prerequisites, and pedagogical depth are not verified by the metadata.",
+        "speaker": "Camillo De Lellis",
+        "modules": [],
+        "workshop": "IAS"
+      },
+      "notes_scope": "Publisher metadata only; screened on the maths track by Codex; no transcript read.",
+      "resources": []
+    },
+    {
+      "id": "MZwwlLFSuCc",
+      "title": "Multi-scale Analysis in Projection Theory - Hong Wang",
+      "url": "https://www.youtube.com/watch?v=MZwwlLFSuCc",
+      "published_at": "2026-03-31",
+      "duration_seconds": 3720,
+      "screening": {
+        "id": "MZwwlLFSuCc",
+        "index": 16,
+        "decision": "read_transcript",
+        "priority": "high",
+        "track": "maths",
+        "pillars": [
+          "§3",
+          "§2c"
+        ],
+        "theme": [
+          "maths track",
+          "§3",
+          "§2c"
+        ],
+        "publisher_promise": "",
+        "screening_reason": "Wang's named lecture series explicitly teaches structural and multiscale techniques behind projection theorems. (Maths track: architect-taught exposition of a Compass pillar.)",
+        "evidence": [],
+        "transcript_question": "How does multiscale structure explain dimension preservation under projection?",
+        "caveat": "Metadata does not establish the full prerequisites or amount of foundational derivation.",
+        "speaker": "Hong Wang",
+        "modules": [],
+        "workshop": "IAS"
+      },
+      "notes_scope": "Publisher metadata only; screened on the maths track by Codex; no transcript read.",
+      "resources": []
+    },
+    {
+      "id": "rjJAXEyrsQE",
+      "title": "50 Years of Expansion in Groups - Avi Wigderson",
+      "url": "https://www.youtube.com/watch?v=rjJAXEyrsQE",
+      "published_at": "2026-03-24",
+      "duration_seconds": 7440,
+      "screening": {
+        "id": "rjJAXEyrsQE",
+        "index": 17,
+        "decision": "read_transcript",
+        "priority": "high",
+        "track": "maths",
+        "pillars": [
+          "§14b",
+          "§44",
+          "§11"
+        ],
+        "theme": [
+          "maths track",
+          "§14b",
+          "§44"
+        ],
+        "publisher_promise": "",
+        "screening_reason": "Wigderson explicitly surveys fifty years of expander constructions and teaches the required representation theory from basics. (Maths track: architect-taught exposition of a Compass pillar.)",
+        "evidence": [],
+        "transcript_question": "How do group representations explain spectral expansion of Cayley graphs?",
+        "caveat": "Full pedagogical scope is unverified; several supplied descriptions are truncated or absent.",
+        "speaker": "Avi Wigderson",
+        "modules": [],
+        "workshop": "IAS"
+      },
+      "notes_scope": "Publisher metadata only; screened on the maths track by Codex; no transcript read.",
+      "resources": []
+    },
+    {
+      "id": "ph_PIF-Ry8A",
+      "title": "The P vs. NP Problem - Avi Wigderson",
+      "url": "https://www.youtube.com/watch?v=ph_PIF-Ry8A",
+      "published_at": "2026-02-09",
+      "duration_seconds": 4440,
+      "screening": {
+        "id": "ph_PIF-Ry8A",
+        "index": 18,
+        "decision": "read_transcript",
+        "priority": "high",
+        "track": "maths",
+        "pillars": [
+          "§12b"
+        ],
+        "theme": [
+          "maths track",
+          "§12b"
+        ],
+        "publisher_promise": "",
+        "screening_reason": "Wigderson's broad explanatory colloquium teaches the central problem and the ideas and connections it generated. (Maths track: architect-taught exposition of a Compass pillar.)",
+        "evidence": [],
+        "transcript_question": "Why does P versus NP organize so many notions of computational difficulty?",
+        "caveat": "The supplied metadata does not verify complete derivations or prerequisite level.",
+        "speaker": "Avi Wigderson",
+        "modules": [],
+        "workshop": "IAS"
+      },
+      "notes_scope": "Publisher metadata only; screened on the maths track by Codex; no transcript read.",
+      "resources": []
+    },
+    {
+      "id": "9ccuJWoIHrw",
+      "title": "Tensor rank - Avi Wigderson",
+      "url": "https://www.youtube.com/watch?v=9ccuJWoIHrw",
+      "published_at": "2018-10-11",
+      "duration_seconds": 7140,
+      "screening": {
+        "id": "9ccuJWoIHrw",
+        "index": 19,
+        "decision": "read_transcript",
+        "priority": "high",
+        "track": "maths",
+        "pillars": [
+          "§2",
+          "§12b"
+        ],
+        "theme": [
+          "maths track",
+          "§2",
+          "§12b"
+        ],
+        "publisher_promise": "",
+        "screening_reason": "Wigderson, an architect of algebraic complexity, lecturing on tensor rank in the expository CS/DM Seminar II, building core multilinear-algebra understanding. (Maths track: architect-taught exposition of a Compass pillar.)",
+        "evidence": [],
+        "transcript_question": "Why is tensor rank so different from matrix rank (border rank, non-closedness, NP-hardness) and how does it govern matrix-multiplication complexity?",
+        "caveat": "No abstract; assumes the usual expository Seminar II format.",
+        "speaker": "Avi Wigderson",
+        "modules": [],
+        "workshop": "IAS"
+      },
+      "notes_scope": "Publisher metadata only; screened on the maths track by Codex; no transcript read.",
+      "resources": []
     }
   ]
 }

@@ -132,11 +132,11 @@
       "path": "collections/simons-institute",
       "snapshot_date": "2026-11-21",
       "coverage_note": "YouTube snapshot: 57 of 287 playlists selected as relevant; all 1,261 talks in them screened from metadata (42 high, 453 medium, 742 skip, 24 insufficient information). Only the high-priority talks are listed. Course-type playlists (e.g. the 2022 Deep Learning Theory summer school) could not be listed and are a known gap; 39 videos were private or deleted.",
-      "screened": 49,
+      "screened": 53,
       "reviewed": 0,
       "inventory_range": {
         "first": "2014-01-28",
-        "last": "2024-11-18"
+        "last": "2026-10-15"
       },
       "reviewed_range": {
         "first": null,
@@ -192,7 +192,7 @@
       "path": "collections/fields",
       "snapshot_date": "2026-11-21",
       "coverage_note": "Selected playlists screened from metadata on 2026-11-21: 653 items, 14 high priority before de-duplication; only high-priority items are listed.",
-      "screened": 14,
+      "screened": 15,
       "reviewed": 0,
       "inventory_range": {
         "first": "2021-04-05",
@@ -212,7 +212,7 @@
       "path": "collections/flatiron",
       "snapshot_date": "2026-11-21",
       "coverage_note": "Selected playlists screened from metadata on 2026-11-21: 206 items, 5 high priority before de-duplication; only high-priority items are listed.",
-      "screened": 4,
+      "screened": 7,
       "reviewed": 0,
       "inventory_range": {
         "first": "2024-11-21",
@@ -232,7 +232,7 @@
       "path": "collections/ias",
       "snapshot_date": "2026-11-21",
       "coverage_note": "Selected playlists screened from metadata on 2026-11-21: 1039 items, 5 high priority before de-duplication; only high-priority items are listed. Most of the archive is pure mathematics. Screening covered talks downloaded by 21 Nov 2026; the remainder is pending.",
-      "screened": 12,
+      "screened": 20,
       "reviewed": 0,
       "inventory_range": {
         "first": "2017-11-13",
@@ -252,10 +252,10 @@
       "path": "collections/isaac-newton",
       "snapshot_date": "2026-11-21",
       "coverage_note": "Selected playlists screened from metadata on 2026-11-21: 1071 items, 22 high priority before de-duplication; only high-priority items are listed. Covers the main channel and INI Seminar Room 1. Screening covered talks downloaded by 21 Nov 2026; the remainder is pending.",
-      "screened": 27,
+      "screened": 39,
       "reviewed": 0,
       "inventory_range": {
-        "first": "2023-08-07",
+        "first": "2023-01-20",
         "last": "2026-09-09"
       },
       "reviewed_range": {
@@ -272,7 +272,7 @@
       "path": "collections/ipam",
       "snapshot_date": "2026-11-21",
       "coverage_note": "Selected playlists screened from metadata on 2026-11-21: 1161 items, 30 high priority before de-duplication; only high-priority items are listed. Screening covered talks downloaded by 21 Nov 2026; the remainder is pending.",
-      "screened": 46,
+      "screened": 51,
       "reviewed": 0,
       "inventory_range": {
         "first": "2015-08-24",
@@ -292,10 +292,10 @@
       "path": "collections/ictp",
       "snapshot_date": "2026-11-21",
       "coverage_note": "Selected playlists screened from metadata on 2026-11-21: 103 items, 5 high priority before de-duplication; only high-priority items are listed. The main ICTP channel holds colloquia and Salam lectures but not its schools and workshops, which are a known gap.",
-      "screened": 4,
+      "screened": 6,
       "reviewed": 0,
       "inventory_range": {
-        "first": "2013-02-04",
+        "first": "2011-01-25",
         "last": "2024-02-03"
       },
       "reviewed_range": {
@@ -312,7 +312,7 @@
       "path": "collections/sfi",
       "snapshot_date": "2026-11-21",
       "coverage_note": "Selected playlists screened from metadata on 2026-11-21: 748 items, 10 high priority before de-duplication; only high-priority items are listed.",
-      "screened": 8,
+      "screened": 10,
       "reviewed": 0,
       "inventory_range": {
         "first": "2014-05-12",
@@ -352,7 +352,7 @@
       "path": "collections/stanford",
       "snapshot_date": "2026-11-21",
       "coverage_note": "Selected playlists screened from metadata on 2026-11-21: 1098 items, 11 high priority before de-duplication; only high-priority items are listed. Seminar series only (no full courses). Screening covered talks downloaded by 21 Nov 2026; the remainder is pending.",
-      "screened": 10,
+      "screened": 12,
       "reviewed": 0,
       "inventory_range": {
         "first": "2014-10-02",
@@ -385,7 +385,7 @@
     }
   ],
   "summary": {
-    "screened": 577,
+    "screened": 616,
     "reviewed": 131,
     "decisions": {
       "worthwhile": 60,

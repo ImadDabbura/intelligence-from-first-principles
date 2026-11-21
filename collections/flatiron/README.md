@@ -22,6 +22,12 @@ Metadata only, screened against the A–F originator rubric by parallel AI scree
 - [Gotham City Physics X ML - Florent Krzakala](https://www.youtube.com/watch?v=Owqo1dZbJ2o) — Florent Krzakala
 - [Gotham City Physics X ML - Nati Srebro](https://www.youtube.com/watch?v=--gLlwnumkg) — Nati Srebro
 
+- [Gotham City Physics X ML - Gabriel Peyré](https://www.youtube.com/watch?v=7nFY6F_LrkI) — Gabriel Peyré · maths track §26
+
+- [Gotham City Physics X ML - Giulio Biroli](https://www.youtube.com/watch?v=gwEi61gOXwU) — Giulio Biroli · maths track §33
+
+- [Gotham City Physics X ML - Max Welling](https://www.youtube.com/watch?v=lUOmf9OmcKQ) — Max Welling · maths track §46 §28 §14b
+
 ## Transcript reviews
 
 None yet.

@@ -34,6 +34,8 @@ Metadata only, screened against the A–F originator rubric by parallel AI scree
 
 - [Asymptotics of matrix integrals and topological recursion](https://www.youtube.com/watch?v=fzDtMurYuGs) — Gaetan Borot · maths track §29
 
+- [Lecture 01 | Generalization Despite Interpolation: Wide Networks as Gaussian Processes](https://www.youtube.com/watch?v=lYcdELpUGsg) — Zohar Ringel · maths track §33 §12 §17
+
 ## Transcript reviews
 
 None yet.

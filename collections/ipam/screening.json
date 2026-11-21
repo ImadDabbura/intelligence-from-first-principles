@@ -1456,6 +1456,174 @@
       },
       "notes_scope": "Publisher metadata only; screened on the maths track by Codex; no transcript read.",
       "resources": []
+    },
+    {
+      "id": "KI5n6OYzzW8",
+      "title": "Wilfrid Gangbo: \"Analytical Aspect of Mean Field Games (Part 1/2)\"",
+      "url": "https://www.youtube.com/watch?v=KI5n6OYzzW8",
+      "published_at": "2020-06-29",
+      "duration_seconds": 3840,
+      "screening": {
+        "id": "KI5n6OYzzW8",
+        "index": 46,
+        "decision": "read_transcript",
+        "priority": "high",
+        "track": "maths",
+        "pillars": [
+          "§26",
+          "§25",
+          "§19"
+        ],
+        "theme": [
+          "maths track",
+          "§26",
+          "§25"
+        ],
+        "publisher_promise": "",
+        "screening_reason": "Gangbo's first tutorial connects mean-field games, optimal transport, geometry and the master equation at a foundational level. (Maths track: architect-taught exposition of a Compass pillar.)",
+        "evidence": [],
+        "transcript_question": "How does the master equation encode population dynamics and common noise in mean-field games?",
+        "caveat": "The precise prerequisites and completeness of derivations are unverified.",
+        "speaker": "Wilfrid Gangbo",
+        "modules": [],
+        "workshop": "High Dimensional Hamilton-Jacobi PDEs Tutorials 2020"
+      },
+      "notes_scope": "Publisher metadata only; screened on the maths track by Codex; no transcript read.",
+      "resources": []
+    },
+    {
+      "id": "WyKN8CyFZNI",
+      "title": "Katya Scheinberg: \"Recent advances in Derivative-Free Optimization and its connection to reinfor...\"",
+      "url": "https://www.youtube.com/watch?v=WyKN8CyFZNI",
+      "published_at": "2019-10-09",
+      "duration_seconds": 3120,
+      "screening": {
+        "id": "WyKN8CyFZNI",
+        "index": 47,
+        "decision": "read_transcript",
+        "priority": "high",
+        "track": "maths",
+        "pillars": [
+          "§8",
+          "§7"
+        ],
+        "theme": [
+          "maths track",
+          "§8",
+          "§7"
+        ],
+        "publisher_promise": "",
+        "screening_reason": "Scheinberg's overview explains how classical optimization principles adapt to missing derivatives, offering architect-led foundational method insight. (Maths track: architect-taught exposition of a Compass pillar.)",
+        "evidence": [],
+        "transcript_question": "How can function-value models replace gradients and Hessians while preserving convergence guarantees?",
+        "caveat": "Metadata does not verify full derivations, prerequisites or breadth beyond the described topic.",
+        "speaker": "Katya Scheinberg",
+        "modules": [],
+        "workshop": "Machine Learning for Physics and the Physics of Learning 2019"
+      },
+      "notes_scope": "Publisher metadata only; screened on the maths track by Codex; no transcript read.",
+      "resources": []
+    },
+    {
+      "id": "Ktg-wOVCbCI",
+      "title": "Alessio Figalli - Stability in Geometric & Functional Inequalities: Optimal Transport & Beyond",
+      "url": "https://www.youtube.com/watch?v=Ktg-wOVCbCI",
+      "published_at": "2025-06-03",
+      "duration_seconds": 3900,
+      "screening": {
+        "id": "Ktg-wOVCbCI",
+        "index": 48,
+        "decision": "read_transcript",
+        "priority": "high",
+        "track": "maths",
+        "pillars": [
+          "§26",
+          "§3"
+        ],
+        "theme": [
+          "maths track",
+          "§26",
+          "§3"
+        ],
+        "publisher_promise": "",
+        "screening_reason": "Figalli's named lecture develops stability of central analytic inequalities through optimal transport and explains the method's limits. (Maths track: architect-taught exposition of a Compass pillar.)",
+        "evidence": [],
+        "transcript_question": "How does near-equality in a functional inequality imply quantitative closeness to an optimizer?",
+        "caveat": "Metadata does not verify full mathematical coverage, derivations or prerequisites.",
+        "speaker": "Alessio Figalli",
+        "modules": [],
+        "workshop": "IPAM"
+      },
+      "notes_scope": "Publisher metadata only; screened on the maths track by Codex; no transcript read.",
+      "resources": []
+    },
+    {
+      "id": "_DWpdGQgqXc",
+      "title": "Jeremy Quastel: \"Integrable fluctuations in 1+1 dimensional random growth\"",
+      "url": "https://www.youtube.com/watch?v=_DWpdGQgqXc",
+      "published_at": "2020-07-10",
+      "duration_seconds": 3240,
+      "screening": {
+        "id": "_DWpdGQgqXc",
+        "index": 49,
+        "decision": "read_transcript",
+        "priority": "high",
+        "track": "maths",
+        "pillars": [
+          "§4",
+          "§27",
+          "§25"
+        ],
+        "theme": [
+          "maths track",
+          "§4",
+          "§27"
+        ],
+        "publisher_promise": "",
+        "screening_reason": "Quastel's architect-led survey explains central KPZ fluctuation objects, their formulas and their origins. (Maths track: architect-taught exposition of a Compass pillar.)",
+        "evidence": [],
+        "transcript_question": "How do TASEP transition probabilities lead to the KPZ fixed point and its fluctuation laws?",
+        "caveat": "Metadata does not verify full mathematical coverage, derivations or prerequisites.",
+        "speaker": "Jeremy Quastel",
+        "modules": [],
+        "workshop": "High Dimensional Hamilton-Jacobi PDEs 2020"
+      },
+      "notes_scope": "Publisher metadata only; screened on the maths track by Codex; no transcript read.",
+      "resources": []
+    },
+    {
+      "id": "mifWCPug0_w",
+      "title": "Steven Heilman - Variational Proofs of Isoperimetric Inequalities",
+      "url": "https://www.youtube.com/watch?v=mifWCPug0_w",
+      "published_at": "2022-02-11",
+      "duration_seconds": 1860,
+      "screening": {
+        "id": "mifWCPug0_w",
+        "index": 50,
+        "decision": "read_transcript",
+        "priority": "high",
+        "track": "maths",
+        "pillars": [
+          "§6",
+          "§5",
+          "§4"
+        ],
+        "theme": [
+          "maths track",
+          "§6",
+          "§5"
+        ],
+        "publisher_promise": "",
+        "screening_reason": "An isoperimetry specialist explicitly surveys variational proofs of central Euclidean and Gaussian inequalities and their extensions. (Maths track: architect-taught exposition of a Compass pillar.)",
+        "evidence": [],
+        "transcript_question": "How do variational arguments identify isoperimetric minimizers and connect surface area to noise stability?",
+        "caveat": "Lecture breadth is explicit; full proof detail remains unverified.",
+        "speaker": "Steven Heilman",
+        "modules": [],
+        "workshop": "IPAM"
+      },
+      "notes_scope": "Publisher metadata only; screened on the maths track by Codex; no transcript read.",
+      "resources": []
     }
   ]
 }

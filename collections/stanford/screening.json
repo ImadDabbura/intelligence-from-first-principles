@@ -322,6 +322,73 @@
       },
       "notes_scope": "Publisher metadata only; no transcript read in this pass.",
       "resources": []
+    },
+    {
+      "id": "HfkcXxC-JUs",
+      "title": "Stanford Seminar - Towards Safe and Efficient Learning in the Physical World",
+      "url": "https://www.youtube.com/watch?v=HfkcXxC-JUs",
+      "published_at": "2024-04-19",
+      "duration_seconds": 2700,
+      "screening": {
+        "id": "HfkcXxC-JUs",
+        "index": 10,
+        "decision": "read_transcript",
+        "priority": "high",
+        "track": "maths",
+        "pillars": [
+          "§30",
+          "§8",
+          "§18"
+        ],
+        "theme": [
+          "maths track",
+          "§30",
+          "§8"
+        ],
+        "publisher_promise": "",
+        "screening_reason": "Krause surveys uncertainty-driven optimization and learning with explicit safety and convergence guarantees, teaching a framework he helped develop. (Maths track: architect-taught exposition of a Compass pillar.)",
+        "evidence": [],
+        "transcript_question": "How does epistemic uncertainty support safe exploration and convergence to reachable optima?",
+        "caveat": "The supplied metadata does not verify complete derivations or prerequisite level.",
+        "speaker": "Andreas Krause",
+        "modules": [],
+        "workshop": "Stanford AA289/ENGR319 - Robotics and Autonomous Systems Seminar"
+      },
+      "notes_scope": "Publisher metadata only; screened on the maths track by Codex; no transcript read.",
+      "resources": []
+    },
+    {
+      "id": "XihAwlYdBuM",
+      "title": "Stanford Seminar - Model Predictive Control of Hybrid Dynamical Systems",
+      "url": "https://www.youtube.com/watch?v=XihAwlYdBuM",
+      "published_at": "2019-11-15",
+      "duration_seconds": 3600,
+      "screening": {
+        "id": "XihAwlYdBuM",
+        "index": 11,
+        "decision": "read_transcript",
+        "priority": "high",
+        "track": "maths",
+        "pillars": [
+          "§49",
+          "§8b"
+        ],
+        "theme": [
+          "maths track",
+          "§49",
+          "§8b"
+        ],
+        "publisher_promise": "",
+        "screening_reason": "A leading hybrid-systems architect explicitly introduces analysis and design tools for predictive control of continuous and jumping dynamics. (Maths track: architect-taught exposition of a Compass pillar.)",
+        "evidence": [],
+        "transcript_question": "What conditions make predictive control of hybrid systems stable and robust?",
+        "caveat": "The supplied metadata does not verify complete derivations or prerequisite level.",
+        "speaker": "Ricardo Sanfelice",
+        "modules": [],
+        "workshop": "Stanford AA289/ENGR319 - Robotics and Autonomous Systems Seminar"
+      },
+      "notes_scope": "Publisher metadata only; screened on the maths track by Codex; no transcript read.",
+      "resources": []
     }
   ]
 }

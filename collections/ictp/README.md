@@ -22,6 +22,10 @@ Metadata only, screened against the A–F originator rubric by parallel AI scree
 - [Prof. William Bialek: Living on a diet of bits](https://www.youtube.com/watch?v=GPtohlKMVAE) — William Bialek
 - [Prof. William Bialek: Making predictions](https://www.youtube.com/watch?v=uyg1z5PmePk) — William Bialek
 
+- [ICTP-SISSA Colloquium by Prof. Chris Jarzynski on "Scaling Down the Laws of Thermodynamics"](https://www.youtube.com/watch?v=k8_qNnr3YUE) — Christopher Jarzynski · maths track §33 §4
+
+- [Giorgio Parisi: "Theoretical progresses in off-­‐equilibrium behaviour" - 1](https://www.youtube.com/watch?v=hZgAIU86kpM) — Giorgio Parisi · maths track §33 §8b
+
 ## Transcript reviews
 
 None yet.

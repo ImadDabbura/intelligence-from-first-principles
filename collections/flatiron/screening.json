@@ -133,6 +133,102 @@
       },
       "notes_scope": "Publisher metadata only; no transcript read in this pass.",
       "resources": []
+    },
+    {
+      "id": "7nFY6F_LrkI",
+      "title": "Gotham City Physics X ML - Gabriel Peyré",
+      "url": "https://www.youtube.com/watch?v=7nFY6F_LrkI",
+      "published_at": "2024-11-25",
+      "duration_seconds": 1800,
+      "screening": {
+        "id": "7nFY6F_LrkI",
+        "index": 4,
+        "decision": "read_transcript",
+        "priority": "high",
+        "track": "maths",
+        "pillars": [
+          "§26"
+        ],
+        "theme": [
+          "maths track",
+          "§26"
+        ],
+        "publisher_promise": "",
+        "screening_reason": "Peyré, an architect of computational OT, surveying how OT scales to high-dimensional learning. (Maths track: architect-taught exposition of a Compass pillar.)",
+        "evidence": [],
+        "transcript_question": "How entropic regularization and Sinkhorn make OT tractable and its sample-complexity behaviour in high dimension.",
+        "caveat": "Workshop talk; survey depth assumed from speaker and title.",
+        "speaker": "Gabriel Peyré",
+        "modules": [],
+        "workshop": "Gotham City Physics X ML (2019)"
+      },
+      "notes_scope": "Publisher metadata only; screened on the maths track by Codex; no transcript read.",
+      "resources": []
+    },
+    {
+      "id": "gwEi61gOXwU",
+      "title": "Gotham City Physics X ML - Giulio Biroli",
+      "url": "https://www.youtube.com/watch?v=gwEi61gOXwU",
+      "published_at": "2024-11-25",
+      "duration_seconds": 2220,
+      "screening": {
+        "id": "gwEi61gOXwU",
+        "index": 5,
+        "decision": "read_transcript",
+        "priority": "high",
+        "track": "maths",
+        "pillars": [
+          "§33"
+        ],
+        "theme": [
+          "maths track",
+          "§33"
+        ],
+        "publisher_promise": "",
+        "screening_reason": "Biroli, an architect of stat-phys approaches to learning, surveys the two-way bridge between statistical physics and ML. (Maths track: architect-taught exposition of a Compass pillar.)",
+        "evidence": [],
+        "transcript_question": "How energy landscapes, glassy dynamics and mean-field methods explain learning in high dimension.",
+        "caveat": "Workshop talk; survey depth assumed from title.",
+        "speaker": "Giulio Biroli",
+        "modules": [],
+        "workshop": "Gotham City Physics X ML (2019)"
+      },
+      "notes_scope": "Publisher metadata only; screened on the maths track by Codex; no transcript read.",
+      "resources": []
+    },
+    {
+      "id": "lUOmf9OmcKQ",
+      "title": "Gotham City Physics X ML - Max Welling",
+      "url": "https://www.youtube.com/watch?v=lUOmf9OmcKQ",
+      "published_at": "2024-11-21",
+      "duration_seconds": 2280,
+      "screening": {
+        "id": "lUOmf9OmcKQ",
+        "index": 6,
+        "decision": "read_transcript",
+        "priority": "high",
+        "track": "maths",
+        "pillars": [
+          "§46",
+          "§28",
+          "§14b"
+        ],
+        "theme": [
+          "maths track",
+          "§46",
+          "§28"
+        ],
+        "publisher_promise": "",
+        "screening_reason": "Welling, an architect of equivariant deep learning, on gauge fields in deep learning. (Maths track: architect-taught exposition of a Compass pillar.)",
+        "evidence": [],
+        "transcript_question": "How gauge equivariance generalizes group equivariance to manifolds via fibre bundles and parallel transport.",
+        "caveat": "Workshop talk; may be conceptual rather than fully derived.",
+        "speaker": "Max Welling",
+        "modules": [],
+        "workshop": "Gotham City Physics X ML (2019)"
+      },
+      "notes_scope": "Publisher metadata only; screened on the maths track by Codex; no transcript read.",
+      "resources": []
     }
   ]
 }

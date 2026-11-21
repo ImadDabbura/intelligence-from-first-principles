@@ -39,6 +39,22 @@ Metadata only, screened against the A–F originator rubric by parallel AI scree
 
 - [Terng Lecture Course: TLog-concavity and Matroids - Part 1 - Josephine Yu](https://www.youtube.com/watch?v=EpiA__cYeZQ) — Josephine Yu · maths track §7 §45 §32
 
+- [Sard's Theorem for Min-functions According to Yomdin - Albert Fathi](https://www.youtube.com/watch?v=9csqQuYzi54) — Albert Fathi · maths track §3 §8 §38
+
+- [The Role of Exposition in the Future of Mathematics - Grant Sanderson](https://www.youtube.com/watch?v=PtCPLLuMK1o) — Grant Sanderson · maths track §0 §1
+
+- [Probability and Intuition - Peter Winkler](https://www.youtube.com/watch?v=zLqwRkkh7XY) — Peter Winkler · maths track §4
+
+- [Breaking the Bubble: From the Brachistochrone to the Simons Cone | Institute for Advanced Study](https://www.youtube.com/watch?v=RrGXUMObUjg) — Camillo De Lellis · maths track §1b §8 §43
+
+- [Multi-scale Analysis in Projection Theory - Hong Wang](https://www.youtube.com/watch?v=MZwwlLFSuCc) — Hong Wang · maths track §3 §2c
+
+- [50 Years of Expansion in Groups - Avi Wigderson](https://www.youtube.com/watch?v=rjJAXEyrsQE) — Avi Wigderson · maths track §14b §44 §11
+
+- [The P vs. NP Problem - Avi Wigderson](https://www.youtube.com/watch?v=ph_PIF-Ry8A) — Avi Wigderson · maths track §12b
+
+- [Tensor rank - Avi Wigderson](https://www.youtube.com/watch?v=9ccuJWoIHrw) — Avi Wigderson · maths track §2 §12b
+
 ## Transcript reviews
 
 None yet.

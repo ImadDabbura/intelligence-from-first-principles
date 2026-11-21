@@ -28,6 +28,10 @@ Metadata only, screened against the A–F originator rubric by parallel AI scree
 - [Stanford Seminar - Computing with High-Dimensional Vectors](https://www.youtube.com/watch?v=zUCoxhExe0o) — Pentti Kanerva
 - [Stanford Seminar - Can the brain do back-propagation? Geoffrey Hinton](https://www.youtube.com/watch?v=VIRCybGgHts) — Geoffrey Hinton
 
+- [Stanford Seminar - Towards Safe and Efficient Learning in the Physical World](https://www.youtube.com/watch?v=HfkcXxC-JUs) — Andreas Krause · maths track §30 §8 §18
+
+- [Stanford Seminar - Model Predictive Control of Hybrid Dynamical Systems](https://www.youtube.com/watch?v=XihAwlYdBuM) — Ricardo Sanfelice · maths track §49 §8b
+
 ## Transcript reviews
 
 None yet.

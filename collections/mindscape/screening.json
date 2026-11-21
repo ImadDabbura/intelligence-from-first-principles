@@ -1,0 +1,263 @@
+{
+  "methodology": {
+    "bar": "Originator of a unifying principle derives its consequences densely enough to change a mental model. Must pass A–C; D–F scored 0–2 for ranking.",
+    "rubric": {
+      "A": "Originator or primary architect",
+      "B": "Unifying principle",
+      "C": "Derivation shown",
+      "D": "Contested or falsifiable",
+      "E": "Density",
+      "F": "Model update beyond the existing collection"
+    },
+    "decisions": "Same as MLST: read_transcript is not a watch recommendation."
+  },
+  "episodes": [
+    {
+      "id": "7lwOpwh-FXM",
+      "title": "Mindscape 286 | Blaise Agüera y Arcas on the Emergence of Replication and Computation",
+      "url": "https://www.youtube.com/watch?v=7lwOpwh-FXM",
+      "published_at": "2024-08-19",
+      "duration_seconds": 4800,
+      "screening": {
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "artificial life",
+          "emergence of computation",
+          "open-endedness"
+        ],
+        "publisher_promise": "Agüera y Arcas describes experiments in which random programs spontaneously become self-replicators and asks whether computation is an attractor.",
+        "screening_reason": "The originator of the random-programs-to-replicators result offers a specific mechanism for how information-bearing, computing systems arise without design; this is central to module 8. Rubric: A✓ B✓ C✓ · D 2 · E 1 · F 2.",
+        "transcript_question": "Does he explain the mechanism of the transition to replication (role of mutation and interaction) and why computation would be an attractor?",
+        "caveat": "publisher description only; speaker from title",
+        "speaker": "Blaise Agüera y Arcas",
+        "modules": [
+          8,
+          4
+        ],
+        "id": "7lwOpwh-FXM",
+        "index": 0,
+        "evidence": [],
+        "workshop": "Mindscape"
+      },
+      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
+      "resources": []
+    },
+    {
+      "id": "FHW-nBIZc2g",
+      "title": "Mindscape 272 | Leslie Valiant on Learning and Educability in Computers and People",
+      "url": "https://www.youtube.com/watch?v=FHW-nBIZc2g",
+      "published_at": "2024-04-15",
+      "duration_seconds": 4080,
+      "screening": {
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "pac learning",
+          "educability"
+        ],
+        "publisher_promise": "Valiant explains how his computational theory of learning grounds the claim that the ability to be educated is the defining human capacity.",
+        "screening_reason": "The originator of PAC learning lays out the programme that defines learnability itself and extends it to human educability; this is the foundational principle behind module 2. Rubric: A✓ B✓ C✓ · D 1 · E 1 · F 1.",
+        "transcript_question": "Does Valiant derive educability from PAC-style learnability with stated assumptions, or only describe the book's thesis?",
+        "caveat": "publisher description only; speaker from title",
+        "speaker": "Leslie Valiant",
+        "modules": [
+          2,
+          1
+        ],
+        "id": "FHW-nBIZc2g",
+        "index": 1,
+        "evidence": [],
+        "workshop": "Mindscape"
+      },
+      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
+      "resources": []
+    },
+    {
+      "id": "4PCHelnFKGc",
+      "title": "Mindscape 266 | Christoph Adami on How Information Makes Sense of Biology",
+      "url": "https://www.youtube.com/watch?v=4PCHelnFKGc",
+      "published_at": "2024-02-19",
+      "duration_seconds": 4800,
+      "screening": {
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "information theory",
+          "evolution"
+        ],
+        "publisher_promise": "Adami argues that biology makes sense in the light of information and shows how information theory applies to organisms and evolution.",
+        "screening_reason": "The architect of the information-theoretic view of evolution (fitness as information about the environment) states one principle spanning genomes, epigenetics and culture; it bears on modules 3 and 8. Rubric: A✓ B✓ C✓ · D 1 · E 1 · F 2.",
+        "transcript_question": "Does Adami show the derivation linking fitness to information about the environment, with quantitative examples?",
+        "caveat": "publisher description only; speaker from title",
+        "speaker": "Christoph Adami",
+        "modules": [
+          3,
+          8
+        ],
+        "id": "4PCHelnFKGc",
+        "index": 2,
+        "evidence": [],
+        "workshop": "Mindscape"
+      },
+      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
+      "resources": []
+    },
+    {
+      "id": "9VsTpsD_dP0",
+      "title": "Mindscape 196 | Judea Pearl on Cause and Effect",
+      "url": "https://www.youtube.com/watch?v=9VsTpsD_dP0",
+      "published_at": "2022-05-09",
+      "duration_seconds": 4560,
+      "screening": {
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "causality",
+          "counterfactuals"
+        ],
+        "publisher_promise": "Pearl explains why causal claims are claims about counterfactual worlds and how causal inference recovers them from observational data.",
+        "screening_reason": "The leader of the causal revolution presents the counterfactual and do-calculus framework that reframes what data alone can identify; central to module 6. Rubric: A✓ B✓ C✓ · D 1 · E 1 · F 1.",
+        "transcript_question": "Does Pearl walk through the ladder of causation and identifiability conditions concretely, or stay at the level of advocacy?",
+        "caveat": "publisher description only; speaker from title",
+        "speaker": "Judea Pearl",
+        "modules": [
+          6,
+          1
+        ],
+        "id": "9VsTpsD_dP0",
+        "index": 3,
+        "evidence": [],
+        "workshop": "Mindscape"
+      },
+      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
+      "resources": []
+    },
+    {
+      "id": "dzC4nw3HCMc",
+      "title": "Mindscape 168 | Anil Seth on Emergence, Information, and Consciousness",
+      "url": "https://www.youtube.com/watch?v=dzC4nw3HCMc",
+      "published_at": "2021-10-11",
+      "duration_seconds": 5100,
+      "screening": {
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "emergence",
+          "information theory",
+          "consciousness"
+        ],
+        "publisher_promise": "Seth discusses what emergence means in information-theoretic terms, building on his work with Lionel Barnett, and what it implies for consciousness.",
+        "screening_reason": "Seth is an originator of information-theoretic measures of dynamical emergence (Granger-emergence) and of the predictive, interoceptive account of consciousness. Both bear on how macro-level structure becomes real. Rubric: A✓ B✓ C✓ · D 1 · E 1 · F 2.",
+        "transcript_question": "Does Seth define a quantitative criterion for emergence, such as Granger-emergence or dynamical independence, and show how it applies beyond toy systems?",
+        "caveat": "publisher description only; speaker taken from the episode title; long-form interview, not a lecture",
+        "speaker": "Anil Seth",
+        "modules": [
+          3,
+          9,
+          1
+        ],
+        "id": "dzC4nw3HCMc",
+        "index": 4,
+        "evidence": [],
+        "workshop": "Mindscape"
+      },
+      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
+      "resources": []
+    },
+    {
+      "id": "gm7VDk8kxOw",
+      "title": "Mindscape 132 | Michael Levin on Information, Form, Growth, and the Self",
+      "url": "https://www.youtube.com/watch?v=gm7VDk8kxOw",
+      "published_at": "2021-02-01",
+      "duration_seconds": 4860,
+      "screening": {
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "basal cognition",
+          "bioelectricity",
+          "morphogenesis"
+        ],
+        "publisher_promise": "Levin explains how information and physical constraints, rather than a genetic blueprint, shape organisms and selves.",
+        "screening_reason": "Levin originated the bioelectric and basal-cognition programme, which treats morphogenesis as goal-directed problem solving by cell collectives and has direct bearing on intelligence beyond brains. Rubric: A✓ B✓ C✓ · D 2 · E 1 · F 2.",
+        "transcript_question": "Does Levin specify a mechanism (bioelectric pattern memory, goal states of cell collectives) that defines competence or cognition in a testable way, or does the episode stay at the level of metaphor?",
+        "caveat": "publisher description only; speaker taken from the episode title; long-form interview, not a lecture",
+        "speaker": "Michael Levin",
+        "modules": [
+          9,
+          3,
+          8
+        ],
+        "id": "gm7VDk8kxOw",
+        "index": 5,
+        "evidence": [],
+        "workshop": "Mindscape"
+      },
+      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
+      "resources": []
+    },
+    {
+      "id": "ZwvedcEFJw8",
+      "title": "Mindscape 120 | Jeremy England on Biology, Thermodynamics, and the Bible",
+      "url": "https://www.youtube.com/watch?v=ZwvedcEFJw8",
+      "published_at": "2020-10-26",
+      "duration_seconds": 5280,
+      "screening": {
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "dissipative adaptation",
+          "nonequilibrium thermodynamics",
+          "origin of life"
+        ],
+        "publisher_promise": "England derives links between thermodynamic relations such as fluctuation theorems and life-like organisation, then turns to science and religion.",
+        "screening_reason": "England originated dissipative adaptation, a principle derived from nonequilibrium statistical physics for why driven matter comes to look adapted. That bears on evolution as learning. Rubric: A✓ B✓ C✓ · D 2 · E 1 · F 2.",
+        "transcript_question": "Does England derive dissipative adaptation from fluctuation theorems in enough detail to separate it from ordinary natural selection, and what prediction does it make?",
+        "caveat": "part of the episode covers religion; publisher description only; speaker taken from the episode title; long-form interview, not a lecture",
+        "speaker": "Jeremy England",
+        "modules": [
+          8,
+          9
+        ],
+        "id": "ZwvedcEFJw8",
+        "index": 6,
+        "evidence": [],
+        "workshop": "Mindscape"
+      },
+      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
+      "resources": []
+    },
+    {
+      "id": "Wq63fsp9o1o",
+      "title": "Episode 5: Geoffrey West on Networks, Scaling, and the Pace of Life",
+      "url": "https://www.youtube.com/watch?v=Wq63fsp9o1o",
+      "published_at": "2018-07-16",
+      "duration_seconds": 4980,
+      "screening": {
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "scaling laws",
+          "networks",
+          "complexity"
+        ],
+        "publisher_promise": "West explains how metabolism, lifespan and pace scale with size in organisms, cities and networks.",
+        "screening_reason": "West co-originated the network theory of allometric scaling, which derives quarter-power laws from space-filling, hierarchical distribution networks. One principle explains many regularities. Rubric: A✓ B✓ C✓ · D 2 · E 1 · F 1.",
+        "transcript_question": "Does West carry the derivation from network constraints to the quarter-power exponents, and does he say where the theory breaks down, for example for cities?",
+        "caveat": "publisher description only; speaker taken from the episode title; long-form interview, not a lecture",
+        "speaker": "Geoffrey West",
+        "modules": [
+          8,
+          9
+        ],
+        "id": "Wq63fsp9o1o",
+        "index": 7,
+        "evidence": [],
+        "workshop": "Mindscape"
+      },
+      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
+      "resources": []
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "methodology": {
+    "bar": "Originator of a unifying principle derives its consequences densely enough to change a mental model. Must pass A–C; D–F scored 0–2 for ranking.",
+    "rubric": {
+      "A": "Originator or primary architect",
+      "B": "Unifying principle",
+      "C": "Derivation shown",
+      "D": "Contested or falsifiable",
+      "E": "Density",
+      "F": "Model update beyond the existing collection"
+    },
+    "decisions": "Same as MLST: read_transcript is not a watch recommendation."
+  },
+  "episodes": [
+    {
+      "id": "AfqWt1rk7TE",
+      "title": "Yann LeCun: Models of SSL (April 29, 2025)",
+      "url": "https://www.youtube.com/watch?v=AfqWt1rk7TE",
+      "published_at": "2025-05-06",
+      "duration_seconds": 2880,
+      "screening": {
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "jepa",
+          "energy-based models",
+          "world models"
+        ],
+        "publisher_promise": "Promises LeCun's framework for models of self-supervised learning.",
+        "screening_reason": "LeCun is the architect of the energy-based and joint-embedding predictive view; it is a unifying principle for SSL and world models. Rubric: A✓ B✓ C✓ · D 2 · E 1 · F 1.",
+        "transcript_question": "Does the talk derive why joint-embedding prediction avoids collapse and beats reconstruction, or restate the position?",
+        "caveat": "title and workshop only; no abstract; speaker from title; may repeat known positions",
+        "speaker": "Yann LeCun",
+        "modules": [
+          3,
+          6
+        ],
+        "id": "AfqWt1rk7TE",
+        "index": 0,
+        "evidence": [],
+        "workshop": "Self-Supervised Learning: The Final Frontier of AI"
+      },
+      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
+      "resources": []
+    },
+    {
+      "id": "_PEjjRpaMxo",
+      "title": "Eero Simoncelli: Learning the Distribution of Natural Images (April 29, 2025)",
+      "url": "https://www.youtube.com/watch?v=_PEjjRpaMxo",
+      "published_at": "2025-05-06",
+      "duration_seconds": 2940,
+      "screening": {
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "image priors",
+          "denoising",
+          "generalization"
+        ],
+        "publisher_promise": "Promises Simoncelli's account of learning the probability distribution of natural images.",
+        "screening_reason": "Simoncelli originated the denoiser-as-prior programme and its analysis of why diffusion models generalize rather than memorize. Rubric: A✓ B✓ C✓ · D 2 · E 2 · F 2.",
+        "transcript_question": "Does the talk derive the inductive bias, such as geometry-adaptive harmonic bases, that makes the learned density generalize?",
+        "caveat": "title and workshop only; no abstract; speaker from title",
+        "speaker": "Eero Simoncelli",
+        "modules": [
+          2,
+          3
+        ],
+        "id": "_PEjjRpaMxo",
+        "index": 1,
+        "evidence": [],
+        "workshop": "Self-Supervised Learning: The Final Frontier of AI"
+      },
+      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
+      "resources": []
+    },
+    {
+      "id": "Owqo1dZbJ2o",
+      "title": "Gotham City Physics X ML - Florent Krzakala",
+      "url": "https://www.youtube.com/watch?v=Owqo1dZbJ2o",
+      "published_at": "2024-11-25",
+      "duration_seconds": 2040,
+      "screening": {
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "loss landscape",
+          "statistical physics",
+          "gradient descent"
+        ],
+        "publisher_promise": "Promises to explain how gradient descent reaches good minima instead of spurious ones.",
+        "screening_reason": "Krzakala co-originated statistical-physics analyses of high-dimensional landscapes and GD dynamics; this asks a central mechanism question. Rubric: A✓ B✓ C✓ · D 2 · E 2 · F 2.",
+        "transcript_question": "Does the talk derive the threshold where GD escapes spurious minima, and does it predict anything for neural networks?",
+        "caveat": "no abstract; workshop one-line title only; speaker from title",
+        "speaker": "Florent Krzakala",
+        "modules": [
+          2
+        ],
+        "id": "Owqo1dZbJ2o",
+        "index": 2,
+        "evidence": [],
+        "workshop": "Gotham City Physics X ML (2019)"
+      },
+      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
+      "resources": []
+    },
+    {
+      "id": "--gLlwnumkg",
+      "title": "Gotham City Physics X ML - Nati Srebro",
+      "url": "https://www.youtube.com/watch?v=--gLlwnumkg",
+      "published_at": "2024-11-21",
+      "duration_seconds": 3840,
+      "screening": {
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "implicit bias",
+          "generalization",
+          "deep learning theory"
+        ],
+        "publisher_promise": "Promises an hour on what understanding deep learning requires, aimed at physicists.",
+        "screening_reason": "Srebro originated the implicit-regularization account of why overparameterized networks generalize; an architect's long talk central to module 2. Rubric: A✓ B✓ C✓ · D 2 · E 2 · F 2.",
+        "transcript_question": "Does the talk derive how the optimizer's geometry picks the solution, and which open questions remain?",
+        "caveat": "no abstract; workshop one-line title only; speaker from title",
+        "speaker": "Nati Srebro",
+        "modules": [
+          2
+        ],
+        "id": "--gLlwnumkg",
+        "index": 3,
+        "evidence": [],
+        "workshop": "Gotham City Physics X ML (2019)"
+      },
+      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
+      "resources": []
+    }
+  ]
+}

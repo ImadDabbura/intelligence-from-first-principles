@@ -8,26 +8,24 @@ Originator-grade expositions of unifying programmes of learning and intelligence
 
 - Original source: https://cartesiancafe.podbean.com/
 - Inventory date: 2026-11-21
-- Included formats: Podcast
-- Exclusions and known gaps: Selected episodes only; not an inventory of the feed. Items already in the MLST collection, and textbooks, are excluded.
-- Number screened: 2
+- Screened in this pass: 34 items, 2 high priority before de-duplication against the rest of the collection.
+- Kept here: 4 high-priority items only.
+- Known gaps: see the collection entry in collections.json.
 - Number reviewed in depth: 0
 
 ## First filter
 
-Each entry in `screening.json` records the promise, why it matters, its A–F rubric score and the question a transcript review must settle. Titles and channels of YouTube items were checked with YouTube oEmbed; other items against their venue or arXiv pages. Unverified details are noted in each caveat.
+Metadata only, screened against the A–F originator rubric by parallel AI screeners using one shared instruction set. `read_transcript` means worth a transcript review, not a watch recommendation. Many talks had no abstract; each caveat says when a judgement rests on title and speaker.
 
-- [Marcus Hutter | Universal Artificial Intelligence and Solomonoff Induction](https://cartesiancafe.podbean.com/e/marcus-hutter-universal-artificial-intelligence-and-solomonoff-induction/) · priority high
-- [Greg Yang | Large N Limits: Random Matrices & Neural Networks](https://cartesiancafe.podbean.com/e/greg-yang-large-n-limits-random-matrices-neural-networks-the-cartesian-cafe-with-timothy-nguyen/) · priority high
+- [Marcus Hutter | Universal Artificial Intelligence and Solomonoff Induction](https://cartesiancafe.podbean.com/e/marcus-hutter-universal-artificial-intelligence-and-solomonoff-induction/) — 
+- [Greg Yang | Large N Limits: Random Matrices & Neural Networks](https://cartesiancafe.podbean.com/e/greg-yang-large-n-limits-random-matrices-neural-networks-the-cartesian-cafe-with-timothy-nguyen/) — 
+- [Jay McClelland | Neural Networks: Artificial and Biological | The Cartesian Cafe with Timothy Nguyen](https://www.youtube.com/watch?v=yQbJNEhgYUw) — Jay McClelland
+- [Tai-Danae Bradley | Category Theory and Language Models | The Cartesian Cafe with Timothy Nguyen](https://www.youtube.com/watch?v=Gz8W1r90olc) — Tai-Danae Bradley
 
 ## Transcript reviews
 
 None yet.
 
-## Review process
-
-AI-assisted search and verification on 2026-11-21; no transcript was read.
-
 ## Revision record
 
-- 2026-11-21: pilot set added.
+- 2026-11-21: high-priority items added from the multi-channel screen.

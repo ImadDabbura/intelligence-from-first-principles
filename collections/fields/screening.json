@@ -1,0 +1,387 @@
+{
+  "methodology": {
+    "bar": "Originator of a unifying principle derives its consequences densely enough to change a mental model. Must pass A–C; D–F scored 0–2 for ranking.",
+    "rubric": {
+      "A": "Originator or primary architect",
+      "B": "Unifying principle",
+      "C": "Derivation shown",
+      "D": "Contested or falsifiable",
+      "E": "Density",
+      "F": "Model update beyond the existing collection"
+    },
+    "decisions": "Same as MLST: read_transcript is not a watch recommendation."
+  },
+  "episodes": [
+    {
+      "id": "Sbv-wBLMNGM",
+      "title": "Lecture 03 | Kernel Adaptation: Feature Learning Beyond the Gaussian Process",
+      "url": "https://www.youtube.com/watch?v=Sbv-wBLMNGM",
+      "published_at": "2026-10-16",
+      "duration_seconds": 5820,
+      "screening": {
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "feature learning",
+          "kernel adaptation",
+          "statistical mechanics"
+        ],
+        "publisher_promise": "Presents kernel adaptation as a theory of feature learning beyond the Gaussian-process limit.",
+        "screening_reason": "Ringel is a primary architect of the kernel-adaptation (mean-field / adaptive kernel) framework, and this lecture appears to derive feature learning from it. Rubric: A✓ B✓ C✓ · D 1 · E 2 · F 2.",
+        "transcript_question": "Does the lecture derive concrete predictions for when and how the kernel adapts to the target, beyond the lazy regime?",
+        "caveat": "no abstract in metadata; judged from title, speaker and workshop only",
+        "speaker": "Zohar Ringel",
+        "modules": [
+          2,
+          3
+        ],
+        "id": "Sbv-wBLMNGM",
+        "index": 0,
+        "evidence": [],
+        "workshop": "Mini-Course on Statistical Mechanical Approaches to Deep Learning"
+      },
+      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
+      "resources": []
+    },
+    {
+      "id": "pdbrjtC1OVE",
+      "title": "Lecture 04 | Grokking as a First-Order Phase Transition",
+      "url": "https://www.youtube.com/watch?v=pdbrjtC1OVE",
+      "published_at": "2026-10-23",
+      "duration_seconds": 6000,
+      "screening": {
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "grokking",
+          "phase transitions",
+          "statistical mechanics"
+        ],
+        "publisher_promise": "Frames grokking as a first-order phase transition in a statistical-mechanics description of training.",
+        "screening_reason": "Originator-level: Ringel co-authored the first-order phase-transition account of grokking, a falsifiable reframing of a much-discussed phenomenon. Rubric: A✓ B✓ C✓ · D 2 · E 2 · F 2.",
+        "transcript_question": "What order parameter and free-energy picture is derived, and which testable predictions about grokking follow from it?",
+        "caveat": "no abstract in metadata; judged from title, speaker and workshop only",
+        "speaker": "Zohar Ringel",
+        "modules": [
+          2,
+          3
+        ],
+        "id": "pdbrjtC1OVE",
+        "index": 1,
+        "evidence": [],
+        "workshop": "Mini-Course on Statistical Mechanical Approaches to Deep Learning"
+      },
+      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
+      "resources": []
+    },
+    {
+      "id": "uAXSWLZXeLE",
+      "title": "Plenary Talk | 37th International Conference on Algorithmic Learning Theory (ALT 2026) and ShaiFest",
+      "url": "https://www.youtube.com/watch?v=uAXSWLZXeLE",
+      "published_at": "2026-02-27",
+      "duration_seconds": 3960,
+      "screening": {
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "memorization",
+          "long tail",
+          "generalization"
+        ],
+        "publisher_promise": "Explains the role of memorization in learning, linking properties of data to how it should be processed.",
+        "screening_reason": "Feldman originated the argument that memorization is necessary for near-optimal learning on long-tailed data, a unifying, falsifiable reframing of generalization. Rubric: A✓ B✓ C✓ · D 2 · E 2 · F 2.",
+        "transcript_question": "Does the talk derive the long-tail memorization theorem and state what it predicts for modern training-data processing?",
+        "caveat": "no abstract in metadata; judged from title, speaker and workshop only",
+        "speaker": "Vitaly Feldman",
+        "modules": [
+          2
+        ],
+        "id": "uAXSWLZXeLE",
+        "index": 2,
+        "evidence": [],
+        "workshop": "37th International Conference on Algorithmic Learning Theory (ALT 2026) and ShaiFest"
+      },
+      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
+      "resources": []
+    },
+    {
+      "id": "6dywE7ilII4",
+      "title": "The Negative Result Minsky and Papert Got Wrong: Why SVMs and the Perceptron Don’t Work, and...",
+      "url": "https://www.youtube.com/watch?v=6dywE7ilII4",
+      "published_at": "2026-02-28",
+      "duration_seconds": 2340,
+      "screening": {
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "inductive bias",
+          "perceptron",
+          "deep learning"
+        ],
+        "publisher_promise": "Argues that the true limitation of perceptrons and SVMs differs from Minsky and Papert's, and asks whether depth fixes it.",
+        "screening_reason": "Srebro is an originator of implicit-bias theory; the title promises a sharp reframing of what shallow learners cannot do and what depth adds. Rubric: A✓ B✓ C✓ · D 2 · E 2 · F 2.",
+        "transcript_question": "What is the negative result for linear and kernel methods, and does it identify a precise advantage of deep learning?",
+        "caveat": "no abstract in metadata; judged from title, speaker and workshop only",
+        "speaker": "Nati Srebro",
+        "modules": [
+          2
+        ],
+        "id": "6dywE7ilII4",
+        "index": 3,
+        "evidence": [],
+        "workshop": "37th International Conference on Algorithmic Learning Theory (ALT 2026) and ShaiFest"
+      },
+      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
+      "resources": []
+    },
+    {
+      "id": "nYvlHO-vKeQ",
+      "title": "Organisation of the Information Flow in the Perception-Action Loop",
+      "url": "https://www.youtube.com/watch?v=nYvlHO-vKeQ",
+      "published_at": "2025-12-11",
+      "duration_seconds": 3120,
+      "screening": {
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "information theory",
+          "perception-action loop",
+          "empowerment"
+        ],
+        "publisher_promise": "Describes how information flow organises the perception-action loop.",
+        "screening_reason": "Polani is an architect of the information-theoretic perception-action framework (empowerment, relevant information); a unifying principle with derived consequences. Rubric: A✓ B✓ C✓ · D 1 · E 2 · F 2.",
+        "transcript_question": "Which behaviours or representations are derived from information-flow constraints in the loop, and what does it predict?",
+        "caveat": "no abstract in metadata; judged from title, speaker and workshop only",
+        "speaker": "Daniel Polani",
+        "modules": [
+          5,
+          6,
+          9
+        ],
+        "id": "nYvlHO-vKeQ",
+        "index": 4,
+        "evidence": [],
+        "workshop": "Workshop on Multiscale Methods and Emergent Phenomena in Neuroscience"
+      },
+      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
+      "resources": []
+    },
+    {
+      "id": "4CMJoNKfcYc",
+      "title": "Gradients, Groups, Grids: How neural networks learn features in algebraic tasks",
+      "url": "https://www.youtube.com/watch?v=4CMJoNKfcYc",
+      "published_at": "2026-10-05",
+      "duration_seconds": 4620,
+      "screening": {
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "feature learning",
+          "gradient dynamics",
+          "algebraic tasks"
+        ],
+        "publisher_promise": "Explains how gradient dynamics make networks learn features in algebraic tasks such as group operations.",
+        "screening_reason": "Kunin co-developed alternating-gradient-flow accounts of staged feature learning; a mechanism derived from gradient dynamics that explains emergent representations. Rubric: A✓ B✓ C✓ · D 2 · E 2 · F 2.",
+        "transcript_question": "Does the talk derive which features appear, in what order, from gradient dynamics, and test that against trained networks?",
+        "caveat": "no abstract in metadata; judged from title, speaker and workshop only",
+        "speaker": "Daniel Kunin",
+        "modules": [
+          3
+        ],
+        "id": "4CMJoNKfcYc",
+        "index": 5,
+        "evidence": [],
+        "workshop": "Mathematical AI Seminar"
+      },
+      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
+      "resources": []
+    },
+    {
+      "id": "53eKo-lNgQc",
+      "title": "Towards a geometric theory of deep learning",
+      "url": "https://www.youtube.com/watch?v=53eKo-lNgQc",
+      "published_at": "2026-03-20",
+      "duration_seconds": 3720,
+      "screening": {
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "geometry of deep learning",
+          "deep linear networks",
+          "training dynamics"
+        ],
+        "publisher_promise": "Title promises a geometric framework for deep learning; the speaker's programme studies training dynamics of deep networks as Riemannian gradient flows.",
+        "screening_reason": "Menon leads a programme treating deep linear network training as a gradient flow on a structured manifold, which could reframe implicit bias and balancedness as geometry; no abstract was published. Rubric: A✓ B✓ C✓ · D 1 · E 2 · F 2.",
+        "transcript_question": "Does the talk present a derived geometric account of training (metric, flow, invariant manifolds) that explains implicit bias, or only an outlook on what such a theory should be?",
+        "caveat": "title only, no abstract; speaker from description",
+        "speaker": "Govind Menon",
+        "modules": [
+          2,
+          3
+        ],
+        "id": "53eKo-lNgQc",
+        "index": 6,
+        "evidence": [],
+        "workshop": "Mathematical AI Seminar"
+      },
+      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
+      "resources": []
+    },
+    {
+      "id": "aV58b2aSi_o",
+      "title": "Statistical-to-Computational Gaps: The Low-Degree method and beyond",
+      "url": "https://www.youtube.com/watch?v=aV58b2aSi_o",
+      "published_at": "2022-05-18",
+      "duration_seconds": 3660,
+      "screening": {
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "statistical-computational gaps",
+          "low-degree method",
+          "high-dimensional inference"
+        ],
+        "publisher_promise": "A survey-plus-research talk on why some inference problems are information-theoretically solvable yet apparently computationally hard, using the low-degree polynomial method as the main lens.",
+        "screening_reason": "Bandeira is a primary architect of the low-degree framework, which is a unifying principle for predicting computational hardness of learning and inference across planted problems. Rubric: A✓ B✓ C✓ · D 1 · E 2 · F 2.",
+        "transcript_question": "Does the talk derive the low-degree heuristic and its predictions (e.g. thresholds in spiked models) rather than only listing results, and does it address when the heuristic fails?",
+        "caveat": "title only, no abstract; speaker from description",
+        "speaker": "Afonso Bandeira",
+        "modules": [
+          2,
+          5
+        ],
+        "id": "aV58b2aSi_o",
+        "index": 7,
+        "evidence": [],
+        "workshop": "Focus Program on Data Science, Approximation Theory, and Harmonic Analysis"
+      },
+      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
+      "resources": []
+    },
+    {
+      "id": "q13-QIGm6OM",
+      "title": "Unifying variational formulation of supervised learning: From kernel methods to neural networks",
+      "url": "https://www.youtube.com/watch?v=q13-QIGm6OM",
+      "published_at": "2022-06-09",
+      "duration_seconds": 2940,
+      "screening": {
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "representer theorems",
+          "splines",
+          "variational learning"
+        ],
+        "publisher_promise": "Casts supervised learning, from kernel regression to ReLU networks, as one variational problem whose regularizer determines the solution form.",
+        "screening_reason": "Unser built the representer-theorem programme linking total-variation-type regularization to spline and ReLU-network solutions, so one objective explains why the learned function takes the form it does. Rubric: A✓ B✓ C✓ · D 1 · E 2 · F 2.",
+        "transcript_question": "Does the talk derive the network architecture (ReLU, depth) as the solution of a chosen regularized functional, rather than just relate the two?",
+        "caveat": "title and speaker only; no publisher abstract",
+        "speaker": "Michael Unser",
+        "modules": [
+          2,
+          3
+        ],
+        "id": "q13-QIGm6OM",
+        "index": 8,
+        "evidence": [],
+        "workshop": "Focus Program on Data Science, Approximation Theory, and Harmonic Analysis"
+      },
+      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
+      "resources": []
+    },
+    {
+      "id": "9SOgpgP3H4g",
+      "title": "Probabilist Harmonic Analysis Models of Deep Neural Networks",
+      "url": "https://www.youtube.com/watch?v=9SOgpgP3H4g",
+      "published_at": "2022-06-13",
+      "duration_seconds": 3000,
+      "screening": {
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "scattering",
+          "harmonic analysis",
+          "multiscale priors"
+        ],
+        "publisher_promise": "Proposes probabilistic harmonic-analysis models (multiscale, wavelet-type) that explain what deep networks learn about image and field statistics.",
+        "screening_reason": "Mallat is the originator of scattering transforms and the multiscale view of deep nets; a harmonic-analysis model of what deep networks capture is exactly a first-principles account of prior structure. Rubric: A✓ B✓ C✓ · D 2 · E 2 · F 2.",
+        "transcript_question": "Does Mallat derive which multiscale/interaction structure a network must learn (beyond fixed wavelets) and show predictions that separate this model from generic function approximation?",
+        "caveat": "title and speaker only; no publisher abstract",
+        "speaker": "Stéphane Mallat",
+        "modules": [
+          2,
+          3
+        ],
+        "id": "9SOgpgP3H4g",
+        "index": 9,
+        "evidence": [],
+        "workshop": "Focus Program on Data Science, Approximation Theory, and Harmonic Analysis"
+      },
+      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
+      "resources": []
+    },
+    {
+      "id": "QKspImAueqY",
+      "title": "Weaving together machine learning, theoretical physics, and neuroscience",
+      "url": "https://www.youtube.com/watch?v=QKspImAueqY",
+      "published_at": "2021-04-05",
+      "duration_seconds": 3960,
+      "screening": {
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "statistical physics",
+          "deep linear dynamics",
+          "neuroscience"
+        ],
+        "publisher_promise": "Gives several worked vignettes where physics-style analysis yields design principles for both artificial and biological networks.",
+        "screening_reason": "Ganguli originated many of the listed results (exact deep-linear learning dynamics, optimal high-dimensional regression losses, retina from optimal autoencoders, grid cells from path integration); the talk ties them under one complex-systems lens. Rubric: A✓ B✓ C✓ · D 1 · E 2 · F 2.",
+        "transcript_question": "Which vignettes are derived in enough depth to show principle-to-prediction, versus only summarized?",
+        "caveat": "publisher abstract only; speaker from description",
+        "speaker": "Surya Ganguli",
+        "modules": [
+          2,
+          3,
+          9
+        ],
+        "id": "QKspImAueqY",
+        "index": 10,
+        "evidence": [],
+        "workshop": "Machine Learning Advances and Applications Seminar"
+      },
+      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
+      "resources": []
+    },
+    {
+      "id": "bHLdAFLBrGA",
+      "title": "Renormalization Group Flow, Optimal Transport, and Diffusion Models",
+      "url": "https://www.youtube.com/watch?v=bHLdAFLBrGA",
+      "published_at": "2024-03-12",
+      "duration_seconds": 2760,
+      "screening": {
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "renormalization group",
+          "diffusion models",
+          "optimal transport"
+        ],
+        "publisher_promise": "Argues that renormalization-group flow can be recast as an optimal-transport problem and connects this to how diffusion models generate data.",
+        "screening_reason": "Cotler co-authored the RG-as-optimal-transport result; a precise identification between RG flow and diffusion generative models is a statistical-physics reframing of what generative learning does. Rubric: A✓ B✓ C✓ · D 2 · E 2 · F 2.",
+        "transcript_question": "Is the RG-diffusion correspondence derived as a mathematical identity with consequences for learning, or offered as an analogy?",
+        "caveat": "title and speaker only; no publisher abstract",
+        "speaker": "Jordan Cotler",
+        "modules": [
+          3,
+          2
+        ],
+        "id": "bHLdAFLBrGA",
+        "index": 11,
+        "evidence": [],
+        "workshop": "Applied Mathematics Colloquium"
+      },
+      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
+      "resources": []
+    }
+  ]
+}

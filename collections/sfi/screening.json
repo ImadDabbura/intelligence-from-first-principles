@@ -1,0 +1,263 @@
+{
+  "methodology": {
+    "bar": "Originator of a unifying principle derives its consequences densely enough to change a mental model. Must pass A–C; D–F scored 0–2 for ranking.",
+    "rubric": {
+      "A": "Originator or primary architect",
+      "B": "Unifying principle",
+      "C": "Derivation shown",
+      "D": "Contested or falsifiable",
+      "E": "Density",
+      "F": "Model update beyond the existing collection"
+    },
+    "decisions": "Same as MLST: read_transcript is not a watch recommendation."
+  },
+  "episodes": [
+    {
+      "id": "E7EUBbZtRxU",
+      "title": "David Wolpert on The No Free Lunch Theorems and Why They Undermine The Scientific Method",
+      "url": "https://www.youtube.com/watch?v=E7EUBbZtRxU",
+      "published_at": "2021-06-14",
+      "duration_seconds": 3120,
+      "screening": {
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "no free lunch",
+          "inductive bias"
+        ],
+        "publisher_promise": "Wolpert discusses his No Free Lunch theorems and argues they limit what any inference or search strategy, including the scientific method, can claim without assumptions.",
+        "screening_reason": "The originator of NFL explains a principle that makes inductive bias unavoidable, directly central to which prior structure makes learning possible. Rubric: A✓ B✓ C✓ · D 2 · E 1 · F 2.",
+        "transcript_question": "Does Wolpert actually walk through the NFL argument and its conditions (uniform priors over problems, off-training-set error), and say what it does and does not imply for learning in structured worlds?",
+        "caveat": "publisher podcast description only; interview format, depth of derivation unverified",
+        "speaker": "David Wolpert",
+        "modules": [
+          2,
+          1
+        ],
+        "id": "E7EUBbZtRxU",
+        "index": 0,
+        "evidence": [],
+        "workshop": "Complexity Podcast"
+      },
+      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
+      "resources": []
+    },
+    {
+      "id": "NjBtagmAi40",
+      "title": "Language Learning, Language Use, and The Evolution of Linguistic Structure",
+      "url": "https://www.youtube.com/watch?v=NjBtagmAi40",
+      "published_at": "2018-05-23",
+      "duration_seconds": 4200,
+      "screening": {
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "iterated learning",
+          "cultural evolution",
+          "language structure"
+        ],
+        "publisher_promise": "Smith presents artificial-language, interaction and iterated-learning experiments showing how learner biases, communicative use and transmission jointly shape linguistic structure, ending with a primate study.",
+        "screening_reason": "A primary architect of the iterated-learning programme shows how structure (compositionality, systematicity) emerges from repeated learning bottlenecks rather than being innate, a falsifiable account of abstraction emergence. Rubric: A✓ B✓ C✓ · D 2 · E 2 · F 2.",
+        "transcript_question": "Does the talk show the mechanism by which a transmission bottleneck plus weak learner biases amplifies into compositional structure, with experiments that separate bias from transmission?",
+        "caveat": "publisher abstract only",
+        "speaker": "Kenny Smith",
+        "modules": [
+          3,
+          9
+        ],
+        "id": "NjBtagmAi40",
+        "index": 1,
+        "evidence": [],
+        "workshop": "SFI Seminars"
+      },
+      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
+      "resources": []
+    },
+    {
+      "id": "UUvf1XeMBVo",
+      "title": "The statue in the stone: how dynamical systems discover patterns in their environment",
+      "url": "https://www.youtube.com/watch?v=UUvf1XeMBVo",
+      "published_at": "2019-07-02",
+      "duration_seconds": 3540,
+      "screening": {
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "non-equilibrium physics",
+          "self-organization",
+          "environment matching"
+        ],
+        "publisher_promise": "Chvykov proposes a general mechanism by which driven, damped dynamical systems settle into configurations matched to patterns in their driving environment, with toy models and a swarm-robotics test.",
+        "screening_reason": "An originator of the low-rattling / environment-matching account derives adaptation-like pattern discovery from driven stat-mech, an adjacent first principle for how structure tracks the environment without an explicit learner. Rubric: A✓ B✓ C✓ · D 2 · E 2 · F 2.",
+        "transcript_question": "Is the steady-state preference for environment-matched configurations derived (e.g. from rattling or effective-temperature arguments) with stated conditions, and does it make predictions that distinguish it from ordinary stability selection?",
+        "caveat": "publisher abstract only; speaker from description",
+        "speaker": "Pavel Chvykov",
+        "modules": [
+          3,
+          8
+        ],
+        "id": "UUvf1XeMBVo",
+        "index": 2,
+        "evidence": [],
+        "workshop": "SFI Seminars"
+      },
+      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
+      "resources": []
+    },
+    {
+      "id": "qXsjWo6K4w0",
+      "title": "Rethinking Human Reason",
+      "url": "https://www.youtube.com/watch?v=qXsjWo6K4w0",
+      "published_at": "2021-06-30",
+      "duration_seconds": 4080,
+      "screening": {
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "argumentative theory",
+          "reasoning",
+          "evolution of cognition"
+        ],
+        "publisher_promise": "Sperber argues reasoning evolved for social justification and argument evaluation rather than individual inference, accounting for confirmation bias and yielding testable predictions.",
+        "screening_reason": "The co-originator of the argumentative theory derives a functional account of reason from which known biases follow and new predictions arise, a strong reframing of what reasoning is for. Rubric: A✓ B✓ C✓ · D 2 · E 1 · F 2.",
+        "transcript_question": "Does Sperber derive specific, testable predictions (e.g. group versus solo reasoning performance, myside bias asymmetries) from the meta-representational account, rather than restating the thesis?",
+        "caveat": "publisher abstract only",
+        "speaker": "Dan Sperber",
+        "modules": [
+          9,
+          1
+        ],
+        "id": "qXsjWo6K4w0",
+        "index": 3,
+        "evidence": [],
+        "workshop": "SFI Seminars"
+      },
+      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
+      "resources": []
+    },
+    {
+      "id": "9_Im4o-XIYE",
+      "title": "Sleep as a Trojan Horse",
+      "url": "https://www.youtube.com/watch?v=9_Im4o-XIYE",
+      "published_at": "2026-05-01",
+      "duration_seconds": 3300,
+      "screening": {
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "criticality",
+          "sleep",
+          "neural computation"
+        ],
+        "publisher_promise": "Argues that brains adapt to unpredictable tasks by operating near a critical point, with sleep serving to restore that regime.",
+        "screening_reason": "The criticality hypothesis is a candidate unifying computational principle for biological learning, and Hengen's lab supplies the sleep-restores-criticality mechanism with testable predictions. Rubric: A✓ B✓ C✓ · D 2 · E 2 · F 2.",
+        "transcript_question": "Does Hengen derive why near-critical dynamics maximise adaptive computational capacity and show falsifiable evidence that sleep restores criticality, beyond correlational avalanche statistics?",
+        "caveat": "publisher abstract only; derivation depth and data quality unverified",
+        "speaker": "Keith Hengen",
+        "modules": [
+          9,
+          2
+        ],
+        "id": "9_Im4o-XIYE",
+        "index": 4,
+        "evidence": [],
+        "workshop": "SFI Seminars"
+      },
+      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
+      "resources": []
+    },
+    {
+      "id": "ISOqiW2eK2c",
+      "title": "2014 - Physics-Inspired Algorithms and Phase Transitions in Community Detection",
+      "url": "https://www.youtube.com/watch?v=ISOqiW2eK2c",
+      "published_at": "2014-05-12",
+      "duration_seconds": 2820,
+      "screening": {
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "phase transitions",
+          "community detection",
+          "statistical physics"
+        ],
+        "publisher_promise": "Presents physics-derived algorithms and the detectability phase transition for finding communities in networks.",
+        "screening_reason": "Moore co-originated the detectability threshold for the stochastic block model, a canonical case of statistical physics fixing what any learner can infer from data. Rubric: A✓ B✓ C✓ · D 1 · E 2 · F 2.",
+        "transcript_question": "Does the talk derive the detectability threshold and its information-theoretic meaning (a regime where no algorithm beats chance), or stay at the level of applications?",
+        "caveat": "no abstract; title and speaker only; symposium-length talk",
+        "speaker": "Cris Moore",
+        "modules": [
+          2,
+          5
+        ],
+        "id": "ISOqiW2eK2c",
+        "index": 5,
+        "evidence": [],
+        "workshop": "SFI Annual Science Board Symposia"
+      },
+      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
+      "resources": []
+    },
+    {
+      "id": "rxznTwBm2wU",
+      "title": "A New Approach to Complex Systems Dynamics",
+      "url": "https://www.youtube.com/watch?v=rxznTwBm2wU",
+      "published_at": "2025-04-21",
+      "duration_seconds": 3840,
+      "screening": {
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "maximum entropy",
+          "complex systems dynamics",
+          "inference"
+        ],
+        "publisher_promise": "Extends maximum-entropy top-down inference to dynamic systems by coupling it with bottom-up process models, yielding analytic equations for how Lagrange multipliers evolve.",
+        "screening_reason": "The originator of the MaxEnt theory of ecology extends a unifying inference principle to dynamics with a worked derivation, an adjacent first principle on how constraints determine distributions. Rubric: A✓ B✓ C✓ · D 1 · E 2 · F 1.",
+        "transcript_question": "Is the dynamic MaxEnt theory derived from first principles with testable predictions, and does it fail or succeed where static MaxEnt breaks?",
+        "caveat": "publisher abstract only; speaker from description",
+        "speaker": "John Harte",
+        "modules": [
+          2,
+          5
+        ],
+        "id": "rxznTwBm2wU",
+        "index": 6,
+        "evidence": [],
+        "workshop": "SFI channel uploads (not in any playlist)"
+      },
+      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
+      "resources": []
+    },
+    {
+      "id": "QfaWnTToDWY",
+      "title": "Sloppy Models, Differential Geometry, and Why Science Works",
+      "url": "https://www.youtube.com/watch?v=QfaWnTToDWY",
+      "published_at": "2021-03-01",
+      "duration_seconds": 4260,
+      "screening": {
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "sloppy models",
+          "information geometry",
+          "model manifold"
+        ],
+        "publisher_promise": "Explains why predictive models remain usable despite poorly determined parameters, using differential geometry to show model manifolds are hyperribbons, and suggests this sloppiness makes the world comprehensible.",
+        "screening_reason": "Originator of sloppy-model theory derives a geometric principle (hierarchical hyperribbon manifolds) that bears directly on capacity, effective dimension and why simple models generalise. Rubric: A✓ B✓ C✓ · D 1 · E 2 · F 2.",
+        "transcript_question": "Does Sethna derive the hyperribbon widths from approximation theory and connect sloppiness to effective dimension or generalisation, or only show empirical eigenvalue spectra?",
+        "caveat": "publisher abstract only; speaker from description",
+        "speaker": "Jim Sethna",
+        "modules": [
+          2,
+          1
+        ],
+        "id": "QfaWnTToDWY",
+        "index": 7,
+        "evidence": [],
+        "workshop": "SFI channel uploads (not in any playlist)"
+      },
+      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
+      "resources": []
+    }
+  ]
+}

@@ -8,36 +8,63 @@ Originator-grade expositions of unifying programmes of learning and intelligence
 
 - Original source: https://github.com/ImadDabbura/intelligence-from-first-principles
 - Inventory date: 2026-11-21
-- Included formats: Reading
-- Exclusions and known gaps: Expository and founding papers by the originators of unifying programmes. Textbooks are excluded. Pilot set. Items already in the MLST collection, and textbooks, are excluded.
-- Number screened: 10 (high priority only)
+- Screened in this pass: 40 items, 40 high priority before de-duplication against the rest of the collection.
+- Kept here: 43 high-priority items only.
+- Known gaps: see the collection entry in collections.json.
 - Number reviewed in depth: 0
 
 ## First filter
 
-Each entry in `screening.json` records the promise, why it matters, its A–F rubric score and the question a transcript review must settle. Titles and channels of YouTube items were checked with YouTube oEmbed; other items against their venue or arXiv pages. Unverified details are noted in each caveat.
+Metadata only, screened against the A–F originator rubric by parallel AI screeners using one shared instruction set. `read_transcript` means worth a transcript review, not a watch recommendation. Many talks had no abstract; each caveat says when a judgement rests on title and speaker.
 
-- [Minimum Description Length Revisited — Peter Grünwald and Teemu Roos](https://arxiv.org/abs/1908.08484) · priority high
-- [Deep Learning is Singular, and That’s Good — Murfet, Wei, Gong, Li, Gell-Redman, Quella](https://arxiv.org/abs/2010.11560) · priority high
-- [Predictability, Complexity and Learning — Bialek, Nemenman and Tishby](https://arxiv.org/abs/physics/0007070) · priority high
-- [The Information Bottleneck Method — Tishby, Pereira and Bialek](https://arxiv.org/abs/physics/0004057) · priority high
-- [Deep Learning and the Information Bottleneck Principle — Tishby and Zaslavsky](https://arxiv.org/abs/1503.02406) · priority high
-- [A Mathematical Theory of Semantic Development in Deep Neural Networks — Saxe, McClelland and Ganguli](https://arxiv.org/abs/1810.10531) · priority high
-- [Feature Learning in Infinite-Width Neural Networks (Tensor Programs IV) — Yang and Hu](https://arxiv.org/abs/2011.14522) · priority high
-- [Understanding Deep Convolutional Networks — Stéphane Mallat](https://arxiv.org/abs/1601.04920) · priority high
-- [From Statistical to Causal Learning — Schölkopf and von Kügelgen](https://arxiv.org/abs/2204.00607) · priority high
-- [Information Theory and Statistical Mechanics — E. T. Jaynes](https://journals.aps.org/pr/abstract/10.1103/PhysRev.106.620) · priority high
+- [Minimum Description Length Revisited — Peter Grünwald and Teemu Roos](https://arxiv.org/abs/1908.08484) — 
+- [Deep Learning is Singular, and That’s Good — Murfet, Wei, Gong, Li, Gell-Redman, Quella](https://arxiv.org/abs/2010.11560) — 
+- [Predictability, Complexity and Learning — Bialek, Nemenman and Tishby](https://arxiv.org/abs/physics/0007070) — 
+- [The Information Bottleneck Method — Tishby, Pereira and Bialek](https://arxiv.org/abs/physics/0004057) — 
+- [Deep Learning and the Information Bottleneck Principle — Tishby and Zaslavsky](https://arxiv.org/abs/1503.02406) — 
+- [A Mathematical Theory of Semantic Development in Deep Neural Networks — Saxe, McClelland and Ganguli](https://arxiv.org/abs/1810.10531) — 
+- [Feature Learning in Infinite-Width Neural Networks (Tensor Programs IV) — Yang and Hu](https://arxiv.org/abs/2011.14522) — 
+- [Understanding Deep Convolutional Networks — Stéphane Mallat](https://arxiv.org/abs/1601.04920) — 
+- [From Statistical to Causal Learning — Schölkopf and von Kügelgen](https://arxiv.org/abs/2204.00607) — 
+- [Information Theory and Statistical Mechanics — E. T. Jaynes](https://journals.aps.org/pr/abstract/10.1103/PhysRev.106.620) — 
+- [On the Principles of Parsimony and Self-Consistency for the Emergence of Intelligence](https://arxiv.org/abs/2207.04630) — Yi Ma, Doris Tsao, Heung-Yeung Shum
+- [The free energy principle made simpler but not too simple](https://arxiv.org/abs/2201.06387) — Karl Friston, Lancelot Da Costa, Noor Sajid, Conor Heins, Kai Ueltzhöffer, Grigorios Pavliotis, Thomas Parr
+- [Driven by Compression Progress: A Simple Principle Explains Essential Aspects of Subjective Beauty, Novelty, Surprise, Interestingness, Attention, Curiosity, Creativity, Art, Science, Music, Jokes](https://arxiv.org/abs/0812.4360) — Jürgen Schmidhuber
+- [Spin glass theory and its new challenge: structured disorder](https://arxiv.org/abs/2309.06947) — Marc Mézard
+- [Efficient representation as a design principle for neural coding and computation](https://arxiv.org/abs/0712.4381) — William Bialek, Rob de Ruyter van Steveninck, Naftali Tishby
+- [Information processing in living systems](https://arxiv.org/abs/1412.8752) — Gašper Tkačik, William Bialek
+- [Towards a Theory of Evolution as Multilevel Learning](https://arxiv.org/abs/2110.14602) — Vitaly Vanchurin, Yuri Wolf, Mikhail Katsnelson, Eugene Koonin
+- [The Information Theory of Individuality](https://arxiv.org/abs/1412.2447) — David Krakauer, Nils Bertschinger, Eckehard Olbrich, Nihat Ay, Jessica Flack
+- [Toy Models of Superposition](https://arxiv.org/abs/2209.10652) — Nelson Elhage, Tristan Hume, Catherine Olsson, Chris Olah, et al.
+- [How to represent part-whole hierarchies in a neural network](https://arxiv.org/abs/2102.12627) — Geoffrey Hinton
+- [Stochastic thermodynamics of computation](https://arxiv.org/abs/1905.05669) — David Wolpert
+- [GFlowNet Foundations](https://arxiv.org/abs/2111.09266) — Yoshua Bengio, Salem Lahlou, Tristan Deleu, Edward Hu, Mo Tiwari, Emmanuel Bengio
+- [AI-GAs: AI-generating algorithms, an alternate paradigm for producing general artificial intelligence](https://arxiv.org/abs/1905.10985) — Jeff Clune
+- [Neurocompositional computing: From the Central Paradox of Cognition to a new generation of AI systems](https://arxiv.org/abs/2205.01128) — Paul Smolensky, R. Thomas McCoy, Roland Fernandez, Matthew Goldrick, Jianfeng Gao
+- [Meta-learning of Sequential Strategies](https://arxiv.org/abs/1905.03030) — Pedro Ortega, Jane Wang, Mark Rowland, Tim Genewein, Zeb Kurth-Nelson, Razvan Pascanu, et al.
+- [What is important about the No Free Lunch theorems?](https://arxiv.org/abs/2007.10928) — David Wolpert
+- [Fit without fear: remarkable mathematical phenomena of deep learning through the prism of interpolation](https://arxiv.org/abs/2105.14368) — Mikhail Belkin
+- [Deep learning: a statistical viewpoint](https://arxiv.org/abs/2103.09177) — Peter Bartlett, Andrea Montanari, Alexander Rakhlin
+- [Gradient Descent on Infinitely Wide Neural Networks: Global Convergence and Generalization](https://arxiv.org/abs/2110.08084) — Francis Bach, Lénaïc Chizat
+- [Reinforcement Learning, Bit by Bit](https://arxiv.org/abs/2103.04047) — Xiuyuan Lu, Benjamin Van Roy, Vikranth Dwaracherla, Morteza Ibrahimi, Ian Osband, Zheng Wen
+- [An Introduction to Variational Autoencoders](https://arxiv.org/abs/1906.02691) — Diederik Kingma, Max Welling
+- [Technological Approach to Mind Everywhere (TAME): an experimentally-grounded framework for understanding diverse bodies and minds](https://arxiv.org/abs/2201.10346) — Michael Levin
+- [Computational Mechanics: Pattern and Prediction, Structure and Simplicity](https://arxiv.org/abs/cond-mat/9907176) — Cosma Shalizi, James Crutchfield
+- [Natural selection maximizes Fisher information](https://arxiv.org/abs/0901.3742) — Steven Frank
+- [On the Mathematical Foundations of Learning](https://cbmm.mit.edu/sites/default/files/documents/cuckersmale.pdf) — Felipe Cucker, Steve Smale
+- [Compositional Sparsity of Learnable Functions](https://cbmm.mit.edu/publications/compositional-sparsity-learnable-functions) — Tomaso Poggio, Maia Fraser
+- [Pattern Theory: the Mathematics of Perception](https://arxiv.org/abs/math/0212400) — David Mumford
+- [Zoom In: An Introduction to Circuits](https://distill.pub/2020/circuits/zoom-in/) — Chris Olah, Nick Cammarata, Ludwig Schubert, Gabriel Goh, Michael Petrov, Shan Carter
+- [The Seven Tools of Causal Inference, with Reflections on Machine Learning](https://ftp.cs.ucla.edu/pub/stat_ser/r481.pdf) — Judea Pearl
+- [Evolvability](https://eccc.weizmann.ac.il/report/2006/120) — Leslie Valiant
+- [How Can Evolution Learn?](https://real.mtak.hu/33746/) — Richard Watson, Eörs Szathmáry
+- [On the Rationale of Maximum-Entropy Methods](https://bayes.wustl.edu/etj/articles/rational.pdf) — E. T. Jaynes
+- [Natural Image Statistics and Neural Representation](https://www.cns.nyu.edu/pub/eero/simoncelli01-reprint.pdf) — Eero Simoncelli, Bruno Olshausen
 
 ## Transcript reviews
 
 None yet.
 
-## Review process
-
-AI-assisted search and verification on 2026-11-21; no transcript was read.
-
 ## Revision record
 
-- 2026-11-21: pilot set added.
-- 2026-11-21: second set added (remaining programmes).
-- 2026-11-21: kept high-priority items only.
+- 2026-11-21: high-priority items added from the multi-channel screen.

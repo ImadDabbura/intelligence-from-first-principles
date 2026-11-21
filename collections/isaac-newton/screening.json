@@ -1,0 +1,626 @@
+{
+  "methodology": {
+    "bar": "Originator of a unifying principle derives its consequences densely enough to change a mental model. Must pass A–C; D–F scored 0–2 for ranking.",
+    "rubric": {
+      "A": "Originator or primary architect",
+      "B": "Unifying principle",
+      "C": "Derivation shown",
+      "D": "Contested or falsifiable",
+      "E": "Density",
+      "F": "Model update beyond the existing collection"
+    },
+    "decisions": "Same as MLST: read_transcript is not a watch recommendation."
+  },
+  "episodes": [
+    {
+      "id": "LDOt2nnBCak",
+      "title": "MDLW01 | Mr. Lénaïc Chizat | Analysis of Gradient Descent on Wide Two-Layer ReLU Neural Networks",
+      "url": "https://www.youtube.com/watch?v=LDOt2nnBCak",
+      "published_at": "2025-12-15",
+      "duration_seconds": 1980,
+      "screening": {
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "mean-field limit",
+          "implicit bias",
+          "wasserstein gradient flow"
+        ],
+        "publisher_promise": "Analyses gradient descent on infinitely wide two-layer ReLU networks as a Wasserstein gradient flow, giving global convergence and a max-margin implicit bias in a function space.",
+        "screening_reason": "Co-architect of the mean-field/lazy-training distinction; derives from one limit both global optimality and the implicit-regularization characterization of the learned predictor. Rubric: A✓ B✓ C✓ · D 1 · E 2 · F 1.",
+        "transcript_question": "Which function-space norm does the logistic-loss mean-field dynamics implicitly maximise the margin in, and how does this differ from the kernel (lazy) regime?",
+        "caveat": "publisher abstract only; speaker from description",
+        "speaker": "Lénaïc Chizat",
+        "modules": [
+          2
+        ],
+        "id": "LDOt2nnBCak",
+        "index": 0,
+        "evidence": [],
+        "workshop": "Mathematics of deep learning [MDLW01] (no playlist; grouped by title code)"
+      },
+      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
+      "resources": []
+    },
+    {
+      "id": "07PXcIr79VA",
+      "title": "MDLW01 | Prof. Emmanuel Abbe | Fundamental Limits of Gradient-Based Learning on Neural Networks",
+      "url": "https://www.youtube.com/watch?v=07PXcIr79VA",
+      "published_at": "2025-12-15",
+      "duration_seconds": 2340,
+      "screening": {
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "sgd vs gd",
+          "statistical queries",
+          "learnability limits"
+        ],
+        "publisher_promise": "Characterises what gradient-based training of neural nets can learn, separating SGD, full-batch GD and mini-batch regimes against PAC, statistical-query and kernel classes.",
+        "screening_reason": "Originator of the result; a single computational lens (noise and batch size determine whether training is PAC-complete or SQ-limited) explains several separations, with staircase functions as a concrete prediction. Rubric: A✓ B✓ C✓ · D 1 · E 2 · F 2.",
+        "transcript_question": "What exact mechanism makes SGD PAC-universal while GD is SQ-limited, and how does the staircase property predict what homogeneous initialisations can learn?",
+        "caveat": "publisher abstract only; speaker from description",
+        "speaker": "Emmanuel Abbe",
+        "modules": [
+          2,
+          4
+        ],
+        "id": "07PXcIr79VA",
+        "index": 1,
+        "evidence": [],
+        "workshop": "Mathematics of deep learning [MDLW01] (no playlist; grouped by title code)"
+      },
+      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
+      "resources": []
+    },
+    {
+      "id": "l-pgrEW-5Eo",
+      "title": "MDLW01 | Prof. Sebastien Bubeck | A universal law of robustness via isoperimetry",
+      "url": "https://www.youtube.com/watch?v=l-pgrEW-5Eo",
+      "published_at": "2025-12-15",
+      "duration_seconds": 2040,
+      "screening": {
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "robustness",
+          "overparametrization",
+          "isoperimetry"
+        ],
+        "publisher_promise": "Proves that smoothly interpolating data requires overparametrization far beyond what mere interpolation needs, via an isoperimetry argument.",
+        "screening_reason": "Originator presenting a law-like result: under isoperimetric data, Lipschitz interpolation forces roughly n*d parameters, a falsifiable reframing of why large models are needed. Rubric: A✓ B✓ C✓ · D 2 · E 2 · F 2.",
+        "transcript_question": "How does the isoperimetry argument turn into the n*d parameter lower bound for smooth interpolation, and which data assumptions does the law rely on?",
+        "caveat": "publisher abstract only; speaker from description",
+        "speaker": "Sebastien Bubeck",
+        "modules": [
+          2
+        ],
+        "id": "l-pgrEW-5Eo",
+        "index": 2,
+        "evidence": [],
+        "workshop": "Mathematics of deep learning [MDLW01] (no playlist; grouped by title code)"
+      },
+      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
+      "resources": []
+    },
+    {
+      "id": "20akEp_Z9v0",
+      "title": "VMVW02 | Dr. Francis Bach | Breaking the Curse of Dimensionality with Convex Neural Networks",
+      "url": "https://www.youtube.com/watch?v=20akEp_Z9v0",
+      "published_at": "2025-12-15",
+      "duration_seconds": 2880,
+      "screening": {
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "infinite-width networks",
+          "convex neural networks",
+          "adaptivity"
+        ],
+        "publisher_promise": "Shows that single-hidden-layer ReLU networks with unbounded width and a sparsity-inducing norm on output weights become a convex problem whose generalization adapts to low-dimensional structure.",
+        "screening_reason": "Bach is the architect of the convex/variation-norm view of two-layer networks; the norm explains why such networks escape the curse of dimensionality where kernels do not. Rubric: A✓ B✓ C✓ · D 1 · E 2 · F 2.",
+        "transcript_question": "Does the talk derive the adaptivity gap between the variation norm and RKHS norms explicitly, and does it say what remains computationally intractable?",
+        "caveat": "publisher abstract only; speaker from title",
+        "speaker": "Francis Bach",
+        "modules": [
+          2
+        ],
+        "id": "20akEp_Z9v0",
+        "index": 3,
+        "evidence": [],
+        "workshop": "VMVW02"
+      },
+      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
+      "resources": []
+    },
+    {
+      "id": "tZlXVGpaPpk",
+      "title": "VMVW02 | Dr. Anders Hansen | On computational barriers in data science and the paradoxes",
+      "url": "https://www.youtube.com/watch?v=tZlXVGpaPpk",
+      "published_at": "2025-12-15",
+      "duration_seconds": 2880,
+      "screening": {
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "computability",
+          "limits of optimisation",
+          "instability"
+        ],
+        "publisher_promise": "Argues there are problems (lasso, basis pursuit, neural-network training) where no algorithm can compute minimisers to arbitrary accuracy even though they exist, and maps when accuracy is achievable.",
+        "screening_reason": "Hansen originated the computational-barriers/solvability-complexity-index programme; it reframes what 'solving' a learning problem means and is falsifiable. Rubric: A✓ B✓ C✓ · D 2 · E 2 · F 2.",
+        "transcript_question": "Does the talk give the impossibility construction concretely and state which accuracy levels are and are not attainable, and with what bearing on deep learning?",
+        "caveat": "publisher abstract only; speaker from title",
+        "speaker": "Anders Hansen",
+        "modules": [
+          1,
+          2
+        ],
+        "id": "tZlXVGpaPpk",
+        "index": 4,
+        "evidence": [],
+        "workshop": "VMVW02"
+      },
+      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
+      "resources": []
+    },
+    {
+      "id": "VJNfwfdUmeQ",
+      "title": "STSW04 | Prof. Guy Bresler | Reducibility and Computational Lower Bounds for Problems",
+      "url": "https://www.youtube.com/watch?v=VJNfwfdUmeQ",
+      "published_at": "2025-12-15",
+      "duration_seconds": 2940,
+      "screening": {
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "statistical-computational gaps",
+          "average-case reductions",
+          "complexity of learning"
+        ],
+        "publisher_promise": "Explains why efficient algorithms for structured signal-in-noise problems need far more data than inefficient ones, and builds reductions from planted clique to establish such lower bounds.",
+        "screening_reason": "Bresler is an originator of the average-case reduction programme; a single hardness assumption organises computational limits across many estimation problems. Rubric: A✓ B✓ C✓ · D 2 · E 2 · F 2.",
+        "transcript_question": "Which reductions are shown step by step, and what do they imply about where learnability is computationally rather than statistically limited?",
+        "caveat": "publisher abstract only; speaker from title",
+        "speaker": "Guy Bresler",
+        "modules": [
+          2
+        ],
+        "id": "VJNfwfdUmeQ",
+        "index": 5,
+        "evidence": [],
+        "workshop": "STSW04"
+      },
+      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
+      "resources": []
+    },
+    {
+      "id": "3IFCT3Cc_aY",
+      "title": "STSW02 | Johannes Schmidt-hieber | Statistical theory for deep neural networks with ReLU activation",
+      "url": "https://www.youtube.com/watch?v=3IFCT3Cc_aY",
+      "published_at": "2025-12-15",
+      "duration_seconds": 3660,
+      "screening": {
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "deep relu networks",
+          "compositional structure",
+          "minimax rates"
+        ],
+        "publisher_promise": "Shows that sparse deep ReLU networks fitted by least squares reach near-minimax rates for compositional regression functions, explaining a statistical role for depth beyond universal approximation.",
+        "screening_reason": "Schmidt-Hieber is the author of this result; compositional structure is a single assumption explaining why depth helps statistically. Rubric: A✓ B✓ C✓ · D 1 · E 2 · F 1.",
+        "transcript_question": "Does the talk derive why compositional structure lets depth beat shallow methods, and what it admits about the gap between the empirical-risk minimiser and SGD?",
+        "caveat": "publisher abstract only; speaker from title",
+        "speaker": "Johannes Schmidt-Hieber",
+        "modules": [
+          2
+        ],
+        "id": "3IFCT3Cc_aY",
+        "index": 6,
+        "evidence": [],
+        "workshop": "STSW02"
+      },
+      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
+      "resources": []
+    },
+    {
+      "id": "ikcoL5zq0EY",
+      "title": "STSW01 | Dr. Jonas Peters | The Hardness of Conditional Independence Testing",
+      "url": "https://www.youtube.com/watch?v=ikcoL5zq0EY",
+      "published_at": "2025-12-15",
+      "duration_seconds": 2220,
+      "screening": {
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "conditional independence",
+          "no free lunch",
+          "causal discovery"
+        ],
+        "publisher_promise": "Formalises the folklore that conditional-independence testing is hard: any test with valid size has no power against any alternative unless the hypothesis class is restricted.",
+        "screening_reason": "Peters co-authored the no-free-lunch theorem for CI testing; it shows causal discovery must rest on assumptions, which directly shapes module 6. Rubric: A✓ B✓ C✓ · D 1 · E 2 · F 2.",
+        "transcript_question": "How is the impossibility proved, and which restrictions (e.g. regression-based tests) does the talk propose as the price of power?",
+        "caveat": "publisher abstract only; speaker from title",
+        "speaker": "Jonas Peters",
+        "modules": [
+          2,
+          6
+        ],
+        "id": "ikcoL5zq0EY",
+        "index": 7,
+        "evidence": [],
+        "workshop": "STSW01"
+      },
+      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
+      "resources": []
+    },
+    {
+      "id": "ZO3pD2ashIQ",
+      "title": "MDLW01 | Joan Bruna | On the Sample Complexity of Learning Under Invariance and Geometric Stability",
+      "url": "https://www.youtube.com/watch?v=ZO3pD2ashIQ",
+      "published_at": "2025-12-15",
+      "duration_seconds": 1800,
+      "screening": {
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "invariance",
+          "sample complexity",
+          "geometric priors"
+        ],
+        "publisher_promise": "Quantifies how much invariance and geometric stability reduce sample complexity for kernel methods on the sphere.",
+        "screening_reason": "Bruna is a primary architect of the geometric deep learning view, and this talk derives the sample-complexity gain from invariance (a factor of the group size) from spherical harmonics, which is a direct answer to which prior makes learning possible. Rubric: A✓ B✓ C✓ · D 1 · E 2 · F 2.",
+        "transcript_question": "Does the derivation show exactly when the group-size gain in sample complexity appears and how deformation stability extends it beyond exact invariance?",
+        "caveat": "publisher abstract only",
+        "speaker": "Dr Joan Bruna",
+        "modules": [
+          2
+        ],
+        "id": "ZO3pD2ashIQ",
+        "index": 8,
+        "evidence": [],
+        "workshop": "Mathematics of deep learning [MDLW01] (no playlist; grouped by title code)"
+      },
+      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
+      "resources": []
+    },
+    {
+      "id": "HyieQD-O9Tc",
+      "title": "MDLW01 | Prof. Florent Krzakala | Generalization in machine learning: lessons from simple HD models",
+      "url": "https://www.youtube.com/watch?v=HyieQD-O9Tc",
+      "published_at": "2025-12-15",
+      "duration_seconds": 1740,
+      "screening": {
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "generalization",
+          "high-dimensional models",
+          "statistical physics"
+        ],
+        "publisher_promise": "Draws lessons about generalization from exactly solvable high-dimensional models.",
+        "screening_reason": "Krzakala is an architect of the statistical-physics programme that computes exact learning curves in high-dimensional models (double descent, teacher-student, random features), which explains several generalization puzzles from one approach. Short slot and no abstract. Rubric: A✓ B✓ C✓ · D 1 · E 2 · F 2.",
+        "transcript_question": "Which generalization phenomena does the talk derive from exact asymptotics, and what does it claim transfers to real networks?",
+        "caveat": "title and speaker only; no abstract; 30-minute slot",
+        "speaker": "Professor Florent Krzakala",
+        "modules": [
+          2
+        ],
+        "id": "HyieQD-O9Tc",
+        "index": 9,
+        "evidence": [],
+        "workshop": "Mathematics of deep learning [MDLW01] (no playlist; grouped by title code)"
+      },
+      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
+      "resources": []
+    },
+    {
+      "id": "7fPYLGrDWis",
+      "title": "Prof. Andrea Liu | SPL Kirk Lecture: How physical systems can learn by themselves",
+      "url": "https://www.youtube.com/watch?v=7fPYLGrDWis",
+      "published_at": "2023-11-02",
+      "duration_seconds": 4140,
+      "screening": {
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "physical learning",
+          "local learning rules",
+          "coupled learning"
+        ],
+        "publisher_promise": "Describes physical systems that learn bottom-up through local rules, without a computer minimizing a global cost.",
+        "screening_reason": "Liu co-originated coupled learning, which derives local update rules for physical networks (flow, elastic, electrical) that approximate gradient descent on a task cost, and built lab systems that learn this way. This reframes learning as a physical process beyond brains and computers. Rubric: A✓ B✓ C✓ · D 2 · E 1 · F 2.",
+        "transcript_question": "Does the lecture derive how a local, contrast-based rule approximates gradient descent on a global cost, and what limits the tasks a physical network can learn?",
+        "caveat": "publisher abstract only; Kirk lecture may be pitched to a broad audience",
+        "speaker": "Professor Andrea Liu",
+        "modules": [
+          9,
+          3
+        ],
+        "id": "7fPYLGrDWis",
+        "index": 10,
+        "evidence": [],
+        "workshop": "Kirk Distinguished Visiting Fellows Lectures"
+      },
+      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
+      "resources": []
+    },
+    {
+      "id": "aNNS69bKKr4",
+      "title": "Prof. Iain Couzin | MMV Rothschild Lecture: The Geometry of Decision-Making",
+      "url": "https://www.youtube.com/watch?v=aNNS69bKKr4",
+      "published_at": "2023-08-07",
+      "duration_seconds": 4860,
+      "screening": {
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "collective decision-making",
+          "neural geometry",
+          "bifurcations"
+        ],
+        "publisher_promise": "A Rothschild Lecture on the geometry of decision-making in animals and groups.",
+        "screening_reason": "Couzin is the originator of a programme showing that spatial decisions in brains and animal groups follow from the same neural-ring dynamics, with bifurcations that geometrically split options, tested in VR experiments across species. This is a unifying principle for decision-making across individuals and collectives. Rubric: A✓ B✓ C✓ · D 2 · E 1 · F 2.",
+        "transcript_question": "Does the lecture derive the bifurcation geometry of decisions from a specific neural model and show which predictions were confirmed in animal experiments?",
+        "caveat": "title and speaker only; no abstract; content inferred from speaker's known programme",
+        "speaker": "Professor Iain Couzin",
+        "modules": [
+          9
+        ],
+        "id": "aNNS69bKKr4",
+        "index": 11,
+        "evidence": [],
+        "workshop": "Rothschild Distinguished Visiting Fellows Lectures"
+      },
+      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
+      "resources": []
+    },
+    {
+      "id": "B_RBrK_nCIQ",
+      "title": "Dr. Anders Hansen | Necessary mechanisms for super AI and stopping hallucinations: The consistent...",
+      "url": "https://www.youtube.com/watch?v=B_RBrK_nCIQ",
+      "published_at": "2026-04-21",
+      "duration_seconds": 2760,
+      "screening": {
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "reasoning limits",
+          "hallucination",
+          "impossibility"
+        ],
+        "publisher_promise": "Title-only listing for a 46-minute talk on: Necessary mechanisms for super AI and stopping hallucinations: The consistent reasoning paradox and the indeterminacy function.",
+        "screening_reason": "Hansen is the originator of the consistent reasoning paradox, an impossibility-style result claiming that any AI which reasons consistently must sometimes hallucinate unless it can say 'I don't know'; a falsifiable structural claim about reasoning systems. Rubric: A✓ B✓ C✓ · D 2 · E 2 · F 2.",
+        "transcript_question": "Does the talk derive the consistent reasoning paradox and the indeterminacy function as a theorem with stated assumptions, and what exactly does it imply about which reasoning tasks are achievable?",
+        "caveat": "no abstract in publisher metadata; promise and rubric inferred from title, speaker and workshop only",
+        "speaker": "Anders Hansen",
+        "modules": [
+          1,
+          4
+        ],
+        "id": "B_RBrK_nCIQ",
+        "index": 12,
+        "evidence": [],
+        "workshop": "AI in Spectral Geometry, perspectives and directions: the Round Table [GSTW07]"
+      },
+      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
+      "resources": []
+    },
+    {
+      "id": "rYkXrs1MmU4",
+      "title": "Assoc. Prof. Shuichi Hirahara | Complexity-Theoretic Universal Inductive Inference",
+      "url": "https://www.youtube.com/watch?v=rYkXrs1MmU4",
+      "published_at": "2026-09-09",
+      "duration_seconds": 1800,
+      "screening": {
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "universal induction",
+          "meta-complexity",
+          "kolmogorov complexity"
+        ],
+        "publisher_promise": "Title-only listing for a 30-minute talk on: Complexity-Theoretic Universal Inductive Inference.",
+        "screening_reason": "Hirahara is a primary architect of modern meta-complexity; a complexity-theoretic version of universal (Solomonoff-style) inductive inference speaks directly to what makes learning possible and at what computational cost. Rubric: A✓ B✓ C✓ · D 2 · E 2 · F 2.",
+        "transcript_question": "What exactly is the complexity-theoretic universal inductor, and does the talk derive conditions (e.g., on one-way functions or meta-complexity hardness) under which efficient universal learning is possible or impossible?",
+        "caveat": "no abstract in publisher metadata; promise and rubric inferred from title, speaker and workshop only",
+        "speaker": "Shuichi Hirahara",
+        "modules": [
+          2,
+          5
+        ],
+        "id": "rYkXrs1MmU4",
+        "index": 13,
+        "evidence": [],
+        "workshop": "Frontiers in complexity lower bounds [LFCW01]"
+      },
+      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
+      "resources": []
+    },
+    {
+      "id": "G1723fqlumE",
+      "title": "Mr. Thomas Hubert | AlphaProof When RL meets Formal Maths",
+      "url": "https://www.youtube.com/watch?v=G1723fqlumE",
+      "published_at": "2025-06-25",
+      "duration_seconds": 4500,
+      "screening": {
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "search",
+          "reinforcement learning",
+          "formal proof"
+        ],
+        "publisher_promise": "Title-only listing for a 75-minute talk on: AlphaProof When RL meets Formal Maths.",
+        "screening_reason": "Hubert is a primary architect of AlphaProof (and AlphaZero lineage); RL with search over formally verified proofs is a concrete mechanism for structure becoming executable reasoning and self-improvement. Rubric: A✓ B✓ C✓ · D 1 · E 2 · F 2.",
+        "transcript_question": "Does the talk explain the mechanism (RL on verified rewards, test-time RL, autoformalized curricula) and what it reveals about why search plus verification succeeds where imitation does not?",
+        "caveat": "no abstract in publisher metadata; promise and rubric inferred from title, speaker and workshop only",
+        "speaker": "Thomas Hubert",
+        "modules": [
+          4,
+          7
+        ],
+        "id": "G1723fqlumE",
+        "index": 14,
+        "evidence": [],
+        "workshop": "Big proof: formalizing mathematics at scale [BPRW03]"
+      },
+      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
+      "resources": []
+    },
+    {
+      "id": "IlXQ4iJYcFA",
+      "title": "Dr. Desi Ivanova | Bayesian Experimental Design: Principles and Computation",
+      "url": "https://www.youtube.com/watch?v=IlXQ4iJYcFA",
+      "published_at": "2025-07-11",
+      "duration_seconds": 3840,
+      "screening": {
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "experimental design",
+          "expected information gain",
+          "tutorial"
+        ],
+        "publisher_promise": "Title-only listing for a 64-minute talk on: Bayesian Experimental Design: Principles and Computation.",
+        "screening_reason": "Architect's tutorial central to module 5: Ivanova co-developed deep adaptive and policy-based Bayesian experimental design, which derives evidence acquisition from expected information gain. Rubric: A✓ B✓ C✓ · D 1 · E 2 · F 1.",
+        "transcript_question": "Does the tutorial derive adaptive design from expected information gain and show how amortized policies make it tractable, with the bounds used?",
+        "caveat": "no abstract in publisher metadata; promise and rubric inferred from title, speaker and workshop only",
+        "speaker": "Desi Ivanova",
+        "modules": [
+          5
+        ],
+        "id": "IlXQ4iJYcFA",
+        "index": 15,
+        "evidence": [],
+        "workshop": "Accelerating statistical inference and experimental design with machine learning [RCLW03]"
+      },
+      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
+      "resources": []
+    },
+    {
+      "id": "Hcajv1zoK0g",
+      "title": "Prof. Vladimir Vovk | Calibrating prediction uncertainty with validity guarantees",
+      "url": "https://www.youtube.com/watch?v=Hcajv1zoK0g",
+      "published_at": "2025-06-23",
+      "duration_seconds": 3960,
+      "screening": {
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "conformal prediction",
+          "calibration",
+          "validity"
+        ],
+        "publisher_promise": "An hour-long account of how to calibrate predictive uncertainty so that coverage guarantees hold without distributional assumptions.",
+        "screening_reason": "Vovk originated conformal prediction and algorithmic-randomness-based validity; an hour from him on calibration with guarantees is the architect deriving what exchangeability alone buys a predictor, central to what evaluation can certify. Rubric: A✓ B✓ C✓ · D 1 · E 2 · F 2.",
+        "transcript_question": "Does Vovk derive validity from exchangeability as a single principle and show what it implies for calibration and its limits (e.g. conditional coverage), or is it a survey of conformal variants?",
+        "caveat": "publisher metadata only (title, speaker, programme); no abstract in description; originator status and content inferred from title and speaker only",
+        "speaker": "Vladimir Vovk",
+        "modules": [
+          1,
+          5
+        ],
+        "id": "Hcajv1zoK0g",
+        "index": 16,
+        "evidence": [],
+        "workshop": "Calibrating prediction uncertainty : statistics and machine learning perspectives [RCLW02]"
+      },
+      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
+      "resources": []
+    },
+    {
+      "id": "-n-e0IYFMN4",
+      "title": "Prof. Eyke Hüllermeier | Uncertainty Quantification in Machine Learning: From Aleatoric to Epistemic",
+      "url": "https://www.youtube.com/watch?v=-n-e0IYFMN4",
+      "published_at": "2025-06-24",
+      "duration_seconds": 3600,
+      "screening": {
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "epistemic uncertainty",
+          "aleatoric",
+          "uncertainty quantification"
+        ],
+        "publisher_promise": "A tutorial-length treatment of separating aleatoric from epistemic uncertainty in machine learning predictions.",
+        "screening_reason": "Hüllermeier is a primary architect of the aleatoric/epistemic distinction in ML and its critique; the distinction governs which evidence is worth acquiring and what an uncertainty estimate can mean. Rubric: A✓ B✓ C✓ · D 2 · E 2 · F 2.",
+        "transcript_question": "Does the talk give a principled definition of epistemic uncertainty (e.g. second-order or credal representations) and show where common measures such as entropy decompositions fail?",
+        "caveat": "publisher metadata only (title, speaker, programme); no abstract in description; originator status and content inferred from title and speaker only",
+        "speaker": "Eyke Hüllermeier",
+        "modules": [
+          1,
+          5
+        ],
+        "id": "-n-e0IYFMN4",
+        "index": 17,
+        "evidence": [],
+        "workshop": "Calibrating prediction uncertainty : statistics and machine learning perspectives [RCLW02]"
+      },
+      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
+      "resources": []
+    },
+    {
+      "id": "tC52E7hJj9I",
+      "title": "Dr. Jennifer Chayes | Graphons and Machine Learning: Modeling and Estimation of Sparse Massive...",
+      "url": "https://www.youtube.com/watch?v=tC52E7hJj9I",
+      "published_at": "2025-12-15",
+      "duration_seconds": 3780,
+      "screening": {
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "graphons",
+          "network limits",
+          "sparse graphs"
+        ],
+        "publisher_promise": "First part of a tutorial on graphon limits as a modelling and estimation framework for large sparse networks.",
+        "screening_reason": "Chayes, with Borgs, co-built graph-limit theory; an architect's tutorial on graphons gives the exchangeability-based account of what a large structured dataset converges to and what can be estimated, an adjacent first principle for learning from relational data. Rubric: A✓ B✓ C✓ · D 1 · E 2 · F 1.",
+        "transcript_question": "Does Part I derive the graphon as the canonical limit object from exchangeability and explain the sparse extension, or stay at a model catalogue?",
+        "caveat": "publisher metadata only (title, speaker, programme); no abstract in description; originator status and content inferred from title and speaker only",
+        "speaker": "Jennifer Chayes",
+        "modules": [
+          2,
+          3
+        ],
+        "id": "tC52E7hJj9I",
+        "index": 18,
+        "evidence": [],
+        "workshop": "Theoretical foundations for statistical network analysis [SNA]"
+      },
+      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
+      "resources": []
+    },
+    {
+      "id": "JnpyWRMX5e8",
+      "title": "Dr. Jared Tanner | The surprising structure of Gaussian point clouds and its implications for......",
+      "url": "https://www.youtube.com/watch?v=JnpyWRMX5e8",
+      "published_at": "2025-12-15",
+      "duration_seconds": 3000,
+      "screening": {
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "phase transitions",
+          "high-dimensional geometry",
+          "compressed sensing"
+        ],
+        "publisher_promise": "Explains unexpected geometric regularities of random Gaussian point clouds and what they imply for recovering signals.",
+        "screening_reason": "Tanner co-originated the Donoho–Tanner phase-transition theory from random polytope geometry; it is a canonical case of sharp phase transitions governing when sparse structure can be learned from few measurements. Rubric: A✓ B✓ C✓ · D 1 · E 2 · F 2.",
+        "transcript_question": "Does Tanner derive the recovery phase transition from neighbourliness of random polytopes and state its predictions for sample complexity?",
+        "caveat": "publisher metadata only (title, speaker, programme); no abstract in description; originator status and content inferred from title and speaker only",
+        "speaker": "Jared Tanner",
+        "modules": [
+          2
+        ],
+        "id": "JnpyWRMX5e8",
+        "index": 19,
+        "evidence": [],
+        "workshop": "Statistical theory and methods for complex, high-dimensional data [SCH]"
+      },
+      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
+      "resources": []
+    }
+  ]
+}

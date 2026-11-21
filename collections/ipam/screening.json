@@ -1,0 +1,937 @@
+{
+  "methodology": {
+    "bar": "Originator of a unifying principle derives its consequences densely enough to change a mental model. Must pass A–C; D–F scored 0–2 for ranking.",
+    "rubric": {
+      "A": "Originator or primary architect",
+      "B": "Unifying principle",
+      "C": "Derivation shown",
+      "D": "Contested or falsifiable",
+      "E": "Density",
+      "F": "Model update beyond the existing collection"
+    },
+    "decisions": "Same as MLST: read_transcript is not a watch recommendation."
+  },
+  "episodes": [
+    {
+      "id": "K2UlqNoXSes",
+      "title": "Pratik Chaudhari: \"Learning with few labeled data\"",
+      "url": "https://www.youtube.com/watch?v=K2UlqNoXSes",
+      "published_at": "2020-07-06",
+      "duration_seconds": 3060,
+      "screening": {
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "representation learning",
+          "thermodynamics",
+          "transfer learning"
+        ],
+        "publisher_promise": "Connects transfer learning to thermodynamics, placing rate, distortion and classification loss on a convex equilibrium surface and prescribing processes that move along it to control transfer.",
+        "screening_reason": "Chaudhari originated this thermodynamic rate-distortion framing of representations; it turns representation quality into a state-space with derived processes, a genuine model update for few-shot transfer. Rubric: A✓ B✓ C✓ · D 1 · E 2 · F 2.",
+        "transcript_question": "Is the equilibrium surface derived from a single variational principle that yields testable predictions about transfer, or is it a convenient parameterisation of empirical trade-offs?",
+        "caveat": "publisher abstract only; speaker from title/description",
+        "speaker": "Pratik Chaudhari",
+        "modules": [
+          3,
+          2
+        ],
+        "id": "K2UlqNoXSes",
+        "index": 0,
+        "evidence": [],
+        "workshop": "IPAM"
+      },
+      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
+      "resources": []
+    },
+    {
+      "id": "_BPsuomAcoI",
+      "title": "Paul Christiano - Mechanistic Estimation - IPAM at UCLA",
+      "url": "https://www.youtube.com/watch?v=_BPsuomAcoI",
+      "published_at": "2026-08-31",
+      "duration_seconds": 3360,
+      "screening": {
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "heuristic explanation",
+          "interpretability",
+          "alignment"
+        ],
+        "publisher_promise": "Formalises the conjecture that every surprising computational phenomenon has a good explanation, reports early attempts on simple systems, and argues explanations may be efficiently findable.",
+        "screening_reason": "Christiano originated the heuristic-explanation and mechanistic-estimation programme at ARC; it offers a principled definition of what it would mean to understand a network, central to module 1, and is openly contested. Rubric: A✓ B✓ C✓ · D 2 · E 2 · F 2.",
+        "transcript_question": "What is the formal statement of the no-coincidence or explanation conjecture, and what evidence from simple systems supports that explanations are efficiently discoverable?",
+        "caveat": "publisher abstract only; speaker from title/description",
+        "speaker": "Paul Christiano",
+        "modules": [
+          1
+        ],
+        "id": "_BPsuomAcoI",
+        "index": 1,
+        "evidence": [],
+        "workshop": "IPAM"
+      },
+      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
+      "resources": []
+    },
+    {
+      "id": "4V_V9dh4yzg",
+      "title": "Ryan Cotterell - Two views of a language model - IPAM at UCLA",
+      "url": "https://www.youtube.com/watch?v=4V_V9dh4yzg",
+      "published_at": "2026-09-01",
+      "duration_seconds": 2700,
+      "screening": {
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "transformer expressivity",
+          "formal languages",
+          "statistical-computational duality"
+        ],
+        "publisher_promise": "Separates a language model as a distribution judged by held-out prediction from a language model as a model of computation, and develops expressivity results for unique-hard-attention transformers using logic and automata.",
+        "screening_reason": "Cotterell builds this programme; the duality names exactly where average-case prediction stops telling you whether an algorithm is present, a reframing directly useful for module 4 and for evaluation. Rubric: A✓ B✓ C✓ · D 2 · E 2 · F 2.",
+        "transcript_question": "Which exact logical class do fixed-precision UHATs recognise, and how does the talk link that bound to observable out-of-distribution failures of trained models?",
+        "caveat": "publisher abstract only; speaker from title/description",
+        "speaker": "Ryan Cotterell",
+        "modules": [
+          4,
+          1
+        ],
+        "id": "4V_V9dh4yzg",
+        "index": 2,
+        "evidence": [],
+        "workshop": "IPAM"
+      },
+      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
+      "resources": []
+    },
+    {
+      "id": "5PjsZ3sGhm8",
+      "title": "Gérard Ben Arous: \"Which is worse: a weak signal lost in entropy or trapping by topological comp...\"",
+      "url": "https://www.youtube.com/watch?v=5PjsZ3sGhm8",
+      "published_at": "2019-12-10",
+      "duration_seconds": 2880,
+      "screening": {
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "optimization landscapes",
+          "high-dimensional probability",
+          "tensor pca"
+        ],
+        "publisher_promise": "Asks whether high-dimensional non-convex problems are hard because of landscape complexity or because a weak signal is drowned in high-entropy regions, using tensor PCA to say when GD and SGD provably succeed.",
+        "screening_reason": "Ben Arous is a primary architect of landscape-complexity (Kac-Rice) and information-exponent analyses; the entropy-versus-traps distinction is a sharp, falsifiable reframing of what makes learning hard. Rubric: A✓ B✓ C✓ · D 2 · E 2 · F 2.",
+        "transcript_question": "Does the talk derive a criterion that separates entropic (weak-signal) hardness from topological trapping, and does that criterion predict when SGD succeeds beyond tensor PCA?",
+        "caveat": "publisher abstract only; speaker from title/description",
+        "speaker": "Gérard Ben Arous",
+        "modules": [
+          2
+        ],
+        "id": "5PjsZ3sGhm8",
+        "index": 3,
+        "evidence": [],
+        "workshop": "IPAM"
+      },
+      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
+      "resources": []
+    },
+    {
+      "id": "A7AnCvYDQrU",
+      "title": "Yann LeCun: \"Energy-Based Self-Supervised Learning\"",
+      "url": "https://www.youtube.com/watch?v=A7AnCvYDQrU",
+      "published_at": "2019-12-10",
+      "duration_seconds": 3600,
+      "screening": {
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "energy-based models",
+          "self-supervised learning",
+          "world models"
+        ],
+        "publisher_promise": "Presents energy-based models as a unifying framework for self-supervised learning, framed by physical insight into learning.",
+        "screening_reason": "LeCun is the architect of the energy-based view of learning; a 60-minute talk at a physics-of-learning workshop is likely the derivational version (contrastive versus regularised collapse prevention) rather than a keynote overview. Rubric: A✓ B✓ C✓ · D 2 · E 1 · F 1.",
+        "transcript_question": "Does the talk derive why energy-based SSL needs contrastive or regularised collapse prevention and what each predicts, rather than surveying architectures?",
+        "caveat": "no abstract; title and speaker only; speaker from title/description",
+        "speaker": "Yann LeCun",
+        "modules": [
+          3,
+          6
+        ],
+        "id": "A7AnCvYDQrU",
+        "index": 4,
+        "evidence": [],
+        "workshop": "IPAM"
+      },
+      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
+      "resources": []
+    },
+    {
+      "id": "fmVuNRKsQa8",
+      "title": "Michael Mahoney: \"Why Deep Learning Works: Implicit Self-Regularization in Deep Neural Networks\"",
+      "url": "https://www.youtube.com/watch?v=fmVuNRKsQa8",
+      "published_at": "2019-11-05",
+      "duration_seconds": 3600,
+      "screening": {
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "heavy-tailed self-regularization",
+          "random matrix theory",
+          "generalization"
+        ],
+        "publisher_promise": "Argues deep nets generalize through implicit self-regularization visible in heavy-tailed weight-matrix spectra.",
+        "screening_reason": "Originator of heavy-tailed self-regularization: one random-matrix principle accounts for many training phenomena and predicts quality without test data. Rubric: A✓ B✓ C✓ · D 2 · E 2 · F 2.",
+        "transcript_question": "Does the talk derive the heavy-tail phases from training dynamics, or only fit them empirically?",
+        "caveat": "publisher abstract only; speaker from title/description",
+        "speaker": "Michael Mahoney",
+        "modules": [
+          2
+        ],
+        "id": "fmVuNRKsQa8",
+        "index": 5,
+        "evidence": [],
+        "workshop": "IPAM"
+      },
+      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
+      "resources": []
+    },
+    {
+      "id": "KKGcXhT-E88",
+      "title": "Petar Veličković - Reasoning Algorithmically: from Toy Experiments to AGI Modules - IPAM at UCLA",
+      "url": "https://www.youtube.com/watch?v=KKGcXhT-E88",
+      "published_at": "2023-03-02",
+      "duration_seconds": 3120,
+      "screening": {
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "neural algorithmic reasoning",
+          "algorithmic alignment"
+        ],
+        "publisher_promise": "Argues neural networks can learn to execute algorithms and outlines how this yields reasoning modules.",
+        "screening_reason": "Architect of neural algorithmic reasoning; central to how structure becomes executable computation. Rubric: A✓ B✓ C✓ · D 1 · E 2 · F 1.",
+        "transcript_question": "Does the talk show why architectural alignment with an algorithm enables extrapolation, with evidence?",
+        "caveat": "publisher abstract only; speaker from title/description",
+        "speaker": "Petar Veličković",
+        "modules": [
+          4
+        ],
+        "id": "KKGcXhT-E88",
+        "index": 6,
+        "evidence": [],
+        "workshop": "IPAM"
+      },
+      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
+      "resources": []
+    },
+    {
+      "id": "lUZ8_m9Kiq4",
+      "title": "Joshua Vogelstein - It's about time: learning in a dynamic world - IPAM at UCLA",
+      "url": "https://www.youtube.com/watch?v=lUZ8_m9Kiq4",
+      "published_at": "2024-11-22",
+      "duration_seconds": 3060,
+      "screening": {
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "prospective learning",
+          "non-stationarity",
+          "pac"
+        ],
+        "publisher_promise": "Argues PAC learning is the wrong frame when data and goals evolve and proposes prospective learning.",
+        "screening_reason": "Originator of prospective learning; replaces a core assumption of learning theory with time-indexed risk. Rubric: A✓ B✓ C✓ · D 2 · E 2 · F 2.",
+        "transcript_question": "Does the prospective framework yield theorems that PAC cannot, and what learner achieves them?",
+        "caveat": "publisher abstract only; speaker from title/description",
+        "speaker": "Joshua Vogelstein",
+        "modules": [
+          2,
+          7
+        ],
+        "id": "lUZ8_m9Kiq4",
+        "index": 7,
+        "evidence": [],
+        "workshop": "IPAM"
+      },
+      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
+      "resources": []
+    },
+    {
+      "id": "mfh4fp_8oPg",
+      "title": "Judea Pearl: \"Interpretability and explainability from a causal lens\"",
+      "url": "https://www.youtube.com/watch?v=mfh4fp_8oPg",
+      "published_at": "2019-11-05",
+      "duration_seconds": 4320,
+      "screening": {
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "causality",
+          "interpretability",
+          "explanation"
+        ],
+        "publisher_promise": "Distinguishes interpreting data through cause and effect from interpreting algorithms.",
+        "screening_reason": "Originator of structural causal models; names a distinction about what understanding means. Rubric: A✓ B✓ C✓ · D 2 · E 2 · F 2.",
+        "transcript_question": "What does the causal lens say explanations of learned models can and cannot deliver?",
+        "caveat": "publisher abstract only; speaker from title/description",
+        "speaker": "Judea Pearl",
+        "modules": [
+          1,
+          6
+        ],
+        "id": "mfh4fp_8oPg",
+        "index": 8,
+        "evidence": [],
+        "workshop": "IPAM"
+      },
+      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
+      "resources": []
+    },
+    {
+      "id": "mSXlPalpnAg",
+      "title": "Haim Sompolinsky: \"Statistical Mechanics of Deep Manifolds: Mean Field Geometry in High Dimension\"",
+      "url": "https://www.youtube.com/watch?v=mSXlPalpnAg",
+      "published_at": "2019-12-11",
+      "duration_seconds": 3840,
+      "screening": {
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "manifold capacity",
+          "statistical mechanics",
+          "representations"
+        ],
+        "publisher_promise": "Develops mean-field geometric measures of neural manifolds that determine computational capacity.",
+        "screening_reason": "Originator of manifold-capacity theory; one statistical-mechanics principle links representation geometry to classification across brains and nets. Rubric: A✓ B✓ C✓ · D 1 · E 2 · F 2.",
+        "transcript_question": "How do the derived geometric measures (radius, dimension, correlations) predict capacity, and do learned networks follow them?",
+        "caveat": "publisher abstract only; speaker from title/description",
+        "speaker": "Haim Sompolinsky",
+        "modules": [
+          2,
+          3
+        ],
+        "id": "mSXlPalpnAg",
+        "index": 9,
+        "evidence": [],
+        "workshop": "IPAM"
+      },
+      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
+      "resources": []
+    },
+    {
+      "id": "nD58NmDvCFo",
+      "title": "Riccardo Zecchina: \"Evidence for local entropy optimization in machine learning, physics and neu...\"",
+      "url": "https://www.youtube.com/watch?v=nD58NmDvCFo",
+      "published_at": "2019-12-11",
+      "duration_seconds": 3540,
+      "screening": {
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "local entropy",
+          "flat minima",
+          "statistical physics"
+        ],
+        "publisher_promise": "Presents evidence that learning algorithms are driven to rare wide flat regions measured by local entropy.",
+        "screening_reason": "Originator of local-entropy theory: dense rare states explain generalization across ML, physics and neuroscience. Rubric: A✓ B✓ C✓ · D 2 · E 2 · F 2.",
+        "transcript_question": "How does the large-deviation analysis predict wide-minimum dominance, and what does it predict for SGD?",
+        "caveat": "no abstract; judged from title and speaker only",
+        "speaker": "Riccardo Zecchina",
+        "modules": [
+          2
+        ],
+        "id": "nD58NmDvCFo",
+        "index": 10,
+        "evidence": [],
+        "workshop": "IPAM"
+      },
+      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
+      "resources": []
+    },
+    {
+      "id": "vfdZ-jIwdlw",
+      "title": "Elias Bareinboim - Towards Causal AI: From Mechanism to Understanding - IPAM at UCLA",
+      "url": "https://www.youtube.com/watch?v=vfdZ-jIwdlw",
+      "published_at": "2026-09-02",
+      "duration_seconds": 3300,
+      "screening": {
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "causal ai",
+          "causal hierarchy"
+        ],
+        "publisher_promise": "Frames intelligence through five causal capabilities and reports progress toward causally intelligent AI, drawing on a forthcoming textbook.",
+        "screening_reason": "Bareinboim is a primary architect of the causal-hierarchy and transportability programme; one principle organizes explanation, decision, generalization and structure learning. Rubric: A✓ B✓ C✓ · D 2 · E 2 · F 2.",
+        "transcript_question": "Does the talk derive what non-causal learners provably cannot identify, and show which assumptions buy each capability?",
+        "caveat": "publisher abstract only; speaker from title/description",
+        "speaker": "Elias Bareinboim",
+        "modules": [
+          6,
+          1
+        ],
+        "id": "vfdZ-jIwdlw",
+        "index": 11,
+        "evidence": [],
+        "workshop": "IPAM"
+      },
+      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
+      "resources": []
+    },
+    {
+      "id": "XdTbm_OcmY0",
+      "title": "Daniel Roberts: \"Deep learning as a toy model of the 1/N-expansion and renormalization\"",
+      "url": "https://www.youtube.com/watch?v=XdTbm_OcmY0",
+      "published_at": "2019-12-11",
+      "duration_seconds": 3780,
+      "screening": {
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "1/n expansion",
+          "renormalization",
+          "effective theory"
+        ],
+        "publisher_promise": "Presents deep learning as a toy model of the 1/N expansion and renormalization from physics.",
+        "screening_reason": "Roberts co-originated the effective-theory treatment of deep networks; width as 1/N and depth as RG flow derive representation learning and criticality from first principles. Rubric: A✓ B✓ C✓ · D 1 · E 2 · F 2.",
+        "transcript_question": "Does the talk derive how finite-width corrections produce representation learning and predict criticality or depth-to-width scaling?",
+        "caveat": "no abstract; judged from title and speaker only",
+        "speaker": "Daniel Roberts",
+        "modules": [
+          2,
+          3
+        ],
+        "id": "XdTbm_OcmY0",
+        "index": 12,
+        "evidence": [],
+        "workshop": "IPAM"
+      },
+      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
+      "resources": []
+    },
+    {
+      "id": "y4KTbVjaEYc",
+      "title": "Carlo Baldassi: \"On the existence of wide flat minima in neural network landscapes: analytic and...\"",
+      "url": "https://www.youtube.com/watch?v=y4KTbVjaEYc",
+      "published_at": "2019-12-11",
+      "duration_seconds": 3060,
+      "screening": {
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "flat minima",
+          "statistical physics",
+          "local entropy"
+        ],
+        "publisher_promise": "Uses large-deviation statistical physics to show that wide flat minima exist and are accessible, and builds algorithms that exploit them.",
+        "screening_reason": "Baldassi is an originator of the local-entropy account; it derives generalization from rare wide minima and predicts algorithm design. Rubric: A✓ B✓ C✓ · D 2 · E 2 · F 2.",
+        "transcript_question": "Does the analysis show why ReLU and cross-entropy favour wide flat minima, and do the predictions hold beyond simplified models?",
+        "caveat": "publisher abstract only; speaker from title/description",
+        "speaker": "Carlo Baldassi",
+        "modules": [
+          2
+        ],
+        "id": "y4KTbVjaEYc",
+        "index": 13,
+        "evidence": [],
+        "workshop": "IPAM"
+      },
+      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
+      "resources": []
+    },
+    {
+      "id": "yLYUgC-RsVo",
+      "title": "Marc Mézard: \"Machine learning with neural networks: the importance of data structure\"",
+      "url": "https://www.youtube.com/watch?v=yLYUgC-RsVo",
+      "published_at": "2019-12-11",
+      "duration_seconds": 2880,
+      "screening": {
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "data structure",
+          "hidden manifold model",
+          "statistical physics"
+        ],
+        "publisher_promise": "Compares two-layer networks trained on iid versus structured inputs and introduces the hidden manifold model of data.",
+        "screening_reason": "Mézard is a founder of the statistical physics of learning; the hidden manifold model derives why data structure governs dynamics and generalization. Rubric: A✓ B✓ C✓ · D 1 · E 2 · F 2.",
+        "transcript_question": "Which phenomena does the hidden manifold model reproduce, and is lower-dimensional latent structure the necessary ingredient?",
+        "caveat": "publisher abstract only; speaker from title/description",
+        "speaker": "Marc Mézard",
+        "modules": [
+          2
+        ],
+        "id": "yLYUgC-RsVo",
+        "index": 14,
+        "evidence": [],
+        "workshop": "IPAM"
+      },
+      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
+      "resources": []
+    },
+    {
+      "id": "y0KxsLJvG14",
+      "title": "Adityanarayanan Radhakrishnan - How do neural networks learn features from data? - IPAM at UCLA",
+      "url": "https://www.youtube.com/watch?v=y0KxsLJvG14",
+      "published_at": "2024-10-18",
+      "duration_seconds": 2760,
+      "screening": {
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "feature learning",
+          "agop",
+          "rfm"
+        ],
+        "publisher_promise": "Proposes that features learned by neural networks are captured by the average gradient outer product, and uses it in recursive feature machines.",
+        "screening_reason": "Radhakrishnan originated the AGOP ansatz: one statistic claimed to explain feature learning across architectures, with a derived algorithm. Rubric: A✓ B✓ C✓ · D 2 · E 2 · F 2.",
+        "transcript_question": "Does the AGOP hypothesis have a derivation from training dynamics, and where does it fail?",
+        "caveat": "publisher abstract only; speaker from title/description",
+        "speaker": "Adityanarayanan Radhakrishnan",
+        "modules": [
+          3,
+          2
+        ],
+        "id": "y0KxsLJvG14",
+        "index": 15,
+        "evidence": [],
+        "workshop": "IPAM"
+      },
+      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
+      "resources": []
+    },
+    {
+      "id": "lzYwzIkO89Q",
+      "title": "Dmitry Krotov - Generative AI models through the lens of Dense Associative Memory - IPAM at UCLA",
+      "url": "https://www.youtube.com/watch?v=lzYwzIkO89Q",
+      "published_at": "2024-10-17",
+      "duration_seconds": 4200,
+      "screening": {
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "associative memory",
+          "energy models",
+          "transformers"
+        ],
+        "publisher_promise": "Presents dense associative memory as a framework that connects transformers and diffusion models, and introduces the Energy Transformer.",
+        "screening_reason": "Krotov co-originated dense associative memory; one energy principle claims to explain attention and generative models. Rubric: A✓ B✓ C✓ · D 1 · E 2 · F 2.",
+        "transcript_question": "Does the talk derive attention and diffusion from the associative-memory energy, and what does capacity predict?",
+        "caveat": "publisher abstract only; speaker from title/description",
+        "speaker": "Dmitry Krotov",
+        "modules": [
+          3,
+          4
+        ],
+        "id": "lzYwzIkO89Q",
+        "index": 16,
+        "evidence": [],
+        "workshop": "IPAM"
+      },
+      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
+      "resources": []
+    },
+    {
+      "id": "XQgUT-mbLG8",
+      "title": "Paul Riechers - geometric representation of far future in deep neural networks trained on next-token",
+      "url": "https://www.youtube.com/watch?v=XQgUT-mbLG8",
+      "published_at": "2024-10-16",
+      "duration_seconds": 3240,
+      "screening": {
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "belief geometry",
+          "computational mechanics",
+          "world models"
+        ],
+        "publisher_promise": "Argues next-token prediction implies predicting the whole future and in-context Bayesian updating, and finds universal belief geometries in activations.",
+        "screening_reason": "Riechers co-originated the belief-state geometry programme from computational mechanics; it derives representation from the objective and tests it in transformers and RNNs. Rubric: A✓ B✓ C✓ · D 2 · E 2 · F 2.",
+        "transcript_question": "Is the belief-state geometry derived from the loss and confirmed in pretrained networks beyond synthetic processes?",
+        "caveat": "publisher abstract only; speaker from title/description",
+        "speaker": "Paul Riechers",
+        "modules": [
+          3,
+          5,
+          6
+        ],
+        "id": "XQgUT-mbLG8",
+        "index": 17,
+        "evidence": [],
+        "workshop": "IPAM"
+      },
+      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
+      "resources": []
+    },
+    {
+      "id": "_lCM207PdxQ",
+      "title": "Mikhail Belkin: \"Optimization for over-parameterized systems of non-linear equations\"",
+      "url": "https://www.youtube.com/watch?v=_lCM207PdxQ",
+      "published_at": "2020-07-06",
+      "duration_seconds": 3120,
+      "screening": {
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "polyak-lojasiewicz",
+          "overparameterization",
+          "tangent kernel"
+        ],
+        "publisher_promise": "Argues overparameterized nonlinear systems satisfy the PL condition, linked to tangent-kernel conditioning, explaining why gradient descent works.",
+        "screening_reason": "Belkin co-originated the PL view of overparameterized optimization; one condition explains why non-convex training succeeds. Rubric: A✓ B✓ C✓ · D 1 · E 2 · F 2.",
+        "transcript_question": "Does the talk derive PL from width and show where it breaks, for example in feature learning?",
+        "caveat": "publisher abstract only; speaker from title/description",
+        "speaker": "Mikhail Belkin",
+        "modules": [
+          2
+        ],
+        "id": "_lCM207PdxQ",
+        "index": 18,
+        "evidence": [],
+        "workshop": "IPAM"
+      },
+      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
+      "resources": []
+    },
+    {
+      "id": "05MpycrocRI",
+      "title": "Geoffrey Hinton: \"A Computational Principle that Explains Sex, the Brain, and Sparse Coding\"",
+      "url": "https://www.youtube.com/watch?v=05MpycrocRI",
+      "published_at": "2015-08-24",
+      "duration_seconds": 4020,
+      "screening": {
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "dropout",
+          "sparse coding",
+          "noise as regularizer"
+        ],
+        "publisher_promise": "Hinton argues one computational principle, randomly dropping units, accounts for sexual reproduction, spiking neurons and sparse codes.",
+        "screening_reason": "An originator states a single principle and claims it explains several biological and learning phenomena, squarely about why noise-driven co-adaptation limits matter. Rubric: A✓ B✓ C✓ · D 2 · E 2 · F 2.",
+        "transcript_question": "Does Hinton derive dropout's regularizing effect (e.g. model averaging, co-adaptation) and connect it to sex and spiking with a concrete argument, or only by analogy?",
+        "caveat": "title and series listing only; no abstract",
+        "speaker": "Geoffrey Hinton",
+        "modules": [
+          2,
+          3,
+          9
+        ],
+        "id": "05MpycrocRI",
+        "index": 19,
+        "evidence": [],
+        "workshop": "IPAM"
+      },
+      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
+      "resources": []
+    },
+    {
+      "id": "2bW4TkfTk-M",
+      "title": "Michael Elad: \"Sparse Modeling in Image Processing and Deep Learning\"",
+      "url": "https://www.youtube.com/watch?v=2bW4TkfTk-M",
+      "published_at": "2018-02-16",
+      "duration_seconds": 2520,
+      "screening": {
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "sparse coding",
+          "ml-csc",
+          "cnn theory"
+        ],
+        "publisher_promise": "Elad presents multi-layer convolutional sparse coding and shows that pursuit in this model reproduces CNN forward passes, with uniqueness and stability guarantees.",
+        "screening_reason": "The originator of ML-CSC claims a sparse generative model as the theoretical foundation of deep learning, deriving architectures and guarantees from it. Rubric: A✓ B✓ C✓ · D 2 · E 2 · F 2.",
+        "transcript_question": "How far does the ML-CSC derivation go: which guarantees (uniqueness, stability) hold for realistic networks, and does the model predict anything new about trained CNNs?",
+        "caveat": "publisher abstract only",
+        "speaker": "Michael Elad",
+        "modules": [
+          2,
+          3
+        ],
+        "id": "2bW4TkfTk-M",
+        "index": 20,
+        "evidence": [],
+        "workshop": "IPAM"
+      },
+      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
+      "resources": []
+    },
+    {
+      "id": "4eyUReyIPXg",
+      "title": "Stéphane Mallat: \"Scattering Invariant Deep Networks for Classification, Pt. 1\"",
+      "url": "https://www.youtube.com/watch?v=4eyUReyIPXg",
+      "published_at": "2015-08-26",
+      "duration_seconds": 3900,
+      "screening": {
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "scattering transform",
+          "invariance",
+          "wavelets"
+        ],
+        "publisher_promise": "Mallat introduces scattering networks, cascades of wavelet modulus operators built to be translation-invariant and stable to deformations, as a model of deep classifiers.",
+        "screening_reason": "The architect of the scattering transform derives invariance and Lipschitz stability from first principles, a direct account of which prior structure makes deep networks work. Rubric: A✓ B✓ C✓ · D 1 · E 2 · F 2.",
+        "transcript_question": "Which properties of deep CNNs (invariance, deformation stability, depth) does the lecture actually derive from the scattering construction, and what does it say remains unexplained by fixed filters?",
+        "caveat": "title and series listing only; no abstract",
+        "speaker": "Stéphane Mallat",
+        "modules": [
+          2,
+          3
+        ],
+        "id": "4eyUReyIPXg",
+        "index": 21,
+        "evidence": [],
+        "workshop": "IPAM"
+      },
+      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
+      "resources": []
+    },
+    {
+      "id": "6O-EE2JC-yA",
+      "title": "Bruno Olshausen: \"From Natural Scene Statistics to Models of Neural Coding & Representation, Pt. 1\"",
+      "url": "https://www.youtube.com/watch?v=6O-EE2JC-yA",
+      "published_at": "2015-08-26",
+      "duration_seconds": 3660,
+      "screening": {
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "sparse coding",
+          "natural scene statistics",
+          "neural coding"
+        ],
+        "publisher_promise": "Olshausen tutorial on how natural image statistics motivate efficient and sparse coding models of visual cortex representations.",
+        "screening_reason": "The co-originator of sparse coding derives receptive-field structure from the statistics of natural scenes, a canonical case of representations emerging from an objective. Rubric: A✓ B✓ C✓ · D 1 · E 2 · F 1.",
+        "transcript_question": "Does the lecture derive receptive-field properties from a stated objective on natural-scene statistics, and what does it identify as the limits of the efficient-coding account?",
+        "caveat": "title and series listing only; no abstract",
+        "speaker": "Bruno Olshausen",
+        "modules": [
+          3,
+          9
+        ],
+        "id": "6O-EE2JC-yA",
+        "index": 22,
+        "evidence": [],
+        "workshop": "IPAM"
+      },
+      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
+      "resources": []
+    },
+    {
+      "id": "9p52ku7MFEo",
+      "title": "Cengiz Pehlevan - 2 stories in mechanistic interpretation of natural & artificial neural computation",
+      "url": "https://www.youtube.com/watch?v=9p52ku7MFEo",
+      "published_at": "2024-10-15",
+      "duration_seconds": 3300,
+      "screening": {
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "in-context learning",
+          "solvable models",
+          "linear attention"
+        ],
+        "publisher_promise": "Pehlevan derives exact learning curves for in-context linear regression with linear attention as dimension, context length and task diversity scale together.",
+        "screening_reason": "An exactly solvable model that pins down sample complexity, task diversity and context-length requirements for in-context learning, including a double-descent curve. Rubric: A✓ B✓ C✓ · D 2 · E 2 · F 2.",
+        "transcript_question": "What precise conditions on pretraining task diversity does the solvable model identify for in-context learning to beat memorization, and how does the second story relate to it?",
+        "caveat": "publisher abstract only",
+        "speaker": "Cengiz Pehlevan",
+        "modules": [
+          4,
+          3
+        ],
+        "id": "9p52ku7MFEo",
+        "index": 23,
+        "evidence": [],
+        "workshop": "IPAM"
+      },
+      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
+      "resources": []
+    },
+    {
+      "id": "c-RDgtPAwIo",
+      "title": "Yann LeCun: \"Deep Learning, Graphical Models, Energy-Based Models, Structured Prediction, Pt. 2\"",
+      "url": "https://www.youtube.com/watch?v=c-RDgtPAwIo",
+      "published_at": "2015-08-24",
+      "duration_seconds": 3360,
+      "screening": {
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "energy-based models",
+          "structured prediction",
+          "graphical models"
+        ],
+        "publisher_promise": "Second lecture relating deep learning, graphical models and structured prediction under a single energy-based learning framework.",
+        "screening_reason": "LeCun is the architect of energy-based learning, which treats many losses and inference schemes as shaping an energy surface; a unifying principle presented by its originator. Rubric: A✓ B✓ C✓ · D 1 · E 2 · F 1.",
+        "transcript_question": "Does the lecture derive which loss functionals properly shape the energy (contrastive versus collapse) and show how classical models fall out as special cases?",
+        "caveat": "title and description only, no abstract; content inferred from title",
+        "speaker": "Yann LeCun",
+        "modules": [
+          3,
+          6
+        ],
+        "id": "c-RDgtPAwIo",
+        "index": 24,
+        "evidence": [],
+        "workshop": "IPAM"
+      },
+      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
+      "resources": []
+    },
+    {
+      "id": "C1U2PodpnsI",
+      "title": "Lenka Zdeborová: \"Understanding machine learning via exactly solvable statistical physics models\"",
+      "url": "https://www.youtube.com/watch?v=C1U2PodpnsI",
+      "published_at": "2019-12-10",
+      "duration_seconds": 3180,
+      "screening": {
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "statistical physics",
+          "solvable models",
+          "generalization"
+        ],
+        "publisher_promise": "Surveys the statistical-physics programme of exactly solvable synthetic models of multilayer networks and what they reveal about open deep-learning questions, plus inference tools for trained networks.",
+        "screening_reason": "Zdeborova is a primary architect of the replica/teacher-student solvable-model programme; one physics principle (typical-case analysis of synthetic models) is used to explain many learning phenomena including phase transitions. Rubric: A✓ B✓ C✓ · D 1 · E 2 · F 2.",
+        "transcript_question": "Does the talk derive concrete predictions (phase transitions, sample-complexity thresholds) from the solvable models, and state honestly where they fail for real deep networks?",
+        "caveat": "publisher abstract only; speaker from title/description",
+        "speaker": "Lenka Zdeborová",
+        "modules": [
+          2,
+          3
+        ],
+        "id": "C1U2PodpnsI",
+        "index": 25,
+        "evidence": [],
+        "workshop": "IPAM"
+      },
+      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
+      "resources": []
+    },
+    {
+      "id": "eiQFMYpMkD4",
+      "title": "Misha Belkin - The elusive generalization and easy optimization, Pt. 1 of 2 - IPAM at UCLA",
+      "url": "https://www.youtube.com/watch?v=eiQFMYpMkD4",
+      "published_at": "2024-09-16",
+      "duration_seconds": 4860,
+      "screening": {
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "generalization",
+          "interpolation",
+          "optimization landscape"
+        ],
+        "publisher_promise": "A tutorial tracing how empirical findings in neural networks forced a rethinking of generalization theory, and why large non-convex models are easy to optimize locally.",
+        "screening_reason": "Belkin originated much of the interpolation/double-descent reframing and the PL-condition view of overparameterized optimization; an architect's tutorial central to module 2. Rubric: A✓ B✓ C✓ · D 2 · E 2 · F 2.",
+        "transcript_question": "Does part 1 derive why interpolating models can generalize and why overparameterized landscapes are benign (e.g. PL-type conditions), rather than only narrating the history?",
+        "caveat": "publisher abstract only; speaker from title/description",
+        "speaker": "Misha Belkin",
+        "modules": [
+          2
+        ],
+        "id": "eiQFMYpMkD4",
+        "index": 26,
+        "evidence": [],
+        "workshop": "IPAM"
+      },
+      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
+      "resources": []
+    },
+    {
+      "id": "Gb8uaQn12Gk",
+      "title": "Stéphane Mallat: \"Scattering Invariant Deep Networks for Classification, Pt. 2\"",
+      "url": "https://www.youtube.com/watch?v=Gb8uaQn12Gk",
+      "published_at": "2015-08-26",
+      "duration_seconds": 2340,
+      "screening": {
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "invariance",
+          "scattering networks",
+          "representation"
+        ],
+        "publisher_promise": "Second lecture on scattering transforms: deep cascades of wavelets and modulus that build invariant, stable representations for classification.",
+        "screening_reason": "Mallat originated scattering networks, deriving deep architecture from invariance and Lipschitz stability to deformations; a principle-to-mechanism account of why depth and invariance help. Rubric: A✓ B✓ C✓ · D 1 · E 2 · F 2.",
+        "transcript_question": "Does the lecture derive the scattering architecture from translation invariance plus deformation stability, and say what that implies about what learned CNN layers must do?",
+        "caveat": "title and description only, no abstract; content inferred from title",
+        "speaker": "Stéphane Mallat",
+        "modules": [
+          2,
+          3
+        ],
+        "id": "Gb8uaQn12Gk",
+        "index": 27,
+        "evidence": [],
+        "workshop": "IPAM"
+      },
+      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
+      "resources": []
+    },
+    {
+      "id": "iA3ueTS9BSw",
+      "title": "Bruno Olshausen: \"From Natural Scene Statistics to Models of Neural Coding & Representation, Pt. 2\"",
+      "url": "https://www.youtube.com/watch?v=iA3ueTS9BSw",
+      "published_at": "2015-08-26",
+      "duration_seconds": 3840,
+      "screening": {
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "sparse coding",
+          "natural scene statistics",
+          "neural coding"
+        ],
+        "publisher_promise": "Second lecture on how statistics of natural images give rise to models of neural coding and learned representations.",
+        "screening_reason": "Olshausen co-originated sparse coding, deriving receptive-field structure from an efficient-coding objective on natural-scene statistics; a canonical case of objective plus data statistics yielding representation. Rubric: A✓ B✓ C✓ · D 1 · E 2 · F 1.",
+        "transcript_question": "Does part 2 go beyond V1 sparse coding to show how scene statistics predict higher-level representations, with testable neural predictions?",
+        "caveat": "title and description only, no abstract; content inferred from title",
+        "speaker": "Bruno Olshausen",
+        "modules": [
+          3,
+          9
+        ],
+        "id": "iA3ueTS9BSw",
+        "index": 28,
+        "evidence": [],
+        "workshop": "IPAM"
+      },
+      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
+      "resources": []
+    },
+    {
+      "id": "KVfLoN1Ls9w",
+      "title": "Misha Belkin - The elusive generalization and easy optimization, Pt. 2 of 2 - IPAM at UCLA",
+      "url": "https://www.youtube.com/watch?v=KVfLoN1Ls9w",
+      "published_at": "2024-09-16",
+      "duration_seconds": 4800,
+      "screening": {
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "generalization",
+          "interpolation",
+          "optimization landscape"
+        ],
+        "publisher_promise": "A tutorial tracing how empirical findings in neural networks forced a rethink of generalization theory, and why large non-convex models are easy to optimize with local methods.",
+        "screening_reason": "Belkin is a primary architect of the interpolation/double-descent reframing of generalization and of the PL-condition account of over-parameterized optimization; an architect's tutorial central to module 2. Rubric: A✓ B✓ C✓ · D 2 · E 2 · F 2.",
+        "transcript_question": "Does part 2 derive the over-parameterized optimization result (e.g. PL*-type conditions) and connect it to why interpolating models generalize, or does it stay at survey level?",
+        "caveat": "publisher abstract only; part 2 of 2, so content split with part 1 is unverified",
+        "speaker": "Misha Belkin",
+        "modules": [
+          2,
+          1
+        ],
+        "id": "KVfLoN1Ls9w",
+        "index": 29,
+        "evidence": [],
+        "workshop": "IPAM"
+      },
+      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
+      "resources": []
+    }
+  ]
+}

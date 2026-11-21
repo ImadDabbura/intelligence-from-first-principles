@@ -70,5 +70,125 @@
     "path": "collections/simons-institute",
     "snapshot_date": "2026-11-21",
     "coverage_note": "YouTube snapshot: 57 of 287 playlists selected as relevant; all 1,261 talks in them screened from metadata (42 high, 453 medium, 742 skip, 24 insufficient information). Only the high-priority talks are listed. Course-type playlists (e.g. the 2022 Deep Learning Theory summer school) could not be listed and are a known gap; 39 videos were private or deleted."
+  },
+  {
+    "id": "cbmm",
+    "name": "MIT Center for Brains, Minds and Machines",
+    "short_name": "CBMM",
+    "url": "https://www.youtube.com/@MITCBMM",
+    "format": "Lecture",
+    "path": "collections/cbmm",
+    "snapshot_date": "2026-11-21",
+    "coverage_note": "Selected playlists screened from metadata on 2026-11-21: 826 items, 27 high priority before de-duplication; only high-priority items are listed."
+  },
+  {
+    "id": "college-de-france",
+    "name": "Collège de France",
+    "short_name": "Collège de France",
+    "url": "https://www.youtube.com/@college-de-france",
+    "format": "Lecture",
+    "path": "collections/college-de-france",
+    "snapshot_date": "2026-11-21",
+    "coverage_note": "Selected playlists screened from metadata on 2026-11-21: 295 items, 7 high priority before de-duplication; only high-priority items are listed. Most talks are in French. Full course series are hosted on college-de-france.fr, not YouTube, and are a known gap."
+  },
+  {
+    "id": "fields",
+    "name": "Fields Institute",
+    "short_name": "Fields",
+    "url": "https://www.youtube.com/@FieldsInstitute",
+    "format": "Lecture",
+    "path": "collections/fields",
+    "snapshot_date": "2026-11-21",
+    "coverage_note": "Selected playlists screened from metadata on 2026-11-21: 653 items, 14 high priority before de-duplication; only high-priority items are listed."
+  },
+  {
+    "id": "flatiron",
+    "name": "Flatiron Institute",
+    "short_name": "Flatiron",
+    "url": "https://www.youtube.com/@FlatironInstitute",
+    "format": "Lecture",
+    "path": "collections/flatiron",
+    "snapshot_date": "2026-11-21",
+    "coverage_note": "Selected playlists screened from metadata on 2026-11-21: 206 items, 5 high priority before de-duplication; only high-priority items are listed."
+  },
+  {
+    "id": "ias",
+    "name": "Institute for Advanced Study",
+    "short_name": "IAS",
+    "url": "https://www.youtube.com/@videosfromIAS",
+    "format": "Lecture",
+    "path": "collections/ias",
+    "snapshot_date": "2026-11-21",
+    "coverage_note": "Selected playlists screened from metadata on 2026-11-21: 1039 items, 5 high priority before de-duplication; only high-priority items are listed. Most of the archive is pure mathematics. Screening covered talks downloaded by 21 Nov 2026; the remainder is pending."
+  },
+  {
+    "id": "isaac-newton",
+    "name": "Isaac Newton Institute",
+    "short_name": "INI",
+    "url": "https://www.youtube.com/@isaacnewtoninstitute",
+    "format": "Lecture",
+    "path": "collections/isaac-newton",
+    "snapshot_date": "2026-11-21",
+    "coverage_note": "Selected playlists screened from metadata on 2026-11-21: 1071 items, 22 high priority before de-duplication; only high-priority items are listed. Covers the main channel and INI Seminar Room 1. Screening covered talks downloaded by 21 Nov 2026; the remainder is pending."
+  },
+  {
+    "id": "ipam",
+    "name": "Institute for Pure and Applied Mathematics (IPAM)",
+    "short_name": "IPAM",
+    "url": "https://www.youtube.com/@IPAMUCLA",
+    "format": "Lecture",
+    "path": "collections/ipam",
+    "snapshot_date": "2026-11-21",
+    "coverage_note": "Selected playlists screened from metadata on 2026-11-21: 1161 items, 30 high priority before de-duplication; only high-priority items are listed. Screening covered talks downloaded by 21 Nov 2026; the remainder is pending."
+  },
+  {
+    "id": "ictp",
+    "name": "International Centre for Theoretical Physics",
+    "short_name": "ICTP",
+    "url": "https://www.youtube.com/@ICTPchannel",
+    "format": "Lecture",
+    "path": "collections/ictp",
+    "snapshot_date": "2026-11-21",
+    "coverage_note": "Selected playlists screened from metadata on 2026-11-21: 103 items, 5 high priority before de-duplication; only high-priority items are listed. The main ICTP channel holds colloquia and Salam lectures but not its schools and workshops, which are a known gap."
+  },
+  {
+    "id": "sfi",
+    "name": "Santa Fe Institute",
+    "short_name": "SFI",
+    "url": "https://www.youtube.com/@sfiscience",
+    "format": "Lecture",
+    "path": "collections/sfi",
+    "snapshot_date": "2026-11-21",
+    "coverage_note": "Selected playlists screened from metadata on 2026-11-21: 748 items, 10 high priority before de-duplication; only high-priority items are listed."
+  },
+  {
+    "id": "mindscape",
+    "name": "Sean Carroll's Mindscape",
+    "short_name": "Mindscape",
+    "url": "https://www.youtube.com/@seancarroll",
+    "format": "Podcast",
+    "path": "collections/mindscape",
+    "snapshot_date": "2026-11-21",
+    "coverage_note": "Selected playlists screened from metadata on 2026-11-21: 373 items, 9 high priority before de-duplication; only high-priority items are listed. Full numbered episodes only."
+  },
+  {
+    "id": "stanford",
+    "name": "Stanford Seminars",
+    "short_name": "Stanford",
+    "url": "https://www.youtube.com/@stanfordonline",
+    "format": "Lecture",
+    "path": "collections/stanford",
+    "snapshot_date": "2026-11-21",
+    "coverage_note": "Selected playlists screened from metadata on 2026-11-21: 1098 items, 11 high priority before de-duplication; only high-priority items are listed. Seminar series only (no full courses). Screening covered talks downloaded by 21 Nov 2026; the remainder is pending."
+  },
+  {
+    "id": "conferences",
+    "name": "Conference keynotes and tutorials",
+    "short_name": "Conferences",
+    "url": "https://github.com/ImadDabbura/intelligence-from-first-principles",
+    "format": "Lecture",
+    "path": "collections/conferences",
+    "snapshot_date": "2026-11-21",
+    "coverage_note": "Selected playlists screened from metadata on 2026-11-21: 30 items, 30 high priority before de-duplication; only high-priority items are listed. Invited talks and tutorials from NeurIPS, ICML, ICLR, COLT and Cosyne (2015–2026), checked on official pages with a recording found. Workshop invited talks are a known gap."
   }
 ]

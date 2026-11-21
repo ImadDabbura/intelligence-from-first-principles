@@ -1,0 +1,940 @@
+{
+  "methodology": {
+    "bar": "Originator of a unifying principle derives its consequences densely enough to change a mental model. Must pass A–C; D–F scored 0–2 for ranking.",
+    "rubric": {
+      "A": "Originator or primary architect",
+      "B": "Unifying principle",
+      "C": "Derivation shown",
+      "D": "Contested or falsifiable",
+      "E": "Density",
+      "F": "Model update beyond the existing collection"
+    },
+    "decisions": "Same as MLST: read_transcript is not a watch recommendation."
+  },
+  "episodes": [
+    {
+      "id": "neurips-2025-invited-sutton",
+      "title": "The Oak Architecture: A Vision of SuperIntelligence from Experience",
+      "url": "https://slideslive.com/39055688",
+      "published_at": "2025-12-03",
+      "duration_seconds": null,
+      "screening": {
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "reinforcement learning",
+          "agent architecture",
+          "learning from experience"
+        ],
+        "publisher_promise": "Sutton lays out a full agent design in which every component, including options, models and new features, is learned online from the agent's own experience.",
+        "screening_reason": "The originator of TD learning and the 'bitter lesson' argues a single experiential principle generates the whole architecture, a direct statement on what can change in a learning system and what a sufficient world model is. Rubric: A✓ B✓ C✓ · D 2 · E 1 · F 2.",
+        "transcript_question": "Does Oak derive concrete learning mechanisms (feature/option discovery, model learning, planning) from the experience-only principle, or is it a vision without derivations?",
+        "caveat": "Verified on https://neurips.cc/virtual/2025/invited-talk/109601: title, speaker, year and session date; the page embeds the recording (SlidesLive: https://slideslive.com/39055688), whose page resolves with a matching title. Public playback without login not tested. Abstract only, no transcript read.",
+        "speaker": "Rich Sutton",
+        "modules": [
+          6,
+          7
+        ],
+        "id": "neurips-2025-invited-sutton",
+        "index": 0,
+        "evidence": [],
+        "workshop": "NeurIPS 2025 invited talk"
+      },
+      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
+      "resources": []
+    },
+    {
+      "id": "neurips-2022-invited-hinton",
+      "title": "The Forward-Forward Algorithm for Training Deep Neural Networks",
+      "url": "https://slideslive.com/38996068",
+      "published_at": "2022-12-01",
+      "duration_seconds": null,
+      "screening": {
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "learning rules",
+          "credit assignment",
+          "biological plausibility"
+        ],
+        "publisher_promise": "Hinton introduces a backprop-free training scheme in which each layer optimises a local goodness objective on positive versus negative data.",
+        "screening_reason": "The originator of backprop-era deep learning derives an alternative credit-assignment principle and its consequences for hardware and the brain; it reframes what a learning rule must do. Rubric: A✓ B✓ C✓ · D 2 · E 1 · F 2.",
+        "transcript_question": "Which phenomena does the local-goodness objective actually explain (representation quality, sleep-like negative phases, mortal computation), and where does Hinton concede it fails against backprop?",
+        "caveat": "Verified on https://neurips.cc/virtual/2022/invited-talk/55869: title, speaker, year and session date; the page embeds the recording (SlidesLive: https://slideslive.com/38996068), whose page resolves with a matching title. Public playback without login not tested. Abstract only, no transcript read.",
+        "speaker": "Geoffrey Hinton",
+        "modules": [
+          3,
+          9
+        ],
+        "id": "neurips-2022-invited-hinton",
+        "index": 1,
+        "evidence": [],
+        "workshop": "NeurIPS 2022 invited talk"
+      },
+      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
+      "resources": []
+    },
+    {
+      "id": "neurips-2021-invited-bartlett",
+      "title": "Benign Overfitting (Posner Lecture)",
+      "url": "https://slideslive.com/38973162",
+      "published_at": "2021-12-08",
+      "duration_seconds": null,
+      "screening": {
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "generalization",
+          "interpolation",
+          "overparameterization"
+        ],
+        "publisher_promise": "Bartlett characterises when a minimum-norm interpolating predictor still generalises well and why overparameterisation is essential to that outcome.",
+        "screening_reason": "The architect of benign-overfitting theory derives the spectral conditions under which fitting noise is harmless, which directly revises the classical capacity-control picture of generalization. Rubric: A✓ B✓ C✓ · D 1 · E 2 · F 2.",
+        "transcript_question": "Which effective-rank conditions does the talk derive, and how far does Bartlett claim they extend beyond linear regression to deep networks?",
+        "caveat": "Verified on https://neurips.cc/virtual/2021/invited-talk/22278: title, speaker, year and session date; the page embeds the recording (SlidesLive: https://slideslive.com/38973162), whose page resolves with a matching title. Public playback without login not tested. Abstract only, no transcript read.",
+        "speaker": "Peter Bartlett",
+        "modules": [
+          2
+        ],
+        "id": "neurips-2021-invited-bartlett",
+        "index": 2,
+        "evidence": [],
+        "workshop": "NeurIPS 2021 invited talk"
+      },
+      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
+      "resources": []
+    },
+    {
+      "id": "neurips-2020-invited-zador",
+      "title": "The Genomic Bottleneck: A Lesson from Biology",
+      "url": "https://slideslive.com/38947068",
+      "published_at": "2020-12-10",
+      "duration_seconds": null,
+      "screening": {
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "innate priors",
+          "genomic bottleneck",
+          "evolution as learning"
+        ],
+        "publisher_promise": "Zador argues that animals' innate abilities come from wiring rules compressed through a small genome, and that this compression acts as a regulariser that AI should imitate.",
+        "screening_reason": "The originator of the genomic-bottleneck thesis treats evolution as an outer learning loop that encodes prior structure, a first-principles answer to where inductive bias comes from. Rubric: A✓ B✓ C✓ · D 2 · E 1 · F 2.",
+        "transcript_question": "Does the talk show a mechanism (compressed wiring rules to network weights) with a measurable prediction, or only the argument from animal behaviour?",
+        "caveat": "Verified on https://neurips.cc/virtual/2020/invited-talk/16167: title, speaker, year and session date; the page embeds the recording (SlidesLive: https://slideslive.com/38947068), whose page resolves with a matching title. Public playback without login not tested. Abstract only, no transcript read.",
+        "speaker": "Anthony M. Zador",
+        "modules": [
+          2,
+          9
+        ],
+        "id": "neurips-2020-invited-zador",
+        "index": 3,
+        "evidence": [],
+        "workshop": "NeurIPS 2020 invited talk"
+      },
+      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
+      "resources": []
+    },
+    {
+      "id": "neurips-2019-invited-bengio",
+      "title": "From System 1 Deep Learning to System 2 Deep Learning",
+      "url": "https://slideslive.com/38922304",
+      "published_at": "2019-12-11",
+      "duration_seconds": null,
+      "screening": {
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "system 2",
+          "consciousness prior",
+          "ood generalization"
+        ],
+        "publisher_promise": "Bengio sets out a research programme for deep learning that reasons, composes and generalises out of distribution, built on attention, sparse factor graphs and causal changes.",
+        "screening_reason": "The programme's originator ties the consciousness prior, modular mechanisms and localised distribution shift into one hypothesis about what makes high-level cognition learnable. Rubric: A✓ B✓ C✗ · D 2 · E 1 · F 2.",
+        "transcript_question": "Does Bengio derive testable consequences of the sparse-factor-graph and localised-change assumptions, or does the talk stay at the level of research agenda?",
+        "caveat": "Verified on https://neurips.cc/virtual/2019/invited-talk/15488: title, speaker, year, date. Video not embedded in static HTML; SlidesLive 38922304 (and 38921750) resolve with matching title. Public playback not tested. Borderline high: C (derivation) uncertain.",
+        "speaker": "Yoshua Bengio",
+        "modules": [
+          3,
+          4,
+          6
+        ],
+        "id": "neurips-2019-invited-bengio",
+        "index": 4,
+        "evidence": [],
+        "workshop": "NeurIPS 2019 invited talk"
+      },
+      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
+      "resources": []
+    },
+    {
+      "id": "neurips-2018-invited-levin",
+      "title": "What Bodies Think About: Bioelectric Computation Outside the Nervous System, Primitive Cognition, and Synthetic Morphology",
+      "url": "https://www.youtube.com/watch?v=Hpw31YTq_yI",
+      "published_at": "2018-12-04",
+      "duration_seconds": null,
+      "screening": {
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "bioelectricity",
+          "basal cognition",
+          "collective intelligence"
+        ],
+        "publisher_promise": "Levin presents evidence that non-neural tissues compute with bioelectric networks to pursue anatomical goals, and treats morphogenesis as a form of problem solving.",
+        "screening_reason": "The originator of the basal-cognition programme reframes intelligence as goal-directed collective computation in cell groups, with experimental interventions that test it. Rubric: A✓ B✓ C✓ · D 2 · E 1 · F 2.",
+        "transcript_question": "What formal model of goal-directedness and memory in bioelectric networks does Levin offer, and which experiments are presented as decisive?",
+        "caveat": "Verified on https://neurips.cc/virtual/2018/invited-talk/12487: title, speaker, year, date; the page embeds a VideoKen player for YouTube https://www.youtube.com/watch?v=Hpw31YTq_yI, whose YouTube title matches. Abstract only, no transcript read.",
+        "speaker": "Michael Levin",
+        "modules": [
+          9,
+          8
+        ],
+        "id": "neurips-2018-invited-levin",
+        "index": 5,
+        "evidence": [],
+        "workshop": "NeurIPS 2018 invited talk"
+      },
+      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
+      "resources": []
+    },
+    {
+      "id": "neurips-2023-invited-smith",
+      "title": "Coherence statistics, self-generated experience and why young humans are much smarter than current AI",
+      "url": "https://slideslive.com/39015342",
+      "published_at": "2023-12-12",
+      "duration_seconds": null,
+      "screening": {
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "developmental data",
+          "self-generated experience",
+          "curriculum"
+        ],
+        "publisher_promise": "Smith argues that infants learn efficiently because their own bodies generate data with particular temporal and statistical coherence, and contrasts this with AI training sets.",
+        "screening_reason": "The originator of the egocentric-infant-data programme makes a principled claim that the structure of experience, not model size, explains sample efficiency, with head-camera measurements behind it. Rubric: A✓ B✓ C✓ · D 2 · E 1 · F 2.",
+        "transcript_question": "Which specific statistical properties of infant experience are measured, and what learning consequence is derived from each?",
+        "caveat": "Verified on https://neurips.cc/virtual/2023/invited-talk/73992: title, speaker, year and session date; the page embeds the recording (SlidesLive: https://slideslive.com/39015342), whose page resolves with a matching title. Public playback without login not tested. Abstract only, no transcript read.",
+        "speaker": "Linda Smith",
+        "modules": [
+          3,
+          5,
+          9
+        ],
+        "id": "neurips-2023-invited-smith",
+        "index": 6,
+        "evidence": [],
+        "workshop": "NeurIPS 2023 invited talk"
+      },
+      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
+      "resources": []
+    },
+    {
+      "id": "neurips-2019-tutorial-khan",
+      "title": "Deep Learning with Bayesian Principles",
+      "url": "https://slideslive.com/38921489",
+      "published_at": "2019-12-09",
+      "duration_seconds": null,
+      "screening": {
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "bayesian learning rule",
+          "natural gradients",
+          "optimization"
+        ],
+        "publisher_promise": "Khan shows how one Bayesian learning rule yields algorithms ranging from least squares to SGD, RMSprop and Adam as special cases.",
+        "screening_reason": "The originator of the Bayesian learning rule derives familiar optimisers from a single variational principle, which makes this an architect's tutorial with explicit derivations. Rubric: A✓ B✓ C✓ · D 1 · E 2 · F 2.",
+        "transcript_question": "Which algorithms are derived explicitly from the Bayesian learning rule, and what does the unification predict about uncertainty and continual learning that standard optimisers miss?",
+        "caveat": "Verified on https://neurips.cc/virtual/2019/tutorial/13205: title, speaker, year, date. Video not embedded in static HTML; SlidesLive 38921489 (also 38923183) resolves with matching title. Public playback not tested.",
+        "speaker": "Mohammad Emtiyaz Khan",
+        "modules": [
+          2,
+          5
+        ],
+        "id": "neurips-2019-tutorial-khan",
+        "index": 7,
+        "evidence": [],
+        "workshop": "NeurIPS 2019 tutorial"
+      },
+      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
+      "resources": []
+    },
+    {
+      "id": "neurips-2020-tutorial-kondor-cohen",
+      "title": "Equivariant Networks",
+      "url": "https://slideslive.com/38943570",
+      "published_at": "2020-12-07",
+      "duration_seconds": null,
+      "screening": {
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "equivariance",
+          "symmetry",
+          "representation theory"
+        ],
+        "publisher_promise": "Kondor and Cohen build equivariant neural networks from group representation theory, covering convolution on groups, steerable features and Fourier methods.",
+        "screening_reason": "Two architects of group-equivariant deep learning derive layer design from symmetry, the clearest single-principle account of architectural inductive bias. Rubric: A✓ B✓ C✓ · D 1 · E 2 · F 1.",
+        "transcript_question": "Does the tutorial derive the general form of equivariant linear maps (and its limits), or mostly catalogue architectures?",
+        "caveat": "Verified on https://neurips.cc/virtual/2020/tutorial/16650: title, speaker, year and session date; the page embeds the recording (SlidesLive: https://slideslive.com/38943570), whose page resolves with a matching title. Public playback without login not tested. Abstract only, no transcript read.",
+        "speaker": "Risi Kondor, Taco Cohen",
+        "modules": [
+          2
+        ],
+        "id": "neurips-2020-tutorial-kondor-cohen",
+        "index": 8,
+        "evidence": [],
+        "workshop": "NeurIPS 2020 tutorial"
+      },
+      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
+      "resources": []
+    },
+    {
+      "id": "neurips-2020-tutorial-chollet-mitchell-szegedy",
+      "title": "Abstraction & Reasoning in AI systems: Modern Perspectives",
+      "url": "https://slideslive.com/38935790",
+      "published_at": "2020-12-07",
+      "duration_seconds": null,
+      "screening": {
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "abstraction",
+          "measure of intelligence",
+          "analogy"
+        ],
+        "publisher_promise": "The tutorial covers intelligence as skill-acquisition efficiency and the ARC benchmark, analogy-making as the core of abstraction, and reasoning in formal mathematics.",
+        "screening_reason": "Chollet presents his own definition of intelligence and the benchmark built from it, and Mitchell her analogy programme; both are originators speaking to what evaluation can identify. Rubric: A✓ B✓ C✓ · D 2 · E 2 · F 2.",
+        "transcript_question": "How does Chollet's segment formalise intelligence (priors, experience, generalization difficulty), and which claims about current systems does that definition support?",
+        "caveat": "Verified on https://neurips.cc/virtual/2020/tutorial/16644: title, speaker, year and session date; the page embeds the recording (SlidesLive: https://slideslive.com/38935790), whose page resolves with a matching title. Public playback without login not tested. Abstract only, no transcript read.",
+        "speaker": "François Chollet, Melanie Mitchell, Christian Szegedy",
+        "modules": [
+          1,
+          4
+        ],
+        "id": "neurips-2020-tutorial-chollet-mitchell-szegedy",
+        "index": 9,
+        "evidence": [],
+        "workshop": "NeurIPS 2020 tutorial"
+      },
+      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
+      "resources": []
+    },
+    {
+      "id": "neurips-2017-invited-niv",
+      "title": "Learning State Representations",
+      "url": "https://www.youtube.com/watch?v=SHflZTvXp24",
+      "published_at": "2017-12-07",
+      "duration_seconds": null,
+      "screening": {
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "state representation",
+          "latent cause inference",
+          "reinforcement learning"
+        ],
+        "publisher_promise": "Niv argues that the hard part of learning is deciding which experiences count as the same state, and casts state discovery as Bayesian inference with infinite-capacity models.",
+        "screening_reason": "The originator of the latent-cause account of state learning reframes RL around representation, with behavioural and neural evidence; directly about how abstractions emerge. Rubric: A✓ B✓ C✓ · D 2 · E 2 · F 2.",
+        "transcript_question": "What inference model for state creation is derived, and which experiments show humans and animals using it rather than fixed states?",
+        "caveat": "Verified on https://neurips.cc/virtual/2017/invited-talk/8725: title, speaker, year and date. The official page links a Facebook recording (facebook.com/nipsfoundation/videos/1555427447881822), playback not tested; url is a third-party YouTube mirror of the same 52-minute talk.",
+        "speaker": "Yael Niv",
+        "modules": [
+          3,
+          6,
+          9
+        ],
+        "id": "neurips-2017-invited-niv",
+        "index": 10,
+        "evidence": [],
+        "workshop": "NeurIPS 2017 invited talk"
+      },
+      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
+      "resources": []
+    },
+    {
+      "id": "iclr-2021-invited-bronstein",
+      "title": "Geometric Deep Learning: the Erlangen Programme of ML",
+      "url": "https://slideslive.com/38955135",
+      "published_at": "2021-05-04",
+      "duration_seconds": null,
+      "screening": {
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "geometric deep learning",
+          "symmetry",
+          "inductive bias"
+        ],
+        "publisher_promise": "Bronstein presents deep architectures (CNNs, GNNs, transformers and others) as consequences of symmetry and scale separation on the underlying domain.",
+        "screening_reason": "The primary architect of geometric deep learning gives the unifying symmetry principle and derives architecture families from it; this is the talk version of the blueprint. Rubric: A✓ B✓ C✓ · D 1 · E 2 · F 2.",
+        "transcript_question": "How far does the symmetry-plus-scale-separation blueprint actually derive each architecture, and where does Bronstein admit it is post-hoc?",
+        "caveat": "Verified on https://iclr.cc/virtual/2021/invited-talk/3717: title, speaker, year and session date; the page embeds the recording (SlidesLive: https://slideslive.com/38955135), whose page resolves with a matching title. Public playback without login not tested. Abstract only, no transcript read.",
+        "speaker": "Michael Bronstein",
+        "modules": [
+          2
+        ],
+        "id": "iclr-2021-invited-bronstein",
+        "index": 11,
+        "evidence": [],
+        "workshop": "ICLR 2021 invited talk"
+      },
+      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
+      "resources": []
+    },
+    {
+      "id": "iclr-2019-invited-bottou",
+      "title": "Learning Representations Using Causal Invariance",
+      "url": "https://www.youtube.com/watch?v=8UxS4ls6g1g",
+      "published_at": "2019-05-06",
+      "duration_seconds": null,
+      "screening": {
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "invariance",
+          "causality",
+          "ood generalization"
+        ],
+        "publisher_promise": "Bottou argues that stable, invariant relationships across training environments identify causal structure and proposes learning representations that keep the predictor invariant.",
+        "screening_reason": "A co-originator of invariant risk minimisation gives the principle (invariance across environments as a proxy for causation) and its derivation into a learning objective. Rubric: A✓ B✓ C✓ · D 2 · E 2 · F 2.",
+        "transcript_question": "What exactly is the invariance principle, how is it turned into an objective, and what failure modes of empirical risk minimisation does it claim to fix?",
+        "caveat": "Verified on https://iclr.cc/virtual/2019/invited-talk/1142: title, speaker, year, date; the page embeds a VideoKen player for YouTube https://www.youtube.com/watch?v=8UxS4ls6g1g, whose YouTube title matches (ICLR upload title is generic). Abstract only, no transcript read.",
+        "speaker": "Léon Bottou",
+        "modules": [
+          2,
+          6
+        ],
+        "id": "iclr-2019-invited-bottou",
+        "index": 12,
+        "evidence": [],
+        "workshop": "ICLR 2019 invited talk"
+      },
+      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
+      "resources": []
+    },
+    {
+      "id": "iclr-2019-invited-oudeyer",
+      "title": "Developmental Autonomous Learning: AI, Cognitive Sciences and Educational Technology",
+      "url": "https://www.youtube.com/watch?v=xGAZ0GmRgjI",
+      "published_at": "2019-05-08",
+      "duration_seconds": null,
+      "screening": {
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "curiosity",
+          "learning progress",
+          "intrinsic motivation"
+        ],
+        "publisher_promise": "Oudeyer presents curiosity driven by learning progress as a mechanism for autonomous skill and goal discovery in robots, children and educational software.",
+        "screening_reason": "The originator of learning-progress curiosity gives one principle for choosing what to learn next and traces it from models to robot experiments and classroom applications. Rubric: A✓ B✓ C✓ · D 2 · E 1 · F 2.",
+        "transcript_question": "How is learning progress defined and used to select goals, and what developmental predictions does it make that differ from novelty or prediction-error curiosity?",
+        "caveat": "Verified on https://iclr.cc/virtual/2019/invited-talk/1141: title, speaker, year, date; the page embeds a VideoKen player for YouTube https://www.youtube.com/watch?v=xGAZ0GmRgjI, whose YouTube title matches (ICLR upload title is generic). Abstract only, no transcript read.",
+        "speaker": "Pierre-Yves Oudeyer",
+        "modules": [
+          5,
+          8,
+          9
+        ],
+        "id": "iclr-2019-invited-oudeyer",
+        "index": 13,
+        "evidence": [],
+        "workshop": "ICLR 2019 invited talk"
+      },
+      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
+      "resources": []
+    },
+    {
+      "id": "iclr-2025-invited-rocktaschel",
+      "title": "Open-Endedness, World Models, and the Automation of Innovation",
+      "url": "https://slideslive.com/39038746",
+      "published_at": "2025-04-26",
+      "duration_seconds": null,
+      "screening": {
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "open-endedness",
+          "world models",
+          "self-improvement"
+        ],
+        "publisher_promise": "Rocktäschel defines open-endedness in terms of novelty and learnability to an observer and argues it is the route to self-improving AI, with world models and generated environments.",
+        "screening_reason": "One of the main architects of the current open-endedness programme gives a formal definition and connects it to concrete systems; a central source for module 8. Rubric: A✓ B✓ C✓ · D 2 · E 1 · F 1.",
+        "transcript_question": "Does the novelty-plus-learnability definition do real work in the talk, driving system design or evaluation, or is it mainly framing?",
+        "caveat": "Verified on https://iclr.cc/virtual/2025/invited-talk/36780: title, speaker, year and session date; the page embeds the recording (SlidesLive: https://slideslive.com/39038746), whose page resolves with a matching title. Public playback without login not tested. Abstract only, no transcript read. Borderline high: chosen because module 8 has few originator talks.",
+        "speaker": "Tim Rocktäschel",
+        "modules": [
+          8,
+          6
+        ],
+        "id": "iclr-2025-invited-rocktaschel",
+        "index": 14,
+        "evidence": [],
+        "workshop": "ICLR 2025 invited talk"
+      },
+      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
+      "resources": []
+    },
+    {
+      "id": "icml-2022-invited-weinan-e",
+      "title": "Towards a Mathematical Theory of Machine Learning",
+      "url": "https://slideslive.com/38988071",
+      "published_at": "2022-07-19",
+      "duration_seconds": null,
+      "screening": {
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "approximation theory",
+          "function spaces",
+          "continuous formulation"
+        ],
+        "publisher_promise": "Weinan E outlines a mathematical framework for ML covering approximation, generalisation and training through function spaces such as Barron spaces and continuous-time formulations.",
+        "screening_reason": "The originator of the continuous/mean-field formulation of ML theory presents it as one framework explaining why neural networks beat the curse of dimensionality. Rubric: A✓ B✓ C✓ · D 1 · E 2 · F 2.",
+        "transcript_question": "Which function-space results does the talk derive (Barron/flow-induced spaces, a priori error estimates), and what do they explain that classical theory does not?",
+        "caveat": "Verified on https://icml.cc/virtual/2022/invited-talk/18430: title, speaker, year and session date; the page embeds the recording (SlidesLive: https://slideslive.com/38988071), whose page resolves with a matching title. Public playback without login not tested. Abstract only, no transcript read.",
+        "speaker": "Weinan E",
+        "modules": [
+          2
+        ],
+        "id": "icml-2022-invited-weinan-e",
+        "index": 15,
+        "evidence": [],
+        "workshop": "ICML 2022 invited talk"
+      },
+      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
+      "resources": []
+    },
+    {
+      "id": "icml-2022-tutorial-foster-rakhlin",
+      "title": "Bridging Learning and Decision Making",
+      "url": "https://slideslive.com/38986088",
+      "published_at": "2022-07-18",
+      "duration_seconds": null,
+      "screening": {
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "interactive decision making",
+          "decision-estimation coefficient",
+          "exploration"
+        ],
+        "publisher_promise": "Foster and Rakhlin present a theory of interactive learning (bandits, RL) built on reducing decision making to estimation, organised around the decision-estimation coefficient.",
+        "screening_reason": "The originators of the DEC give one complexity measure that characterises sample-efficient exploration across bandits and RL, and derive algorithms from it. Rubric: A✓ B✓ C✓ · D 1 · E 2 · F 2.",
+        "transcript_question": "How does the decision-estimation coefficient yield both lower and upper bounds, and what does it say about when exploration is statistically hard?",
+        "caveat": "Verified on https://icml.cc/virtual/2022/18438: title, speaker, year and session date; the page embeds the recording (SlidesLive: https://slideslive.com/38986088), whose page resolves with a matching title. Public playback without login not tested. Abstract only, no transcript read.",
+        "speaker": "Dylan Foster, Alexander Rakhlin",
+        "modules": [
+          5,
+          6
+        ],
+        "id": "icml-2022-tutorial-foster-rakhlin",
+        "index": 16,
+        "evidence": [],
+        "workshop": "ICML 2022 tutorial"
+      },
+      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
+      "resources": []
+    },
+    {
+      "id": "icml-2024-tutorial-allen-zhu",
+      "title": "Physics of Language Models",
+      "url": "https://slideslive.com/39021926",
+      "published_at": "2024-07-22",
+      "duration_seconds": null,
+      "screening": {
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "controlled experiments",
+          "knowledge storage",
+          "reasoning"
+        ],
+        "publisher_promise": "Allen-Zhu uses synthetic, controlled pre-training experiments to isolate how language models store and extract knowledge and carry out grade-school reasoning.",
+        "screening_reason": "The originator of the 'physics of LMs' programme gives a method (controlled synthetic universes) plus a set of mechanistic findings about representation and reasoning. Rubric: A✓ B✓ C✓ · D 2 · E 2 · F 2.",
+        "transcript_question": "Which laws (knowledge capacity, extraction conditions, reasoning failure modes) are claimed as general, and how well do the synthetic setups justify that?",
+        "caveat": "Verified on https://icml.cc/virtual/2024/tutorial/35223: title, speaker, year and session date; the page embeds the recording (SlidesLive: https://slideslive.com/39021926), whose page resolves with a matching title. Public playback without login not tested. Abstract only, no transcript read.",
+        "speaker": "Zeyuan Allen-Zhu",
+        "modules": [
+          4,
+          3
+        ],
+        "id": "icml-2024-tutorial-allen-zhu",
+        "index": 17,
+        "evidence": [],
+        "workshop": "ICML 2024 tutorial"
+      },
+      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
+      "resources": []
+    },
+    {
+      "id": "icml-2025-tutorial-krotov",
+      "title": "Modern Methods in Associative Memory",
+      "url": "https://slideslive.com/39043831",
+      "published_at": "2025-07-14",
+      "duration_seconds": null,
+      "screening": {
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "associative memory",
+          "energy-based models",
+          "hopfield networks"
+        ],
+        "publisher_promise": "The tutorial develops dense associative memories and energy-based networks and relates them to transformers and diffusion models.",
+        "screening_reason": "Krotov, the originator of dense associative memory, gives an energy principle that recasts attention and generative models as memory retrieval, with derivations. Rubric: A✓ B✓ C✓ · D 1 · E 2 · F 2.",
+        "transcript_question": "Which modern architectures are derived as energy descent in an associative memory, and what does the memory capacity analysis predict about them?",
+        "caveat": "Verified on https://icml.cc/virtual/2025/40004: title, speaker, year and session date; the page embeds the recording (SlidesLive: https://slideslive.com/39043831), whose page resolves with a matching title. Public playback without login not tested. Abstract only, no transcript read.",
+        "speaker": "Dmitry Krotov, Benjamin Hoover, Parikshit Ram",
+        "modules": [
+          3,
+          4
+        ],
+        "id": "icml-2025-tutorial-krotov",
+        "index": 18,
+        "evidence": [],
+        "workshop": "ICML 2025 tutorial"
+      },
+      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
+      "resources": []
+    },
+    {
+      "id": "icml-2026-tutorial-hennig",
+      "title": "Probabilistic Numerics — Computation is Machine Learning",
+      "url": "https://slideslive.com/39083458",
+      "published_at": "2026-07-06",
+      "duration_seconds": null,
+      "screening": {
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "probabilistic numerics",
+          "computation as inference",
+          "uncertainty"
+        ],
+        "publisher_promise": "The tutorial treats numerical algorithms such as linear solvers, quadrature and ODE solvers as inference agents that decide which computations to perform.",
+        "screening_reason": "Hennig, the primary architect of probabilistic numerics, gives a principle (computation is learning with limited evidence) that changes how one sees which evidence to acquire. Rubric: A✓ B✓ C✓ · D 1 · E 2 · F 2.",
+        "transcript_question": "Which classical algorithms are rederived as Bayesian inference, and what does treating computation as evidence acquisition buy beyond the classical methods?",
+        "caveat": "Verified on https://icml.cc/virtual/2026/75368: title, speaker, year and session date; the page embeds the recording (SlidesLive: https://slideslive.com/39083458), whose page resolves with a matching title. Public playback without login not tested. Abstract only, no transcript read.",
+        "speaker": "Philipp Hennig, Marvin Pförtner, Tim Weiland",
+        "modules": [
+          5,
+          2
+        ],
+        "id": "icml-2026-tutorial-hennig",
+        "index": 19,
+        "evidence": [],
+        "workshop": "ICML 2026 tutorial"
+      },
+      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
+      "resources": []
+    },
+    {
+      "id": "icml-2020-tutorial-wilson",
+      "title": "Bayesian Deep Learning and a Probabilistic Perspective of Model Construction",
+      "url": "https://slideslive.com/38930498",
+      "published_at": "2020-07-13",
+      "duration_seconds": null,
+      "screening": {
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "bayesian model averaging",
+          "inductive bias",
+          "generalization"
+        ],
+        "publisher_promise": "Wilson presents a probabilistic account of generalisation in deep learning built on marginalisation, priors over functions and model support versus inductive bias.",
+        "screening_reason": "The architect of this view gives the support-versus-preference framing of generalisation and derives explanations of double descent and random-label fitting from it. Rubric: A✓ B✓ C✓ · D 2 · E 2 · F 2.",
+        "transcript_question": "How does the tutorial define support and inductive bias, and which deep-learning puzzles are explained by marginalisation rather than optimisation?",
+        "caveat": "Verified on https://icml.cc/virtual/2020/tutorial/5750: title, speaker, year, date. The ICML page does not embed the video in static HTML; SlidesLive pages 38930498-38930501 (Parts 1-4) resolve with matching titles. Public playback not tested.",
+        "speaker": "Andrew Gordon Wilson",
+        "modules": [
+          2
+        ],
+        "id": "icml-2020-tutorial-wilson",
+        "index": 20,
+        "evidence": [],
+        "workshop": "ICML 2020 tutorial"
+      },
+      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
+      "resources": []
+    },
+    {
+      "id": "icml-2020-tutorial-bareinboim",
+      "title": "Causal Reinforcement Learning",
+      "url": "https://www.youtube.com/watch?v=QRTgLWfFBMM",
+      "published_at": "2020-07-13",
+      "duration_seconds": null,
+      "screening": {
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "causal inference",
+          "reinforcement learning",
+          "pearl causal hierarchy"
+        ],
+        "publisher_promise": "Bareinboim unifies reinforcement learning and causal inference, showing how observational, interventional and counterfactual data change what an agent can learn.",
+        "screening_reason": "The originator of causal RL derives which tasks are possible from the causal hierarchy, which bears directly on when a world model is good enough to act. Rubric: A✓ B✓ C✓ · D 1 · E 2 · F 2.",
+        "transcript_question": "Which identification or impossibility results about online, offline and counterfactual learning are derived from the causal hierarchy?",
+        "caveat": "Verified on https://icml.cc/virtual/2020/tutorial/5752: title, speaker, year, date. The ICML page has no embedded video; the recording is the speaker's own two-part YouTube upload linked from crl.causalai.net (part 2: https://www.youtube.com/watch?v=2hGvd_9ho6s).",
+        "speaker": "Elias Bareinboim",
+        "modules": [
+          6
+        ],
+        "id": "icml-2020-tutorial-bareinboim",
+        "index": 21,
+        "evidence": [],
+        "workshop": "ICML 2020 tutorial"
+      },
+      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
+      "resources": []
+    },
+    {
+      "id": "icml-2019-tutorial-finn-levine",
+      "title": "Meta-Learning: from Few-Shot Learning to Rapid Reinforcement Learning",
+      "url": "https://www.youtube.com/watch?v=DijI4XrhqNo",
+      "published_at": "2019-06-10",
+      "duration_seconds": null,
+      "screening": {
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "meta-learning",
+          "few-shot learning",
+          "fast adaptation"
+        ],
+        "publisher_promise": "Finn and Levine present meta-learning as learning a learning procedure, covering black-box, optimisation-based and non-parametric approaches and their use in RL.",
+        "screening_reason": "An architect's tutorial (MAML's originators) central to module 7, with a unifying problem statement and derivations of the main algorithm families. Rubric: A✓ B✓ C✓ · D 1 · E 2 · F 1.",
+        "transcript_question": "What unifying probabilistic formulation of meta-learning is given, and what does it say about when meta-learning can generalise to new tasks?",
+        "caveat": "Verified on https://icml.cc/virtual/2019/tutorial/4340: title, speaker, year, date; the page embeds a VideoKen player for YouTube https://www.youtube.com/watch?v=DijI4XrhqNo, whose YouTube title matches. Abstract only, no transcript read.",
+        "speaker": "Chelsea Finn, Sergey Levine",
+        "modules": [
+          7
+        ],
+        "id": "icml-2019-tutorial-finn-levine",
+        "index": 22,
+        "evidence": [],
+        "workshop": "ICML 2019 tutorial"
+      },
+      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
+      "resources": []
+    },
+    {
+      "id": "icml-2019-tutorial-clune-lehman-stanley",
+      "title": "Recent Advances in Population-Based Search for Deep Neural Networks: Quality Diversity, Indirect Encodings, and Open-Ended Algorithms",
+      "url": "https://www.youtube.com/watch?v=YXzq_l-gnMU",
+      "published_at": "2019-06-10",
+      "duration_seconds": null,
+      "screening": {
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "open-endedness",
+          "quality diversity",
+          "novelty search"
+        ],
+        "publisher_promise": "The originators of novelty search and quality diversity explain why objective-free search finds stepping stones that objective-driven search misses, and how open-ended algorithms build on this.",
+        "screening_reason": "Originators' tutorial on the central counter-intuitive principle of module 8, that objectives can block discovery, with algorithms and evidence. Rubric: A✓ B✓ C✓ · D 2 · E 2 · F 2.",
+        "transcript_question": "How is the deception/stepping-stone argument made precise, and which experiments show divergent search beating objective search?",
+        "caveat": "Verified on https://icml.cc/virtual/2019/tutorial/4336: title, speaker, year, date; the page embeds a VideoKen player for YouTube https://www.youtube.com/watch?v=YXzq_l-gnMU, whose YouTube title matches. Abstract only, no transcript read.",
+        "speaker": "Jeff Clune, Joel Lehman, Kenneth Stanley",
+        "modules": [
+          8
+        ],
+        "id": "icml-2019-tutorial-clune-lehman-stanley",
+        "index": 23,
+        "evidence": [],
+        "workshop": "ICML 2019 tutorial"
+      },
+      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
+      "resources": []
+    },
+    {
+      "id": "icml-2019-tutorial-guedj-shawe-taylor",
+      "title": "A Primer on PAC-Bayesian Learning",
+      "url": "https://www.youtube.com/watch?v=_NuMUQYprn0",
+      "published_at": "2019-06-10",
+      "duration_seconds": null,
+      "screening": {
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "pac-bayes",
+          "generalization bounds",
+          "priors"
+        ],
+        "publisher_promise": "The tutorial develops PAC-Bayesian generalisation bounds, from their derivation to their use for non-vacuous bounds on neural networks.",
+        "screening_reason": "Shawe-Taylor is a founding architect of PAC-Bayes; the tutorial derives a framework that makes prior-dependence of generalisation explicit. Rubric: A✓ B✓ C✓ · D 1 · E 2 · F 1.",
+        "transcript_question": "Which bound derivations are shown in full, and what does the PAC-Bayes view say about why flat or compressible solutions generalise?",
+        "caveat": "Verified on https://icml.cc/virtual/2019/tutorial/4338: title, speaker, year, date; the page embeds a VideoKen player for YouTube https://www.youtube.com/watch?v=_NuMUQYprn0, whose YouTube title matches. Abstract only, no transcript read.",
+        "speaker": "Benjamin Guedj, John Shawe-Taylor",
+        "modules": [
+          2
+        ],
+        "id": "icml-2019-tutorial-guedj-shawe-taylor",
+        "index": 24,
+        "evidence": [],
+        "workshop": "ICML 2019 tutorial"
+      },
+      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
+      "resources": []
+    },
+    {
+      "id": "icml-2019-tutorial-javidi",
+      "title": "Active Hypothesis Testing: An Information Theoretic (re)View",
+      "url": "https://www.youtube.com/watch?v=tuu56-8BhwM",
+      "published_at": "2019-06-10",
+      "duration_seconds": null,
+      "screening": {
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "active learning",
+          "information theory",
+          "sequential experimental design"
+        ],
+        "publisher_promise": "Javidi presents active hypothesis testing as an information-theoretic problem, deriving how adaptively chosen queries speed up identification compared with passive sampling.",
+        "screening_reason": "An originator of the information-theoretic treatment of active hypothesis testing gives a single framework for which evidence is worth acquiring, with optimality results. Rubric: A✓ B✓ C✓ · D 1 · E 2 · F 2.",
+        "transcript_question": "Which achievability and converse results are derived, and how do they translate into rules for choosing the next query in active learning?",
+        "caveat": "Verified on https://icml.cc/virtual/2019/tutorial/4351: title, speaker, year, date; the page embeds a VideoKen player for YouTube https://www.youtube.com/watch?v=tuu56-8BhwM, whose YouTube title matches. Abstract only, no transcript read.",
+        "speaker": "Tara Javidi",
+        "modules": [
+          5
+        ],
+        "id": "icml-2019-tutorial-javidi",
+        "index": 25,
+        "evidence": [],
+        "workshop": "ICML 2019 tutorial"
+      },
+      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
+      "resources": []
+    },
+    {
+      "id": "cosyne-2018-invited-lengyel",
+      "title": "Sampling: coding, dynamics, and computation in the cortex",
+      "url": "https://www.youtube.com/watch?v=_WzVAbebFxw",
+      "published_at": "2018-04-20",
+      "duration_seconds": null,
+      "screening": {
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "sampling hypothesis",
+          "probabilistic inference",
+          "neural variability"
+        ],
+        "publisher_promise": "Lengyel argues that cortical activity represents uncertainty by sampling from posterior distributions, and links this to neural variability, dynamics and computation.",
+        "screening_reason": "A primary architect of the neural sampling hypothesis derives predictions about variability and oscillations from one normative principle. Rubric: A✓ B✓ C✓ · D 2 · E 2 · F 2.",
+        "transcript_question": "Which signatures of cortical dynamics are derived from the sampling hypothesis, and which data are presented as distinguishing it from parametric codes?",
+        "caveat": "Verified: title, speaker and year on the official Cosyne Talks YouTube channel (video https://www.youtube.com/watch?v=_WzVAbebFxw); date is the YouTube upload date; invited status checked against the Cosyne 2018 program book. Content judged from title and track record, not from an abstract.",
+        "speaker": "Máté Lengyel",
+        "modules": [
+          9,
+          3
+        ],
+        "id": "cosyne-2018-invited-lengyel",
+        "index": 26,
+        "evidence": [],
+        "workshop": "Cosyne 2018 invited talk"
+      },
+      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
+      "resources": []
+    },
+    {
+      "id": "cosyne-2018-invited-behrens",
+      "title": "Building models of the world for behavioural control",
+      "url": "https://www.youtube.com/watch?v=U5tZJLFokYY",
+      "published_at": "2018-04-20",
+      "duration_seconds": null,
+      "screening": {
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "cognitive maps",
+          "structural abstraction",
+          "hippocampal-entorhinal system"
+        ],
+        "publisher_promise": "Behrens argues that the hippocampal-entorhinal system builds abstract relational maps that generalise structure across tasks and support flexible behaviour.",
+        "screening_reason": "The originator of the structural-abstraction view of cognitive maps (later the Tolman-Eichenbaum machine) proposes one representational principle for spatial and non-spatial knowledge. Rubric: A✓ B✓ C✓ · D 2 · E 1 · F 2.",
+        "transcript_question": "What representation is proposed for factorising structure from sensory content, and which neural or behavioural evidence is presented for generalisation across tasks?",
+        "caveat": "Verified: title, speaker and year on the official Cosyne Talks YouTube channel (video https://www.youtube.com/watch?v=U5tZJLFokYY); date is the YouTube upload date; invited status checked against the Cosyne 2018 program book. Content judged from title and track record, not from an abstract.",
+        "speaker": "Tim Behrens",
+        "modules": [
+          3,
+          6,
+          9
+        ],
+        "id": "cosyne-2018-invited-behrens",
+        "index": 27,
+        "evidence": [],
+        "workshop": "Cosyne 2018 invited talk"
+      },
+      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
+      "resources": []
+    },
+    {
+      "id": "cosyne-2018-gatsby-couzin",
+      "title": "Collective sensing and decision-making in animal groups (Gatsby Lecture)",
+      "url": "https://www.youtube.com/watch?v=lWHYFoFRY34",
+      "published_at": "2018-04-23",
+      "duration_seconds": null,
+      "screening": {
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "collective intelligence",
+          "collective computation",
+          "animal groups"
+        ],
+        "publisher_promise": "Couzin shows how animal groups sense and decide collectively through local interactions, with computation emerging at the group level.",
+        "screening_reason": "The originator of quantitative collective-behaviour studies gives mechanisms for group-level computation and their consequences for decision accuracy; core for intelligence beyond one brain. Rubric: A✓ B✓ C✓ · D 2 · E 1 · F 2.",
+        "transcript_question": "Which interaction rules are shown to produce collective computation, and what predictions about group size and decision accuracy are tested?",
+        "caveat": "Verified: title, speaker and year on the official Cosyne Talks YouTube channel (video https://www.youtube.com/watch?v=lWHYFoFRY34); date is the YouTube upload date; invited status checked against the Cosyne 2018 program book. Content judged from title and track record, not from an abstract.",
+        "speaker": "Iain Couzin",
+        "modules": [
+          9
+        ],
+        "id": "cosyne-2018-gatsby-couzin",
+        "index": 28,
+        "evidence": [],
+        "workshop": "Cosyne 2018 invited talk (Gatsby Lecture)"
+      },
+      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
+      "resources": []
+    },
+    {
+      "id": "cosyne-2019-invited-sahani",
+      "title": "Learning distributed distributional representations of uncertainty",
+      "url": "https://www.youtube.com/watch?v=wsoNe1lnZf0",
+      "published_at": "2020-02-05",
+      "duration_seconds": null,
+      "screening": {
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "distributed distributional codes",
+          "uncertainty",
+          "neural representation"
+        ],
+        "publisher_promise": "Sahani presents distributed distributional codes, in which neural populations represent beliefs through expectations of nonlinear features, and shows how such codes can be learned.",
+        "screening_reason": "The co-originator of DDCs derives a representation of uncertainty that supports learning and inference without explicit sampling, a principled alternative to the sampling account. Rubric: A✓ B✓ C✓ · D 2 · E 2 · F 2.",
+        "transcript_question": "How are DDCs learned (for example via the wake-sleep idea), and what predictions separate them from sampling-based and parametric codes?",
+        "caveat": "Verified: title, speaker and year on the official Cosyne Talks YouTube channel (video https://www.youtube.com/watch?v=wsoNe1lnZf0); date is the YouTube upload date; invited/keynote status in the 2019 programme not separately checked. Content judged from title and track record, not from an abstract.",
+        "speaker": "Maneesh Sahani",
+        "modules": [
+          9,
+          3
+        ],
+        "id": "cosyne-2019-invited-sahani",
+        "index": 29,
+        "evidence": [],
+        "workshop": "Cosyne 2019 invited talk"
+      },
+      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
+      "resources": []
+    }
+  ]
+}

@@ -61,6 +61,68 @@
       },
       "notes_scope": "Publisher and venue metadata only; no transcript read in this pass.",
       "resources": []
+    },
+    {
+      "id": "yQbJNEhgYUw",
+      "title": "Jay McClelland | Neural Networks: Artificial and Biological | The Cartesian Cafe with Timothy Nguyen",
+      "url": "https://www.youtube.com/watch?v=yQbJNEhgYUw",
+      "published_at": "2024-10-02",
+      "duration_seconds": 10740,
+      "screening": {
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "connectionism",
+          "pdp",
+          "emergent representation"
+        ],
+        "publisher_promise": "The co-author of Parallel Distributed Processing walks through how artificial and biological neural networks learn and represent.",
+        "screening_reason": "McClelland is a primary architect of the PDP programme, and the Cartesian Cafe format works through the technical content at length; it bears directly on how representations emerge from learning. Rubric: A✓ B✓ C✓ · D 1 · E 2 · F 1.",
+        "transcript_question": "Does McClelland derive specific PDP mechanisms (e.g. distributed representation, complementary learning, semantic development dynamics) and their predictions, or stay at the historical overview level?",
+        "caveat": "publisher description only; guest inferred from title; depth of the conversation unverified",
+        "speaker": "Jay McClelland",
+        "modules": [
+          3,
+          9
+        ],
+        "id": "yQbJNEhgYUw",
+        "index": 2,
+        "evidence": [],
+        "workshop": "The Cartesian Cafe"
+      },
+      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
+      "resources": []
+    },
+    {
+      "id": "Gz8W1r90olc",
+      "title": "Tai-Danae Bradley | Category Theory and Language Models | The Cartesian Cafe with Timothy Nguyen",
+      "url": "https://www.youtube.com/watch?v=Gz8W1r90olc",
+      "published_at": "2022-07-20",
+      "duration_seconds": 8700,
+      "screening": {
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "category theory",
+          "language models",
+          "compositional meaning"
+        ],
+        "publisher_promise": "A mathematician presents her category-theoretic account of how meaning and structure can arise from statistics of language.",
+        "screening_reason": "Bradley is the originator of the enriched-category approach to language structure, a candidate unifying principle for how compositional semantics can emerge from co-occurrence statistics; the whiteboard format suggests real derivation. Rubric: A✓ B✓ C✓ · D 1 · E 2 · F 2.",
+        "transcript_question": "Does the episode derive how enriched categories (or Yoneda-style embeddings) recover semantic structure from text statistics, with a concrete claim about what LLMs learn?",
+        "caveat": "publisher description only; guest inferred from title; depth of the conversation unverified",
+        "speaker": "Tai-Danae Bradley",
+        "modules": [
+          3,
+          4
+        ],
+        "id": "Gz8W1r90olc",
+        "index": 3,
+        "evidence": [],
+        "workshop": "The Cartesian Cafe"
+      },
+      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
+      "resources": []
     }
   ]
 }

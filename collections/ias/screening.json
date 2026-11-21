@@ -1,0 +1,109 @@
+{
+  "methodology": {
+    "bar": "Originator of a unifying principle derives its consequences densely enough to change a mental model. Must pass A–C; D–F scored 0–2 for ranking.",
+    "rubric": {
+      "A": "Originator or primary architect",
+      "B": "Unifying principle",
+      "C": "Derivation shown",
+      "D": "Contested or falsifiable",
+      "E": "Density",
+      "F": "Model update beyond the existing collection"
+    },
+    "decisions": "Same as MLST: read_transcript is not a watch recommendation."
+  },
+  "episodes": [
+    {
+      "id": "DCPRdL03-dk",
+      "title": "Omniprediction and Multigroup Fairness - Parikshit Gopalan",
+      "url": "https://www.youtube.com/watch?v=DCPRdL03-dk",
+      "published_at": "2024-01-30",
+      "duration_seconds": 8460,
+      "screening": {
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "omniprediction",
+          "multicalibration",
+          "loss minimization"
+        ],
+        "publisher_promise": "Introduces omnipredictors, single predictors that stay near-optimal across a whole family of losses, and links them to multicalibration, boosting and related ideas.",
+        "screening_reason": "An architect of omniprediction presenting one calibration-style principle that unifies loss-agnostic learning, multigroup fairness and boosting in a long seminar format; it reframes what a predictor must encode to serve unknown objectives. Rubric: A✓ B✓ C✓ · D 1 · E 2 · F 2.",
+        "transcript_question": "Does the talk derive omniprediction from multicalibration with explicit conditions and show what it implies about the relation between predictions and downstream losses, rather than only stating results?",
+        "caveat": "publisher metadata only; abstract not verified against talk",
+        "speaker": "Parikshit Gopalan",
+        "modules": [
+          1,
+          2
+        ],
+        "id": "DCPRdL03-dk",
+        "index": 0,
+        "evidence": [],
+        "workshop": "IAS"
+      },
+      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
+      "resources": []
+    },
+    {
+      "id": "F079b2dwcAg",
+      "title": "On Expressiveness and Optimization in Deep Learning - Nadav Cohen",
+      "url": "https://www.youtube.com/watch?v=F079b2dwcAg",
+      "published_at": "2018-04-02",
+      "duration_seconds": 3780,
+      "screening": {
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "depth expressiveness",
+          "implicit acceleration",
+          "tensor analysis"
+        ],
+        "publisher_promise": "The speaker presents his theory of why depth helps deep networks, both in what they can represent and in how gradient descent optimizes them.",
+        "screening_reason": "Nadav Cohen built the tensor-decomposition account of depth efficiency and the overparameterization-as-preconditioning result, so this is an originator deriving inductive bias and optimization behaviour from one formal lens. Rubric: A✓ B✓ C✓ · D 1 · E 2 · F 2.",
+        "transcript_question": "Does the talk derive both the depth-efficiency separation and the implicit acceleration of overparameterized gradient descent from a shared formalism, or only state the results?",
+        "caveat": "publisher title and seminar name only, no abstract; speaker from description",
+        "speaker": "Nadav Cohen",
+        "modules": [
+          2,
+          4
+        ],
+        "id": "F079b2dwcAg",
+        "index": 1,
+        "evidence": [],
+        "workshop": "IAS"
+      },
+      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
+      "resources": []
+    },
+    {
+      "id": "8Bw3n6-P17A",
+      "title": "Learning models: connections between boosting...and regularity I - Russell Impagliazzo",
+      "url": "https://www.youtube.com/watch?v=8Bw3n6-P17A",
+      "published_at": "2017-11-13",
+      "duration_seconds": 4320,
+      "screening": {
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "boosting",
+          "hard-core lemma",
+          "gan theory"
+        ],
+        "publisher_promise": "Impagliazzo lays out how boosting, hard-core distributions, dense model theorems, GAN-style discrimination and regularity lemmas are instances of one learning-theoretic construction.",
+        "screening_reason": "The speaker co-originated the hard-core lemma and the complexity-theoretic view of dense models, and the title promises a single principle unifying boosting, GANs and regularity, a seminar setting that should carry proofs. Rubric: A✓ B✓ C✓ · D 1 · E 2 · F 2.",
+        "transcript_question": "Does the talk derive boosting, the hard-core lemma, dense models and GAN discrimination from one min-max/learning principle, and say what that implies for generative modeling?",
+        "caveat": "publisher metadata only (title, seminar, speaker); no abstract; GAN connection inferred from title",
+        "speaker": "Russell Impagliazzo",
+        "modules": [
+          2,
+          3
+        ],
+        "id": "8Bw3n6-P17A",
+        "index": 2,
+        "evidence": [],
+        "workshop": "IAS"
+      },
+      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
+      "resources": []
+    }
+  ]
+}

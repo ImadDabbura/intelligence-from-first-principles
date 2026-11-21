@@ -1,0 +1,327 @@
+{
+  "methodology": {
+    "bar": "Originator of a unifying principle derives its consequences densely enough to change a mental model. Must pass A–C; D–F scored 0–2 for ranking.",
+    "rubric": {
+      "A": "Originator or primary architect",
+      "B": "Unifying principle",
+      "C": "Derivation shown",
+      "D": "Contested or falsifiable",
+      "E": "Density",
+      "F": "Model update beyond the existing collection"
+    },
+    "decisions": "Same as MLST: read_transcript is not a watch recommendation."
+  },
+  "episodes": [
+    {
+      "id": "eXC8BMMr-DA",
+      "title": "Stanford Seminar - Going beyond the here and now: Counterfactual simulation in human cognition",
+      "url": "https://www.youtube.com/watch?v=eXC8BMMr-DA",
+      "published_at": "2023-04-29",
+      "duration_seconds": 3540,
+      "screening": {
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "counterfactuals",
+          "causal judgment",
+          "intuitive physics"
+        ],
+        "publisher_promise": "Introduces a counterfactual simulation model in which people judge causation by intervening on a generative mental model of the world and simulating the outcome, tested against human judgments of physical and social scenes.",
+        "screening_reason": "The originator of the counterfactual simulation model presents one principle (causal judgment as simulated intervention on a generative world model) that yields quantitative predictions of human causal, explanatory and responsibility judgments; a direct bridge from world models to causal cognition. Rubric: A✓ B✓ C✓ · D 2 · E 2 · F 2.",
+        "transcript_question": "Does the talk derive the counterfactual simulation model formally (what is simulated, how outcomes are compared) and show where it beats rival accounts of causal judgment, or only present fits to experiments?",
+        "caveat": "publisher abstract only; speaker named in description; HCI seminar venue, so depth of modelling is unverified",
+        "speaker": "Tobias Gerstenberg",
+        "modules": [
+          6,
+          9
+        ],
+        "id": "eXC8BMMr-DA",
+        "index": 0,
+        "evidence": [],
+        "workshop": "Stanford CS547 - Human-Computer Interaction Seminar Series"
+      },
+      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
+      "resources": []
+    },
+    {
+      "id": "rGz0nagM-TA",
+      "title": "Stanford Seminar-Stories from CoCoLab: Probabilistic Programs, Cognative Modeling, & Smart Web Pages",
+      "url": "https://www.youtube.com/watch?v=rGz0nagM-TA",
+      "published_at": "2014-10-02",
+      "duration_seconds": 4020,
+      "screening": {
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "probabilistic programs",
+          "cognitive modeling"
+        ],
+        "publisher_promise": "The CoCoLab's work using probabilistic programs to model human cognition and power smart web pages.",
+        "screening_reason": "Goodman is a primary architect of probabilistic programming as a model of thought and of Rational Speech Acts; the chapter list runs from probabilistic programs to recursive pragmatic reasoning, a hyperbole experiment, and Bayesian optimal experiment design by information gain. Rubric: A✓ B✓ C✓ · D 1 · E 1 · F 2.",
+        "transcript_question": "Does the talk actually derive recursive social reasoning (RSA) and information-gain experiment design from one probabilistic-program framework, with tested predictions, or only sketch them for an HCI audience?",
+        "caveat": "no abstract; content inferred from chapter timestamps; HCI-seminar framing and the 'smart pages' segment may dilute density",
+        "speaker": "Noah Goodman",
+        "modules": [
+          4,
+          9,
+          5
+        ],
+        "id": "rGz0nagM-TA",
+        "index": 1,
+        "evidence": [],
+        "workshop": "Stanford CS547 - Human-Computer Interaction Seminar Series"
+      },
+      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
+      "resources": []
+    },
+    {
+      "id": "pC4zRb_5noQ",
+      "title": "Stanford CS25: V1 I Transformer Circuits, Induction Heads, In-Context Learning",
+      "url": "https://www.youtube.com/watch?v=pC4zRb_5noQ",
+      "published_at": "2022-07-17",
+      "duration_seconds": 3600,
+      "screening": {
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "mechanistic interpretability",
+          "in-context learning",
+          "induction heads"
+        ],
+        "publisher_promise": "Reverse-engineers transformer language models into circuits and argues that two-head induction circuits account for much of in-context learning.",
+        "screening_reason": "Originator-level account of a concrete mechanism (induction heads) proposed to explain a broad phenomenon (in-context learning), central to how structure becomes executable computation. Rubric: A✓ B✓ C✓ · D 2 · E 2 · F 2.",
+        "transcript_question": "Does the talk show causal evidence (phase change, ablations) that induction heads drive in-context learning generally, or only correlational evidence in small attention-only models?",
+        "caveat": "publisher abstract only; speaker inferred",
+        "speaker": "Anthropic interpretability team (speaker not named; likely Chris Olah)",
+        "modules": [
+          4,
+          3
+        ],
+        "id": "pC4zRb_5noQ",
+        "index": 2,
+        "evidence": [],
+        "workshop": "Stanford CS25 - Transformers United"
+      },
+      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
+      "resources": []
+    },
+    {
+      "id": "CYaju6aCMoQ",
+      "title": "Stanford CS25: V2 I Represent part-whole hierarchies in a neural network, Geoff Hinton",
+      "url": "https://www.youtube.com/watch?v=CYaju6aCMoQ",
+      "published_at": "2022-08-11",
+      "duration_seconds": 3180,
+      "screening": {
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "part-whole hierarchies",
+          "glom",
+          "representation"
+        ],
+        "publisher_promise": "Presents one representational idea, islands of agreeing vectors forming parse-tree nodes, that would let a fixed network parse images into image-specific part-whole hierarchies (GLOM).",
+        "screening_reason": "The originator lays out a single unifying representational principle that combines transformers, contrastive learning, distillation and capsules, squarely on how abstractions emerge. Rubric: A✓ B✓ C✓ · D 2 · E 2 · F 2.",
+        "transcript_question": "Is GLOM argued from a derivation with testable predictions, or presented as an unimplemented design sketch whose claims cannot yet be checked?",
+        "caveat": "publisher abstract only",
+        "speaker": "Geoffrey Hinton",
+        "modules": [
+          3
+        ],
+        "id": "CYaju6aCMoQ",
+        "index": 3,
+        "evidence": [],
+        "workshop": "Stanford CS25 - Transformers United"
+      },
+      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
+      "resources": []
+    },
+    {
+      "id": "dJtHauhRasc",
+      "title": "Stanford CS25: Transformers United V6 I Distinct Modes of Generalization from Parameters and Context",
+      "url": "https://www.youtube.com/watch?v=dJtHauhRasc",
+      "published_at": "2026-05-20",
+      "duration_seconds": 4320,
+      "screening": {
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "in-context learning",
+          "generalization",
+          "parametric vs context"
+        ],
+        "publisher_promise": "Contrasts how language models generalize from information learned in weights versus provided in context, and tests augmentation, retrieval and RL strategies to close the gap.",
+        "screening_reason": "The author of the work names a sharp distinction (generalization from parameters versus context, e.g. reversal and inference failures) that changes how inductive bias in LMs is understood. Rubric: A✓ B✓ C✓ · D 2 · E 2 · F 2.",
+        "transcript_question": "Does the talk explain why the two routes generalize differently (a mechanism), or only document the asymmetry empirically?",
+        "caveat": "publisher abstract only",
+        "speaker": "Andrew Lampinen",
+        "modules": [
+          2,
+          4
+        ],
+        "id": "dJtHauhRasc",
+        "index": 4,
+        "evidence": [],
+        "workshop": "Stanford CS25 - Transformers United"
+      },
+      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
+      "resources": []
+    },
+    {
+      "id": "D7e7oUbtkFM",
+      "title": "Stanford Robotics Seminar ENGR319 | Winter 2026 | Gen Control, Action Chunking, Moravec’s Paradox",
+      "url": "https://www.youtube.com/watch?v=D7e7oUbtkFM",
+      "published_at": "2026-04-10",
+      "duration_seconds": 3240,
+      "screening": {
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "imitation learning theory",
+          "moravec's paradox",
+          "action chunking"
+        ],
+        "publisher_promise": "Promises mathematical evidence for Moravec's paradox and an account of which innovations in generative control and action chunking make modern robot learning work.",
+        "screening_reason": "The speaker authored theory on why imitation learning of continuous control compounds error; a derivation-backed explanation of why low-level control is hard and why chunking and generative policies help would reframe robot learning. Rubric: A✓ B✓ C✓ · D 2 · E 2 · F 2.",
+        "transcript_question": "Does the talk derive a lower bound or separation explaining Moravec's paradox and show how action chunking or generative control provably escapes it?",
+        "caveat": "publisher bullet summary only; speaker from description; derivation depth inferred from speaker's known work",
+        "speaker": "Max Simchowitz",
+        "modules": [
+          2,
+          6
+        ],
+        "id": "D7e7oUbtkFM",
+        "index": 5,
+        "evidence": [],
+        "workshop": "Stanford AA289/ENGR319 - Robotics and Autonomous Systems Seminar"
+      },
+      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
+      "resources": []
+    },
+    {
+      "id": "ZD2cL-QoI5g",
+      "title": "Stanford Seminar - A Picture of the Prediction Space of Deep Networks",
+      "url": "https://www.youtube.com/watch?v=ZD2cL-QoI5g",
+      "published_at": "2023-06-02",
+      "duration_seconds": 3240,
+      "screening": {
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "generalization",
+          "sloppy spectra",
+          "task space geometry"
+        ],
+        "publisher_promise": "Argues deep networks generalize and train tractably because typical tasks have a characteristic, low-dimensional structure in their input correlations, and pictures the prediction space of trained networks.",
+        "screening_reason": "Originator-led unifying claim that data structure, not parameter count, explains both generalization and trainability, with a specified mechanism. Rubric: A✓ B✓ C✓ · D 2 · E 2 · F 2.",
+        "transcript_question": "Does the talk derive generalization bounds or trajectory predictions from the sloppy input-correlation spectrum, and how does it test that training trajectories lie on a low-dimensional manifold?",
+        "caveat": "publisher abstract only; speaker from description",
+        "speaker": "Pratik Chaudhari",
+        "modules": [
+          2,
+          3
+        ],
+        "id": "ZD2cL-QoI5g",
+        "index": 6,
+        "evidence": [],
+        "workshop": "Stanford AA289/ENGR319 - Robotics and Autonomous Systems Seminar"
+      },
+      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
+      "resources": []
+    },
+    {
+      "id": "iHirjErBrU0",
+      "title": "Stanford Seminar - Towards theories of single-trial high dimensional neural data analysis",
+      "url": "https://www.youtube.com/watch?v=iHirjErBrU0",
+      "published_at": "2018-05-03",
+      "duration_seconds": 4560,
+      "screening": {
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "neural dimensionality",
+          "random projections",
+          "high-dimensional statistics"
+        ],
+        "publisher_promise": "Asks what theoretical principles explain why dimensionality reduction of massively undersampled neural recordings still recovers meaningful low-dimensional dynamics, and proposes a theory of that success.",
+        "screening_reason": "Ganguli is the architect of the neural task complexity and random-projection account of why low-dimensional neural state spaces are recoverable from tiny samples; it is a high-dimensional-probability argument that reframes what recordings can identify. Rubric: A✓ B✓ C✓ · D 1 · E 2 · F 2.",
+        "transcript_question": "Does the talk derive a quantitative bound (e.g. neural task complexity vs. number of recorded neurons and trials) from random-projection theory, rather than only describing results?",
+        "caveat": "publisher abstract only; speaker taken from description",
+        "speaker": "Surya Ganguli",
+        "modules": [
+          2,
+          3,
+          9
+        ],
+        "id": "iHirjErBrU0",
+        "index": 7,
+        "evidence": [],
+        "workshop": "Stanford EE380-Colloquium on Computer Systems - Seminar Series"
+      },
+      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
+      "resources": []
+    },
+    {
+      "id": "zUCoxhExe0o",
+      "title": "Stanford Seminar - Computing with High-Dimensional Vectors",
+      "url": "https://www.youtube.com/watch?v=zUCoxhExe0o",
+      "published_at": "2017-10-26",
+      "duration_seconds": 3540,
+      "screening": {
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "hyperdimensional computing",
+          "vector symbolic architectures",
+          "distributed representation"
+        ],
+        "publisher_promise": "Proposes computing with very high-dimensional random vectors as basic objects, where binding and superposition operations form an algebra between symbolic AI and neural nets.",
+        "screening_reason": "Kanerva originated sparse distributed memory and hyperdimensional computing; the algebra of binding and bundling is one principle that explains how structured records and composition can live in distributed codes, which bears directly on representation and executable structure. Rubric: A✓ B✓ C✓ · D 1 · E 2 · F 2.",
+        "transcript_question": "Does the talk derive the algebraic properties (quasi-orthogonality, binding/bundling capacity) from high-dimensional geometry and show how they yield composition, or does it stay at a conceptual overview?",
+        "caveat": "publisher abstract only; speaker taken from description",
+        "speaker": "Pentti Kanerva",
+        "modules": [
+          3,
+          4,
+          9
+        ],
+        "id": "zUCoxhExe0o",
+        "index": 8,
+        "evidence": [],
+        "workshop": "Stanford EE380-Colloquium on Computer Systems - Seminar Series"
+      },
+      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
+      "resources": []
+    },
+    {
+      "id": "VIRCybGgHts",
+      "title": "Stanford Seminar - Can the brain do back-propagation? Geoffrey Hinton",
+      "url": "https://www.youtube.com/watch?v=VIRCybGgHts",
+      "published_at": "2016-04-28",
+      "duration_seconds": 5100,
+      "screening": {
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "backpropagation",
+          "biological plausibility",
+          "credit assignment"
+        ],
+        "publisher_promise": "Takes the standard objections to backpropagation in the brain one at a time and describes ways around them, from work with Lillicrap.",
+        "screening_reason": "The originator of backprop-based deep learning addresses the credit-assignment problem in cortex objection by objection, a mechanism-level argument that bears on how representations could be learned in brains. Rubric: A✓ B✓ C✓ · D 2 · E 2 · F 1.",
+        "transcript_question": "Which specific mechanisms (e.g. feedback alignment, temporal derivatives as error signals) does Hinton propose, and does he make testable predictions about cortex?",
+        "caveat": "publisher abstract only; speaker taken from description",
+        "speaker": "Geoffrey Hinton",
+        "modules": [
+          3,
+          9
+        ],
+        "id": "VIRCybGgHts",
+        "index": 9,
+        "evidence": [],
+        "workshop": "Stanford EE380-Colloquium on Computer Systems - Seminar Series"
+      },
+      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
+      "resources": []
+    }
+  ]
+}

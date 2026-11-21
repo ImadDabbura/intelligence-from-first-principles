@@ -1,0 +1,138 @@
+{
+  "methodology": {
+    "bar": "Originator of a unifying principle derives its consequences densely enough to change a mental model. Must pass A–C; D–F scored 0–2 for ranking.",
+    "rubric": {
+      "A": "Originator or primary architect",
+      "B": "Unifying principle",
+      "C": "Derivation shown",
+      "D": "Contested or falsifiable",
+      "E": "Density",
+      "F": "Model update beyond the existing collection"
+    },
+    "decisions": "Same as MLST: read_transcript is not a watch recommendation."
+  },
+  "episodes": [
+    {
+      "id": "8TWBGw32CwY",
+      "title": "Abdus Salam Distinguished Lecture Series 2024 - Lecture 3",
+      "url": "https://www.youtube.com/watch?v=8TWBGw32CwY",
+      "published_at": "2024-02-03",
+      "duration_seconds": 4740,
+      "screening": {
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "score diffusion",
+          "multiscale networks",
+          "generative models"
+        ],
+        "publisher_promise": "Lecture on multiscale neural network models for score-based diffusion generation.",
+        "screening_reason": "Originator lecture connecting wavelet/RG factorization to why diffusion models generalize rather than memorize; central to modules 2 and 3 with a stated mechanism. Rubric: A✓ B✓ C✓ · D 2 · E 2 · F 2.",
+        "transcript_question": "Does he derive the multiscale conditional factorization that lets score networks avoid the curse of dimensionality, and show evidence of generalization versus memorization?",
+        "caveat": "publisher metadata only; speaker taken from title/description",
+        "speaker": "Stéphane Mallat",
+        "modules": [
+          3,
+          2
+        ],
+        "id": "8TWBGw32CwY",
+        "index": 0,
+        "evidence": [],
+        "workshop": "Salam Distinguished Lectures 2024 - Prof. Stéphane Mallat"
+      },
+      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
+      "resources": []
+    },
+    {
+      "id": "jdCFc45bb2o",
+      "title": "Abdus Salam Distinguished Lecture Series 2024 - Lecture 1",
+      "url": "https://www.youtube.com/watch?v=jdCFc45bb2o",
+      "published_at": "2024-02-01",
+      "duration_seconds": 4980,
+      "screening": {
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "renormalisation group",
+          "energy models",
+          "generative models"
+        ],
+        "publisher_promise": "Lecture on estimating Gibbs energies and generating data by an inverse renormalisation group.",
+        "screening_reason": "Mallat derives a scale-by-scale factorization of high-dimensional distributions (an inverse RG) as the principle behind learnable generative models; physics-derived, originator-led, and dense. Rubric: A✓ B✓ C✓ · D 1 · E 2 · F 2.",
+        "transcript_question": "How exactly does the inverse RG reduce learning a high-dimensional energy to well-conditioned low-dimensional conditional problems, and what does it predict that standard models do not?",
+        "caveat": "possible duplicate upload with Db0uzBBB9Xw",
+        "speaker": "Stéphane Mallat",
+        "modules": [
+          3,
+          2
+        ],
+        "id": "jdCFc45bb2o",
+        "index": 1,
+        "evidence": [],
+        "workshop": "Salam Distinguished Lectures 2024 - Prof. Stéphane Mallat"
+      },
+      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
+      "resources": []
+    },
+    {
+      "id": "GPtohlKMVAE",
+      "title": "Prof. William Bialek: Living on a diet of bits",
+      "url": "https://www.youtube.com/watch?v=GPtohlKMVAE",
+      "published_at": "2013-02-04",
+      "duration_seconds": 6120,
+      "screening": {
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "efficient coding",
+          "information theory"
+        ],
+        "publisher_promise": "Lecture on organisms as information processors whose fitness depends on bits extracted.",
+        "screening_reason": "Bialek, originator of information optimization in biology, derives coding and representation from maximizing information under constraints, in the same family as the Tishby exemplar. Rubric: A✓ B✓ C✓ · D 1 · E 2 · F 2.",
+        "transcript_question": "Does he derive a representation from an information-maximization objective and confirm a non-trivial prediction quantitatively (e.g. in fly vision or gene regulation)?",
+        "caveat": "series-level description only; lecture content inferred from title",
+        "speaker": "William Bialek",
+        "modules": [
+          3,
+          9
+        ],
+        "id": "GPtohlKMVAE",
+        "index": 2,
+        "evidence": [],
+        "workshop": "Salam Distinguished Lectures 2013: William Bialek"
+      },
+      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
+      "resources": []
+    },
+    {
+      "id": "uyg1z5PmePk",
+      "title": "Prof. William Bialek: Making predictions",
+      "url": "https://www.youtube.com/watch?v=uyg1z5PmePk",
+      "published_at": "2013-02-04",
+      "duration_seconds": 6120,
+      "screening": {
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "predictive information",
+          "information bottleneck"
+        ],
+        "publisher_promise": "Lecture on prediction as the core task of living systems.",
+        "screening_reason": "Bialek co-developed predictive information and the bottleneck with Tishby; the lecture likely argues that representations should keep only bits predictive of the future, matching the exemplar bar. Rubric: A✓ B✓ C✓ · D 1 · E 2 · F 2.",
+        "transcript_question": "Does he formalize predictive information and show that biological representations approach the predictive bottleneck bound?",
+        "caveat": "series-level description only; lecture content inferred from title",
+        "speaker": "William Bialek",
+        "modules": [
+          5,
+          3
+        ],
+        "id": "uyg1z5PmePk",
+        "index": 3,
+        "evidence": [],
+        "workshop": "Salam Distinguished Lectures 2013: William Bialek"
+      },
+      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
+      "resources": []
+    }
+  ]
+}

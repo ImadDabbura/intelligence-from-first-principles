@@ -1,0 +1,202 @@
+{
+  "methodology": {
+    "bar": "Originator of a unifying principle derives its consequences densely enough to change a mental model. Must pass A–C; D–F scored 0–2 for ranking.",
+    "rubric": {
+      "A": "Originator or primary architect",
+      "B": "Unifying principle",
+      "C": "Derivation shown",
+      "D": "Contested or falsifiable",
+      "E": "Density",
+      "F": "Model update beyond the existing collection"
+    },
+    "decisions": "Same as MLST: read_transcript is not a watch recommendation."
+  },
+  "episodes": [
+    {
+      "id": "4yKhDpbFDhQ",
+      "title": "Comment le cerveau humain se compare-t-il aux intelligences artificielles actuelles ? - S. Dehaene",
+      "url": "https://www.youtube.com/watch?v=4yKhDpbFDhQ",
+      "published_at": "2025-10-24",
+      "duration_seconds": 2100,
+      "screening": {
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "language of thought",
+          "symbolic compression",
+          "brain vs ai"
+        ],
+        "publisher_promise": "Dehaene compares the human brain with current AI systems and lists challenges from cognitive science that current models do not meet.",
+        "screening_reason": "Dehaene originated the neuronal recycling and language-of-thought/minimal description length accounts of human geometric and numerical learning; a 2025 comparison with AI is where he states what he thinks AI lacks. Rubric: A✓ B✓ C✓ · D 2 · E 1 · F 2.",
+        "transcript_question": "Which specific capacities (compositional symbolic compression, sample efficiency, recursive language of thought) does Dehaene claim AI lacks, and what experimental evidence ties them to a mechanism?",
+        "caveat": "publisher abstract only; in French; 35-min colloquium talk; abstract is only a title",
+        "speaker": "Stanislas Dehaene",
+        "modules": [
+          1,
+          4,
+          9
+        ],
+        "id": "4yKhDpbFDhQ",
+        "index": 0,
+        "evidence": [],
+        "workshop": "Colloque de rentrée 2025 - Formes de l’intelligence"
+      },
+      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
+      "resources": []
+    },
+    {
+      "id": "8QcRw-2xLvk",
+      "title": "Le rôle du langage dans le développement du noyau de connaissances de l'enfant - E. Spelke",
+      "url": "https://www.youtube.com/watch?v=8QcRw-2xLvk",
+      "published_at": "2022-01-30",
+      "duration_seconds": 2520,
+      "screening": {
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "core knowledge",
+          "development",
+          "language and composition"
+        ],
+        "publisher_promise": "Spelke discusses how language contributes to the development of the child's core knowledge systems.",
+        "screening_reason": "Spelke originated core knowledge theory, the clearest account of innate prior structure in human learning, and the claim that language composes otherwise separate core systems. Rubric: A✓ B✓ C✓ · D 2 · E 1 · F 2.",
+        "transcript_question": "What evidence does Spelke give that language is the combinatorial bridge between separate core systems, and how does that separate innate structure from learned composition?",
+        "caveat": "publisher title only; likely given in French or with translation, language unverified",
+        "speaker": "Elizabeth Spelke",
+        "modules": [
+          2,
+          9
+        ],
+        "id": "8QcRw-2xLvk",
+        "index": 1,
+        "evidence": [],
+        "workshop": "Colloque de rentrée 2018 - Langue et science, langage et pensée"
+      },
+      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
+      "resources": []
+    },
+    {
+      "id": "ww4dYVJVgP0",
+      "title": "L'auto-organisation dans l'évolution de la parole - Pierre-Yves Oudeyer",
+      "url": "https://www.youtube.com/watch?v=ww4dYVJVgP0",
+      "published_at": "2022-01-24",
+      "duration_seconds": 2460,
+      "screening": {
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "self-organization",
+          "speech evolution",
+          "emergent conventions"
+        ],
+        "publisher_promise": "Oudeyer shows how shared speech sound systems can self-organize from interacting agents without a designer, as a model of the evolution of speech.",
+        "screening_reason": "Oudeyer built the self-organization model of phonological systems that later grew into his curiosity-driven, open-ended learning programme; this is the originator deriving emergent structure from simple coupled dynamics. Rubric: A✓ B✓ C✓ · D 1 · E 1 · F 1.",
+        "transcript_question": "Which minimal agent dynamics does Oudeyer show are sufficient for shared discrete vowel systems to emerge, and what predictions about language universals follow?",
+        "caveat": "publisher abstract only; in French; 2008 talk predates his intrinsic-motivation work; only a title",
+        "speaker": "Pierre-Yves Oudeyer",
+        "modules": [
+          8,
+          3
+        ],
+        "id": "ww4dYVJVgP0",
+        "index": 2,
+        "evidence": [],
+        "workshop": "Colloque de rentrée 2008 - Aux origines du dialogue humain : Parole et musique"
+      },
+      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
+      "resources": []
+    },
+    {
+      "id": "TdLa5h-x2nA",
+      "title": "L'apprentissage profond : une révolution en intelligence artificielle - Yann LeCun (2016)",
+      "url": "https://www.youtube.com/watch?v=TdLa5h-x2nA",
+      "published_at": "2022-11-18",
+      "duration_seconds": 5400,
+      "screening": {
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "deep learning",
+          "representation learning",
+          "predictive learning"
+        ],
+        "publisher_promise": "LeCun's inaugural lecture presenting deep learning as a revolution in AI, from convolutional networks to the open problem of unsupervised, predictive learning.",
+        "screening_reason": "An architect of convolutional networks setting out his programme in a 90-minute lecture; likely includes the early form of his argument that predictive world models and unsupervised learning are the missing piece. Rubric: A✓ B✓ C✗ · D 1 · E 1 · F 1.",
+        "transcript_question": "Does LeCun give a principled argument (energy-based models, prediction under uncertainty) for why unsupervised predictive learning is necessary, or only an overview of results?",
+        "caveat": "publisher abstract only; in French; publisher gives no abstract; 2016 content may be dated; speaker named in title",
+        "speaker": "Yann LeCun",
+        "modules": [
+          3,
+          6
+        ],
+        "id": "TdLa5h-x2nA",
+        "index": 3,
+        "evidence": [],
+        "workshop": "AI lectures (LeCun 2015-16 chair, Sagot, Hassabis, others) (channel uploads)"
+      },
+      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
+      "resources": []
+    },
+    {
+      "id": "enG1DKBCWwc",
+      "title": "Modèles multi-échelles et réseaux de neurones convolutifs (13) - Stéphane Mallat (2019-2020)",
+      "url": "https://www.youtube.com/watch?v=enG1DKBCWwc",
+      "published_at": "2020-06-18",
+      "duration_seconds": 5880,
+      "screening": {
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "scattering networks",
+          "invariance",
+          "wavelets"
+        ],
+        "publisher_promise": "A full course lecture deriving wavelet scattering networks as a multiscale, stable, invariant representation and relating them to convolutional networks.",
+        "screening_reason": "The originator teaching his own construction in a 98-minute course lecture: invariance and Lipschitz stability to deformations derived from first principles. Rubric: A✓ B✓ C✓ · D 1 · E 2 · F 2.",
+        "transcript_question": "Does the lecture derive why translation invariance plus deformation stability forces a cascade of wavelet modulus operators, and what does that imply for CNN architecture?",
+        "caveat": "publisher abstract only; in French; lecture 13 of a course series, may assume earlier lectures",
+        "speaker": "Stéphane Mallat",
+        "modules": [
+          2,
+          3
+        ],
+        "id": "enG1DKBCWwc",
+        "index": 4,
+        "evidence": [],
+        "workshop": "Chair Sciences des donnees - Stephane Mallat (channel uploads)"
+      },
+      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
+      "resources": []
+    },
+    {
+      "id": "WGIJOwvYmfE",
+      "title": "L'apprentissage face à la malédiction de la grande dimension (3) - Stéphane Mallat (2017-2018)",
+      "url": "https://www.youtube.com/watch?v=WGIJOwvYmfE",
+      "published_at": "2018-02-15",
+      "duration_seconds": 5400,
+      "screening": {
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "curse of dimensionality",
+          "approximation",
+          "regularity priors"
+        ],
+        "publisher_promise": "A course lecture on the curse of dimensionality: why learning in high dimension is impossible without strong regularity assumptions, and which assumptions break it.",
+        "screening_reason": "Mallat's 2017-18 course frames all of learning as a fight against high-dimensional complexity; this lecture states the central impossibility and the kinds of prior that escape it. Rubric: A✓ B✓ C✓ · D 1 · E 2 · F 1.",
+        "transcript_question": "Which regularity classes (smoothness, sparsity, invariance, multiscale) does Mallat show escape the curse, and with what rates?",
+        "caveat": "publisher abstract only; in French; one lecture of a series; metadata gives only the lecture title",
+        "speaker": "Stéphane Mallat",
+        "modules": [
+          2
+        ],
+        "id": "WGIJOwvYmfE",
+        "index": 5,
+        "evidence": [],
+        "workshop": "Chair Sciences des donnees - Stephane Mallat (channel uploads)"
+      },
+      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
+      "resources": []
+    }
+  ]
+}

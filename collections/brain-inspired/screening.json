@@ -36,6 +36,254 @@
       },
       "notes_scope": "Publisher and venue metadata only; no transcript read in this pass.",
       "resources": []
+    },
+    {
+      "id": "E7h3zktojXs",
+      "title": "BI 229 Tomaso Poggio: Principles of Intelligence and Learning",
+      "url": "https://www.youtube.com/watch?v=E7h3zktojXs",
+      "published_at": "2026-01-14",
+      "duration_seconds": 6000,
+      "screening": {
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "theory of learning",
+          "compositional sparsity",
+          "approximation"
+        ],
+        "publisher_promise": "Poggio discusses his long search for theoretical principles of intelligence and learning across brains and machines.",
+        "screening_reason": "Poggio is the originator of a programme on why deep networks generalize and approximate well, centered on compositional sparsity; this is a principle-to-mechanism account that bears directly on inductive bias. Rubric: A✓ B✓ C✓ · D 1 · E 2 · F 2.",
+        "transcript_question": "Does Poggio lay out compositional sparsity (or its equivalent) as the principle explaining deep learning, and derive consequences for approximation, optimization and generalization?",
+        "caveat": "publisher description only; guest inferred from title; depth of the conversation unverified",
+        "speaker": "Tomaso Poggio",
+        "modules": [
+          2,
+          3,
+          4
+        ],
+        "id": "E7h3zktojXs",
+        "index": 1,
+        "evidence": [],
+        "workshop": "Brain Inspired"
+      },
+      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
+      "resources": []
+    },
+    {
+      "id": "cmxQgQmY9js",
+      "title": "BI 201 Rajesh Rao: From Predictive Coding to Brain Co-Processors",
+      "url": "https://www.youtube.com/watch?v=cmxQgQmY9js",
+      "published_at": "2024-12-18",
+      "duration_seconds": 5820,
+      "screening": {
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "active predictive coding",
+          "world models",
+          "hierarchy"
+        ],
+        "publisher_promise": "The co-originator of predictive coding presents his updated theory of active predictive coding in cortex.",
+        "screening_reason": "Rao is the originator of the Rao-Ballard predictive coding model and here extends it to action and hierarchical world models; principle to mechanism to prediction. Rubric: A✓ B✓ C✓ · D 1 · E 2 · F 2.",
+        "transcript_question": "How does active predictive coding derive hierarchical, action-conditioned world models, and what neural prediction distinguishes it from the 1999 model?",
+        "caveat": "publisher description only; guest inferred from title; depth of the conversation unverified",
+        "speaker": "Rajesh Rao",
+        "modules": [
+          3,
+          6,
+          9
+        ],
+        "id": "cmxQgQmY9js",
+        "index": 2,
+        "evidence": [],
+        "workshop": "Brain Inspired"
+      },
+      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
+      "resources": []
+    },
+    {
+      "id": "T4OMK5ck2v4",
+      "title": "BI 139 Marc Howard: Compressed Time and Memory",
+      "url": "https://www.youtube.com/watch?v=T4OMK5ck2v4",
+      "published_at": "2022-06-20",
+      "duration_seconds": 4800,
+      "screening": {
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "laplace transform",
+          "temporal memory",
+          "scale invariance"
+        ],
+        "publisher_promise": "A theorist argues a Laplace transform and its inverse could be a unified framework for memory and time.",
+        "screening_reason": "Howard originated the claim that brains encode time through a Laplace transform and approximate inverse, a single principle that explains scale-invariant memory, time cells and serial-order effects. Rubric: A✓ B✓ C✓ · D 2 · E 2 · F 2.",
+        "transcript_question": "Does Howard derive time cells and scale-invariant memory from the Laplace framework, and what evidence would falsify it?",
+        "caveat": "publisher description only; guest inferred from title; depth of the conversation unverified",
+        "speaker": "Marc Howard",
+        "modules": [
+          3,
+          9
+        ],
+        "id": "T4OMK5ck2v4",
+        "index": 3,
+        "evidence": [],
+        "workshop": "Brain Inspired"
+      },
+      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
+      "resources": []
+    },
+    {
+      "id": "jL_tka90wKY",
+      "title": "BI 132 Ila Fiete: A Grid Scaffold for Memory",
+      "url": "https://www.youtube.com/watch?v=jL_tka90wKY",
+      "published_at": "2022-04-03",
+      "duration_seconds": 4620,
+      "screening": {
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "grid cells",
+          "memory scaffold",
+          "capacity"
+        ],
+        "publisher_promise": "A theorist explains how grid-cell networks provide a structured scaffold for forming memories.",
+        "screening_reason": "Fiete originated the grid-scaffold memory model, a single structural principle that derives memory capacity and graceful degradation from a prestructured code. Rubric: A✓ B✓ C✓ · D 1 · E 2 · F 2.",
+        "transcript_question": "Does Fiete derive capacity and robustness from the scaffold, and how it avoids the memory cliff of Hopfield-style networks?",
+        "caveat": "publisher description only; guest inferred from title; depth of the conversation unverified",
+        "speaker": "Ila Fiete",
+        "modules": [
+          3,
+          9
+        ],
+        "id": "jL_tka90wKY",
+        "index": 4,
+        "evidence": [],
+        "workshop": "Brain Inspired"
+      },
+      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
+      "resources": []
+    },
+    {
+      "id": "V-ku3AMgCiU",
+      "title": "BI 120 James Fitzgerald, Andrew Saxe, Weinan Sun: Optimizing Memories",
+      "url": "https://www.youtube.com/watch?v=V-ku3AMgCiU",
+      "published_at": "2021-11-21",
+      "duration_seconds": 6000,
+      "screening": {
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "complementary learning systems",
+          "consolidation",
+          "generalization"
+        ],
+        "publisher_promise": "Three theorists present a theory of when memories should be consolidated so that they generalize rather than overfit.",
+        "screening_reason": "The originators present Go-CLS, which derives from a generalization objective why only predictable memories should transfer to cortex, linking consolidation to overfitting in learning theory. Rubric: A✓ B✓ C✓ · D 2 · E 2 · F 2.",
+        "transcript_question": "Do they derive the consolidation rule from a generalization objective in a teacher-student setting, and what predictions follow?",
+        "caveat": "publisher description only; guest inferred from title; depth of the conversation unverified",
+        "speaker": "James Fitzgerald, Andrew Saxe, Weinan Sun",
+        "modules": [
+          2,
+          9
+        ],
+        "id": "V-ku3AMgCiU",
+        "index": 5,
+        "evidence": [],
+        "workshop": "Brain Inspired"
+      },
+      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
+      "resources": []
+    },
+    {
+      "id": "2oA_U5x62m8",
+      "title": "BI 087 Dileep George: Cloning for Cognitive Maps",
+      "url": "https://www.youtube.com/watch?v=2oA_U5x62m8",
+      "published_at": "2020-10-23",
+      "duration_seconds": 4980,
+      "screening": {
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "cognitive maps",
+          "clone-structured models",
+          "world models"
+        ],
+        "publisher_promise": "An AI researcher presents clone-structured models as a mechanism for learning cognitive maps.",
+        "screening_reason": "George originated clone-structured cognitive graphs, which derive hippocampal place-cell phenomena and flexible planning from one sequence-learning principle. Rubric: A✓ B✓ C✓ · D 1 · E 2 · F 2.",
+        "transcript_question": "Does George derive place-field phenomena and planning from cloned HMM sequence learning, and how does it relate to transformers?",
+        "caveat": "publisher description only; guest inferred from title; depth of the conversation unverified",
+        "speaker": "Dileep George",
+        "modules": [
+          3,
+          6
+        ],
+        "id": "2oA_U5x62m8",
+        "index": 6,
+        "evidence": [],
+        "workshop": "Brain Inspired"
+      },
+      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
+      "resources": []
+    },
+    {
+      "id": "PWCCbP2o1-s",
+      "title": "BI 086 Ken Stanley: Open-Endedness",
+      "url": "https://www.youtube.com/watch?v=PWCCbP2o1-s",
+      "published_at": "2020-10-12",
+      "duration_seconds": 5700,
+      "screening": {
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "open-endedness",
+          "novelty search"
+        ],
+        "publisher_promise": "The originator of novelty search discusses open-endedness.",
+        "screening_reason": "Stanley is the originator of novelty search and the argument that objectives can block discovery, a reframing central to where new problems come from. Rubric: A✓ B✓ C✓ · D 2 · E 2 · F 2.",
+        "transcript_question": "Does Stanley give a mechanism-level argument for why objective-driven search fails, with evidence from novelty search or Picbreeder?",
+        "caveat": "publisher description only; guest inferred from title; depth of the conversation unverified",
+        "speaker": "Ken Stanley",
+        "modules": [
+          8
+        ],
+        "id": "PWCCbP2o1-s",
+        "index": 7,
+        "evidence": [],
+        "workshop": "Brain Inspired"
+      },
+      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
+      "resources": []
+    },
+    {
+      "id": "7d9-wmbwxQM",
+      "title": "BI 082 Steve Grossberg: Adaptive Resonance Theory",
+      "url": "https://www.youtube.com/watch?v=7d9-wmbwxQM",
+      "published_at": "2020-08-26",
+      "duration_seconds": 8100,
+      "screening": {
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "adaptive resonance theory",
+          "stability-plasticity"
+        ],
+        "publisher_promise": "The originator of Adaptive Resonance Theory surveys his career and method of deriving theories from behavioral data.",
+        "screening_reason": "Grossberg originated ART, a single principle for solving the stability-plasticity dilemma that he derives into many models; at over two hours it should show the derivation method. Rubric: A✓ B✓ C✓ · D 1 · E 2 · F 1.",
+        "transcript_question": "Does Grossberg derive the stability-plasticity solution in ART step by step and state predictions unlike backprop networks?",
+        "caveat": "publisher description only; guest inferred from title; depth of the conversation unverified",
+        "speaker": "Steve Grossberg",
+        "modules": [
+          3,
+          7,
+          9
+        ],
+        "id": "7d9-wmbwxQM",
+        "index": 8,
+        "evidence": [],
+        "workshop": "Brain Inspired"
+      },
+      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
+      "resources": []
     }
   ]
 }

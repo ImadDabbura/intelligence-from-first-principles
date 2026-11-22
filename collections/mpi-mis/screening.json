@@ -1,0 +1,306 @@
+{
+  "methodology": {
+    "bar": "Originator of a unifying principle derives its consequences densely enough to change a mental model. Must pass A–C; D–F scored 0–2 for ranking.",
+    "rubric": {
+      "A": "Originator or primary architect",
+      "B": "Unifying principle",
+      "C": "Derivation shown",
+      "D": "Contested or falsifiable",
+      "E": "Density",
+      "F": "Model update beyond the existing collection"
+    },
+    "decisions": "Same as MLST: read_transcript is not a watch recommendation."
+  },
+  "episodes": [
+    {
+      "id": "mpimis-2023-10-19-murfet",
+      "title": "Phase transitions in learning machines",
+      "url": "https://www.mis.mpg.de/events/event/phase-transitions-in-learning-machines",
+      "published_at": "2023-10-19",
+      "duration_seconds": 4273,
+      "screening": {
+        "id": "mpimis-2023-10-19-murfet",
+        "index": 0,
+        "decision": "read_transcript",
+        "priority": "high",
+        "track": "main",
+        "pillars": [],
+        "theme": [
+          "Singular learning theory / developmental interpretability"
+        ],
+        "publisher_promise": "Introduces phases and phase transitions of the Bayesian posterior in singular learning theory, shows them in a toy autoencoder (Anthropic's superposition model) during both posterior and training, and lays out the developmental-interpretability programme.",
+        "screening_reason": "Originator of developmental interpretability derives how SLT phase transitions (posterior and training-time) become a primitive for reading internal structure; complements, rather than duplicates, the three Murfet SLT items already in the collection. Rubric: A✓ B✓ C✓ · D 2 · E 2 · F 2.",
+        "evidence": [],
+        "transcript_question": "How exactly does the talk link Bayesian posterior phase transitions (free energy / RLCT trade-off) to stagewise changes during SGD training, and what evidence in the toy model supports that link?",
+        "caveat": "Publisher abstract only; overlaps in theme with existing Murfet SLT items, so check the transcript for non-redundant material. Video file: https://media.mis.mpg.de/mml/2023-10-19/20231019_Daniel_Murfet_1080.mp4.",
+        "speaker": "Daniel Murfet",
+        "modules": [],
+        "workshop": ""
+      },
+      "notes_scope": "Venue page and recording verified; no transcript read.",
+      "resources": []
+    },
+    {
+      "id": "mpimis-2020-06-18-achille",
+      "title": "Structure of Learning Tasks and the Information in the Weights of a Deep Network",
+      "url": "https://www.mis.mpg.de/events/event/structure-of-learning-tasks-and-the-information-in-the-weights-of-a-deep-network",
+      "published_at": "2020-06-18",
+      "duration_seconds": null,
+      "screening": {
+        "id": "mpimis-2020-06-18-achille",
+        "index": 1,
+        "decision": "read_transcript",
+        "priority": "high",
+        "track": "main",
+        "pillars": [],
+        "theme": [
+          "Information in the weights / task structure"
+        ],
+        "publisher_promise": "Argues that the information SGD stores in the weights characterises training: it bounds generalisation and invariance, ties learning dynamics to a dataset's structure function, defines a distance between tasks, and explains critical periods.",
+        "screening_reason": "Originator (with Soatto) of the information-in-the-weights programme; one quantity is derived to explain generalisation, invariance, task similarity and critical-period phenomena. Rubric: A✓ B✓ C✓ · D 2 · E 2 · F 2.",
+        "evidence": [],
+        "transcript_question": "How is 'information in the weights' defined (Shannon vs Fisher), and how does it give a generalisation bound and an invariance guarantee for the learned representation?",
+        "caveat": "Event page verified (HTTP 200), but both media.mis.mpg.de video files (1080p and 720p) returned HTTP 403 on 2026-11-22, so duration is unknown and the recording may be withdrawn; publisher abstract only. Video file listed: https://media.mis.mpg.de/mml/2020-06-18/20200618_Alessandro_Achille_1080.mp4.",
+        "speaker": "Alessandro Achille",
+        "modules": [],
+        "workshop": ""
+      },
+      "notes_scope": "Venue page and recording verified; no transcript read.",
+      "resources": []
+    },
+    {
+      "id": "mpimis-2022-02-24-hafner",
+      "title": "General Infomax Agents through World Models",
+      "url": "https://www.mis.mpg.de/events/event/general-infomax-agents-through-world-models",
+      "published_at": "2022-02-24",
+      "duration_seconds": 3891,
+      "screening": {
+        "id": "mpimis-2022-02-24-hafner",
+        "index": 2,
+        "decision": "read_transcript",
+        "priority": "high",
+        "track": "main",
+        "pillars": [],
+        "theme": [
+          "Information maximisation through world models"
+        ],
+        "publisher_promise": "Lays out a spectrum of objective functions for embodied agents, from narrow task rewards to general information maximisation through world models, which is said to explain perception, exploration, skill discovery and control from one principle.",
+        "screening_reason": "Originator of the 'action and perception as divergence minimisation' framing derives a single objective (infomax and divergence minimisation through a world model) that covers several agent behaviours. Rubric: A✓ B✓ C✓ · D 2 · E 2 · F 2.",
+        "evidence": [],
+        "transcript_question": "Which single divergence or mutual-information objective does the talk derive, and how do perception, exploration and skill discovery each fall out as special cases of it?",
+        "caveat": "Publisher abstract only; depth of derivation vs taxonomy is unverified. Video file: https://media.mis.mpg.de/mml/2022-02-24/20220224_Danijar_Hafner_1080.mp4.",
+        "speaker": "Danijar Hafner",
+        "modules": [],
+        "workshop": ""
+      },
+      "notes_scope": "Venue page and recording verified; no transcript read.",
+      "resources": []
+    },
+    {
+      "id": "mpimis-2020-10-22-hanin",
+      "title": "Neural Networks at Finite Width and Large Depth",
+      "url": "https://www.mis.mpg.de/events/event/neural-networks-at-finite-width-and-large-depth",
+      "published_at": "2020-10-22",
+      "duration_seconds": 4982,
+      "screening": {
+        "id": "mpimis-2020-10-22-hanin",
+        "index": 3,
+        "decision": "read_transcript",
+        "priority": "high",
+        "track": "main",
+        "pillars": [],
+        "theme": [
+          "Effective theory of deep networks (finite width, large depth)"
+        ],
+        "publisher_promise": "Claims random deep networks are perturbatively solvable at finite width and large depth, with criticality from tuning weight and bias variances, and a width-depth tension between Gaussian-process behaviour and growing higher cumulants.",
+        "screening_reason": "Co-architect (with Roberts and Yaida) of the principles-of-deep-learning-theory programme; the talk goes from a perturbative expansion in depth/width to criticality and predictions about non-Gaussian corrections. Rubric: A✓ B✓ C✓ · D 1 · E 2 · F 2.",
+        "evidence": [],
+        "transcript_question": "How does the depth-to-width ratio L/n act as the effective expansion parameter, and what does criticality fix in initialisation and predict about representation learning?",
+        "caveat": "Publisher abstract only; talk predates the book's final form (2020), so the material may be preliminary. Video file: https://media.mis.mpg.de/mml/2020-10-22/20201022_Boris_Hanin_1080.mp4.",
+        "speaker": "Boris Hanin",
+        "modules": [],
+        "workshop": ""
+      },
+      "notes_scope": "Venue page and recording verified; no transcript read.",
+      "resources": []
+    },
+    {
+      "id": "mpimis-2026-02-05-bordelon",
+      "title": "Theory of Stable Scaling in Deep Learning Systems: Infinite Limits, Hyperparameter Transfer, and Scaling Laws",
+      "url": "https://www.mis.mpg.de/events/event/theory-of-stable-scaling-in-deep-learning-systems-infinite-limits-hyperparameter-transfer-and-scaling-laws",
+      "published_at": "2026-02-05",
+      "duration_seconds": 3085,
+      "screening": {
+        "id": "mpimis-2026-02-05-bordelon",
+        "index": 4,
+        "decision": "read_transcript",
+        "priority": "high",
+        "track": "main",
+        "pillars": [],
+        "theme": [
+          "Stable scaling limits, hyperparameter transfer and scaling laws"
+        ],
+        "publisher_promise": "Surveys theoretical work that derives stable ways to scale width, depth and training time by finding well-defined infinite limits, which then explain hyperparameter transfer and give models of compute-optimal scaling laws.",
+        "screening_reason": "A primary architect of the dynamical-mean-field account of feature-learning limits; one principle (choose parametrisations with non-trivial stable infinite limits) yields muP-style transfer and scaling-law predictions. Rubric: A✓ B✓ C✓ · D 2 · E 2 · F 1.",
+        "evidence": [],
+        "transcript_question": "What makes a scaling limit 'stable', and how does the talk derive hyperparameter transfer and a scaling-law exponent from that limit?",
+        "caveat": "Publisher abstract only; only a 720p file is listed. Video file: https://media.mis.mpg.de/mml/2026-02-05/20260205_Blake-Bordelon_720.mp4.",
+        "speaker": "Blake Bordelon",
+        "modules": [],
+        "workshop": ""
+      },
+      "notes_scope": "Venue page and recording verified; no transcript read.",
+      "resources": []
+    },
+    {
+      "id": "mpimis-2021-01-28-gunasekar",
+      "title": "Rethinking the role of optimization in learning",
+      "url": "https://www.mis.mpg.de/events/event/rethinking-the-role-of-optimization-in-learning",
+      "published_at": "2021-01-28",
+      "duration_seconds": 5064,
+      "screening": {
+        "id": "mpimis-2021-01-28-gunasekar",
+        "index": 5,
+        "decision": "read_transcript",
+        "priority": "high",
+        "track": "maths",
+        "pillars": [
+          "§8 Non-Convex Opt; §12 Learning Theory (implicit bias of optimisation)"
+        ],
+        "theme": [
+          "§8 Non-Convex Opt; §12 Learning Theory (implicit bias of optimisation)"
+        ],
+        "publisher_promise": "Gives an overview of how (S)GD selects special minimisers in under-determined problems, working through linear predictors to show how the optimisation geometry decides which solution is found.",
+        "screening_reason": "Architect of the implicit-bias-via-optimisation-geometry results (mirror descent, matrix factorisation, separable data) giving an overview talk; maps to the spine optimisation and learning-theory pillars. Rubric: A✓ B✓ C✓ · D 1 · E 2 · F 1.",
+        "evidence": [],
+        "transcript_question": "How does the geometry of the optimiser (potential or steepest-descent norm) decide which interpolating solution gradient methods converge to in linear models?",
+        "caveat": "Publisher abstract only; an 84-minute seminar, likely survey-plus-results rather than a formal tutorial. Video file: https://media.mis.mpg.de/mml/2021-01-28/20210128_Suriya_Gunasekar_1080.mp4.",
+        "speaker": "Suriya Gunasekar",
+        "modules": [],
+        "workshop": ""
+      },
+      "notes_scope": "Venue page and recording verified; no transcript read.",
+      "resources": []
+    },
+    {
+      "id": "mpimis-2024-03-14-paquette",
+      "title": "Hitting the High-D(imensional) Notes: An ODE for SGD learning dynamics in high-dimensions",
+      "url": "https://www.mis.mpg.de/events/event/hitting-the-high-dimensional-notes-an-ode-for-sgd-learning-dynamics-in-high-dimensions-1",
+      "published_at": "2024-03-14",
+      "duration_seconds": 2834,
+      "screening": {
+        "id": "mpimis-2024-03-14-paquette",
+        "index": 6,
+        "decision": "read_transcript",
+        "priority": "high",
+        "track": "maths",
+        "pillars": [
+          "§6 High-Dim Probability; §29 Random Matrix Theory; §8 Non-Convex Opt"
+        ],
+        "theme": [
+          "§6 High-Dim Probability; §29 Random Matrix Theory; §8 Non-Convex Opt"
+        ],
+        "publisher_promise": "Presents a random-matrix-inspired framework showing that SGD and momentum dynamics on generalised linear and multi-index models become deterministic ODEs when samples and dimension grow together, and uses it to identify when momentum accelerates.",
+        "screening_reason": "Architect of the high-dimensional deterministic-equivalent ODE approach to SGD; teaches a transferable technique (concentration of the dynamics plus a resolvent/RMT description) that connects to several Structural Support pillars. Rubric: A✓ B✓ C✓ · D 1 · E 2 · F 1.",
+        "evidence": [],
+        "transcript_question": "How is the limiting ODE for SGD derived from random-matrix quantities, and what does the implicit conditioning ratio say about when SGD+M can accelerate?",
+        "caveat": "Publisher abstract only; a research seminar, so expository depth is unverified (a Nov 2023 slot with the same title has no video). Video file: https://media.mis.mpg.de/mml/2024-03-14/20240314_Courtney-Paquette_720.mp4.",
+        "speaker": "Courtney Paquette",
+        "modules": [],
+        "workshop": ""
+      },
+      "notes_scope": "Venue page and recording verified; no transcript read.",
+      "resources": []
+    },
+    {
+      "id": "mpimis-2023-09-07-parhi",
+      "title": "Deep Learning Meets Sparse Regularization",
+      "url": "https://www.mis.mpg.de/events/event/deep-learning-meets-sparse-regularization",
+      "published_at": "2023-09-07",
+      "duration_seconds": 3018,
+      "screening": {
+        "id": "mpimis-2023-09-07-parhi",
+        "index": 7,
+        "decision": "read_transcript",
+        "priority": "high",
+        "track": "maths",
+        "pillars": [
+          "§14 Functional Analysis; §15 Sparse/Low-Rank; §12 Learning Theory"
+        ],
+        "theme": [
+          "§14 Functional Analysis; §15 Sparse/Low-Rank; §12 Learning Theory"
+        ],
+        "publisher_promise": "Presents a function-space framework for trained ReLU networks based on transform-domain sparse regularisation, the Radon transform and approximation theory, which explains weight decay, skip connections, low-rank weights and sparsity.",
+        "screening_reason": "Originator (with Nowak) of the Radon-domain bounded-variation / Banach-space representer-theorem view of neural networks; derives architecture and regularisation effects from one variational principle. Rubric: A✓ B✓ C✓ · D 1 · E 2 · F 2.",
+        "evidence": [],
+        "transcript_question": "What is the Radon-domain BV space, and how does a representer theorem in it show that weight-decay-trained networks are sparse solutions of a variational problem?",
+        "caveat": "Publisher abstract only. Video file: https://media.mis.mpg.de/mml/2023-09-07/20230907_Rahul_Parhi_1080.mp4.",
+        "speaker": "Rahul Parhi",
+        "modules": [],
+        "workshop": ""
+      },
+      "notes_scope": "Venue page and recording verified; no transcript read.",
+      "resources": []
+    },
+    {
+      "id": "mpimis-2023-07-20-sitan-chen",
+      "title": "Theory for Diffusion Models",
+      "url": "https://www.mis.mpg.de/events/event/theory-for-diffusion-models",
+      "published_at": "2023-07-20",
+      "duration_seconds": 3328,
+      "screening": {
+        "id": "mpimis-2023-07-20-sitan-chen",
+        "index": 8,
+        "decision": "read_transcript",
+        "priority": "high",
+        "track": "maths",
+        "pillars": [
+          "§48 Flow & Diffusion; §32 Sampling"
+        ],
+        "theme": [
+          "§48 Flow & Diffusion; §32 Sampling"
+        ],
+        "publisher_promise": "Covers rigorous convergence guarantees for score-based diffusion models, sampling from essentially arbitrary (non-log-concave) data distributions given a score oracle, extends them to probability-flow ODE samplers, and touches on learning the score for Gaussian mixtures.",
+        "screening_reason": "Co-originator of the polynomial-time convergence theory for diffusion models (Chen, Chewi, Li, Li, Salim, Zhang); a theory overview that maps to Synthesis/Structural Support pillars. Rubric: A✓ B✓ C✓ · D 1 · E 2 · F 1.",
+        "evidence": [],
+        "transcript_question": "Why does an L2-accurate score suffice for diffusion sampling without log-concavity (Girsanov or change-of-measure argument), and what does the ODE sampler gain in dimension dependence?",
+        "caveat": "Publisher abstract only; a research-results talk, so expository depth is assumed rather than confirmed. Video file: https://media.mis.mpg.de/mml/2023-07-20/20230720_Sitan_Chen_1080.mp4.",
+        "speaker": "Sitan Chen",
+        "modules": [],
+        "workshop": ""
+      },
+      "notes_scope": "Venue page and recording verified; no transcript read.",
+      "resources": []
+    },
+    {
+      "id": "mpimis-2020-05-07-kohn",
+      "title": "The geometry of neural networks",
+      "url": "https://www.mis.mpg.de/events/event/the-geometry-of-neural-networks-1",
+      "published_at": "2020-05-07",
+      "duration_seconds": 4745,
+      "screening": {
+        "id": "mpimis-2020-05-07-kohn",
+        "index": 9,
+        "decision": "read_transcript",
+        "priority": "high",
+        "track": "maths",
+        "pillars": [
+          "§28 Diff/Info Geometry; §8 Non-Convex Opt (neuromanifolds)"
+        ],
+        "theme": [
+          "§28 Diff/Info Geometry; §8 Non-Convex Opt (neuromanifolds)"
+        ],
+        "publisher_promise": "Explains the intrinsic geometric reasons that linear networks have no bad local minima, and introduces the neuromanifold, the space of functions a network parametrises, as the object whose geometry governs the optimisation landscape.",
+        "screening_reason": "Founding architect of the algebraic-geometry-of-neuromanifolds programme that this seminar returns to repeatedly; shows why landscape facts follow from the geometry of function space rather than from analysis of the loss. Rubric: A✓ B✓ C✓ · D 1 · E 2 · F 2.",
+        "evidence": [],
+        "transcript_question": "How does the geometry of the neuromanifold (its dimension, singularities and boundary) explain the absence of spurious minima in linear networks, and what changes for nonlinear ones?",
+        "caveat": "Publisher abstract only; leans on algebraic geometry, which is a Pull-level area for the owner. Video file: https://media.mis.mpg.de/mml/2020-05-07/20200507_Kathlen_Kohn_1080.mp4.",
+        "speaker": "Kathlén Kohn",
+        "modules": [],
+        "workshop": ""
+      },
+      "notes_scope": "Venue page and recording verified; no transcript read.",
+      "resources": []
+    }
+  ]
+}

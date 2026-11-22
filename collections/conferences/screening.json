@@ -935,6 +935,690 @@
       },
       "notes_scope": "Publisher metadata only; no transcript read in this pass.",
       "resources": []
+    },
+    {
+      "id": "icml-2019-tpdl-arora",
+      "title": "Is Optimization a sufficient language to understand Deep Learning?",
+      "url": "https://slideslive.com/38917765",
+      "published_at": "2019-06-14",
+      "duration_seconds": 2014,
+      "screening": {
+        "id": "icml-2019-tpdl-arora",
+        "index": 30,
+        "decision": "read_transcript",
+        "priority": "high",
+        "track": "main",
+        "pillars": [],
+        "theme": [
+          "Implicit bias / trajectory analysis of deep learning"
+        ],
+        "publisher_promise": "Argues that landscape-and-convergence language cannot explain deep learning generalization and that the trajectory of gradient methods must be analysed instead.",
+        "screening_reason": "Arora is a primary architect of trajectory-based implicit-regularization theory (deep linear nets, NTK, matrix factorization); this talk states the programme's thesis that the optimizer, not the objective, carries the inductive bias, a reframing central to module 2. Rubric: A✓ B✓ C✓ · D 2 · E 2 · F 2.",
+        "evidence": [],
+        "transcript_question": "Which concrete trajectory result (e.g. deep matrix factorization) does he use to show that loss-landscape language is insufficient, and what does it predict that a landscape view would not?",
+        "caveat": "ICML 2019 Theoretical Physics for Deep Learning workshop page; SlidesLive title and duration verified; no abstract read.",
+        "speaker": "Sanjeev Arora",
+        "modules": [],
+        "workshop": ""
+      },
+      "notes_scope": "Venue page and recording verified; no transcript read.",
+      "resources": []
+    },
+    {
+      "id": "icml-2019-tpdl-sohl-dickstein",
+      "title": "Understanding overparameterized neural networks",
+      "url": "https://slideslive.com/38917769",
+      "published_at": "2019-06-14",
+      "duration_seconds": 1918,
+      "screening": {
+        "id": "icml-2019-tpdl-sohl-dickstein",
+        "index": 31,
+        "decision": "read_transcript",
+        "priority": "high",
+        "track": "maths",
+        "pillars": [
+          "§12 Learning Theory; §6 High-Dim Probability"
+        ],
+        "theme": [
+          "§12 Learning Theory; §6 High-Dim Probability"
+        ],
+        "publisher_promise": "Explains what happens to neural networks in the infinite-width limit (Gaussian-process priors and linearized training dynamics) and what that limit does and does not capture.",
+        "screening_reason": "Sohl-Dickstein co-originated the NNGP and wide-network linearization results; a 32-minute architect's overview of the wide-network limit maps directly to learning theory and high-dimensional probability. Rubric: A✓ B✓ C✓ · D 1 · E 2 · F 1.",
+        "evidence": [],
+        "transcript_question": "Does the talk derive the NNGP kernel and linearized (NTK) training dynamics, and state where the limit fails to capture feature learning?",
+        "caveat": "Speaker and title from SlidesLive; content inferred from the speaker's published work; workshop abstract only.",
+        "speaker": "Jascha Sohl-Dickstein",
+        "modules": [],
+        "workshop": ""
+      },
+      "notes_scope": "Venue page and recording verified; no transcript read.",
+      "resources": []
+    },
+    {
+      "id": "neurips-2020-dlig-amari",
+      "title": "Deep Learning Through Information Geometry: Deep Random Networks and Fisher Information",
+      "url": "https://slideslive.com/38938351",
+      "published_at": "2020-12-06",
+      "duration_seconds": 2795,
+      "screening": {
+        "id": "neurips-2020-dlig-amari",
+        "index": 32,
+        "decision": "read_transcript",
+        "priority": "high",
+        "track": "maths",
+        "pillars": [
+          "§28 Diff/Info Geometry"
+        ],
+        "theme": [
+          "§28 Diff/Info Geometry"
+        ],
+        "publisher_promise": "The founder of information geometry analyses deep random networks through their Fisher information and the geometry of the parameter manifold.",
+        "screening_reason": "Amari originated information geometry and the natural gradient; a 47-minute keynote applying Fisher-information structure to random deep networks is an architect's exposition on a Structural Support pillar. Rubric: A✓ B✓ C✓ · D 1 · E 2 · F 1.",
+        "evidence": [],
+        "transcript_question": "How does the Fisher information matrix of a deep random network behave (its spectrum or block structure), and what does that imply for the natural gradient?",
+        "caveat": "No abstract on the workshop page; title and duration from SlidesLive.",
+        "speaker": "Shun-ichi Amari",
+        "modules": [],
+        "workshop": ""
+      },
+      "notes_scope": "Venue page and recording verified; no transcript read.",
+      "resources": []
+    },
+    {
+      "id": "neurips-2020-dlig-dziugaite",
+      "title": "Information-theoretic generalization bounds for noisy, iterative learning algorithms",
+      "url": "https://slideslive.com/38938353",
+      "published_at": "2020-12-06",
+      "duration_seconds": 2448,
+      "screening": {
+        "id": "neurips-2020-dlig-dziugaite",
+        "index": 33,
+        "decision": "read_transcript",
+        "priority": "high",
+        "track": "maths",
+        "pillars": [
+          "§12 Learning Theory; §9 Information Theory"
+        ],
+        "theme": [
+          "§12 Learning Theory; §9 Information Theory"
+        ],
+        "publisher_promise": "Presents mutual-information and conditional-mutual-information generalization bounds for noisy iterative algorithms such as SGLD.",
+        "screening_reason": "Dziugaite is a primary architect of nonvacuous and information-theoretic generalization bounds (with Roy, Negrea and Haghifam); a 41-minute keynote develops a Spine-pillar technique with derivations. Rubric: A✓ B✓ C✓ · D 1 · E 2 · F 1.",
+        "evidence": [],
+        "transcript_question": "How are data-dependent (conditional) mutual-information bounds derived for Langevin-type algorithms, and why are they tighter than uniform-convergence bounds?",
+        "caveat": "Talk is credited to five co-authors on SlidesLive; speaker assumed to be Dziugaite (keynote listing).",
+        "speaker": "Gintare Karolina Dziugaite",
+        "modules": [],
+        "workshop": ""
+      },
+      "notes_scope": "Venue page and recording verified; no transcript read.",
+      "resources": []
+    },
+    {
+      "id": "neurips-2020-causal-hyvarinen",
+      "title": "Causal Discovery: Linear, Nonlinear, and Something in Between",
+      "url": "https://slideslive.com/38938469",
+      "published_at": "2020-12-06",
+      "duration_seconds": 1892,
+      "screening": {
+        "id": "neurips-2020-causal-hyvarinen",
+        "index": 34,
+        "decision": "read_transcript",
+        "priority": "high",
+        "track": "main",
+        "pillars": [],
+        "theme": [
+          "Identifiable causal discovery (LiNGAM / nonlinear ICA)"
+        ],
+        "publisher_promise": "Traces how independence and non-Gaussianity assumptions make causal direction identifiable, from linear non-Gaussian models through nonlinear ICA.",
+        "screening_reason": "Hyvärinen co-originated LiNGAM and nonlinear ICA identifiability; this keynote derives causal discovery from those identifiability principles (module 6). The repository's existing Hyvärinen item is a nonlinear-ICA lecture, not this causal-discovery framing. Rubric: A✓ B✓ C✓ · D 1 · E 2 · F 1.",
+        "evidence": [],
+        "transcript_question": "What exactly does the 'something in between' model class buy, and which assumption makes the causal direction identifiable there?",
+        "caveat": "No abstract; overlaps in part with the existing nonlinear-ICA lecture in the repository.",
+        "speaker": "Aapo Hyvärinen",
+        "modules": [],
+        "workshop": ""
+      },
+      "notes_scope": "Venue page and recording verified; no transcript read.",
+      "resources": []
+    },
+    {
+      "id": "neurips-2021-causal-icard",
+      "title": "A (topo)logical perspective on causal inference",
+      "url": "https://slideslive.com/38970712",
+      "published_at": "2021-12-06",
+      "duration_seconds": 1204,
+      "screening": {
+        "id": "neurips-2021-causal-icard",
+        "index": 35,
+        "decision": "read_transcript",
+        "priority": "high",
+        "track": "main",
+        "pillars": [],
+        "theme": [
+          "Topological learning theory of causal inference"
+        ],
+        "publisher_promise": "Recasts which causal questions are learnable from data as topological properties of hypothesis spaces, linking Pearl's causal hierarchy to verifiability.",
+        "screening_reason": "Icard (with Genin and Ibeling) originated the topological and logical analysis of the causal hierarchy; it reframes identifiability as learnability in the limit, a distinction most ML theorists have not met (module 6). Rubric: A✓ B✓ C✓ · D 2 · E 2 · F 2.",
+        "evidence": [],
+        "transcript_question": "What topology does he put on causal models, and which levels of the causal hierarchy turn out to be verifiable or refutable from observational data?",
+        "caveat": "Title only, no abstract; 20 minutes, so derivations may be compressed.",
+        "speaker": "Thomas Icard",
+        "modules": [],
+        "workshop": ""
+      },
+      "notes_scope": "Venue page and recording verified; no transcript read.",
+      "resources": []
+    },
+    {
+      "id": "neurips-2024-imol-gopnik",
+      "title": "Causal Learning as Bayesian Causal Hypothesis Testing",
+      "url": "https://slideslive.com/39031207",
+      "published_at": "2024-12-10",
+      "duration_seconds": 2247,
+      "screening": {
+        "id": "neurips-2024-imol-gopnik",
+        "index": 36,
+        "decision": "read_transcript",
+        "priority": "high",
+        "track": "main",
+        "pillars": [],
+        "theme": [
+          "Causal Bayes nets as a theory of child learning; empowerment"
+        ],
+        "publisher_promise": "Argues that children learn causal structure by Bayesian testing of causal hypotheses, and connects intrinsically motivated exploration (empowerment) to causal learning.",
+        "screening_reason": "Gopnik originated the 'child as scientist' causal-Bayes-net account; the talk proposes a unifying bridge between curiosity or empowerment and causal inference (modules 6 and 9). It is the newer and more theoretical of her two workshop talks. Rubric: A✓ B✓ C✓ · D 2 · E 1 · F 2.",
+        "evidence": [],
+        "transcript_question": "Is the empowerment-to-causal-learning equivalence stated formally, and what experimental prediction about children's exploration follows from it?",
+        "caveat": "Workshop schedule title differs from the SlidesLive title; cognitive-science talk, so expect experiments rather than proofs.",
+        "speaker": "Alison Gopnik",
+        "modules": [],
+        "workshop": ""
+      },
+      "notes_scope": "Venue page and recording verified; no transcript read.",
+      "resources": []
+    },
+    {
+      "id": "neurips-2022-neurreps-higgins",
+      "title": "Symmetry-Based Representations for Artificial and Biological Intelligence",
+      "url": "https://slideslive.com/38994311",
+      "published_at": "2022-12-02",
+      "duration_seconds": 1687,
+      "screening": {
+        "id": "neurips-2022-neurreps-higgins",
+        "index": 37,
+        "decision": "read_transcript",
+        "priority": "high",
+        "track": "main",
+        "pillars": [],
+        "theme": [
+          "Symmetry-based disentangled representations"
+        ],
+        "publisher_promise": "Argues that representations that factor according to the symmetry groups of the world explain disentanglement, generalization and observed neural codes.",
+        "screening_reason": "Higgins originated the symmetry-based definition of disentanglement (Higgins et al. 2018); the talk applies one group-theoretic principle across ML and neuroscience (modules 2 and 3). Rubric: A✓ B✓ C✓ · D 2 · E 2 · F 2.",
+        "evidence": [],
+        "transcript_question": "How is disentanglement defined through group actions, and which neural data does she claim this predicts?",
+        "caveat": "No abstract; 28 minutes.",
+        "speaker": "Irina Higgins",
+        "modules": [],
+        "workshop": ""
+      },
+      "notes_scope": "Venue page and recording verified; no transcript read.",
+      "resources": []
+    },
+    {
+      "id": "neurips-2022-memari-hochreiter",
+      "title": "Modern Hopfield Networks",
+      "url": "https://slideslive.com/38992758",
+      "published_at": "2022-12-02",
+      "duration_seconds": 2824,
+      "screening": {
+        "id": "neurips-2022-memari-hochreiter",
+        "index": 38,
+        "decision": "read_transcript",
+        "priority": "high",
+        "track": "main",
+        "pillars": [],
+        "theme": [
+          "Modern Hopfield networks / associative memory"
+        ],
+        "publisher_promise": "Presents continuous modern Hopfield networks: their energy, exponential storage capacity, one-step retrieval, and equivalence to transformer attention.",
+        "screening_reason": "Hochreiter co-originated 'Hopfield Networks is All You Need'; the talk derives attention as an energy-minimizing retrieval step, linking memory and transformers (modules 3 and 4). The repository has only his LSTM interview. Rubric: A✓ B✓ C✓ · D 1 · E 2 · F 2.",
+        "evidence": [],
+        "transcript_question": "How is the energy function constructed so that its update rule equals softmax attention, and what governs exponential capacity and metastable states?",
+        "caveat": "No abstract; overlaps with Krotov's associative-memory tutorial already in the repository.",
+        "speaker": "Sepp Hochreiter",
+        "modules": [],
+        "workshop": ""
+      },
+      "notes_scope": "Venue page and recording verified; no transcript read.",
+      "resources": []
+    },
+    {
+      "id": "neurips-2023-infocog-alemi",
+      "title": "Information Theory for Representation Learning",
+      "url": "https://slideslive.com/39014672",
+      "published_at": "2023-12-15",
+      "duration_seconds": 1685,
+      "screening": {
+        "id": "neurips-2023-infocog-alemi",
+        "index": 39,
+        "decision": "read_transcript",
+        "priority": "high",
+        "track": "main",
+        "pillars": [
+          "§9 Information Theory; information bottleneck / rate-distortion"
+        ],
+        "theme": [
+          "§9 Information Theory; information bottleneck / rate-distortion"
+        ],
+        "publisher_promise": "Surveys how variational bounds on mutual information motivate representation-learning objectives, including the rate-distortion view of the ELBO and the information bottleneck.",
+        "screening_reason": "Alemi originated the deep variational information bottleneck and the 'Fixing a Broken ELBO' rate-distortion analysis; an architect's exposition of the information-theoretic principle behind representation learning (module 3). Rubric: A✓ B✓ C✓ · D 1 · E 2 · F 2.",
+        "evidence": [],
+        "transcript_question": "Which variational bounds anchor the framework, and how does the rate-distortion plane explain the behaviour of VAEs and bottleneck objectives?",
+        "caveat": "Abstract excerpt from SlidesLive only.",
+        "speaker": "Alexander A. Alemi",
+        "modules": [],
+        "workshop": ""
+      },
+      "notes_scope": "Venue page and recording verified; no transcript read.",
+      "resources": []
+    },
+    {
+      "id": "neurips-2023-m3l-krzakala",
+      "title": "How do two-layer neural nets learn, one (giant) step at a time",
+      "url": "https://slideslive.com/39015199",
+      "published_at": "2023-12-15",
+      "duration_seconds": 2688,
+      "screening": {
+        "id": "neurips-2023-m3l-krzakala",
+        "index": 40,
+        "decision": "read_transcript",
+        "priority": "high",
+        "track": "main",
+        "pillars": [],
+        "theme": [
+          "Statistical physics of feature learning dynamics"
+        ],
+        "publisher_promise": "Explains how two-layer networks learn multi-index targets over time: large gradient steps, a staircase or leap hierarchy, and sample complexity set by the target's structure.",
+        "screening_reason": "Krzakala co-originated the giant-step and staircase analysis of feature learning; this talk derives which functions are learnable and when (module 2). It is distinct from the repository's statistical-physics overviews by him. Rubric: A✓ B✓ C✓ · D 2 · E 2 · F 2.",
+        "evidence": [],
+        "transcript_question": "What is the leap or staircase hierarchy, and how does a single large gradient step change the sample complexity of learning a multi-index function?",
+        "caveat": "No abstract; the repository already holds several Krzakala lectures, so check overlap.",
+        "speaker": "Florent Krzakala",
+        "modules": [],
+        "workshop": ""
+      },
+      "notes_scope": "Venue page and recording verified; no transcript read.",
+      "resources": []
+    },
+    {
+      "id": "neurips-2023-imol-polani",
+      "title": "Information and its Flow: From Dynamics to Agency and Back",
+      "url": "https://slideslive.com/39015094",
+      "published_at": "2023-12-15",
+      "duration_seconds": 2552,
+      "screening": {
+        "id": "neurips-2023-imol-polani",
+        "index": 41,
+        "decision": "read_transcript",
+        "priority": "high",
+        "track": "main",
+        "pillars": [],
+        "theme": [
+          "Empowerment / information flow in agents"
+        ],
+        "publisher_promise": "Characterizes agent decision-making through information-flow quantities such as empowerment and relevant information, and links them to dynamics and agency.",
+        "screening_reason": "Polani co-originated empowerment and the information-theoretic treatment of perception-action loops; this 43-minute talk is an architect's derivation of agency from information flow (modules 5 and 8). Rubric: A✓ B✓ C✓ · D 2 · E 2 · F 2.",
+        "evidence": [],
+        "transcript_question": "How are empowerment and relevant information defined as channel capacities in the perception-action loop, and what behaviour do they predict without any external reward?",
+        "caveat": "Abstract excerpt from SlidesLive only.",
+        "speaker": "Daniel Polani",
+        "modules": [],
+        "workshop": ""
+      },
+      "notes_scope": "Venue page and recording verified; no transcript read.",
+      "resources": []
+    },
+    {
+      "id": "neurips-2023-unireps-saxe",
+      "title": "When representations align: Universality in representation learning dynamics",
+      "url": "https://slideslive.com/39014630",
+      "published_at": "2023-12-15",
+      "duration_seconds": 1864,
+      "screening": {
+        "id": "neurips-2023-unireps-saxe",
+        "index": 42,
+        "decision": "read_transcript",
+        "priority": "high",
+        "track": "main",
+        "pillars": [],
+        "theme": [
+          "Learning dynamics theory (deep linear nets / universality)"
+        ],
+        "publisher_promise": "Proposes an effective theory in which representation-learning dynamics are largely independent of architecture, explaining why different networks converge to similar representations.",
+        "screening_reason": "Saxe originated exact deep-linear learning dynamics; this talk extends them to a universality claim about representations (module 3) that the repository's earlier deep-linear lectures do not cover. Rubric: A✓ B✓ C✓ · D 2 · E 2 · F 2.",
+        "evidence": [],
+        "transcript_question": "What assumptions make the effective dynamics architecture-independent, and where does universality break down?",
+        "caveat": "Speaker missing from the workshop schedule; identified from the SlidesLive page. The repository already holds other Saxe talks.",
+        "speaker": "Andrew Saxe",
+        "modules": [],
+        "workshop": ""
+      },
+      "notes_scope": "Venue page and recording verified; no transcript read.",
+      "resources": []
+    },
+    {
+      "id": "neurips-2024-sci4dl-ganguli",
+      "title": "An analytic theory of creativity in convolutional diffusion models",
+      "url": "https://slideslive.com/39031262",
+      "published_at": "2024-12-10",
+      "duration_seconds": 1691,
+      "screening": {
+        "id": "neurips-2024-sci4dl-ganguli",
+        "index": 43,
+        "decision": "read_transcript",
+        "priority": "high",
+        "track": "main",
+        "pillars": [],
+        "theme": [
+          "Mechanistic theory of diffusion generalization"
+        ],
+        "publisher_promise": "Shows that locality and equivariance in convolutional score models yield an analytic, patch-mosaic model that predicts the novel samples trained diffusion models generate.",
+        "screening_reason": "Ganguli and Kamb originated the equivariant local score machine; it derives creativity from two inductive biases and checks its predictions quantitatively (modules 2 and 3). This is distinct from the repository's statistical-mechanics talks by Ganguli. Rubric: A✓ B✓ C✓ · D 2 · E 2 · F 2.",
+        "evidence": [],
+        "transcript_question": "How do locality and equivariance alone yield a closed-form score machine, and how well do its outputs match trained diffusion models?",
+        "caveat": "No abstract; co-credited to Mason Kamb.",
+        "speaker": "Surya Ganguli",
+        "modules": [],
+        "workshop": ""
+      },
+      "notes_scope": "Venue page and recording verified; no transcript read.",
+      "resources": []
+    },
+    {
+      "id": "neurips-2024-m3l-zdeborova",
+      "title": "A Theoretical Perspective on Hardness of Sampling and Learning from Samples in High Dimensions",
+      "url": "https://slideslive.com/39030971",
+      "published_at": "2024-12-10",
+      "duration_seconds": 2913,
+      "screening": {
+        "id": "neurips-2024-m3l-zdeborova",
+        "index": 44,
+        "decision": "read_transcript",
+        "priority": "high",
+        "track": "maths",
+        "pillars": [
+          "§33 Stat Physics; §32 Sampling"
+        ],
+        "theme": [
+          "§33 Stat Physics; §32 Sampling"
+        ],
+        "publisher_promise": "Uses statistical-physics phase diagrams to explain when sampling, and learning a generative model from samples, become computationally hard in high dimensions.",
+        "screening_reason": "Zdeborová is the architect of statistical-physics analyses of inference thresholds; this 49-minute talk extends the programme from inference to sampling and diffusion, a Structural Support pillar. Rubric: A✓ B✓ C✓ · D 1 · E 2 · F 2.",
+        "evidence": [],
+        "transcript_question": "How do the static and algorithmic phase transitions that govern inference transfer to sampling (e.g. diffusion or stochastic localization), and where do they diverge?",
+        "caveat": "Overlaps in part with the repository's Zdeborová phase-transition lectures; no abstract.",
+        "speaker": "Lenka Zdeborová",
+        "modules": [],
+        "workshop": ""
+      },
+      "notes_scope": "Venue page and recording verified; no transcript read.",
+      "resources": []
+    },
+    {
+      "id": "neurips-2024-neuroai-bogacz",
+      "title": "Predictive coding: Effective learning with local plasticity",
+      "url": "https://slideslive.com/39030769",
+      "published_at": "2024-12-10",
+      "duration_seconds": 2211,
+      "screening": {
+        "id": "neurips-2024-neuroai-bogacz",
+        "index": 45,
+        "decision": "read_transcript",
+        "priority": "high",
+        "track": "main",
+        "pillars": [],
+        "theme": [
+          "Predictive coding as a learning rule"
+        ],
+        "publisher_promise": "Shows how predictive-coding networks learn with only local Hebbian-like plasticity, and when they approximate or outperform backpropagation.",
+        "screening_reason": "Bogacz is a primary architect of the predictive-coding-backprop correspondence (Whittington and Bogacz 2017) and of prospective configuration; the talk derives learning from energy minimization (modules 7 and 9). Rubric: A✓ B✓ C✓ · D 2 · E 2 · F 2.",
+        "evidence": [],
+        "transcript_question": "What is prospective configuration, and in which tasks does inferring activity before changing weights beat backpropagation?",
+        "caveat": "No abstract; 37-minute keynote.",
+        "speaker": "Rafal Bogacz",
+        "modules": [],
+        "workshop": ""
+      },
+      "notes_scope": "Venue page and recording verified; no transcript read.",
+      "resources": []
+    },
+    {
+      "id": "neurips-2025-dbm-rao",
+      "title": "Predictive Coding and the Primacy of Actions in Natural and Artificial Intelligence",
+      "url": "https://slideslive.com/39054492",
+      "published_at": "2025-12-02",
+      "duration_seconds": 1772,
+      "screening": {
+        "id": "neurips-2025-dbm-rao",
+        "index": 46,
+        "decision": "read_transcript",
+        "priority": "high",
+        "track": "main",
+        "pillars": [],
+        "theme": [
+          "Predictive coding / active predictive coding"
+        ],
+        "publisher_promise": "Revisits predictive coding with actions at the centre: hierarchical sensorimotor prediction as a common principle for brains and AI.",
+        "screening_reason": "Rao co-originated predictive coding (Rao and Ballard 1999) and now proposes 'active predictive coding'; an originator extending his principle (module 9). The repository holds only a podcast with him. Rubric: A✓ B✓ C✓ · D 2 · E 2 · F 2.",
+        "evidence": [],
+        "transcript_question": "How does active predictive coding formally combine action and prediction hierarchies, and what does it predict that classical predictive coding does not?",
+        "caveat": "No abstract; neuro workshop.",
+        "speaker": "Rajesh P. N. Rao",
+        "modules": [],
+        "workshop": ""
+      },
+      "notes_scope": "Venue page and recording verified; no transcript read.",
+      "resources": []
+    },
+    {
+      "id": "neurips-2025-dynamics-rigollet",
+      "title": "The Mean-Field Dynamics of Transformers",
+      "url": "https://slideslive.com/39054290",
+      "published_at": "2025-12-02",
+      "duration_seconds": 1781,
+      "screening": {
+        "id": "neurips-2025-dynamics-rigollet",
+        "index": 47,
+        "decision": "read_transcript",
+        "priority": "high",
+        "track": "main",
+        "pillars": [],
+        "theme": [
+          "Transformers as interacting particle systems"
+        ],
+        "publisher_promise": "Models self-attention as an interacting particle system and derives clustering, metastability and phase-transition behaviour of tokens across depth.",
+        "screening_reason": "Rigollet co-originated the mathematical theory of transformers as mean-field particle dynamics (Geshkovski, Letrouit, Polyanskiy, Rigollet); it derives predictions from a single dynamical principle (module 4). It is preferred over Polyanskiy's 2023 InfoCog talk on the same programme. Rubric: A✓ B✓ C✓ · D 1 · E 2 · F 2.",
+        "evidence": [],
+        "transcript_question": "What clustering theorem holds for the attention dynamics, and what does metastability imply about real finite-depth transformers?",
+        "caveat": "Workshop schedule gave only 'Invited Talk by Philippe Rigollet'; title from SlidesLive.",
+        "speaker": "Philippe Rigollet",
+        "modules": [],
+        "workshop": ""
+      },
+      "notes_scope": "Venue page and recording verified; no transcript read.",
+      "resources": []
+    },
+    {
+      "id": "icml-2022-tagml-villar",
+      "title": "Equivariant Machine Learning with Classical Invariant Theory",
+      "url": "https://slideslive.com/38988141",
+      "published_at": "2022-07-22",
+      "duration_seconds": 3432,
+      "screening": {
+        "id": "icml-2022-tagml-villar",
+        "index": 48,
+        "decision": "read_transcript",
+        "priority": "high",
+        "track": "maths",
+        "pillars": [
+          "§14b Group Theory; §46 Geometric DL"
+        ],
+        "theme": [
+          "§14b Group Theory; §46 Geometric DL"
+        ],
+        "publisher_promise": "Shows how classical invariant theory (e.g. First Fundamental Theorems for O(d)) gives simple, universal parameterizations of equivariant functions.",
+        "screening_reason": "Villar originated the invariant-theory approach to equivariant ML ('Scalars are universal'); a 57-minute exposition connecting classical algebra to model design, a group-theory pillar talk. Rubric: A✓ B✓ C✓ · D 1 · E 2 · F 2.",
+        "evidence": [],
+        "transcript_question": "How does the First Fundamental Theorem of invariant theory yield universal equivariant parameterizations, and what does it cost computationally?",
+        "caveat": "No abstract.",
+        "speaker": "Soledad Villar",
+        "modules": [],
+        "workshop": ""
+      },
+      "notes_scope": "Venue page and recording verified; no transcript read.",
+      "resources": []
+    },
+    {
+      "id": "icml-2023-hild-chung",
+      "title": "Multi-scale theory of neural representations: Capacity of neural manifolds in biological and artificial neural networks",
+      "url": "https://slideslive.com/39006319",
+      "published_at": "2023-07-28",
+      "duration_seconds": 2767,
+      "screening": {
+        "id": "icml-2023-hild-chung",
+        "index": 49,
+        "decision": "read_transcript",
+        "priority": "high",
+        "track": "main",
+        "pillars": [],
+        "theme": [
+          "Neural manifold capacity (statistical physics of representations)"
+        ],
+        "publisher_promise": "Develops manifold capacity theory, which links the geometry of object manifolds (radius, dimension, correlations) to linear separability in brains and networks.",
+        "screening_reason": "Chung originated replica-based manifold capacity theory; one principle explains representational quality across biology and deep networks (module 3; maths §33). She gave three later workshop talks; this one is kept as the foundational exposition. Rubric: A✓ B✓ C✓ · D 1 · E 2 · F 2.",
+        "evidence": [],
+        "transcript_question": "How does the replica calculation turn manifold radius and dimension into a capacity, and what does capacity reveal across network layers?",
+        "caveat": "Abstract excerpt from SlidesLive only.",
+        "speaker": "SueYeon Chung",
+        "modules": [],
+        "workshop": ""
+      },
+      "notes_scope": "Venue page and recording verified; no transcript read.",
+      "resources": []
+    },
+    {
+      "id": "iclr-2023-mefomo-bahri",
+      "title": "Understanding Neural Scaling Laws",
+      "url": "https://slideslive.com/39000349",
+      "published_at": "2023-05-03",
+      "duration_seconds": 2524,
+      "screening": {
+        "id": "iclr-2023-mefomo-bahri",
+        "index": 50,
+        "decision": "read_transcript",
+        "priority": "high",
+        "track": "main",
+        "pillars": [],
+        "theme": [
+          "Theory of neural scaling laws"
+        ],
+        "publisher_promise": "Explains the origin of neural scaling laws, separating variance-limited from resolution-limited regimes and tying exponents to data-manifold dimension.",
+        "screening_reason": "Bahri co-originated the variance-limited and resolution-limited theory of scaling laws (Bahri et al. 2021); it derives scaling exponents from a principle (module 2). Rubric: A✓ B✓ C✓ · D 2 · E 2 · F 2.",
+        "evidence": [],
+        "transcript_question": "How are the four scaling regimes derived, and how does the resolution-limited exponent depend on the intrinsic dimension of the data manifold?",
+        "caveat": "No abstract; 42 minutes.",
+        "speaker": "Yasaman Bahri",
+        "modules": [],
+        "workshop": ""
+      },
+      "notes_scope": "Venue page and recording verified; no transcript read.",
+      "resources": []
+    },
+    {
+      "id": "iclr-2026-sci4dl-jeremy-cohen",
+      "title": "How Does Gradient Descent Work?",
+      "url": "https://slideslive.com/39064164",
+      "published_at": "2026-04-23",
+      "duration_seconds": 1768,
+      "screening": {
+        "id": "iclr-2026-sci4dl-jeremy-cohen",
+        "index": 51,
+        "decision": "read_transcript",
+        "priority": "high",
+        "track": "main",
+        "pillars": [],
+        "theme": [
+          "Edge of stability / central flows"
+        ],
+        "publisher_promise": "Explains how gradient descent actually behaves in deep learning, beyond classical step-size theory, through edge-of-stability dynamics and their time-averaged 'central flow'.",
+        "screening_reason": "Cohen originated the edge-of-stability phenomenon and the central-flow theory; it replaces textbook optimization analysis with a derived effective dynamics (module 2; maths §8). Rubric: A✓ B✓ C✓ · D 2 · E 2 · F 2.",
+        "evidence": [],
+        "transcript_question": "What is the central flow, and how does it predict the loss trajectory and the implicit sharpness regularization of gradient descent at the edge of stability?",
+        "caveat": "No abstract; 29 minutes.",
+        "speaker": "Jeremy Cohen",
+        "modules": [],
+        "workshop": ""
+      },
+      "notes_scope": "Venue page and recording verified; no transcript read.",
+      "resources": []
+    },
+    {
+      "id": "iclr-2026-nfam-mcclelland",
+      "title": "Complementary Learning Systems in Brains and Machines",
+      "url": "https://slideslive.com/39063715",
+      "published_at": "2026-04-23",
+      "duration_seconds": 2092,
+      "screening": {
+        "id": "iclr-2026-nfam-mcclelland",
+        "index": 52,
+        "decision": "read_transcript",
+        "priority": "high",
+        "track": "main",
+        "pillars": [],
+        "theme": [
+          "Complementary learning systems"
+        ],
+        "publisher_promise": "Revisits complementary learning systems theory, in which fast hippocampal and slow neocortical learning interact, and applies it to modern AI memory and continual learning.",
+        "screening_reason": "McClelland originated CLS theory (McClelland, McNaughton and O'Reilly 1995); it is an originator applying one principle to catastrophic interference and memory in machines (modules 7 and 9). Rubric: A✓ B✓ C✓ · D 2 · E 2 · F 1.",
+        "evidence": [],
+        "transcript_question": "What does CLS predict about interleaved replay and fast binding that current LLM memory architectures lack?",
+        "caveat": "No abstract; the repository holds only a podcast with him.",
+        "speaker": "Jay McClelland",
+        "modules": [],
+        "workshop": ""
+      },
+      "notes_scope": "Venue page and recording verified; no transcript read.",
+      "resources": []
+    },
+    {
+      "id": "iclr-2026-gram-kohn",
+      "title": "Neuroalgebraic Geometry",
+      "url": "https://slideslive.com/39063193",
+      "published_at": "2026-04-23",
+      "duration_seconds": 1849,
+      "screening": {
+        "id": "iclr-2026-gram-kohn",
+        "index": 53,
+        "decision": "read_transcript",
+        "priority": "high",
+        "track": "main",
+        "pillars": [],
+        "theme": [
+          "Algebraic geometry of neural network function spaces"
+        ],
+        "publisher_promise": "Treats the functions a neural architecture can represent as algebraic varieties, and uses their dimensions, singularities and symmetries to explain training and implicit bias.",
+        "screening_reason": "Kohn is the architect of 'neuroalgebraic geometry'; it is a single mathematical lens that makes parameter symmetries and singularities explain optimization behaviour (module 2). Rubric: A✓ B✓ C✓ · D 1 · E 2 · F 2.",
+        "evidence": [],
+        "transcript_question": "How do singularities of the neuromanifold attract gradient flow, and how does that yield implicit bias for linear and polynomial networks?",
+        "caveat": "The schedule listed a different title ('Parameter symmetries, singularities, and group equivariance'); algebraic geometry is not a listed pillar, so it is placed on the main track.",
+        "speaker": "Kathlén Kohn",
+        "modules": [],
+        "workshop": ""
+      },
+      "notes_scope": "Venue page and recording verified; no transcript read.",
+      "resources": []
     }
   ]
 }

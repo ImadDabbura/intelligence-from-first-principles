@@ -200,5 +200,55 @@
     "path": "collections/originators",
     "snapshot_date": "2026-11-22",
     "coverage_note": "People-first search: 492 expositions by 185 people across 27 schools of thought on learning and intelligence."
+  },
+  {
+    "id": "harvard-cmsa",
+    "name": "Harvard CMSA",
+    "short_name": "CMSA",
+    "url": "https://www.youtube.com/channel/UCBmPO-OK1sa8T1oX_9aVhAg",
+    "format": "Lecture",
+    "path": "collections/harvard-cmsa",
+    "snapshot_date": "2026-11-22",
+    "coverage_note": "Center of Mathematical Sciences and Applications seminars and workshops (ML, mathematics, physics). Talks lacking a downloaded abstract were judged on title and speaker. High-priority items only, screened on the guiding principles (Timelessness, Generative Power, Transfer, Rare Combination, Worldview, Primacy, Density)."
+  },
+  {
+    "id": "ihes",
+    "name": "IHÉS",
+    "short_name": "IHÉS",
+    "url": "https://www.youtube.com/@IHES",
+    "format": "Lecture",
+    "path": "collections/ihes",
+    "snapshot_date": "2026-11-22",
+    "coverage_note": "Institut des Hautes Études Scientifiques courses and lectures on learning, statistical physics, probability and information. High-priority items only, screened on the guiding principles (Timelessness, Generative Power, Transfer, Rare Combination, Worldview, Primacy, Density)."
+  },
+  {
+    "id": "kempner",
+    "name": "Kempner Institute at Harvard",
+    "short_name": "Kempner",
+    "url": "https://www.youtube.com/channel/UCAaeODsaNXMOBHBFx3m9rbQ",
+    "format": "Lecture",
+    "path": "collections/kempner",
+    "snapshot_date": "2026-11-22",
+    "coverage_note": "Kempner Institute seminars on natural and artificial intelligence. High-priority items only, screened on the guiding principles (Timelessness, Generative Power, Transfer, Rare Combination, Worldview, Primacy, Density)."
+  },
+  {
+    "id": "mpi-mis",
+    "name": "MPI MIS Math Machine Learning seminar",
+    "short_name": "MPI MIS",
+    "url": "https://www.mis.mpg.de/",
+    "format": "Lecture",
+    "path": "collections/mpi-mis",
+    "snapshot_date": "2026-11-22",
+    "coverage_note": "Max Planck Institute for Mathematics in the Sciences + UCLA seminar, 2020–2026; videos hosted on media.mis.mpg.de. High-priority items only, screened on the guiding principles (Timelessness, Generative Power, Transfer, Rare Combination, Worldview, Primacy, Density)."
+  },
+  {
+    "id": "kitp",
+    "name": "KITP programme talks",
+    "short_name": "KITP",
+    "url": "https://online.kitp.ucsb.edu/",
+    "format": "Lecture",
+    "path": "collections/kitp",
+    "snapshot_date": "2026-11-22",
+    "coverage_note": "Kavli Institute for Theoretical Physics programme talks on learning, neural computation and statistical physics; 2001 talks are RealMedia. High-priority items only, screened on the guiding principles (Timelessness, Generative Power, Transfer, Rare Combination, Worldview, Primacy, Density)."
   }
 ]

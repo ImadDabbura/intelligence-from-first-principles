@@ -48,6 +48,31 @@ Metadata only, screened against the A–F originator rubric by parallel AI scree
 - [Collective sensing and decision-making in animal groups (Gatsby Lecture)](https://www.youtube.com/watch?v=lWHYFoFRY34) — Iain Couzin
 - [Learning distributed distributional representations of uncertainty](https://www.youtube.com/watch?v=wsoNe1lnZf0) — Maneesh Sahani
 
+- [Is Optimization a sufficient language to understand Deep Learning?](https://slideslive.com/38917765) — Sanjeev Arora · Tier 1 gap fill
+- [Understanding overparameterized neural networks](https://slideslive.com/38917769) — Jascha Sohl-Dickstein · Tier 1 gap fill
+- [Deep Learning Through Information Geometry: Deep Random Networks and Fisher Information](https://slideslive.com/38938351) — Shun-ichi Amari · Tier 1 gap fill
+- [Information-theoretic generalization bounds for noisy, iterative learning algorithms](https://slideslive.com/38938353) — Gintare Karolina Dziugaite · Tier 1 gap fill
+- [Causal Discovery: Linear, Nonlinear, and Something in Between](https://slideslive.com/38938469) — Aapo Hyvärinen · Tier 1 gap fill
+- [A (topo)logical perspective on causal inference](https://slideslive.com/38970712) — Thomas Icard · Tier 1 gap fill
+- [Causal Learning as Bayesian Causal Hypothesis Testing](https://slideslive.com/39031207) — Alison Gopnik · Tier 1 gap fill
+- [Symmetry-Based Representations for Artificial and Biological Intelligence](https://slideslive.com/38994311) — Irina Higgins · Tier 1 gap fill
+- [Modern Hopfield Networks](https://slideslive.com/38992758) — Sepp Hochreiter · Tier 1 gap fill
+- [Information Theory for Representation Learning](https://slideslive.com/39014672) — Alexander A. Alemi · Tier 1 gap fill
+- [How do two-layer neural nets learn, one (giant) step at a time](https://slideslive.com/39015199) — Florent Krzakala · Tier 1 gap fill
+- [Information and its Flow: From Dynamics to Agency and Back](https://slideslive.com/39015094) — Daniel Polani · Tier 1 gap fill
+- [When representations align: Universality in representation learning dynamics](https://slideslive.com/39014630) — Andrew Saxe · Tier 1 gap fill
+- [An analytic theory of creativity in convolutional diffusion models](https://slideslive.com/39031262) — Surya Ganguli · Tier 1 gap fill
+- [A Theoretical Perspective on Hardness of Sampling and Learning from Samples in High Dimensions](https://slideslive.com/39030971) — Lenka Zdeborová · Tier 1 gap fill
+- [Predictive coding: Effective learning with local plasticity](https://slideslive.com/39030769) — Rafal Bogacz · Tier 1 gap fill
+- [Predictive Coding and the Primacy of Actions in Natural and Artificial Intelligence](https://slideslive.com/39054492) — Rajesh P. N. Rao · Tier 1 gap fill
+- [The Mean-Field Dynamics of Transformers](https://slideslive.com/39054290) — Philippe Rigollet · Tier 1 gap fill
+- [Equivariant Machine Learning with Classical Invariant Theory](https://slideslive.com/38988141) — Soledad Villar · Tier 1 gap fill
+- [Multi-scale theory of neural representations: Capacity of neural manifolds in biological and artificial neural networks](https://slideslive.com/39006319) — SueYeon Chung · Tier 1 gap fill
+- [Understanding Neural Scaling Laws](https://slideslive.com/39000349) — Yasaman Bahri · Tier 1 gap fill
+- [How Does Gradient Descent Work?](https://slideslive.com/39064164) — Jeremy Cohen · Tier 1 gap fill
+- [Complementary Learning Systems in Brains and Machines](https://slideslive.com/39063715) — Jay McClelland · Tier 1 gap fill
+- [Neuroalgebraic Geometry](https://slideslive.com/39063193) — Kathlén Kohn · Tier 1 gap fill
+
 ## Transcript reviews
 
 None yet.

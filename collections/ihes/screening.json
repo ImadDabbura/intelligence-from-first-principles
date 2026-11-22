@@ -1,0 +1,412 @@
+{
+  "methodology": {
+    "bar": "Originator of a unifying principle derives its consequences densely enough to change a mental model. Must pass A–C; D–F scored 0–2 for ranking.",
+    "rubric": {
+      "A": "Originator or primary architect",
+      "B": "Unifying principle",
+      "C": "Derivation shown",
+      "D": "Contested or falsifiable",
+      "E": "Density",
+      "F": "Model update beyond the existing collection"
+    },
+    "decisions": "Same as MLST: read_transcript is not a watch recommendation."
+  },
+  "episodes": [
+    {
+      "id": "THUr9kjX9Xw",
+      "title": "Gabriel Peyré - The Expressive Power of Large Language Models",
+      "url": "https://www.youtube.com/watch?v=THUr9kjX9Xw",
+      "published_at": "2026-06-12",
+      "duration_seconds": 3720,
+      "screening": {
+        "id": "THUr9kjX9Xw",
+        "index": 0,
+        "decision": "read_transcript",
+        "priority": "high",
+        "track": "main",
+        "pillars": [
+          "§12 Learning Theory",
+          "§14 Functional Analysis",
+          "§26 Optimal Transport"
+        ],
+        "theme": [
+          "expressivity of attention",
+          "approximation theory",
+          "measure-valued inputs"
+        ],
+        "publisher_promise": "Peyré compares approximation results for perceptrons and attention, framing transformers as maps on token distributions in infinite-dimensional spaces.",
+        "screening_reason": "A primary researcher on attention as a map on measures; derives approximation theory linking transformers, OT and functional analysis. Rubrics: Timeless H · Generative H · Transfer H · Rare H · Worldview M · Primacy H · Density H",
+        "evidence": [],
+        "transcript_question": "What universal-approximation result holds for attention acting on measures, and what are the stated open questions?",
+        "caveat": "publisher abstract only",
+        "speaker": "Gabriel Peyré",
+        "modules": [],
+        "workshop": "3rd Edition of Mathematics for and by Large Language Models - 2026"
+      },
+      "notes_scope": "Publisher metadata only; screened on the guiding principles; no transcript read.",
+      "resources": []
+    },
+    {
+      "id": "8h2S4XtcCLQ",
+      "title": "Mikhail Gromov - 1/4 Generation, Transformation, Transmission, Memorization, Storage and (...)",
+      "url": "https://www.youtube.com/watch?v=8h2S4XtcCLQ",
+      "published_at": "2026-04-07",
+      "duration_seconds": 5520,
+      "screening": {
+        "id": "8h2S4XtcCLQ",
+        "index": 1,
+        "decision": "read_transcript",
+        "priority": "high",
+        "track": "main",
+        "pillars": [
+          "§9 Information Theory",
+          "§16 Representation"
+        ],
+        "theme": [
+          "information systems",
+          "biology and LLMs",
+          "memory"
+        ],
+        "publisher_promise": "Gromov sets out, in mathematical language, how information is generated, transmitted, memorised and stored, from cells and viruses to large language models.",
+        "screening_reason": "A first-rank geometer building a unifying mathematical vocabulary for information processing across life and learning machines; rare combination and worldview-level. Rubrics: Timeless H · Generative H · Transfer H · Rare H · Worldview H · Primacy H · Density M",
+        "evidence": [],
+        "transcript_question": "What formal notion of information structure does Gromov propose, and does it say anything sharp about what LLMs store versus what cells store?",
+        "caveat": "publisher abstract only; one lecture of a multi-part course",
+        "speaker": "Mikhail Gromov",
+        "modules": [],
+        "workshop": "Misha Gromov - Generation, Transformation, Transmission, Memorization, Storage and Expression of Information From Cell to LLM"
+      },
+      "notes_scope": "Publisher metadata only; screened on the guiding principles; no transcript read.",
+      "resources": []
+    },
+    {
+      "id": "2yXN6uIaXB4",
+      "title": "Giulio Biroli - 2/3 Generative AI and Diffusion Models: a Statistical Physics Analysis",
+      "url": "https://www.youtube.com/watch?v=2yXN6uIaXB4",
+      "published_at": "2025-06-26",
+      "duration_seconds": 5400,
+      "screening": {
+        "id": "2yXN6uIaXB4",
+        "index": 2,
+        "decision": "read_transcript",
+        "priority": "high",
+        "track": "main",
+        "pillars": [
+          "§48 Flow & Diffusion",
+          "§33 Stat Physics",
+          "§27 SDEs"
+        ],
+        "theme": [
+          "diffusion models",
+          "statistical physics",
+          "memorization vs generalization"
+        ],
+        "publisher_promise": "Biroli analyses diffusion models with statistical physics, tying them to stochastic thermodynamics and identifying regimes such as speciation and collapse.",
+        "screening_reason": "Lecture 2 of a course whose first lecture is already held; a primary statistical-physics theory of generative diffusion with phase-transition results. Rubrics: Timeless H · Generative H · Transfer H · Rare H · Worldview H · Primacy H · Density H",
+        "evidence": [],
+        "transcript_question": "What sets the speciation and collapse times, and how do they scale with dimension and dataset size?",
+        "caveat": "publisher abstract only; one lecture of a multi-part course",
+        "speaker": "Giulio Biroli",
+        "modules": [],
+        "workshop": "2025 IHES Summer School – Statistical Aspects of Nonlinear Physics"
+      },
+      "notes_scope": "Publisher metadata only; screened on the guiding principles; no transcript read.",
+      "resources": []
+    },
+    {
+      "id": "x2UIns4BGfA",
+      "title": "Judea Pearl - The Science of Cause and Effect, from Theoretical Foundations to Personalized (...)",
+      "url": "https://www.youtube.com/watch?v=x2UIns4BGfA",
+      "published_at": "2025-05-31",
+      "duration_seconds": 4980,
+      "screening": {
+        "id": "x2UIns4BGfA",
+        "index": 3,
+        "decision": "read_transcript",
+        "priority": "high",
+        "track": "main",
+        "pillars": [
+          "§22 Causal Inference"
+        ],
+        "theme": [
+          "causal hierarchy",
+          "counterfactuals",
+          "personalized decisions"
+        ],
+        "publisher_promise": "Pearl traces the science of cause and effect from its theoretical foundations to personalized decision making.",
+        "screening_reason": "The originator of the structural causal framework explaining its foundations and their use for individual-level inference; timeless and worldview-shaping. Rubrics: Timeless H · Generative M · Transfer H · Rare M · Worldview H · Primacy H · Density M",
+        "evidence": [],
+        "transcript_question": "Does Pearl derive new bounds for individual-level (probabilities of causation) decisions, or restate the ladder of causation?",
+        "caveat": "no description; judged from title, speaker and series",
+        "speaker": "Judea Pearl",
+        "modules": [],
+        "workshop": "2025 Huawei-IHES Workshop on Causality in the Era of AI: From Theory to Practice"
+      },
+      "notes_scope": "Publisher metadata only; screened on the guiding principles; no transcript read.",
+      "resources": []
+    },
+    {
+      "id": "nzr5C0W0nnc",
+      "title": "Gérard Ben Arous - 1/4 Random Matrices and Dynamics of Optimization in Very High Dimensions",
+      "url": "https://www.youtube.com/watch?v=nzr5C0W0nnc",
+      "published_at": "2024-03-25",
+      "duration_seconds": 7380,
+      "screening": {
+        "id": "nzr5C0W0nnc",
+        "index": 4,
+        "decision": "read_transcript",
+        "priority": "high",
+        "track": "main",
+        "pillars": [
+          "§29 Random Matrix Theory",
+          "§8 Non-Convex Opt",
+          "§6 High-Dim Probability"
+        ],
+        "theme": [
+          "SGD dynamics",
+          "high-dimensional landscapes",
+          "effective dynamics"
+        ],
+        "publisher_promise": "Ben Arous develops random-matrix and effective-dynamics tools to explain how SGD navigates random high-dimensional loss landscapes.",
+        "screening_reason": "The originator of the effective-dynamics/summary-statistics programme gives a full course; derivations connect RMT, spin glasses and learning dynamics. Rubrics: Timeless H · Generative H · Transfer H · Rare H · Worldview H · Primacy H · Density H",
+        "evidence": [],
+        "transcript_question": "What are the effective low-dimensional dynamics he derives for SGD, and when do outlier eigenvalues of the Hessian/Gram matrices drive escape from saddles?",
+        "caveat": "publisher abstract only; one lecture of a multi-part course",
+        "speaker": "Gérard Ben Arous",
+        "modules": [],
+        "workshop": "Gérard Ben Arous - Random Matrices and Dynamics of Optimization in Very High Dimensions"
+      },
+      "notes_scope": "Publisher metadata only; screened on the guiding principles; no transcript read.",
+      "resources": []
+    },
+    {
+      "id": "9dayqi1-dhE",
+      "title": "Gérard Ben Arous - 2/4 Random Matrices and Dynamics of Optimization in Very High Dimensions",
+      "url": "https://www.youtube.com/watch?v=9dayqi1-dhE",
+      "published_at": "2024-03-26",
+      "duration_seconds": 7500,
+      "screening": {
+        "id": "9dayqi1-dhE",
+        "index": 5,
+        "decision": "read_transcript",
+        "priority": "high",
+        "track": "main",
+        "pillars": [
+          "§29 Random Matrix Theory",
+          "§8 Non-Convex Opt",
+          "§6 High-Dim Probability"
+        ],
+        "theme": [
+          "SGD dynamics",
+          "high-dimensional landscapes",
+          "effective dynamics"
+        ],
+        "publisher_promise": "Ben Arous develops random-matrix and effective-dynamics tools to explain how SGD navigates random high-dimensional loss landscapes.",
+        "screening_reason": "The originator of the effective-dynamics/summary-statistics programme gives a full course; derivations connect RMT, spin glasses and learning dynamics. Rubrics: Timeless H · Generative H · Transfer H · Rare H · Worldview H · Primacy H · Density H",
+        "evidence": [],
+        "transcript_question": "What are the effective low-dimensional dynamics he derives for SGD, and when do outlier eigenvalues of the Hessian/Gram matrices drive escape from saddles?",
+        "caveat": "publisher abstract only; one lecture of a multi-part course",
+        "speaker": "Gérard Ben Arous",
+        "modules": [],
+        "workshop": "Gérard Ben Arous - Random Matrices and Dynamics of Optimization in Very High Dimensions"
+      },
+      "notes_scope": "Publisher metadata only; screened on the guiding principles; no transcript read.",
+      "resources": []
+    },
+    {
+      "id": "lVqBBGEhNQw",
+      "title": "Jakob Yngvason - Understanding Entropywithout Probability",
+      "url": "https://www.youtube.com/watch?v=lVqBBGEhNQw",
+      "published_at": "2021-10-13",
+      "duration_seconds": 4080,
+      "screening": {
+        "id": "lVqBBGEhNQw",
+        "index": 6,
+        "decision": "read_transcript",
+        "priority": "high",
+        "track": "main",
+        "pillars": [
+          "Thermodynamics & entropy"
+        ],
+        "theme": [
+          "entropy foundations",
+          "second law",
+          "axiomatics"
+        ],
+        "publisher_promise": "Yngvason explains the Lieb-Yngvason axiomatic derivation of entropy from adiabatic accessibility, without probability.",
+        "screening_reason": "The co-originator's own account of an order-theoretic foundation for entropy. It changes how entropy, which runs through learning theory, is understood. Rubrics: Timeless H · Generative H · Transfer M · Rare H · Worldview H · Primacy H · Density H",
+        "evidence": [],
+        "transcript_question": "What axioms on adiabatic accessibility give entropy uniquely, and what does it mean that no probability is needed?",
+        "caveat": "",
+        "speaker": "Jakob Yngvason",
+        "modules": [],
+        "workshop": "Large-scale limits of interacting particle systems"
+      },
+      "notes_scope": "Publisher metadata only; screened on the guiding principles; no transcript read.",
+      "resources": []
+    },
+    {
+      "id": "R5hSqeLSQC0",
+      "title": "Stéphane Mallat - Multiscale Models for Image Classification and Physics with Deep Networks",
+      "url": "https://www.youtube.com/watch?v=R5hSqeLSQC0",
+      "published_at": "2019-11-28",
+      "duration_seconds": 3660,
+      "screening": {
+        "id": "R5hSqeLSQC0",
+        "index": 7,
+        "decision": "read_transcript",
+        "priority": "high",
+        "track": "main",
+        "pillars": [
+          "Deep learning theory",
+          "Harmonic analysis"
+        ],
+        "theme": [
+          "multiscale",
+          "scattering",
+          "deep nets & physics"
+        ],
+        "publisher_promise": "Mallat shows deep convolutional networks approximate high-dimensional functionals through multiscale, low-dimensional models shared by images and physics.",
+        "screening_reason": "The originator of wavelet-scattering theory explains why deep nets work, using multiscale structure and symmetry. The idea links signal processing, physics and learning. Rubrics: Timeless H · Generative H · Transfer H · Rare H · Worldview H · Primacy H · Density M",
+        "evidence": [],
+        "transcript_question": "What multiscale/symmetry principle does Mallat claim explains deep network approximation, and what is derived rather than conjectured?",
+        "caveat": "",
+        "speaker": "Stéphane Mallat",
+        "modules": [],
+        "workshop": "2nd workshop Nokia-IHES / AI: what's next?"
+      },
+      "notes_scope": "Publisher metadata only; screened on the guiding principles; no transcript read.",
+      "resources": []
+    },
+    {
+      "id": "9GkxEEqEGhg",
+      "title": "Lenka Zdeborova - Phase transition in regression and simple neural networks",
+      "url": "https://www.youtube.com/watch?v=9GkxEEqEGhg",
+      "published_at": "2018-12-05",
+      "duration_seconds": 4380,
+      "screening": {
+        "id": "9GkxEEqEGhg",
+        "index": 8,
+        "decision": "read_transcript",
+        "priority": "high",
+        "track": "main",
+        "pillars": [
+          "Statistical physics of learning"
+        ],
+        "theme": [
+          "phase transitions",
+          "teacher-student",
+          "replica methods"
+        ],
+        "publisher_promise": "Zdeborová presents phase transitions in regression and simple neural networks via statistical-physics methods.",
+        "screening_reason": "One of the founders of the statistical physics of learning gives a lecture on information-theoretic and algorithmic phase transitions, which give learning its basic limits. Rubrics: Timeless H · Generative H · Transfer H · Rare H · Worldview H · Primacy H · Density M",
+        "evidence": [],
+        "transcript_question": "Which thresholds (information-theoretic vs algorithmic) are derived, and what method yields them?",
+        "caveat": "No description; judged from title, speaker and series.",
+        "speaker": "Lenka Zdeborova",
+        "modules": [],
+        "workshop": "9ème Séminaire Itzkson : Computational and information-theoretic phase transitions in large-scale inference problems"
+      },
+      "notes_scope": "Publisher metadata only; screened on the guiding principles; no transcript read.",
+      "resources": []
+    },
+    {
+      "id": "Z0tG-8OU4Iw",
+      "title": "Andrea Montanari - Algorithms and computational phase transitions in low-rank estimation",
+      "url": "https://www.youtube.com/watch?v=Z0tG-8OU4Iw",
+      "published_at": "2018-12-05",
+      "duration_seconds": 4620,
+      "screening": {
+        "id": "Z0tG-8OU4Iw",
+        "index": 9,
+        "decision": "read_transcript",
+        "priority": "high",
+        "track": "main",
+        "pillars": [
+          "Statistical physics of learning",
+          "High-dimensional statistics"
+        ],
+        "theme": [
+          "computational gaps",
+          "AMP",
+          "low-rank estimation"
+        ],
+        "publisher_promise": "Montanari covers algorithms and computational phase transitions in low-rank estimation.",
+        "screening_reason": "A primary source on statistical-to-computational gaps and AMP, a central idea for understanding what is learnable efficiently. Rubrics: Timeless H · Generative H · Transfer H · Rare M · Worldview H · Primacy H · Density M",
+        "evidence": [],
+        "transcript_question": "How does Montanari characterise the computational phase transition and why do AMP-type algorithms hit it?",
+        "caveat": "No description; judged from title, speaker and series.",
+        "speaker": "Andrea Montanari",
+        "modules": [],
+        "workshop": "9ème Séminaire Itzkson : Computational and information-theoretic phase transitions in large-scale inference problems"
+      },
+      "notes_scope": "Publisher metadata only; screened on the guiding principles; no transcript read.",
+      "resources": []
+    },
+    {
+      "id": "VgHU00WQWDI",
+      "title": "Daniel Bennequin - Topos and Information",
+      "url": "https://www.youtube.com/watch?v=VgHU00WQWDI",
+      "published_at": "2018-04-16",
+      "duration_seconds": 4680,
+      "screening": {
+        "id": "VgHU00WQWDI",
+        "index": 10,
+        "decision": "read_transcript",
+        "priority": "high",
+        "track": "main",
+        "pillars": [
+          "Information theory",
+          "Category theory"
+        ],
+        "theme": [
+          "topos",
+          "information cohomology",
+          "entropy"
+        ],
+        "publisher_promise": "Bennequin connects topos theory with information, likely via the cohomological characterisation of entropy.",
+        "screening_reason": "Bennequin co-originated information cohomology. His treatment of entropy as a topos-theoretic invariant is a rare and generative combination that matters for structural theories of learning. Rubrics: Timeless H · Generative H · Transfer M · Rare H · Worldview H · Primacy H · Density M",
+        "evidence": [],
+        "transcript_question": "What structure (sheaves/cohomology) does Bennequin put on information measures, and what does it derive about entropy?",
+        "caveat": "No description; judged from title, speaker and series.",
+        "speaker": "Daniel Bennequin",
+        "modules": [],
+        "workshop": "4th Huawei-IHES Workshop on Mathematical Theories for Information and Communication Technologies"
+      },
+      "notes_scope": "Publisher metadata only; screened on the guiding principles; no transcript read.",
+      "resources": []
+    },
+    {
+      "id": "j2LTRE6sX2o",
+      "title": "Mikhael Gromov - 1/4  Mathematical Structures arising from Genetics and Molecular Biology",
+      "url": "https://www.youtube.com/watch?v=j2LTRE6sX2o",
+      "published_at": null,
+      "duration_seconds": 6240,
+      "screening": {
+        "id": "j2LTRE6sX2o",
+        "index": 11,
+        "decision": "read_transcript",
+        "priority": "high",
+        "track": "main",
+        "pillars": [
+          "Mathematics of life & structure"
+        ],
+        "theme": [
+          "genetics",
+          "mathematical structures",
+          "Gromov"
+        ],
+        "publisher_promise": "Gromov opens a course extracting mathematical structures from genetics and molecular biology.",
+        "screening_reason": "Gromov's original attempt to find the mathematics native to biological information processing. It is rare and changes how one sees the subject, with direct bearing on the anatomy of intelligence. Rubrics: Timeless H · Generative H · Transfer H · Rare H · Worldview H · Primacy H · Density M",
+        "evidence": [],
+        "transcript_question": "Which mathematical structures does Gromov propose as native to genetics, and are any of them derived or only suggested?",
+        "caveat": "No description; judged from title, speaker and series. Lecture 1 of 4; read first.",
+        "speaker": "Mikhael Gromov",
+        "modules": [],
+        "workshop": "Mikhael Gromov - Mathematical Structures arising from Genetics and Molecular Biology"
+      },
+      "notes_scope": "Publisher metadata only; screened on the guiding principles; no transcript read.",
+      "resources": []
+    }
+  ]
+}

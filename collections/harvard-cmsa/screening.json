@@ -1,0 +1,389 @@
+{
+  "methodology": {
+    "bar": "Originator of a unifying principle derives its consequences densely enough to change a mental model. Must pass A–C; D–F scored 0–2 for ranking.",
+    "rubric": {
+      "A": "Originator or primary architect",
+      "B": "Unifying principle",
+      "C": "Derivation shown",
+      "D": "Contested or falsifiable",
+      "E": "Density",
+      "F": "Model update beyond the existing collection"
+    },
+    "decisions": "Same as MLST: read_transcript is not a watch recommendation."
+  },
+  "episodes": [
+    {
+      "id": "tJLJv90ykYU",
+      "title": "Dmitry Krotov | Dense Associative Memory: Physical systems for novel AI architectures",
+      "url": "https://www.youtube.com/watch?v=tJLJv90ykYU",
+      "published_at": "2026-09-21",
+      "duration_seconds": 2940,
+      "screening": {
+        "id": "tJLJv90ykYU",
+        "index": 0,
+        "decision": "read_transcript",
+        "priority": "high",
+        "track": "main",
+        "pillars": [],
+        "theme": [
+          "associative memory",
+          "energy-based models",
+          "attractor dynamics"
+        ],
+        "publisher_promise": "Krotov presents Dense Associative Memories, energy-based recurrent networks with large storage capacity, as a physics-grounded basis for new AI architectures.",
+        "screening_reason": "The originator of dense associative memory explains the energy-function principle linking Hopfield networks, attention and new architectures; timeless physics of memory with broad transfer. Rubrics: Timeless H · Generative H · Transfer H · Rare H · Worldview H · Primacy H · Density H",
+        "evidence": [],
+        "transcript_question": "How does the energy function set storage capacity, and how exactly does attention emerge as a limit of the update rule?",
+        "caveat": "publisher abstract only; speaker from title or description",
+        "speaker": "Dmitry Krotov",
+        "modules": [],
+        "workshop": "Geometry of Machine Learning 2026"
+      },
+      "notes_scope": "Publisher metadata only; screened on the guiding principles; no transcript read.",
+      "resources": []
+    },
+    {
+      "id": "RRbgxs5JX04",
+      "title": "Surya Ganguli | Towards understanding the geometry of high dimensional nonlinear maps",
+      "url": "https://www.youtube.com/watch?v=RRbgxs5JX04",
+      "published_at": "2026-09-21",
+      "duration_seconds": 3180,
+      "screening": {
+        "id": "RRbgxs5JX04",
+        "index": 1,
+        "decision": "read_transcript",
+        "priority": "high",
+        "track": "main",
+        "pillars": [],
+        "theme": [
+          "high-dimensional geometry",
+          "nonlinear maps",
+          "deep network theory"
+        ],
+        "publisher_promise": "Ganguli works toward a geometric understanding of how high-dimensional nonlinear maps such as deep networks transform data.",
+        "screening_reason": "Ganguli's statistical-physics approach to the geometry of deep networks is principled, generative and cross-field; no abstract, so content is inferred. Rubrics: Timeless H · Generative H · Transfer H · Rare H · Worldview H · Primacy H · Density M",
+        "evidence": [],
+        "transcript_question": "What geometric quantity does he use to characterise a high-dimensional nonlinear map, and what does it predict about learning?",
+        "caveat": "no description beyond title and speaker line; judged from title, speaker and workshop",
+        "speaker": "Surya Ganguli",
+        "modules": [],
+        "workshop": "Geometry of Machine Learning 2026"
+      },
+      "notes_scope": "Publisher metadata only; screened on the guiding principles; no transcript read.",
+      "resources": []
+    },
+    {
+      "id": "XUv6re_QIj8",
+      "title": "Charles Fefferman | Extrinsic and intrinsic manifold learning, old and new",
+      "url": "https://www.youtube.com/watch?v=XUv6re_QIj8",
+      "published_at": "2025-12-01",
+      "duration_seconds": 2940,
+      "screening": {
+        "id": "XUv6re_QIj8",
+        "index": 2,
+        "decision": "read_transcript",
+        "priority": "high",
+        "track": "main",
+        "pillars": [],
+        "theme": [
+          "manifold hypothesis",
+          "manifold learning"
+        ],
+        "publisher_promise": "Fefferman expounds his paper testing the manifold hypothesis and newer intrinsic manifold-learning results.",
+        "screening_reason": "The originator's own exposition of when the manifold hypothesis can be tested and manifolds learned from samples; a foundational result for learning theory. Rubrics: Timeless H · Generative H · Transfer H · Rare H · Worldview H · Primacy H · Density M",
+        "evidence": [],
+        "transcript_question": "What sample complexity does testing the manifold hypothesis need, and what changes in the intrinsic setting?",
+        "caveat": "publisher abstract only; speaker from title or description",
+        "speaker": "Charles Fefferman",
+        "modules": [],
+        "workshop": "Conference on Geometry and Statistics"
+      },
+      "notes_scope": "Publisher metadata only; screened on the guiding principles; no transcript read.",
+      "resources": []
+    },
+    {
+      "id": "yHg2UAK_C4c",
+      "title": "Alexander Rakhlin | Elements of Interactive Decision Making",
+      "url": "https://www.youtube.com/watch?v=yHg2UAK_C4c",
+      "published_at": "2025-10-14",
+      "duration_seconds": 3480,
+      "screening": {
+        "id": "yHg2UAK_C4c",
+        "index": 3,
+        "decision": "read_transcript",
+        "priority": "high",
+        "track": "main",
+        "pillars": [],
+        "theme": [
+          "interactive decision making",
+          "decision-estimation coefficient",
+          "reinforcement learning theory"
+        ],
+        "publisher_promise": "Rakhlin presents a unified theory of interactive decision making, covering bandits, RL and LLM fine-tuning.",
+        "screening_reason": "The co-originator of the decision-estimation coefficient gives a unifying statistical complexity theory for interactive learning; timeless and widely transferable. Rubrics: Timeless H · Generative H · Transfer H · Rare M · Worldview H · Primacy H · Density H",
+        "evidence": [],
+        "transcript_question": "How does the decision-estimation coefficient characterise learnability across bandits and RL, and what does it say about RL fine-tuning?",
+        "caveat": "publisher abstract only; speaker from title or description",
+        "speaker": "Alexander Rakhlin",
+        "modules": [],
+        "workshop": "Workshop on Mathematical foundations of AI"
+      },
+      "notes_scope": "Publisher metadata only; screened on the guiding principles; no transcript read.",
+      "resources": []
+    },
+    {
+      "id": "JoghiwiIbT8",
+      "title": "Mark Sellke | Algorithmic Thresholds for Spherical Spin Glasses",
+      "url": "https://www.youtube.com/watch?v=JoghiwiIbT8",
+      "published_at": "2023-09-26",
+      "duration_seconds": 3060,
+      "screening": {
+        "id": "JoghiwiIbT8",
+        "index": 4,
+        "decision": "read_transcript",
+        "priority": "high",
+        "track": "main",
+        "pillars": [],
+        "theme": [
+          "spin glasses",
+          "non-convex optimization",
+          "algorithmic thresholds"
+        ],
+        "publisher_promise": "Sellke characterises exactly what efficient algorithms can achieve when optimizing spherical spin-glass landscapes.",
+        "screening_reason": "An originator's account of sharp algorithmic thresholds for random high-dimensional optimization, joining statistical physics, probability and algorithms. Rubrics: Timeless H · Generative H · Transfer H · Rare H · Worldview H · Primacy H · Density M",
+        "evidence": [],
+        "transcript_question": "What is the branching-OGP obstruction and how does it decide the algorithmic threshold?",
+        "caveat": "publisher abstract only; speaker from title or description",
+        "speaker": "Mark Sellke",
+        "modules": [],
+        "workshop": "Big Data Conference 2023"
+      },
+      "notes_scope": "Publisher metadata only; screened on the guiding principles; no transcript read.",
+      "resources": []
+    },
+    {
+      "id": "C-DuOhIfNQo",
+      "title": "Bernd Sturmfels | Algebraic Statistics with a View towards Physics",
+      "url": "https://www.youtube.com/watch?v=C-DuOhIfNQo",
+      "published_at": "2022-08-25",
+      "duration_seconds": 4260,
+      "screening": {
+        "id": "C-DuOhIfNQo",
+        "index": 5,
+        "decision": "read_transcript",
+        "priority": "high",
+        "track": "maths",
+        "pillars": [],
+        "theme": [
+          "algebraic statistics",
+          "maximum likelihood",
+          "scattering amplitudes"
+        ],
+        "publisher_promise": "Sturmfels links the algebraic geometry of maximum likelihood estimation to scattering amplitudes in physics.",
+        "screening_reason": "The founder of algebraic statistics joins likelihood geometry with physics; a rare, timeless stack for the mathematics of learning. Rubrics: Timeless H · Generative H · Transfer H · Rare H · Worldview H · Primacy H · Density M",
+        "evidence": [],
+        "transcript_question": "What is the likelihood correspondence with the scattering potential, and what does it give statistics?",
+        "caveat": "publisher abstract only; speaker from title or description",
+        "speaker": "Bernd Sturmfels",
+        "modules": [],
+        "workshop": "Combinatorics, Physics and Probability Seminar"
+      },
+      "notes_scope": "Publisher metadata only; screened on the guiding principles; no transcript read.",
+      "resources": []
+    },
+    {
+      "id": "04E8r76TetQ",
+      "title": "Alex Damian | Understanding Optimization in Deep Learning with Central Flows",
+      "url": "https://www.youtube.com/watch?v=04E8r76TetQ",
+      "published_at": "2025-10-08",
+      "duration_seconds": 3060,
+      "screening": {
+        "id": "04E8r76TetQ",
+        "index": 6,
+        "decision": "read_transcript",
+        "priority": "high",
+        "track": "main",
+        "pillars": [],
+        "theme": [
+          "optimization dynamics",
+          "edge of stability",
+          "central flows"
+        ],
+        "publisher_promise": "Damian derives central flows, a new theory that describes the actual dynamics of deep learning optimizers.",
+        "screening_reason": "The originator of central flows gives a new, derivation-based theory of optimization where classical theory fails; timeless and changes how training dynamics are seen. Rubrics: Timeless H · Generative H · Transfer M · Rare M · Worldview H · Primacy H · Density H",
+        "evidence": [],
+        "transcript_question": "How is the central flow derived, and what does it predict about edge-of-stability and adaptive optimizers?",
+        "caveat": "publisher abstract only; speaker from title or description",
+        "speaker": "Alex Damian",
+        "modules": [],
+        "workshop": "New Technologies in Mathematics Seminars"
+      },
+      "notes_scope": "Publisher metadata only; screened on the guiding principles; no transcript read.",
+      "resources": []
+    },
+    {
+      "id": "g8zdumOAWzw",
+      "title": "Cyril Zhang | How do Transformers reason? First principles via automata, semigroups, and circuits",
+      "url": "https://www.youtube.com/watch?v=g8zdumOAWzw",
+      "published_at": null,
+      "duration_seconds": 4200,
+      "screening": {
+        "id": "g8zdumOAWzw",
+        "index": 7,
+        "decision": "read_transcript",
+        "priority": "high",
+        "track": "main",
+        "pillars": [
+          "theory of transformers",
+          "algebra and computation"
+        ],
+        "theme": [
+          "automata",
+          "semigroups",
+          "circuits"
+        ],
+        "publisher_promise": "Explains transformer reasoning from first principles via automata, semigroup decompositions and circuit complexity.",
+        "screening_reason": "Ties Krohn-Rhodes semigroup theory and circuit complexity to what shallow transformers can compute; a rare algebra-computation-learning stack argued from first principles by the originating group. Rubrics: Timeless H · Generative H · Transfer H · Rare H · Worldview H · Primacy H · Density M",
+        "evidence": [],
+        "transcript_question": "How does the Krohn-Rhodes decomposition give shortcut solutions, and when do learned shortcuts fail to generalize?",
+        "caveat": "Description missing; judged from title, speaker and workshop only.",
+        "speaker": "Cyril Zhang",
+        "modules": [],
+        "workshop": "New Technologies in Mathematics Seminars"
+      },
+      "notes_scope": "Publisher metadata only; screened on the guiding principles; no transcript read.",
+      "resources": []
+    },
+    {
+      "id": "79ymkGQW3b4",
+      "title": "David McAllester | Type Theory from the Perspective of Artificial Intelligence",
+      "url": "https://www.youtube.com/watch?v=79ymkGQW3b4",
+      "published_at": null,
+      "duration_seconds": 4140,
+      "screening": {
+        "id": "79ymkGQW3b4",
+        "index": 8,
+        "decision": "read_transcript",
+        "priority": "high",
+        "track": "main",
+        "pillars": [
+          "foundations of mathematics",
+          "knowledge representation"
+        ],
+        "theme": [
+          "type theory",
+          "meaning",
+          "AI foundations"
+        ],
+        "publisher_promise": "Presents type theory as a foundation for meaning and reasoning as seen from artificial intelligence.",
+        "screening_reason": "McAllester offers an original synthesis of type theory, isomorphism and semantics for AI; a rare logic-plus-learning view that reshapes how one thinks about representation. Rubrics: Timeless H · Generative H · Transfer H · Rare H · Worldview H · Primacy H · Density M",
+        "evidence": [],
+        "transcript_question": "How does his notion of type-theoretic isomorphism and symmetry ground meaning for a learning system?",
+        "caveat": "Description missing; judged from title, speaker and workshop only.",
+        "speaker": "David McAllester",
+        "modules": [],
+        "workshop": "New Technologies in Mathematics Seminars"
+      },
+      "notes_scope": "Publisher metadata only; screened on the guiding principles; no transcript read.",
+      "resources": []
+    },
+    {
+      "id": "bjRqmlI_SFs",
+      "title": "Andrea Montanari | Self-induced regularization from linear regression to neural networks",
+      "url": "https://www.youtube.com/watch?v=bjRqmlI_SFs",
+      "published_at": null,
+      "duration_seconds": 3960,
+      "screening": {
+        "id": "bjRqmlI_SFs",
+        "index": 9,
+        "decision": "read_transcript",
+        "priority": "high",
+        "track": "main",
+        "pillars": [
+          "learning theory",
+          "high-dimensional statistics"
+        ],
+        "theme": [
+          "implicit regularization",
+          "interpolation",
+          "overparameterization"
+        ],
+        "publisher_promise": "Shows how overparameterized models regularize themselves, from linear regression to neural networks.",
+        "screening_reason": "Montanari derives exact high-dimensional results on interpolation and self-induced regularization, a durable principle of generalization; distinct from the mean-field talks already collected. Rubrics: Timeless H · Generative H · Transfer M · Rare M · Worldview H · Primacy H · Density M",
+        "evidence": [],
+        "transcript_question": "What exact mechanism makes the interpolating solution behave like a ridge estimator, and how far does it extend to nonlinear networks?",
+        "caveat": "Description missing; judged from title, speaker and workshop only.",
+        "speaker": "Andrea Montanari",
+        "modules": [],
+        "workshop": "New Technologies in Mathematics Seminars"
+      },
+      "notes_scope": "Publisher metadata only; screened on the guiding principles; no transcript read.",
+      "resources": []
+    },
+    {
+      "id": "s-Z6VxaxQo8",
+      "title": "David Gamarnik | Algorithmic Challenges in High-Dimensional Inference Models",
+      "url": "https://www.youtube.com/watch?v=s-Z6VxaxQo8",
+      "published_at": null,
+      "duration_seconds": 2580,
+      "screening": {
+        "id": "s-Z6VxaxQo8",
+        "index": 10,
+        "decision": "read_transcript",
+        "priority": "high",
+        "track": "main",
+        "pillars": [
+          "computational complexity of learning",
+          "statistical physics of learning"
+        ],
+        "theme": [
+          "overlap gap property",
+          "statistical-computational gaps"
+        ],
+        "publisher_promise": "Explains why some high-dimensional inference problems are hard for algorithms through solution-space geometry.",
+        "screening_reason": "Gamarnik originated the overlap gap property, a geometric barrier linking spin-glass theory, random structures and algorithmic hardness; broad transfer to learning and optimization. Rubrics: Timeless H · Generative H · Transfer H · Rare H · Worldview H · Primacy H · Density M",
+        "evidence": [],
+        "transcript_question": "How does the overlap gap property rule out classes of algorithms, and which learning problems does it cover?",
+        "caveat": "Description missing; judged from title, speaker and workshop only.",
+        "speaker": "David Gamarnik",
+        "modules": [],
+        "workshop": "Big Data Conference 2019"
+      },
+      "notes_scope": "Publisher metadata only; screened on the guiding principles; no transcript read.",
+      "resources": []
+    },
+    {
+      "id": "ij4HszKOzwo",
+      "title": "Information in the Weights and Emergent Properties of Deep Neural Networks, Part I",
+      "url": "https://www.youtube.com/watch?v=ij4HszKOzwo",
+      "published_at": null,
+      "duration_seconds": 2580,
+      "screening": {
+        "id": "ij4HszKOzwo",
+        "index": 11,
+        "decision": "read_transcript",
+        "priority": "high",
+        "track": "main",
+        "pillars": [
+          "information theory of learning",
+          "learning theory"
+        ],
+        "theme": [
+          "information in weights",
+          "invariance",
+          "PAC-Bayes"
+        ],
+        "publisher_promise": "Part I of a lecture on how much information network weights hold about the training data and what properties follow.",
+        "screening_reason": "Likely the Achille-Soatto theory linking weight information, Fisher information, PAC-Bayes and emergent invariance; an information-theoretic foundation with wide transfer. Rubrics: Timeless H · Generative H · Transfer H · Rare H · Worldview H · Primacy M · Density M",
+        "evidence": [],
+        "transcript_question": "How is information in the weights defined, and how does it imply invariance and disentanglement of representations?",
+        "caveat": "Description missing; judged from title, speaker and workshop only.",
+        "speaker": "unknown",
+        "modules": [],
+        "workshop": "Workshop on Invariance and Geometry in Sensation, Action and Cognition"
+      },
+      "notes_scope": "Publisher metadata only; screened on the guiding principles; no transcript read.",
+      "resources": []
+    }
+  ]
+}

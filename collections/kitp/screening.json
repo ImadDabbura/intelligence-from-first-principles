@@ -1,0 +1,332 @@
+{
+  "methodology": {
+    "bar": "Originator of a unifying principle derives its consequences densely enough to change a mental model. Must pass A–C; D–F scored 0–2 for ranking.",
+    "rubric": {
+      "A": "Originator or primary architect",
+      "B": "Unifying principle",
+      "C": "Derivation shown",
+      "D": "Contested or falsifiable",
+      "E": "Density",
+      "F": "Model update beyond the existing collection"
+    },
+    "decisions": "Same as MLST: read_transcript is not a watch recommendation."
+  },
+  "episodes": [
+    {
+      "id": "kitp-neuro01-tishby",
+      "title": "Information Theory and Neural Coding: Can We Quantify Relevant Information?",
+      "url": "https://online.kitp.ucsb.edu/online/neuro01/tishby/",
+      "published_at": "2001-09-18",
+      "duration_seconds": null,
+      "screening": {
+        "id": "kitp-neuro01-tishby",
+        "index": 0,
+        "decision": "read_transcript",
+        "priority": "high",
+        "track": "main",
+        "pillars": [],
+        "theme": [
+          "Information bottleneck / relevant information (modules 3, 9)"
+        ],
+        "publisher_promise": "Tishby asks whether information theory can measure the stimulus-relevant part of a neural code, from the KITP Dynamics of Neural Networks program (no abstract posted).",
+        "screening_reason": "The originator of the information bottleneck, a year after the 2000 paper, presents relevance as an information-theoretic objective for coding, the root of his later deep-learning IB programme. It predates the Stanford and later IB talks already in the collection, so it shows the principle in its original neural-coding form. Rubric: A✓ B✓ C✓ · D 2 · E 2 · F 2.",
+        "evidence": [],
+        "transcript_question": "Does Tishby derive the IB Lagrangian and its self-consistent equations from the relevance question, or only motivate it?",
+        "caveat": "No abstract; recording is RealMedia audio/webcam only (/download/neuro01/tishby.rm, HTTP 200) plus a slide deck; no MP4 and no transcript, so it may need conversion before review.",
+        "speaker": "Naftali Tishby",
+        "modules": [],
+        "workshop": ""
+      },
+      "notes_scope": "Venue page and recording verified; no transcript read.",
+      "resources": []
+    },
+    {
+      "id": "kitp-neuro01-nemenman",
+      "title": "Predictability, Complexity and Learning",
+      "url": "https://online.kitp.ucsb.edu/online/neuro01/nemenman/",
+      "published_at": "2001-10-12",
+      "duration_seconds": null,
+      "screening": {
+        "id": "kitp-neuro01-nemenman",
+        "index": 1,
+        "decision": "read_transcript",
+        "priority": "high",
+        "track": "main",
+        "pillars": [],
+        "theme": [
+          "Predictive information as complexity of learning (modules 2, 5)"
+        ],
+        "publisher_promise": "Defines predictive information between past and future, classifies its growth (finite, logarithmic, power law), and ties the divergent part to model dimensionality and to a unique measure of complexity.",
+        "screening_reason": "A co-author of the Bialek-Nemenman-Tishby predictive-information programme derives how learnability maps onto the asymptotics of I_pred, linking parametric and nonparametric learning to one information quantity. The arXiv paper is in the collection; this is the originator lecture. Rubric: A✓ B✓ C✓ · D 1 · E 2 · F 2.",
+        "evidence": [],
+        "transcript_question": "How does the log-T coefficient of I_pred recover the model dimension (the MDL/BIC link), and what does power-law growth say about nonparametric learning?",
+        "caveat": "RealMedia audio/webcam only (/download/neuro01/nemenman.rm, HTTP 200) plus a slides PDF; no MP4 or transcript. Nemenman presenting, not Bialek.",
+        "speaker": "Ilya Nemenman",
+        "modules": [],
+        "workshop": ""
+      },
+      "notes_scope": "Venue page and recording verified; no transcript read.",
+      "resources": []
+    },
+    {
+      "id": "kitp-brain04-bell",
+      "title": "What, (if anything) is the Objective Function of the Brain?",
+      "url": "https://online.kitp.ucsb.edu/online/brain04/bell/",
+      "published_at": "2004-08-05",
+      "duration_seconds": 5726,
+      "screening": {
+        "id": "kitp-brain04-bell",
+        "index": 2,
+        "decision": "read_transcript",
+        "priority": "high",
+        "track": "main",
+        "pillars": [],
+        "theme": [
+          "Objective functions for the brain: infomax and beyond (modules 1, 3, 9)"
+        ],
+        "publisher_promise": "Bell asks whether the brain optimizes a single objective function at all, at the KITP Understanding the Brain program (no abstract posted).",
+        "screening_reason": "The co-originator of infomax ICA questions the premise behind his own unifying principle. This is a direct attempt to say what one objective could explain about learning in the brain, at 95 minutes. Rubric: A✓ B✓ C✗ · D 2 · E 1 · F 2.",
+        "evidence": [],
+        "transcript_question": "Which objective does Bell end up defending (infomax, its limits, or a loop-level alternative), and does he derive any mechanism from it?",
+        "caveat": "No abstract; the title may signal a speculative talk rather than a derivation. MP4 verified at kitpcloud/brain04/Bell_Brain04_KITP.mp4.",
+        "speaker": "Tony Bell",
+        "modules": [],
+        "workshop": ""
+      },
+      "notes_scope": "Venue page and recording verified; no transcript read.",
+      "resources": []
+    },
+    {
+      "id": "kitp-deeplearning23-solla",
+      "title": "From Bayes to Gibbs: a thermodynamic theory of learning",
+      "url": "https://online.kitp.ucsb.edu/online/deeplearning23/solla/",
+      "published_at": "2023-12-14",
+      "duration_seconds": 2735,
+      "screening": {
+        "id": "kitp-deeplearning23-solla",
+        "index": 3,
+        "decision": "read_transcript",
+        "priority": "high",
+        "track": "main",
+        "pillars": [],
+        "theme": [
+          "Statistical mechanics of learning: Gibbs posterior (modules 2, 9)"
+        ],
+        "publisher_promise": "Solla presents learning as a thermodynamic Gibbs ensemble that connects Bayesian inference to statistical mechanics (no abstract posted).",
+        "screening_reason": "Solla co-authored the Levin-Tishby-Solla 1990 Gibbs-ensemble theory of learning, so this talk comes from the founding Bayes-to-Gibbs programme. It should show how temperature, the partition function and generalization fall out of one ensemble. Rubric: A✓ B✓ C✓ · D 1 · E 2 · F 1.",
+        "evidence": [],
+        "transcript_question": "Does she derive generalization error and learning curves from the Gibbs ensemble, and what does the temperature parameter mean for learning?",
+        "caveat": "Title only; may be a retrospective rather than new derivations. MP4 verified (Solla_Deeplearning23_KITP.mp4); the CC transcript is not checked.",
+        "speaker": "Sara Solla",
+        "modules": [],
+        "workshop": ""
+      },
+      "notes_scope": "Venue page and recording verified; no transcript read.",
+      "resources": []
+    },
+    {
+      "id": "kitp-brainlearn23-saxe2",
+      "title": "Solvable models of deep learning dynamics, predictive coding and statistical learning",
+      "url": "https://online.kitp.ucsb.edu/online/brainlearn23/saxe2/",
+      "published_at": "2023-06-30",
+      "duration_seconds": 5034,
+      "screening": {
+        "id": "kitp-brainlearn23-saxe2",
+        "index": 4,
+        "decision": "read_transcript",
+        "priority": "high",
+        "track": "main",
+        "pillars": [],
+        "theme": [
+          "Exact learning dynamics of deep linear networks (modules 3, 9)"
+        ],
+        "publisher_promise": "Saxe shows how exactly solvable deep-network models explain learning dynamics and connect them to predictive coding and statistical learning in brains (no abstract).",
+        "screening_reason": "The originator of exact deep-linear learning dynamics gives an 84-minute session-lead talk that carries the solvable model from stage-like learning to predictive coding and statistical learning. It is broader and longer than the \"insights from the linear case\" talk already in the collection. Rubric: A✓ B✓ C✓ · D 1 · E 2 · F 1.",
+        "evidence": [],
+        "transcript_question": "Which closed-form dynamics (SVD mode-by-mode learning) does he derive, and how is predictive coding mapped onto the same solvable framework?",
+        "caveat": "No abstract; it may overlap the existing Saxe linear-case talk. MP4 verified; KITP lists a transcript.txt.",
+        "speaker": "Andrew Saxe",
+        "modules": [],
+        "workshop": ""
+      },
+      "notes_scope": "Venue page and recording verified; no transcript read.",
+      "resources": []
+    },
+    {
+      "id": "kitp-deeplearning23-louis",
+      "title": "Inductive bias towards simplicity and feature learning in DNNs",
+      "url": "https://online.kitp.ucsb.edu/online/deeplearning23/louis/",
+      "published_at": "2023-12-14",
+      "duration_seconds": 2979,
+      "screening": {
+        "id": "kitp-deeplearning23-louis",
+        "index": 5,
+        "decision": "read_transcript",
+        "priority": "high",
+        "track": "main",
+        "pillars": [],
+        "theme": [
+          "Simplicity bias / algorithmic-information prior (module 2)"
+        ],
+        "publisher_promise": "Louis argues that deep networks carry an inductive bias towards simple functions and relates it to feature learning (no abstract).",
+        "screening_reason": "The originator of the simplicity-bias programme, which bounds the function prior by Kolmogorov complexity, addresses why overparameterized networks generalize at all. The claim is contested and falsifiable, and it is central to module 2. Rubric: A✓ B✓ C✓ · D 2 · E 2 · F 2.",
+        "evidence": [],
+        "transcript_question": "How does the parameter-function map produce an exponential bias towards low-complexity functions, and how does that prior interact with feature learning beyond the NNGP regime?",
+        "caveat": "No abstract; a 50-minute research talk. MP4 verified; the CC transcript is not checked.",
+        "speaker": "Ard Louis",
+        "modules": [],
+        "workshop": ""
+      },
+      "notes_scope": "Venue page and recording verified; no transcript read.",
+      "resources": []
+    },
+    {
+      "id": "kitp-hearing17-olshausen",
+      "title": "Theory of efficient coding and inferential computation and their relevance to auditory neural representations (Tutorial)",
+      "url": "https://online.kitp.ucsb.edu/online/hearing17/olshausen/",
+      "published_at": "2017-07-19",
+      "duration_seconds": 6838,
+      "screening": {
+        "id": "kitp-hearing17-olshausen",
+        "index": 6,
+        "decision": "read_transcript",
+        "priority": "high",
+        "track": "main",
+        "pillars": [],
+        "theme": [
+          "Efficient/sparse coding and perception as inference (module 3)"
+        ],
+        "publisher_promise": "A tutorial on efficient-coding theory and inferential computation, and on what they predict for auditory representations.",
+        "screening_reason": "The co-originator of sparse coding gives a 114-minute tutorial with slides that runs from the efficient-coding principle to inference to predicted receptive fields. That is the derive-the-mechanism structure of the bar, with the theory part transferable beyond audition. Rubric: A✓ B✓ C✓ · D 1 · E 2 · F 1.",
+        "evidence": [],
+        "transcript_question": "How does he move from redundancy reduction to sparse generative-model inference, and which representational predictions follow?",
+        "caveat": "Applied to hearing; it may overlap his existing Natural Scene Statistics Pt 1-2 lectures. MP4 and slides verified.",
+        "speaker": "Bruno Olshausen",
+        "modules": [],
+        "workshop": ""
+      },
+      "notes_scope": "Venue page and recording verified; no transcript read.",
+      "resources": []
+    },
+    {
+      "id": "kitp-machine-c19-montanari",
+      "title": "Mean Field Concepts in Machine Learning",
+      "url": "https://online.kitp.ucsb.edu/online/machine-c19/montanari/",
+      "published_at": "2019-02-11",
+      "duration_seconds": 3694,
+      "screening": {
+        "id": "kitp-machine-c19-montanari",
+        "index": 7,
+        "decision": "read_transcript",
+        "priority": "high",
+        "track": "maths",
+        "pillars": [
+          "§33 Stat Physics; §6 High-Dim Probability; §8 Non-Convex Opt"
+        ],
+        "theme": [
+          "§33 Stat Physics; §6 High-Dim Probability; §8 Non-Convex Opt"
+        ],
+        "publisher_promise": "The opening talk of the conference surveys mean-field ideas in machine learning (no abstract).",
+        "screening_reason": "A leading architect of mean-field methods in high-dimensional statistics gives a broad survey talk rather than a single-result seminar. It should cover the toolkit (mean-field/Wasserstein dynamics of two-layer nets, AMP-style limits) from one vantage point. Rubric: A✓ B✓ C✓ · D 1 · E 2 · F 1.",
+        "evidence": [],
+        "transcript_question": "What exactly is the \"mean field\" limit in each setting he covers (distributional dynamics of two-layer nets versus high-dimensional asymptotics), and why does it become tractable?",
+        "caveat": "No abstract; it may overlap the \"Mean Field Descriptions of Two Layers\" talk already in the collection. MP4 verified.",
+        "speaker": "Andrea Montanari",
+        "modules": [],
+        "workshop": ""
+      },
+      "notes_scope": "Venue page and recording verified; no transcript read.",
+      "resources": []
+    },
+    {
+      "id": "kitp-memform-c18-zdeborova",
+      "title": "Statistical physics of learning a rule: Decades old story continued",
+      "url": "https://online.kitp.ucsb.edu/online/memform-c18/zdeborova/",
+      "published_at": "2018-02-15",
+      "duration_seconds": 3063,
+      "screening": {
+        "id": "kitp-memform-c18-zdeborova",
+        "index": 8,
+        "decision": "read_transcript",
+        "priority": "high",
+        "track": "maths",
+        "pillars": [
+          "§33 Stat Physics; §12 Learning Theory; §31 Prob Inference"
+        ],
+        "theme": [
+          "§33 Stat Physics; §12 Learning Theory; §31 Prob Inference"
+        ],
+        "publisher_promise": "Revisits the teacher-student statistical physics of learning a rule and its modern rigorous continuation (no abstract).",
+        "screening_reason": "An architect of the modern teacher-student theory retells the Gardner-era story and its rigorous revival with slides, so it is expository and historical by design. It is a good entry point to replica and AMP learning curves for §33/§12. Rubric: A✓ B✓ C✓ · D 1 · E 2 · F 1.",
+        "evidence": [],
+        "transcript_question": "How do Bayes-optimal learning curves and algorithmic thresholds for the perceptron/GLM arise from the replica/AMP analysis?",
+        "caveat": "Given at a memory-formation conference, so it may be pitched to non-specialists; it overlaps her later lectures already in the collection. MP4 and slides verified.",
+        "speaker": "Lenka Zdeborová",
+        "modules": [],
+        "workshop": ""
+      },
+      "notes_scope": "Venue page and recording verified; no transcript read.",
+      "resources": []
+    },
+    {
+      "id": "kitp-bblunch-mezard1",
+      "title": "Information Flow on Trees, Reconstruction...and Glasses",
+      "url": "https://online.kitp.ucsb.edu/online/bblunch/mezard1/",
+      "published_at": "2008-11-17",
+      "duration_seconds": 3466,
+      "screening": {
+        "id": "kitp-bblunch-mezard1",
+        "index": 9,
+        "decision": "read_transcript",
+        "priority": "high",
+        "track": "maths",
+        "pillars": [
+          "§33 Stat Physics; §31 Prob Inference; §9 Information Theory"
+        ],
+        "theme": [
+          "§33 Stat Physics; §31 Prob Inference; §9 Information Theory"
+        ],
+        "publisher_promise": "A blackboard lunch on how information propagates on trees, the reconstruction problem and its link to glass transitions (no abstract).",
+        "screening_reason": "The co-architect of the cavity method explains at the blackboard why tree reconstruction thresholds coincide with the dynamical glass transition, a central idea behind belief propagation and inference phase transitions. Rubric: A✓ B✓ C✓ · D 1 · E 2 · F 2.",
+        "evidence": [],
+        "transcript_question": "How does the reconstruction threshold on a tree map to the onset of replica symmetry breaking / clustering?",
+        "caveat": "Blackboard lunch talks are informal and pitched to a general KITP audience. MP4 verified (Mezard1_BBLunch_KITP.mp4).",
+        "speaker": "Marc Mézard",
+        "modules": [],
+        "workshop": ""
+      },
+      "notes_scope": "Venue page and recording verified; no transcript read.",
+      "resources": []
+    },
+    {
+      "id": "kitp-bblunch-sourlas",
+      "title": "Statistical Mechanics and Error Correcting Codes",
+      "url": "https://online.kitp.ucsb.edu/online/bblunch/sourlas/",
+      "published_at": "2004-09-13",
+      "duration_seconds": 4342,
+      "screening": {
+        "id": "kitp-bblunch-sourlas",
+        "index": 10,
+        "decision": "read_transcript",
+        "priority": "high",
+        "track": "maths",
+        "pillars": [
+          "§9 Information Theory; §33 Stat Physics"
+        ],
+        "theme": [
+          "§9 Information Theory; §33 Stat Physics"
+        ],
+        "publisher_promise": "A blackboard lunch on the correspondence between error-correcting codes and spin-glass statistical mechanics (no abstract).",
+        "screening_reason": "The originator of the spin-glass formulation of error-correcting codes (Sourlas 1989) explains the mapping, in which decoding is a ground-state or finite-temperature problem and the Shannon limit appears as a phase transition. It is a 72-minute blackboard talk bridging §9 and §33. Rubric: A✓ B✓ C✓ · D 1 · E 2 · F 2.",
+        "evidence": [],
+        "transcript_question": "How is MAP versus bitwise-optimal decoding matched to zero versus Nishimori temperature, and how does the Shannon bound emerge?",
+        "caveat": "No abstract; 2004 blackboard recording, so video quality may be poor. MP4 verified (Sourlas_BlackboardLunch_KITP.mp4).",
+        "speaker": "Nicolas Sourlas",
+        "modules": [],
+        "workshop": ""
+      },
+      "notes_scope": "Venue page and recording verified; no transcript read.",
+      "resources": []
+    }
+  ]
+}

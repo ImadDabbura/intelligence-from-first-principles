@@ -26,6 +26,9 @@ Metadata only, screened against the A–F originator rubric by parallel AI scree
 
 - [Giorgio Parisi: "Theoretical progresses in off-­‐equilibrium behaviour" - 1](https://www.youtube.com/watch?v=hZgAIU86kpM) — Giorgio Parisi · maths track §33 §8b
 
+- [Tensor network for machine learning applications 1](https://www.youtube.com/watch?v=T23Ld3O7xjs) — Edwin Miles Stoudenmire · Tier 1 gap fill
+- [Introduction to long range interactions: a theoretical physicist's view - Lecture 1](https://www.youtube.com/watch?v=qlBL5bIVLvI) — Julien Barre · Tier 1 gap fill
+
 ## Transcript reviews
 
 None yet.

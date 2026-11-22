@@ -199,6 +199,78 @@
       },
       "notes_scope": "Publisher metadata only; screened on the maths track by Codex; no transcript read.",
       "resources": []
+    },
+    {
+      "id": "T23Ld3O7xjs",
+      "title": "Tensor network for machine learning applications 1",
+      "url": "https://www.youtube.com/watch?v=T23Ld3O7xjs",
+      "published_at": "2024-04-10",
+      "duration_seconds": 5340,
+      "screening": {
+        "id": "T23Ld3O7xjs",
+        "index": 6,
+        "decision": "read_transcript",
+        "priority": "high",
+        "track": "maths",
+        "pillars": [
+          "§15",
+          "§2",
+          "§33",
+          "§16"
+        ],
+        "theme": [
+          "tensor networks",
+          "low-rank models"
+        ],
+        "publisher_promise": "Opens a lecture series on using tensor networks as machine-learning models.",
+        "screening_reason": "Stoudenmire co-originated tensor-network supervised learning; a 90-minute school lecture should teach the core objects (MPS, contraction, low-rank structure) and why they act as an inductive bias. Series: start with part 1. Rubric: A✓ B✗ C✓ · D 1 · E 2 · F 1.",
+        "evidence": [],
+        "transcript_question": "How do tensor-network factorizations define a learnable function class, and what does their entanglement/rank structure imply about inductive bias?",
+        "caveat": "publisher title and speaker line only, no abstract; speaker taken from description",
+        "speaker": "Edwin Miles Stoudenmire",
+        "modules": [
+          2,
+          3
+        ],
+        "workshop": "Joint ICTP-WE Heraeus School and Conference on Frontiers at the Intersection of Quantum Simulation and Machine Learning | (smr 3928)"
+      },
+      "notes_scope": "Publisher metadata only; screened on the guiding principles; no transcript read.",
+      "resources": []
+    },
+    {
+      "id": "qlBL5bIVLvI",
+      "title": "Introduction to long range interactions: a theoretical physicist's view - Lecture 1",
+      "url": "https://www.youtube.com/watch?v=qlBL5bIVLvI",
+      "published_at": "2017-11-30",
+      "duration_seconds": 3420,
+      "screening": {
+        "id": "qlBL5bIVLvI",
+        "index": 7,
+        "decision": "read_transcript",
+        "priority": "high",
+        "track": "maths",
+        "pillars": [
+          "§33",
+          "§25",
+          "§27"
+        ],
+        "theme": [
+          "long-range interactions",
+          "mean-field theory"
+        ],
+        "publisher_promise": "Opening lecture introducing the statistical mechanics of long-range interacting systems.",
+        "screening_reason": "A school lecture series on mean-field statistical mechanics, Vlasov dynamics and ensemble inequivalence; this toolkit underlies mean-field limits of neural-network training. Barré is a principal author in the area. Series: start with part 1. Rubric: A✓ B✓ C✓ · D 1 · E 2 · F 1.",
+        "evidence": [],
+        "transcript_question": "How do mean-field (Vlasov) limits, quasi-stationary states and ensemble inequivalence arise in long-range systems?",
+        "caveat": "publisher title and speaker line only, no abstract; speaker taken from description",
+        "speaker": "Julien Barre",
+        "modules": [
+          2
+        ],
+        "workshop": "Conference on Long-Range-Interacting Many Body Systems: from Atomic to Astrophysical Scales | (smr 2830)"
+      },
+      "notes_scope": "Publisher metadata only; screened on the guiding principles; no transcript read.",
+      "resources": []
     }
   ]
 }

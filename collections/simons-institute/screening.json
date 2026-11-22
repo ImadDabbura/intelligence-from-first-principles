@@ -1671,6 +1671,878 @@
       },
       "notes_scope": "Publisher metadata only; screened on the maths track by Codex; no transcript read.",
       "resources": []
+    },
+    {
+      "id": "ZW94kMFsHzc",
+      "title": "Logic and Probabilistic Circuits 1",
+      "url": "https://www.youtube.com/watch?v=ZW94kMFsHzc",
+      "published_at": "2023-08-23",
+      "duration_seconds": 3900,
+      "screening": {
+        "id": "ZW94kMFsHzc",
+        "index": 53,
+        "decision": "read_transcript",
+        "priority": "high",
+        "track": "main",
+        "pillars": [
+          "§20",
+          "§47",
+          "§31",
+          "§12b"
+        ],
+        "theme": [
+          "probabilistic circuits",
+          "knowledge compilation",
+          "tractable inference"
+        ],
+        "publisher_promise": "Opens a tutorial on logic and probabilistic circuits as a unifying language for tractable probabilistic inference.",
+        "screening_reason": "Van den Broeck is a principal architect of probabilistic circuits; the rare combination of logic, probability and complexity frames which queries are tractable by structural properties. Series: start with part 1. Rubrics: Timeless H · Generative M · Transfer H · Rare H · Worldview H · Primacy H · Density M",
+        "evidence": [],
+        "transcript_question": "Which structural properties (smoothness, decomposability, determinism) make which queries tractable, and how does this connect logic to probabilistic models?",
+        "caveat": "no abstract in metadata; judged from title, speaker and workshop only",
+        "speaker": "Guy Van den Broeck",
+        "modules": [],
+        "workshop": "Logic and Algorithms in Database Theory and AI Boot Camp"
+      },
+      "notes_scope": "Publisher metadata only; screened on the guiding principles; no transcript read.",
+      "resources": []
+    },
+    {
+      "id": "bGBh7pz7s6E",
+      "title": "Symmetry and Convergence",
+      "url": "https://www.youtube.com/watch?v=bGBh7pz7s6E",
+      "published_at": "2022-09-28",
+      "duration_seconds": 2880,
+      "screening": {
+        "id": "bGBh7pz7s6E",
+        "index": 54,
+        "decision": "read_transcript",
+        "priority": "high",
+        "track": "main",
+        "pillars": [
+          "§14b",
+          "§4",
+          "§46"
+        ],
+        "theme": [
+          "exchangeability",
+          "symmetry",
+          "invariance"
+        ],
+        "publisher_promise": "Relates probabilistic symmetry (invariance under group actions, exchangeability) to convergence of random structures.",
+        "screening_reason": "Orbanz treats exchangeability and invariance as a general theory linking group actions to limit theorems; timeless foundation for geometric deep learning and nonparametric modeling. Rubrics: Timeless H · Generative H · Transfer H · Rare H · Worldview H · Primacy H · Density M",
+        "evidence": [],
+        "transcript_question": "How do invariance under a group action and ergodic decompositions yield representation and convergence theorems, and what do they imply for invariant models?",
+        "caveat": null,
+        "speaker": "Peter Orbanz",
+        "modules": [],
+        "workshop": "Graph Limits, Nonparametric Models, and Estimation"
+      },
+      "notes_scope": "Publisher metadata only; screened on the guiding principles; no transcript read.",
+      "resources": []
+    },
+    {
+      "id": "NeTUt5TJOiY",
+      "title": "Tutorial: Implicit Bias I",
+      "url": "https://www.youtube.com/watch?v=NeTUt5TJOiY",
+      "published_at": "2022-08-03",
+      "duration_seconds": 4860,
+      "screening": {
+        "id": "NeTUt5TJOiY",
+        "index": 55,
+        "decision": "read_transcript",
+        "priority": "high",
+        "track": "main",
+        "pillars": [
+          "§12",
+          "§8",
+          "§7"
+        ],
+        "theme": [
+          "implicit bias",
+          "generalization"
+        ],
+        "publisher_promise": "Tutorial on how the optimization algorithm itself selects among interpolating solutions and thereby controls generalization.",
+        "screening_reason": "Srebro is a principal originator of the implicit-bias program; an 81-minute tutorial should derive the margin and norm biases of gradient methods and recast learning theory around the optimizer. Series: start with part I. Rubrics: Timeless H · Generative H · Transfer H · Rare M · Worldview H · Primacy H · Density H",
+        "evidence": [],
+        "transcript_question": "Which implicit-bias results (margin maximization, norm minimization, mirror-geometry dependence) are derived, and what general principle links the optimizer's geometry to the learned predictor?",
+        "caveat": "no abstract in metadata; judged from title, speaker and workshop only",
+        "speaker": "Nati Srebro",
+        "modules": [],
+        "workshop": "Deep Learning Theory Workshop and Summer School"
+      },
+      "notes_scope": "Publisher metadata only; screened on the guiding principles; no transcript read.",
+      "resources": []
+    },
+    {
+      "id": "D1goNoWi_3U",
+      "title": "Tutorial: Methods from Statistical Physics I",
+      "url": "https://www.youtube.com/watch?v=D1goNoWi_3U",
+      "published_at": "2022-08-04",
+      "duration_seconds": 3540,
+      "screening": {
+        "id": "D1goNoWi_3U",
+        "index": 56,
+        "decision": "read_transcript",
+        "priority": "high",
+        "track": "maths",
+        "pillars": [
+          "§33",
+          "§6",
+          "§10"
+        ],
+        "theme": [
+          "statistical physics",
+          "replica method",
+          "high-dimensional inference"
+        ],
+        "publisher_promise": "Opens a tutorial on statistical-physics methods (replica, cavity, message passing) for learning and inference.",
+        "screening_reason": "An architect-level exposition of the replica and cavity toolkit that underlies sharp asymptotics in learning theory; dense pillar material for §33 with wide transfer. Series: start with part I. Rubrics: Timeless H · Generative H · Transfer H · Rare H · Worldview H · Primacy M · Density H",
+        "evidence": [],
+        "transcript_question": "How are the replica/cavity predictions set up and justified, and how do they translate into AMP and rigorous interpolation proofs?",
+        "caveat": "no abstract in metadata; judged from title, speaker and workshop only",
+        "speaker": "Ahmed El Alaoui",
+        "modules": [],
+        "workshop": "Deep Learning Theory Workshop and Summer School"
+      },
+      "notes_scope": "Publisher metadata only; screened on the guiding principles; no transcript read.",
+      "resources": []
+    },
+    {
+      "id": "UjaoZE0GBpg",
+      "title": "Optimization on Manifolds",
+      "url": "https://www.youtube.com/watch?v=UjaoZE0GBpg",
+      "published_at": "2021-08-31",
+      "duration_seconds": 3960,
+      "screening": {
+        "id": "UjaoZE0GBpg",
+        "index": 57,
+        "decision": "read_transcript",
+        "priority": "high",
+        "track": "maths",
+        "pillars": [
+          "§28",
+          "§8",
+          "§2"
+        ],
+        "theme": [
+          "manifold optimization"
+        ],
+        "publisher_promise": "An introduction to optimization on smooth manifolds by the author of the standard text.",
+        "screening_reason": "Boumal's own exposition of the geometry (retractions, Riemannian gradients and Hessians) behind manifold optimization; primary source for a structural pillar with broad use in learning. Rubrics: Timeless H · Generative H · Transfer H · Rare M · Worldview M · Primacy H · Density H",
+        "evidence": [],
+        "transcript_question": "How are Riemannian gradients, Hessians and retractions built, and what global guarantees exist for non-convex problems on manifolds?",
+        "caveat": null,
+        "speaker": "Nicolas Boumal",
+        "modules": [],
+        "workshop": "Geometric Methods in Optimization and Sampling Boot Camp"
+      },
+      "notes_scope": "Publisher metadata only; screened on the guiding principles; no transcript read.",
+      "resources": []
+    },
+    {
+      "id": "xec_HTVw2L0",
+      "title": "Geodesic Convexity and Optimization",
+      "url": "https://www.youtube.com/watch?v=xec_HTVw2L0",
+      "published_at": "2021-08-31",
+      "duration_seconds": 4320,
+      "screening": {
+        "id": "xec_HTVw2L0",
+        "index": 58,
+        "decision": "read_transcript",
+        "priority": "high",
+        "track": "maths",
+        "pillars": [
+          "§28",
+          "§7",
+          "§8"
+        ],
+        "theme": [
+          "geodesic convexity",
+          "Riemannian optimization"
+        ],
+        "publisher_promise": "Introduces geodesic convexity and algorithms for optimization on Riemannian manifolds.",
+        "screening_reason": "Sra is a leading developer of geodesically convex optimization; the tutorial extends convex analysis beyond Euclidean space, with transfer to matrix means, invariant theory and statistics. Rubrics: Timeless H · Generative H · Transfer H · Rare M · Worldview M · Primacy H · Density M",
+        "evidence": [],
+        "transcript_question": "Which convex-analysis results survive on manifolds of nonpositive curvature, and what rates do Riemannian gradient methods achieve?",
+        "caveat": "no abstract in metadata; judged from title, speaker and workshop only",
+        "speaker": "Suvrit Sra",
+        "modules": [],
+        "workshop": "Geometric Methods in Optimization and Sampling Boot Camp"
+      },
+      "notes_scope": "Publisher metadata only; screened on the guiding principles; no transcript read.",
+      "resources": []
+    },
+    {
+      "id": "mE2qSOh9wCw",
+      "title": "Sampling Using Diffusion Processes, from Langevin to Schrödinger",
+      "url": "https://www.youtube.com/watch?v=mE2qSOh9wCw",
+      "published_at": "2021-09-01",
+      "duration_seconds": 4440,
+      "screening": {
+        "id": "mE2qSOh9wCw",
+        "index": 59,
+        "decision": "read_transcript",
+        "priority": "high",
+        "track": "maths",
+        "pillars": [
+          "§27",
+          "§32",
+          "§49",
+          "§48"
+        ],
+        "theme": [
+          "Langevin dynamics",
+          "Schrödinger bridge",
+          "stochastic control"
+        ],
+        "publisher_promise": "Traces sampling with diffusion processes from Langevin dynamics to Schrödinger bridges.",
+        "screening_reason": "Raginsky links SDE sampling, stochastic control and entropic transport, exactly the mathematics behind diffusion models, in a 74-minute tutorial; rare combination with lasting value. Rubrics: Timeless H · Generative H · Transfer H · Rare H · Worldview H · Primacy M · Density H",
+        "evidence": [],
+        "transcript_question": "How are Langevin sampling and Schrödinger-bridge/Föllmer constructions derived as control or entropy problems, and with what guarantees?",
+        "caveat": "no abstract in metadata; judged from title, speaker and workshop only",
+        "speaker": "Maxim Raginsky",
+        "modules": [],
+        "workshop": "Geometric Methods in Optimization and Sampling Boot Camp"
+      },
+      "notes_scope": "Publisher metadata only; screened on the guiding principles; no transcript read.",
+      "resources": []
+    },
+    {
+      "id": "KLbmcbpOCZs",
+      "title": "Computational Optimal Transport",
+      "url": "https://www.youtube.com/watch?v=KLbmcbpOCZs",
+      "published_at": "2021-09-02",
+      "duration_seconds": 4920,
+      "screening": {
+        "id": "KLbmcbpOCZs",
+        "index": 60,
+        "decision": "read_transcript",
+        "priority": "high",
+        "track": "maths",
+        "pillars": [
+          "§26",
+          "§7",
+          "§9"
+        ],
+        "theme": [
+          "computational optimal transport",
+          "Sinkhorn",
+          "entropic regularization"
+        ],
+        "publisher_promise": "Explains how optimal transport becomes computable through entropic regularization and related algorithms.",
+        "screening_reason": "Cuturi introduced Sinkhorn-based entropic OT; an 82-minute lecture from the originator on the bridge between transport, information geometry and learning. Rubrics: Timeless H · Generative H · Transfer H · Rare H · Worldview M · Primacy H · Density M",
+        "evidence": [],
+        "transcript_question": "How does entropic regularization change the OT problem's geometry and complexity, and what statistical and differentiability properties follow?",
+        "caveat": "no abstract in metadata; judged from title, speaker and workshop only",
+        "speaker": "Marco Cuturi",
+        "modules": [],
+        "workshop": "Geometric Methods in Optimization and Sampling Boot Camp"
+      },
+      "notes_scope": "Publisher metadata only; screened on the guiding principles; no transcript read.",
+      "resources": []
+    },
+    {
+      "id": "GwYXn5Q6BjU",
+      "title": "Gradient Flows and Optimal Transport in Discrete and Quantum Systems",
+      "url": "https://www.youtube.com/watch?v=GwYXn5Q6BjU",
+      "published_at": "2021-09-02",
+      "duration_seconds": 4740,
+      "screening": {
+        "id": "GwYXn5Q6BjU",
+        "index": 61,
+        "decision": "read_transcript",
+        "priority": "high",
+        "track": "maths",
+        "pillars": [
+          "§26",
+          "§25",
+          "§28",
+          "§33"
+        ],
+        "theme": [
+          "gradient flows",
+          "optimal transport",
+          "Markov chains"
+        ],
+        "publisher_promise": "Develops gradient-flow structure of optimal transport for discrete Markov chains and quantum systems.",
+        "screening_reason": "Maas originated the discrete Wasserstein metric that makes Markov chains gradient flows of entropy; a 79-minute exposition of a pillar with transfer to sampling and quantum information. Rubrics: Timeless H · Generative H · Transfer H · Rare H · Worldview H · Primacy H · Density M",
+        "evidence": [],
+        "transcript_question": "How is the discrete transport metric constructed so that heat flow becomes entropy gradient flow, and what curvature/functional inequalities follow?",
+        "caveat": "no abstract in metadata; judged from title, speaker and workshop only",
+        "speaker": "Jan Maas",
+        "modules": [],
+        "workshop": "Geometric Methods in Optimization and Sampling Boot Camp"
+      },
+      "notes_scope": "Publisher metadata only; screened on the guiding principles; no transcript read.",
+      "resources": []
+    },
+    {
+      "id": "Vxg3Ojn9YeI",
+      "title": "(Hidden) Symmetries of Computational Problems",
+      "url": "https://www.youtube.com/watch?v=Vxg3Ojn9YeI",
+      "published_at": "2021-09-04",
+      "duration_seconds": 4020,
+      "screening": {
+        "id": "Vxg3Ojn9YeI",
+        "index": 62,
+        "decision": "read_transcript",
+        "priority": "high",
+        "track": "main",
+        "pillars": [
+          "§14b",
+          "§12b",
+          "§7",
+          "§28"
+        ],
+        "theme": [
+          "symmetry",
+          "invariant theory",
+          "complexity"
+        ],
+        "publisher_promise": "Shows how hidden group symmetries of computational problems (invariant theory, scaling, moment polytopes) organize algorithms and hardness.",
+        "screening_reason": "Wigderson's own synthesis of non-commutative optimization and invariant theory is a rare stack (group theory + optimization + complexity) that changes how one sees symmetry in problems. Series: start with part 1. Rubrics: Timeless H · Generative H · Transfer H · Rare H · Worldview H · Primacy H · Density M",
+        "evidence": [],
+        "transcript_question": "How does the orbit-closure / moment-polytope view turn symmetry into geodesically convex optimization, and which problems does it unify?",
+        "caveat": "no abstract in metadata; judged from title, speaker and workshop only",
+        "speaker": "Avi Wigderson",
+        "modules": [],
+        "workshop": "Geometric Methods in Optimization and Sampling Boot Camp"
+      },
+      "notes_scope": "Publisher metadata only; screened on the guiding principles; no transcript read.",
+      "resources": []
+    },
+    {
+      "id": "NoLYzVd2ycg",
+      "title": "The Fine Line between Hard and Easy Inference Problems: The View from CSPs",
+      "url": "https://www.youtube.com/watch?v=NoLYzVd2ycg",
+      "published_at": "2021-08-24",
+      "duration_seconds": 3360,
+      "screening": {
+        "id": "NoLYzVd2ycg",
+        "index": 63,
+        "decision": "read_transcript",
+        "priority": "high",
+        "track": "main",
+        "pillars": [
+          "§12b",
+          "§10",
+          "§33"
+        ],
+        "theme": [
+          "computational-statistical gaps",
+          "CSPs",
+          "sum of squares"
+        ],
+        "publisher_promise": "Uses constraint satisfaction problems to explain where inference problems switch between easy and hard.",
+        "screening_reason": "Barak frames the computational-statistical gap through CSPs, SoS and low-degree reasoning, a worldview-level account of what makes inference tractable; long boot-camp tutorial. Series: start with part 1. Rubrics: Timeless H · Generative H · Transfer H · Rare H · Worldview H · Primacy H · Density M",
+        "evidence": [],
+        "transcript_question": "What unifying criteria (SoS degree, low-degree likelihood, CSP structure) predict the easy/hard boundary, and where do they fail?",
+        "caveat": "no abstract in metadata; judged from title, speaker and workshop only",
+        "speaker": "Boaz Barak",
+        "modules": [],
+        "workshop": "Computational Complexity of Statistical Inference Boot Camp"
+      },
+      "notes_scope": "Publisher metadata only; screened on the guiding principles; no transcript read.",
+      "resources": []
+    },
+    {
+      "id": "R4mw9VFe_Cc",
+      "title": "Optimal Iterative Algorithms for Problems With Random Data",
+      "url": "https://www.youtube.com/watch?v=R4mw9VFe_Cc",
+      "published_at": "2021-08-28",
+      "duration_seconds": 3180,
+      "screening": {
+        "id": "R4mw9VFe_Cc",
+        "index": 64,
+        "decision": "read_transcript",
+        "priority": "high",
+        "track": "main",
+        "pillars": [
+          "§10",
+          "§33",
+          "§8",
+          "§6"
+        ],
+        "theme": [
+          "approximate message passing",
+          "optimal algorithms",
+          "random data"
+        ],
+        "publisher_promise": "Explains which iterative algorithms are optimal for estimation and optimization problems with random data, via AMP.",
+        "screening_reason": "Montanari's boot-camp lecture on optimality of first-order/AMP algorithms connects statistical physics, optimization and statistics into one general theory; originator-level and broadly transferable. Series: start with part 1. Rubrics: Timeless H · Generative H · Transfer H · Rare H · Worldview H · Primacy H · Density H",
+        "evidence": [],
+        "transcript_question": "What is the class of general first-order methods, how is AMP shown optimal within it, and what does the state-evolution picture predict?",
+        "caveat": "no abstract in metadata; judged from title, speaker and workshop only",
+        "speaker": "Andrea Montanari",
+        "modules": [],
+        "workshop": "Computational Complexity of Statistical Inference Boot Camp"
+      },
+      "notes_scope": "Publisher metadata only; screened on the guiding principles; no transcript read.",
+      "resources": []
+    },
+    {
+      "id": "FNG8yTnZuOY",
+      "title": "The Interpolation Phase Transition in Neural Networks: Memorization and Generalization Lazy Training",
+      "url": "https://www.youtube.com/watch?v=FNG8yTnZuOY",
+      "published_at": "2020-09-09",
+      "duration_seconds": 4020,
+      "screening": {
+        "id": "FNG8yTnZuOY",
+        "index": 65,
+        "decision": "read_transcript",
+        "priority": "high",
+        "track": "main",
+        "pillars": [
+          "§12",
+          "§6",
+          "§29",
+          "§33"
+        ],
+        "theme": [
+          "interpolation",
+          "memorization",
+          "phase transitions"
+        ],
+        "publisher_promise": "Characterizes the interpolation threshold of overparametrized networks and how memorization relates to generalization.",
+        "screening_reason": "Montanari derives sharp thresholds for when networks can interpolate and what they generalize like there, a principled random-geometry account of overparametrization by a field architect. Rubrics: Timeless H · Generative H · Transfer H · Rare M · Worldview H · Primacy H · Density H",
+        "evidence": [],
+        "transcript_question": "What sharp thresholds for interpolation are derived, and what does the analysis say about the relation between memorization and generalization?",
+        "caveat": null,
+        "speaker": "Andrea Montanari",
+        "modules": [],
+        "workshop": "Probability, Geometry, and Computation in High Dimensions | Seminars"
+      },
+      "notes_scope": "Publisher metadata only; screened on the guiding principles; no transcript read.",
+      "resources": []
+    },
+    {
+      "id": "tTv6jW8RaXM",
+      "title": "Pedagogical Talk: Failure of Low-Degree Polynomials",
+      "url": "https://www.youtube.com/watch?v=tTv6jW8RaXM",
+      "published_at": "2020-09-24",
+      "duration_seconds": 4260,
+      "screening": {
+        "id": "tTv6jW8RaXM",
+        "index": 66,
+        "decision": "read_transcript",
+        "priority": "high",
+        "track": "main",
+        "pillars": [
+          "§12b",
+          "§10",
+          "§6"
+        ],
+        "theme": [
+          "low-degree method",
+          "statistical-computational gaps"
+        ],
+        "publisher_promise": "Teaches why low-degree polynomial algorithms fail on hard inference problems and what that implies about hardness.",
+        "screening_reason": "A pedagogical lecture by a principal developer of the low-degree polynomial method; the framework predicts computational hardness across inference problems and changes how one reads statistical-computational gaps. Rubrics: Timeless H · Generative H · Transfer H · Rare H · Worldview H · Primacy H · Density H",
+        "evidence": [],
+        "transcript_question": "What is the low-degree likelihood-ratio argument, why should failure of low-degree polynomials predict hardness, and where does the heuristic break?",
+        "caveat": "publisher title and speaker line only, no abstract",
+        "speaker": "Alex Wein",
+        "modules": [],
+        "workshop": "Computational Phase Transitions"
+      },
+      "notes_scope": "Publisher metadata only; screened on the guiding principles; no transcript read.",
+      "resources": []
+    },
+    {
+      "id": "feT4Pclxnws",
+      "title": "Pedagogical Talk: Frameworks for Information-Computation Tradeoffs",
+      "url": "https://www.youtube.com/watch?v=feT4Pclxnws",
+      "published_at": "2020-09-25",
+      "duration_seconds": 4320,
+      "screening": {
+        "id": "feT4Pclxnws",
+        "index": 67,
+        "decision": "read_transcript",
+        "priority": "high",
+        "track": "main",
+        "pillars": [
+          "§12b",
+          "§10",
+          "§33"
+        ],
+        "theme": [
+          "information-computation tradeoffs",
+          "SoS"
+        ],
+        "publisher_promise": "Surveys the frameworks used to predict information-computation tradeoffs in statistical inference.",
+        "screening_reason": "A pedagogical survey by a leading researcher comparing SoS, low-degree, statistical-query and physics frameworks for computational limits of inference; high transfer and worldview. Rubrics: Timeless H · Generative H · Transfer H · Rare H · Worldview H · Primacy H · Density H",
+        "evidence": [],
+        "transcript_question": "How do the SoS, low-degree, SQ and overlap-gap frameworks relate, and when do they disagree?",
+        "caveat": "publisher title and speaker line only, no abstract",
+        "speaker": "Tselil Schramm",
+        "modules": [],
+        "workshop": "Computational Phase Transitions"
+      },
+      "notes_scope": "Publisher metadata only; screened on the guiding principles; no transcript read.",
+      "resources": []
+    },
+    {
+      "id": "XkfV0wv8GUQ",
+      "title": "Planning and Markov Decision Processes Part 1 (reupload)",
+      "url": "https://www.youtube.com/watch?v=XkfV0wv8GUQ",
+      "published_at": "2020-09-04",
+      "duration_seconds": 4620,
+      "screening": {
+        "id": "XkfV0wv8GUQ",
+        "index": 68,
+        "decision": "read_transcript",
+        "priority": "high",
+        "track": "main",
+        "pillars": [
+          "§18",
+          "§49",
+          "§12b"
+        ],
+        "theme": [
+          "MDPs",
+          "planning complexity"
+        ],
+        "publisher_promise": "Lectures on planning in Markov decision processes, part 1.",
+        "screening_reason": "Szepesvari (with Mengdi Wang), co-author of foundational RL theory, gives the boot-camp lecture on planning in MDPs: dynamic programming, value iteration complexity and lower bounds; timeless base for RL theory. Rubrics: Timeless H · Generative H · Transfer H · Rare M · Worldview M · Primacy H · Density H",
+        "evidence": [],
+        "transcript_question": "What is the computational complexity of planning in MDPs, and which contraction and lower-bound arguments underlie it?",
+        "caveat": "publisher title and speaker line only, no abstract",
+        "speaker": "Csaba Szepesvari & Mengdi Wang",
+        "modules": [],
+        "workshop": "Theory of Reinforcement Learning Boot Camp"
+      },
+      "notes_scope": "Publisher metadata only; screened on the guiding principles; no transcript read.",
+      "resources": []
+    },
+    {
+      "id": "Ntl_WNW8yGc",
+      "title": "Generalization I",
+      "url": "https://www.youtube.com/watch?v=Ntl_WNW8yGc",
+      "published_at": "2019-05-28",
+      "duration_seconds": 4620,
+      "screening": {
+        "id": "Ntl_WNW8yGc",
+        "index": 69,
+        "decision": "read_transcript",
+        "priority": "high",
+        "track": "main",
+        "pillars": [
+          "§12",
+          "§34",
+          "§5"
+        ],
+        "theme": [
+          "generalization",
+          "uniform convergence"
+        ],
+        "publisher_promise": "Opens a lecture series on generalization theory for deep networks.",
+        "screening_reason": "Bartlett and Rakhlin, authors of the Rademacher-complexity foundations, open the deep learning boot camp on generalization; timeless tools and a principled view of why overparameterised nets generalise. Rubrics: Timeless H · Generative H · Transfer H · Rare M · Worldview M · Primacy H · Density H",
+        "evidence": [],
+        "transcript_question": "How do Rademacher complexity and margin bounds account for generalization, and where do they fail for deep nets?",
+        "caveat": "publisher title and speaker line only, no abstract",
+        "speaker": "Peter Bartlett and Sasha Rakhlin",
+        "modules": [],
+        "workshop": "Deep Learning Boot Camp"
+      },
+      "notes_scope": "Publisher metadata only; screened on the guiding principles; no transcript read.",
+      "resources": []
+    },
+    {
+      "id": "KU6IaE37B9o",
+      "title": "Approximation Power",
+      "url": "https://www.youtube.com/watch?v=KU6IaE37B9o",
+      "published_at": "2019-05-28",
+      "duration_seconds": 4440,
+      "screening": {
+        "id": "KU6IaE37B9o",
+        "index": 70,
+        "decision": "read_transcript",
+        "priority": "high",
+        "track": "main",
+        "pillars": [
+          "§12",
+          "§16",
+          "§14"
+        ],
+        "theme": [
+          "approximation theory",
+          "depth separation"
+        ],
+        "publisher_promise": "Lectures on the approximation power of neural networks.",
+        "screening_reason": "Telgarsky, originator of depth-separation results, lectures on what neural networks can represent; principles of expressivity that will outlast current models. Rubrics: Timeless H · Generative H · Transfer H · Rare M · Worldview H · Primacy H · Density H",
+        "evidence": [],
+        "transcript_question": "What do depth-separation and universal-approximation proofs say about why depth matters?",
+        "caveat": "publisher title and speaker line only, no abstract",
+        "speaker": "Matus Telgarsky",
+        "modules": [],
+        "workshop": "Deep Learning Boot Camp"
+      },
+      "notes_scope": "Publisher metadata only; screened on the guiding principles; no transcript read.",
+      "resources": []
+    },
+    {
+      "id": "PNBFUV-ZetY",
+      "title": "Polar Codes I",
+      "url": "https://www.youtube.com/watch?v=PNBFUV-ZetY",
+      "published_at": "2015-01-20",
+      "duration_seconds": 4140,
+      "screening": {
+        "id": "PNBFUV-ZetY",
+        "index": 71,
+        "decision": "read_transcript",
+        "priority": "high",
+        "track": "maths",
+        "pillars": [
+          "§9",
+          "§4"
+        ],
+        "theme": [
+          "polar codes",
+          "channel polarization"
+        ],
+        "publisher_promise": "Lectures on polar codes by their inventor, part 1.",
+        "screening_reason": "Arikan, inventor of polar codes, explains channel polarization himself; a timeless constructive capacity-achieving idea with a martingale core. Rubrics: Timeless H · Generative H · Transfer M · Rare H · Worldview M · Primacy H · Density H",
+        "evidence": [],
+        "transcript_question": "How does channel polarization arise, and why does the recursive construction achieve capacity?",
+        "caveat": "publisher title and speaker line only, no abstract",
+        "speaker": "Erdal Arikan",
+        "modules": [],
+        "workshop": "Information Theory Boot Camp"
+      },
+      "notes_scope": "Publisher metadata only; screened on the guiding principles; no transcript read.",
+      "resources": []
+    },
+    {
+      "id": "AS2vX_9kVpY",
+      "title": "Tensor Methods for Learning Latent Variable Models: Theory and Practice",
+      "url": "https://www.youtube.com/watch?v=AS2vX_9kVpY",
+      "published_at": "2014-11-03",
+      "duration_seconds": 3120,
+      "screening": {
+        "id": "AS2vX_9kVpY",
+        "index": 72,
+        "decision": "read_transcript",
+        "priority": "high",
+        "track": "main",
+        "pillars": [
+          "§15",
+          "§10",
+          "§20"
+        ],
+        "theme": [
+          "tensor methods",
+          "method of moments"
+        ],
+        "publisher_promise": "Presents tensor methods for learning latent variable models in theory and practice.",
+        "screening_reason": "Anandkumar, co-originator of tensor decomposition for latent variable models, gives a unifying view of learning mixtures, topic models and HMMs by method of moments; strong transfer. Rubrics: Timeless H · Generative H · Transfer H · Rare M · Worldview H · Primacy H · Density H",
+        "evidence": [],
+        "transcript_question": "How does a tensor decomposition of low-order moments identify latent variable models, and under what conditions?",
+        "caveat": "publisher title and speaker line only, no abstract",
+        "speaker": "Animashree Anandkumar",
+        "modules": [],
+        "workshop": "Workshop on Spectral Algorithms: From Theory to Practice"
+      },
+      "notes_scope": "Publisher metadata only; screened on the guiding principles; no transcript read.",
+      "resources": []
+    },
+    {
+      "id": "qXVE8rKBlHQ",
+      "title": "Analysis and Design of Optimization Algorithms via Integral Quadratic Constraints",
+      "url": "https://www.youtube.com/watch?v=qXVE8rKBlHQ",
+      "published_at": "2014-09-29",
+      "duration_seconds": 4200,
+      "screening": {
+        "id": "qXVE8rKBlHQ",
+        "index": 73,
+        "decision": "read_transcript",
+        "priority": "high",
+        "track": "main",
+        "pillars": [
+          "§7",
+          "§49",
+          "§8"
+        ],
+        "theme": [
+          "optimisation analysis",
+          "IQCs"
+        ],
+        "publisher_promise": "Analyses and designs optimisation algorithms using integral quadratic constraints from robust control.",
+        "screening_reason": "Recht's integral-quadratic-constraint framework treats optimisation algorithms as feedback systems, letting one derive convergence rates by solving small SDPs; rare control-optimisation stack with strong worldview. Rubrics: Timeless H · Generative H · Transfer H · Rare H · Worldview H · Primacy H · Density H",
+        "evidence": [],
+        "transcript_question": "How does modelling an optimiser as a feedback loop with IQCs give convergence proofs, and what does it reveal about Nesterov's method?",
+        "caveat": "publisher title and speaker line only, no abstract",
+        "speaker": "Benjamin Recht",
+        "modules": [],
+        "workshop": "Workshop on Semidefinite Optimization, Approximation and Applications"
+      },
+      "notes_scope": "Publisher metadata only; screened on the guiding principles; no transcript read.",
+      "resources": []
+    },
+    {
+      "id": "gI3K6C0vtLI",
+      "title": "Adventures in Linear Algebra++ and Unsupervised Learning",
+      "url": "https://www.youtube.com/watch?v=gI3K6C0vtLI",
+      "published_at": "2014-09-29",
+      "duration_seconds": 3600,
+      "screening": {
+        "id": "gI3K6C0vtLI",
+        "index": 74,
+        "decision": "read_transcript",
+        "priority": "high",
+        "track": "main",
+        "pillars": [
+          "§15",
+          "§16",
+          "§2"
+        ],
+        "theme": [
+          "unsupervised learning",
+          "provable algorithms"
+        ],
+        "publisher_promise": "Argues for provable unsupervised learning through extensions of linear algebra.",
+        "screening_reason": "Arora's agenda of \"linear algebra++\" (NMF, tensors, sparse coding) for provable unsupervised learning; a principled worldview by a leader in the field. Rubrics: Timeless H · Generative H · Transfer H · Rare H · Worldview H · Primacy H · Density M",
+        "evidence": [],
+        "transcript_question": "What is linear algebra++, and which unsupervised-learning problems become provably tractable under natural assumptions?",
+        "caveat": "publisher title and speaker line only, no abstract",
+        "speaker": "Sanjeev Arora",
+        "modules": [],
+        "workshop": "Workshop on Semidefinite Optimization, Approximation and Applications"
+      },
+      "notes_scope": "Publisher metadata only; screened on the guiding principles; no transcript read.",
+      "resources": []
+    },
+    {
+      "id": "01AqmIU9Su4",
+      "title": "Spectral Graph Theory I: Introduction to Spectral Graph Theory",
+      "url": "https://www.youtube.com/watch?v=01AqmIU9Su4",
+      "published_at": "2014-09-06",
+      "duration_seconds": 3780,
+      "screening": {
+        "id": "01AqmIU9Su4",
+        "index": 75,
+        "decision": "read_transcript",
+        "priority": "high",
+        "track": "maths",
+        "pillars": [
+          "§44",
+          "§2",
+          "§12b"
+        ],
+        "theme": [
+          "spectral graph theory",
+          "Cheeger inequality"
+        ],
+        "publisher_promise": "Introduces spectral graph theory.",
+        "screening_reason": "Trevisan, one of the clearest expositors of spectral graph theory, opens the boot camp: Laplacian eigenvalues, Cheeger inequality, and why spectra encode cuts; durable foundation for graph learning. Rubrics: Timeless H · Generative H · Transfer H · Rare M · Worldview M · Primacy H · Density H",
+        "evidence": [],
+        "transcript_question": "How do Laplacian eigenvalues relate to graph expansion via Cheeger's inequality, and how is it proved?",
+        "caveat": "publisher title and speaker line only, no abstract",
+        "speaker": "Luca Trevisan",
+        "modules": [],
+        "workshop": "Algorithmic Spectral Graph Theory Boot Camp"
+      },
+      "notes_scope": "Publisher metadata only; screened on the guiding principles; no transcript read.",
+      "resources": []
+    },
+    {
+      "id": "YJgCXFj6A0s",
+      "title": "Graph Sparsification III: Interlacing Polynomials and Ramanujan Graphs of Every Degree",
+      "url": "https://www.youtube.com/watch?v=YJgCXFj6A0s",
+      "published_at": "2014-09-06",
+      "duration_seconds": 3780,
+      "screening": {
+        "id": "YJgCXFj6A0s",
+        "index": 76,
+        "decision": "read_transcript",
+        "priority": "high",
+        "track": "maths",
+        "pillars": [
+          "§29",
+          "§44",
+          "§45"
+        ],
+        "theme": [
+          "interlacing polynomials",
+          "Ramanujan graphs"
+        ],
+        "publisher_promise": "Explains interlacing polynomials and the construction of Ramanujan graphs of every degree.",
+        "screening_reason": "Srivastava presents the method of interlacing polynomials (Marcus-Spielman-Srivastava) behind Ramanujan graphs of every degree and Kadison-Singer; originator's exposition of a rare, generative technique. Rubrics: Timeless H · Generative H · Transfer H · Rare H · Worldview H · Primacy H · Density H",
+        "evidence": [],
+        "transcript_question": "How does the method of interlacing families work, and why does it produce Ramanujan bipartite graphs of every degree?",
+        "caveat": "publisher title and speaker line only, no abstract",
+        "speaker": "Nikhil Srivastava",
+        "modules": [],
+        "workshop": "Algorithmic Spectral Graph Theory Boot Camp"
+      },
+      "notes_scope": "Publisher metadata only; screened on the guiding principles; no transcript read.",
+      "resources": []
+    },
+    {
+      "id": "oOr7N1zsNLI",
+      "title": "Semidefinite Programming Hierarchies I: Convex Relaxations for Hard Optimization Problems",
+      "url": "https://www.youtube.com/watch?v=oOr7N1zsNLI",
+      "published_at": "2014-09-06",
+      "duration_seconds": 4080,
+      "screening": {
+        "id": "oOr7N1zsNLI",
+        "index": 77,
+        "decision": "read_transcript",
+        "priority": "high",
+        "track": "maths",
+        "pillars": [
+          "§7",
+          "§12b",
+          "§15"
+        ],
+        "theme": [
+          "sum of squares",
+          "convex relaxation"
+        ],
+        "publisher_promise": "Introduces semidefinite programming hierarchies as convex relaxations for hard problems.",
+        "screening_reason": "Steurer, a principal developer of the SoS method, teaches convex relaxations for hard optimisation; SoS became a unifying lens for algorithms and hardness in learning. Rubrics: Timeless H · Generative H · Transfer H · Rare M · Worldview H · Primacy H · Density H",
+        "evidence": [],
+        "transcript_question": "How do SoS relaxations work as proof systems, and why are they the strongest known for many problems?",
+        "caveat": "publisher title and speaker line only, no abstract",
+        "speaker": "David Steurer",
+        "modules": [],
+        "workshop": "Algorithmic Spectral Graph Theory Boot Camp"
+      },
+      "notes_scope": "Publisher metadata only; screened on the guiding principles; no transcript read.",
+      "resources": []
+    },
+    {
+      "id": "z8xSKIlmQf8",
+      "title": "Discrete Ricci Curvature via Convexity of the Entropy",
+      "url": "https://www.youtube.com/watch?v=z8xSKIlmQf8",
+      "published_at": "2013-10-09",
+      "duration_seconds": 3360,
+      "screening": {
+        "id": "z8xSKIlmQf8",
+        "index": 78,
+        "decision": "read_transcript",
+        "priority": "high",
+        "track": "maths",
+        "pillars": [
+          "§26",
+          "§28",
+          "§32"
+        ],
+        "theme": [
+          "discrete Ricci curvature",
+          "optimal transport"
+        ],
+        "publisher_promise": "Defines Ricci curvature for discrete spaces through convexity of entropy.",
+        "screening_reason": "Maas presents his own notion of discrete Ricci curvature defined by entropy convexity on a transport metric for Markov chains; rare stack of optimal transport, geometry and Markov chains with strong worldview. Rubrics: Timeless H · Generative H · Transfer H · Rare H · Worldview H · Primacy H · Density H",
+        "evidence": [],
+        "transcript_question": "How does the discrete transport metric make entropy convex along geodesics, and what functional inequalities follow from the resulting curvature bound?",
+        "caveat": "publisher title and speaker line only, no abstract",
+        "speaker": "Jan Maas",
+        "modules": [],
+        "workshop": "Workshop on Functional Inequalities in Discrete Spaces with Applications"
+      },
+      "notes_scope": "Publisher metadata only; screened on the guiding principles; no transcript read.",
+      "resources": []
     }
   ]
 }

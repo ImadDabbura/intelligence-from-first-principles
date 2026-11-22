@@ -1,0 +1,195 @@
+{
+  "methodology": {
+    "bar": "Originator of a unifying principle derives its consequences densely enough to change a mental model. Must pass A–C; D–F scored 0–2 for ranking.",
+    "rubric": {
+      "A": "Originator or primary architect",
+      "B": "Unifying principle",
+      "C": "Derivation shown",
+      "D": "Contested or falsifiable",
+      "E": "Density",
+      "F": "Model update beyond the existing collection"
+    },
+    "decisions": "Same as MLST: read_transcript is not a watch recommendation."
+  },
+  "episodes": [
+    {
+      "id": "PWXcG9OmhLU",
+      "title": "The AI Scientific Revolution Will Be Driven by Open-Ended and AI-Generating Algorithms",
+      "url": "https://www.youtube.com/watch?v=PWXcG9OmhLU",
+      "published_at": "2026-10-26",
+      "duration_seconds": 3360,
+      "screening": {
+        "id": "PWXcG9OmhLU",
+        "index": 0,
+        "decision": "read_transcript",
+        "priority": "high",
+        "track": "main",
+        "pillars": [],
+        "theme": [
+          "open-endedness",
+          "ai-generating algorithms",
+          "self-improvement"
+        ],
+        "publisher_promise": "Clune introduces quality-diversity, open-ended and AI-generating algorithms and surveys how foundation models now power them, from POET to the Darwin Gödel Machine and The AI Scientist.",
+        "screening_reason": "The originator of the AI-generating-algorithms programme lays out its organising principle and the lineage of systems built on it; central to module 8. Rubric: A✓ B✓ C✓ · D 2 · E 1 · F 1.",
+        "evidence": [],
+        "transcript_question": "Does Clune state a principle (interestingness plus stepping stones plus archives) that predicts when open-ended search keeps producing novelty, or is it a tour of systems?",
+        "caveat": "publisher abstract only; speaker from description; risk of a systems tour rather than derivation",
+        "speaker": "Jeff Clune",
+        "modules": [
+          8,
+          7
+        ],
+        "workshop": "Kempner Seminar Series 2026-2027"
+      },
+      "notes_scope": "Publisher metadata only; screened on the guiding principles; no transcript read.",
+      "resources": []
+    },
+    {
+      "id": "l5ez0eufakU",
+      "title": "From Connectome to Computation with Anthony Zador",
+      "url": "https://www.youtube.com/watch?v=l5ez0eufakU",
+      "published_at": "2026-10-14",
+      "duration_seconds": 2400,
+      "screening": {
+        "id": "l5ez0eufakU",
+        "index": 1,
+        "decision": "read_transcript",
+        "priority": "high",
+        "track": "main",
+        "pillars": [],
+        "theme": [
+          "genomic bottleneck",
+          "innate priors",
+          "evolution as learning"
+        ],
+        "publisher_promise": "Zador argues that innate brain wiring must be compressed through a genomic bottleneck, and presents theory and experiments on the rules that compression imposes.",
+        "screening_reason": "The originator of the genomic-bottleneck view gives a unifying account of where inductive bias comes from: compression of connectivity across generations as a regulariser. Rubric: A✓ B✓ C✓ · D 2 · E 1 · F 2.",
+        "evidence": [],
+        "transcript_question": "What concrete compression rule does the genomic bottleneck imply, and does it predict which wiring is innate versus learned?",
+        "caveat": "publisher abstract only; speaker from description; 40-minute workshop talk",
+        "speaker": "Anthony Zador",
+        "modules": [
+          2,
+          9,
+          8
+        ],
+        "workshop": "Learning Dynamics in Natural and Artificial Intelligence Workshop"
+      },
+      "notes_scope": "Publisher metadata only; screened on the guiding principles; no transcript read.",
+      "resources": []
+    },
+    {
+      "id": "hECIITnOGho",
+      "title": "Generalization in Attention-Based Models with Lenka Zdeborová",
+      "url": "https://www.youtube.com/watch?v=hECIITnOGho",
+      "published_at": "2026-03-09",
+      "duration_seconds": 4140,
+      "screening": {
+        "id": "hECIITnOGho",
+        "index": 2,
+        "decision": "read_transcript",
+        "priority": "high",
+        "track": "main",
+        "pillars": [
+          "§33",
+          "§6",
+          "§12"
+        ],
+        "theme": [
+          "statistical physics of learning",
+          "attention",
+          "solvable models"
+        ],
+        "publisher_promise": "Zdeborová extends the statistical-physics approach from perceptrons to attention-based sequence models, using solvable high-dimensional models to obtain generalization, scaling and spectral predictions.",
+        "screening_reason": "A principal architect of the statistical physics of learning applies the full programme (phase transitions, optimal versus algorithmic limits) to transformers with analytic predictions. Rubric: A✓ B✓ C✓ · D 2 · E 2 · F 2.",
+        "evidence": [],
+        "transcript_question": "Which phase transitions and algorithmic gaps does the solvable attention model predict, and which survive in real transformers?",
+        "caveat": "publisher abstract only; speaker from description",
+        "speaker": "Lenka Zdeborová",
+        "modules": [
+          2,
+          4,
+          3
+        ],
+        "workshop": "Kempner Seminar Series 2025-2026"
+      },
+      "notes_scope": "Publisher metadata only; screened on the guiding principles; no transcript read.",
+      "resources": []
+    },
+    {
+      "id": "5OycfT4WqAI",
+      "title": "Computing with Neural Manifolds with SueYeon Chung",
+      "url": "https://www.youtube.com/watch?v=5OycfT4WqAI",
+      "published_at": "2025-06-06",
+      "duration_seconds": 2460,
+      "screening": {
+        "id": "5OycfT4WqAI",
+        "index": 3,
+        "decision": "read_transcript",
+        "priority": "high",
+        "track": "main",
+        "pillars": [
+          "§33",
+          "§6",
+          "§16"
+        ],
+        "theme": [
+          "neural manifolds",
+          "manifold capacity",
+          "representation geometry"
+        ],
+        "publisher_promise": "Chung presents a multi-scale theory of computation in neural populations based on the geometry of neural manifolds in brains and artificial networks.",
+        "screening_reason": "The originator of manifold capacity theory derives how representational geometry (radius, dimension, correlations) determines linear separability, a unifying lens for modules 3 and 2. Rubric: A✓ B✓ C✓ · D 1 · E 2 · F 2.",
+        "evidence": [],
+        "transcript_question": "How do manifold radius, dimension and centre correlations quantitatively set classification capacity, and how is that used to compare brains and networks?",
+        "caveat": "publisher abstract only; speaker from description; 41-minute symposium talk",
+        "speaker": "SueYeon Chung",
+        "modules": [
+          3,
+          2,
+          9
+        ],
+        "workshop": "Frontiers in Neuro AI Symposium 2025"
+      },
+      "notes_scope": "Publisher metadata only; screened on the guiding principles; no transcript read.",
+      "resources": []
+    },
+    {
+      "id": "rpRJ4-8WzMY",
+      "title": "The Geometry of Abstraction in Multiple Brain Areas in Multiple Species with Stefano Fusi",
+      "url": "https://www.youtube.com/watch?v=rpRJ4-8WzMY",
+      "published_at": "2025-01-21",
+      "duration_seconds": 4260,
+      "screening": {
+        "id": "rpRJ4-8WzMY",
+        "index": 4,
+        "decision": "read_transcript",
+        "priority": "high",
+        "track": "main",
+        "pillars": [
+          "§16"
+        ],
+        "theme": [
+          "abstraction",
+          "representational geometry",
+          "mixed selectivity"
+        ],
+        "publisher_promise": "Fusi shows task variables are encoded in approximately orthogonal subspaces across brain areas and species, a geometry that supports abstraction and generalisation by linear readout.",
+        "screening_reason": "The originator of the mixed-selectivity and geometry-of-abstraction programme states a unifying principle (disentangled geometry yields linear generalisation) with measurable predictions. Rubric: A✓ B✓ C✓ · D 2 · E 2 · F 2.",
+        "evidence": [],
+        "transcript_question": "How does cross-condition generalisation measure abstraction, and what learning dynamics produce such geometry?",
+        "caveat": "publisher abstract only; speaker from description",
+        "speaker": "Stefano Fusi",
+        "modules": [
+          3,
+          2,
+          9
+        ],
+        "workshop": "Kempner Seminar Series 2024-2025"
+      },
+      "notes_scope": "Publisher metadata only; screened on the guiding principles; no transcript read.",
+      "resources": []
+    }
+  ]
+}

@@ -382,10 +382,30 @@
         "first": null,
         "last": null
       }
+    },
+    {
+      "id": "originators",
+      "name": "Originators by school",
+      "short_name": "Originators",
+      "url": "https://github.com/ImadDabbura/intelligence-from-first-principles",
+      "format": "Mixed",
+      "path": "collections/originators",
+      "snapshot_date": "2026-11-21",
+      "coverage_note": "People-first search: 224 expositions by 89 originators across 20 schools of thought on learning and intelligence. Second-generation figures and further schools are pending.",
+      "screened": 224,
+      "reviewed": 0,
+      "inventory_range": {
+        "first": "1984-11-01",
+        "last": "2026-11-06"
+      },
+      "reviewed_range": {
+        "first": null,
+        "last": null
+      }
     }
   ],
   "summary": {
-    "screened": 632,
+    "screened": 856,
     "reviewed": 131,
     "decisions": {
       "worthwhile": 60,

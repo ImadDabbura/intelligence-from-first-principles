@@ -19,6 +19,11 @@ function setup(data, hash = '') {
   return {nodes, run: code => vm.runInContext(code, ctx)};
 }
 const {nodes, run} = setup(payload);
+assert(nodes['bl-count'].textContent.startsWith(`${payload.backlog.length} of ${payload.backlog.length}`), 'backlog lists every high-priority candidate');
+assert(payload.backlog.every(b => !b.key.startsWith('mlst:') || true));
+run("document.getElementById('bl-track').value='maths';drawBacklog()");
+assert(nodes['bl-count'].textContent.startsWith(`${payload.backlog.filter(b=>b.track==='maths').length} of`), 'maths filter');
+run("document.getElementById('bl-track').value='all';drawBacklog()");
 assert(nodes.resultcount.textContent.startsWith(`${payload.episodes.length} of ${payload.episodes.length}`));
 for (const e of payload.episodes) {
   run(`pick(${JSON.stringify(e.key)})`);

@@ -47,7 +47,7 @@ def publication_range(entries):
 def build_shared(root=ROOT):
     registry = load(root / 'collections.json')
     assert registry and len({c['id'] for c in registry}) == len(registry), 'Missing or duplicate sources'
-    episodes, collections, screened = [], [], []
+    episodes, collections, screened, backlog = [], [], [], []
     for collection in registry:
         cid = collection['id']
         assert re.fullmatch(r'[a-z0-9]+(?:-[a-z0-9]+)*', cid), cid
@@ -88,6 +88,20 @@ def build_shared(root=ROOT):
         collections.append(dict(collection, screened=len(screen), reviewed=len(metadata),
                                 inventory_range=publication_range(screen), reviewed_range=publication_range(metadata)))
         screened.extend(screen)
+        reviewed_ids = {e['id'] for e in metadata}
+        for item in screen:
+            sc = item.get('screening') or {}
+            if sc.get('priority') != 'high' or item['id'] in reviewed_ids:
+                continue
+            web(item['url'])
+            backlog.append({
+                'key': f"{cid}:{item['id']}", 'title': item.get('title') or '', 'url': item['url'],
+                'published_at': item.get('published_at'), 'duration_seconds': item.get('duration_seconds'),
+                'source': collection['name'], 'source_id': cid, 'format': sc.get('format') or collection['format'],
+                'speaker': sc.get('speaker') or sc.get('person') or '', 'school': sc.get('school') or '',
+                'pillars': sc.get('pillars') or [], 'track': sc.get('track') or 'main',
+                'question': sc.get('transcript_question') or '', 'reason': sc.get('screening_reason') or '',
+                'caveat': sc.get('caveat') or ''})
 
     by_key = {e['key']: e for e in episodes}
     assert len(by_key) == len(episodes), 'Duplicate global episode keys'
@@ -105,7 +119,7 @@ def build_shared(root=ROOT):
         'summary': {'screened': len(screened), 'reviewed': len(episodes),
                     'decisions': dict(Counter(e['decision'] for e in episodes)),
                     'inventory_range': publication_range(screened), 'reviewed_range': publication_range(episodes)},
-        'episodes': episodes, 'roadmap': roadmap,
+        'episodes': episodes, 'roadmap': roadmap, 'backlog': backlog,
     }
     template = (root / 'scripts/report-template.html').read_text(encoding='utf-8')
     assert template.count('__PAYLOAD__') == 1

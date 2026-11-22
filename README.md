@@ -8,7 +8,7 @@ This collection is part of that work. I use podcasts, lectures and courses to fi
 
 ## One report, across sources
 
-I keep podcasts, lectures and courses in one [shared report](index.html), with a common learning path, search and source filter. Each episode identifies its publisher and format. Source-specific data stays in `collections/`; the report combines it.
+I keep podcasts, lectures and courses in one [shared report](index.html), with a common learning path, search and source filter. Its **Backlog** tab lists every high-priority candidate not yet reviewed, filterable by source, track (main screen, maths track, originators by school), school of thought or Compass pillar. Each episode identifies its publisher and format. Source-specific data stays in `collections/`; the report combines it.
 
 MLST is the first collection. Its channel snapshot was taken on **26 October 2026**:
 

@@ -659,6 +659,503 @@
       },
       "notes_scope": "Publisher metadata only; screened on the maths track by Codex; no transcript read.",
       "resources": []
+    },
+    {
+      "id": "1-IVBdXDbW0",
+      "title": "The Blessings of Multiple Causes - David M. Blei",
+      "url": "https://www.youtube.com/watch?v=1-IVBdXDbW0",
+      "published_at": "2020-01-21",
+      "duration_seconds": 4020,
+      "screening": {
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "causal inference",
+          "deconfounder"
+        ],
+        "publisher_promise": "Introduces the deconfounder: using many observed causes to infer a substitute for unobserved confounders.",
+        "screening_reason": "Originator presents a principled, contested route from factor models to causal identification, with an explicit assumption set that critics have challenged. Rubric: A✓ B✓ C✓ · D 2 · E 2 · F 2.",
+        "transcript_question": "Which assumptions make the multiple-cause substitute confounder identify causal effects, and how does it answer published critiques?",
+        "caveat": "publisher metadata only; no abstract, judged from title and speaker",
+        "speaker": "David M. Blei",
+        "modules": [
+          6
+        ],
+        "id": "1-IVBdXDbW0",
+        "index": 20,
+        "evidence": [],
+        "workshop": "Theoretical Machine Learning Lecture Series"
+      },
+      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
+      "resources": []
+    },
+    {
+      "id": "6mdFQR0-WT0",
+      "title": "In Defense of Uniform Convergence…-Daniel M. Roy",
+      "url": "https://www.youtube.com/watch?v=6mdFQR0-WT0",
+      "published_at": "2020-01-24",
+      "duration_seconds": 4860,
+      "screening": {
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "generalization",
+          "uniform convergence"
+        ],
+        "publisher_promise": "Defends uniform convergence as an explanation of generalization by derandomizing stochastic predictors.",
+        "screening_reason": "Directly answers the claim that uniform convergence cannot explain deep learning generalization; architect of the result, contested and falsifiable. Rubric: A✓ B✓ C✓ · D 2 · E 2 · F 2.",
+        "transcript_question": "How does derandomization rescue uniform-convergence bounds, and which overparameterized examples does it handle that earlier impossibility results excluded?",
+        "caveat": "publisher metadata only; no abstract, judged from title and speaker",
+        "speaker": "Daniel M. Roy",
+        "modules": [
+          2
+        ],
+        "id": "6mdFQR0-WT0",
+        "index": 21,
+        "evidence": [],
+        "workshop": "Theoretical Machine Learning Lecture Series"
+      },
+      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
+      "resources": []
+    },
+    {
+      "id": "8TcNXi3A5DI",
+      "title": "Generative Modeling by Estimating Gradients of the Data Distribution - Stefano Ermon",
+      "url": "https://www.youtube.com/watch?v=8TcNXi3A5DI",
+      "published_at": "2020-05-12",
+      "duration_seconds": 4800,
+      "screening": {
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "score matching",
+          "diffusion models"
+        ],
+        "publisher_promise": "Presents generative modeling by learning the score (gradient of log density) and sampling with Langevin dynamics.",
+        "screening_reason": "Originator's lecture-length account of score-based modeling, the principle behind diffusion models, from objective to sampler. Rubric: A✓ B✓ C✓ · D 1 · E 2 · F 2.",
+        "transcript_question": "How does learning the score at multiple noise scales turn density estimation into tractable sampling, and what does that explain about why it beats likelihood or adversarial training?",
+        "caveat": "publisher metadata only; no abstract, judged from title and speaker",
+        "speaker": "Stefano Ermon",
+        "modules": [
+          3
+        ],
+        "id": "8TcNXi3A5DI",
+        "index": 22,
+        "evidence": [],
+        "workshop": "Theoretical Machine Learning Lecture Series"
+      },
+      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
+      "resources": []
+    },
+    {
+      "id": "IbKWTF4MzMY",
+      "title": "Priors for Semantic Variables - Yoshua Bengio",
+      "url": "https://www.youtube.com/watch?v=IbKWTF4MzMY",
+      "published_at": "2020-07-23",
+      "duration_seconds": 5520,
+      "screening": {
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "consciousness prior",
+          "semantic variables"
+        ],
+        "publisher_promise": "Proposes priors over high-level semantic variables, such as sparse dependencies, for systematic generalization.",
+        "screening_reason": "Originator presents a unifying hypothesis about which priors make abstract, compositional representations learnable; contested and testable. Rubric: A✓ B✓ C✓ · D 2 · E 2 · F 2.",
+        "transcript_question": "What concrete priors over semantic variables are proposed, and what predictions about out-of-distribution generalization follow from them?",
+        "caveat": "publisher metadata only; no abstract, judged from title and speaker",
+        "speaker": "Yoshua Bengio",
+        "modules": [
+          3,
+          4
+        ],
+        "id": "IbKWTF4MzMY",
+        "index": 23,
+        "evidence": [],
+        "workshop": "Theoretical Machine Learning Lecture Series"
+      },
+      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
+      "resources": []
+    },
+    {
+      "id": "_cBLSNRWt8c",
+      "title": "Nonlinear Independent Component Analysis - Aapo Hyvärinen",
+      "url": "https://www.youtube.com/watch?v=_cBLSNRWt8c",
+      "published_at": "2020-08-04",
+      "duration_seconds": 4080,
+      "screening": {
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "nonlinear ica",
+          "identifiability"
+        ],
+        "publisher_promise": "Develops nonlinear independent component analysis and conditions under which latent sources are identifiable.",
+        "screening_reason": "Originator of the identifiability theory of representation learning; shows how auxiliary variables or temporal structure turn an impossible problem into an identifiable one. Rubric: A✓ B✓ C✓ · D 2 · E 2 · F 2.",
+        "transcript_question": "Which side information makes nonlinear ICA identifiable, and what does that imply for self-supervised and disentangled representation learning?",
+        "caveat": "publisher metadata only; no abstract, judged from title and speaker",
+        "speaker": "Aapo Hyvärinen",
+        "modules": [
+          3
+        ],
+        "id": "_cBLSNRWt8c",
+        "index": 24,
+        "evidence": [],
+        "workshop": "Theoretical Machine Learning Lecture Series"
+      },
+      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
+      "resources": []
+    },
+    {
+      "id": "zLHy5N80Gec",
+      "title": "Dynamics and Critical Scaling - Gérard Ben Arous",
+      "url": "https://www.youtube.com/watch?v=zLHy5N80Gec",
+      "published_at": "2023-02-24",
+      "duration_seconds": 4140,
+      "screening": {
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "sgd dynamics",
+          "high-dimensional limits"
+        ],
+        "publisher_promise": "Proves scaling limits for summary statistics of constant-step SGD in high dimension, with critical step-size regimes.",
+        "screening_reason": "Originator of effective-dynamics theory derives ODE/SDE limits for SGD and critical scaling, a statistical-physics lens on learning dynamics. Rubric: A✓ B✓ C✓ · D 1 · E 2 · F 2.",
+        "transcript_question": "How do the effective dynamics of summary statistics explain phase behaviour of SGD, and which predictions about step size and dimension follow?",
+        "caveat": "publisher abstract only",
+        "speaker": "Gérard Ben Arous",
+        "modules": [
+          2
+        ],
+        "id": "zLHy5N80Gec",
+        "index": 25,
+        "evidence": [],
+        "workshop": "Probability Seminar"
+      },
+      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
+      "resources": []
+    },
+    {
+      "id": "TisObdHW8Wo",
+      "title": "Direct and dual Information Bottleneck frameworks for Deep Learning - Tali Tishby",
+      "url": "https://www.youtube.com/watch?v=TisObdHW8Wo",
+      "published_at": null,
+      "duration_seconds": 4200,
+      "screening": {
+        "decision": "read_transcript",
+        "priority": "high",
+        "theme": [
+          "information bottleneck",
+          "deep learning theory",
+          "information theory"
+        ],
+        "publisher_promise": "Tishby presents the information bottleneck view of deep learning alongside a dual formulation of the bottleneck.",
+        "screening_reason": "The originator of the information bottleneck, one of the owner's named exemplars, presenting both the direct and a dual IB framework as a principle for representation learning; the dual variant is a possible model update beyond the Stanford seminar. Rubric: A✓ B✓ C✓ · D 2 · E 2 · F 2.",
+        "transcript_question": "Does the talk derive the dual information bottleneck and its consequences for learning dynamics and generalization, beyond restating the Stanford-seminar compression story?",
+        "caveat": "publisher metadata only, no abstract; title-only judgement; overlap with Tishby's Stanford seminar unverified",
+        "speaker": "Naftali (Tali) Tishby",
+        "modules": [
+          2,
+          3
+        ],
+        "id": "TisObdHW8Wo",
+        "index": 26,
+        "evidence": [],
+        "workshop": "Members Seminar"
+      },
+      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
+      "resources": []
+    },
+    {
+      "id": "gNAx5TmomB0",
+      "title": "The Palais-Smale Theorem and the Solution of Hilbert’s 23 Problem - Karen Uhlenbeck",
+      "url": "https://www.youtube.com/watch?v=gNAx5TmomB0",
+      "published_at": "2020-04-06",
+      "duration_seconds": 3060,
+      "screening": {
+        "id": "gNAx5TmomB0",
+        "index": 27,
+        "decision": "read_transcript",
+        "priority": "high",
+        "track": "maths",
+        "pillars": [
+          "§8",
+          "§14"
+        ],
+        "theme": [
+          "maths track",
+          "§8",
+          "§14"
+        ],
+        "publisher_promise": "",
+        "screening_reason": "Uhlenbeck, a founder of modern geometric analysis, explains the Palais-Smale compactness condition and critical-point theory behind the calculus of variations. (Maths track: architect-taught exposition of a Compass pillar.)",
+        "evidence": [],
+        "transcript_question": "How the Palais-Smale condition gives compactness that guarantees critical points of nonconvex functionals in infinite dimensions.",
+        "caveat": "Members' seminar with no abstract; depth of derivations unverified.",
+        "speaker": "Karen Uhlenbeck",
+        "modules": [],
+        "workshop": "Members Seminar"
+      },
+      "notes_scope": "Publisher metadata only; screened on the maths track by Codex; no transcript read.",
+      "resources": []
+    },
+    {
+      "id": "w3kq7vTta7c",
+      "title": "Lower Bounds in Complexity Theory, Communication Complexity, and Sunflowers - Toniann Pitassi",
+      "url": "https://www.youtube.com/watch?v=w3kq7vTta7c",
+      "published_at": null,
+      "duration_seconds": 3600,
+      "screening": {
+        "id": "w3kq7vTta7c",
+        "index": 28,
+        "decision": "read_transcript",
+        "priority": "high",
+        "track": "maths",
+        "pillars": [
+          "§12b"
+        ],
+        "theme": [
+          "maths track",
+          "§12b"
+        ],
+        "publisher_promise": "",
+        "screening_reason": "Pitassi, a leading complexity theorist, surveys lower-bound techniques via communication complexity and sunflowers. (Maths track: architect-taught exposition of a Compass pillar.)",
+        "evidence": [],
+        "transcript_question": "How communication complexity and sunflower lemmas yield circuit and proof lower bounds.",
+        "caveat": "No abstract; may centre on her recent sunflower results.",
+        "speaker": "Toniann Pitassi",
+        "modules": [],
+        "workshop": "Members Seminar"
+      },
+      "notes_scope": "Publisher metadata only; screened on the maths track by Codex; no transcript read.",
+      "resources": []
+    },
+    {
+      "id": "35-QI1upoE8",
+      "title": "Convergence of nearest neighbor classification - Sanjoy Dasgupta",
+      "url": "https://www.youtube.com/watch?v=35-QI1upoE8",
+      "published_at": "2019-11-25",
+      "duration_seconds": 2940,
+      "screening": {
+        "id": "35-QI1upoE8",
+        "index": 29,
+        "decision": "read_transcript",
+        "priority": "high",
+        "track": "maths",
+        "pillars": [
+          "§12",
+          "§10"
+        ],
+        "theme": [
+          "maths track",
+          "§12",
+          "§10"
+        ],
+        "publisher_promise": "",
+        "screening_reason": "Dasgupta, a leading learning theorist, presents the convergence theory of nearest-neighbor classification. (Maths track: architect-taught exposition of a Compass pillar.)",
+        "evidence": [],
+        "transcript_question": "What conditions on the data distribution govern nearest-neighbor consistency and convergence rates, and why.",
+        "caveat": "No abstract; may focus on his own recent results.",
+        "speaker": "Sanjoy Dasgupta",
+        "modules": [],
+        "workshop": "Members Seminar"
+      },
+      "notes_scope": "Publisher metadata only; screened on the maths track by Codex; no transcript read.",
+      "resources": []
+    },
+    {
+      "id": "5y-bCVgoWHU",
+      "title": "Finding structure in high dimensional data, methods and fundamental limitations - Boaz Nadler",
+      "url": "https://www.youtube.com/watch?v=5y-bCVgoWHU",
+      "published_at": null,
+      "duration_seconds": 3240,
+      "screening": {
+        "id": "5y-bCVgoWHU",
+        "index": 30,
+        "decision": "read_transcript",
+        "priority": "high",
+        "track": "maths",
+        "pillars": [
+          "§6",
+          "§10",
+          "§29"
+        ],
+        "theme": [
+          "maths track",
+          "§6",
+          "§10"
+        ],
+        "publisher_promise": "",
+        "screening_reason": "Nadler gives a methods-and-limits overview of detecting structure in high-dimensional data. (Maths track: architect-taught exposition of a Compass pillar.)",
+        "evidence": [],
+        "transcript_question": "What fundamental statistical limits (e.g. spectral phase transitions) govern detecting low-dimensional structure in high dimensions.",
+        "caveat": "No abstract; breadth versus a narrow result unverified.",
+        "speaker": "Boaz Nadler",
+        "modules": [],
+        "workshop": "Members Seminar"
+      },
+      "notes_scope": "Publisher metadata only; screened on the maths track by Codex; no transcript read.",
+      "resources": []
+    },
+    {
+      "id": "EQY-J46YDOQ",
+      "title": "Learning probability distributions; What can, What can't be done - Shai Ben-David",
+      "url": "https://www.youtube.com/watch?v=EQY-J46YDOQ",
+      "published_at": "2020-05-07",
+      "duration_seconds": 3420,
+      "screening": {
+        "id": "EQY-J46YDOQ",
+        "index": 31,
+        "decision": "read_transcript",
+        "priority": "high",
+        "track": "maths",
+        "pillars": [
+          "§12"
+        ],
+        "theme": [
+          "maths track",
+          "§12"
+        ],
+        "publisher_promise": "",
+        "screening_reason": "Ben-David, a learning-theory architect, on what is and is not learnable for distribution learning; title signals a broad survey. (Maths track: architect-taught exposition of a Compass pillar.)",
+        "evidence": [],
+        "transcript_question": "What characterizes learnability of probability distribution classes, and where it fails",
+        "caveat": "No abstract; depth and format inferred from title and speaker.",
+        "speaker": "Shai Ben-David",
+        "modules": [],
+        "workshop": "Theoretical Machine Learning Lecture Series"
+      },
+      "notes_scope": "Publisher metadata only; screened on the maths track by Codex; no transcript read.",
+      "resources": []
+    },
+    {
+      "id": "QTnjqdxG99c",
+      "title": "On Langevin Dynamics in Machine Learning - Michael I. Jordan",
+      "url": "https://www.youtube.com/watch?v=QTnjqdxG99c",
+      "published_at": "2020-06-11",
+      "duration_seconds": 4740,
+      "screening": {
+        "id": "QTnjqdxG99c",
+        "index": 32,
+        "decision": "read_transcript",
+        "priority": "high",
+        "track": "maths",
+        "pillars": [
+          "§32",
+          "§27",
+          "§8"
+        ],
+        "theme": [
+          "maths track",
+          "§32",
+          "§27"
+        ],
+        "publisher_promise": "",
+        "screening_reason": "Michael I. Jordan on Langevin dynamics in ML; architect-level overview of sampling and optimization. (Maths track: architect-taught exposition of a Compass pillar.)",
+        "evidence": [],
+        "transcript_question": "How Langevin diffusion connects sampling to optimization and its convergence guarantees",
+        "caveat": "No abstract; depth and format inferred from title and speaker.",
+        "speaker": "Michael I. Jordan",
+        "modules": [],
+        "workshop": "Theoretical Machine Learning Lecture Series"
+      },
+      "notes_scope": "Publisher metadata only; screened on the maths track by Codex; no transcript read.",
+      "resources": []
+    },
+    {
+      "id": "6hLsS-rbCgQ",
+      "title": "Statistical Learning Theory for Modern Machine Learning - John Shawe-Taylor",
+      "url": "https://www.youtube.com/watch?v=6hLsS-rbCgQ",
+      "published_at": "2020-08-11",
+      "duration_seconds": 4260,
+      "screening": {
+        "id": "6hLsS-rbCgQ",
+        "index": 33,
+        "decision": "read_transcript",
+        "priority": "high",
+        "track": "maths",
+        "pillars": [
+          "§12"
+        ],
+        "theme": [
+          "maths track",
+          "§12"
+        ],
+        "publisher_promise": "",
+        "screening_reason": "Shawe-Taylor, a PAC-Bayes architect, on statistical learning theory for modern ML. (Maths track: architect-taught exposition of a Compass pillar.)",
+        "evidence": [],
+        "transcript_question": "How PAC-Bayes and related bounds explain generalization in modern models",
+        "caveat": "No abstract; depth and format inferred from title and speaker.",
+        "speaker": "John Shawe-Taylor",
+        "modules": [],
+        "workshop": "Theoretical Machine Learning Lecture Series"
+      },
+      "notes_scope": "Publisher metadata only; screened on the maths track by Codex; no transcript read.",
+      "resources": []
+    },
+    {
+      "id": "C1e-rkN1w18",
+      "title": "The Non-Stochastic Control Problem - Elad Hazan",
+      "url": "https://www.youtube.com/watch?v=C1e-rkN1w18",
+      "published_at": null,
+      "duration_seconds": 1500,
+      "screening": {
+        "id": "C1e-rkN1w18",
+        "index": 34,
+        "decision": "read_transcript",
+        "priority": "high",
+        "track": "maths",
+        "pillars": [
+          "§49",
+          "§13"
+        ],
+        "theme": [
+          "maths track",
+          "§49",
+          "§13"
+        ],
+        "publisher_promise": "",
+        "screening_reason": "Hazan, originator of the non-stochastic control framework, presenting it. (Maths track: architect-taught exposition of a Compass pillar.)",
+        "evidence": [],
+        "transcript_question": "How online convex optimization yields regret bounds for control with adversarial noise",
+        "caveat": "No abstract; depth and format inferred from title and speaker.",
+        "speaker": "Elad Hazan",
+        "modules": [],
+        "workshop": "Workshop on New Directions in Reinforcement Learning and Con"
+      },
+      "notes_scope": "Publisher metadata only; screened on the maths track by Codex; no transcript read.",
+      "resources": []
+    },
+    {
+      "id": "SwgrdvE2gp4",
+      "title": "Statistical modeling and missing data - Rod Little",
+      "url": "https://www.youtube.com/watch?v=SwgrdvE2gp4",
+      "published_at": null,
+      "duration_seconds": 4500,
+      "screening": {
+        "id": "SwgrdvE2gp4",
+        "index": 35,
+        "decision": "read_transcript",
+        "priority": "high",
+        "track": "maths",
+        "pillars": [
+          "§10"
+        ],
+        "theme": [
+          "maths track",
+          "§10"
+        ],
+        "publisher_promise": "",
+        "screening_reason": "Rod Little, a founding authority on missing data, on statistical modeling with missing data. (Maths track: architect-taught exposition of a Compass pillar.)",
+        "evidence": [],
+        "transcript_question": "How MCAR/MAR/MNAR mechanisms and likelihood-based methods govern inference with missing data",
+        "caveat": "No abstract; depth and format inferred from title and speaker.",
+        "speaker": "Rod Little",
+        "modules": [],
+        "workshop": "Virtual Workshop on Missing Data Challenges in Computation, Statistics and Applications Schedule"
+      },
+      "notes_scope": "Publisher metadata only; screened on the maths track by Codex; no transcript read.",
+      "resources": []
     }
   ]
 }

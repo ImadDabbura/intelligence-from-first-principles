@@ -232,7 +232,7 @@
       "path": "collections/ias",
       "snapshot_date": "2026-11-21",
       "coverage_note": "Selected playlists screened from metadata on 2026-11-21: 1039 items, 5 high priority before de-duplication; only high-priority items are listed. Most of the archive is pure mathematics. Screening covered talks downloaded by 21 Nov 2026; the remainder is pending.",
-      "screened": 20,
+      "screened": 36,
       "reviewed": 0,
       "inventory_range": {
         "first": "2017-11-13",
@@ -385,7 +385,7 @@
     }
   ],
   "summary": {
-    "screened": 616,
+    "screened": 632,
     "reviewed": 131,
     "decisions": {
       "worthwhile": 60,

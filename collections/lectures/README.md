@@ -17,13 +17,8 @@ Originator-grade expositions of unifying programmes of learning and intelligence
 
 Each entry in `screening.json` records the promise, why it matters, its A–F rubric score and the question a transcript review must settle. Titles and channels of YouTube items were checked with YouTube oEmbed; other items against their venue or arXiv pages. Unverified details are noted in each caveat.
 
-- [MDLW01 | Prof. Lenka Zdeborová | Insights on neural networks from statistical physics solvable models](https://www.youtube.com/watch?v=ui_nFsQpShw) · priority high
-- [A mathematical theory of learning in deep neural networks - Surya Ganguli](https://www.youtube.com/watch?v=MhZ_QjZKzHU) · priority high
-- [What is learning? Singularities and pendulums — Daniel Murfet](https://youtu.be/QZG40ZY5TeU) · priority high
-- [Engineering and Reverse-Engineering Intelligence Using Probabilistic Programs, Program Induction, and Deep Learning](https://neurips.cc/virtual/2017/tutorial/8733) · priority high
-- [Stanford Seminar - Information Theory of Deep Learning, Naftali Tishby](https://www.youtube.com/watch?v=XL07WEc2TRI) · priority high
-- [Mathematical Mysteries of Deep Neural Networks — Stéphane Mallat (2019 Lytle Lecture)](https://youtu.be/gJbgz-1YcWY) · priority high
-- [Tom Griffiths | CMBC Lecture: The Rational Use of Cognitive Resources](https://www.youtube.com/watch?v=-DSuo7omAf4) · priority high
+- [Engineering and Reverse-Engineering Intelligence Using Probabilistic Programs, Program Induction, and Deep Learning](https://neurips.cc/virtual/2017/tutorial/8733) — 
+- [Tom Griffiths | CMBC Lecture: The Rational Use of Cognitive Resources](https://www.youtube.com/watch?v=-DSuo7omAf4) — 
 
 ## Transcript reviews
 

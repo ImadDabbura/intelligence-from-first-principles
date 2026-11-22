@@ -9,7 +9,7 @@ Originator-grade expositions of unifying programmes of learning and intelligence
 - Original source: https://www.youtube.com/@college-de-france
 - Inventory date: 2026-11-21
 - Screened in this pass: 295 items, 7 high priority before de-duplication against the rest of the collection.
-- Kept here: 6 high-priority items only.
+- Kept: 4 items that pass the guiding principles (Timelessness, Generative Power, Transfer, Rare Combination, Worldview, Primacy, Density); all others removed.
 - Known gaps: Most talks are in French. Full course series are hosted on college-de-france.fr, not YouTube, and are a known gap.
 - Number reviewed in depth: 0
 
@@ -17,16 +17,12 @@ Originator-grade expositions of unifying programmes of learning and intelligence
 
 Metadata only, screened against the A–F originator rubric by parallel AI screeners using one shared instruction set. `read_transcript` means worth a transcript review, not a watch recommendation. Many talks had no abstract; each caveat says when a judgement rests on title and speaker.
 
-- [Comment le cerveau humain se compare-t-il aux intelligences artificielles actuelles ? - S. Dehaene](https://www.youtube.com/watch?v=4yKhDpbFDhQ) — Stanislas Dehaene
 - [Le rôle du langage dans le développement du noyau de connaissances de l'enfant - E. Spelke](https://www.youtube.com/watch?v=8QcRw-2xLvk) — Elizabeth Spelke
 - [L'auto-organisation dans l'évolution de la parole - Pierre-Yves Oudeyer](https://www.youtube.com/watch?v=ww4dYVJVgP0) — Pierre-Yves Oudeyer
-- [L'apprentissage profond : une révolution en intelligence artificielle - Yann LeCun (2016)](https://www.youtube.com/watch?v=TdLa5h-x2nA) — Yann LeCun
-- [Modèles multi-échelles et réseaux de neurones convolutifs (13) - Stéphane Mallat (2019-2020)](https://www.youtube.com/watch?v=enG1DKBCWwc) — Stéphane Mallat
 - [L'apprentissage face à la malédiction de la grande dimension (3) - Stéphane Mallat (2017-2018)](https://www.youtube.com/watch?v=WGIJOwvYmfE) — Stéphane Mallat
+- [Physique statistique - Bernard Derrida (2015)](https://www.youtube.com/watch?v=CgCJ4YA5-YU) — Bernard Derrida
 
-- [Physique statistique - Bernard Derrida (2015)](https://www.youtube.com/watch?v=CgCJ4YA5-YU) — Bernard Derrida · maths track §33 §4
 
-- [Algorithmes (1) - Claire Mathieu (2017-2018)](https://www.youtube.com/watch?v=sbr9beKE6ko) — Claire Mathieu · maths track §11 §4 §44
 
 ## Transcript reviews
 

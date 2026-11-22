@@ -37,7 +37,20 @@
         "id": "E7EUBbZtRxU",
         "index": 0,
         "evidence": [],
-        "workshop": "Complexity Podcast"
+        "workshop": "Complexity Podcast",
+        "rubric_tiers": {
+          "Timeless": "H",
+          "Generative": "M",
+          "Transfer": "H",
+          "Rare": "M",
+          "Worldview": "H",
+          "Primacy": "H",
+          "Density": "M"
+        },
+        "readiness": [
+          "§12",
+          "§4"
+        ]
       },
       "notes_scope": "Publisher metadata only; no transcript read in this pass.",
       "resources": []
@@ -68,7 +81,20 @@
         "id": "NjBtagmAi40",
         "index": 1,
         "evidence": [],
-        "workshop": "SFI Seminars"
+        "workshop": "SFI Seminars",
+        "rubric_tiers": {
+          "Timeless": "H",
+          "Generative": "M",
+          "Transfer": "H",
+          "Rare": "H",
+          "Worldview": "H",
+          "Primacy": "H",
+          "Density": "M"
+        },
+        "readiness": [
+          "§30",
+          "§4"
+        ]
       },
       "notes_scope": "Publisher metadata only; no transcript read in this pass.",
       "resources": []
@@ -99,7 +125,21 @@
         "id": "UUvf1XeMBVo",
         "index": 2,
         "evidence": [],
-        "workshop": "SFI Seminars"
+        "workshop": "SFI Seminars",
+        "rubric_tiers": {
+          "Timeless": "M",
+          "Generative": "H",
+          "Transfer": "H",
+          "Rare": "H",
+          "Worldview": "H",
+          "Primacy": "H",
+          "Density": "M"
+        },
+        "readiness": [
+          "§33",
+          "§8b",
+          "§27"
+        ]
       },
       "notes_scope": "Publisher metadata only; no transcript read in this pass.",
       "resources": []
@@ -130,38 +170,19 @@
         "id": "qXsjWo6K4w0",
         "index": 3,
         "evidence": [],
-        "workshop": "SFI Seminars"
-      },
-      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
-      "resources": []
-    },
-    {
-      "id": "9_Im4o-XIYE",
-      "title": "Sleep as a Trojan Horse",
-      "url": "https://www.youtube.com/watch?v=9_Im4o-XIYE",
-      "published_at": "2026-05-01",
-      "duration_seconds": 3300,
-      "screening": {
-        "decision": "read_transcript",
-        "priority": "high",
-        "theme": [
-          "criticality",
-          "sleep",
-          "neural computation"
-        ],
-        "publisher_promise": "Argues that brains adapt to unpredictable tasks by operating near a critical point, with sleep serving to restore that regime.",
-        "screening_reason": "The criticality hypothesis is a candidate unifying computational principle for biological learning, and Hengen's lab supplies the sleep-restores-criticality mechanism with testable predictions. Rubric: A✓ B✓ C✓ · D 2 · E 2 · F 2.",
-        "transcript_question": "Does Hengen derive why near-critical dynamics maximise adaptive computational capacity and show falsifiable evidence that sleep restores criticality, beyond correlational avalanche statistics?",
-        "caveat": "publisher abstract only; derivation depth and data quality unverified",
-        "speaker": "Keith Hengen",
-        "modules": [
-          9,
-          2
-        ],
-        "id": "9_Im4o-XIYE",
-        "index": 4,
-        "evidence": [],
-        "workshop": "SFI Seminars"
+        "workshop": "SFI Seminars",
+        "rubric_tiers": {
+          "Timeless": "H",
+          "Generative": "M",
+          "Transfer": "H",
+          "Rare": "M",
+          "Worldview": "H",
+          "Primacy": "H",
+          "Density": "M"
+        },
+        "readiness": [
+          "§19"
+        ]
       },
       "notes_scope": "Publisher metadata only; no transcript read in this pass.",
       "resources": []
@@ -190,40 +211,24 @@
           5
         ],
         "id": "ISOqiW2eK2c",
-        "index": 5,
+        "index": 4,
         "evidence": [],
-        "workshop": "SFI Annual Science Board Symposia"
-      },
-      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
-      "resources": []
-    },
-    {
-      "id": "rxznTwBm2wU",
-      "title": "A New Approach to Complex Systems Dynamics",
-      "url": "https://www.youtube.com/watch?v=rxznTwBm2wU",
-      "published_at": "2025-04-21",
-      "duration_seconds": 3840,
-      "screening": {
-        "decision": "read_transcript",
-        "priority": "high",
-        "theme": [
-          "maximum entropy",
-          "complex systems dynamics",
-          "inference"
-        ],
-        "publisher_promise": "Extends maximum-entropy top-down inference to dynamic systems by coupling it with bottom-up process models, yielding analytic equations for how Lagrange multipliers evolve.",
-        "screening_reason": "The originator of the MaxEnt theory of ecology extends a unifying inference principle to dynamics with a worked derivation, an adjacent first principle on how constraints determine distributions. Rubric: A✓ B✓ C✓ · D 1 · E 2 · F 1.",
-        "transcript_question": "Is the dynamic MaxEnt theory derived from first principles with testable predictions, and does it fail or succeed where static MaxEnt breaks?",
-        "caveat": "publisher abstract only; speaker from description",
-        "speaker": "John Harte",
-        "modules": [
-          2,
-          5
-        ],
-        "id": "rxznTwBm2wU",
-        "index": 6,
-        "evidence": [],
-        "workshop": "SFI channel uploads (not in any playlist)"
+        "workshop": "SFI Annual Science Board Symposia",
+        "rubric_tiers": {
+          "Timeless": "H",
+          "Generative": "H",
+          "Transfer": "H",
+          "Rare": "H",
+          "Worldview": "H",
+          "Primacy": "H",
+          "Density": "H"
+        },
+        "readiness": [
+          "§33",
+          "§44",
+          "§9",
+          "§20"
+        ]
       },
       "notes_scope": "Publisher metadata only; no transcript read in this pass.",
       "resources": []
@@ -252,9 +257,23 @@
           1
         ],
         "id": "QfaWnTToDWY",
-        "index": 7,
+        "index": 5,
         "evidence": [],
-        "workshop": "SFI channel uploads (not in any playlist)"
+        "workshop": "SFI channel uploads (not in any playlist)",
+        "rubric_tiers": {
+          "Timeless": "H",
+          "Generative": "H",
+          "Transfer": "H",
+          "Rare": "H",
+          "Worldview": "H",
+          "Primacy": "H",
+          "Density": "M"
+        },
+        "readiness": [
+          "§28",
+          "§10",
+          "§8b"
+        ]
       },
       "notes_scope": "Publisher metadata only; no transcript read in this pass.",
       "resources": []
@@ -267,7 +286,7 @@
       "duration_seconds": 3960,
       "screening": {
         "id": "dQC7AIT91_g",
-        "index": 8,
+        "index": 6,
         "decision": "read_transcript",
         "priority": "high",
         "track": "maths",
@@ -287,7 +306,20 @@
         "caveat": "The balance between derivation, narrative and recent results is unverified.",
         "speaker": "Scott Aaronson",
         "modules": [],
-        "workshop": "SFI channel uploads (not in any playlist)"
+        "workshop": "SFI channel uploads (not in any playlist)",
+        "rubric_tiers": {
+          "Timeless": "H",
+          "Generative": "M",
+          "Transfer": "H",
+          "Rare": "M",
+          "Worldview": "H",
+          "Primacy": "M",
+          "Density": "M"
+        },
+        "readiness": [
+          "§12b",
+          "§1"
+        ]
       },
       "notes_scope": "Publisher metadata only; screened on the maths track by Codex; no transcript read.",
       "resources": []
@@ -300,7 +332,7 @@
       "duration_seconds": 5520,
       "screening": {
         "id": "m023IrSLF-k",
-        "index": 9,
+        "index": 7,
         "decision": "read_transcript",
         "priority": "high",
         "track": "maths",
@@ -320,7 +352,21 @@
         "caveat": "workshop intro talk; length and derivation depth unverified",
         "speaker": "Takahiro Sagawa",
         "modules": [],
-        "workshop": "NeST: Neuromorphic Stochastic Thermodynamics"
+        "workshop": "NeST: Neuromorphic Stochastic Thermodynamics",
+        "rubric_tiers": {
+          "Timeless": "H",
+          "Generative": "H",
+          "Transfer": "H",
+          "Rare": "M",
+          "Worldview": "M",
+          "Primacy": "H",
+          "Density": "M"
+        },
+        "readiness": [
+          "§33",
+          "§27",
+          "§9"
+        ]
       },
       "notes_scope": "Publisher metadata only; screened on the maths track by Codex; no transcript read.",
       "resources": []

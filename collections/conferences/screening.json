@@ -13,98 +13,6 @@
   },
   "episodes": [
     {
-      "id": "neurips-2025-invited-sutton",
-      "title": "The Oak Architecture: A Vision of SuperIntelligence from Experience",
-      "url": "https://slideslive.com/39055688",
-      "published_at": "2025-12-03",
-      "duration_seconds": null,
-      "screening": {
-        "decision": "read_transcript",
-        "priority": "high",
-        "theme": [
-          "reinforcement learning",
-          "agent architecture",
-          "learning from experience"
-        ],
-        "publisher_promise": "Sutton lays out a full agent design in which every component, including options, models and new features, is learned online from the agent's own experience.",
-        "screening_reason": "The originator of TD learning and the 'bitter lesson' argues a single experiential principle generates the whole architecture, a direct statement on what can change in a learning system and what a sufficient world model is. Rubric: A✓ B✓ C✓ · D 2 · E 1 · F 2.",
-        "transcript_question": "Does Oak derive concrete learning mechanisms (feature/option discovery, model learning, planning) from the experience-only principle, or is it a vision without derivations?",
-        "caveat": "Verified on https://neurips.cc/virtual/2025/invited-talk/109601: title, speaker, year and session date; the page embeds the recording (SlidesLive: https://slideslive.com/39055688), whose page resolves with a matching title. Public playback without login not tested. Abstract only, no transcript read.",
-        "speaker": "Rich Sutton",
-        "modules": [
-          6,
-          7
-        ],
-        "id": "neurips-2025-invited-sutton",
-        "index": 0,
-        "evidence": [],
-        "workshop": "NeurIPS 2025 invited talk"
-      },
-      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
-      "resources": []
-    },
-    {
-      "id": "neurips-2022-invited-hinton",
-      "title": "The Forward-Forward Algorithm for Training Deep Neural Networks",
-      "url": "https://slideslive.com/38996068",
-      "published_at": "2022-12-01",
-      "duration_seconds": null,
-      "screening": {
-        "decision": "read_transcript",
-        "priority": "high",
-        "theme": [
-          "learning rules",
-          "credit assignment",
-          "biological plausibility"
-        ],
-        "publisher_promise": "Hinton introduces a backprop-free training scheme in which each layer optimises a local goodness objective on positive versus negative data.",
-        "screening_reason": "The originator of backprop-era deep learning derives an alternative credit-assignment principle and its consequences for hardware and the brain; it reframes what a learning rule must do. Rubric: A✓ B✓ C✓ · D 2 · E 1 · F 2.",
-        "transcript_question": "Which phenomena does the local-goodness objective actually explain (representation quality, sleep-like negative phases, mortal computation), and where does Hinton concede it fails against backprop?",
-        "caveat": "Verified on https://neurips.cc/virtual/2022/invited-talk/55869: title, speaker, year and session date; the page embeds the recording (SlidesLive: https://slideslive.com/38996068), whose page resolves with a matching title. Public playback without login not tested. Abstract only, no transcript read.",
-        "speaker": "Geoffrey Hinton",
-        "modules": [
-          3,
-          9
-        ],
-        "id": "neurips-2022-invited-hinton",
-        "index": 1,
-        "evidence": [],
-        "workshop": "NeurIPS 2022 invited talk"
-      },
-      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
-      "resources": []
-    },
-    {
-      "id": "neurips-2021-invited-bartlett",
-      "title": "Benign Overfitting (Posner Lecture)",
-      "url": "https://slideslive.com/38973162",
-      "published_at": "2021-12-08",
-      "duration_seconds": null,
-      "screening": {
-        "decision": "read_transcript",
-        "priority": "high",
-        "theme": [
-          "generalization",
-          "interpolation",
-          "overparameterization"
-        ],
-        "publisher_promise": "Bartlett characterises when a minimum-norm interpolating predictor still generalises well and why overparameterisation is essential to that outcome.",
-        "screening_reason": "The architect of benign-overfitting theory derives the spectral conditions under which fitting noise is harmless, which directly revises the classical capacity-control picture of generalization. Rubric: A✓ B✓ C✓ · D 1 · E 2 · F 2.",
-        "transcript_question": "Which effective-rank conditions does the talk derive, and how far does Bartlett claim they extend beyond linear regression to deep networks?",
-        "caveat": "Verified on https://neurips.cc/virtual/2021/invited-talk/22278: title, speaker, year and session date; the page embeds the recording (SlidesLive: https://slideslive.com/38973162), whose page resolves with a matching title. Public playback without login not tested. Abstract only, no transcript read.",
-        "speaker": "Peter Bartlett",
-        "modules": [
-          2
-        ],
-        "id": "neurips-2021-invited-bartlett",
-        "index": 2,
-        "evidence": [],
-        "workshop": "NeurIPS 2021 invited talk"
-      },
-      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
-      "resources": []
-    },
-    {
       "id": "neurips-2020-invited-zador",
       "title": "The Genomic Bottleneck: A Lesson from Biology",
       "url": "https://slideslive.com/38947068",
@@ -128,41 +36,22 @@
           9
         ],
         "id": "neurips-2020-invited-zador",
-        "index": 3,
+        "index": 0,
         "evidence": [],
-        "workshop": "NeurIPS 2020 invited talk"
-      },
-      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
-      "resources": []
-    },
-    {
-      "id": "neurips-2019-invited-bengio",
-      "title": "From System 1 Deep Learning to System 2 Deep Learning",
-      "url": "https://slideslive.com/38922304",
-      "published_at": "2019-12-11",
-      "duration_seconds": null,
-      "screening": {
-        "decision": "read_transcript",
-        "priority": "high",
-        "theme": [
-          "system 2",
-          "consciousness prior",
-          "ood generalization"
-        ],
-        "publisher_promise": "Bengio sets out a research programme for deep learning that reasons, composes and generalises out of distribution, built on attention, sparse factor graphs and causal changes.",
-        "screening_reason": "The programme's originator ties the consciousness prior, modular mechanisms and localised distribution shift into one hypothesis about what makes high-level cognition learnable. Rubric: A✓ B✓ C✗ · D 2 · E 1 · F 2.",
-        "transcript_question": "Does Bengio derive testable consequences of the sparse-factor-graph and localised-change assumptions, or does the talk stay at the level of research agenda?",
-        "caveat": "Verified on https://neurips.cc/virtual/2019/invited-talk/15488: title, speaker, year, date. Video not embedded in static HTML; SlidesLive 38922304 (and 38921750) resolve with matching title. Public playback not tested. Borderline high: C (derivation) uncertain.",
-        "speaker": "Yoshua Bengio",
-        "modules": [
-          3,
-          4,
-          6
-        ],
-        "id": "neurips-2019-invited-bengio",
-        "index": 4,
-        "evidence": [],
-        "workshop": "NeurIPS 2019 invited talk"
+        "workshop": "NeurIPS 2020 invited talk",
+        "rubric_tiers": {
+          "Timeless": "H",
+          "Generative": "M",
+          "Transfer": "H",
+          "Rare": "H",
+          "Worldview": "H",
+          "Primacy": "H",
+          "Density": "M"
+        },
+        "readiness": [
+          "§16",
+          "§9"
+        ]
       },
       "notes_scope": "Publisher metadata only; no transcript read in this pass.",
       "resources": []
@@ -191,9 +80,21 @@
           8
         ],
         "id": "neurips-2018-invited-levin",
-        "index": 5,
+        "index": 1,
         "evidence": [],
-        "workshop": "NeurIPS 2018 invited talk"
+        "workshop": "NeurIPS 2018 invited talk",
+        "rubric_tiers": {
+          "Timeless": "H",
+          "Generative": "M",
+          "Transfer": "H",
+          "Rare": "H",
+          "Worldview": "H",
+          "Primacy": "H",
+          "Density": "M"
+        },
+        "readiness": [
+          "§8b"
+        ]
       },
       "notes_scope": "Publisher metadata only; no transcript read in this pass.",
       "resources": []
@@ -223,9 +124,21 @@
           9
         ],
         "id": "neurips-2023-invited-smith",
-        "index": 6,
+        "index": 2,
         "evidence": [],
-        "workshop": "NeurIPS 2023 invited talk"
+        "workshop": "NeurIPS 2023 invited talk",
+        "rubric_tiers": {
+          "Timeless": "H",
+          "Generative": "M",
+          "Transfer": "H",
+          "Rare": "H",
+          "Worldview": "H",
+          "Primacy": "H",
+          "Density": "M"
+        },
+        "readiness": [
+          "§16"
+        ]
       },
       "notes_scope": "Publisher metadata only; no transcript read in this pass.",
       "resources": []
@@ -254,9 +167,23 @@
           5
         ],
         "id": "neurips-2019-tutorial-khan",
-        "index": 7,
+        "index": 3,
         "evidence": [],
-        "workshop": "NeurIPS 2019 tutorial"
+        "workshop": "NeurIPS 2019 tutorial",
+        "rubric_tiers": {
+          "Timeless": "H",
+          "Generative": "H",
+          "Transfer": "H",
+          "Rare": "M",
+          "Worldview": "H",
+          "Primacy": "H",
+          "Density": "M"
+        },
+        "readiness": [
+          "§30",
+          "§17",
+          "§7"
+        ]
       },
       "notes_scope": "Publisher metadata only; no transcript read in this pass.",
       "resources": []
@@ -284,40 +211,23 @@
           2
         ],
         "id": "neurips-2020-tutorial-kondor-cohen",
-        "index": 8,
+        "index": 4,
         "evidence": [],
-        "workshop": "NeurIPS 2020 tutorial"
-      },
-      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
-      "resources": []
-    },
-    {
-      "id": "neurips-2020-tutorial-chollet-mitchell-szegedy",
-      "title": "Abstraction & Reasoning in AI systems: Modern Perspectives",
-      "url": "https://slideslive.com/38935790",
-      "published_at": "2020-12-07",
-      "duration_seconds": null,
-      "screening": {
-        "decision": "read_transcript",
-        "priority": "high",
-        "theme": [
-          "abstraction",
-          "measure of intelligence",
-          "analogy"
-        ],
-        "publisher_promise": "The tutorial covers intelligence as skill-acquisition efficiency and the ARC benchmark, analogy-making as the core of abstraction, and reasoning in formal mathematics.",
-        "screening_reason": "Chollet presents his own definition of intelligence and the benchmark built from it, and Mitchell her analogy programme; both are originators speaking to what evaluation can identify. Rubric: A✓ B✓ C✓ · D 2 · E 2 · F 2.",
-        "transcript_question": "How does Chollet's segment formalise intelligence (priors, experience, generalization difficulty), and which claims about current systems does that definition support?",
-        "caveat": "Verified on https://neurips.cc/virtual/2020/tutorial/16644: title, speaker, year and session date; the page embeds the recording (SlidesLive: https://slideslive.com/38935790), whose page resolves with a matching title. Public playback without login not tested. Abstract only, no transcript read.",
-        "speaker": "François Chollet, Melanie Mitchell, Christian Szegedy",
-        "modules": [
-          1,
-          4
-        ],
-        "id": "neurips-2020-tutorial-chollet-mitchell-szegedy",
-        "index": 9,
-        "evidence": [],
-        "workshop": "NeurIPS 2020 tutorial"
+        "workshop": "NeurIPS 2020 tutorial",
+        "rubric_tiers": {
+          "Timeless": "H",
+          "Generative": "H",
+          "Transfer": "H",
+          "Rare": "M",
+          "Worldview": "M",
+          "Primacy": "H",
+          "Density": "M"
+        },
+        "readiness": [
+          "§14b",
+          "§46",
+          "§2"
+        ]
       },
       "notes_scope": "Publisher metadata only; no transcript read in this pass.",
       "resources": []
@@ -347,9 +257,22 @@
           9
         ],
         "id": "neurips-2017-invited-niv",
-        "index": 10,
+        "index": 5,
         "evidence": [],
-        "workshop": "NeurIPS 2017 invited talk"
+        "workshop": "NeurIPS 2017 invited talk",
+        "rubric_tiers": {
+          "Timeless": "H",
+          "Generative": "M",
+          "Transfer": "H",
+          "Rare": "H",
+          "Worldview": "H",
+          "Primacy": "H",
+          "Density": "M"
+        },
+        "readiness": [
+          "§18",
+          "§30"
+        ]
       },
       "notes_scope": "Publisher metadata only; no transcript read in this pass.",
       "resources": []
@@ -377,9 +300,22 @@
           2
         ],
         "id": "iclr-2021-invited-bronstein",
-        "index": 11,
+        "index": 6,
         "evidence": [],
-        "workshop": "ICLR 2021 invited talk"
+        "workshop": "ICLR 2021 invited talk",
+        "rubric_tiers": {
+          "Timeless": "H",
+          "Generative": "M",
+          "Transfer": "H",
+          "Rare": "M",
+          "Worldview": "H",
+          "Primacy": "H",
+          "Density": "H"
+        },
+        "readiness": [
+          "§46",
+          "§14b"
+        ]
       },
       "notes_scope": "Publisher metadata only; no transcript read in this pass.",
       "resources": []
@@ -408,9 +344,22 @@
           6
         ],
         "id": "iclr-2019-invited-bottou",
-        "index": 12,
+        "index": 7,
         "evidence": [],
-        "workshop": "ICLR 2019 invited talk"
+        "workshop": "ICLR 2019 invited talk",
+        "rubric_tiers": {
+          "Timeless": "H",
+          "Generative": "H",
+          "Transfer": "H",
+          "Rare": "M",
+          "Worldview": "H",
+          "Primacy": "H",
+          "Density": "M"
+        },
+        "readiness": [
+          "§22",
+          "§12"
+        ]
       },
       "notes_scope": "Publisher metadata only; no transcript read in this pass.",
       "resources": []
@@ -440,40 +389,21 @@
           9
         ],
         "id": "iclr-2019-invited-oudeyer",
-        "index": 13,
+        "index": 8,
         "evidence": [],
-        "workshop": "ICLR 2019 invited talk"
-      },
-      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
-      "resources": []
-    },
-    {
-      "id": "iclr-2025-invited-rocktaschel",
-      "title": "Open-Endedness, World Models, and the Automation of Innovation",
-      "url": "https://slideslive.com/39038746",
-      "published_at": "2025-04-26",
-      "duration_seconds": null,
-      "screening": {
-        "decision": "read_transcript",
-        "priority": "high",
-        "theme": [
-          "open-endedness",
-          "world models",
-          "self-improvement"
-        ],
-        "publisher_promise": "Rocktäschel defines open-endedness in terms of novelty and learnability to an observer and argues it is the route to self-improving AI, with world models and generated environments.",
-        "screening_reason": "One of the main architects of the current open-endedness programme gives a formal definition and connects it to concrete systems; a central source for module 8. Rubric: A✓ B✓ C✓ · D 2 · E 1 · F 1.",
-        "transcript_question": "Does the novelty-plus-learnability definition do real work in the talk, driving system design or evaluation, or is it mainly framing?",
-        "caveat": "Verified on https://iclr.cc/virtual/2025/invited-talk/36780: title, speaker, year and session date; the page embeds the recording (SlidesLive: https://slideslive.com/39038746), whose page resolves with a matching title. Public playback without login not tested. Abstract only, no transcript read. Borderline high: chosen because module 8 has few originator talks.",
-        "speaker": "Tim Rocktäschel",
-        "modules": [
-          8,
-          6
-        ],
-        "id": "iclr-2025-invited-rocktaschel",
-        "index": 14,
-        "evidence": [],
-        "workshop": "ICLR 2025 invited talk"
+        "workshop": "ICLR 2019 invited talk",
+        "rubric_tiers": {
+          "Timeless": "H",
+          "Generative": "M",
+          "Transfer": "H",
+          "Rare": "H",
+          "Worldview": "H",
+          "Primacy": "H",
+          "Density": "M"
+        },
+        "readiness": [
+          "§18"
+        ]
       },
       "notes_scope": "Publisher metadata only; no transcript read in this pass.",
       "resources": []
@@ -501,9 +431,23 @@
           2
         ],
         "id": "icml-2022-invited-weinan-e",
-        "index": 15,
+        "index": 9,
         "evidence": [],
-        "workshop": "ICML 2022 invited talk"
+        "workshop": "ICML 2022 invited talk",
+        "rubric_tiers": {
+          "Timeless": "H",
+          "Generative": "H",
+          "Transfer": "M",
+          "Rare": "M",
+          "Worldview": "H",
+          "Primacy": "H",
+          "Density": "H"
+        },
+        "readiness": [
+          "§3",
+          "§14",
+          "§25"
+        ]
       },
       "notes_scope": "Publisher metadata only; no transcript read in this pass.",
       "resources": []
@@ -532,40 +476,23 @@
           6
         ],
         "id": "icml-2022-tutorial-foster-rakhlin",
-        "index": 16,
+        "index": 10,
         "evidence": [],
-        "workshop": "ICML 2022 tutorial"
-      },
-      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
-      "resources": []
-    },
-    {
-      "id": "icml-2024-tutorial-allen-zhu",
-      "title": "Physics of Language Models",
-      "url": "https://slideslive.com/39021926",
-      "published_at": "2024-07-22",
-      "duration_seconds": null,
-      "screening": {
-        "decision": "read_transcript",
-        "priority": "high",
-        "theme": [
-          "controlled experiments",
-          "knowledge storage",
-          "reasoning"
-        ],
-        "publisher_promise": "Allen-Zhu uses synthetic, controlled pre-training experiments to isolate how language models store and extract knowledge and carry out grade-school reasoning.",
-        "screening_reason": "The originator of the 'physics of LMs' programme gives a method (controlled synthetic universes) plus a set of mechanistic findings about representation and reasoning. Rubric: A✓ B✓ C✓ · D 2 · E 2 · F 2.",
-        "transcript_question": "Which laws (knowledge capacity, extraction conditions, reasoning failure modes) are claimed as general, and how well do the synthetic setups justify that?",
-        "caveat": "Verified on https://icml.cc/virtual/2024/tutorial/35223: title, speaker, year and session date; the page embeds the recording (SlidesLive: https://slideslive.com/39021926), whose page resolves with a matching title. Public playback without login not tested. Abstract only, no transcript read.",
-        "speaker": "Zeyuan Allen-Zhu",
-        "modules": [
-          4,
-          3
-        ],
-        "id": "icml-2024-tutorial-allen-zhu",
-        "index": 17,
-        "evidence": [],
-        "workshop": "ICML 2024 tutorial"
+        "workshop": "ICML 2022 tutorial",
+        "rubric_tiers": {
+          "Timeless": "H",
+          "Generative": "H",
+          "Transfer": "H",
+          "Rare": "M",
+          "Worldview": "H",
+          "Primacy": "H",
+          "Density": "M"
+        },
+        "readiness": [
+          "§12",
+          "§13",
+          "§18"
+        ]
       },
       "notes_scope": "Publisher metadata only; no transcript read in this pass.",
       "resources": []
@@ -594,9 +521,23 @@
           4
         ],
         "id": "icml-2025-tutorial-krotov",
-        "index": 18,
+        "index": 11,
         "evidence": [],
-        "workshop": "ICML 2025 tutorial"
+        "workshop": "ICML 2025 tutorial",
+        "rubric_tiers": {
+          "Timeless": "H",
+          "Generative": "H",
+          "Transfer": "H",
+          "Rare": "H",
+          "Worldview": "H",
+          "Primacy": "H",
+          "Density": "M"
+        },
+        "readiness": [
+          "§33",
+          "§8",
+          "§16"
+        ]
       },
       "notes_scope": "Publisher metadata only; no transcript read in this pass.",
       "resources": []
@@ -625,39 +566,23 @@
           2
         ],
         "id": "icml-2026-tutorial-hennig",
-        "index": 19,
+        "index": 12,
         "evidence": [],
-        "workshop": "ICML 2026 tutorial"
-      },
-      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
-      "resources": []
-    },
-    {
-      "id": "icml-2020-tutorial-wilson",
-      "title": "Bayesian Deep Learning and a Probabilistic Perspective of Model Construction",
-      "url": "https://slideslive.com/38930498",
-      "published_at": "2020-07-13",
-      "duration_seconds": null,
-      "screening": {
-        "decision": "read_transcript",
-        "priority": "high",
-        "theme": [
-          "bayesian model averaging",
-          "inductive bias",
-          "generalization"
-        ],
-        "publisher_promise": "Wilson presents a probabilistic account of generalisation in deep learning built on marginalisation, priors over functions and model support versus inductive bias.",
-        "screening_reason": "The architect of this view gives the support-versus-preference framing of generalisation and derives explanations of double descent and random-label fitting from it. Rubric: A✓ B✓ C✓ · D 2 · E 2 · F 2.",
-        "transcript_question": "How does the tutorial define support and inductive bias, and which deep-learning puzzles are explained by marginalisation rather than optimisation?",
-        "caveat": "Verified on https://icml.cc/virtual/2020/tutorial/5750: title, speaker, year, date. The ICML page does not embed the video in static HTML; SlidesLive pages 38930498-38930501 (Parts 1-4) resolve with matching titles. Public playback not tested.",
-        "speaker": "Andrew Gordon Wilson",
-        "modules": [
-          2
-        ],
-        "id": "icml-2020-tutorial-wilson",
-        "index": 20,
-        "evidence": [],
-        "workshop": "ICML 2020 tutorial"
+        "workshop": "ICML 2026 tutorial",
+        "rubric_tiers": {
+          "Timeless": "H",
+          "Generative": "H",
+          "Transfer": "H",
+          "Rare": "H",
+          "Worldview": "H",
+          "Primacy": "H",
+          "Density": "M"
+        },
+        "readiness": [
+          "§42",
+          "§30",
+          "§2b"
+        ]
       },
       "notes_scope": "Publisher metadata only; no transcript read in this pass.",
       "resources": []
@@ -685,39 +610,22 @@
           6
         ],
         "id": "icml-2020-tutorial-bareinboim",
-        "index": 21,
+        "index": 13,
         "evidence": [],
-        "workshop": "ICML 2020 tutorial"
-      },
-      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
-      "resources": []
-    },
-    {
-      "id": "icml-2019-tutorial-finn-levine",
-      "title": "Meta-Learning: from Few-Shot Learning to Rapid Reinforcement Learning",
-      "url": "https://www.youtube.com/watch?v=DijI4XrhqNo",
-      "published_at": "2019-06-10",
-      "duration_seconds": null,
-      "screening": {
-        "decision": "read_transcript",
-        "priority": "high",
-        "theme": [
-          "meta-learning",
-          "few-shot learning",
-          "fast adaptation"
-        ],
-        "publisher_promise": "Finn and Levine present meta-learning as learning a learning procedure, covering black-box, optimisation-based and non-parametric approaches and their use in RL.",
-        "screening_reason": "An architect's tutorial (MAML's originators) central to module 7, with a unifying problem statement and derivations of the main algorithm families. Rubric: A✓ B✓ C✓ · D 1 · E 2 · F 1.",
-        "transcript_question": "What unifying probabilistic formulation of meta-learning is given, and what does it say about when meta-learning can generalise to new tasks?",
-        "caveat": "Verified on https://icml.cc/virtual/2019/tutorial/4340: title, speaker, year, date; the page embeds a VideoKen player for YouTube https://www.youtube.com/watch?v=DijI4XrhqNo, whose YouTube title matches. Abstract only, no transcript read.",
-        "speaker": "Chelsea Finn, Sergey Levine",
-        "modules": [
-          7
-        ],
-        "id": "icml-2019-tutorial-finn-levine",
-        "index": 22,
-        "evidence": [],
-        "workshop": "ICML 2019 tutorial"
+        "workshop": "ICML 2020 tutorial",
+        "rubric_tiers": {
+          "Timeless": "H",
+          "Generative": "H",
+          "Transfer": "H",
+          "Rare": "M",
+          "Worldview": "H",
+          "Primacy": "H",
+          "Density": "M"
+        },
+        "readiness": [
+          "§22",
+          "§18"
+        ]
       },
       "notes_scope": "Publisher metadata only; no transcript read in this pass.",
       "resources": []
@@ -745,39 +653,21 @@
           8
         ],
         "id": "icml-2019-tutorial-clune-lehman-stanley",
-        "index": 23,
+        "index": 14,
         "evidence": [],
-        "workshop": "ICML 2019 tutorial"
-      },
-      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
-      "resources": []
-    },
-    {
-      "id": "icml-2019-tutorial-guedj-shawe-taylor",
-      "title": "A Primer on PAC-Bayesian Learning",
-      "url": "https://www.youtube.com/watch?v=_NuMUQYprn0",
-      "published_at": "2019-06-10",
-      "duration_seconds": null,
-      "screening": {
-        "decision": "read_transcript",
-        "priority": "high",
-        "theme": [
-          "pac-bayes",
-          "generalization bounds",
-          "priors"
-        ],
-        "publisher_promise": "The tutorial develops PAC-Bayesian generalisation bounds, from their derivation to their use for non-vacuous bounds on neural networks.",
-        "screening_reason": "Shawe-Taylor is a founding architect of PAC-Bayes; the tutorial derives a framework that makes prior-dependence of generalisation explicit. Rubric: A✓ B✓ C✓ · D 1 · E 2 · F 1.",
-        "transcript_question": "Which bound derivations are shown in full, and what does the PAC-Bayes view say about why flat or compressible solutions generalise?",
-        "caveat": "Verified on https://icml.cc/virtual/2019/tutorial/4338: title, speaker, year, date; the page embeds a VideoKen player for YouTube https://www.youtube.com/watch?v=_NuMUQYprn0, whose YouTube title matches. Abstract only, no transcript read.",
-        "speaker": "Benjamin Guedj, John Shawe-Taylor",
-        "modules": [
-          2
-        ],
-        "id": "icml-2019-tutorial-guedj-shawe-taylor",
-        "index": 24,
-        "evidence": [],
-        "workshop": "ICML 2019 tutorial"
+        "workshop": "ICML 2019 tutorial",
+        "rubric_tiers": {
+          "Timeless": "H",
+          "Generative": "M",
+          "Transfer": "H",
+          "Rare": "H",
+          "Worldview": "H",
+          "Primacy": "H",
+          "Density": "M"
+        },
+        "readiness": [
+          "§8"
+        ]
       },
       "notes_scope": "Publisher metadata only; no transcript read in this pass.",
       "resources": []
@@ -805,9 +695,23 @@
           5
         ],
         "id": "icml-2019-tutorial-javidi",
-        "index": 25,
+        "index": 15,
         "evidence": [],
-        "workshop": "ICML 2019 tutorial"
+        "workshop": "ICML 2019 tutorial",
+        "rubric_tiers": {
+          "Timeless": "H",
+          "Generative": "H",
+          "Transfer": "H",
+          "Rare": "M",
+          "Worldview": "M",
+          "Primacy": "H",
+          "Density": "M"
+        },
+        "readiness": [
+          "§9",
+          "§10",
+          "§18"
+        ]
       },
       "notes_scope": "Publisher metadata only; no transcript read in this pass.",
       "resources": []
@@ -836,9 +740,22 @@
           3
         ],
         "id": "cosyne-2018-invited-lengyel",
-        "index": 26,
+        "index": 16,
         "evidence": [],
-        "workshop": "Cosyne 2018 invited talk"
+        "workshop": "Cosyne 2018 invited talk",
+        "rubric_tiers": {
+          "Timeless": "H",
+          "Generative": "H",
+          "Transfer": "M",
+          "Rare": "H",
+          "Worldview": "H",
+          "Primacy": "H",
+          "Density": "M"
+        },
+        "readiness": [
+          "§32",
+          "§30"
+        ]
       },
       "notes_scope": "Publisher metadata only; no transcript read in this pass.",
       "resources": []
@@ -868,9 +785,22 @@
           9
         ],
         "id": "cosyne-2018-invited-behrens",
-        "index": 27,
+        "index": 17,
         "evidence": [],
-        "workshop": "Cosyne 2018 invited talk"
+        "workshop": "Cosyne 2018 invited talk",
+        "rubric_tiers": {
+          "Timeless": "H",
+          "Generative": "M",
+          "Transfer": "H",
+          "Rare": "H",
+          "Worldview": "H",
+          "Primacy": "H",
+          "Density": "M"
+        },
+        "readiness": [
+          "§16",
+          "§37"
+        ]
       },
       "notes_scope": "Publisher metadata only; no transcript read in this pass.",
       "resources": []
@@ -898,9 +828,22 @@
           9
         ],
         "id": "cosyne-2018-gatsby-couzin",
-        "index": 28,
+        "index": 18,
         "evidence": [],
-        "workshop": "Cosyne 2018 invited talk (Gatsby Lecture)"
+        "workshop": "Cosyne 2018 invited talk (Gatsby Lecture)",
+        "rubric_tiers": {
+          "Timeless": "H",
+          "Generative": "M",
+          "Transfer": "H",
+          "Rare": "H",
+          "Worldview": "H",
+          "Primacy": "H",
+          "Density": "M"
+        },
+        "readiness": [
+          "§19",
+          "§8b"
+        ]
       },
       "notes_scope": "Publisher metadata only; no transcript read in this pass.",
       "resources": []
@@ -929,9 +872,22 @@
           3
         ],
         "id": "cosyne-2019-invited-sahani",
-        "index": 29,
+        "index": 19,
         "evidence": [],
-        "workshop": "Cosyne 2019 invited talk"
+        "workshop": "Cosyne 2019 invited talk",
+        "rubric_tiers": {
+          "Timeless": "M",
+          "Generative": "H",
+          "Transfer": "M",
+          "Rare": "H",
+          "Worldview": "M",
+          "Primacy": "H",
+          "Density": "M"
+        },
+        "readiness": [
+          "§30",
+          "§17"
+        ]
       },
       "notes_scope": "Publisher metadata only; no transcript read in this pass.",
       "resources": []
@@ -944,7 +900,7 @@
       "duration_seconds": 2014,
       "screening": {
         "id": "icml-2019-tpdl-arora",
-        "index": 30,
+        "index": 20,
         "decision": "read_transcript",
         "priority": "high",
         "track": "main",
@@ -959,37 +915,21 @@
         "caveat": "ICML 2019 Theoretical Physics for Deep Learning workshop page; SlidesLive title and duration verified; no abstract read.",
         "speaker": "Sanjeev Arora",
         "modules": [],
-        "workshop": ""
-      },
-      "notes_scope": "Venue page and recording verified; no transcript read.",
-      "resources": []
-    },
-    {
-      "id": "icml-2019-tpdl-sohl-dickstein",
-      "title": "Understanding overparameterized neural networks",
-      "url": "https://slideslive.com/38917769",
-      "published_at": "2019-06-14",
-      "duration_seconds": 1918,
-      "screening": {
-        "id": "icml-2019-tpdl-sohl-dickstein",
-        "index": 31,
-        "decision": "read_transcript",
-        "priority": "high",
-        "track": "maths",
-        "pillars": [
-          "§12 Learning Theory; §6 High-Dim Probability"
-        ],
-        "theme": [
-          "§12 Learning Theory; §6 High-Dim Probability"
-        ],
-        "publisher_promise": "Explains what happens to neural networks in the infinite-width limit (Gaussian-process priors and linearized training dynamics) and what that limit does and does not capture.",
-        "screening_reason": "Sohl-Dickstein co-originated the NNGP and wide-network linearization results; a 32-minute architect's overview of the wide-network limit maps directly to learning theory and high-dimensional probability. Rubric: A✓ B✓ C✓ · D 1 · E 2 · F 1.",
-        "evidence": [],
-        "transcript_question": "Does the talk derive the NNGP kernel and linearized (NTK) training dynamics, and state where the limit fails to capture feature learning?",
-        "caveat": "Speaker and title from SlidesLive; content inferred from the speaker's published work; workshop abstract only.",
-        "speaker": "Jascha Sohl-Dickstein",
-        "modules": [],
-        "workshop": ""
+        "workshop": "",
+        "rubric_tiers": {
+          "Timeless": "H",
+          "Generative": "H",
+          "Transfer": "M",
+          "Rare": "M",
+          "Worldview": "H",
+          "Primacy": "H",
+          "Density": "H"
+        },
+        "readiness": [
+          "§8",
+          "§2",
+          "§12"
+        ]
       },
       "notes_scope": "Venue page and recording verified; no transcript read.",
       "resources": []
@@ -1002,7 +942,7 @@
       "duration_seconds": 2795,
       "screening": {
         "id": "neurips-2020-dlig-amari",
-        "index": 32,
+        "index": 21,
         "decision": "read_transcript",
         "priority": "high",
         "track": "maths",
@@ -1019,65 +959,20 @@
         "caveat": "No abstract on the workshop page; title and duration from SlidesLive.",
         "speaker": "Shun-ichi Amari",
         "modules": [],
-        "workshop": ""
-      },
-      "notes_scope": "Venue page and recording verified; no transcript read.",
-      "resources": []
-    },
-    {
-      "id": "neurips-2020-dlig-dziugaite",
-      "title": "Information-theoretic generalization bounds for noisy, iterative learning algorithms",
-      "url": "https://slideslive.com/38938353",
-      "published_at": "2020-12-06",
-      "duration_seconds": 2448,
-      "screening": {
-        "id": "neurips-2020-dlig-dziugaite",
-        "index": 33,
-        "decision": "read_transcript",
-        "priority": "high",
-        "track": "maths",
-        "pillars": [
-          "§12 Learning Theory; §9 Information Theory"
-        ],
-        "theme": [
-          "§12 Learning Theory; §9 Information Theory"
-        ],
-        "publisher_promise": "Presents mutual-information and conditional-mutual-information generalization bounds for noisy iterative algorithms such as SGLD.",
-        "screening_reason": "Dziugaite is a primary architect of nonvacuous and information-theoretic generalization bounds (with Roy, Negrea and Haghifam); a 41-minute keynote develops a Spine-pillar technique with derivations. Rubric: A✓ B✓ C✓ · D 1 · E 2 · F 1.",
-        "evidence": [],
-        "transcript_question": "How are data-dependent (conditional) mutual-information bounds derived for Langevin-type algorithms, and why are they tighter than uniform-convergence bounds?",
-        "caveat": "Talk is credited to five co-authors on SlidesLive; speaker assumed to be Dziugaite (keynote listing).",
-        "speaker": "Gintare Karolina Dziugaite",
-        "modules": [],
-        "workshop": ""
-      },
-      "notes_scope": "Venue page and recording verified; no transcript read.",
-      "resources": []
-    },
-    {
-      "id": "neurips-2020-causal-hyvarinen",
-      "title": "Causal Discovery: Linear, Nonlinear, and Something in Between",
-      "url": "https://slideslive.com/38938469",
-      "published_at": "2020-12-06",
-      "duration_seconds": 1892,
-      "screening": {
-        "id": "neurips-2020-causal-hyvarinen",
-        "index": 34,
-        "decision": "read_transcript",
-        "priority": "high",
-        "track": "main",
-        "pillars": [],
-        "theme": [
-          "Identifiable causal discovery (LiNGAM / nonlinear ICA)"
-        ],
-        "publisher_promise": "Traces how independence and non-Gaussianity assumptions make causal direction identifiable, from linear non-Gaussian models through nonlinear ICA.",
-        "screening_reason": "Hyvärinen co-originated LiNGAM and nonlinear ICA identifiability; this keynote derives causal discovery from those identifiability principles (module 6). The repository's existing Hyvärinen item is a nonlinear-ICA lecture, not this causal-discovery framing. Rubric: A✓ B✓ C✓ · D 1 · E 2 · F 1.",
-        "evidence": [],
-        "transcript_question": "What exactly does the 'something in between' model class buy, and which assumption makes the causal direction identifiable there?",
-        "caveat": "No abstract; overlaps in part with the existing nonlinear-ICA lecture in the repository.",
-        "speaker": "Aapo Hyvärinen",
-        "modules": [],
-        "workshop": ""
+        "workshop": "",
+        "rubric_tiers": {
+          "Timeless": "H",
+          "Generative": "H",
+          "Transfer": "H",
+          "Rare": "H",
+          "Worldview": "M",
+          "Primacy": "H",
+          "Density": "M"
+        },
+        "readiness": [
+          "§28",
+          "§29"
+        ]
       },
       "notes_scope": "Venue page and recording verified; no transcript read.",
       "resources": []
@@ -1090,7 +985,7 @@
       "duration_seconds": 1204,
       "screening": {
         "id": "neurips-2021-causal-icard",
-        "index": 35,
+        "index": 22,
         "decision": "read_transcript",
         "priority": "high",
         "track": "main",
@@ -1105,7 +1000,21 @@
         "caveat": "Title only, no abstract; 20 minutes, so derivations may be compressed.",
         "speaker": "Thomas Icard",
         "modules": [],
-        "workshop": ""
+        "workshop": "",
+        "rubric_tiers": {
+          "Timeless": "H",
+          "Generative": "H",
+          "Transfer": "M",
+          "Rare": "H",
+          "Worldview": "H",
+          "Primacy": "H",
+          "Density": "M"
+        },
+        "readiness": [
+          "§22",
+          "§3a",
+          "§12"
+        ]
       },
       "notes_scope": "Venue page and recording verified; no transcript read.",
       "resources": []
@@ -1118,7 +1027,7 @@
       "duration_seconds": 2247,
       "screening": {
         "id": "neurips-2024-imol-gopnik",
-        "index": 36,
+        "index": 23,
         "decision": "read_transcript",
         "priority": "high",
         "track": "main",
@@ -1133,7 +1042,20 @@
         "caveat": "Workshop schedule title differs from the SlidesLive title; cognitive-science talk, so expect experiments rather than proofs.",
         "speaker": "Alison Gopnik",
         "modules": [],
-        "workshop": ""
+        "workshop": "",
+        "rubric_tiers": {
+          "Timeless": "H",
+          "Generative": "M",
+          "Transfer": "H",
+          "Rare": "H",
+          "Worldview": "H",
+          "Primacy": "H",
+          "Density": "M"
+        },
+        "readiness": [
+          "§22",
+          "§30"
+        ]
       },
       "notes_scope": "Venue page and recording verified; no transcript read.",
       "resources": []
@@ -1146,7 +1068,7 @@
       "duration_seconds": 1687,
       "screening": {
         "id": "neurips-2022-neurreps-higgins",
-        "index": 37,
+        "index": 24,
         "decision": "read_transcript",
         "priority": "high",
         "track": "main",
@@ -1161,35 +1083,20 @@
         "caveat": "No abstract; 28 minutes.",
         "speaker": "Irina Higgins",
         "modules": [],
-        "workshop": ""
-      },
-      "notes_scope": "Venue page and recording verified; no transcript read.",
-      "resources": []
-    },
-    {
-      "id": "neurips-2022-memari-hochreiter",
-      "title": "Modern Hopfield Networks",
-      "url": "https://slideslive.com/38992758",
-      "published_at": "2022-12-02",
-      "duration_seconds": 2824,
-      "screening": {
-        "id": "neurips-2022-memari-hochreiter",
-        "index": 38,
-        "decision": "read_transcript",
-        "priority": "high",
-        "track": "main",
-        "pillars": [],
-        "theme": [
-          "Modern Hopfield networks / associative memory"
-        ],
-        "publisher_promise": "Presents continuous modern Hopfield networks: their energy, exponential storage capacity, one-step retrieval, and equivalence to transformer attention.",
-        "screening_reason": "Hochreiter co-originated 'Hopfield Networks is All You Need'; the talk derives attention as an energy-minimizing retrieval step, linking memory and transformers (modules 3 and 4). The repository has only his LSTM interview. Rubric: A✓ B✓ C✓ · D 1 · E 2 · F 2.",
-        "evidence": [],
-        "transcript_question": "How is the energy function constructed so that its update rule equals softmax attention, and what governs exponential capacity and metastable states?",
-        "caveat": "No abstract; overlaps with Krotov's associative-memory tutorial already in the repository.",
-        "speaker": "Sepp Hochreiter",
-        "modules": [],
-        "workshop": ""
+        "workshop": "",
+        "rubric_tiers": {
+          "Timeless": "H",
+          "Generative": "M",
+          "Transfer": "H",
+          "Rare": "H",
+          "Worldview": "H",
+          "Primacy": "H",
+          "Density": "M"
+        },
+        "readiness": [
+          "§14b",
+          "§16"
+        ]
       },
       "notes_scope": "Venue page and recording verified; no transcript read.",
       "resources": []
@@ -1202,7 +1109,7 @@
       "duration_seconds": 1685,
       "screening": {
         "id": "neurips-2023-infocog-alemi",
-        "index": 39,
+        "index": 25,
         "decision": "read_transcript",
         "priority": "high",
         "track": "main",
@@ -1219,7 +1126,20 @@
         "caveat": "Abstract excerpt from SlidesLive only.",
         "speaker": "Alexander A. Alemi",
         "modules": [],
-        "workshop": ""
+        "workshop": "",
+        "rubric_tiers": {
+          "Timeless": "H",
+          "Generative": "H",
+          "Transfer": "H",
+          "Rare": "M",
+          "Worldview": "H",
+          "Primacy": "H",
+          "Density": "H"
+        },
+        "readiness": [
+          "§9",
+          "§16"
+        ]
       },
       "notes_scope": "Venue page and recording verified; no transcript read.",
       "resources": []
@@ -1232,7 +1152,7 @@
       "duration_seconds": 2688,
       "screening": {
         "id": "neurips-2023-m3l-krzakala",
-        "index": 40,
+        "index": 26,
         "decision": "read_transcript",
         "priority": "high",
         "track": "main",
@@ -1247,7 +1167,20 @@
         "caveat": "No abstract; the repository already holds several Krzakala lectures, so check overlap.",
         "speaker": "Florent Krzakala",
         "modules": [],
-        "workshop": ""
+        "workshop": "",
+        "rubric_tiers": {
+          "Timeless": "M",
+          "Generative": "H",
+          "Transfer": "M",
+          "Rare": "H",
+          "Worldview": "M",
+          "Primacy": "H",
+          "Density": "M"
+        },
+        "readiness": [
+          "§33",
+          "§12"
+        ]
       },
       "notes_scope": "Venue page and recording verified; no transcript read.",
       "resources": []
@@ -1260,7 +1193,7 @@
       "duration_seconds": 2552,
       "screening": {
         "id": "neurips-2023-imol-polani",
-        "index": 41,
+        "index": 27,
         "decision": "read_transcript",
         "priority": "high",
         "track": "main",
@@ -1275,7 +1208,21 @@
         "caveat": "Abstract excerpt from SlidesLive only.",
         "speaker": "Daniel Polani",
         "modules": [],
-        "workshop": ""
+        "workshop": "",
+        "rubric_tiers": {
+          "Timeless": "H",
+          "Generative": "H",
+          "Transfer": "H",
+          "Rare": "H",
+          "Worldview": "H",
+          "Primacy": "H",
+          "Density": "M"
+        },
+        "readiness": [
+          "§9",
+          "§18",
+          "§8b"
+        ]
       },
       "notes_scope": "Venue page and recording verified; no transcript read.",
       "resources": []
@@ -1288,7 +1235,7 @@
       "duration_seconds": 1864,
       "screening": {
         "id": "neurips-2023-unireps-saxe",
-        "index": 42,
+        "index": 28,
         "decision": "read_transcript",
         "priority": "high",
         "track": "main",
@@ -1303,7 +1250,20 @@
         "caveat": "Speaker missing from the workshop schedule; identified from the SlidesLive page. The repository already holds other Saxe talks.",
         "speaker": "Andrew Saxe",
         "modules": [],
-        "workshop": ""
+        "workshop": "",
+        "rubric_tiers": {
+          "Timeless": "M",
+          "Generative": "H",
+          "Transfer": "H",
+          "Rare": "M",
+          "Worldview": "M",
+          "Primacy": "H",
+          "Density": "H"
+        },
+        "readiness": [
+          "§16",
+          "§1c"
+        ]
       },
       "notes_scope": "Venue page and recording verified; no transcript read.",
       "resources": []
@@ -1316,7 +1276,7 @@
       "duration_seconds": 1691,
       "screening": {
         "id": "neurips-2024-sci4dl-ganguli",
-        "index": 43,
+        "index": 29,
         "decision": "read_transcript",
         "priority": "high",
         "track": "main",
@@ -1331,7 +1291,20 @@
         "caveat": "No abstract; co-credited to Mason Kamb.",
         "speaker": "Surya Ganguli",
         "modules": [],
-        "workshop": ""
+        "workshop": "",
+        "rubric_tiers": {
+          "Timeless": "M",
+          "Generative": "H",
+          "Transfer": "M",
+          "Rare": "M",
+          "Worldview": "H",
+          "Primacy": "H",
+          "Density": "H"
+        },
+        "readiness": [
+          "§48",
+          "§46"
+        ]
       },
       "notes_scope": "Venue page and recording verified; no transcript read.",
       "resources": []
@@ -1344,7 +1317,7 @@
       "duration_seconds": 2913,
       "screening": {
         "id": "neurips-2024-m3l-zdeborova",
-        "index": 44,
+        "index": 30,
         "decision": "read_transcript",
         "priority": "high",
         "track": "maths",
@@ -1361,7 +1334,21 @@
         "caveat": "Overlaps in part with the repository's Zdeborová phase-transition lectures; no abstract.",
         "speaker": "Lenka Zdeborová",
         "modules": [],
-        "workshop": ""
+        "workshop": "",
+        "rubric_tiers": {
+          "Timeless": "M",
+          "Generative": "H",
+          "Transfer": "M",
+          "Rare": "H",
+          "Worldview": "M",
+          "Primacy": "H",
+          "Density": "M"
+        },
+        "readiness": [
+          "§33",
+          "§32",
+          "§48"
+        ]
       },
       "notes_scope": "Venue page and recording verified; no transcript read.",
       "resources": []
@@ -1374,7 +1361,7 @@
       "duration_seconds": 2211,
       "screening": {
         "id": "neurips-2024-neuroai-bogacz",
-        "index": 45,
+        "index": 31,
         "decision": "read_transcript",
         "priority": "high",
         "track": "main",
@@ -1389,35 +1376,20 @@
         "caveat": "No abstract; 37-minute keynote.",
         "speaker": "Rafal Bogacz",
         "modules": [],
-        "workshop": ""
-      },
-      "notes_scope": "Venue page and recording verified; no transcript read.",
-      "resources": []
-    },
-    {
-      "id": "neurips-2025-dbm-rao",
-      "title": "Predictive Coding and the Primacy of Actions in Natural and Artificial Intelligence",
-      "url": "https://slideslive.com/39054492",
-      "published_at": "2025-12-02",
-      "duration_seconds": 1772,
-      "screening": {
-        "id": "neurips-2025-dbm-rao",
-        "index": 46,
-        "decision": "read_transcript",
-        "priority": "high",
-        "track": "main",
-        "pillars": [],
-        "theme": [
-          "Predictive coding / active predictive coding"
-        ],
-        "publisher_promise": "Revisits predictive coding with actions at the centre: hierarchical sensorimotor prediction as a common principle for brains and AI.",
-        "screening_reason": "Rao co-originated predictive coding (Rao and Ballard 1999) and now proposes 'active predictive coding'; an originator extending his principle (module 9). The repository holds only a podcast with him. Rubric: A✓ B✓ C✓ · D 2 · E 2 · F 2.",
-        "evidence": [],
-        "transcript_question": "How does active predictive coding formally combine action and prediction hierarchies, and what does it predict that classical predictive coding does not?",
-        "caveat": "No abstract; neuro workshop.",
-        "speaker": "Rajesh P. N. Rao",
-        "modules": [],
-        "workshop": ""
+        "workshop": "",
+        "rubric_tiers": {
+          "Timeless": "H",
+          "Generative": "H",
+          "Transfer": "M",
+          "Rare": "H",
+          "Worldview": "M",
+          "Primacy": "H",
+          "Density": "M"
+        },
+        "readiness": [
+          "§20",
+          "§16"
+        ]
       },
       "notes_scope": "Venue page and recording verified; no transcript read.",
       "resources": []
@@ -1430,7 +1402,7 @@
       "duration_seconds": 1781,
       "screening": {
         "id": "neurips-2025-dynamics-rigollet",
-        "index": 47,
+        "index": 32,
         "decision": "read_transcript",
         "priority": "high",
         "track": "main",
@@ -1445,7 +1417,21 @@
         "caveat": "Workshop schedule gave only 'Invited Talk by Philippe Rigollet'; title from SlidesLive.",
         "speaker": "Philippe Rigollet",
         "modules": [],
-        "workshop": ""
+        "workshop": "",
+        "rubric_tiers": {
+          "Timeless": "M",
+          "Generative": "H",
+          "Transfer": "M",
+          "Rare": "H",
+          "Worldview": "M",
+          "Primacy": "H",
+          "Density": "H"
+        },
+        "readiness": [
+          "§8b",
+          "§26",
+          "§16"
+        ]
       },
       "notes_scope": "Venue page and recording verified; no transcript read.",
       "resources": []
@@ -1458,7 +1444,7 @@
       "duration_seconds": 3432,
       "screening": {
         "id": "icml-2022-tagml-villar",
-        "index": 48,
+        "index": 33,
         "decision": "read_transcript",
         "priority": "high",
         "track": "maths",
@@ -1475,7 +1461,20 @@
         "caveat": "No abstract.",
         "speaker": "Soledad Villar",
         "modules": [],
-        "workshop": ""
+        "workshop": "",
+        "rubric_tiers": {
+          "Timeless": "H",
+          "Generative": "H",
+          "Transfer": "M",
+          "Rare": "H",
+          "Worldview": "M",
+          "Primacy": "H",
+          "Density": "M"
+        },
+        "readiness": [
+          "§14b",
+          "§46"
+        ]
       },
       "notes_scope": "Venue page and recording verified; no transcript read.",
       "resources": []
@@ -1488,7 +1487,7 @@
       "duration_seconds": 2767,
       "screening": {
         "id": "icml-2023-hild-chung",
-        "index": 49,
+        "index": 34,
         "decision": "read_transcript",
         "priority": "high",
         "track": "main",
@@ -1503,35 +1502,21 @@
         "caveat": "Abstract excerpt from SlidesLive only.",
         "speaker": "SueYeon Chung",
         "modules": [],
-        "workshop": ""
-      },
-      "notes_scope": "Venue page and recording verified; no transcript read.",
-      "resources": []
-    },
-    {
-      "id": "iclr-2023-mefomo-bahri",
-      "title": "Understanding Neural Scaling Laws",
-      "url": "https://slideslive.com/39000349",
-      "published_at": "2023-05-03",
-      "duration_seconds": 2524,
-      "screening": {
-        "id": "iclr-2023-mefomo-bahri",
-        "index": 50,
-        "decision": "read_transcript",
-        "priority": "high",
-        "track": "main",
-        "pillars": [],
-        "theme": [
-          "Theory of neural scaling laws"
-        ],
-        "publisher_promise": "Explains the origin of neural scaling laws, separating variance-limited from resolution-limited regimes and tying exponents to data-manifold dimension.",
-        "screening_reason": "Bahri co-originated the variance-limited and resolution-limited theory of scaling laws (Bahri et al. 2021); it derives scaling exponents from a principle (module 2). Rubric: A✓ B✓ C✓ · D 2 · E 2 · F 2.",
-        "evidence": [],
-        "transcript_question": "How are the four scaling regimes derived, and how does the resolution-limited exponent depend on the intrinsic dimension of the data manifold?",
-        "caveat": "No abstract; 42 minutes.",
-        "speaker": "Yasaman Bahri",
-        "modules": [],
-        "workshop": ""
+        "workshop": "",
+        "rubric_tiers": {
+          "Timeless": "H",
+          "Generative": "H",
+          "Transfer": "H",
+          "Rare": "H",
+          "Worldview": "H",
+          "Primacy": "H",
+          "Density": "M"
+        },
+        "readiness": [
+          "§33",
+          "§6",
+          "§16"
+        ]
       },
       "notes_scope": "Venue page and recording verified; no transcript read.",
       "resources": []
@@ -1544,7 +1529,7 @@
       "duration_seconds": 1768,
       "screening": {
         "id": "iclr-2026-sci4dl-jeremy-cohen",
-        "index": 51,
+        "index": 35,
         "decision": "read_transcript",
         "priority": "high",
         "track": "main",
@@ -1559,7 +1544,20 @@
         "caveat": "No abstract; 29 minutes.",
         "speaker": "Jeremy Cohen",
         "modules": [],
-        "workshop": ""
+        "workshop": "",
+        "rubric_tiers": {
+          "Timeless": "M",
+          "Generative": "H",
+          "Transfer": "L",
+          "Rare": "L",
+          "Worldview": "H",
+          "Primacy": "H",
+          "Density": "H"
+        },
+        "readiness": [
+          "§8",
+          "§8b"
+        ]
       },
       "notes_scope": "Venue page and recording verified; no transcript read.",
       "resources": []
@@ -1572,7 +1570,7 @@
       "duration_seconds": 2092,
       "screening": {
         "id": "iclr-2026-nfam-mcclelland",
-        "index": 52,
+        "index": 36,
         "decision": "read_transcript",
         "priority": "high",
         "track": "main",
@@ -1587,7 +1585,19 @@
         "caveat": "No abstract; the repository holds only a podcast with him.",
         "speaker": "Jay McClelland",
         "modules": [],
-        "workshop": ""
+        "workshop": "",
+        "rubric_tiers": {
+          "Timeless": "H",
+          "Generative": "M",
+          "Transfer": "H",
+          "Rare": "H",
+          "Worldview": "H",
+          "Primacy": "H",
+          "Density": "M"
+        },
+        "readiness": [
+          "§16"
+        ]
       },
       "notes_scope": "Venue page and recording verified; no transcript read.",
       "resources": []
@@ -1600,7 +1610,7 @@
       "duration_seconds": 1849,
       "screening": {
         "id": "iclr-2026-gram-kohn",
-        "index": 53,
+        "index": 37,
         "decision": "read_transcript",
         "priority": "high",
         "track": "main",
@@ -1615,7 +1625,21 @@
         "caveat": "The schedule listed a different title ('Parameter symmetries, singularities, and group equivariance'); algebraic geometry is not a listed pillar, so it is placed on the main track.",
         "speaker": "Kathlén Kohn",
         "modules": [],
-        "workshop": ""
+        "workshop": "",
+        "rubric_tiers": {
+          "Timeless": "H",
+          "Generative": "H",
+          "Transfer": "M",
+          "Rare": "H",
+          "Worldview": "M",
+          "Primacy": "H",
+          "Density": "M"
+        },
+        "readiness": [
+          "§39",
+          "§8",
+          "§16"
+        ]
       },
       "notes_scope": "Venue page and recording verified; no transcript read.",
       "resources": []

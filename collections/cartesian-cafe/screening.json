@@ -32,32 +32,22 @@
         "screening_reason": "The originator of AIXI derives a full theory of intelligence from first principles at a whiteboard with a mathematician host. It is the formal counterpart to Chollet in module 1; the book is already in the Compass Library, but the derivation-led conversation is not. Rubric: A originator ✓ · B unifying principle ✓ · C derivation ✓ · D 2 (incomputability; Leike–Hutter critique of the measure) · E 2 · F 2.",
         "evidence": [],
         "transcript_question": "Which AIXI results are theorems, which depend on the choice of universal machine, and what survives in computable approximations?",
-        "caveat": "Audio on Podbean; no transcript shown."
-      },
-      "notes_scope": "Publisher and venue metadata only; no transcript read in this pass.",
-      "resources": []
-    },
-    {
-      "id": "greg-yang-large-n-limits-random-matrices-neural-networks",
-      "title": "Greg Yang | Large N Limits: Random Matrices & Neural Networks",
-      "url": "https://cartesiancafe.podbean.com/e/greg-yang-large-n-limits-random-matrices-neural-networks-the-cartesian-cafe-with-timothy-nguyen/",
-      "published_at": "2023-01-04",
-      "duration_seconds": 10860,
-      "screening": {
-        "id": "greg-yang-large-n-limits-random-matrices-neural-networks",
-        "index": 1,
-        "decision": "read_transcript",
-        "priority": "high",
-        "theme": [
-          "scaling",
-          "infinite width",
-          "feature learning"
-        ],
-        "publisher_promise": "Three-hour conversation on large-N limits, random matrices and Tensor Programs.",
-        "screening_reason": "The originator of Tensor Programs and µP derives which infinite-width limits learn features and which collapse to kernels. It answers a question the repo leaves open: which parametrization makes width a well-behaved scaling axis. Rubric: A originator ✓ · B unifying principle ✓ · C derivation ✓ · D 1 · E 2 · F 2 (feature-learning versus kernel limit).",
-        "evidence": [],
-        "transcript_question": "Why do the standard and NTK parametrizations fail to learn features in the limit, and what does µP change?",
-        "caveat": "Audio on Podbean; no transcript shown."
+        "caveat": "Audio on Podbean; no transcript shown.",
+        "rubric_tiers": {
+          "Timeless": "H",
+          "Generative": "H",
+          "Transfer": "H",
+          "Rare": "H",
+          "Worldview": "H",
+          "Primacy": "H",
+          "Density": "M"
+        },
+        "readiness": [
+          "§9",
+          "§12b",
+          "§18",
+          "§30"
+        ]
       },
       "notes_scope": "Publisher and venue metadata only; no transcript read in this pass.",
       "resources": []
@@ -86,9 +76,22 @@
           9
         ],
         "id": "yQbJNEhgYUw",
-        "index": 2,
+        "index": 1,
         "evidence": [],
-        "workshop": "The Cartesian Cafe"
+        "workshop": "The Cartesian Cafe",
+        "rubric_tiers": {
+          "Timeless": "H",
+          "Generative": "M",
+          "Transfer": "H",
+          "Rare": "H",
+          "Worldview": "H",
+          "Primacy": "H",
+          "Density": "M"
+        },
+        "readiness": [
+          "§16",
+          "§8"
+        ]
       },
       "notes_scope": "Publisher metadata only; no transcript read in this pass.",
       "resources": []
@@ -117,9 +120,22 @@
           4
         ],
         "id": "Gz8W1r90olc",
-        "index": 3,
+        "index": 2,
         "evidence": [],
-        "workshop": "The Cartesian Cafe"
+        "workshop": "The Cartesian Cafe",
+        "rubric_tiers": {
+          "Timeless": "M",
+          "Generative": "H",
+          "Transfer": "H",
+          "Rare": "H",
+          "Worldview": "H",
+          "Primacy": "H",
+          "Density": "M"
+        },
+        "readiness": [
+          "§45",
+          "§2"
+        ]
       },
       "notes_scope": "Publisher metadata only; no transcript read in this pass.",
       "resources": []

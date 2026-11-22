@@ -13,38 +13,6 @@
   },
   "episodes": [
     {
-      "id": "4yKhDpbFDhQ",
-      "title": "Comment le cerveau humain se compare-t-il aux intelligences artificielles actuelles ? - S. Dehaene",
-      "url": "https://www.youtube.com/watch?v=4yKhDpbFDhQ",
-      "published_at": "2025-10-24",
-      "duration_seconds": 2100,
-      "screening": {
-        "decision": "read_transcript",
-        "priority": "high",
-        "theme": [
-          "language of thought",
-          "symbolic compression",
-          "brain vs ai"
-        ],
-        "publisher_promise": "Dehaene compares the human brain with current AI systems and lists challenges from cognitive science that current models do not meet.",
-        "screening_reason": "Dehaene originated the neuronal recycling and language-of-thought/minimal description length accounts of human geometric and numerical learning; a 2025 comparison with AI is where he states what he thinks AI lacks. Rubric: A✓ B✓ C✓ · D 2 · E 1 · F 2.",
-        "transcript_question": "Which specific capacities (compositional symbolic compression, sample efficiency, recursive language of thought) does Dehaene claim AI lacks, and what experimental evidence ties them to a mechanism?",
-        "caveat": "publisher abstract only; in French; 35-min colloquium talk; abstract is only a title",
-        "speaker": "Stanislas Dehaene",
-        "modules": [
-          1,
-          4,
-          9
-        ],
-        "id": "4yKhDpbFDhQ",
-        "index": 0,
-        "evidence": [],
-        "workshop": "Colloque de rentrée 2025 - Formes de l’intelligence"
-      },
-      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
-      "resources": []
-    },
-    {
       "id": "8QcRw-2xLvk",
       "title": "Le rôle du langage dans le développement du noyau de connaissances de l'enfant - E. Spelke",
       "url": "https://www.youtube.com/watch?v=8QcRw-2xLvk",
@@ -68,9 +36,19 @@
           9
         ],
         "id": "8QcRw-2xLvk",
-        "index": 1,
+        "index": 0,
         "evidence": [],
-        "workshop": "Colloque de rentrée 2018 - Langue et science, langage et pensée"
+        "workshop": "Colloque de rentrée 2018 - Langue et science, langage et pensée",
+        "rubric_tiers": {
+          "Timeless": "H",
+          "Generative": "M",
+          "Transfer": "H",
+          "Rare": "H",
+          "Worldview": "H",
+          "Primacy": "H",
+          "Density": "H"
+        },
+        "readiness": []
       },
       "notes_scope": "Publisher metadata only; no transcript read in this pass.",
       "resources": []
@@ -99,71 +77,21 @@
           3
         ],
         "id": "ww4dYVJVgP0",
-        "index": 2,
+        "index": 1,
         "evidence": [],
-        "workshop": "Colloque de rentrée 2008 - Aux origines du dialogue humain : Parole et musique"
-      },
-      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
-      "resources": []
-    },
-    {
-      "id": "TdLa5h-x2nA",
-      "title": "L'apprentissage profond : une révolution en intelligence artificielle - Yann LeCun (2016)",
-      "url": "https://www.youtube.com/watch?v=TdLa5h-x2nA",
-      "published_at": "2022-11-18",
-      "duration_seconds": 5400,
-      "screening": {
-        "decision": "read_transcript",
-        "priority": "high",
-        "theme": [
-          "deep learning",
-          "representation learning",
-          "predictive learning"
-        ],
-        "publisher_promise": "LeCun's inaugural lecture presenting deep learning as a revolution in AI, from convolutional networks to the open problem of unsupervised, predictive learning.",
-        "screening_reason": "An architect of convolutional networks setting out his programme in a 90-minute lecture; likely includes the early form of his argument that predictive world models and unsupervised learning are the missing piece. Rubric: A✓ B✓ C✗ · D 1 · E 1 · F 1.",
-        "transcript_question": "Does LeCun give a principled argument (energy-based models, prediction under uncertainty) for why unsupervised predictive learning is necessary, or only an overview of results?",
-        "caveat": "publisher abstract only; in French; publisher gives no abstract; 2016 content may be dated; speaker named in title",
-        "speaker": "Yann LeCun",
-        "modules": [
-          3,
-          6
-        ],
-        "id": "TdLa5h-x2nA",
-        "index": 3,
-        "evidence": [],
-        "workshop": "AI lectures (LeCun 2015-16 chair, Sagot, Hassabis, others) (channel uploads)"
-      },
-      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
-      "resources": []
-    },
-    {
-      "id": "enG1DKBCWwc",
-      "title": "Modèles multi-échelles et réseaux de neurones convolutifs (13) - Stéphane Mallat (2019-2020)",
-      "url": "https://www.youtube.com/watch?v=enG1DKBCWwc",
-      "published_at": "2020-06-18",
-      "duration_seconds": 5880,
-      "screening": {
-        "decision": "read_transcript",
-        "priority": "high",
-        "theme": [
-          "scattering networks",
-          "invariance",
-          "wavelets"
-        ],
-        "publisher_promise": "A full course lecture deriving wavelet scattering networks as a multiscale, stable, invariant representation and relating them to convolutional networks.",
-        "screening_reason": "The originator teaching his own construction in a 98-minute course lecture: invariance and Lipschitz stability to deformations derived from first principles. Rubric: A✓ B✓ C✓ · D 1 · E 2 · F 2.",
-        "transcript_question": "Does the lecture derive why translation invariance plus deformation stability forces a cascade of wavelet modulus operators, and what does that imply for CNN architecture?",
-        "caveat": "publisher abstract only; in French; lecture 13 of a course series, may assume earlier lectures",
-        "speaker": "Stéphane Mallat",
-        "modules": [
-          2,
-          3
-        ],
-        "id": "enG1DKBCWwc",
-        "index": 4,
-        "evidence": [],
-        "workshop": "Chair Sciences des donnees - Stephane Mallat (channel uploads)"
+        "workshop": "Colloque de rentrée 2008 - Aux origines du dialogue humain : Parole et musique",
+        "rubric_tiers": {
+          "Timeless": "H",
+          "Generative": "M",
+          "Transfer": "H",
+          "Rare": "H",
+          "Worldview": "H",
+          "Primacy": "H",
+          "Density": "H"
+        },
+        "readiness": [
+          "§8b"
+        ]
       },
       "notes_scope": "Publisher metadata only; no transcript read in this pass.",
       "resources": []
@@ -191,9 +119,23 @@
           2
         ],
         "id": "WGIJOwvYmfE",
-        "index": 5,
+        "index": 2,
         "evidence": [],
-        "workshop": "Chair Sciences des donnees - Stephane Mallat (channel uploads)"
+        "workshop": "Chair Sciences des donnees - Stephane Mallat (channel uploads)",
+        "rubric_tiers": {
+          "Timeless": "H",
+          "Generative": "H",
+          "Transfer": "H",
+          "Rare": "M",
+          "Worldview": "H",
+          "Primacy": "H",
+          "Density": "M"
+        },
+        "readiness": [
+          "§6",
+          "§2c",
+          "§12"
+        ]
       },
       "notes_scope": "Publisher metadata only; no transcript read in this pass.",
       "resources": []
@@ -206,7 +148,7 @@
       "duration_seconds": 3540,
       "screening": {
         "id": "CgCJ4YA5-YU",
-        "index": 6,
+        "index": 3,
         "decision": "read_transcript",
         "priority": "high",
         "track": "maths",
@@ -226,41 +168,20 @@
         "caveat": "The balance of derivations and qualitative explanation is unverified.",
         "speaker": "Bernard Derrida",
         "modules": [],
-        "workshop": "Statistical physics, random matrices, information, evolution maths (channel uploads)"
-      },
-      "notes_scope": "Publisher metadata only; screened on the maths track by Codex; no transcript read.",
-      "resources": []
-    },
-    {
-      "id": "sbr9beKE6ko",
-      "title": "Algorithmes (1) - Claire Mathieu (2017-2018)",
-      "url": "https://www.youtube.com/watch?v=sbr9beKE6ko",
-      "published_at": "2017-12-19",
-      "duration_seconds": 3480,
-      "screening": {
-        "id": "sbr9beKE6ko",
-        "index": 7,
-        "decision": "read_transcript",
-        "priority": "high",
-        "track": "maths",
-        "pillars": [
-          "§11",
-          "§4",
-          "§44"
-        ],
-        "theme": [
-          "maths track",
-          "§11",
+        "workshop": "Statistical physics, random matrices, information, evolution maths (channel uploads)",
+        "rubric_tiers": {
+          "Timeless": "H",
+          "Generative": "M",
+          "Transfer": "H",
+          "Rare": "M",
+          "Worldview": "H",
+          "Primacy": "H",
+          "Density": "M"
+        },
+        "readiness": [
+          "§33",
           "§4"
-        ],
-        "publisher_promise": "",
-        "screening_reason": "Mathieu's opening lecture explicitly develops and analyzes randomized distributed algorithms including Luby's algorithm. (Maths track: architect-taught exposition of a Compass pillar.)",
-        "evidence": [],
-        "transcript_question": "Why does randomization efficiently break symmetry in distributed graph algorithms?",
-        "caveat": "The completeness of the analysis is unverified.",
-        "speaker": "Claire Mathieu",
-        "modules": [],
-        "workshop": "Informatics chairs (Berry, Leroy, Mathieu, Abiteboul, Chazelle, Boissonnat, Fontana, Coquand, others) (channel uploads)"
+        ]
       },
       "notes_scope": "Publisher metadata only; screened on the maths track by Codex; no transcript read.",
       "resources": []

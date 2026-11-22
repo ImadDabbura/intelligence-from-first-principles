@@ -13,37 +13,6 @@
   },
   "episodes": [
     {
-      "id": "K2UlqNoXSes",
-      "title": "Pratik Chaudhari: \"Learning with few labeled data\"",
-      "url": "https://www.youtube.com/watch?v=K2UlqNoXSes",
-      "published_at": "2020-07-06",
-      "duration_seconds": 3060,
-      "screening": {
-        "decision": "read_transcript",
-        "priority": "high",
-        "theme": [
-          "representation learning",
-          "thermodynamics",
-          "transfer learning"
-        ],
-        "publisher_promise": "Connects transfer learning to thermodynamics, placing rate, distortion and classification loss on a convex equilibrium surface and prescribing processes that move along it to control transfer.",
-        "screening_reason": "Chaudhari originated this thermodynamic rate-distortion framing of representations; it turns representation quality into a state-space with derived processes, a genuine model update for few-shot transfer. Rubric: A✓ B✓ C✓ · D 1 · E 2 · F 2.",
-        "transcript_question": "Is the equilibrium surface derived from a single variational principle that yields testable predictions about transfer, or is it a convenient parameterisation of empirical trade-offs?",
-        "caveat": "publisher abstract only; speaker from title/description",
-        "speaker": "Pratik Chaudhari",
-        "modules": [
-          3,
-          2
-        ],
-        "id": "K2UlqNoXSes",
-        "index": 0,
-        "evidence": [],
-        "workshop": "IPAM"
-      },
-      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
-      "resources": []
-    },
-    {
       "id": "_BPsuomAcoI",
       "title": "Paul Christiano - Mechanistic Estimation - IPAM at UCLA",
       "url": "https://www.youtube.com/watch?v=_BPsuomAcoI",
@@ -66,101 +35,22 @@
           1
         ],
         "id": "_BPsuomAcoI",
-        "index": 1,
+        "index": 0,
         "evidence": [],
-        "workshop": "IPAM"
-      },
-      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
-      "resources": []
-    },
-    {
-      "id": "4V_V9dh4yzg",
-      "title": "Ryan Cotterell - Two views of a language model - IPAM at UCLA",
-      "url": "https://www.youtube.com/watch?v=4V_V9dh4yzg",
-      "published_at": "2026-09-01",
-      "duration_seconds": 2700,
-      "screening": {
-        "decision": "read_transcript",
-        "priority": "high",
-        "theme": [
-          "transformer expressivity",
-          "formal languages",
-          "statistical-computational duality"
-        ],
-        "publisher_promise": "Separates a language model as a distribution judged by held-out prediction from a language model as a model of computation, and develops expressivity results for unique-hard-attention transformers using logic and automata.",
-        "screening_reason": "Cotterell builds this programme; the duality names exactly where average-case prediction stops telling you whether an algorithm is present, a reframing directly useful for module 4 and for evaluation. Rubric: A✓ B✓ C✓ · D 2 · E 2 · F 2.",
-        "transcript_question": "Which exact logical class do fixed-precision UHATs recognise, and how does the talk link that bound to observable out-of-distribution failures of trained models?",
-        "caveat": "publisher abstract only; speaker from title/description",
-        "speaker": "Ryan Cotterell",
-        "modules": [
-          4,
-          1
-        ],
-        "id": "4V_V9dh4yzg",
-        "index": 2,
-        "evidence": [],
-        "workshop": "IPAM"
-      },
-      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
-      "resources": []
-    },
-    {
-      "id": "5PjsZ3sGhm8",
-      "title": "Gérard Ben Arous: \"Which is worse: a weak signal lost in entropy or trapping by topological comp...\"",
-      "url": "https://www.youtube.com/watch?v=5PjsZ3sGhm8",
-      "published_at": "2019-12-10",
-      "duration_seconds": 2880,
-      "screening": {
-        "decision": "read_transcript",
-        "priority": "high",
-        "theme": [
-          "optimization landscapes",
-          "high-dimensional probability",
-          "tensor pca"
-        ],
-        "publisher_promise": "Asks whether high-dimensional non-convex problems are hard because of landscape complexity or because a weak signal is drowned in high-entropy regions, using tensor PCA to say when GD and SGD provably succeed.",
-        "screening_reason": "Ben Arous is a primary architect of landscape-complexity (Kac-Rice) and information-exponent analyses; the entropy-versus-traps distinction is a sharp, falsifiable reframing of what makes learning hard. Rubric: A✓ B✓ C✓ · D 2 · E 2 · F 2.",
-        "transcript_question": "Does the talk derive a criterion that separates entropic (weak-signal) hardness from topological trapping, and does that criterion predict when SGD succeeds beyond tensor PCA?",
-        "caveat": "publisher abstract only; speaker from title/description",
-        "speaker": "Gérard Ben Arous",
-        "modules": [
-          2
-        ],
-        "id": "5PjsZ3sGhm8",
-        "index": 3,
-        "evidence": [],
-        "workshop": "IPAM"
-      },
-      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
-      "resources": []
-    },
-    {
-      "id": "A7AnCvYDQrU",
-      "title": "Yann LeCun: \"Energy-Based Self-Supervised Learning\"",
-      "url": "https://www.youtube.com/watch?v=A7AnCvYDQrU",
-      "published_at": "2019-12-10",
-      "duration_seconds": 3600,
-      "screening": {
-        "decision": "read_transcript",
-        "priority": "high",
-        "theme": [
-          "energy-based models",
-          "self-supervised learning",
-          "world models"
-        ],
-        "publisher_promise": "Presents energy-based models as a unifying framework for self-supervised learning, framed by physical insight into learning.",
-        "screening_reason": "LeCun is the architect of the energy-based view of learning; a 60-minute talk at a physics-of-learning workshop is likely the derivational version (contrastive versus regularised collapse prevention) rather than a keynote overview. Rubric: A✓ B✓ C✓ · D 2 · E 1 · F 1.",
-        "transcript_question": "Does the talk derive why energy-based SSL needs contrastive or regularised collapse prevention and what each predicts, rather than surveying architectures?",
-        "caveat": "no abstract; title and speaker only; speaker from title/description",
-        "speaker": "Yann LeCun",
-        "modules": [
-          3,
-          6
-        ],
-        "id": "A7AnCvYDQrU",
-        "index": 4,
-        "evidence": [],
-        "workshop": "IPAM"
+        "workshop": "IPAM",
+        "rubric_tiers": {
+          "Timeless": "M",
+          "Generative": "H",
+          "Transfer": "M",
+          "Rare": "M",
+          "Worldview": "H",
+          "Primacy": "H",
+          "Density": "M"
+        },
+        "readiness": [
+          "§4",
+          "§12b"
+        ]
       },
       "notes_scope": "Publisher metadata only; no transcript read in this pass.",
       "resources": []
@@ -188,38 +78,22 @@
           2
         ],
         "id": "fmVuNRKsQa8",
-        "index": 5,
+        "index": 1,
         "evidence": [],
-        "workshop": "IPAM"
-      },
-      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
-      "resources": []
-    },
-    {
-      "id": "KKGcXhT-E88",
-      "title": "Petar Veličković - Reasoning Algorithmically: from Toy Experiments to AGI Modules - IPAM at UCLA",
-      "url": "https://www.youtube.com/watch?v=KKGcXhT-E88",
-      "published_at": "2023-03-02",
-      "duration_seconds": 3120,
-      "screening": {
-        "decision": "read_transcript",
-        "priority": "high",
-        "theme": [
-          "neural algorithmic reasoning",
-          "algorithmic alignment"
-        ],
-        "publisher_promise": "Argues neural networks can learn to execute algorithms and outlines how this yields reasoning modules.",
-        "screening_reason": "Architect of neural algorithmic reasoning; central to how structure becomes executable computation. Rubric: A✓ B✓ C✓ · D 1 · E 2 · F 1.",
-        "transcript_question": "Does the talk show why architectural alignment with an algorithm enables extrapolation, with evidence?",
-        "caveat": "publisher abstract only; speaker from title/description",
-        "speaker": "Petar Veličković",
-        "modules": [
-          4
-        ],
-        "id": "KKGcXhT-E88",
-        "index": 6,
-        "evidence": [],
-        "workshop": "IPAM"
+        "workshop": "IPAM",
+        "rubric_tiers": {
+          "Timeless": "M",
+          "Generative": "H",
+          "Transfer": "M",
+          "Rare": "H",
+          "Worldview": "M",
+          "Primacy": "H",
+          "Density": "M"
+        },
+        "readiness": [
+          "§29",
+          "§2"
+        ]
       },
       "notes_scope": "Publisher metadata only; no transcript read in this pass.",
       "resources": []
@@ -248,9 +122,22 @@
           7
         ],
         "id": "lUZ8_m9Kiq4",
-        "index": 7,
+        "index": 2,
         "evidence": [],
-        "workshop": "IPAM"
+        "workshop": "IPAM",
+        "rubric_tiers": {
+          "Timeless": "M",
+          "Generative": "H",
+          "Transfer": "M",
+          "Rare": "L",
+          "Worldview": "H",
+          "Primacy": "H",
+          "Density": "M"
+        },
+        "readiness": [
+          "§12",
+          "§24"
+        ]
       },
       "notes_scope": "Publisher metadata only; no transcript read in this pass.",
       "resources": []
@@ -279,9 +166,21 @@
           6
         ],
         "id": "mfh4fp_8oPg",
-        "index": 8,
+        "index": 3,
         "evidence": [],
-        "workshop": "IPAM"
+        "workshop": "IPAM",
+        "rubric_tiers": {
+          "Timeless": "H",
+          "Generative": "M",
+          "Transfer": "H",
+          "Rare": "M",
+          "Worldview": "H",
+          "Primacy": "H",
+          "Density": "M"
+        },
+        "readiness": [
+          "§22"
+        ]
       },
       "notes_scope": "Publisher metadata only; no transcript read in this pass.",
       "resources": []
@@ -310,9 +209,23 @@
           3
         ],
         "id": "mSXlPalpnAg",
-        "index": 9,
+        "index": 4,
         "evidence": [],
-        "workshop": "IPAM"
+        "workshop": "IPAM",
+        "rubric_tiers": {
+          "Timeless": "H",
+          "Generative": "H",
+          "Transfer": "H",
+          "Rare": "H",
+          "Worldview": "H",
+          "Primacy": "H",
+          "Density": "M"
+        },
+        "readiness": [
+          "§33",
+          "§6",
+          "§16"
+        ]
       },
       "notes_scope": "Publisher metadata only; no transcript read in this pass.",
       "resources": []
@@ -340,9 +253,22 @@
           2
         ],
         "id": "nD58NmDvCFo",
-        "index": 10,
+        "index": 5,
         "evidence": [],
-        "workshop": "IPAM"
+        "workshop": "IPAM",
+        "rubric_tiers": {
+          "Timeless": "H",
+          "Generative": "H",
+          "Transfer": "H",
+          "Rare": "H",
+          "Worldview": "H",
+          "Primacy": "H",
+          "Density": "M"
+        },
+        "readiness": [
+          "§33",
+          "§8"
+        ]
       },
       "notes_scope": "Publisher metadata only; no transcript read in this pass.",
       "resources": []
@@ -370,9 +296,21 @@
           1
         ],
         "id": "vfdZ-jIwdlw",
-        "index": 11,
+        "index": 6,
         "evidence": [],
-        "workshop": "IPAM"
+        "workshop": "IPAM",
+        "rubric_tiers": {
+          "Timeless": "H",
+          "Generative": "H",
+          "Transfer": "H",
+          "Rare": "M",
+          "Worldview": "H",
+          "Primacy": "H",
+          "Density": "M"
+        },
+        "readiness": [
+          "§22"
+        ]
       },
       "notes_scope": "Publisher metadata only; no transcript read in this pass.",
       "resources": []
@@ -401,39 +339,22 @@
           3
         ],
         "id": "XdTbm_OcmY0",
-        "index": 12,
+        "index": 7,
         "evidence": [],
-        "workshop": "IPAM"
-      },
-      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
-      "resources": []
-    },
-    {
-      "id": "y4KTbVjaEYc",
-      "title": "Carlo Baldassi: \"On the existence of wide flat minima in neural network landscapes: analytic and...\"",
-      "url": "https://www.youtube.com/watch?v=y4KTbVjaEYc",
-      "published_at": "2019-12-11",
-      "duration_seconds": 3060,
-      "screening": {
-        "decision": "read_transcript",
-        "priority": "high",
-        "theme": [
-          "flat minima",
-          "statistical physics",
-          "local entropy"
-        ],
-        "publisher_promise": "Uses large-deviation statistical physics to show that wide flat minima exist and are accessible, and builds algorithms that exploit them.",
-        "screening_reason": "Baldassi is an originator of the local-entropy account; it derives generalization from rare wide minima and predicts algorithm design. Rubric: A✓ B✓ C✓ · D 2 · E 2 · F 2.",
-        "transcript_question": "Does the analysis show why ReLU and cross-entropy favour wide flat minima, and do the predictions hold beyond simplified models?",
-        "caveat": "publisher abstract only; speaker from title/description",
-        "speaker": "Carlo Baldassi",
-        "modules": [
-          2
-        ],
-        "id": "y4KTbVjaEYc",
-        "index": 13,
-        "evidence": [],
-        "workshop": "IPAM"
+        "workshop": "IPAM",
+        "rubric_tiers": {
+          "Timeless": "H",
+          "Generative": "H",
+          "Transfer": "M",
+          "Rare": "H",
+          "Worldview": "H",
+          "Primacy": "H",
+          "Density": "M"
+        },
+        "readiness": [
+          "§33",
+          "§4"
+        ]
       },
       "notes_scope": "Publisher metadata only; no transcript read in this pass.",
       "resources": []
@@ -461,40 +382,22 @@
           2
         ],
         "id": "yLYUgC-RsVo",
-        "index": 14,
+        "index": 8,
         "evidence": [],
-        "workshop": "IPAM"
-      },
-      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
-      "resources": []
-    },
-    {
-      "id": "y0KxsLJvG14",
-      "title": "Adityanarayanan Radhakrishnan - How do neural networks learn features from data? - IPAM at UCLA",
-      "url": "https://www.youtube.com/watch?v=y0KxsLJvG14",
-      "published_at": "2024-10-18",
-      "duration_seconds": 2760,
-      "screening": {
-        "decision": "read_transcript",
-        "priority": "high",
-        "theme": [
-          "feature learning",
-          "agop",
-          "rfm"
-        ],
-        "publisher_promise": "Proposes that features learned by neural networks are captured by the average gradient outer product, and uses it in recursive feature machines.",
-        "screening_reason": "Radhakrishnan originated the AGOP ansatz: one statistic claimed to explain feature learning across architectures, with a derived algorithm. Rubric: A✓ B✓ C✓ · D 2 · E 2 · F 2.",
-        "transcript_question": "Does the AGOP hypothesis have a derivation from training dynamics, and where does it fail?",
-        "caveat": "publisher abstract only; speaker from title/description",
-        "speaker": "Adityanarayanan Radhakrishnan",
-        "modules": [
-          3,
-          2
-        ],
-        "id": "y0KxsLJvG14",
-        "index": 15,
-        "evidence": [],
-        "workshop": "IPAM"
+        "workshop": "IPAM",
+        "rubric_tiers": {
+          "Timeless": "H",
+          "Generative": "H",
+          "Transfer": "M",
+          "Rare": "H",
+          "Worldview": "M",
+          "Primacy": "H",
+          "Density": "M"
+        },
+        "readiness": [
+          "§33",
+          "§12"
+        ]
       },
       "notes_scope": "Publisher metadata only; no transcript read in this pass.",
       "resources": []
@@ -523,9 +426,22 @@
           4
         ],
         "id": "lzYwzIkO89Q",
-        "index": 16,
+        "index": 9,
         "evidence": [],
-        "workshop": "IPAM"
+        "workshop": "IPAM",
+        "rubric_tiers": {
+          "Timeless": "M",
+          "Generative": "H",
+          "Transfer": "H",
+          "Rare": "H",
+          "Worldview": "M",
+          "Primacy": "H",
+          "Density": "M"
+        },
+        "readiness": [
+          "§33",
+          "§8b"
+        ]
       },
       "notes_scope": "Publisher metadata only; no transcript read in this pass.",
       "resources": []
@@ -555,39 +471,23 @@
           6
         ],
         "id": "XQgUT-mbLG8",
-        "index": 17,
+        "index": 10,
         "evidence": [],
-        "workshop": "IPAM"
-      },
-      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
-      "resources": []
-    },
-    {
-      "id": "_lCM207PdxQ",
-      "title": "Mikhail Belkin: \"Optimization for over-parameterized systems of non-linear equations\"",
-      "url": "https://www.youtube.com/watch?v=_lCM207PdxQ",
-      "published_at": "2020-07-06",
-      "duration_seconds": 3120,
-      "screening": {
-        "decision": "read_transcript",
-        "priority": "high",
-        "theme": [
-          "polyak-lojasiewicz",
-          "overparameterization",
-          "tangent kernel"
-        ],
-        "publisher_promise": "Argues overparameterized nonlinear systems satisfy the PL condition, linked to tangent-kernel conditioning, explaining why gradient descent works.",
-        "screening_reason": "Belkin co-originated the PL view of overparameterized optimization; one condition explains why non-convex training succeeds. Rubric: A✓ B✓ C✓ · D 1 · E 2 · F 2.",
-        "transcript_question": "Does the talk derive PL from width and show where it breaks, for example in feature learning?",
-        "caveat": "publisher abstract only; speaker from title/description",
-        "speaker": "Mikhail Belkin",
-        "modules": [
-          2
-        ],
-        "id": "_lCM207PdxQ",
-        "index": 18,
-        "evidence": [],
-        "workshop": "IPAM"
+        "workshop": "IPAM",
+        "rubric_tiers": {
+          "Timeless": "M",
+          "Generative": "H",
+          "Transfer": "M",
+          "Rare": "H",
+          "Worldview": "H",
+          "Primacy": "H",
+          "Density": "M"
+        },
+        "readiness": [
+          "§9",
+          "§31",
+          "§24"
+        ]
       },
       "notes_scope": "Publisher metadata only; no transcript read in this pass.",
       "resources": []
@@ -617,40 +517,19 @@
           9
         ],
         "id": "05MpycrocRI",
-        "index": 19,
+        "index": 11,
         "evidence": [],
-        "workshop": "IPAM"
-      },
-      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
-      "resources": []
-    },
-    {
-      "id": "2bW4TkfTk-M",
-      "title": "Michael Elad: \"Sparse Modeling in Image Processing and Deep Learning\"",
-      "url": "https://www.youtube.com/watch?v=2bW4TkfTk-M",
-      "published_at": "2018-02-16",
-      "duration_seconds": 2520,
-      "screening": {
-        "decision": "read_transcript",
-        "priority": "high",
-        "theme": [
-          "sparse coding",
-          "ml-csc",
-          "cnn theory"
-        ],
-        "publisher_promise": "Elad presents multi-layer convolutional sparse coding and shows that pursuit in this model reproduces CNN forward passes, with uniqueness and stability guarantees.",
-        "screening_reason": "The originator of ML-CSC claims a sparse generative model as the theoretical foundation of deep learning, deriving architectures and guarantees from it. Rubric: A✓ B✓ C✓ · D 2 · E 2 · F 2.",
-        "transcript_question": "How far does the ML-CSC derivation go: which guarantees (uniqueness, stability) hold for realistic networks, and does the model predict anything new about trained CNNs?",
-        "caveat": "publisher abstract only",
-        "speaker": "Michael Elad",
-        "modules": [
-          2,
-          3
-        ],
-        "id": "2bW4TkfTk-M",
-        "index": 20,
-        "evidence": [],
-        "workshop": "IPAM"
+        "workshop": "IPAM",
+        "rubric_tiers": {
+          "Timeless": "H",
+          "Generative": "M",
+          "Transfer": "H",
+          "Rare": "H",
+          "Worldview": "H",
+          "Primacy": "H",
+          "Density": "M"
+        },
+        "readiness": []
       },
       "notes_scope": "Publisher metadata only; no transcript read in this pass.",
       "resources": []
@@ -679,9 +558,23 @@
           3
         ],
         "id": "4eyUReyIPXg",
-        "index": 21,
+        "index": 12,
         "evidence": [],
-        "workshop": "IPAM"
+        "workshop": "IPAM",
+        "rubric_tiers": {
+          "Timeless": "H",
+          "Generative": "H",
+          "Transfer": "H",
+          "Rare": "M",
+          "Worldview": "H",
+          "Primacy": "H",
+          "Density": "H"
+        },
+        "readiness": [
+          "§2c",
+          "§14b",
+          "§46"
+        ]
       },
       "notes_scope": "Publisher metadata only; no transcript read in this pass.",
       "resources": []
@@ -710,40 +603,23 @@
           9
         ],
         "id": "6O-EE2JC-yA",
-        "index": 22,
+        "index": 13,
         "evidence": [],
-        "workshop": "IPAM"
-      },
-      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
-      "resources": []
-    },
-    {
-      "id": "9p52ku7MFEo",
-      "title": "Cengiz Pehlevan - 2 stories in mechanistic interpretation of natural & artificial neural computation",
-      "url": "https://www.youtube.com/watch?v=9p52ku7MFEo",
-      "published_at": "2024-10-15",
-      "duration_seconds": 3300,
-      "screening": {
-        "decision": "read_transcript",
-        "priority": "high",
-        "theme": [
-          "in-context learning",
-          "solvable models",
-          "linear attention"
-        ],
-        "publisher_promise": "Pehlevan derives exact learning curves for in-context linear regression with linear attention as dimension, context length and task diversity scale together.",
-        "screening_reason": "An exactly solvable model that pins down sample complexity, task diversity and context-length requirements for in-context learning, including a double-descent curve. Rubric: A✓ B✓ C✓ · D 2 · E 2 · F 2.",
-        "transcript_question": "What precise conditions on pretraining task diversity does the solvable model identify for in-context learning to beat memorization, and how does the second story relate to it?",
-        "caveat": "publisher abstract only",
-        "speaker": "Cengiz Pehlevan",
-        "modules": [
-          4,
-          3
-        ],
-        "id": "9p52ku7MFEo",
-        "index": 23,
-        "evidence": [],
-        "workshop": "IPAM"
+        "workshop": "IPAM",
+        "rubric_tiers": {
+          "Timeless": "H",
+          "Generative": "H",
+          "Transfer": "H",
+          "Rare": "H",
+          "Worldview": "H",
+          "Primacy": "H",
+          "Density": "M"
+        },
+        "readiness": [
+          "§15",
+          "§9",
+          "§4"
+        ]
       },
       "notes_scope": "Publisher metadata only; no transcript read in this pass.",
       "resources": []
@@ -772,9 +648,22 @@
           6
         ],
         "id": "c-RDgtPAwIo",
-        "index": 24,
+        "index": 14,
         "evidence": [],
-        "workshop": "IPAM"
+        "workshop": "IPAM",
+        "rubric_tiers": {
+          "Timeless": "H",
+          "Generative": "M",
+          "Transfer": "H",
+          "Rare": "M",
+          "Worldview": "H",
+          "Primacy": "H",
+          "Density": "M"
+        },
+        "readiness": [
+          "§31",
+          "§20"
+        ]
       },
       "notes_scope": "Publisher metadata only; no transcript read in this pass.",
       "resources": []
@@ -803,9 +692,23 @@
           3
         ],
         "id": "C1U2PodpnsI",
-        "index": 25,
+        "index": 15,
         "evidence": [],
-        "workshop": "IPAM"
+        "workshop": "IPAM",
+        "rubric_tiers": {
+          "Timeless": "H",
+          "Generative": "H",
+          "Transfer": "H",
+          "Rare": "H",
+          "Worldview": "H",
+          "Primacy": "H",
+          "Density": "M"
+        },
+        "readiness": [
+          "§33",
+          "§12",
+          "§4"
+        ]
       },
       "notes_scope": "Publisher metadata only; no transcript read in this pass.",
       "resources": []
@@ -833,102 +736,23 @@
           2
         ],
         "id": "eiQFMYpMkD4",
-        "index": 26,
+        "index": 16,
         "evidence": [],
-        "workshop": "IPAM"
-      },
-      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
-      "resources": []
-    },
-    {
-      "id": "Gb8uaQn12Gk",
-      "title": "Stéphane Mallat: \"Scattering Invariant Deep Networks for Classification, Pt. 2\"",
-      "url": "https://www.youtube.com/watch?v=Gb8uaQn12Gk",
-      "published_at": "2015-08-26",
-      "duration_seconds": 2340,
-      "screening": {
-        "decision": "read_transcript",
-        "priority": "high",
-        "theme": [
-          "invariance",
-          "scattering networks",
-          "representation"
-        ],
-        "publisher_promise": "Second lecture on scattering transforms: deep cascades of wavelets and modulus that build invariant, stable representations for classification.",
-        "screening_reason": "Mallat originated scattering networks, deriving deep architecture from invariance and Lipschitz stability to deformations; a principle-to-mechanism account of why depth and invariance help. Rubric: A✓ B✓ C✓ · D 1 · E 2 · F 2.",
-        "transcript_question": "Does the lecture derive the scattering architecture from translation invariance plus deformation stability, and say what that implies about what learned CNN layers must do?",
-        "caveat": "title and description only, no abstract; content inferred from title",
-        "speaker": "Stéphane Mallat",
-        "modules": [
-          2,
-          3
-        ],
-        "id": "Gb8uaQn12Gk",
-        "index": 27,
-        "evidence": [],
-        "workshop": "IPAM"
-      },
-      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
-      "resources": []
-    },
-    {
-      "id": "iA3ueTS9BSw",
-      "title": "Bruno Olshausen: \"From Natural Scene Statistics to Models of Neural Coding & Representation, Pt. 2\"",
-      "url": "https://www.youtube.com/watch?v=iA3ueTS9BSw",
-      "published_at": "2015-08-26",
-      "duration_seconds": 3840,
-      "screening": {
-        "decision": "read_transcript",
-        "priority": "high",
-        "theme": [
-          "sparse coding",
-          "natural scene statistics",
-          "neural coding"
-        ],
-        "publisher_promise": "Second lecture on how statistics of natural images give rise to models of neural coding and learned representations.",
-        "screening_reason": "Olshausen co-originated sparse coding, deriving receptive-field structure from an efficient-coding objective on natural-scene statistics; a canonical case of objective plus data statistics yielding representation. Rubric: A✓ B✓ C✓ · D 1 · E 2 · F 1.",
-        "transcript_question": "Does part 2 go beyond V1 sparse coding to show how scene statistics predict higher-level representations, with testable neural predictions?",
-        "caveat": "title and description only, no abstract; content inferred from title",
-        "speaker": "Bruno Olshausen",
-        "modules": [
-          3,
-          9
-        ],
-        "id": "iA3ueTS9BSw",
-        "index": 28,
-        "evidence": [],
-        "workshop": "IPAM"
-      },
-      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
-      "resources": []
-    },
-    {
-      "id": "KVfLoN1Ls9w",
-      "title": "Misha Belkin - The elusive generalization and easy optimization, Pt. 2 of 2 - IPAM at UCLA",
-      "url": "https://www.youtube.com/watch?v=KVfLoN1Ls9w",
-      "published_at": "2024-09-16",
-      "duration_seconds": 4800,
-      "screening": {
-        "decision": "read_transcript",
-        "priority": "high",
-        "theme": [
-          "generalization",
-          "interpolation",
-          "optimization landscape"
-        ],
-        "publisher_promise": "A tutorial tracing how empirical findings in neural networks forced a rethink of generalization theory, and why large non-convex models are easy to optimize with local methods.",
-        "screening_reason": "Belkin is a primary architect of the interpolation/double-descent reframing of generalization and of the PL-condition account of over-parameterized optimization; an architect's tutorial central to module 2. Rubric: A✓ B✓ C✓ · D 2 · E 2 · F 2.",
-        "transcript_question": "Does part 2 derive the over-parameterized optimization result (e.g. PL*-type conditions) and connect it to why interpolating models generalize, or does it stay at survey level?",
-        "caveat": "publisher abstract only; part 2 of 2, so content split with part 1 is unverified",
-        "speaker": "Misha Belkin",
-        "modules": [
-          2,
-          1
-        ],
-        "id": "KVfLoN1Ls9w",
-        "index": 29,
-        "evidence": [],
-        "workshop": "IPAM"
+        "workshop": "IPAM",
+        "rubric_tiers": {
+          "Timeless": "H",
+          "Generative": "H",
+          "Transfer": "M",
+          "Rare": "M",
+          "Worldview": "H",
+          "Primacy": "H",
+          "Density": "M"
+        },
+        "readiness": [
+          "§12",
+          "§8",
+          "§14"
+        ]
       },
       "notes_scope": "Publisher metadata only; no transcript read in this pass.",
       "resources": []
@@ -956,9 +780,23 @@
           2
         ],
         "id": "NFeZ6MggJjw",
-        "index": 30,
+        "index": 17,
         "evidence": [],
-        "workshop": "New Deep Learning Techniques 2018"
+        "workshop": "New Deep Learning Techniques 2018",
+        "rubric_tiers": {
+          "Timeless": "M",
+          "Generative": "H",
+          "Transfer": "M",
+          "Rare": "H",
+          "Worldview": "M",
+          "Primacy": "H",
+          "Density": "H"
+        },
+        "readiness": [
+          "§27",
+          "§33",
+          "§8"
+        ]
       },
       "notes_scope": "Publisher metadata only; no transcript read in this pass.",
       "resources": []
@@ -987,40 +825,21 @@
           3
         ],
         "id": "O6itYc2nnnM",
-        "index": 31,
+        "index": 18,
         "evidence": [],
-        "workshop": "Graduate Summer School: Deep Learning, Feature Learning 2012"
-      },
-      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
-      "resources": []
-    },
-    {
-      "id": "oOB4evKlEmQ",
-      "title": "Yann LeCun: \"Deep Learning, Graphical Models, Energy-Based Models, Structured Prediction, Pt. 1\"",
-      "url": "https://www.youtube.com/watch?v=oOB4evKlEmQ",
-      "published_at": "2015-08-24",
-      "duration_seconds": 3720,
-      "screening": {
-        "decision": "read_transcript",
-        "priority": "high",
-        "theme": [
-          "energy-based models",
-          "structured prediction",
-          "graphical models"
-        ],
-        "publisher_promise": "Opens LeCun's lectures unifying deep learning, graphical models and structured prediction under energy-based learning.",
-        "screening_reason": "Architect of energy-based learning sets out the unifying framework and loss design that later grounds JEPA-style world models. Rubric: A✓ B✓ C✓ · D 1 · E 2 · F 1.",
-        "transcript_question": "Does part 1 derive which loss functions are valid for energy-based learning (contrastive vs collapse) or only introduce notation?",
-        "caveat": "no abstract; judged from title and workshop only; part of a multi-part series",
-        "speaker": "Yann LeCun",
-        "modules": [
-          3,
-          4
-        ],
-        "id": "oOB4evKlEmQ",
-        "index": 32,
-        "evidence": [],
-        "workshop": "Graduate Summer School: Deep Learning, Feature Learning 2012"
+        "workshop": "Graduate Summer School: Deep Learning, Feature Learning 2012",
+        "rubric_tiers": {
+          "Timeless": "H",
+          "Generative": "M",
+          "Transfer": "H",
+          "Rare": "M",
+          "Worldview": "H",
+          "Primacy": "H",
+          "Density": "M"
+        },
+        "readiness": [
+          "§16"
+        ]
       },
       "notes_scope": "Publisher metadata only; no transcript read in this pass.",
       "resources": []
@@ -1049,45 +868,24 @@
           3
         ],
         "id": "zbg49SMP5kY",
-        "index": 33,
+        "index": 19,
         "evidence": [],
-        "workshop": "New Deep Learning Techniques 2018"
+        "workshop": "New Deep Learning Techniques 2018",
+        "rubric_tiers": {
+          "Timeless": "H",
+          "Generative": "H",
+          "Transfer": "H",
+          "Rare": "M",
+          "Worldview": "H",
+          "Primacy": "H",
+          "Density": "H"
+        },
+        "readiness": [
+          "§9",
+          "§16"
+        ]
       },
       "notes_scope": "Publisher metadata only; no transcript read in this pass.",
-      "resources": []
-    },
-    {
-      "id": "v9lx4XN3w9c",
-      "title": "Joseph Landsberg: \"Introduction to the Geometry of Tensors (Part 1/2)\"",
-      "url": "https://www.youtube.com/watch?v=v9lx4XN3w9c",
-      "published_at": "2021-03-24",
-      "duration_seconds": 4320,
-      "screening": {
-        "id": "v9lx4XN3w9c",
-        "index": 34,
-        "decision": "read_transcript",
-        "priority": "high",
-        "track": "maths",
-        "pillars": [
-          "§2",
-          "§15",
-          "§28"
-        ],
-        "theme": [
-          "maths track",
-          "§2",
-          "§15"
-        ],
-        "publisher_promise": "",
-        "screening_reason": "Landsberg's introductory tutorial teaches tensor geometry from a leading architect's perspective. (Maths track: architect-taught exposition of a Compass pillar.)",
-        "evidence": [],
-        "transcript_question": "How does tensor geometry explain rank, decomposition and computational difficulty?",
-        "caveat": "Full derivations, prerequisites and breadth of exposition are unverified.",
-        "speaker": "Joseph Landsberg",
-        "modules": [],
-        "workshop": "Tensor Methods and Emerging Applications to the Physical and Data Sciences Tutorials 2021"
-      },
-      "notes_scope": "Publisher metadata only; screened on the maths track by Codex; no transcript read.",
       "resources": []
     },
     {
@@ -1098,7 +896,7 @@
       "duration_seconds": 4260,
       "screening": {
         "id": "MkYEh0UJKcE",
-        "index": 35,
+        "index": 20,
         "decision": "read_transcript",
         "priority": "high",
         "track": "maths",
@@ -1119,41 +917,20 @@
         "caveat": "Full derivations, prerequisites and breadth of exposition are unverified.",
         "speaker": "Lek-Heng Lim",
         "modules": [],
-        "workshop": "Tensor Methods and Emerging Applications to the Physical and Data Sciences Tutorials 2021"
-      },
-      "notes_scope": "Publisher metadata only; screened on the maths track by Codex; no transcript read.",
-      "resources": []
-    },
-    {
-      "id": "K8t24xm7tn8",
-      "title": "Ming Yuan: \"Low Rank Tensor Methods in High Dimensional Data Analysis (Part 1/2)\"",
-      "url": "https://www.youtube.com/watch?v=K8t24xm7tn8",
-      "published_at": "2021-03-24",
-      "duration_seconds": 4920,
-      "screening": {
-        "id": "K8t24xm7tn8",
-        "index": 36,
-        "decision": "read_transcript",
-        "priority": "high",
-        "track": "maths",
-        "pillars": [
-          "§15",
-          "§6",
-          "§10"
-        ],
-        "theme": [
-          "maths track",
-          "§15",
-          "§6"
-        ],
-        "publisher_promise": "",
-        "screening_reason": "Yuan's opening tutorial develops statistical and computational foundations of low-rank tensor analysis. (Maths track: architect-taught exposition of a Compass pillar.)",
-        "evidence": [],
-        "transcript_question": "How do tensor structure and rank affect estimation and computational complexity?",
-        "caveat": "Full derivations, prerequisites and breadth of exposition are unverified.",
-        "speaker": "Ming Yuan",
-        "modules": [],
-        "workshop": "Tensor Methods and Emerging Applications to the Physical and Data Sciences Tutorials 2021"
+        "workshop": "Tensor Methods and Emerging Applications to the Physical and Data Sciences Tutorials 2021",
+        "rubric_tiers": {
+          "Timeless": "H",
+          "Generative": "M",
+          "Transfer": "H",
+          "Rare": "M",
+          "Worldview": "M",
+          "Primacy": "H",
+          "Density": "M"
+        },
+        "readiness": [
+          "§2",
+          "§15"
+        ]
       },
       "notes_scope": "Publisher metadata only; screened on the maths track by Codex; no transcript read.",
       "resources": []
@@ -1166,7 +943,7 @@
       "duration_seconds": 5040,
       "screening": {
         "id": "3im-Djrm9GY",
-        "index": 37,
+        "index": 21,
         "decision": "read_transcript",
         "priority": "high",
         "track": "maths",
@@ -1187,7 +964,21 @@
         "caveat": "Proof detail and prerequisites unverified.",
         "speaker": "Frank Verstraete",
         "modules": [],
-        "workshop": "Tensor Methods and Emerging Applications to the Physical and Data Sciences Tutorials 2021"
+        "workshop": "Tensor Methods and Emerging Applications to the Physical and Data Sciences Tutorials 2021",
+        "rubric_tiers": {
+          "Timeless": "H",
+          "Generative": "H",
+          "Transfer": "H",
+          "Rare": "H",
+          "Worldview": "H",
+          "Primacy": "H",
+          "Density": "M"
+        },
+        "readiness": [
+          "§15",
+          "§2",
+          "§33"
+        ]
       },
       "notes_scope": "Publisher metadata only; screened on the maths track by Codex; no transcript read.",
       "resources": []
@@ -1200,7 +991,7 @@
       "duration_seconds": 3360,
       "screening": {
         "id": "4rF7xsBg7h4",
-        "index": 38,
+        "index": 22,
         "decision": "read_transcript",
         "priority": "high",
         "track": "maths",
@@ -1220,205 +1011,20 @@
         "caveat": "Abstract truncated; proof detail unverified.",
         "speaker": "Hugo Duminil-Copin",
         "modules": [],
-        "workshop": "IPAM"
-      },
-      "notes_scope": "Publisher metadata only; screened on the maths track by Codex; no transcript read.",
-      "resources": []
-    },
-    {
-      "id": "EeSuvatIl8k",
-      "title": "Gregory Beylkin - On algorithms in high dimensions - IPAM at UCLA",
-      "url": "https://www.youtube.com/watch?v=EeSuvatIl8k",
-      "published_at": "2024-09-27",
-      "duration_seconds": 3000,
-      "screening": {
-        "id": "EeSuvatIl8k",
-        "index": 39,
-        "decision": "read_transcript",
-        "priority": "high",
-        "track": "maths",
-        "pillars": [
-          "§15",
-          "§42",
-          "§2b"
-        ],
-        "theme": [
-          "maths track",
-          "§15",
-          "§42"
-        ],
-        "publisher_promise": "",
-        "screening_reason": "Beylkin's broad review of high-dimensional function representations teaches core numerical tools from a leading contributor. (Maths track: architect-taught exposition of a Compass pillar.)",
-        "evidence": [],
-        "transcript_question": "How do separated representations avoid dimensional explosion, and when do they fail?",
-        "caveat": "Full derivations and prerequisites are not specified.",
-        "speaker": "Gregory Beylkin",
-        "modules": [],
-        "workshop": "2024 Analyzing High-dimensional Traces of Intelligent Behavior"
-      },
-      "notes_scope": "Publisher metadata only; screened on the maths track by Codex; no transcript read.",
-      "resources": []
-    },
-    {
-      "id": "Hhhtsi2tKlI",
-      "title": "Daniel Kuhn: \"Wasserstein Distributionally Robust Optimization: Theory and Applications in Machi...\"",
-      "url": "https://www.youtube.com/watch?v=Hhhtsi2tKlI",
-      "published_at": "2020-04-09",
-      "duration_seconds": 3660,
-      "screening": {
-        "id": "Hhhtsi2tKlI",
-        "index": 40,
-        "decision": "read_transcript",
-        "priority": "high",
-        "track": "maths",
-        "pillars": [
-          "§7",
-          "§26",
-          "§10"
-        ],
-        "theme": [
-          "maths track",
-          "§7",
-          "§26"
-        ],
-        "publisher_promise": "",
-        "screening_reason": "Kuhn's theory-and-applications exposition teaches Wasserstein robustness from a leading architect of the framework. (Maths track: architect-taught exposition of a Compass pillar.)",
-        "evidence": [],
-        "transcript_question": "How does a Wasserstein ambiguity set yield tractable robust decisions with statistical guarantees?",
-        "caveat": "The supplied abstract is truncated and proof depth is unverified.",
-        "speaker": "Daniel Kuhn",
-        "modules": [],
-        "workshop": "Intersections between Control, Learning and Optimization 2020"
-      },
-      "notes_scope": "Publisher metadata only; screened on the maths track by Codex; no transcript read.",
-      "resources": []
-    },
-    {
-      "id": "NuVBHXYBC4k",
-      "title": "Emmanuel Candès: “The Knockoffs Framework: New Statistical Tools for Replicable Selections”",
-      "url": "https://www.youtube.com/watch?v=NuVBHXYBC4k",
-      "published_at": "2018-10-05",
-      "duration_seconds": 4260,
-      "screening": {
-        "id": "NuVBHXYBC4k",
-        "index": 41,
-        "decision": "read_transcript",
-        "priority": "high",
-        "track": "maths",
-        "pillars": [
-          "§10",
-          "§15"
-        ],
-        "theme": [
-          "maths track",
-          "§10",
-          "§15"
-        ],
-        "publisher_promise": "",
-        "screening_reason": "Candès develops the knockoffs framework in a named lecture, teaching a central approach to rigorous variable selection. (Maths track: architect-taught exposition of a Compass pillar.)",
-        "evidence": [],
-        "transcript_question": "How does knockoff exchangeability yield false-discovery control without strong modeling assumptions?",
-        "caveat": "The supplied abstract is truncated and exact proof coverage is unverified.",
-        "speaker": "Emmanuel Candès",
-        "modules": [],
-        "workshop": "Public Lectures"
-      },
-      "notes_scope": "Publisher metadata only; screened on the maths track by Codex; no transcript read.",
-      "resources": []
-    },
-    {
-      "id": "chGMgHyplPI",
-      "title": "Sebastian Pokutta: \"Structured ML Training via Conditional Gradients\"",
-      "url": "https://www.youtube.com/watch?v=chGMgHyplPI",
-      "published_at": "2021-03-04",
-      "duration_seconds": 1440,
-      "screening": {
-        "id": "chGMgHyplPI",
-        "index": 42,
-        "decision": "read_transcript",
-        "priority": "high",
-        "track": "maths",
-        "pillars": [
-          "§7"
-        ],
-        "theme": [
-          "maths track",
-          "§7"
-        ],
-        "publisher_promise": "",
-        "screening_reason": "A leading conditional-gradient researcher offers a broad survey of central methods and their structural optimization role. (Maths track: architect-taught exposition of a Compass pillar.)",
-        "evidence": [],
-        "transcript_question": "Why do conditional-gradient methods exploit polyhedral structure, and what determines their convergence?",
-        "caveat": "The balance of derivations, applications, and recent results is unverified.",
-        "speaker": "Sebastian Pokutta",
-        "modules": [],
-        "workshop": "Deep Learning and Combinatorial Optimization 2021"
-      },
-      "notes_scope": "Publisher metadata only; screened on the maths track by Codex; no transcript read.",
-      "resources": []
-    },
-    {
-      "id": "dY249vF0Pps",
-      "title": "Jorge Nocedal: \"Tutorial on Optimization Methods for Machine Learning, Pt. 1\"",
-      "url": "https://www.youtube.com/watch?v=dY249vF0Pps",
-      "published_at": "2015-08-26",
-      "duration_seconds": 3660,
-      "screening": {
-        "id": "dY249vF0Pps",
-        "index": 43,
-        "decision": "read_transcript",
-        "priority": "high",
-        "track": "maths",
-        "pillars": [
-          "§7",
-          "§8"
-        ],
-        "theme": [
-          "maths track",
-          "§7",
-          "§8"
-        ],
-        "publisher_promise": "",
-        "screening_reason": "A foundational optimization tutorial by Nocedal directly serves the optimization spine and starts the series. (Maths track: architect-taught exposition of a Compass pillar.)",
-        "evidence": [],
-        "transcript_question": "How do curvature and conditioning determine optimization-method choice?",
-        "caveat": "No abstract verifies the exact syllabus.",
-        "speaker": "Jorge Nocedal",
-        "modules": [],
-        "workshop": "Graduate Summer School: Deep Learning, Feature Learning 2012"
-      },
-      "notes_scope": "Publisher metadata only; screened on the maths track by Codex; no transcript read.",
-      "resources": []
-    },
-    {
-      "id": "Em6mQQy4wYA",
-      "title": "Iain Murray: \"Introduction to MCMC for Deep Learning\"",
-      "url": "https://www.youtube.com/watch?v=Em6mQQy4wYA",
-      "published_at": "2015-08-26",
-      "duration_seconds": 3720,
-      "screening": {
-        "id": "Em6mQQy4wYA",
-        "index": 44,
-        "decision": "read_transcript",
-        "priority": "high",
-        "track": "maths",
-        "pillars": [
-          "§32",
-          "§17"
-        ],
-        "theme": [
-          "maths track",
-          "§32",
-          "§17"
-        ],
-        "publisher_promise": "",
-        "screening_reason": "Murray's summer-school introduction offers foundational MCMC instruction from a leading sampling researcher. (Maths track: architect-taught exposition of a Compass pillar.)",
-        "evidence": [],
-        "transcript_question": "Why does an MCMC chain converge to its target and what controls mixing?",
-        "caveat": "No abstract verifies proof coverage.",
-        "speaker": "Iain Murray",
-        "modules": [],
-        "workshop": "Graduate Summer School: Deep Learning, Feature Learning 2012"
+        "workshop": "IPAM",
+        "rubric_tiers": {
+          "Timeless": "H",
+          "Generative": "H",
+          "Transfer": "H",
+          "Rare": "M",
+          "Worldview": "H",
+          "Primacy": "H",
+          "Density": "H"
+        },
+        "readiness": [
+          "§4",
+          "§33"
+        ]
       },
       "notes_scope": "Publisher metadata only; screened on the maths track by Codex; no transcript read.",
       "resources": []
@@ -1431,7 +1037,7 @@
       "duration_seconds": 3420,
       "screening": {
         "id": "G6OxltPNcHs",
-        "index": 45,
+        "index": 23,
         "decision": "read_transcript",
         "priority": "high",
         "track": "maths",
@@ -1452,7 +1058,21 @@
         "caveat": "Full exposition, prerequisites, and derivation depth are unverified.",
         "speaker": "Dan-Virgil Voiculescu",
         "modules": [],
-        "workshop": "IPAM"
+        "workshop": "IPAM",
+        "rubric_tiers": {
+          "Timeless": "H",
+          "Generative": "H",
+          "Transfer": "M",
+          "Rare": "H",
+          "Worldview": "M",
+          "Primacy": "H",
+          "Density": "M"
+        },
+        "readiness": [
+          "§29",
+          "§9",
+          "§4"
+        ]
       },
       "notes_scope": "Publisher metadata only; screened on the maths track by Codex; no transcript read.",
       "resources": []
@@ -1465,7 +1085,7 @@
       "duration_seconds": 3840,
       "screening": {
         "id": "KI5n6OYzzW8",
-        "index": 46,
+        "index": 24,
         "decision": "read_transcript",
         "priority": "high",
         "track": "maths",
@@ -1486,40 +1106,21 @@
         "caveat": "The precise prerequisites and completeness of derivations are unverified.",
         "speaker": "Wilfrid Gangbo",
         "modules": [],
-        "workshop": "High Dimensional Hamilton-Jacobi PDEs Tutorials 2020"
-      },
-      "notes_scope": "Publisher metadata only; screened on the maths track by Codex; no transcript read.",
-      "resources": []
-    },
-    {
-      "id": "WyKN8CyFZNI",
-      "title": "Katya Scheinberg: \"Recent advances in Derivative-Free Optimization and its connection to reinfor...\"",
-      "url": "https://www.youtube.com/watch?v=WyKN8CyFZNI",
-      "published_at": "2019-10-09",
-      "duration_seconds": 3120,
-      "screening": {
-        "id": "WyKN8CyFZNI",
-        "index": 47,
-        "decision": "read_transcript",
-        "priority": "high",
-        "track": "maths",
-        "pillars": [
-          "§8",
-          "§7"
-        ],
-        "theme": [
-          "maths track",
-          "§8",
-          "§7"
-        ],
-        "publisher_promise": "",
-        "screening_reason": "Scheinberg's overview explains how classical optimization principles adapt to missing derivatives, offering architect-led foundational method insight. (Maths track: architect-taught exposition of a Compass pillar.)",
-        "evidence": [],
-        "transcript_question": "How can function-value models replace gradients and Hessians while preserving convergence guarantees?",
-        "caveat": "Metadata does not verify full derivations, prerequisites or breadth beyond the described topic.",
-        "speaker": "Katya Scheinberg",
-        "modules": [],
-        "workshop": "Machine Learning for Physics and the Physics of Learning 2019"
+        "workshop": "High Dimensional Hamilton-Jacobi PDEs Tutorials 2020",
+        "rubric_tiers": {
+          "Timeless": "H",
+          "Generative": "H",
+          "Transfer": "M",
+          "Rare": "H",
+          "Worldview": "M",
+          "Primacy": "H",
+          "Density": "M"
+        },
+        "readiness": [
+          "§26",
+          "§25",
+          "§19"
+        ]
       },
       "notes_scope": "Publisher metadata only; screened on the maths track by Codex; no transcript read.",
       "resources": []
@@ -1532,7 +1133,7 @@
       "duration_seconds": 3900,
       "screening": {
         "id": "Ktg-wOVCbCI",
-        "index": 48,
+        "index": 25,
         "decision": "read_transcript",
         "priority": "high",
         "track": "maths",
@@ -1552,7 +1153,21 @@
         "caveat": "Metadata does not verify full mathematical coverage, derivations or prerequisites.",
         "speaker": "Alessio Figalli",
         "modules": [],
-        "workshop": "IPAM"
+        "workshop": "IPAM",
+        "rubric_tiers": {
+          "Timeless": "H",
+          "Generative": "H",
+          "Transfer": "H",
+          "Rare": "M",
+          "Worldview": "M",
+          "Primacy": "H",
+          "Density": "H"
+        },
+        "readiness": [
+          "§26",
+          "§3",
+          "§28"
+        ]
       },
       "notes_scope": "Publisher metadata only; screened on the maths track by Codex; no transcript read.",
       "resources": []
@@ -1565,7 +1180,7 @@
       "duration_seconds": 3240,
       "screening": {
         "id": "_DWpdGQgqXc",
-        "index": 49,
+        "index": 26,
         "decision": "read_transcript",
         "priority": "high",
         "track": "maths",
@@ -1586,41 +1201,21 @@
         "caveat": "Metadata does not verify full mathematical coverage, derivations or prerequisites.",
         "speaker": "Jeremy Quastel",
         "modules": [],
-        "workshop": "High Dimensional Hamilton-Jacobi PDEs 2020"
-      },
-      "notes_scope": "Publisher metadata only; screened on the maths track by Codex; no transcript read.",
-      "resources": []
-    },
-    {
-      "id": "mifWCPug0_w",
-      "title": "Steven Heilman - Variational Proofs of Isoperimetric Inequalities",
-      "url": "https://www.youtube.com/watch?v=mifWCPug0_w",
-      "published_at": "2022-02-11",
-      "duration_seconds": 1860,
-      "screening": {
-        "id": "mifWCPug0_w",
-        "index": 50,
-        "decision": "read_transcript",
-        "priority": "high",
-        "track": "maths",
-        "pillars": [
-          "§6",
-          "§5",
-          "§4"
-        ],
-        "theme": [
-          "maths track",
-          "§6",
-          "§5"
-        ],
-        "publisher_promise": "",
-        "screening_reason": "An isoperimetry specialist explicitly surveys variational proofs of central Euclidean and Gaussian inequalities and their extensions. (Maths track: architect-taught exposition of a Compass pillar.)",
-        "evidence": [],
-        "transcript_question": "How do variational arguments identify isoperimetric minimizers and connect surface area to noise stability?",
-        "caveat": "Lecture breadth is explicit; full proof detail remains unverified.",
-        "speaker": "Steven Heilman",
-        "modules": [],
-        "workshop": "IPAM"
+        "workshop": "High Dimensional Hamilton-Jacobi PDEs 2020",
+        "rubric_tiers": {
+          "Timeless": "H",
+          "Generative": "H",
+          "Transfer": "H",
+          "Rare": "M",
+          "Worldview": "H",
+          "Primacy": "H",
+          "Density": "H"
+        },
+        "readiness": [
+          "§4",
+          "§27",
+          "§29"
+        ]
       },
       "notes_scope": "Publisher metadata only; screened on the maths track by Codex; no transcript read.",
       "resources": []

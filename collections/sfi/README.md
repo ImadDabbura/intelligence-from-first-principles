@@ -9,7 +9,7 @@ Originator-grade expositions of unifying programmes of learning and intelligence
 - Original source: https://www.youtube.com/@sfiscience
 - Inventory date: 2026-11-21
 - Screened in this pass: 748 items, 10 high priority before de-duplication against the rest of the collection.
-- Kept here: 8 high-priority items only.
+- Kept: 8 items that pass the guiding principles (Timelessness, Generative Power, Transfer, Rare Combination, Worldview, Primacy, Density); all others removed.
 - Known gaps: see the collection entry in collections.json.
 - Number reviewed in depth: 0
 
@@ -21,14 +21,12 @@ Metadata only, screened against the A–F originator rubric by parallel AI scree
 - [Language Learning, Language Use, and The Evolution of Linguistic Structure](https://www.youtube.com/watch?v=NjBtagmAi40) — Kenny Smith
 - [The statue in the stone: how dynamical systems discover patterns in their environment](https://www.youtube.com/watch?v=UUvf1XeMBVo) — Pavel Chvykov
 - [Rethinking Human Reason](https://www.youtube.com/watch?v=qXsjWo6K4w0) — Dan Sperber
-- [Sleep as a Trojan Horse](https://www.youtube.com/watch?v=9_Im4o-XIYE) — Keith Hengen
 - [2014 - Physics-Inspired Algorithms and Phase Transitions in Community Detection](https://www.youtube.com/watch?v=ISOqiW2eK2c) — Cris Moore
-- [A New Approach to Complex Systems Dynamics](https://www.youtube.com/watch?v=rxznTwBm2wU) — John Harte
 - [Sloppy Models, Differential Geometry, and Why Science Works](https://www.youtube.com/watch?v=QfaWnTToDWY) — Jim Sethna
+- [How Much Math Is Knowable?](https://www.youtube.com/watch?v=dQC7AIT91_g) — Scott Aaronson
+- [An introduction to stochastic thermodynamics - Takahiro Sagawa / NEST](https://www.youtube.com/watch?v=m023IrSLF-k) — Takahiro Sagawa
 
-- [How Much Math Is Knowable?](https://www.youtube.com/watch?v=dQC7AIT91_g) — Scott Aaronson · maths track §12b §1
 
-- [An introduction to stochastic thermodynamics - Takahiro Sagawa / NEST](https://www.youtube.com/watch?v=m023IrSLF-k) — Takahiro Sagawa · maths track §33 §27
 
 ## Transcript reviews
 

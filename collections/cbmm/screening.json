@@ -13,96 +13,6 @@
   },
   "episodes": [
     {
-      "id": "V7AyriUcXZQ",
-      "title": "The Platonic Representation Hypothesis",
-      "url": "https://www.youtube.com/watch?v=V7AyriUcXZQ",
-      "published_at": "2024-09-13",
-      "duration_seconds": 4140,
-      "screening": {
-        "decision": "read_transcript",
-        "priority": "high",
-        "theme": [
-          "representation convergence",
-          "platonic hypothesis"
-        ],
-        "publisher_promise": "Argues that representations learned by different models and modalities are converging toward a shared statistical model of reality.",
-        "screening_reason": "Isola co-authored the hypothesis; it is a single unifying claim about representation learning with testable alignment predictions. Rubric: A✓ B✓ C✓ · D 2 · E 2 · F 2.",
-        "transcript_question": "Does the talk derive why convergence should happen (task generality, capacity, simplicity bias) and specify a falsifiable alignment measure, or only show empirical alignment curves?",
-        "caveat": "publisher title and speaker line only, no abstract; speaker taken from description",
-        "speaker": "Phillip Isola",
-        "modules": [
-          3,
-          1
-        ],
-        "id": "V7AyriUcXZQ",
-        "index": 0,
-        "evidence": [],
-        "workshop": "BMM Summer Course 2024"
-      },
-      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
-      "resources": []
-    },
-    {
-      "id": "mBeb1UF9njo",
-      "title": "Foundations of ML: are deep sparse networks the ultimate answer?",
-      "url": "https://www.youtube.com/watch?v=mBeb1UF9njo",
-      "published_at": "2023-08-17",
-      "duration_seconds": 4320,
-      "screening": {
-        "decision": "read_transcript",
-        "priority": "high",
-        "theme": [
-          "compositional sparsity",
-          "approximation theory"
-        ],
-        "publisher_promise": "Asks whether deep sparse compositional networks explain why deep learning works, from approximation through generalization.",
-        "screening_reason": "Poggio is the architect of the compositional sparsity account, a single structural prior claimed to explain why depth avoids the curse of dimensionality. Rubric: A✓ B✓ C✓ · D 2 · E 1 · F 2.",
-        "transcript_question": "Does the talk derive why compositionally sparse targets are efficiently computable and learnable, and state what would falsify the claim?",
-        "caveat": "publisher title and speaker line only, no abstract; speaker taken from description",
-        "speaker": "Tomaso Poggio",
-        "modules": [
-          2
-        ],
-        "id": "mBeb1UF9njo",
-        "index": 1,
-        "evidence": [],
-        "workshop": "BMM Summer Course 2023"
-      },
-      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
-      "resources": []
-    },
-    {
-      "id": "9dXxQx-lQ2c",
-      "title": "Stochastic collapse AND (explainable AI/neuro OR beating power laws)",
-      "url": "https://www.youtube.com/watch?v=9dXxQx-lQ2c",
-      "published_at": "2023-09-25",
-      "duration_seconds": 3660,
-      "screening": {
-        "decision": "read_transcript",
-        "priority": "high",
-        "theme": [
-          "sgd dynamics",
-          "stochastic collapse",
-          "scaling laws"
-        ],
-        "publisher_promise": "Presents stochastic collapse as an implicit SGD bias toward simpler invariant subnetworks, plus work on beating power-law data scaling and explainable models of neural data.",
-        "screening_reason": "Ganguli originated these results and typically derives mechanism from statistical physics; the combined title risks a split focus. Rubric: A✓ B✓ C✓ · D 1 · E 2 · F 2.",
-        "transcript_question": "How much of the hour derives the stochastic-collapse invariant-set mechanism and the data-pruning scaling argument, versus the neuroscience side topic?",
-        "caveat": "publisher title and speaker line only, no abstract; speaker taken from description",
-        "speaker": "Surya Ganguli",
-        "modules": [
-          2,
-          3
-        ],
-        "id": "9dXxQx-lQ2c",
-        "index": 2,
-        "evidence": [],
-        "workshop": "BMM Summer Course 2023"
-      },
-      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
-      "resources": []
-    },
-    {
       "id": "mSX9CCKdBDA",
       "title": "The Assembly Hypothesis:Emergent Computation and Learning in a rigorous model of the Brain",
       "url": "https://www.youtube.com/watch?v=mSX9CCKdBDA",
@@ -125,9 +35,22 @@
           9
         ],
         "id": "mSX9CCKdBDA",
-        "index": 3,
+        "index": 0,
         "evidence": [],
-        "workshop": "BMM Summer Course 2023"
+        "workshop": "BMM Summer Course 2023",
+        "rubric_tiers": {
+          "Timeless": "H",
+          "Generative": "H",
+          "Transfer": "M",
+          "Rare": "H",
+          "Worldview": "H",
+          "Primacy": "H",
+          "Density": "H"
+        },
+        "readiness": [
+          "§12b",
+          "§44"
+        ]
       },
       "notes_scope": "Publisher metadata only; no transcript read in this pass.",
       "resources": []
@@ -156,9 +79,23 @@
           9
         ],
         "id": "jvdo-SlGl4A",
-        "index": 4,
+        "index": 1,
         "evidence": [],
-        "workshop": "BMM Virtual Summer Course 2020"
+        "workshop": "BMM Virtual Summer Course 2020",
+        "rubric_tiers": {
+          "Timeless": "H",
+          "Generative": "H",
+          "Transfer": "M",
+          "Rare": "H",
+          "Worldview": "H",
+          "Primacy": "H",
+          "Density": "H"
+        },
+        "readiness": [
+          "§33",
+          "§28",
+          "§6"
+        ]
       },
       "notes_scope": "Publisher metadata only; no transcript read in this pass.",
       "resources": []
@@ -188,229 +125,22 @@
           9
         ],
         "id": "LLrFcNRvHyE",
-        "index": 5,
+        "index": 2,
         "evidence": [],
-        "workshop": "CBMM Research Talks"
-      },
-      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
-      "resources": []
-    },
-    {
-      "id": "THIIk7LR9_8",
-      "title": "Attention Approximates Sparse Distributed Memory",
-      "url": "https://www.youtube.com/watch?v=THIIk7LR9_8",
-      "published_at": "2021-10-20",
-      "duration_seconds": 1620,
-      "screening": {
-        "decision": "read_transcript",
-        "priority": "high",
-        "theme": [
-          "attention",
-          "associative memory",
-          "sparse distributed memory"
-        ],
-        "publisher_promise": "Shows transformer attention closely approximates Kanerva's sparse distributed memory under data conditions that hold in GPT-2.",
-        "screening_reason": "Bricken is the originator of the attention-SDM correspondence; it reframes attention as associative memory with a mathematical mapping and an empirical check. Rubric: A✓ B✓ C✓ · D 2 · E 2 · F 2.",
-        "transcript_question": "What exactly are the conditions under which softmax attention approximates SDM read-out, and how much do the GPT-2 checks support the mapping?",
-        "caveat": "publisher abstract only; 27-minute talk",
-        "speaker": "Trenton Bricken",
-        "modules": [
-          3,
-          4,
-          9
-        ],
-        "id": "THIIk7LR9_8",
-        "index": 6,
-        "evidence": [],
-        "workshop": "CBMM Research Talks"
-      },
-      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
-      "resources": []
-    },
-    {
-      "id": "agJPahcqPjM",
-      "title": "Model-agnostic Measure of Generalization Difficulty",
-      "url": "https://www.youtube.com/watch?v=agJPahcqPjM",
-      "published_at": "2023-05-05",
-      "duration_seconds": 4080,
-      "screening": {
-        "decision": "read_transcript",
-        "priority": "high",
-        "theme": [
-          "inductive bias",
-          "generalization difficulty",
-          "information"
-        ],
-        "publisher_promise": "Defines a model-agnostic inductive-bias complexity: information needed to generalize minus information the data supplies, scaling exponentially in intrinsic dimension.",
-        "screening_reason": "The speaker originated this measure; it gives one information-theoretic quantity comparing task difficulty across supervised, RL and meta-learning, with a scaling law that makes predictions. Rubric: A✓ B✓ C✓ · D 2 · E 2 · F 2.",
-        "transcript_question": "How is the hypothesis-volume measure defined and estimated, and does the exponential-in-dimension result hold up as a usable statement about required prior structure?",
-        "caveat": "publisher abstract only; graduate-student speaker in the Fiete lab",
-        "speaker": "Akhilan Boopathy",
-        "modules": [
-          1,
-          2
-        ],
-        "id": "agJPahcqPjM",
-        "index": 7,
-        "evidence": [],
-        "workshop": "CBMM Research Talks"
-      },
-      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
-      "resources": []
-    },
-    {
-      "id": "Cn2HYpWg3GE",
-      "title": "The Simplest Neural Model and a Hypothesis for Language",
-      "url": "https://www.youtube.com/watch?v=Cn2HYpWg3GE",
-      "published_at": "2023-12-19",
-      "duration_seconds": 3360,
-      "screening": {
-        "decision": "read_transcript",
-        "priority": "high",
-        "theme": [
-          "assembly calculus",
-          "hebbian plasticity",
-          "language"
-        ],
-        "publisher_promise": "Presents NEMO, a model built from random synapses, local inhibition and Hebbian plasticity, in which concept assemblies emerge and support operations, parsing and grounded word learning.",
-        "screening_reason": "A co-architect of the assembly-calculus programme derives computation (copy, merge, completion, sequences) from a minimal set of neural primitives without backpropagation, up to a parser. Rubric: A✓ B✓ C✓ · D 2 · E 2 · F 2.",
-        "transcript_question": "Which assembly operations are proven or shown to emerge from the NEMO dynamics, and does the language model learn syntax from grounded input or rely on hand-designed areas?",
-        "caveat": "publisher abstract only; co-architect with Papadimitriou rather than sole originator",
-        "speaker": "Daniel Mitropolsky",
-        "modules": [
-          3,
-          4,
-          9
-        ],
-        "id": "Cn2HYpWg3GE",
-        "index": 8,
-        "evidence": [],
-        "workshop": "CBMM Research Talks"
-      },
-      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
-      "resources": []
-    },
-    {
-      "id": "YVjvRvvVn4w",
-      "title": "A Theoretical Framework for Deep Learning Networks",
-      "url": "https://www.youtube.com/watch?v=YVjvRvvVn4w",
-      "published_at": "2016-11-08",
-      "duration_seconds": 1740,
-      "screening": {
-        "decision": "read_transcript",
-        "priority": "high",
-        "theme": [
-          "deep learning theory",
-          "compositionality",
-          "curse of dimensionality"
-        ],
-        "publisher_promise": "Poggio presents a theoretical framework for deep networks.",
-        "screening_reason": "Poggio originated the compositional-sparsity argument that deep, but not shallow, networks avoid the curse of dimensionality for hierarchically local functions; one principle explains why depth helps, with proofs. Rubric: A✓ B✓ C✓ · D 2 · E 2 · F 2.",
-        "transcript_question": "Does the talk derive the depth-separation result from compositional (hierarchically local) target functions, and does it also cover the optimization and generalization pieces?",
-        "caveat": "title and speaker only; content inferred from the speaker's known 2016-17 framework",
-        "speaker": "Tomaso Poggio",
-        "modules": [
-          2,
-          3
-        ],
-        "id": "YVjvRvvVn4w",
-        "index": 9,
-        "evidence": [],
-        "workshop": "CBMM Workshop - Sestri Levanti"
-      },
-      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
-      "resources": []
-    },
-    {
-      "id": "Lx1PpBH_W_A",
-      "title": "Learning & Cortex: i-theory",
-      "url": "https://www.youtube.com/watch?v=Lx1PpBH_W_A",
-      "published_at": "2016-12-06",
-      "duration_seconds": 1800,
-      "screening": {
-        "decision": "read_transcript",
-        "priority": "high",
-        "theme": [
-          "i-theory",
-          "invariance",
-          "sample complexity"
-        ],
-        "publisher_promise": "Rosasco presents i-theory, a theory of learning in cortex based on invariant representations.",
-        "screening_reason": "A co-architect of i-theory derives invariant, selective representations from group-transformation templates and links invariance to reduced sample complexity, a unifying prior-structure principle. Rubric: A✓ B✓ C✓ · D 2 · E 2 · F 2.",
-        "transcript_question": "Does the talk derive how pooling over transformed templates yields invariant and selective signatures, and state the sample-complexity reduction precisely?",
-        "caveat": "title and speaker only; content inferred from title",
-        "speaker": "Lorenzo Rosasco",
-        "modules": [
-          2,
-          3
-        ],
-        "id": "Lx1PpBH_W_A",
-        "index": 10,
-        "evidence": [],
-        "workshop": "CBMM Workshop - Sestri Levanti"
-      },
-      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
-      "resources": []
-    },
-    {
-      "id": "n5r3CIH4TKg",
-      "title": "Learning about the physical world: Comparing humans, deep neural networks, and...",
-      "url": "https://www.youtube.com/watch?v=n5r3CIH4TKg",
-      "published_at": "2016-12-19",
-      "duration_seconds": 2220,
-      "screening": {
-        "decision": "read_transcript",
-        "priority": "high",
-        "theme": [
-          "intuitive physics",
-          "probabilistic programs",
-          "world models"
-        ],
-        "publisher_promise": "Compares humans, deep networks and probabilistic programs on learning about the physical world.",
-        "screening_reason": "Tenenbaum originated the \"intuitive physics engine\" view (approximate probabilistic simulation) and sets it against deep networks on human data, a central module 6 position. Rubric: A✓ B✓ C✓ · D 2 · E 2 · F 1.",
-        "transcript_question": "What evidence does the talk use to separate simulation-based probabilistic programs from pattern-learning deep nets, and where does each fail?",
-        "caveat": "title and speaker only",
-        "speaker": "Josh Tenenbaum",
-        "modules": [
-          2,
-          6,
-          9
-        ],
-        "id": "n5r3CIH4TKg",
-        "index": 11,
-        "evidence": [],
-        "workshop": "CBMM Workshop - Sestri Levanti"
-      },
-      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
-      "resources": []
-    },
-    {
-      "id": "JWYLpirZjZg",
-      "title": "Scattering Bricks to Build Invariants for Perception [part 1]",
-      "url": "https://www.youtube.com/watch?v=JWYLpirZjZg",
-      "published_at": "2016-03-25",
-      "duration_seconds": 1920,
-      "screening": {
-        "decision": "read_transcript",
-        "priority": "high",
-        "theme": [
-          "scattering transform",
-          "invariance",
-          "wavelets"
-        ],
-        "publisher_promise": "Builds invariant representations for perception from cascades of wavelet transforms and modulus nonlinearities.",
-        "screening_reason": "The originator of the scattering transform derives translation invariance and deformation stability from first principles, giving a mathematical account of what convnet layers could compute. Rubric: A✓ B✓ C✓ · D 1 · E 2 · F 2.",
-        "transcript_question": "Does Mallat derive the stability-to-deformation and invariance properties explicitly, and what does he claim the model explains about learned deep networks?",
-        "caveat": "title only; no abstract; speaker from description; part 1 of 2",
-        "speaker": "Stéphane Mallat",
-        "modules": [
-          2,
-          3
-        ],
-        "id": "JWYLpirZjZg",
-        "index": 12,
-        "evidence": [],
-        "workshop": "Learning Data Representation: Hierarchies and Invariance"
+        "workshop": "CBMM Research Talks",
+        "rubric_tiers": {
+          "Timeless": "H",
+          "Generative": "H",
+          "Transfer": "H",
+          "Rare": "M",
+          "Worldview": "H",
+          "Primacy": "H",
+          "Density": "M"
+        },
+        "readiness": [
+          "§18",
+          "§2"
+        ]
       },
       "notes_scope": "Publisher metadata only; no transcript read in this pass.",
       "resources": []
@@ -440,9 +170,23 @@
           9
         ],
         "id": "jHW0WdhGxbY",
-        "index": 13,
+        "index": 3,
         "evidence": [],
-        "workshop": "Learning Data Representation: Hierarchies and Invariance"
+        "workshop": "Learning Data Representation: Hierarchies and Invariance",
+        "rubric_tiers": {
+          "Timeless": "H",
+          "Generative": "H",
+          "Transfer": "M",
+          "Rare": "H",
+          "Worldview": "H",
+          "Primacy": "H",
+          "Density": "M"
+        },
+        "readiness": [
+          "§14b",
+          "§12",
+          "§36"
+        ]
       },
       "notes_scope": "Publisher metadata only; no transcript read in this pass.",
       "resources": []
@@ -472,9 +216,23 @@
           6
         ],
         "id": "rxqrn56RfQk",
-        "index": 14,
+        "index": 4,
         "evidence": [],
-        "workshop": "Learning Data Representation: Hierarchies and Invariance"
+        "workshop": "Learning Data Representation: Hierarchies and Invariance",
+        "rubric_tiers": {
+          "Timeless": "H",
+          "Generative": "H",
+          "Transfer": "H",
+          "Rare": "H",
+          "Worldview": "H",
+          "Primacy": "H",
+          "Density": "M"
+        },
+        "readiness": [
+          "§9",
+          "§49",
+          "§36"
+        ]
       },
       "notes_scope": "Publisher metadata only; no transcript read in this pass.",
       "resources": []
@@ -503,70 +261,23 @@
           2
         ],
         "id": "wMmqCMwuM2Q",
-        "index": 15,
+        "index": 5,
         "evidence": [],
-        "workshop": "Computational Tutorials"
-      },
-      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
-      "resources": []
-    },
-    {
-      "id": "JS-Bl36aVPs",
-      "title": "Beyond Empirical Risk Minimization: the lessons of deep learning",
-      "url": "https://www.youtube.com/watch?v=JS-Bl36aVPs",
-      "published_at": "2019-10-29",
-      "duration_seconds": 2820,
-      "screening": {
-        "decision": "read_transcript",
-        "priority": "high",
-        "theme": [
-          "interpolation",
-          "double descent",
-          "inductive bias"
-        ],
-        "publisher_promise": "Argues that modern learning is described by interpolation with minimum-norm inductive bias, not by risk minimization with a complexity tradeoff.",
-        "screening_reason": "The originator of the double-descent and interpolation programme reframes generalization: the choice among interpolating solutions is the inductive bias. A direct model update for module 2. Rubric: A✓ B✓ C✓ · D 2 · E 2 · F 2.",
-        "transcript_question": "Which concrete analyses does Belkin present showing that interpolating predictors generalize, and what does he say replaces the bias-variance tradeoff?",
-        "caveat": "publisher abstract only; speaker from description",
-        "speaker": "Mikhail Belkin",
-        "modules": [
-          2
-        ],
-        "id": "JS-Bl36aVPs",
-        "index": 16,
-        "evidence": [],
-        "workshop": "CBMM Special Seminars"
-      },
-      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
-      "resources": []
-    },
-    {
-      "id": "MvM9J1lj1a8",
-      "title": "Improving Generalization by Self-Training & Self Distillation",
-      "url": "https://www.youtube.com/watch?v=MvM9J1lj1a8",
-      "published_at": "2020-06-10",
-      "duration_seconds": 2640,
-      "screening": {
-        "decision": "read_transcript",
-        "priority": "high",
-        "theme": [
-          "self-distillation",
-          "regularization",
-          "generalization"
-        ],
-        "publisher_promise": "Explains why retraining on a model's own predictions improves generalization: each round amplifies regularization.",
-        "screening_reason": "The originator analyses self-distillation in function space and shows it progressively sparsifies the solution over a kernel basis, a clean derivation from objective to mechanism to prediction. Rubric: A✓ B✓ C✓ · D 2 · E 2 · F 2.",
-        "transcript_question": "Does Mobahi derive the amplified-regularization result exactly, and does it predict when repeated self-training starts to hurt?",
-        "caveat": "publisher abstract only; speaker from description",
-        "speaker": "Hossein Mobahi",
-        "modules": [
-          2,
-          7
-        ],
-        "id": "MvM9J1lj1a8",
-        "index": 17,
-        "evidence": [],
-        "workshop": "CBMM Special Seminars"
+        "workshop": "Computational Tutorials",
+        "rubric_tiers": {
+          "Timeless": "H",
+          "Generative": "H",
+          "Transfer": "H",
+          "Rare": "M",
+          "Worldview": "H",
+          "Primacy": "H",
+          "Density": "H"
+        },
+        "readiness": [
+          "§27",
+          "§35",
+          "§48"
+        ]
       },
       "notes_scope": "Publisher metadata only; no transcript read in this pass.",
       "resources": []
@@ -594,9 +305,23 @@
           2
         ],
         "id": "nLlIUeOqIcs",
-        "index": 18,
+        "index": 6,
         "evidence": [],
-        "workshop": "CBMM Special Seminars"
+        "workshop": "CBMM Special Seminars",
+        "rubric_tiers": {
+          "Timeless": "H",
+          "Generative": "H",
+          "Transfer": "H",
+          "Rare": "M",
+          "Worldview": "H",
+          "Primacy": "H",
+          "Density": "H"
+        },
+        "readiness": [
+          "§14",
+          "§12",
+          "§7"
+        ]
       },
       "notes_scope": "Publisher metadata only; no transcript read in this pass.",
       "resources": []
@@ -626,40 +351,22 @@
           9
         ],
         "id": "icEdI0AIOlU",
-        "index": 19,
+        "index": 7,
         "evidence": [],
-        "workshop": "Brains, Minds and Machines Summer Course 2014"
-      },
-      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
-      "resources": []
-    },
-    {
-      "id": "yVT7dO_Tf4E",
-      "title": "Have We Missed Half of What the Neocortex Does? Allocentric Location as the Basis of Perception",
-      "url": "https://www.youtube.com/watch?v=yVT7dO_Tf4E",
-      "published_at": "2017-12-15",
-      "duration_seconds": 3480,
-      "screening": {
-        "decision": "read_transcript",
-        "priority": "high",
-        "theme": [
-          "cortical columns",
-          "allocentric location",
-          "thousand brains"
-        ],
-        "publisher_promise": "Proposes that each cortical column learns whole object models by combining sensory input with an allocentric location signal from grid-cell-like codes.",
-        "screening_reason": "The originator states a specific, contested and falsifiable mechanism for how cortex builds object representations, reframing columns as complete modelers rather than feature detectors. Rubric: A✓ B✓ C✓ · D 2 · E 2 · F 2.",
-        "transcript_question": "How exactly are location signals computed in layer 6, and which anatomical or physiological predictions does Hawkins say would refute the theory?",
-        "caveat": "publisher abstract only; speaker from description",
-        "speaker": "Jeff Hawkins",
-        "modules": [
-          3,
-          9
-        ],
-        "id": "yVT7dO_Tf4E",
-        "index": 20,
-        "evidence": [],
-        "workshop": "Brains, Minds and Machines Seminar Series"
+        "workshop": "Brains, Minds and Machines Summer Course 2014",
+        "rubric_tiers": {
+          "Timeless": "H",
+          "Generative": "H",
+          "Transfer": "H",
+          "Rare": "H",
+          "Worldview": "H",
+          "Primacy": "H",
+          "Density": "M"
+        },
+        "readiness": [
+          "§30",
+          "§4"
+        ]
       },
       "notes_scope": "Publisher metadata only; no transcript read in this pass.",
       "resources": []
@@ -689,73 +396,22 @@
           5
         ],
         "id": "gA23R5Tt0B4",
-        "index": 21,
+        "index": 8,
         "evidence": [],
-        "workshop": "Brains, Minds and Machines Seminar Series"
-      },
-      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
-      "resources": []
-    },
-    {
-      "id": "TFyAEHk5asY",
-      "title": "Computational Models of Cognition: Part 1",
-      "url": "https://www.youtube.com/watch?v=TFyAEHk5asY",
-      "published_at": "2018-08-16",
-      "duration_seconds": 4080,
-      "screening": {
-        "decision": "read_transcript",
-        "priority": "high",
-        "theme": [
-          "bayesian cognition",
-          "probabilistic programs",
-          "intuitive theories"
-        ],
-        "publisher_promise": "First part of a course lecture series on computational models of human cognition.",
-        "screening_reason": "Architect's tutorial on the probabilistic-programs view of cognition, central to modules 3, 4 and 9; the first part likely lays out the core principle and derivations. Rubric: A✓ B✓ C✓ · D 1 · E 2 · F 1.",
-        "transcript_question": "Does Part 1 present the core argument that cognition is inference over structured generative programs, with worked models and predictions?",
-        "caveat": "title and speaker only; content inferred from series",
-        "speaker": "Josh Tenenbaum",
-        "modules": [
-          9,
-          3,
-          4
-        ],
-        "id": "TFyAEHk5asY",
-        "index": 22,
-        "evidence": [],
-        "workshop": "BMM Summer Course 2018"
-      },
-      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
-      "resources": []
-    },
-    {
-      "id": "5jL5wRGrCvk",
-      "title": "Improving Deep Reinforcement Learning via Quality Diversity, Open-Ended and AI-Generating Algorithms",
-      "url": "https://www.youtube.com/watch?v=5jL5wRGrCvk",
-      "published_at": "2023-05-08",
-      "duration_seconds": 3660,
-      "screening": {
-        "decision": "read_transcript",
-        "priority": "high",
-        "theme": [
-          "open-endedness",
-          "quality diversity",
-          "ai-generating algorithms"
-        ],
-        "publisher_promise": "Presents quality-diversity algorithms, Go-Explore for sparse-reward exploration, POET's self-generated curricula, and argues for AI-generating algorithms as a path to general AI.",
-        "screening_reason": "Originator of the AI-GA programme; a single thesis (search for diversity and self-generated problems) unifies adaptation, exploration and open-ended curricula, central to module 8. Rubric: A✓ B✓ C✓ · D 2 · E 2 · F 2.",
-        "transcript_question": "What is the AI-GA argument, and does Clune show why quality diversity and self-generated environments succeed where objective-driven search fails?",
-        "caveat": "publisher abstract only; speaker from description",
-        "speaker": "Jeff Clune",
-        "modules": [
-          8,
-          5,
-          7
-        ],
-        "id": "5jL5wRGrCvk",
-        "index": 23,
-        "evidence": [],
-        "workshop": "CBMM channel uploads (no playlist)"
+        "workshop": "Brains, Minds and Machines Seminar Series",
+        "rubric_tiers": {
+          "Timeless": "H",
+          "Generative": "H",
+          "Transfer": "M",
+          "Rare": "H",
+          "Worldview": "M",
+          "Primacy": "H",
+          "Density": "H"
+        },
+        "readiness": [
+          "§30",
+          "§4"
+        ]
       },
       "notes_scope": "Publisher metadata only; no transcript read in this pass.",
       "resources": []

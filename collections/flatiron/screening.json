@@ -13,37 +13,6 @@
   },
   "episodes": [
     {
-      "id": "AfqWt1rk7TE",
-      "title": "Yann LeCun: Models of SSL (April 29, 2025)",
-      "url": "https://www.youtube.com/watch?v=AfqWt1rk7TE",
-      "published_at": "2025-05-06",
-      "duration_seconds": 2880,
-      "screening": {
-        "decision": "read_transcript",
-        "priority": "high",
-        "theme": [
-          "jepa",
-          "energy-based models",
-          "world models"
-        ],
-        "publisher_promise": "Promises LeCun's framework for models of self-supervised learning.",
-        "screening_reason": "LeCun is the architect of the energy-based and joint-embedding predictive view; it is a unifying principle for SSL and world models. Rubric: A✓ B✓ C✓ · D 2 · E 1 · F 1.",
-        "transcript_question": "Does the talk derive why joint-embedding prediction avoids collapse and beats reconstruction, or restate the position?",
-        "caveat": "title and workshop only; no abstract; speaker from title; may repeat known positions",
-        "speaker": "Yann LeCun",
-        "modules": [
-          3,
-          6
-        ],
-        "id": "AfqWt1rk7TE",
-        "index": 0,
-        "evidence": [],
-        "workshop": "Self-Supervised Learning: The Final Frontier of AI"
-      },
-      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
-      "resources": []
-    },
-    {
       "id": "_PEjjRpaMxo",
       "title": "Eero Simoncelli: Learning the Distribution of Natural Images (April 29, 2025)",
       "url": "https://www.youtube.com/watch?v=_PEjjRpaMxo",
@@ -67,39 +36,23 @@
           3
         ],
         "id": "_PEjjRpaMxo",
-        "index": 1,
+        "index": 0,
         "evidence": [],
-        "workshop": "Self-Supervised Learning: The Final Frontier of AI"
-      },
-      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
-      "resources": []
-    },
-    {
-      "id": "Owqo1dZbJ2o",
-      "title": "Gotham City Physics X ML - Florent Krzakala",
-      "url": "https://www.youtube.com/watch?v=Owqo1dZbJ2o",
-      "published_at": "2024-11-25",
-      "duration_seconds": 2040,
-      "screening": {
-        "decision": "read_transcript",
-        "priority": "high",
-        "theme": [
-          "loss landscape",
-          "statistical physics",
-          "gradient descent"
-        ],
-        "publisher_promise": "Promises to explain how gradient descent reaches good minima instead of spurious ones.",
-        "screening_reason": "Krzakala co-originated statistical-physics analyses of high-dimensional landscapes and GD dynamics; this asks a central mechanism question. Rubric: A✓ B✓ C✓ · D 2 · E 2 · F 2.",
-        "transcript_question": "Does the talk derive the threshold where GD escapes spurious minima, and does it predict anything for neural networks?",
-        "caveat": "no abstract; workshop one-line title only; speaker from title",
-        "speaker": "Florent Krzakala",
-        "modules": [
-          2
-        ],
-        "id": "Owqo1dZbJ2o",
-        "index": 2,
-        "evidence": [],
-        "workshop": "Gotham City Physics X ML (2019)"
+        "workshop": "Self-Supervised Learning: The Final Frontier of AI",
+        "rubric_tiers": {
+          "Timeless": "H",
+          "Generative": "H",
+          "Transfer": "H",
+          "Rare": "M",
+          "Worldview": "H",
+          "Primacy": "H",
+          "Density": "H"
+        },
+        "readiness": [
+          "§35",
+          "§48",
+          "§4"
+        ]
       },
       "notes_scope": "Publisher metadata only; no transcript read in this pass.",
       "resources": []
@@ -127,107 +80,24 @@
           2
         ],
         "id": "--gLlwnumkg",
-        "index": 3,
+        "index": 1,
         "evidence": [],
-        "workshop": "Gotham City Physics X ML (2019)"
+        "workshop": "Gotham City Physics X ML (2019)",
+        "rubric_tiers": {
+          "Timeless": "H",
+          "Generative": "H",
+          "Transfer": "M",
+          "Rare": "M",
+          "Worldview": "H",
+          "Primacy": "H",
+          "Density": "M"
+        },
+        "readiness": [
+          "§12",
+          "§8"
+        ]
       },
       "notes_scope": "Publisher metadata only; no transcript read in this pass.",
-      "resources": []
-    },
-    {
-      "id": "7nFY6F_LrkI",
-      "title": "Gotham City Physics X ML - Gabriel Peyré",
-      "url": "https://www.youtube.com/watch?v=7nFY6F_LrkI",
-      "published_at": "2024-11-25",
-      "duration_seconds": 1800,
-      "screening": {
-        "id": "7nFY6F_LrkI",
-        "index": 4,
-        "decision": "read_transcript",
-        "priority": "high",
-        "track": "maths",
-        "pillars": [
-          "§26"
-        ],
-        "theme": [
-          "maths track",
-          "§26"
-        ],
-        "publisher_promise": "",
-        "screening_reason": "Peyré, an architect of computational OT, surveying how OT scales to high-dimensional learning. (Maths track: architect-taught exposition of a Compass pillar.)",
-        "evidence": [],
-        "transcript_question": "How entropic regularization and Sinkhorn make OT tractable and its sample-complexity behaviour in high dimension.",
-        "caveat": "Workshop talk; survey depth assumed from speaker and title.",
-        "speaker": "Gabriel Peyré",
-        "modules": [],
-        "workshop": "Gotham City Physics X ML (2019)"
-      },
-      "notes_scope": "Publisher metadata only; screened on the maths track by Codex; no transcript read.",
-      "resources": []
-    },
-    {
-      "id": "gwEi61gOXwU",
-      "title": "Gotham City Physics X ML - Giulio Biroli",
-      "url": "https://www.youtube.com/watch?v=gwEi61gOXwU",
-      "published_at": "2024-11-25",
-      "duration_seconds": 2220,
-      "screening": {
-        "id": "gwEi61gOXwU",
-        "index": 5,
-        "decision": "read_transcript",
-        "priority": "high",
-        "track": "maths",
-        "pillars": [
-          "§33"
-        ],
-        "theme": [
-          "maths track",
-          "§33"
-        ],
-        "publisher_promise": "",
-        "screening_reason": "Biroli, an architect of stat-phys approaches to learning, surveys the two-way bridge between statistical physics and ML. (Maths track: architect-taught exposition of a Compass pillar.)",
-        "evidence": [],
-        "transcript_question": "How energy landscapes, glassy dynamics and mean-field methods explain learning in high dimension.",
-        "caveat": "Workshop talk; survey depth assumed from title.",
-        "speaker": "Giulio Biroli",
-        "modules": [],
-        "workshop": "Gotham City Physics X ML (2019)"
-      },
-      "notes_scope": "Publisher metadata only; screened on the maths track by Codex; no transcript read.",
-      "resources": []
-    },
-    {
-      "id": "lUOmf9OmcKQ",
-      "title": "Gotham City Physics X ML - Max Welling",
-      "url": "https://www.youtube.com/watch?v=lUOmf9OmcKQ",
-      "published_at": "2024-11-21",
-      "duration_seconds": 2280,
-      "screening": {
-        "id": "lUOmf9OmcKQ",
-        "index": 6,
-        "decision": "read_transcript",
-        "priority": "high",
-        "track": "maths",
-        "pillars": [
-          "§46",
-          "§28",
-          "§14b"
-        ],
-        "theme": [
-          "maths track",
-          "§46",
-          "§28"
-        ],
-        "publisher_promise": "",
-        "screening_reason": "Welling, an architect of equivariant deep learning, on gauge fields in deep learning. (Maths track: architect-taught exposition of a Compass pillar.)",
-        "evidence": [],
-        "transcript_question": "How gauge equivariance generalizes group equivariance to manifolds via fibre bundles and parallel transport.",
-        "caveat": "Workshop talk; may be conceptual rather than fully derived.",
-        "speaker": "Max Welling",
-        "modules": [],
-        "workshop": "Gotham City Physics X ML (2019)"
-      },
-      "notes_scope": "Publisher metadata only; screened on the maths track by Codex; no transcript read.",
       "resources": []
     }
   ]

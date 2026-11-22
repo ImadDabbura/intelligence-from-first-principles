@@ -13,78 +13,6 @@
   },
   "episodes": [
     {
-      "id": "ui_nFsQpShw",
-      "title": "MDLW01 | Prof. Lenka Zdeborová | Insights on neural networks from statistical physics solvable models",
-      "url": "https://www.youtube.com/watch?v=ui_nFsQpShw",
-      "published_at": null,
-      "duration_seconds": null,
-      "screening": {
-        "id": "ui_nFsQpShw",
-        "index": 0,
-        "decision": "read_transcript",
-        "priority": "high",
-        "theme": [
-          "generalization",
-          "statistical physics"
-        ],
-        "publisher_promise": "Exactly solvable statistical-physics models of learning in neural networks (Isaac Newton Institute, Mathematics of Deep Learning workshop).",
-        "screening_reason": "A primary architect of the statistical mechanics of learning presents the programme: teacher–student models and replica/message-passing analyses that give exact learning curves. Competes with Wilson’s Bayesian account and Srebro’s implicit-bias account of why overparameterized models generalize. Rubric: A originator ✓ · B unifying principle ✓ · C derivation ✓ · D 2 (exact results, but only in high-dimensional limits) · E 2 · F 2 (exact solvability as a method).",
-        "evidence": [],
-        "transcript_question": "Which phenomena (double descent, benefit of depth, hardness of learning) are derived exactly, and which assumptions on data distribution make them solvable?",
-        "caveat": "Date and length not verified; title and channel verified by YouTube oEmbed."
-      },
-      "notes_scope": "Publisher and venue metadata only; no transcript read in this pass.",
-      "resources": []
-    },
-    {
-      "id": "MhZ_QjZKzHU",
-      "title": "A mathematical theory of learning in deep neural networks - Surya Ganguli",
-      "url": "https://www.youtube.com/watch?v=MhZ_QjZKzHU",
-      "published_at": null,
-      "duration_seconds": null,
-      "screening": {
-        "id": "MhZ_QjZKzHU",
-        "index": 1,
-        "decision": "read_transcript",
-        "priority": "high",
-        "theme": [
-          "learning dynamics",
-          "representation"
-        ],
-        "publisher_promise": "A mathematical theory of learning in deep networks (Initiative for the Theoretical Sciences).",
-        "screening_reason": "Ganguli, with Saxe, derived exact learning dynamics of deep linear networks and used them to explain stage-like semantic development. It derives representation formation from the dynamics rather than from an objective, which the repo’s compression-based anchors (Ma, Wilson) do not. Rubric: A originator ✓ · B unifying principle ✓ · C derivation ✓ · D 1 (linear-network idealization) · E 2 · F 2.",
-        "evidence": [],
-        "transcript_question": "What do the exact deep-linear dynamics predict about the order in which structure is learned, and which predictions survive nonlinearity?",
-        "caveat": "Date, length and exact scope not verified; title and channel verified by YouTube oEmbed."
-      },
-      "notes_scope": "Publisher and venue metadata only; no transcript read in this pass.",
-      "resources": []
-    },
-    {
-      "id": "QZG40ZY5TeU",
-      "title": "What is learning? Singularities and pendulums — Daniel Murfet",
-      "url": "https://youtu.be/QZG40ZY5TeU",
-      "published_at": "2022-01-13",
-      "duration_seconds": null,
-      "screening": {
-        "id": "QZG40ZY5TeU",
-        "index": 2,
-        "decision": "read_transcript",
-        "priority": "high",
-        "theme": [
-          "generalization",
-          "Bayesian learning"
-        ],
-        "publisher_promise": "An introduction to singular learning theory from the metauni SLT seminar; the seminar lists a transcript.",
-        "screening_reason": "Singular learning theory (Watanabe; developed for deep learning by Murfet’s group) says that neural networks are singular statistical models, so classical asymptotics fail and the geometry of degenerate minima (the learning coefficient) governs generalization. It is a direct, mathematically specific rival to flatness and parameter-count explanations. Rubric: A originator ✓ · B unifying principle ✓ · C derivation ✓ · D 2 (contested empirical relevance at scale) · E 2 · F 2 (learning coefficient as complexity).",
-        "evidence": [],
-        "transcript_question": "How is the real log canonical threshold defined and estimated, and what does it predict that flatness or PAC-Bayes do not?",
-        "caveat": "Seminar page lists the date in day-month-year form and a transcript; length not verified."
-      },
-      "notes_scope": "Publisher and venue metadata only; no transcript read in this pass.",
-      "resources": []
-    },
-    {
       "id": "tenenbaum-mansinghka-neurips-2017",
       "title": "Engineering and Reverse-Engineering Intelligence Using Probabilistic Programs, Program Induction, and Deep Learning",
       "url": "https://neurips.cc/virtual/2017/tutorial/8733",
@@ -92,7 +20,7 @@
       "duration_seconds": null,
       "screening": {
         "id": "tenenbaum-mansinghka-neurips-2017",
-        "index": 3,
+        "index": 0,
         "decision": "read_transcript",
         "priority": "high",
         "theme": [
@@ -104,72 +32,27 @@
         "screening_reason": "The originators of the probabilistic-programming account of intelligence: common sense as inference in structured generative programs (intuitive physics and psychology as game-engine-like models). It is the strongest competing account to purely statistical learning in modules 4 and 6, and the repo has no Tenenbaum. Rubric: A originator ✓ · B unifying principle ✓ · C derivation ✓ · D 2 (scaling critique from deep learning) · E 2 · F 2.",
         "evidence": [],
         "transcript_question": "Which inferences need structured programs rather than amortized networks, and what do they gain in sample efficiency and generalization?",
-        "caveat": "Video hosted on the NeurIPS Facebook page; date and length not shown on the venue page."
+        "caveat": "Video hosted on the NeurIPS Facebook page; date and length not shown on the venue page.",
+        "rubric_tiers": {
+          "Timeless": "H",
+          "Generative": "H",
+          "Transfer": "H",
+          "Rare": "H",
+          "Worldview": "H",
+          "Primacy": "H",
+          "Density": "M"
+        },
+        "readiness": [
+          "§17",
+          "§20",
+          "§31"
+        ]
       },
       "notes_scope": "Publisher and venue metadata only; no transcript read in this pass.",
       "resources": [
         {
           "url": "https://www.facebook.com/nipsfoundation/videos/1552446408179926/",
           "category": "Video",
-          "origins": [
-            "Venue page"
-          ],
-          "source_issue": null
-        }
-      ]
-    },
-    {
-      "id": "XL07WEc2TRI",
-      "title": "Stanford Seminar - Information Theory of Deep Learning, Naftali Tishby",
-      "url": "https://www.youtube.com/watch?v=XL07WEc2TRI",
-      "published_at": null,
-      "duration_seconds": null,
-      "screening": {
-        "id": "XL07WEc2TRI",
-        "index": 4,
-        "decision": "read_transcript",
-        "priority": "high",
-        "theme": [
-          "information",
-          "generalization",
-          "representation"
-        ],
-        "publisher_promise": "Stanford seminar by Naftali Tishby on the information theory of deep learning.",
-        "screening_reason": "The user’s exemplar for this bar: the originator of the information bottleneck argues that SGD first fits and then compresses, so that layers converge toward the IB bound. One principle is claimed to explain generalization and representation. Rubric: A originator ✓ · B unifying principle ✓ · C derivation ✓ · D 2 (the compression phase was disputed by Saxe et al., 2018) · E 2 · F 2.",
-        "evidence": [],
-        "transcript_question": "Which claims are IB identities, and which (the compression phase, its dependence on the activation function and on binning of mutual information) are empirical and contested?",
-        "caveat": "Title and channel verified by YouTube oEmbed; date and length not verified."
-      },
-      "notes_scope": "Publisher and venue metadata only; no transcript read in this pass.",
-      "resources": []
-    },
-    {
-      "id": "gJbgz-1YcWY",
-      "title": "Mathematical Mysteries of Deep Neural Networks — Stéphane Mallat (2019 Lytle Lecture)",
-      "url": "https://youtu.be/gJbgz-1YcWY",
-      "published_at": null,
-      "duration_seconds": null,
-      "screening": {
-        "id": "gJbgz-1YcWY",
-        "index": 5,
-        "decision": "read_transcript",
-        "priority": "high",
-        "theme": [
-          "structure",
-          "invariance",
-          "multiscale"
-        ],
-        "publisher_promise": "University of Washington Lytle Lecture on what regularity deep networks exploit.",
-        "screening_reason": "Mallat built wavelet scattering: invariance and stability to deformations, obtained by iterating wavelet transforms and modulus, are derived as what a convolutional network must compute. It gives module 2 a constructive mathematical answer about priors, competing with learned-prior accounts. Rubric: A originator ✓ · B unifying principle ✓ · C derivation ✓ · D 2 (scattering versus learned features) · E 2 · F 2.",
-        "evidence": [],
-        "transcript_question": "What does scattering explain about CNNs, and where do learned networks exceed it (and why)?",
-        "caveat": "Video embedded on the UW ECE page (posted 18 Dec 2019); length and language not shown, presumably English."
-      },
-      "notes_scope": "Publisher and venue metadata only; no transcript read in this pass.",
-      "resources": [
-        {
-          "url": "https://www.ece.uw.edu/lytle/mathematical-mysteries-of-deep-neural-networks-stephane-mallat/",
-          "category": "Abstract",
           "origins": [
             "Venue page"
           ],
@@ -185,7 +68,7 @@
       "duration_seconds": null,
       "screening": {
         "id": "-DSuo7omAf4",
-        "index": 6,
+        "index": 1,
         "decision": "read_transcript",
         "priority": "high",
         "theme": [
@@ -197,7 +80,21 @@
         "screening_reason": "Griffiths and Lieder’s resource rationality: replace unbounded optimality with optimal use of limited computation, so apparent biases become rational trade-offs. A unifying principle for reasoning under compute limits, relevant to module 5 and test-time compute. Rubric: A originator ✓ · B unifying principle ✓ · C derivation ✓ · D 2 (unfalsifiability critique in BBS commentaries) · E 2 · F 2.",
         "evidence": [],
         "transcript_question": "How is the cost of computation formalized, and what does the framework predict that an unbounded Bayesian model does not?",
-        "caveat": "Title and channel verified by YouTube oEmbed; the event page gives about 74 minutes (2023), not independently verified."
+        "caveat": "Title and channel verified by YouTube oEmbed; the event page gives about 74 minutes (2023), not independently verified.",
+        "rubric_tiers": {
+          "Timeless": "H",
+          "Generative": "H",
+          "Transfer": "H",
+          "Rare": "H",
+          "Worldview": "H",
+          "Primacy": "H",
+          "Density": "H"
+        },
+        "readiness": [
+          "§4",
+          "§30",
+          "§47"
+        ]
       },
       "notes_scope": "Publisher and venue metadata only; no transcript read in this pass.",
       "resources": []

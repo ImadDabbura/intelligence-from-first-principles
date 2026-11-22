@@ -31,7 +31,21 @@
         "screening_reason": "The architect of modern MDL sets out learning as compression, with universal codes, the link to Bayes and to frequentist guarantees, and where MDL departs from both. It is the formal backbone behind the repo’s compression claims (Wilson, Ma, Tishby). Rubric: A originator ✓ · B unifying principle ✓ · C derivation ✓ · D 2 · E 2 · F 2.",
         "evidence": [],
         "transcript_question": "Which notion of code length makes compression and generalization equivalent, and where does the equivalence break?",
-        "caveat": "Reading, not a recording; full text on arXiv."
+        "caveat": "Reading, not a recording; full text on arXiv.",
+        "rubric_tiers": {
+          "Timeless": "H",
+          "Generative": "H",
+          "Transfer": "H",
+          "Rare": "H",
+          "Worldview": "H",
+          "Primacy": "H",
+          "Density": "H"
+        },
+        "readiness": [
+          "§9",
+          "§10",
+          "§30"
+        ]
       },
       "notes_scope": "Publisher and venue metadata only; no transcript read in this pass.",
       "resources": []
@@ -55,7 +69,22 @@
         "screening_reason": "The written entry point to SLT for deep learning, by its main architect: why the Fisher information is degenerate in neural networks and what replaces BIC-style complexity. Rubric: A originator ✓ · B unifying principle ✓ · C derivation ✓ · D 2 · E 2 · F 2.",
         "evidence": [],
         "transcript_question": "Read alongside the metauni introduction: which derivations are complete here, and which are deferred to Watanabe?",
-        "caveat": "Reading; full text on arXiv."
+        "caveat": "Reading; full text on arXiv.",
+        "rubric_tiers": {
+          "Timeless": "H",
+          "Generative": "H",
+          "Transfer": "H",
+          "Rare": "H",
+          "Worldview": "H",
+          "Primacy": "H",
+          "Density": "H"
+        },
+        "readiness": [
+          "§4",
+          "§10",
+          "§28",
+          "§12"
+        ]
       },
       "notes_scope": "Publisher and venue metadata only; no transcript read in this pass.",
       "resources": []
@@ -80,7 +109,21 @@
         "screening_reason": "The originating paper for predictive information, co-authored by Tishby, the user’s exemplar: it connects the sub-extensive part of entropy to model complexity and learning curves. It is the theoretical root of the information bottleneck seminar. Rubric: A originator ✓ · B unifying principle ✓ · C derivation ✓ · D 1 · E 2 · F 2.",
         "evidence": [],
         "transcript_question": "How does the divergence of predictive information classify model complexity, and how does that relate to the learning-curve exponents in SLT and statistical physics?",
-        "caveat": "Reading; full text on arXiv."
+        "caveat": "Reading; full text on arXiv.",
+        "rubric_tiers": {
+          "Timeless": "H",
+          "Generative": "H",
+          "Transfer": "H",
+          "Rare": "H",
+          "Worldview": "H",
+          "Primacy": "H",
+          "Density": "H"
+        },
+        "readiness": [
+          "§9",
+          "§33",
+          "§10"
+        ]
       },
       "notes_scope": "Publisher and venue metadata only; no transcript read in this pass.",
       "resources": []
@@ -104,31 +147,20 @@
         "screening_reason": "The founding paper of the information bottleneck, the exemplar’s programme: the trade-off, its self-consistent equations and the iterative algorithm. Rubric: A originator ✓ · B unifying principle ✓ · C derivation ✓ · D 1 · E 2 · F 2.",
         "evidence": [],
         "transcript_question": "Derive the IB Lagrangian and its fixed-point equations; what is assumed about the joint distribution?",
-        "caveat": "Reading; full text on arXiv."
-      },
-      "notes_scope": "Publisher and venue metadata only; no transcript read in this pass.",
-      "resources": []
-    },
-    {
-      "id": "arxiv-1503-02406",
-      "title": "Deep Learning and the Information Bottleneck Principle — Tishby and Zaslavsky",
-      "url": "https://arxiv.org/abs/1503.02406",
-      "published_at": "2015-03-09",
-      "duration_seconds": null,
-      "screening": {
-        "id": "arxiv-1503-02406",
-        "index": 4,
-        "decision": "read_transcript",
-        "priority": "high",
-        "theme": [
-          "information",
-          "generalization"
-        ],
-        "publisher_promise": "Analyzes deep networks through the information bottleneck and relates layers to bifurcation points of the IB trade-off.",
-        "screening_reason": "The paper behind the Stanford seminar; read with Saxe et al. (2018) for the critique. Rubric: A originator ✓ · B unifying principle ✓ · C derivation ✓ · D 2 · E 2 · F 2.",
-        "evidence": [],
-        "transcript_question": "Which claims are derived and which are conjectures later tested empirically?",
-        "caveat": "Reading; full text on arXiv."
+        "caveat": "Reading; full text on arXiv.",
+        "rubric_tiers": {
+          "Timeless": "H",
+          "Generative": "H",
+          "Transfer": "H",
+          "Rare": "H",
+          "Worldview": "H",
+          "Primacy": "H",
+          "Density": "H"
+        },
+        "readiness": [
+          "§9",
+          "§7"
+        ]
       },
       "notes_scope": "Publisher and venue metadata only; no transcript read in this pass.",
       "resources": []
@@ -141,7 +173,7 @@
       "duration_seconds": null,
       "screening": {
         "id": "arxiv-1810-10531",
-        "index": 5,
+        "index": 4,
         "decision": "read_transcript",
         "priority": "high",
         "theme": [
@@ -152,7 +184,21 @@
         "screening_reason": "The written core of the Saxe–Ganguli programme: representation structure derived from data statistics and learning dynamics. Rubric: A originator ✓ · B unifying principle ✓ · C derivation ✓ · D 1 · E 2 · F 2.",
         "evidence": [],
         "transcript_question": "How do singular values of the input–output correlation set the timescales of what is learned?",
-        "caveat": "Reading; full text on arXiv."
+        "caveat": "Reading; full text on arXiv.",
+        "rubric_tiers": {
+          "Timeless": "H",
+          "Generative": "H",
+          "Transfer": "H",
+          "Rare": "H",
+          "Worldview": "H",
+          "Primacy": "H",
+          "Density": "H"
+        },
+        "readiness": [
+          "§2",
+          "§1c",
+          "§16"
+        ]
       },
       "notes_scope": "Publisher and venue metadata only; no transcript read in this pass.",
       "resources": []
@@ -165,7 +211,7 @@
       "duration_seconds": null,
       "screening": {
         "id": "arxiv-2011-14522",
-        "index": 6,
+        "index": 5,
         "decision": "read_transcript",
         "priority": "high",
         "theme": [
@@ -176,7 +222,21 @@
         "screening_reason": "The written core of Tensor Programs; pairs with the Cartesian Cafe conversation. Rubric: A originator ✓ · B unifying principle ✓ · C derivation ✓ · D 1 · E 2 · F 2.",
         "evidence": [],
         "transcript_question": "What is the abc-parametrization, and what makes µP the maximal-update limit?",
-        "caveat": "Reading; full text on arXiv."
+        "caveat": "Reading; full text on arXiv.",
+        "rubric_tiers": {
+          "Timeless": "M",
+          "Generative": "H",
+          "Transfer": "M",
+          "Rare": "H",
+          "Worldview": "M",
+          "Primacy": "H",
+          "Density": "H"
+        },
+        "readiness": [
+          "§4",
+          "§29",
+          "§12"
+        ]
       },
       "notes_scope": "Publisher and venue metadata only; no transcript read in this pass.",
       "resources": []
@@ -189,7 +249,7 @@
       "duration_seconds": null,
       "screening": {
         "id": "arxiv-1601-04920",
-        "index": 7,
+        "index": 6,
         "decision": "read_transcript",
         "priority": "high",
         "theme": [
@@ -201,7 +261,22 @@
         "screening_reason": "Mallat’s own exposition of why invariance, separation and multiscale structure explain convolutional networks. Rubric: A originator ✓ · B unifying principle ✓ · C derivation ✓ · D 2 · E 2 · F 2.",
         "evidence": [],
         "transcript_question": "Which properties are proven for scattering and only conjectured for learned networks?",
-        "caveat": "Reading; full text on arXiv."
+        "caveat": "Reading; full text on arXiv.",
+        "rubric_tiers": {
+          "Timeless": "H",
+          "Generative": "H",
+          "Transfer": "H",
+          "Rare": "H",
+          "Worldview": "H",
+          "Primacy": "H",
+          "Density": "H"
+        },
+        "readiness": [
+          "§2c",
+          "§14",
+          "§46",
+          "§14b"
+        ]
       },
       "notes_scope": "Publisher and venue metadata only; no transcript read in this pass.",
       "resources": []
@@ -214,7 +289,7 @@
       "duration_seconds": null,
       "screening": {
         "id": "arxiv-2204-00607",
-        "index": 8,
+        "index": 7,
         "decision": "read_transcript",
         "priority": "high",
         "theme": [
@@ -225,7 +300,21 @@
         "screening_reason": "The originator of the independent-causal-mechanisms programme sets out causal representation learning. No public recording of the ICLR 2022 talk could be confirmed, so the written version stands in. Rubric: A originator ✓ · B unifying principle ✓ · C derivation ✓ · D 2 (identifiability limits) · E 2 · F 2.",
         "evidence": [],
         "transcript_question": "What does the independent-mechanisms principle assume, and when are causal variables identifiable from data?",
-        "caveat": "Reading; full text on arXiv."
+        "caveat": "Reading; full text on arXiv.",
+        "rubric_tiers": {
+          "Timeless": "H",
+          "Generative": "H",
+          "Transfer": "H",
+          "Rare": "H",
+          "Worldview": "H",
+          "Primacy": "H",
+          "Density": "H"
+        },
+        "readiness": [
+          "§22",
+          "§16",
+          "§4"
+        ]
       },
       "notes_scope": "Publisher and venue metadata only; no transcript read in this pass.",
       "resources": []
@@ -238,7 +327,7 @@
       "duration_seconds": null,
       "screening": {
         "id": "jaynes-1957-physrev-106-620",
-        "index": 9,
+        "index": 8,
         "decision": "read_transcript",
         "priority": "high",
         "theme": [
@@ -250,7 +339,21 @@
         "screening_reason": "Adjacent first principle: the originating argument that maximum entropy is a rule of inference, not physics. It underlies energy-based, variational and free-energy accounts in the repo. Rubric: A originator ✓ · B unifying principle ✓ · C derivation ✓ · D 2 · E 2 · F 2.",
         "evidence": [],
         "transcript_question": "What justifies maximum entropy as inference, and where does the choice of constraints carry the real assumptions?",
-        "caveat": "Reading; the publisher page is paywalled, so a library copy is needed."
+        "caveat": "Reading; the publisher page is paywalled, so a library copy is needed.",
+        "rubric_tiers": {
+          "Timeless": "H",
+          "Generative": "H",
+          "Transfer": "H",
+          "Rare": "H",
+          "Worldview": "H",
+          "Primacy": "H",
+          "Density": "H"
+        },
+        "readiness": [
+          "§9",
+          "§33",
+          "§4"
+        ]
       },
       "notes_scope": "Publisher and venue metadata only; no transcript read in this pass.",
       "resources": []
@@ -279,9 +382,23 @@
           3
         ],
         "id": "arxiv-2207-04630",
-        "index": 10,
+        "index": 9,
         "evidence": [],
-        "workshop": "Frontiers of Information Technology & Electronic Engineering (perspective)"
+        "workshop": "Frontiers of Information Technology & Electronic Engineering (perspective)",
+        "rubric_tiers": {
+          "Timeless": "M",
+          "Generative": "H",
+          "Transfer": "H",
+          "Rare": "H",
+          "Worldview": "H",
+          "Primacy": "H",
+          "Density": "H"
+        },
+        "readiness": [
+          "§9",
+          "§16",
+          "§2"
+        ]
       },
       "notes_scope": "Publisher metadata only; no transcript read in this pass.",
       "resources": []
@@ -310,9 +427,24 @@
           9
         ],
         "id": "arxiv-2201-06387",
-        "index": 11,
+        "index": 10,
         "evidence": [],
-        "workshop": "Physics Reports (2023)"
+        "workshop": "Physics Reports (2023)",
+        "rubric_tiers": {
+          "Timeless": "H",
+          "Generative": "H",
+          "Transfer": "H",
+          "Rare": "H",
+          "Worldview": "H",
+          "Primacy": "H",
+          "Density": "M"
+        },
+        "readiness": [
+          "§27",
+          "§30",
+          "§31",
+          "§33"
+        ]
       },
       "notes_scope": "Publisher metadata only; no transcript read in this pass.",
       "resources": []
@@ -341,9 +473,22 @@
           8
         ],
         "id": "arxiv-0812-4360",
-        "index": 12,
+        "index": 11,
         "evidence": [],
-        "workshop": "arXiv essay (short version in Journal of SICE, 2009)"
+        "workshop": "arXiv essay (short version in Journal of SICE, 2009)",
+        "rubric_tiers": {
+          "Timeless": "H",
+          "Generative": "H",
+          "Transfer": "H",
+          "Rare": "H",
+          "Worldview": "H",
+          "Primacy": "H",
+          "Density": "H"
+        },
+        "readiness": [
+          "§9",
+          "§18"
+        ]
       },
       "notes_scope": "Publisher metadata only; no transcript read in this pass.",
       "resources": []
@@ -372,40 +517,22 @@
           3
         ],
         "id": "arxiv-2309-06947",
-        "index": 13,
+        "index": 12,
         "evidence": [],
-        "workshop": "Indian Journal of Physics (2023)"
-      },
-      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
-      "resources": []
-    },
-    {
-      "id": "arxiv-0712-4381",
-      "title": "Efficient representation as a design principle for neural coding and computation",
-      "url": "https://arxiv.org/abs/0712.4381",
-      "published_at": "2007-12-28",
-      "duration_seconds": null,
-      "screening": {
-        "decision": "read_transcript",
-        "priority": "high",
-        "theme": [
-          "efficient coding",
-          "predictive information",
-          "information bottleneck"
-        ],
-        "publisher_promise": "Argues that the brain encodes the information in its past that predicts the future, and that this predictive-information bottleneck is a testable design principle.",
-        "screening_reason": "Bialek and Tishby recast efficient coding as predictive compression and show how to test it in fly neurons; it ties the information bottleneck to neural data. Rubric: A✓ B✓ C✓ · D 2 · E 2 · F 2.",
-        "transcript_question": "Does optimizing predictive information explain neural codes better than plain efficient coding, and what experiment distinguishes them?",
-        "caveat": "Reading, not a recording; full text free at the link.",
-        "speaker": "William Bialek, Rob de Ruyter van Steveninck, Naftali Tishby",
-        "modules": [
-          3,
-          9
-        ],
-        "id": "arxiv-0712-4381",
-        "index": 14,
-        "evidence": [],
-        "workshop": "arXiv (ISIT 2006 paper)"
+        "workshop": "Indian Journal of Physics (2023)",
+        "rubric_tiers": {
+          "Timeless": "H",
+          "Generative": "M",
+          "Transfer": "H",
+          "Rare": "H",
+          "Worldview": "H",
+          "Primacy": "H",
+          "Density": "H"
+        },
+        "readiness": [
+          "§33",
+          "§4"
+        ]
       },
       "notes_scope": "Publisher metadata only; no transcript read in this pass.",
       "resources": []
@@ -434,39 +561,23 @@
           9
         ],
         "id": "arxiv-1412-8752",
-        "index": 15,
+        "index": 13,
         "evidence": [],
-        "workshop": "Annual Review of Condensed Matter Physics 7 (2016)"
-      },
-      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
-      "resources": []
-    },
-    {
-      "id": "arxiv-2110-14602",
-      "title": "Towards a Theory of Evolution as Multilevel Learning",
-      "url": "https://arxiv.org/abs/2110.14602",
-      "published_at": "2021-10-27",
-      "duration_seconds": null,
-      "screening": {
-        "decision": "read_transcript",
-        "priority": "high",
-        "theme": [
-          "evolution as learning",
-          "renormalization",
-          "multilevel selection"
-        ],
-        "publisher_promise": "Treats biological evolution as learning across scales, using statistical-mechanics tools to derive the major transitions from a small set of principles.",
-        "screening_reason": "Proposes the strongest version of evolution-as-learning, with explicit thermodynamic analogues; it is speculative but falsifiable. Rubric: A✓ B✓ C✓ · D 2 · E 1 · F 2.",
-        "transcript_question": "Does the learning-thermodynamics mapping predict anything about evolution that standard population genetics does not?",
-        "caveat": "Ambitious claims; the formal derivations live in a companion paper.",
-        "speaker": "Vitaly Vanchurin, Yuri Wolf, Mikhail Katsnelson, Eugene Koonin",
-        "modules": [
-          8
-        ],
-        "id": "arxiv-2110-14602",
-        "index": 16,
-        "evidence": [],
-        "workshop": "PNAS 119(6), 2022"
+        "workshop": "Annual Review of Condensed Matter Physics 7 (2016)",
+        "rubric_tiers": {
+          "Timeless": "H",
+          "Generative": "H",
+          "Transfer": "H",
+          "Rare": "H",
+          "Worldview": "H",
+          "Primacy": "H",
+          "Density": "H"
+        },
+        "readiness": [
+          "§9",
+          "§10",
+          "§33"
+        ]
       },
       "notes_scope": "Publisher metadata only; no transcript read in this pass.",
       "resources": []
@@ -494,70 +605,22 @@
           9
         ],
         "id": "arxiv-1412-2447",
-        "index": 17,
+        "index": 14,
         "evidence": [],
-        "workshop": "Theory in Biosciences (2020)"
-      },
-      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
-      "resources": []
-    },
-    {
-      "id": "arxiv-2209-10652",
-      "title": "Toy Models of Superposition",
-      "url": "https://arxiv.org/abs/2209.10652",
-      "published_at": "2022-09-21",
-      "duration_seconds": null,
-      "screening": {
-        "decision": "read_transcript",
-        "priority": "high",
-        "theme": [
-          "superposition",
-          "features",
-          "phase diagrams"
-        ],
-        "publisher_promise": "Shows in small models when networks pack more features than dimensions, with phase diagrams over sparsity and importance and geometric structure in the solutions.",
-        "screening_reason": "The superposition hypothesis, as stated by its originators, comes with a clean mechanism and phase transitions; it reframes what a neuron or feature is. Rubric: A✓ B✓ C✓ · D 2 · E 2 · F 2.",
-        "transcript_question": "Do the toy-model phase diagrams predict superposition in large models, or only in this regime?",
-        "caveat": "Reading, not a recording; full text free at the link.",
-        "speaker": "Nelson Elhage, Tristan Hume, Catherine Olsson, Chris Olah, et al.",
-        "modules": [
-          3
-        ],
-        "id": "arxiv-2209-10652",
-        "index": 18,
-        "evidence": [],
-        "workshop": "Transformer Circuits Thread"
-      },
-      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
-      "resources": []
-    },
-    {
-      "id": "arxiv-2102-12627",
-      "title": "How to represent part-whole hierarchies in a neural network",
-      "url": "https://arxiv.org/abs/2102.12627",
-      "published_at": "2021-02-25",
-      "duration_seconds": null,
-      "screening": {
-        "decision": "read_transcript",
-        "priority": "high",
-        "theme": [
-          "part-whole",
-          "glom",
-          "consensus"
-        ],
-        "publisher_promise": "Describes GLOM, an imagined architecture in which columns of embeddings reach consensus at several levels to represent parse trees without dynamic allocation.",
-        "screening_reason": "Hinton's essay on parse trees through agreement among embedding islands; it is a design argument for compositional representation in a fixed network. Rubric: A✓ B✓ C✗ · D 1 · E 2 · F 2.",
-        "transcript_question": "Is island-of-agreement a plausible mechanism for representing structure, and what would falsify it?",
-        "caveat": "Idea paper with no working system; criterion C is only partly met.",
-        "speaker": "Geoffrey Hinton",
-        "modules": [
-          3,
-          4
-        ],
-        "id": "arxiv-2102-12627",
-        "index": 19,
-        "evidence": [],
-        "workshop": "arXiv essay"
+        "workshop": "Theory in Biosciences (2020)",
+        "rubric_tiers": {
+          "Timeless": "H",
+          "Generative": "M",
+          "Transfer": "H",
+          "Rare": "H",
+          "Worldview": "H",
+          "Primacy": "H",
+          "Density": "H"
+        },
+        "readiness": [
+          "§9",
+          "§4"
+        ]
       },
       "notes_scope": "Publisher metadata only; no transcript read in this pass.",
       "resources": []
@@ -585,71 +648,23 @@
           9
         ],
         "id": "arxiv-1905-05669",
-        "index": 20,
+        "index": 15,
         "evidence": [],
-        "workshop": "Journal of Physics A (2019)"
-      },
-      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
-      "resources": []
-    },
-    {
-      "id": "arxiv-2111-09266",
-      "title": "GFlowNet Foundations",
-      "url": "https://arxiv.org/abs/2111.09266",
-      "published_at": "2021-11-17",
-      "duration_seconds": null,
-      "screening": {
-        "decision": "read_transcript",
-        "priority": "high",
-        "theme": [
-          "gflownets",
-          "amortized inference",
-          "sampling"
-        ],
-        "publisher_promise": "Develops the theory of generative flow networks: amortized samplers trained so that the probability of reaching an object is proportional to its reward.",
-        "screening_reason": "The originator's formal foundation for GFlowNets, with flow-matching and detailed-balance objectives derived; it links reasoning-as-search to amortized probabilistic inference. Rubric: A✓ B✓ C✓ · D 1 · E 2 · F 2.",
-        "transcript_question": "Which properties do GFlowNets gain over RL and MCMC, and are they equivalent to entropy-regularized RL?",
-        "caveat": "Long and formal; later work shows close links to soft RL.",
-        "speaker": "Yoshua Bengio, Salem Lahlou, Tristan Deleu, Edward Hu, Mo Tiwari, Emmanuel Bengio",
-        "modules": [
-          4,
-          5
-        ],
-        "id": "arxiv-2111-09266",
-        "index": 21,
-        "evidence": [],
-        "workshop": "JMLR 24 (2023)"
-      },
-      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
-      "resources": []
-    },
-    {
-      "id": "arxiv-1905-10985",
-      "title": "AI-GAs: AI-generating algorithms, an alternate paradigm for producing general artificial intelligence",
-      "url": "https://arxiv.org/abs/1905.10985",
-      "published_at": "2019-05-27",
-      "duration_seconds": null,
-      "screening": {
-        "decision": "read_transcript",
-        "priority": "high",
-        "theme": [
-          "open-endedness",
-          "meta-learning",
-          "environment generation"
-        ],
-        "publisher_promise": "Argues for learning the architecture, the learning algorithm and the environments, rather than hand-building AI, and sets out three pillars for doing so.",
-        "screening_reason": "A key originator of open-endedness lays out the programme behind later environment generation; it frames general AI as an outer search process. Rubric: A✓ B✓ C✗ · D 2 · E 1 · F 2.",
-        "transcript_question": "What evidence would show that AI-generating algorithms beat hand-built pipelines, and what is the outer objective?",
-        "caveat": "Position essay; mechanism is described rather than derived.",
-        "speaker": "Jeff Clune",
-        "modules": [
-          7,
-          8
-        ],
-        "id": "arxiv-1905-10985",
-        "index": 22,
-        "evidence": [],
-        "workshop": "arXiv essay"
+        "workshop": "Journal of Physics A (2019)",
+        "rubric_tiers": {
+          "Timeless": "H",
+          "Generative": "H",
+          "Transfer": "H",
+          "Rare": "H",
+          "Worldview": "H",
+          "Primacy": "H",
+          "Density": "H"
+        },
+        "readiness": [
+          "§33",
+          "§9",
+          "§12b"
+        ]
       },
       "notes_scope": "Publisher metadata only; no transcript read in this pass.",
       "resources": []
@@ -677,9 +692,23 @@
           4
         ],
         "id": "arxiv-2205-01128",
-        "index": 23,
+        "index": 16,
         "evidence": [],
-        "workshop": "AI Magazine (2022)"
+        "workshop": "AI Magazine (2022)",
+        "rubric_tiers": {
+          "Timeless": "H",
+          "Generative": "H",
+          "Transfer": "H",
+          "Rare": "H",
+          "Worldview": "H",
+          "Primacy": "H",
+          "Density": "M"
+        },
+        "readiness": [
+          "§2",
+          "§16",
+          "§47"
+        ]
       },
       "notes_scope": "Publisher metadata only; no transcript read in this pass.",
       "resources": []
@@ -708,9 +737,23 @@
           4
         ],
         "id": "arxiv-1905-03030",
-        "index": 24,
+        "index": 17,
         "evidence": [],
-        "workshop": "DeepMind technical report (arXiv)"
+        "workshop": "DeepMind technical report (arXiv)",
+        "rubric_tiers": {
+          "Timeless": "H",
+          "Generative": "H",
+          "Transfer": "M",
+          "Rare": "H",
+          "Worldview": "H",
+          "Primacy": "H",
+          "Density": "H"
+        },
+        "readiness": [
+          "§30",
+          "§18",
+          "§12"
+        ]
       },
       "notes_scope": "Publisher metadata only; no transcript read in this pass.",
       "resources": []
@@ -738,9 +781,22 @@
           2
         ],
         "id": "arxiv-2007-10928",
-        "index": 25,
+        "index": 18,
         "evidence": [],
-        "workshop": "arXiv (book chapter)"
+        "workshop": "arXiv (book chapter)",
+        "rubric_tiers": {
+          "Timeless": "H",
+          "Generative": "M",
+          "Transfer": "H",
+          "Rare": "M",
+          "Worldview": "H",
+          "Primacy": "H",
+          "Density": "H"
+        },
+        "readiness": [
+          "§12",
+          "§4"
+        ]
       },
       "notes_scope": "Publisher metadata only; no transcript read in this pass.",
       "resources": []
@@ -768,39 +824,23 @@
           2
         ],
         "id": "arxiv-2105-14368",
-        "index": 26,
+        "index": 19,
         "evidence": [],
-        "workshop": "Acta Numerica 30 (2021)"
-      },
-      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
-      "resources": []
-    },
-    {
-      "id": "arxiv-2103-09177",
-      "title": "Deep learning: a statistical viewpoint",
-      "url": "https://arxiv.org/abs/2103.09177",
-      "published_at": "2021-03-16",
-      "duration_seconds": null,
-      "screening": {
-        "decision": "read_transcript",
-        "priority": "high",
-        "theme": [
-          "benign overfitting",
-          "implicit regularization",
-          "linearization"
-        ],
-        "publisher_promise": "Reviews implicit regularization, benign overfitting and linearized (neural-tangent) regimes as the statistical explanation of deep learning.",
-        "screening_reason": "The originators of benign overfitting and high-dimensional asymptotics give a rigorous account of what theory explains and where it stops. Rubric: A✓ B✓ C✓ · D 1 · E 2 · F 2.",
-        "transcript_question": "What does the linearized regime fail to explain about deep learning, and which results extend beyond it?",
-        "caveat": "Mathematically dense; read alongside Belkin.",
-        "speaker": "Peter Bartlett, Andrea Montanari, Alexander Rakhlin",
-        "modules": [
-          2
-        ],
-        "id": "arxiv-2103-09177",
-        "index": 27,
-        "evidence": [],
-        "workshop": "Acta Numerica 30 (2021)"
+        "workshop": "Acta Numerica 30 (2021)",
+        "rubric_tiers": {
+          "Timeless": "H",
+          "Generative": "H",
+          "Transfer": "H",
+          "Rare": "M",
+          "Worldview": "H",
+          "Primacy": "H",
+          "Density": "H"
+        },
+        "readiness": [
+          "§12",
+          "§14",
+          "§10"
+        ]
       },
       "notes_scope": "Publisher metadata only; no transcript read in this pass.",
       "resources": []
@@ -829,9 +869,23 @@
           3
         ],
         "id": "arxiv-2110-08084",
-        "index": 28,
+        "index": 20,
         "evidence": [],
-        "workshop": "Proceedings of the ICM 2022"
+        "workshop": "Proceedings of the ICM 2022",
+        "rubric_tiers": {
+          "Timeless": "M",
+          "Generative": "H",
+          "Transfer": "M",
+          "Rare": "H",
+          "Worldview": "H",
+          "Primacy": "H",
+          "Density": "H"
+        },
+        "readiness": [
+          "§26",
+          "§8",
+          "§12"
+        ]
       },
       "notes_scope": "Publisher metadata only; no transcript read in this pass.",
       "resources": []
@@ -860,69 +914,22 @@
           6
         ],
         "id": "arxiv-2103-04047",
-        "index": 29,
+        "index": 21,
         "evidence": [],
-        "workshop": "Foundations and Trends in Machine Learning (2023)"
-      },
-      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
-      "resources": []
-    },
-    {
-      "id": "arxiv-1906-02691",
-      "title": "An Introduction to Variational Autoencoders",
-      "url": "https://arxiv.org/abs/1906.02691",
-      "published_at": "2019-06-06",
-      "duration_seconds": null,
-      "screening": {
-        "decision": "read_transcript",
-        "priority": "high",
-        "theme": [
-          "variational inference",
-          "latent variables",
-          "elbo"
-        ],
-        "publisher_promise": "A monograph by the VAE's inventors deriving the evidence lower bound, the reparameterization trick, and extensions such as flows and hierarchical latents.",
-        "screening_reason": "The originators' own derivation of amortized variational learning, which connects representation learning to the free-energy and bottleneck views in the collection. Rubric: A✓ B✓ C✓ · D 1 · E 2 · F 1.",
-        "transcript_question": "When does maximizing the ELBO produce useful representations rather than just good likelihoods?",
-        "caveat": "Reading, not a recording; full text free at the link.",
-        "speaker": "Diederik Kingma, Max Welling",
-        "modules": [
-          3
-        ],
-        "id": "arxiv-1906-02691",
-        "index": 30,
-        "evidence": [],
-        "workshop": "Foundations and Trends in Machine Learning 12(4), 2019"
-      },
-      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
-      "resources": []
-    },
-    {
-      "id": "arxiv-2201-10346",
-      "title": "Technological Approach to Mind Everywhere (TAME): an experimentally-grounded framework for understanding diverse bodies and minds",
-      "url": "https://arxiv.org/abs/2201.10346",
-      "published_at": "2021-12-24",
-      "duration_seconds": null,
-      "screening": {
-        "decision": "read_transcript",
-        "priority": "high",
-        "theme": [
-          "basal cognition",
-          "collective intelligence",
-          "scale-free cognition"
-        ],
-        "publisher_promise": "Proposes a framework for recognizing cognition in cells, tissues and engineered systems, grounded in bioelectric experiments on morphogenesis.",
-        "screening_reason": "Levin's statement of his programme: problem-solving in arbitrary spaces as the invariant of mind, with experimental predictions. Rubric: A✓ B✓ C✓ · D 2 · E 1 · F 2.",
-        "transcript_question": "What makes the 'competency in a problem space' criterion testable rather than a redescription?",
-        "caveat": "Long and conceptual; formal content is lighter.",
-        "speaker": "Michael Levin",
-        "modules": [
-          9
-        ],
-        "id": "arxiv-2201-10346",
-        "index": 31,
-        "evidence": [],
-        "workshop": "Frontiers in Systems Neuroscience (2022)"
+        "workshop": "Foundations and Trends in Machine Learning (2023)",
+        "rubric_tiers": {
+          "Timeless": "H",
+          "Generative": "H",
+          "Transfer": "M",
+          "Rare": "H",
+          "Worldview": "H",
+          "Primacy": "H",
+          "Density": "H"
+        },
+        "readiness": [
+          "§9",
+          "§18"
+        ]
       },
       "notes_scope": "Publisher metadata only; no transcript read in this pass.",
       "resources": []
@@ -950,9 +957,23 @@
           3
         ],
         "id": "arxiv-cond-mat-9907176",
-        "index": 32,
+        "index": 22,
         "evidence": [],
-        "workshop": "Journal of Statistical Physics 104 (2001)"
+        "workshop": "Journal of Statistical Physics 104 (2001)",
+        "rubric_tiers": {
+          "Timeless": "H",
+          "Generative": "H",
+          "Transfer": "H",
+          "Rare": "H",
+          "Worldview": "H",
+          "Primacy": "H",
+          "Density": "H"
+        },
+        "readiness": [
+          "§9",
+          "§4",
+          "§8b"
+        ]
       },
       "notes_scope": "Publisher metadata only; no transcript read in this pass.",
       "resources": []
@@ -980,9 +1001,23 @@
           8
         ],
         "id": "arxiv-0901-3742",
-        "index": 33,
+        "index": 23,
         "evidence": [],
-        "workshop": "Journal of Evolutionary Biology 22 (2009)"
+        "workshop": "Journal of Evolutionary Biology 22 (2009)",
+        "rubric_tiers": {
+          "Timeless": "H",
+          "Generative": "H",
+          "Transfer": "H",
+          "Rare": "H",
+          "Worldview": "H",
+          "Primacy": "H",
+          "Density": "H"
+        },
+        "readiness": [
+          "§9",
+          "§28",
+          "§10"
+        ]
       },
       "notes_scope": "Publisher metadata only; no transcript read in this pass.",
       "resources": []
@@ -1010,9 +1045,23 @@
           2
         ],
         "id": "cucker-smale-2002-bams",
-        "index": 34,
+        "index": 24,
         "evidence": [],
-        "workshop": "Bulletin of the AMS 39(1), 2002"
+        "workshop": "Bulletin of the AMS 39(1), 2002",
+        "rubric_tiers": {
+          "Timeless": "H",
+          "Generative": "H",
+          "Transfer": "M",
+          "Rare": "M",
+          "Worldview": "H",
+          "Primacy": "H",
+          "Density": "H"
+        },
+        "readiness": [
+          "§12",
+          "§14",
+          "§3"
+        ]
       },
       "notes_scope": "Publisher metadata only; no transcript read in this pass.",
       "resources": []
@@ -1041,9 +1090,23 @@
           4
         ],
         "id": "poggio-fraser-2024-bams",
-        "index": 35,
+        "index": 25,
         "evidence": [],
-        "workshop": "Bulletin of the AMS 61(3), 2024"
+        "workshop": "Bulletin of the AMS 61(3), 2024",
+        "rubric_tiers": {
+          "Timeless": "H",
+          "Generative": "H",
+          "Transfer": "H",
+          "Rare": "M",
+          "Worldview": "H",
+          "Primacy": "H",
+          "Density": "H"
+        },
+        "readiness": [
+          "§12",
+          "§14",
+          "§16"
+        ]
       },
       "notes_scope": "Publisher metadata only; no transcript read in this pass.",
       "resources": []
@@ -1071,39 +1134,23 @@
           3
         ],
         "id": "arxiv-math-0212400",
-        "index": 36,
+        "index": 26,
         "evidence": [],
-        "workshop": "Proceedings of the ICM 2002, vol. 1"
-      },
-      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
-      "resources": []
-    },
-    {
-      "id": "distill-2020-zoom-in",
-      "title": "Zoom In: An Introduction to Circuits",
-      "url": "https://distill.pub/2020/circuits/zoom-in/",
-      "published_at": "2020-03-10",
-      "duration_seconds": null,
-      "screening": {
-        "decision": "read_transcript",
-        "priority": "high",
-        "theme": [
-          "circuits",
-          "interpretability",
-          "features"
-        ],
-        "publisher_promise": "Argues that features and the circuits connecting them are real objects in neural networks that can be studied, and that the same motifs recur across models.",
-        "screening_reason": "The founding statement of mechanistic interpretability as a science, with three falsifiable claims about features, circuits and universality. Rubric: A✓ B✓ C✓ · D 2 · E 2 · F 2.",
-        "transcript_question": "How much evidence supports universality, and what would show that circuits are an artefact of how we read them?",
-        "caveat": "Reading, not a recording; full text free at the link.",
-        "speaker": "Chris Olah, Nick Cammarata, Ludwig Schubert, Gabriel Goh, Michael Petrov, Shan Carter",
-        "modules": [
-          3
-        ],
-        "id": "distill-2020-zoom-in",
-        "index": 37,
-        "evidence": [],
-        "workshop": "Distill"
+        "workshop": "Proceedings of the ICM 2002, vol. 1",
+        "rubric_tiers": {
+          "Timeless": "H",
+          "Generative": "H",
+          "Transfer": "H",
+          "Rare": "H",
+          "Worldview": "H",
+          "Primacy": "H",
+          "Density": "H"
+        },
+        "readiness": [
+          "§4",
+          "§20",
+          "§36"
+        ]
       },
       "notes_scope": "Publisher metadata only; no transcript read in this pass.",
       "resources": []
@@ -1131,9 +1178,22 @@
           6
         ],
         "id": "pearl-2019-seven-tools",
-        "index": 38,
+        "index": 27,
         "evidence": [],
-        "workshop": "Communications of the ACM 62(3), 2019 (UCLA technical report R-481)"
+        "workshop": "Communications of the ACM 62(3), 2019 (UCLA technical report R-481)",
+        "rubric_tiers": {
+          "Timeless": "H",
+          "Generative": "H",
+          "Transfer": "H",
+          "Rare": "M",
+          "Worldview": "H",
+          "Primacy": "H",
+          "Density": "H"
+        },
+        "readiness": [
+          "§22",
+          "§20"
+        ]
       },
       "notes_scope": "Publisher metadata only; no transcript read in this pass.",
       "resources": []
@@ -1161,9 +1221,22 @@
           8
         ],
         "id": "valiant-2006-evolvability",
-        "index": 39,
+        "index": 28,
         "evidence": [],
-        "workshop": "ECCC TR06-120; Journal of the ACM 56(1), 2009"
+        "workshop": "ECCC TR06-120; Journal of the ACM 56(1), 2009",
+        "rubric_tiers": {
+          "Timeless": "H",
+          "Generative": "H",
+          "Transfer": "H",
+          "Rare": "H",
+          "Worldview": "H",
+          "Primacy": "H",
+          "Density": "H"
+        },
+        "readiness": [
+          "§12",
+          "§12b"
+        ]
       },
       "notes_scope": "Publisher metadata only; no transcript read in this pass.",
       "resources": []
@@ -1191,40 +1264,22 @@
           8
         ],
         "id": "watson-szathmary-2016-tree",
-        "index": 40,
+        "index": 29,
         "evidence": [],
-        "workshop": "Trends in Ecology & Evolution 31(2), 2016"
-      },
-      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
-      "resources": []
-    },
-    {
-      "id": "jaynes-1982-rationale-maxent",
-      "title": "On the Rationale of Maximum-Entropy Methods",
-      "url": "https://bayes.wustl.edu/etj/articles/rational.pdf",
-      "published_at": "1982",
-      "duration_seconds": null,
-      "screening": {
-        "decision": "read_transcript",
-        "priority": "high",
-        "theme": [
-          "maximum entropy",
-          "inference",
-          "concentration"
-        ],
-        "publisher_promise": "Defends maximum entropy as inference rather than physics, with the concentration theorem showing why maximum-entropy distributions are overwhelmingly likely.",
-        "screening_reason": "The originator answers his critics with the concentration argument; it complements the 1957 paper already in the collection with the case for why MaxEnt works. Rubric: A✓ B✓ C✓ · D 2 · E 2 · F 1.",
-        "transcript_question": "Does the concentration theorem justify MaxEnt as a prior for learning, or only for counting problems?",
-        "caveat": "Scanned PDF from the Jaynes archive; not machine-readable.",
-        "speaker": "E. T. Jaynes",
-        "modules": [
-          2,
-          5
-        ],
-        "id": "jaynes-1982-rationale-maxent",
-        "index": 41,
-        "evidence": [],
-        "workshop": "Proceedings of the IEEE 70, 1982"
+        "workshop": "Trends in Ecology & Evolution 31(2), 2016",
+        "rubric_tiers": {
+          "Timeless": "H",
+          "Generative": "H",
+          "Transfer": "H",
+          "Rare": "H",
+          "Worldview": "H",
+          "Primacy": "H",
+          "Density": "H"
+        },
+        "readiness": [
+          "§12",
+          "§16"
+        ]
       },
       "notes_scope": "Publisher metadata only; no transcript read in this pass.",
       "resources": []
@@ -1253,9 +1308,23 @@
           9
         ],
         "id": "simoncelli-olshausen-2001-arn",
-        "index": 42,
+        "index": 30,
         "evidence": [],
-        "workshop": "Annual Review of Neuroscience 24 (2001)"
+        "workshop": "Annual Review of Neuroscience 24 (2001)",
+        "rubric_tiers": {
+          "Timeless": "H",
+          "Generative": "H",
+          "Transfer": "H",
+          "Rare": "H",
+          "Worldview": "H",
+          "Primacy": "H",
+          "Density": "H"
+        },
+        "readiness": [
+          "§9",
+          "§15",
+          "§36"
+        ]
       },
       "notes_scope": "Publisher metadata only; no transcript read in this pass.",
       "resources": []

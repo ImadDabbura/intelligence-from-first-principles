@@ -38,38 +38,22 @@
         "id": "Sbv-wBLMNGM",
         "index": 0,
         "evidence": [],
-        "workshop": "Mini-Course on Statistical Mechanical Approaches to Deep Learning"
-      },
-      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
-      "resources": []
-    },
-    {
-      "id": "pdbrjtC1OVE",
-      "title": "Lecture 04 | Grokking as a First-Order Phase Transition",
-      "url": "https://www.youtube.com/watch?v=pdbrjtC1OVE",
-      "published_at": "2026-10-23",
-      "duration_seconds": 6000,
-      "screening": {
-        "decision": "read_transcript",
-        "priority": "high",
-        "theme": [
-          "grokking",
-          "phase transitions",
-          "statistical mechanics"
-        ],
-        "publisher_promise": "Frames grokking as a first-order phase transition in a statistical-mechanics description of training.",
-        "screening_reason": "Originator-level: Ringel co-authored the first-order phase-transition account of grokking, a falsifiable reframing of a much-discussed phenomenon. Rubric: A✓ B✓ C✓ · D 2 · E 2 · F 2.",
-        "transcript_question": "What order parameter and free-energy picture is derived, and which testable predictions about grokking follow from it?",
-        "caveat": "no abstract in metadata; judged from title, speaker and workshop only",
-        "speaker": "Zohar Ringel",
-        "modules": [
-          2,
-          3
-        ],
-        "id": "pdbrjtC1OVE",
-        "index": 1,
-        "evidence": [],
-        "workshop": "Mini-Course on Statistical Mechanical Approaches to Deep Learning"
+        "workshop": "Mini-Course on Statistical Mechanical Approaches to Deep Learning",
+        "rubric_tiers": {
+          "Timeless": "M",
+          "Generative": "H",
+          "Transfer": "H",
+          "Rare": "H",
+          "Worldview": "M",
+          "Primacy": "H",
+          "Density": "M"
+        },
+        "readiness": [
+          "§33",
+          "§12",
+          "§17",
+          "§4"
+        ]
       },
       "notes_scope": "Publisher metadata only; no transcript read in this pass.",
       "resources": []
@@ -97,39 +81,22 @@
           2
         ],
         "id": "uAXSWLZXeLE",
-        "index": 2,
+        "index": 1,
         "evidence": [],
-        "workshop": "37th International Conference on Algorithmic Learning Theory (ALT 2026) and ShaiFest"
-      },
-      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
-      "resources": []
-    },
-    {
-      "id": "6dywE7ilII4",
-      "title": "The Negative Result Minsky and Papert Got Wrong: Why SVMs and the Perceptron Don’t Work, and...",
-      "url": "https://www.youtube.com/watch?v=6dywE7ilII4",
-      "published_at": "2026-02-28",
-      "duration_seconds": 2340,
-      "screening": {
-        "decision": "read_transcript",
-        "priority": "high",
-        "theme": [
-          "inductive bias",
-          "perceptron",
-          "deep learning"
-        ],
-        "publisher_promise": "Argues that the true limitation of perceptrons and SVMs differs from Minsky and Papert's, and asks whether depth fixes it.",
-        "screening_reason": "Srebro is an originator of implicit-bias theory; the title promises a sharp reframing of what shallow learners cannot do and what depth adds. Rubric: A✓ B✓ C✓ · D 2 · E 2 · F 2.",
-        "transcript_question": "What is the negative result for linear and kernel methods, and does it identify a precise advantage of deep learning?",
-        "caveat": "no abstract in metadata; judged from title, speaker and workshop only",
-        "speaker": "Nati Srebro",
-        "modules": [
-          2
-        ],
-        "id": "6dywE7ilII4",
-        "index": 3,
-        "evidence": [],
-        "workshop": "37th International Conference on Algorithmic Learning Theory (ALT 2026) and ShaiFest"
+        "workshop": "37th International Conference on Algorithmic Learning Theory (ALT 2026) and ShaiFest",
+        "rubric_tiers": {
+          "Timeless": "H",
+          "Generative": "H",
+          "Transfer": "M",
+          "Rare": "M",
+          "Worldview": "H",
+          "Primacy": "H",
+          "Density": "H"
+        },
+        "readiness": [
+          "§12",
+          "§4"
+        ]
       },
       "notes_scope": "Publisher metadata only; no transcript read in this pass.",
       "resources": []
@@ -159,39 +126,22 @@
           9
         ],
         "id": "nYvlHO-vKeQ",
-        "index": 4,
+        "index": 2,
         "evidence": [],
-        "workshop": "Workshop on Multiscale Methods and Emergent Phenomena in Neuroscience"
-      },
-      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
-      "resources": []
-    },
-    {
-      "id": "4CMJoNKfcYc",
-      "title": "Gradients, Groups, Grids: How neural networks learn features in algebraic tasks",
-      "url": "https://www.youtube.com/watch?v=4CMJoNKfcYc",
-      "published_at": "2026-10-05",
-      "duration_seconds": 4620,
-      "screening": {
-        "decision": "read_transcript",
-        "priority": "high",
-        "theme": [
-          "feature learning",
-          "gradient dynamics",
-          "algebraic tasks"
-        ],
-        "publisher_promise": "Explains how gradient dynamics make networks learn features in algebraic tasks such as group operations.",
-        "screening_reason": "Kunin co-developed alternating-gradient-flow accounts of staged feature learning; a mechanism derived from gradient dynamics that explains emergent representations. Rubric: A✓ B✓ C✓ · D 2 · E 2 · F 2.",
-        "transcript_question": "Does the talk derive which features appear, in what order, from gradient dynamics, and test that against trained networks?",
-        "caveat": "no abstract in metadata; judged from title, speaker and workshop only",
-        "speaker": "Daniel Kunin",
-        "modules": [
-          3
-        ],
-        "id": "4CMJoNKfcYc",
-        "index": 5,
-        "evidence": [],
-        "workshop": "Mathematical AI Seminar"
+        "workshop": "Workshop on Multiscale Methods and Emergent Phenomena in Neuroscience",
+        "rubric_tiers": {
+          "Timeless": "H",
+          "Generative": "H",
+          "Transfer": "H",
+          "Rare": "H",
+          "Worldview": "H",
+          "Primacy": "H",
+          "Density": "M"
+        },
+        "readiness": [
+          "§9",
+          "§18"
+        ]
       },
       "notes_scope": "Publisher metadata only; no transcript read in this pass.",
       "resources": []
@@ -220,9 +170,23 @@
           3
         ],
         "id": "53eKo-lNgQc",
-        "index": 6,
+        "index": 3,
         "evidence": [],
-        "workshop": "Mathematical AI Seminar"
+        "workshop": "Mathematical AI Seminar",
+        "rubric_tiers": {
+          "Timeless": "M",
+          "Generative": "H",
+          "Transfer": "M",
+          "Rare": "H",
+          "Worldview": "M",
+          "Primacy": "H",
+          "Density": "M"
+        },
+        "readiness": [
+          "§28",
+          "§2",
+          "§8b"
+        ]
       },
       "notes_scope": "Publisher metadata only; no transcript read in this pass.",
       "resources": []
@@ -251,9 +215,23 @@
           5
         ],
         "id": "aV58b2aSi_o",
-        "index": 7,
+        "index": 4,
         "evidence": [],
-        "workshop": "Focus Program on Data Science, Approximation Theory, and Harmonic Analysis"
+        "workshop": "Focus Program on Data Science, Approximation Theory, and Harmonic Analysis",
+        "rubric_tiers": {
+          "Timeless": "H",
+          "Generative": "H",
+          "Transfer": "H",
+          "Rare": "M",
+          "Worldview": "H",
+          "Primacy": "H",
+          "Density": "H"
+        },
+        "readiness": [
+          "§4",
+          "§10",
+          "§12b"
+        ]
       },
       "notes_scope": "Publisher metadata only; no transcript read in this pass.",
       "resources": []
@@ -282,40 +260,22 @@
           3
         ],
         "id": "q13-QIGm6OM",
-        "index": 8,
+        "index": 5,
         "evidence": [],
-        "workshop": "Focus Program on Data Science, Approximation Theory, and Harmonic Analysis"
-      },
-      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
-      "resources": []
-    },
-    {
-      "id": "9SOgpgP3H4g",
-      "title": "Probabilist Harmonic Analysis Models of Deep Neural Networks",
-      "url": "https://www.youtube.com/watch?v=9SOgpgP3H4g",
-      "published_at": "2022-06-13",
-      "duration_seconds": 3000,
-      "screening": {
-        "decision": "read_transcript",
-        "priority": "high",
-        "theme": [
-          "scattering",
-          "harmonic analysis",
-          "multiscale priors"
-        ],
-        "publisher_promise": "Proposes probabilistic harmonic-analysis models (multiscale, wavelet-type) that explain what deep networks learn about image and field statistics.",
-        "screening_reason": "Mallat is the originator of scattering transforms and the multiscale view of deep nets; a harmonic-analysis model of what deep networks capture is exactly a first-principles account of prior structure. Rubric: A✓ B✓ C✓ · D 2 · E 2 · F 2.",
-        "transcript_question": "Does Mallat derive which multiscale/interaction structure a network must learn (beyond fixed wavelets) and show predictions that separate this model from generic function approximation?",
-        "caveat": "title and speaker only; no publisher abstract",
-        "speaker": "Stéphane Mallat",
-        "modules": [
-          2,
-          3
-        ],
-        "id": "9SOgpgP3H4g",
-        "index": 9,
-        "evidence": [],
-        "workshop": "Focus Program on Data Science, Approximation Theory, and Harmonic Analysis"
+        "workshop": "Focus Program on Data Science, Approximation Theory, and Harmonic Analysis",
+        "rubric_tiers": {
+          "Timeless": "H",
+          "Generative": "H",
+          "Transfer": "H",
+          "Rare": "M",
+          "Worldview": "H",
+          "Primacy": "H",
+          "Density": "H"
+        },
+        "readiness": [
+          "§14",
+          "§7"
+        ]
       },
       "notes_scope": "Publisher metadata only; no transcript read in this pass.",
       "resources": []
@@ -345,9 +305,23 @@
           9
         ],
         "id": "QKspImAueqY",
-        "index": 10,
+        "index": 6,
         "evidence": [],
-        "workshop": "Machine Learning Advances and Applications Seminar"
+        "workshop": "Machine Learning Advances and Applications Seminar",
+        "rubric_tiers": {
+          "Timeless": "M",
+          "Generative": "H",
+          "Transfer": "H",
+          "Rare": "H",
+          "Worldview": "H",
+          "Primacy": "H",
+          "Density": "M"
+        },
+        "readiness": [
+          "§33",
+          "§2",
+          "§8b"
+        ]
       },
       "notes_scope": "Publisher metadata only; no transcript read in this pass.",
       "resources": []
@@ -376,109 +350,25 @@
           2
         ],
         "id": "bHLdAFLBrGA",
-        "index": 11,
+        "index": 7,
         "evidence": [],
-        "workshop": "Applied Mathematics Colloquium"
+        "workshop": "Applied Mathematics Colloquium",
+        "rubric_tiers": {
+          "Timeless": "M",
+          "Generative": "H",
+          "Transfer": "H",
+          "Rare": "H",
+          "Worldview": "H",
+          "Primacy": "H",
+          "Density": "H"
+        },
+        "readiness": [
+          "§26",
+          "§33",
+          "§48"
+        ]
       },
       "notes_scope": "Publisher metadata only; no transcript read in this pass.",
-      "resources": []
-    },
-    {
-      "id": "lBaDjBO3ZFU",
-      "title": "Free Independence of Random Variables",
-      "url": "https://www.youtube.com/watch?v=lBaDjBO3ZFU",
-      "published_at": "2022-06-13",
-      "duration_seconds": 3600,
-      "screening": {
-        "id": "lBaDjBO3ZFU",
-        "index": 12,
-        "decision": "read_transcript",
-        "priority": "high",
-        "track": "maths",
-        "pillars": [
-          "§4",
-          "§29"
-        ],
-        "theme": [
-          "maths track",
-          "§4",
-          "§29"
-        ],
-        "publisher_promise": "",
-        "screening_reason": "Mingo's opening free-probability lecture anchors a series on a central random-matrix concept. (Maths track: architect-taught exposition of a Compass pillar.)",
-        "evidence": [],
-        "transcript_question": "How does free independence replace classical independence in matrix limits?",
-        "caveat": "Metadata does not verify prerequisites or the extent of derivations.",
-        "speaker": "James Mingo",
-        "modules": [],
-        "workshop": "Workshop on Noncommutative Geometry, Free Probability Theory and Random Matrix Theory"
-      },
-      "notes_scope": "Publisher metadata only; screened on the maths track by Codex; no transcript read.",
-      "resources": []
-    },
-    {
-      "id": "fzDtMurYuGs",
-      "title": "Asymptotics of matrix integrals and topological recursion",
-      "url": "https://www.youtube.com/watch?v=fzDtMurYuGs",
-      "published_at": "2022-06-20",
-      "duration_seconds": 4140,
-      "screening": {
-        "id": "fzDtMurYuGs",
-        "index": 13,
-        "decision": "read_transcript",
-        "priority": "high",
-        "track": "maths",
-        "pillars": [
-          "§29"
-        ],
-        "theme": [
-          "maths track",
-          "§29"
-        ],
-        "publisher_promise": "",
-        "screening_reason": "Borot's opening matrix-integral lecture develops a central asymptotic framework across a series. (Maths track: architect-taught exposition of a Compass pillar.)",
-        "evidence": [],
-        "transcript_question": "How do matrix-integral asymptotics produce topological recursion?",
-        "caveat": "Metadata does not verify prerequisites or the extent of derivations.",
-        "speaker": "Gaetan Borot",
-        "modules": [],
-        "workshop": "Workshop on Noncommutative Geometry, Free Probability Theory and Random Matrix Theory"
-      },
-      "notes_scope": "Publisher metadata only; screened on the maths track by Codex; no transcript read.",
-      "resources": []
-    },
-    {
-      "id": "lYcdELpUGsg",
-      "title": "Lecture 01 | Generalization Despite Interpolation: Wide Networks as Gaussian Processes",
-      "url": "https://www.youtube.com/watch?v=lYcdELpUGsg",
-      "published_at": "2026-10-02",
-      "duration_seconds": 6060,
-      "screening": {
-        "id": "lYcdELpUGsg",
-        "index": 14,
-        "decision": "read_transcript",
-        "priority": "high",
-        "track": "maths",
-        "pillars": [
-          "§33",
-          "§12",
-          "§17"
-        ],
-        "theme": [
-          "maths track",
-          "§33",
-          "§12"
-        ],
-        "publisher_promise": "",
-        "screening_reason": "Lecture 1 of Ringel's mini-course on statistical-mechanical approaches to deep learning, on wide networks as Gaussian processes; series: start with part 1. (Maths track: architect-taught exposition of a Compass pillar.)",
-        "evidence": [],
-        "transcript_question": "Why infinitely wide networks become Gaussian processes and how that explains generalization despite interpolation.",
-        "caveat": "Lecture level and rigor unverified.",
-        "speaker": "Zohar Ringel",
-        "modules": [],
-        "workshop": "Mini-Course on Statistical Mechanical Approaches to Deep Learning"
-      },
-      "notes_scope": "Publisher metadata only; screened on the maths track by Codex; no transcript read.",
       "resources": []
     }
   ]

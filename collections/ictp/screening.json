@@ -13,37 +13,6 @@
   },
   "episodes": [
     {
-      "id": "8TWBGw32CwY",
-      "title": "Abdus Salam Distinguished Lecture Series 2024 - Lecture 3",
-      "url": "https://www.youtube.com/watch?v=8TWBGw32CwY",
-      "published_at": "2024-02-03",
-      "duration_seconds": 4740,
-      "screening": {
-        "decision": "read_transcript",
-        "priority": "high",
-        "theme": [
-          "score diffusion",
-          "multiscale networks",
-          "generative models"
-        ],
-        "publisher_promise": "Lecture on multiscale neural network models for score-based diffusion generation.",
-        "screening_reason": "Originator lecture connecting wavelet/RG factorization to why diffusion models generalize rather than memorize; central to modules 2 and 3 with a stated mechanism. Rubric: A✓ B✓ C✓ · D 2 · E 2 · F 2.",
-        "transcript_question": "Does he derive the multiscale conditional factorization that lets score networks avoid the curse of dimensionality, and show evidence of generalization versus memorization?",
-        "caveat": "publisher metadata only; speaker taken from title/description",
-        "speaker": "Stéphane Mallat",
-        "modules": [
-          3,
-          2
-        ],
-        "id": "8TWBGw32CwY",
-        "index": 0,
-        "evidence": [],
-        "workshop": "Salam Distinguished Lectures 2024 - Prof. Stéphane Mallat"
-      },
-      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
-      "resources": []
-    },
-    {
       "id": "jdCFc45bb2o",
       "title": "Abdus Salam Distinguished Lecture Series 2024 - Lecture 1",
       "url": "https://www.youtube.com/watch?v=jdCFc45bb2o",
@@ -67,39 +36,24 @@
           2
         ],
         "id": "jdCFc45bb2o",
-        "index": 1,
+        "index": 0,
         "evidence": [],
-        "workshop": "Salam Distinguished Lectures 2024 - Prof. Stéphane Mallat"
-      },
-      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
-      "resources": []
-    },
-    {
-      "id": "GPtohlKMVAE",
-      "title": "Prof. William Bialek: Living on a diet of bits",
-      "url": "https://www.youtube.com/watch?v=GPtohlKMVAE",
-      "published_at": "2013-02-04",
-      "duration_seconds": 6120,
-      "screening": {
-        "decision": "read_transcript",
-        "priority": "high",
-        "theme": [
-          "efficient coding",
-          "information theory"
-        ],
-        "publisher_promise": "Lecture on organisms as information processors whose fitness depends on bits extracted.",
-        "screening_reason": "Bialek, originator of information optimization in biology, derives coding and representation from maximizing information under constraints, in the same family as the Tishby exemplar. Rubric: A✓ B✓ C✓ · D 1 · E 2 · F 2.",
-        "transcript_question": "Does he derive a representation from an information-maximization objective and confirm a non-trivial prediction quantitatively (e.g. in fly vision or gene regulation)?",
-        "caveat": "series-level description only; lecture content inferred from title",
-        "speaker": "William Bialek",
-        "modules": [
-          3,
-          9
-        ],
-        "id": "GPtohlKMVAE",
-        "index": 2,
-        "evidence": [],
-        "workshop": "Salam Distinguished Lectures 2013: William Bialek"
+        "workshop": "Salam Distinguished Lectures 2024 - Prof. Stéphane Mallat",
+        "rubric_tiers": {
+          "Timeless": "H",
+          "Generative": "H",
+          "Transfer": "H",
+          "Rare": "H",
+          "Worldview": "H",
+          "Primacy": "H",
+          "Density": "M"
+        },
+        "readiness": [
+          "§33",
+          "§2c",
+          "§48",
+          "§4"
+        ]
       },
       "notes_scope": "Publisher metadata only; no transcript read in this pass.",
       "resources": []
@@ -127,9 +81,23 @@
           3
         ],
         "id": "uyg1z5PmePk",
-        "index": 3,
+        "index": 1,
         "evidence": [],
-        "workshop": "Salam Distinguished Lectures 2013: William Bialek"
+        "workshop": "Salam Distinguished Lectures 2013: William Bialek",
+        "rubric_tiers": {
+          "Timeless": "H",
+          "Generative": "H",
+          "Transfer": "H",
+          "Rare": "H",
+          "Worldview": "H",
+          "Primacy": "H",
+          "Density": "M"
+        },
+        "readiness": [
+          "§9",
+          "§4",
+          "§33"
+        ]
       },
       "notes_scope": "Publisher metadata only; no transcript read in this pass.",
       "resources": []
@@ -142,7 +110,7 @@
       "duration_seconds": 4740,
       "screening": {
         "id": "k8_qNnr3YUE",
-        "index": 4,
+        "index": 2,
         "decision": "read_transcript",
         "priority": "high",
         "track": "maths",
@@ -162,40 +130,21 @@
         "caveat": "Abstract truncated; quantitative derivations unverified.",
         "speaker": "Christopher Jarzynski",
         "modules": [],
-        "workshop": "ICTP Colloquia"
-      },
-      "notes_scope": "Publisher metadata only; screened on the maths track by Codex; no transcript read.",
-      "resources": []
-    },
-    {
-      "id": "hZgAIU86kpM",
-      "title": "Giorgio Parisi: \"Theoretical progresses in off-­‐equilibrium behaviour\" - 1",
-      "url": "https://www.youtube.com/watch?v=hZgAIU86kpM",
-      "published_at": "2011-01-25",
-      "duration_seconds": 780,
-      "screening": {
-        "id": "hZgAIU86kpM",
-        "index": 5,
-        "decision": "read_transcript",
-        "priority": "high",
-        "track": "maths",
-        "pillars": [
+        "workshop": "ICTP Colloquia",
+        "rubric_tiers": {
+          "Timeless": "H",
+          "Generative": "H",
+          "Transfer": "H",
+          "Rare": "M",
+          "Worldview": "H",
+          "Primacy": "H",
+          "Density": "M"
+        },
+        "readiness": [
           "§33",
-          "§8b"
-        ],
-        "theme": [
-          "maths track",
-          "§33",
-          "§8b"
-        ],
-        "publisher_promise": "",
-        "screening_reason": "Dirac Medalist lecture series part 1 by Parisi, the architect of spin-glass theory, on off-equilibrium (glassy) dynamics central to stat physics of learning landscapes. (Maths track: architect-taught exposition of a Compass pillar.)",
-        "evidence": [],
-        "transcript_question": "What theoretical tools describe off-equilibrium glassy dynamics and aging, and why they matter for rugged landscapes?",
-        "caveat": "no abstract; recording age and level of detail unverified",
-        "speaker": "Giorgio Parisi",
-        "modules": [],
-        "workshop": "ICTP channel uploads (hand-picked, not in a selected playlist)"
+          "§4",
+          "§27"
+        ]
       },
       "notes_scope": "Publisher metadata only; screened on the maths track by Codex; no transcript read.",
       "resources": []
@@ -208,7 +157,7 @@
       "duration_seconds": 5340,
       "screening": {
         "id": "T23Ld3O7xjs",
-        "index": 6,
+        "index": 3,
         "decision": "read_transcript",
         "priority": "high",
         "track": "maths",
@@ -232,42 +181,21 @@
           2,
           3
         ],
-        "workshop": "Joint ICTP-WE Heraeus School and Conference on Frontiers at the Intersection of Quantum Simulation and Machine Learning | (smr 3928)"
-      },
-      "notes_scope": "Publisher metadata only; screened on the guiding principles; no transcript read.",
-      "resources": []
-    },
-    {
-      "id": "qlBL5bIVLvI",
-      "title": "Introduction to long range interactions: a theoretical physicist's view - Lecture 1",
-      "url": "https://www.youtube.com/watch?v=qlBL5bIVLvI",
-      "published_at": "2017-11-30",
-      "duration_seconds": 3420,
-      "screening": {
-        "id": "qlBL5bIVLvI",
-        "index": 7,
-        "decision": "read_transcript",
-        "priority": "high",
-        "track": "maths",
-        "pillars": [
-          "§33",
-          "§25",
-          "§27"
-        ],
-        "theme": [
-          "long-range interactions",
-          "mean-field theory"
-        ],
-        "publisher_promise": "Opening lecture introducing the statistical mechanics of long-range interacting systems.",
-        "screening_reason": "A school lecture series on mean-field statistical mechanics, Vlasov dynamics and ensemble inequivalence; this toolkit underlies mean-field limits of neural-network training. Barré is a principal author in the area. Series: start with part 1. Rubric: A✓ B✓ C✓ · D 1 · E 2 · F 1.",
-        "evidence": [],
-        "transcript_question": "How do mean-field (Vlasov) limits, quasi-stationary states and ensemble inequivalence arise in long-range systems?",
-        "caveat": "publisher title and speaker line only, no abstract; speaker taken from description",
-        "speaker": "Julien Barre",
-        "modules": [
-          2
-        ],
-        "workshop": "Conference on Long-Range-Interacting Many Body Systems: from Atomic to Astrophysical Scales | (smr 2830)"
+        "workshop": "Joint ICTP-WE Heraeus School and Conference on Frontiers at the Intersection of Quantum Simulation and Machine Learning | (smr 3928)",
+        "rubric_tiers": {
+          "Timeless": "M",
+          "Generative": "H",
+          "Transfer": "H",
+          "Rare": "H",
+          "Worldview": "M",
+          "Primacy": "H",
+          "Density": "M"
+        },
+        "readiness": [
+          "§2",
+          "§15",
+          "§33"
+        ]
       },
       "notes_scope": "Publisher metadata only; screened on the guiding principles; no transcript read.",
       "resources": []

@@ -19,17 +19,7 @@
     "format": "Lecture",
     "path": "collections/lectures",
     "snapshot_date": "2026-11-21",
-    "coverage_note": "Selected lectures and seminars by the originators of unifying programmes, across venues. Pilot set; not an inventory of any venue."
-  },
-  {
-    "id": "axrp",
-    "name": "AXRP – the AI X-risk Research Podcast",
-    "short_name": "AXRP",
-    "url": "https://axrp.net/",
-    "format": "Podcast",
-    "path": "collections/axrp",
-    "snapshot_date": "2026-11-21",
-    "coverage_note": "Selected episodes only; not an inventory of the feed."
+    "coverage_note": "Selected lectures and seminars by the originators of unifying programmes, across venues. Pilot set; not an inventory of any venue. Kept only the 2 items that pass the guiding principles."
   },
   {
     "id": "readings",
@@ -39,7 +29,7 @@
     "format": "Reading",
     "path": "collections/readings",
     "snapshot_date": "2026-11-21",
-    "coverage_note": "Expository and founding papers by the originators of unifying programmes. Textbooks are excluded. Pilot set."
+    "coverage_note": "Expository and founding papers by the originators of unifying programmes. Textbooks are excluded. Pilot set. Kept only the 31 items that pass the guiding principles."
   },
   {
     "id": "cartesian-cafe",
@@ -49,7 +39,7 @@
     "format": "Podcast",
     "path": "collections/cartesian-cafe",
     "snapshot_date": "2026-11-21",
-    "coverage_note": "Selected episodes only; not an inventory of the feed."
+    "coverage_note": "Selected episodes only; not an inventory of the feed. Kept only the 3 items that pass the guiding principles."
   },
   {
     "id": "brain-inspired",
@@ -59,7 +49,7 @@
     "format": "Podcast",
     "path": "collections/brain-inspired",
     "snapshot_date": "2026-11-21",
-    "coverage_note": "Selected episodes only; not an inventory of the feed."
+    "coverage_note": "Selected episodes only; not an inventory of the feed. Kept only the 3 items that pass the guiding principles."
   },
   {
     "id": "simons-institute",
@@ -69,7 +59,7 @@
     "format": "Lecture",
     "path": "collections/simons-institute",
     "snapshot_date": "2026-11-21",
-    "coverage_note": "YouTube snapshot: 57 of 287 playlists selected as relevant; all 1,261 talks in them screened from metadata (42 high, 453 medium, 742 skip, 24 insufficient information). Only the high-priority talks are listed. Course-type playlists (e.g. the 2022 Deep Learning Theory summer school) could not be listed and are a known gap; 39 videos were private or deleted."
+    "coverage_note": "YouTube snapshot: 57 of 287 playlists selected as relevant; all 1,261 talks in them screened from metadata (42 high, 453 medium, 742 skip, 24 insufficient information). Only the high-priority talks are listed. Course-type playlists (e.g. the 2022 Deep Learning Theory summer school) could not be listed and are a known gap; 39 videos were private or deleted. Kept only the 42 items that pass the guiding principles."
   },
   {
     "id": "cbmm",
@@ -79,7 +69,7 @@
     "format": "Lecture",
     "path": "collections/cbmm",
     "snapshot_date": "2026-11-21",
-    "coverage_note": "Selected playlists screened from metadata on 2026-11-21: 826 items, 27 high priority before de-duplication; only high-priority items are listed."
+    "coverage_note": "Selected playlists screened from metadata on 2026-11-21: 826 items, 27 high priority before de-duplication; only high-priority items are listed. Kept only the 9 items that pass the guiding principles."
   },
   {
     "id": "college-de-france",
@@ -89,7 +79,7 @@
     "format": "Lecture",
     "path": "collections/college-de-france",
     "snapshot_date": "2026-11-21",
-    "coverage_note": "Selected playlists screened from metadata on 2026-11-21: 295 items, 7 high priority before de-duplication; only high-priority items are listed. Most talks are in French. Full course series are hosted on college-de-france.fr, not YouTube, and are a known gap."
+    "coverage_note": "Selected playlists screened from metadata on 2026-11-21: 295 items, 7 high priority before de-duplication; only high-priority items are listed. Most talks are in French. Full course series are hosted on college-de-france.fr, not YouTube, and are a known gap. Kept only the 4 items that pass the guiding principles."
   },
   {
     "id": "fields",
@@ -99,7 +89,7 @@
     "format": "Lecture",
     "path": "collections/fields",
     "snapshot_date": "2026-11-21",
-    "coverage_note": "Selected playlists screened from metadata on 2026-11-21: 653 items, 14 high priority before de-duplication; only high-priority items are listed."
+    "coverage_note": "Selected playlists screened from metadata on 2026-11-21: 653 items, 14 high priority before de-duplication; only high-priority items are listed. Kept only the 8 items that pass the guiding principles."
   },
   {
     "id": "flatiron",
@@ -109,7 +99,7 @@
     "format": "Lecture",
     "path": "collections/flatiron",
     "snapshot_date": "2026-11-21",
-    "coverage_note": "Selected playlists screened from metadata on 2026-11-21: 206 items, 5 high priority before de-duplication; only high-priority items are listed."
+    "coverage_note": "Selected playlists screened from metadata on 2026-11-21: 206 items, 5 high priority before de-duplication; only high-priority items are listed. Kept only the 2 items that pass the guiding principles."
   },
   {
     "id": "ias",
@@ -119,7 +109,7 @@
     "format": "Lecture",
     "path": "collections/ias",
     "snapshot_date": "2026-11-21",
-    "coverage_note": "Selected playlists screened from metadata on 2026-11-21: 1039 items, 5 high priority before de-duplication; only high-priority items are listed. Most of the archive is pure mathematics. Screening covered talks downloaded by 21 Nov 2026; the remainder is pending."
+    "coverage_note": "Selected playlists screened from metadata on 2026-11-21: 1039 items, 5 high priority before de-duplication; only high-priority items are listed. Most of the archive is pure mathematics. Screening covered talks downloaded by 21 Nov 2026; the remainder is pending. Kept only the 12 items that pass the guiding principles."
   },
   {
     "id": "isaac-newton",
@@ -129,7 +119,7 @@
     "format": "Lecture",
     "path": "collections/isaac-newton",
     "snapshot_date": "2026-11-21",
-    "coverage_note": "Selected playlists screened from metadata on 2026-11-21: 1071 items, 22 high priority before de-duplication; only high-priority items are listed. Covers the main channel and INI Seminar Room 1. Screening covered talks downloaded by 21 Nov 2026; the remainder is pending."
+    "coverage_note": "Selected playlists screened from metadata on 2026-11-21: 1071 items, 22 high priority before de-duplication; only high-priority items are listed. Covers the main channel and INI Seminar Room 1. Screening covered talks downloaded by 21 Nov 2026; the remainder is pending. Kept only the 20 items that pass the guiding principles."
   },
   {
     "id": "ipam",
@@ -139,7 +129,7 @@
     "format": "Lecture",
     "path": "collections/ipam",
     "snapshot_date": "2026-11-21",
-    "coverage_note": "Selected playlists screened from metadata on 2026-11-21: 1161 items, 30 high priority before de-duplication; only high-priority items are listed. Screening covered talks downloaded by 21 Nov 2026; the remainder is pending."
+    "coverage_note": "Selected playlists screened from metadata on 2026-11-21: 1161 items, 30 high priority before de-duplication; only high-priority items are listed. Screening covered talks downloaded by 21 Nov 2026; the remainder is pending. Kept only the 27 items that pass the guiding principles."
   },
   {
     "id": "ictp",
@@ -149,7 +139,7 @@
     "format": "Lecture",
     "path": "collections/ictp",
     "snapshot_date": "2026-11-21",
-    "coverage_note": "Selected playlists screened from metadata on 2026-11-21: 103 items, 5 high priority before de-duplication; only high-priority items are listed. The main ICTP channel holds colloquia and Salam lectures but not its schools and workshops, which are a known gap."
+    "coverage_note": "Selected playlists screened from metadata on 2026-11-21: 103 items, 5 high priority before de-duplication; only high-priority items are listed. The main ICTP channel holds colloquia and Salam lectures but not its schools and workshops, which are a known gap. Kept only the 4 items that pass the guiding principles."
   },
   {
     "id": "sfi",
@@ -159,17 +149,7 @@
     "format": "Lecture",
     "path": "collections/sfi",
     "snapshot_date": "2026-11-21",
-    "coverage_note": "Selected playlists screened from metadata on 2026-11-21: 748 items, 10 high priority before de-duplication; only high-priority items are listed."
-  },
-  {
-    "id": "mindscape",
-    "name": "Sean Carroll's Mindscape",
-    "short_name": "Mindscape",
-    "url": "https://www.youtube.com/@seancarroll",
-    "format": "Podcast",
-    "path": "collections/mindscape",
-    "snapshot_date": "2026-11-21",
-    "coverage_note": "Selected playlists screened from metadata on 2026-11-21: 373 items, 9 high priority before de-duplication; only high-priority items are listed. Full numbered episodes only."
+    "coverage_note": "Selected playlists screened from metadata on 2026-11-21: 748 items, 10 high priority before de-duplication; only high-priority items are listed. Kept only the 8 items that pass the guiding principles."
   },
   {
     "id": "stanford",
@@ -179,7 +159,7 @@
     "format": "Lecture",
     "path": "collections/stanford",
     "snapshot_date": "2026-11-21",
-    "coverage_note": "Selected playlists screened from metadata on 2026-11-21: 1098 items, 11 high priority before de-duplication; only high-priority items are listed. Seminar series only (no full courses). Screening covered talks downloaded by 21 Nov 2026; the remainder is pending."
+    "coverage_note": "Selected playlists screened from metadata on 2026-11-21: 1098 items, 11 high priority before de-duplication; only high-priority items are listed. Seminar series only (no full courses). Screening covered talks downloaded by 21 Nov 2026; the remainder is pending. Kept only the 5 items that pass the guiding principles."
   },
   {
     "id": "conferences",
@@ -189,7 +169,7 @@
     "format": "Lecture",
     "path": "collections/conferences",
     "snapshot_date": "2026-11-21",
-    "coverage_note": "Selected playlists screened from metadata on 2026-11-21: 30 items, 30 high priority before de-duplication; only high-priority items are listed. Invited talks and tutorials from NeurIPS, ICML, ICLR, COLT and Cosyne (2015–2026), checked on official pages with a recording found. Workshop invited talks are a known gap."
+    "coverage_note": "Selected playlists screened from metadata on 2026-11-21: 30 items, 30 high priority before de-duplication; only high-priority items are listed. Invited talks and tutorials from NeurIPS, ICML, ICLR, COLT and Cosyne (2015–2026), checked on official pages with a recording found. Workshop invited talks are a known gap. Kept only the 38 items that pass the guiding principles."
   },
   {
     "id": "originators",
@@ -199,7 +179,7 @@
     "format": "Mixed",
     "path": "collections/originators",
     "snapshot_date": "2026-11-22",
-    "coverage_note": "People-first search: 492 expositions by 185 people across 27 schools of thought on learning and intelligence."
+    "coverage_note": "People-first search: 492 expositions by 185 people across 27 schools of thought on learning and intelligence. Kept only the 185 items that pass the guiding principles."
   },
   {
     "id": "harvard-cmsa",
@@ -209,7 +189,7 @@
     "format": "Lecture",
     "path": "collections/harvard-cmsa",
     "snapshot_date": "2026-11-22",
-    "coverage_note": "Center of Mathematical Sciences and Applications seminars and workshops (ML, mathematics, physics). Talks lacking a downloaded abstract were judged on title and speaker. High-priority items only, screened on the guiding principles (Timelessness, Generative Power, Transfer, Rare Combination, Worldview, Primacy, Density)."
+    "coverage_note": "Center of Mathematical Sciences and Applications seminars and workshops (ML, mathematics, physics). Talks lacking a downloaded abstract were judged on title and speaker. Kept only the 11 items that pass the guiding principles."
   },
   {
     "id": "ihes",
@@ -219,7 +199,7 @@
     "format": "Lecture",
     "path": "collections/ihes",
     "snapshot_date": "2026-11-22",
-    "coverage_note": "Institut des Hautes Études Scientifiques courses and lectures on learning, statistical physics, probability and information. High-priority items only, screened on the guiding principles (Timelessness, Generative Power, Transfer, Rare Combination, Worldview, Primacy, Density)."
+    "coverage_note": "Institut des Hautes Études Scientifiques courses and lectures on learning, statistical physics, probability and information. Kept only the 9 items that pass the guiding principles."
   },
   {
     "id": "kempner",
@@ -229,7 +209,7 @@
     "format": "Lecture",
     "path": "collections/kempner",
     "snapshot_date": "2026-11-22",
-    "coverage_note": "Kempner Institute seminars on natural and artificial intelligence. High-priority items only, screened on the guiding principles (Timelessness, Generative Power, Transfer, Rare Combination, Worldview, Primacy, Density)."
+    "coverage_note": "Kempner Institute seminars on natural and artificial intelligence. Kept only the 3 items that pass the guiding principles."
   },
   {
     "id": "mpi-mis",
@@ -239,7 +219,7 @@
     "format": "Lecture",
     "path": "collections/mpi-mis",
     "snapshot_date": "2026-11-22",
-    "coverage_note": "Max Planck Institute for Mathematics in the Sciences + UCLA seminar, 2020–2026; videos hosted on media.mis.mpg.de. High-priority items only, screened on the guiding principles (Timelessness, Generative Power, Transfer, Rare Combination, Worldview, Primacy, Density)."
+    "coverage_note": "Max Planck Institute for Mathematics in the Sciences + UCLA seminar, 2020–2026; videos hosted on media.mis.mpg.de. Kept only the 8 items that pass the guiding principles."
   },
   {
     "id": "kitp",
@@ -249,6 +229,6 @@
     "format": "Lecture",
     "path": "collections/kitp",
     "snapshot_date": "2026-11-22",
-    "coverage_note": "Kavli Institute for Theoretical Physics programme talks on learning, neural computation and statistical physics; 2001 talks are RealMedia. High-priority items only, screened on the guiding principles (Timelessness, Generative Power, Transfer, Rare Combination, Worldview, Primacy, Density)."
+    "coverage_note": "Kavli Institute for Theoretical Physics programme talks on learning, neural computation and statistical physics; 2001 talks are RealMedia. Kept only the 9 items that pass the guiding principles."
   }
 ]

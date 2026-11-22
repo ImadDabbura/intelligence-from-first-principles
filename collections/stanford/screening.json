@@ -13,37 +13,6 @@
   },
   "episodes": [
     {
-      "id": "eXC8BMMr-DA",
-      "title": "Stanford Seminar - Going beyond the here and now: Counterfactual simulation in human cognition",
-      "url": "https://www.youtube.com/watch?v=eXC8BMMr-DA",
-      "published_at": "2023-04-29",
-      "duration_seconds": 3540,
-      "screening": {
-        "decision": "read_transcript",
-        "priority": "high",
-        "theme": [
-          "counterfactuals",
-          "causal judgment",
-          "intuitive physics"
-        ],
-        "publisher_promise": "Introduces a counterfactual simulation model in which people judge causation by intervening on a generative mental model of the world and simulating the outcome, tested against human judgments of physical and social scenes.",
-        "screening_reason": "The originator of the counterfactual simulation model presents one principle (causal judgment as simulated intervention on a generative world model) that yields quantitative predictions of human causal, explanatory and responsibility judgments; a direct bridge from world models to causal cognition. Rubric: A✓ B✓ C✓ · D 2 · E 2 · F 2.",
-        "transcript_question": "Does the talk derive the counterfactual simulation model formally (what is simulated, how outcomes are compared) and show where it beats rival accounts of causal judgment, or only present fits to experiments?",
-        "caveat": "publisher abstract only; speaker named in description; HCI seminar venue, so depth of modelling is unverified",
-        "speaker": "Tobias Gerstenberg",
-        "modules": [
-          6,
-          9
-        ],
-        "id": "eXC8BMMr-DA",
-        "index": 0,
-        "evidence": [],
-        "workshop": "Stanford CS547 - Human-Computer Interaction Seminar Series"
-      },
-      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
-      "resources": []
-    },
-    {
       "id": "rGz0nagM-TA",
       "title": "Stanford Seminar-Stories from CoCoLab: Probabilistic Programs, Cognative Modeling, & Smart Web Pages",
       "url": "https://www.youtube.com/watch?v=rGz0nagM-TA",
@@ -67,101 +36,23 @@
           5
         ],
         "id": "rGz0nagM-TA",
-        "index": 1,
+        "index": 0,
         "evidence": [],
-        "workshop": "Stanford CS547 - Human-Computer Interaction Seminar Series"
-      },
-      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
-      "resources": []
-    },
-    {
-      "id": "pC4zRb_5noQ",
-      "title": "Stanford CS25: V1 I Transformer Circuits, Induction Heads, In-Context Learning",
-      "url": "https://www.youtube.com/watch?v=pC4zRb_5noQ",
-      "published_at": "2022-07-17",
-      "duration_seconds": 3600,
-      "screening": {
-        "decision": "read_transcript",
-        "priority": "high",
-        "theme": [
-          "mechanistic interpretability",
-          "in-context learning",
-          "induction heads"
-        ],
-        "publisher_promise": "Reverse-engineers transformer language models into circuits and argues that two-head induction circuits account for much of in-context learning.",
-        "screening_reason": "Originator-level account of a concrete mechanism (induction heads) proposed to explain a broad phenomenon (in-context learning), central to how structure becomes executable computation. Rubric: A✓ B✓ C✓ · D 2 · E 2 · F 2.",
-        "transcript_question": "Does the talk show causal evidence (phase change, ablations) that induction heads drive in-context learning generally, or only correlational evidence in small attention-only models?",
-        "caveat": "publisher abstract only; speaker inferred",
-        "speaker": "Anthropic interpretability team (speaker not named; likely Chris Olah)",
-        "modules": [
-          4,
-          3
-        ],
-        "id": "pC4zRb_5noQ",
-        "index": 2,
-        "evidence": [],
-        "workshop": "Stanford CS25 - Transformers United"
-      },
-      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
-      "resources": []
-    },
-    {
-      "id": "CYaju6aCMoQ",
-      "title": "Stanford CS25: V2 I Represent part-whole hierarchies in a neural network, Geoff Hinton",
-      "url": "https://www.youtube.com/watch?v=CYaju6aCMoQ",
-      "published_at": "2022-08-11",
-      "duration_seconds": 3180,
-      "screening": {
-        "decision": "read_transcript",
-        "priority": "high",
-        "theme": [
-          "part-whole hierarchies",
-          "glom",
-          "representation"
-        ],
-        "publisher_promise": "Presents one representational idea, islands of agreeing vectors forming parse-tree nodes, that would let a fixed network parse images into image-specific part-whole hierarchies (GLOM).",
-        "screening_reason": "The originator lays out a single unifying representational principle that combines transformers, contrastive learning, distillation and capsules, squarely on how abstractions emerge. Rubric: A✓ B✓ C✓ · D 2 · E 2 · F 2.",
-        "transcript_question": "Is GLOM argued from a derivation with testable predictions, or presented as an unimplemented design sketch whose claims cannot yet be checked?",
-        "caveat": "publisher abstract only",
-        "speaker": "Geoffrey Hinton",
-        "modules": [
-          3
-        ],
-        "id": "CYaju6aCMoQ",
-        "index": 3,
-        "evidence": [],
-        "workshop": "Stanford CS25 - Transformers United"
-      },
-      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
-      "resources": []
-    },
-    {
-      "id": "dJtHauhRasc",
-      "title": "Stanford CS25: Transformers United V6 I Distinct Modes of Generalization from Parameters and Context",
-      "url": "https://www.youtube.com/watch?v=dJtHauhRasc",
-      "published_at": "2026-05-20",
-      "duration_seconds": 4320,
-      "screening": {
-        "decision": "read_transcript",
-        "priority": "high",
-        "theme": [
-          "in-context learning",
-          "generalization",
-          "parametric vs context"
-        ],
-        "publisher_promise": "Contrasts how language models generalize from information learned in weights versus provided in context, and tests augmentation, retrieval and RL strategies to close the gap.",
-        "screening_reason": "The author of the work names a sharp distinction (generalization from parameters versus context, e.g. reversal and inference failures) that changes how inductive bias in LMs is understood. Rubric: A✓ B✓ C✓ · D 2 · E 2 · F 2.",
-        "transcript_question": "Does the talk explain why the two routes generalize differently (a mechanism), or only document the asymmetry empirically?",
-        "caveat": "publisher abstract only",
-        "speaker": "Andrew Lampinen",
-        "modules": [
-          2,
-          4
-        ],
-        "id": "dJtHauhRasc",
-        "index": 4,
-        "evidence": [],
-        "workshop": "Stanford CS25 - Transformers United"
+        "workshop": "Stanford CS547 - Human-Computer Interaction Seminar Series",
+        "rubric_tiers": {
+          "Timeless": "H",
+          "Generative": "H",
+          "Transfer": "H",
+          "Rare": "H",
+          "Worldview": "H",
+          "Primacy": "H",
+          "Density": "M"
+        },
+        "readiness": [
+          "§30",
+          "§31",
+          "§22"
+        ]
       },
       "notes_scope": "Publisher metadata only; no transcript read in this pass.",
       "resources": []
@@ -190,40 +81,23 @@
           6
         ],
         "id": "D7e7oUbtkFM",
-        "index": 5,
+        "index": 1,
         "evidence": [],
-        "workshop": "Stanford AA289/ENGR319 - Robotics and Autonomous Systems Seminar"
-      },
-      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
-      "resources": []
-    },
-    {
-      "id": "ZD2cL-QoI5g",
-      "title": "Stanford Seminar - A Picture of the Prediction Space of Deep Networks",
-      "url": "https://www.youtube.com/watch?v=ZD2cL-QoI5g",
-      "published_at": "2023-06-02",
-      "duration_seconds": 3240,
-      "screening": {
-        "decision": "read_transcript",
-        "priority": "high",
-        "theme": [
-          "generalization",
-          "sloppy spectra",
-          "task space geometry"
-        ],
-        "publisher_promise": "Argues deep networks generalize and train tractably because typical tasks have a characteristic, low-dimensional structure in their input correlations, and pictures the prediction space of trained networks.",
-        "screening_reason": "Originator-led unifying claim that data structure, not parameter count, explains both generalization and trainability, with a specified mechanism. Rubric: A✓ B✓ C✓ · D 2 · E 2 · F 2.",
-        "transcript_question": "Does the talk derive generalization bounds or trajectory predictions from the sloppy input-correlation spectrum, and how does it test that training trajectories lie on a low-dimensional manifold?",
-        "caveat": "publisher abstract only; speaker from description",
-        "speaker": "Pratik Chaudhari",
-        "modules": [
-          2,
-          3
-        ],
-        "id": "ZD2cL-QoI5g",
-        "index": 6,
-        "evidence": [],
-        "workshop": "Stanford AA289/ENGR319 - Robotics and Autonomous Systems Seminar"
+        "workshop": "Stanford AA289/ENGR319 - Robotics and Autonomous Systems Seminar",
+        "rubric_tiers": {
+          "Timeless": "M",
+          "Generative": "H",
+          "Transfer": "M",
+          "Rare": "M",
+          "Worldview": "H",
+          "Primacy": "H",
+          "Density": "M"
+        },
+        "readiness": [
+          "§49",
+          "§18",
+          "§12"
+        ]
       },
       "notes_scope": "Publisher metadata only; no transcript read in this pass.",
       "resources": []
@@ -253,9 +127,23 @@
           9
         ],
         "id": "iHirjErBrU0",
-        "index": 7,
+        "index": 2,
         "evidence": [],
-        "workshop": "Stanford EE380-Colloquium on Computer Systems - Seminar Series"
+        "workshop": "Stanford EE380-Colloquium on Computer Systems - Seminar Series",
+        "rubric_tiers": {
+          "Timeless": "M",
+          "Generative": "H",
+          "Transfer": "M",
+          "Rare": "H",
+          "Worldview": "H",
+          "Primacy": "H",
+          "Density": "M"
+        },
+        "readiness": [
+          "§6",
+          "§29",
+          "§16"
+        ]
       },
       "notes_scope": "Publisher metadata only; no transcript read in this pass.",
       "resources": []
@@ -285,9 +173,22 @@
           9
         ],
         "id": "zUCoxhExe0o",
-        "index": 8,
+        "index": 3,
         "evidence": [],
-        "workshop": "Stanford EE380-Colloquium on Computer Systems - Seminar Series"
+        "workshop": "Stanford EE380-Colloquium on Computer Systems - Seminar Series",
+        "rubric_tiers": {
+          "Timeless": "H",
+          "Generative": "M",
+          "Transfer": "H",
+          "Rare": "H",
+          "Worldview": "H",
+          "Primacy": "H",
+          "Density": "M"
+        },
+        "readiness": [
+          "§6",
+          "§2"
+        ]
       },
       "notes_scope": "Publisher metadata only; no transcript read in this pass.",
       "resources": []
@@ -316,78 +217,24 @@
           9
         ],
         "id": "VIRCybGgHts",
-        "index": 9,
+        "index": 4,
         "evidence": [],
-        "workshop": "Stanford EE380-Colloquium on Computer Systems - Seminar Series"
+        "workshop": "Stanford EE380-Colloquium on Computer Systems - Seminar Series",
+        "rubric_tiers": {
+          "Timeless": "H",
+          "Generative": "M",
+          "Transfer": "H",
+          "Rare": "H",
+          "Worldview": "H",
+          "Primacy": "H",
+          "Density": "M"
+        },
+        "readiness": [
+          "§16",
+          "§8"
+        ]
       },
       "notes_scope": "Publisher metadata only; no transcript read in this pass.",
-      "resources": []
-    },
-    {
-      "id": "HfkcXxC-JUs",
-      "title": "Stanford Seminar - Towards Safe and Efficient Learning in the Physical World",
-      "url": "https://www.youtube.com/watch?v=HfkcXxC-JUs",
-      "published_at": "2024-04-19",
-      "duration_seconds": 2700,
-      "screening": {
-        "id": "HfkcXxC-JUs",
-        "index": 10,
-        "decision": "read_transcript",
-        "priority": "high",
-        "track": "maths",
-        "pillars": [
-          "§30",
-          "§8",
-          "§18"
-        ],
-        "theme": [
-          "maths track",
-          "§30",
-          "§8"
-        ],
-        "publisher_promise": "",
-        "screening_reason": "Krause surveys uncertainty-driven optimization and learning with explicit safety and convergence guarantees, teaching a framework he helped develop. (Maths track: architect-taught exposition of a Compass pillar.)",
-        "evidence": [],
-        "transcript_question": "How does epistemic uncertainty support safe exploration and convergence to reachable optima?",
-        "caveat": "The supplied metadata does not verify complete derivations or prerequisite level.",
-        "speaker": "Andreas Krause",
-        "modules": [],
-        "workshop": "Stanford AA289/ENGR319 - Robotics and Autonomous Systems Seminar"
-      },
-      "notes_scope": "Publisher metadata only; screened on the maths track by Codex; no transcript read.",
-      "resources": []
-    },
-    {
-      "id": "XihAwlYdBuM",
-      "title": "Stanford Seminar - Model Predictive Control of Hybrid Dynamical Systems",
-      "url": "https://www.youtube.com/watch?v=XihAwlYdBuM",
-      "published_at": "2019-11-15",
-      "duration_seconds": 3600,
-      "screening": {
-        "id": "XihAwlYdBuM",
-        "index": 11,
-        "decision": "read_transcript",
-        "priority": "high",
-        "track": "maths",
-        "pillars": [
-          "§49",
-          "§8b"
-        ],
-        "theme": [
-          "maths track",
-          "§49",
-          "§8b"
-        ],
-        "publisher_promise": "",
-        "screening_reason": "A leading hybrid-systems architect explicitly introduces analysis and design tools for predictive control of continuous and jumping dynamics. (Maths track: architect-taught exposition of a Compass pillar.)",
-        "evidence": [],
-        "transcript_question": "What conditions make predictive control of hybrid systems stable and robust?",
-        "caveat": "The supplied metadata does not verify complete derivations or prerequisite level.",
-        "speaker": "Ricardo Sanfelice",
-        "modules": [],
-        "workshop": "Stanford AA289/ENGR319 - Robotics and Autonomous Systems Seminar"
-      },
-      "notes_scope": "Publisher metadata only; screened on the maths track by Codex; no transcript read.",
       "resources": []
     }
   ]

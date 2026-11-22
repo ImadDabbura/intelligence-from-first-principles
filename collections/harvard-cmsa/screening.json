@@ -37,7 +37,21 @@
         "caveat": "publisher abstract only; speaker from title or description",
         "speaker": "Dmitry Krotov",
         "modules": [],
-        "workshop": "Geometry of Machine Learning 2026"
+        "workshop": "Geometry of Machine Learning 2026",
+        "rubric_tiers": {
+          "Timeless": "H",
+          "Generative": "H",
+          "Transfer": "H",
+          "Rare": "H",
+          "Worldview": "H",
+          "Primacy": "H",
+          "Density": "H"
+        },
+        "readiness": [
+          "§33",
+          "§16",
+          "§8"
+        ]
       },
       "notes_scope": "Publisher metadata only; screened on the guiding principles; no transcript read.",
       "resources": []
@@ -67,7 +81,21 @@
         "caveat": "no description beyond title and speaker line; judged from title, speaker and workshop",
         "speaker": "Surya Ganguli",
         "modules": [],
-        "workshop": "Geometry of Machine Learning 2026"
+        "workshop": "Geometry of Machine Learning 2026",
+        "rubric_tiers": {
+          "Timeless": "H",
+          "Generative": "H",
+          "Transfer": "H",
+          "Rare": "H",
+          "Worldview": "M",
+          "Primacy": "H",
+          "Density": "M"
+        },
+        "readiness": [
+          "§33",
+          "§6",
+          "§28"
+        ]
       },
       "notes_scope": "Publisher metadata only; screened on the guiding principles; no transcript read.",
       "resources": []
@@ -96,7 +124,22 @@
         "caveat": "publisher abstract only; speaker from title or description",
         "speaker": "Charles Fefferman",
         "modules": [],
-        "workshop": "Conference on Geometry and Statistics"
+        "workshop": "Conference on Geometry and Statistics",
+        "rubric_tiers": {
+          "Timeless": "H",
+          "Generative": "H",
+          "Transfer": "M",
+          "Rare": "H",
+          "Worldview": "M",
+          "Primacy": "H",
+          "Density": "H"
+        },
+        "readiness": [
+          "§3",
+          "§4",
+          "§12",
+          "§28"
+        ]
       },
       "notes_scope": "Publisher metadata only; screened on the guiding principles; no transcript read.",
       "resources": []
@@ -126,7 +169,22 @@
         "caveat": "publisher abstract only; speaker from title or description",
         "speaker": "Alexander Rakhlin",
         "modules": [],
-        "workshop": "Workshop on Mathematical foundations of AI"
+        "workshop": "Workshop on Mathematical foundations of AI",
+        "rubric_tiers": {
+          "Timeless": "H",
+          "Generative": "H",
+          "Transfer": "H",
+          "Rare": "M",
+          "Worldview": "H",
+          "Primacy": "H",
+          "Density": "H"
+        },
+        "readiness": [
+          "§12",
+          "§13",
+          "§18",
+          "§10"
+        ]
       },
       "notes_scope": "Publisher metadata only; screened on the guiding principles; no transcript read.",
       "resources": []
@@ -156,7 +214,21 @@
         "caveat": "publisher abstract only; speaker from title or description",
         "speaker": "Mark Sellke",
         "modules": [],
-        "workshop": "Big Data Conference 2023"
+        "workshop": "Big Data Conference 2023",
+        "rubric_tiers": {
+          "Timeless": "H",
+          "Generative": "H",
+          "Transfer": "M",
+          "Rare": "H",
+          "Worldview": "M",
+          "Primacy": "H",
+          "Density": "H"
+        },
+        "readiness": [
+          "§33",
+          "§6",
+          "§8"
+        ]
       },
       "notes_scope": "Publisher metadata only; screened on the guiding principles; no transcript read.",
       "resources": []
@@ -186,7 +258,20 @@
         "caveat": "publisher abstract only; speaker from title or description",
         "speaker": "Bernd Sturmfels",
         "modules": [],
-        "workshop": "Combinatorics, Physics and Probability Seminar"
+        "workshop": "Combinatorics, Physics and Probability Seminar",
+        "rubric_tiers": {
+          "Timeless": "H",
+          "Generative": "H",
+          "Transfer": "H",
+          "Rare": "H",
+          "Worldview": "H",
+          "Primacy": "H",
+          "Density": "M"
+        },
+        "readiness": [
+          "§10",
+          "§2"
+        ]
       },
       "notes_scope": "Publisher metadata only; screened on the guiding principles; no transcript read.",
       "resources": []
@@ -216,7 +301,20 @@
         "caveat": "publisher abstract only; speaker from title or description",
         "speaker": "Alex Damian",
         "modules": [],
-        "workshop": "New Technologies in Mathematics Seminars"
+        "workshop": "New Technologies in Mathematics Seminars",
+        "rubric_tiers": {
+          "Timeless": "M",
+          "Generative": "H",
+          "Transfer": "M",
+          "Rare": "M",
+          "Worldview": "H",
+          "Primacy": "H",
+          "Density": "H"
+        },
+        "readiness": [
+          "§8",
+          "§1c"
+        ]
       },
       "notes_scope": "Publisher metadata only; screened on the guiding principles; no transcript read.",
       "resources": []
@@ -249,7 +347,20 @@
         "caveat": "Description missing; judged from title, speaker and workshop only.",
         "speaker": "Cyril Zhang",
         "modules": [],
-        "workshop": "New Technologies in Mathematics Seminars"
+        "workshop": "New Technologies in Mathematics Seminars",
+        "rubric_tiers": {
+          "Timeless": "M",
+          "Generative": "H",
+          "Transfer": "H",
+          "Rare": "H",
+          "Worldview": "H",
+          "Primacy": "H",
+          "Density": "M"
+        },
+        "readiness": [
+          "§14b",
+          "§12b"
+        ]
       },
       "notes_scope": "Publisher metadata only; screened on the guiding principles; no transcript read.",
       "resources": []
@@ -282,7 +393,19 @@
         "caveat": "Description missing; judged from title, speaker and workshop only.",
         "speaker": "David McAllester",
         "modules": [],
-        "workshop": "New Technologies in Mathematics Seminars"
+        "workshop": "New Technologies in Mathematics Seminars",
+        "rubric_tiers": {
+          "Timeless": "H",
+          "Generative": "M",
+          "Transfer": "H",
+          "Rare": "H",
+          "Worldview": "H",
+          "Primacy": "H",
+          "Density": "M"
+        },
+        "readiness": [
+          "§1"
+        ]
       },
       "notes_scope": "Publisher metadata only; screened on the guiding principles; no transcript read.",
       "resources": []
@@ -315,7 +438,21 @@
         "caveat": "Description missing; judged from title, speaker and workshop only.",
         "speaker": "Andrea Montanari",
         "modules": [],
-        "workshop": "New Technologies in Mathematics Seminars"
+        "workshop": "New Technologies in Mathematics Seminars",
+        "rubric_tiers": {
+          "Timeless": "H",
+          "Generative": "H",
+          "Transfer": "H",
+          "Rare": "M",
+          "Worldview": "H",
+          "Primacy": "H",
+          "Density": "H"
+        },
+        "readiness": [
+          "§12",
+          "§6",
+          "§29"
+        ]
       },
       "notes_scope": "Publisher metadata only; screened on the guiding principles; no transcript read.",
       "resources": []
@@ -347,40 +484,21 @@
         "caveat": "Description missing; judged from title, speaker and workshop only.",
         "speaker": "David Gamarnik",
         "modules": [],
-        "workshop": "Big Data Conference 2019"
-      },
-      "notes_scope": "Publisher metadata only; screened on the guiding principles; no transcript read.",
-      "resources": []
-    },
-    {
-      "id": "ij4HszKOzwo",
-      "title": "Information in the Weights and Emergent Properties of Deep Neural Networks, Part I",
-      "url": "https://www.youtube.com/watch?v=ij4HszKOzwo",
-      "published_at": null,
-      "duration_seconds": 2580,
-      "screening": {
-        "id": "ij4HszKOzwo",
-        "index": 11,
-        "decision": "read_transcript",
-        "priority": "high",
-        "track": "main",
-        "pillars": [
-          "information theory of learning",
-          "learning theory"
-        ],
-        "theme": [
-          "information in weights",
-          "invariance",
-          "PAC-Bayes"
-        ],
-        "publisher_promise": "Part I of a lecture on how much information network weights hold about the training data and what properties follow.",
-        "screening_reason": "Likely the Achille-Soatto theory linking weight information, Fisher information, PAC-Bayes and emergent invariance; an information-theoretic foundation with wide transfer. Rubrics: Timeless H · Generative H · Transfer H · Rare H · Worldview H · Primacy M · Density M",
-        "evidence": [],
-        "transcript_question": "How is information in the weights defined, and how does it imply invariance and disentanglement of representations?",
-        "caveat": "Description missing; judged from title, speaker and workshop only.",
-        "speaker": "unknown",
-        "modules": [],
-        "workshop": "Workshop on Invariance and Geometry in Sensation, Action and Cognition"
+        "workshop": "Big Data Conference 2019",
+        "rubric_tiers": {
+          "Timeless": "H",
+          "Generative": "H",
+          "Transfer": "H",
+          "Rare": "H",
+          "Worldview": "H",
+          "Primacy": "H",
+          "Density": "H"
+        },
+        "readiness": [
+          "§33",
+          "§6",
+          "§12b"
+        ]
       },
       "notes_scope": "Publisher metadata only; screened on the guiding principles; no transcript read.",
       "resources": []

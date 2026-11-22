@@ -35,7 +35,21 @@
         "caveat": "Publisher abstract only; overlaps in theme with existing Murfet SLT items, so check the transcript for non-redundant material. Video file: https://media.mis.mpg.de/mml/2023-10-19/20231019_Daniel_Murfet_1080.mp4.",
         "speaker": "Daniel Murfet",
         "modules": [],
-        "workshop": ""
+        "workshop": "",
+        "rubric_tiers": {
+          "Timeless": "H",
+          "Generative": "H",
+          "Transfer": "H",
+          "Rare": "H",
+          "Worldview": "H",
+          "Primacy": "H",
+          "Density": "M"
+        },
+        "readiness": [
+          "§28",
+          "§30",
+          "§12"
+        ]
       },
       "notes_scope": "Venue page and recording verified; no transcript read.",
       "resources": []
@@ -63,7 +77,21 @@
         "caveat": "Event page verified (HTTP 200), but both media.mis.mpg.de video files (1080p and 720p) returned HTTP 403 on 2026-11-22, so duration is unknown and the recording may be withdrawn; publisher abstract only. Video file listed: https://media.mis.mpg.de/mml/2020-06-18/20200618_Alessandro_Achille_1080.mp4.",
         "speaker": "Alessandro Achille",
         "modules": [],
-        "workshop": ""
+        "workshop": "",
+        "rubric_tiers": {
+          "Timeless": "H",
+          "Generative": "H",
+          "Transfer": "H",
+          "Rare": "H",
+          "Worldview": "H",
+          "Primacy": "H",
+          "Density": "M"
+        },
+        "readiness": [
+          "§9",
+          "§12",
+          "§28"
+        ]
       },
       "notes_scope": "Venue page and recording verified; no transcript read.",
       "resources": []
@@ -91,7 +119,21 @@
         "caveat": "Publisher abstract only; depth of derivation vs taxonomy is unverified. Video file: https://media.mis.mpg.de/mml/2022-02-24/20220224_Danijar_Hafner_1080.mp4.",
         "speaker": "Danijar Hafner",
         "modules": [],
-        "workshop": ""
+        "workshop": "",
+        "rubric_tiers": {
+          "Timeless": "M",
+          "Generative": "H",
+          "Transfer": "H",
+          "Rare": "M",
+          "Worldview": "H",
+          "Primacy": "H",
+          "Density": "M"
+        },
+        "readiness": [
+          "§9",
+          "§37",
+          "§18"
+        ]
       },
       "notes_scope": "Venue page and recording verified; no transcript read.",
       "resources": []
@@ -119,35 +161,21 @@
         "caveat": "Publisher abstract only; talk predates the book's final form (2020), so the material may be preliminary. Video file: https://media.mis.mpg.de/mml/2020-10-22/20201022_Boris_Hanin_1080.mp4.",
         "speaker": "Boris Hanin",
         "modules": [],
-        "workshop": ""
-      },
-      "notes_scope": "Venue page and recording verified; no transcript read.",
-      "resources": []
-    },
-    {
-      "id": "mpimis-2026-02-05-bordelon",
-      "title": "Theory of Stable Scaling in Deep Learning Systems: Infinite Limits, Hyperparameter Transfer, and Scaling Laws",
-      "url": "https://www.mis.mpg.de/events/event/theory-of-stable-scaling-in-deep-learning-systems-infinite-limits-hyperparameter-transfer-and-scaling-laws",
-      "published_at": "2026-02-05",
-      "duration_seconds": 3085,
-      "screening": {
-        "id": "mpimis-2026-02-05-bordelon",
-        "index": 4,
-        "decision": "read_transcript",
-        "priority": "high",
-        "track": "main",
-        "pillars": [],
-        "theme": [
-          "Stable scaling limits, hyperparameter transfer and scaling laws"
-        ],
-        "publisher_promise": "Surveys theoretical work that derives stable ways to scale width, depth and training time by finding well-defined infinite limits, which then explain hyperparameter transfer and give models of compute-optimal scaling laws.",
-        "screening_reason": "A primary architect of the dynamical-mean-field account of feature-learning limits; one principle (choose parametrisations with non-trivial stable infinite limits) yields muP-style transfer and scaling-law predictions. Rubric: A✓ B✓ C✓ · D 2 · E 2 · F 1.",
-        "evidence": [],
-        "transcript_question": "What makes a scaling limit 'stable', and how does the talk derive hyperparameter transfer and a scaling-law exponent from that limit?",
-        "caveat": "Publisher abstract only; only a 720p file is listed. Video file: https://media.mis.mpg.de/mml/2026-02-05/20260205_Blake-Bordelon_720.mp4.",
-        "speaker": "Blake Bordelon",
-        "modules": [],
-        "workshop": ""
+        "workshop": "",
+        "rubric_tiers": {
+          "Timeless": "H",
+          "Generative": "H",
+          "Transfer": "H",
+          "Rare": "H",
+          "Worldview": "M",
+          "Primacy": "H",
+          "Density": "M"
+        },
+        "readiness": [
+          "§33",
+          "§4",
+          "§12"
+        ]
       },
       "notes_scope": "Venue page and recording verified; no transcript read.",
       "resources": []
@@ -160,7 +188,7 @@
       "duration_seconds": 5064,
       "screening": {
         "id": "mpimis-2021-01-28-gunasekar",
-        "index": 5,
+        "index": 4,
         "decision": "read_transcript",
         "priority": "high",
         "track": "maths",
@@ -177,7 +205,21 @@
         "caveat": "Publisher abstract only; an 84-minute seminar, likely survey-plus-results rather than a formal tutorial. Video file: https://media.mis.mpg.de/mml/2021-01-28/20210128_Suriya_Gunasekar_1080.mp4.",
         "speaker": "Suriya Gunasekar",
         "modules": [],
-        "workshop": ""
+        "workshop": "",
+        "rubric_tiers": {
+          "Timeless": "H",
+          "Generative": "H",
+          "Transfer": "M",
+          "Rare": "M",
+          "Worldview": "H",
+          "Primacy": "H",
+          "Density": "M"
+        },
+        "readiness": [
+          "§8",
+          "§12",
+          "§7"
+        ]
       },
       "notes_scope": "Venue page and recording verified; no transcript read.",
       "resources": []
@@ -190,7 +232,7 @@
       "duration_seconds": 2834,
       "screening": {
         "id": "mpimis-2024-03-14-paquette",
-        "index": 6,
+        "index": 5,
         "decision": "read_transcript",
         "priority": "high",
         "track": "maths",
@@ -207,7 +249,21 @@
         "caveat": "Publisher abstract only; a research seminar, so expository depth is unverified (a Nov 2023 slot with the same title has no video). Video file: https://media.mis.mpg.de/mml/2024-03-14/20240314_Courtney-Paquette_720.mp4.",
         "speaker": "Courtney Paquette",
         "modules": [],
-        "workshop": ""
+        "workshop": "",
+        "rubric_tiers": {
+          "Timeless": "H",
+          "Generative": "H",
+          "Transfer": "M",
+          "Rare": "H",
+          "Worldview": "M",
+          "Primacy": "H",
+          "Density": "H"
+        },
+        "readiness": [
+          "§6",
+          "§29",
+          "§8"
+        ]
       },
       "notes_scope": "Venue page and recording verified; no transcript read.",
       "resources": []
@@ -220,7 +276,7 @@
       "duration_seconds": 3018,
       "screening": {
         "id": "mpimis-2023-09-07-parhi",
-        "index": 7,
+        "index": 6,
         "decision": "read_transcript",
         "priority": "high",
         "track": "maths",
@@ -237,37 +293,21 @@
         "caveat": "Publisher abstract only. Video file: https://media.mis.mpg.de/mml/2023-09-07/20230907_Rahul_Parhi_1080.mp4.",
         "speaker": "Rahul Parhi",
         "modules": [],
-        "workshop": ""
-      },
-      "notes_scope": "Venue page and recording verified; no transcript read.",
-      "resources": []
-    },
-    {
-      "id": "mpimis-2023-07-20-sitan-chen",
-      "title": "Theory for Diffusion Models",
-      "url": "https://www.mis.mpg.de/events/event/theory-for-diffusion-models",
-      "published_at": "2023-07-20",
-      "duration_seconds": 3328,
-      "screening": {
-        "id": "mpimis-2023-07-20-sitan-chen",
-        "index": 8,
-        "decision": "read_transcript",
-        "priority": "high",
-        "track": "maths",
-        "pillars": [
-          "§48 Flow & Diffusion; §32 Sampling"
-        ],
-        "theme": [
-          "§48 Flow & Diffusion; §32 Sampling"
-        ],
-        "publisher_promise": "Covers rigorous convergence guarantees for score-based diffusion models, sampling from essentially arbitrary (non-log-concave) data distributions given a score oracle, extends them to probability-flow ODE samplers, and touches on learning the score for Gaussian mixtures.",
-        "screening_reason": "Co-originator of the polynomial-time convergence theory for diffusion models (Chen, Chewi, Li, Li, Salim, Zhang); a theory overview that maps to Synthesis/Structural Support pillars. Rubric: A✓ B✓ C✓ · D 1 · E 2 · F 1.",
-        "evidence": [],
-        "transcript_question": "Why does an L2-accurate score suffice for diffusion sampling without log-concavity (Girsanov or change-of-measure argument), and what does the ODE sampler gain in dimension dependence?",
-        "caveat": "Publisher abstract only; a research-results talk, so expository depth is assumed rather than confirmed. Video file: https://media.mis.mpg.de/mml/2023-07-20/20230720_Sitan_Chen_1080.mp4.",
-        "speaker": "Sitan Chen",
-        "modules": [],
-        "workshop": ""
+        "workshop": "",
+        "rubric_tiers": {
+          "Timeless": "H",
+          "Generative": "H",
+          "Transfer": "H",
+          "Rare": "H",
+          "Worldview": "H",
+          "Primacy": "H",
+          "Density": "H"
+        },
+        "readiness": [
+          "§14",
+          "§15",
+          "§12"
+        ]
       },
       "notes_scope": "Venue page and recording verified; no transcript read.",
       "resources": []
@@ -280,7 +320,7 @@
       "duration_seconds": 4745,
       "screening": {
         "id": "mpimis-2020-05-07-kohn",
-        "index": 9,
+        "index": 7,
         "decision": "read_transcript",
         "priority": "high",
         "track": "maths",
@@ -297,7 +337,20 @@
         "caveat": "Publisher abstract only; leans on algebraic geometry, which is a Pull-level area for the owner. Video file: https://media.mis.mpg.de/mml/2020-05-07/20200507_Kathlen_Kohn_1080.mp4.",
         "speaker": "Kathlén Kohn",
         "modules": [],
-        "workshop": ""
+        "workshop": "",
+        "rubric_tiers": {
+          "Timeless": "H",
+          "Generative": "H",
+          "Transfer": "M",
+          "Rare": "H",
+          "Worldview": "H",
+          "Primacy": "H",
+          "Density": "M"
+        },
+        "readiness": [
+          "§28",
+          "§8"
+        ]
       },
       "notes_scope": "Venue page and recording verified; no transcript read.",
       "resources": []

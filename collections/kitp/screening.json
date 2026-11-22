@@ -35,7 +35,20 @@
         "caveat": "No abstract; recording is RealMedia audio/webcam only (/download/neuro01/tishby.rm, HTTP 200) plus a slide deck; no MP4 and no transcript, so it may need conversion before review.",
         "speaker": "Naftali Tishby",
         "modules": [],
-        "workshop": ""
+        "workshop": "",
+        "rubric_tiers": {
+          "Timeless": "H",
+          "Generative": "H",
+          "Transfer": "H",
+          "Rare": "H",
+          "Worldview": "H",
+          "Primacy": "H",
+          "Density": "M"
+        },
+        "readiness": [
+          "§9",
+          "§10"
+        ]
       },
       "notes_scope": "Venue page and recording verified; no transcript read.",
       "resources": []
@@ -63,7 +76,21 @@
         "caveat": "RealMedia audio/webcam only (/download/neuro01/nemenman.rm, HTTP 200) plus a slides PDF; no MP4 or transcript. Nemenman presenting, not Bialek.",
         "speaker": "Ilya Nemenman",
         "modules": [],
-        "workshop": ""
+        "workshop": "",
+        "rubric_tiers": {
+          "Timeless": "H",
+          "Generative": "H",
+          "Transfer": "H",
+          "Rare": "H",
+          "Worldview": "H",
+          "Primacy": "H",
+          "Density": "M"
+        },
+        "readiness": [
+          "§9",
+          "§12",
+          "§10"
+        ]
       },
       "notes_scope": "Venue page and recording verified; no transcript read.",
       "resources": []
@@ -91,7 +118,19 @@
         "caveat": "No abstract; the title may signal a speculative talk rather than a derivation. MP4 verified at kitpcloud/brain04/Bell_Brain04_KITP.mp4.",
         "speaker": "Tony Bell",
         "modules": [],
-        "workshop": ""
+        "workshop": "",
+        "rubric_tiers": {
+          "Timeless": "H",
+          "Generative": "M",
+          "Transfer": "H",
+          "Rare": "H",
+          "Worldview": "H",
+          "Primacy": "H",
+          "Density": "M"
+        },
+        "readiness": [
+          "§9"
+        ]
       },
       "notes_scope": "Venue page and recording verified; no transcript read.",
       "resources": []
@@ -119,7 +158,21 @@
         "caveat": "Title only; may be a retrospective rather than new derivations. MP4 verified (Solla_Deeplearning23_KITP.mp4); the CC transcript is not checked.",
         "speaker": "Sara Solla",
         "modules": [],
-        "workshop": ""
+        "workshop": "",
+        "rubric_tiers": {
+          "Timeless": "H",
+          "Generative": "H",
+          "Transfer": "H",
+          "Rare": "H",
+          "Worldview": "H",
+          "Primacy": "H",
+          "Density": "H"
+        },
+        "readiness": [
+          "§33",
+          "§30",
+          "§12"
+        ]
       },
       "notes_scope": "Venue page and recording verified; no transcript read.",
       "resources": []
@@ -147,7 +200,21 @@
         "caveat": "No abstract; it may overlap the existing Saxe linear-case talk. MP4 verified; KITP lists a transcript.txt.",
         "speaker": "Andrew Saxe",
         "modules": [],
-        "workshop": ""
+        "workshop": "",
+        "rubric_tiers": {
+          "Timeless": "H",
+          "Generative": "H",
+          "Transfer": "H",
+          "Rare": "H",
+          "Worldview": "H",
+          "Primacy": "H",
+          "Density": "M"
+        },
+        "readiness": [
+          "§2",
+          "§1c",
+          "§8"
+        ]
       },
       "notes_scope": "Venue page and recording verified; no transcript read.",
       "resources": []
@@ -175,7 +242,20 @@
         "caveat": "No abstract; a 50-minute research talk. MP4 verified; the CC transcript is not checked.",
         "speaker": "Ard Louis",
         "modules": [],
-        "workshop": ""
+        "workshop": "",
+        "rubric_tiers": {
+          "Timeless": "H",
+          "Generative": "H",
+          "Transfer": "H",
+          "Rare": "H",
+          "Worldview": "H",
+          "Primacy": "H",
+          "Density": "H"
+        },
+        "readiness": [
+          "§12",
+          "§9"
+        ]
       },
       "notes_scope": "Venue page and recording verified; no transcript read.",
       "resources": []
@@ -203,67 +283,21 @@
         "caveat": "Applied to hearing; it may overlap his existing Natural Scene Statistics Pt 1-2 lectures. MP4 and slides verified.",
         "speaker": "Bruno Olshausen",
         "modules": [],
-        "workshop": ""
-      },
-      "notes_scope": "Venue page and recording verified; no transcript read.",
-      "resources": []
-    },
-    {
-      "id": "kitp-machine-c19-montanari",
-      "title": "Mean Field Concepts in Machine Learning",
-      "url": "https://online.kitp.ucsb.edu/online/machine-c19/montanari/",
-      "published_at": "2019-02-11",
-      "duration_seconds": 3694,
-      "screening": {
-        "id": "kitp-machine-c19-montanari",
-        "index": 7,
-        "decision": "read_transcript",
-        "priority": "high",
-        "track": "maths",
-        "pillars": [
-          "§33 Stat Physics; §6 High-Dim Probability; §8 Non-Convex Opt"
-        ],
-        "theme": [
-          "§33 Stat Physics; §6 High-Dim Probability; §8 Non-Convex Opt"
-        ],
-        "publisher_promise": "The opening talk of the conference surveys mean-field ideas in machine learning (no abstract).",
-        "screening_reason": "A leading architect of mean-field methods in high-dimensional statistics gives a broad survey talk rather than a single-result seminar. It should cover the toolkit (mean-field/Wasserstein dynamics of two-layer nets, AMP-style limits) from one vantage point. Rubric: A✓ B✓ C✓ · D 1 · E 2 · F 1.",
-        "evidence": [],
-        "transcript_question": "What exactly is the \"mean field\" limit in each setting he covers (distributional dynamics of two-layer nets versus high-dimensional asymptotics), and why does it become tractable?",
-        "caveat": "No abstract; it may overlap the \"Mean Field Descriptions of Two Layers\" talk already in the collection. MP4 verified.",
-        "speaker": "Andrea Montanari",
-        "modules": [],
-        "workshop": ""
-      },
-      "notes_scope": "Venue page and recording verified; no transcript read.",
-      "resources": []
-    },
-    {
-      "id": "kitp-memform-c18-zdeborova",
-      "title": "Statistical physics of learning a rule: Decades old story continued",
-      "url": "https://online.kitp.ucsb.edu/online/memform-c18/zdeborova/",
-      "published_at": "2018-02-15",
-      "duration_seconds": 3063,
-      "screening": {
-        "id": "kitp-memform-c18-zdeborova",
-        "index": 8,
-        "decision": "read_transcript",
-        "priority": "high",
-        "track": "maths",
-        "pillars": [
-          "§33 Stat Physics; §12 Learning Theory; §31 Prob Inference"
-        ],
-        "theme": [
-          "§33 Stat Physics; §12 Learning Theory; §31 Prob Inference"
-        ],
-        "publisher_promise": "Revisits the teacher-student statistical physics of learning a rule and its modern rigorous continuation (no abstract).",
-        "screening_reason": "An architect of the modern teacher-student theory retells the Gardner-era story and its rigorous revival with slides, so it is expository and historical by design. It is a good entry point to replica and AMP learning curves for §33/§12. Rubric: A✓ B✓ C✓ · D 1 · E 2 · F 1.",
-        "evidence": [],
-        "transcript_question": "How do Bayes-optimal learning curves and algorithmic thresholds for the perceptron/GLM arise from the replica/AMP analysis?",
-        "caveat": "Given at a memory-formation conference, so it may be pitched to non-specialists; it overlaps her later lectures already in the collection. MP4 and slides verified.",
-        "speaker": "Lenka Zdeborová",
-        "modules": [],
-        "workshop": ""
+        "workshop": "",
+        "rubric_tiers": {
+          "Timeless": "H",
+          "Generative": "H",
+          "Transfer": "H",
+          "Rare": "H",
+          "Worldview": "H",
+          "Primacy": "H",
+          "Density": "M"
+        },
+        "readiness": [
+          "§9",
+          "§15",
+          "§30"
+        ]
       },
       "notes_scope": "Venue page and recording verified; no transcript read.",
       "resources": []
@@ -276,7 +310,7 @@
       "duration_seconds": 3466,
       "screening": {
         "id": "kitp-bblunch-mezard1",
-        "index": 9,
+        "index": 7,
         "decision": "read_transcript",
         "priority": "high",
         "track": "maths",
@@ -293,7 +327,21 @@
         "caveat": "Blackboard lunch talks are informal and pitched to a general KITP audience. MP4 verified (Mezard1_BBLunch_KITP.mp4).",
         "speaker": "Marc Mézard",
         "modules": [],
-        "workshop": ""
+        "workshop": "",
+        "rubric_tiers": {
+          "Timeless": "H",
+          "Generative": "H",
+          "Transfer": "H",
+          "Rare": "H",
+          "Worldview": "H",
+          "Primacy": "H",
+          "Density": "H"
+        },
+        "readiness": [
+          "§33",
+          "§31",
+          "§9"
+        ]
       },
       "notes_scope": "Venue page and recording verified; no transcript read.",
       "resources": []
@@ -306,7 +354,7 @@
       "duration_seconds": 4342,
       "screening": {
         "id": "kitp-bblunch-sourlas",
-        "index": 10,
+        "index": 8,
         "decision": "read_transcript",
         "priority": "high",
         "track": "maths",
@@ -323,7 +371,20 @@
         "caveat": "No abstract; 2004 blackboard recording, so video quality may be poor. MP4 verified (Sourlas_BlackboardLunch_KITP.mp4).",
         "speaker": "Nicolas Sourlas",
         "modules": [],
-        "workshop": ""
+        "workshop": "",
+        "rubric_tiers": {
+          "Timeless": "H",
+          "Generative": "H",
+          "Transfer": "H",
+          "Rare": "H",
+          "Worldview": "H",
+          "Primacy": "H",
+          "Density": "M"
+        },
+        "readiness": [
+          "§9",
+          "§33"
+        ]
       },
       "notes_scope": "Venue page and recording verified; no transcript read.",
       "resources": []

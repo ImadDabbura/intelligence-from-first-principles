@@ -9,7 +9,7 @@ Originator-grade expositions of unifying programmes of learning and intelligence
 - Original source: https://www.youtube.com/@ICTPchannel
 - Inventory date: 2026-11-21
 - Screened in this pass: 103 items, 5 high priority before de-duplication against the rest of the collection.
-- Kept here: 4 high-priority items only.
+- Kept: 4 items that pass the guiding principles (Timelessness, Generative Power, Transfer, Rare Combination, Worldview, Primacy, Density); all others removed.
 - Known gaps: The main ICTP channel holds colloquia and Salam lectures but not its schools and workshops, which are a known gap.
 - Number reviewed in depth: 0
 
@@ -17,17 +17,13 @@ Originator-grade expositions of unifying programmes of learning and intelligence
 
 Metadata only, screened against the A–F originator rubric by parallel AI screeners using one shared instruction set. `read_transcript` means worth a transcript review, not a watch recommendation. Many talks had no abstract; each caveat says when a judgement rests on title and speaker.
 
-- [Abdus Salam Distinguished Lecture Series 2024 - Lecture 3](https://www.youtube.com/watch?v=8TWBGw32CwY) — Stéphane Mallat
 - [Abdus Salam Distinguished Lecture Series 2024 - Lecture 1](https://www.youtube.com/watch?v=jdCFc45bb2o) — Stéphane Mallat
-- [Prof. William Bialek: Living on a diet of bits](https://www.youtube.com/watch?v=GPtohlKMVAE) — William Bialek
 - [Prof. William Bialek: Making predictions](https://www.youtube.com/watch?v=uyg1z5PmePk) — William Bialek
+- [ICTP-SISSA Colloquium by Prof. Chris Jarzynski on "Scaling Down the Laws of Thermodynamics"](https://www.youtube.com/watch?v=k8_qNnr3YUE) — Christopher Jarzynski
+- [Tensor network for machine learning applications 1](https://www.youtube.com/watch?v=T23Ld3O7xjs) — Edwin Miles Stoudenmire
 
-- [ICTP-SISSA Colloquium by Prof. Chris Jarzynski on "Scaling Down the Laws of Thermodynamics"](https://www.youtube.com/watch?v=k8_qNnr3YUE) — Christopher Jarzynski · maths track §33 §4
 
-- [Giorgio Parisi: "Theoretical progresses in off-­‐equilibrium behaviour" - 1](https://www.youtube.com/watch?v=hZgAIU86kpM) — Giorgio Parisi · maths track §33 §8b
 
-- [Tensor network for machine learning applications 1](https://www.youtube.com/watch?v=T23Ld3O7xjs) — Edwin Miles Stoudenmire · Tier 1 gap fill
-- [Introduction to long range interactions: a theoretical physicist's view - Lecture 1](https://www.youtube.com/watch?v=qlBL5bIVLvI) — Julien Barre · Tier 1 gap fill
 
 ## Transcript reviews
 

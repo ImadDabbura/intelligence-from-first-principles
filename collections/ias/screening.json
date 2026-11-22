@@ -38,38 +38,20 @@
         "id": "DCPRdL03-dk",
         "index": 0,
         "evidence": [],
-        "workshop": "IAS"
-      },
-      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
-      "resources": []
-    },
-    {
-      "id": "F079b2dwcAg",
-      "title": "On Expressiveness and Optimization in Deep Learning - Nadav Cohen",
-      "url": "https://www.youtube.com/watch?v=F079b2dwcAg",
-      "published_at": "2018-04-02",
-      "duration_seconds": 3780,
-      "screening": {
-        "decision": "read_transcript",
-        "priority": "high",
-        "theme": [
-          "depth expressiveness",
-          "implicit acceleration",
-          "tensor analysis"
-        ],
-        "publisher_promise": "The speaker presents his theory of why depth helps deep networks, both in what they can represent and in how gradient descent optimizes them.",
-        "screening_reason": "Nadav Cohen built the tensor-decomposition account of depth efficiency and the overparameterization-as-preconditioning result, so this is an originator deriving inductive bias and optimization behaviour from one formal lens. Rubric: A✓ B✓ C✓ · D 1 · E 2 · F 2.",
-        "transcript_question": "Does the talk derive both the depth-efficiency separation and the implicit acceleration of overparameterized gradient descent from a shared formalism, or only state the results?",
-        "caveat": "publisher title and seminar name only, no abstract; speaker from description",
-        "speaker": "Nadav Cohen",
-        "modules": [
-          2,
-          4
-        ],
-        "id": "F079b2dwcAg",
-        "index": 1,
-        "evidence": [],
-        "workshop": "IAS"
+        "workshop": "IAS",
+        "rubric_tiers": {
+          "Timeless": "H",
+          "Generative": "H",
+          "Transfer": "H",
+          "Rare": "M",
+          "Worldview": "H",
+          "Primacy": "H",
+          "Density": "M"
+        },
+        "readiness": [
+          "§12",
+          "§4"
+        ]
       },
       "notes_scope": "Publisher metadata only; no transcript read in this pass.",
       "resources": []
@@ -98,139 +80,25 @@
           3
         ],
         "id": "8Bw3n6-P17A",
-        "index": 2,
+        "index": 1,
         "evidence": [],
-        "workshop": "IAS"
+        "workshop": "IAS",
+        "rubric_tiers": {
+          "Timeless": "H",
+          "Generative": "H",
+          "Transfer": "H",
+          "Rare": "H",
+          "Worldview": "H",
+          "Primacy": "H",
+          "Density": "M"
+        },
+        "readiness": [
+          "§12b",
+          "§12",
+          "§11"
+        ]
       },
       "notes_scope": "Publisher metadata only; no transcript read in this pass.",
-      "resources": []
-    },
-    {
-      "id": "vdAji1Dc-VM",
-      "title": "What is the Unique Games Conjecture? - Irit Dveer Dinur",
-      "url": "https://www.youtube.com/watch?v=vdAji1Dc-VM",
-      "published_at": "2026-11-12",
-      "duration_seconds": 4140,
-      "screening": {
-        "id": "vdAji1Dc-VM",
-        "index": 3,
-        "decision": "read_transcript",
-        "priority": "high",
-        "track": "maths",
-        "pillars": [
-          "§12b"
-        ],
-        "theme": [
-          "maths track",
-          "§12b"
-        ],
-        "publisher_promise": "",
-        "screening_reason": "Dinur's explicitly introductory lecture explains the field and background of a central approximation-complexity conjecture. (Maths track: architect-taught exposition of a Compass pillar.)",
-        "evidence": [],
-        "transcript_question": "How does the Unique Games Conjecture organize hardness of approximation?",
-        "caveat": "Metadata does not verify the full pedagogical depth or prerequisites.",
-        "speaker": "Irit Dveer Dinur",
-        "modules": [],
-        "workshop": "IAS"
-      },
-      "notes_scope": "Publisher metadata only; screened on the maths track by Codex; no transcript read.",
-      "resources": []
-    },
-    {
-      "id": "KTn7Xj0BiRA",
-      "title": "What we still don’t know about critical percolation - Tom Hutchcroft",
-      "url": "https://www.youtube.com/watch?v=KTn7Xj0BiRA",
-      "published_at": "2026-11-02",
-      "duration_seconds": 3900,
-      "screening": {
-        "id": "KTn7Xj0BiRA",
-        "index": 4,
-        "decision": "read_transcript",
-        "priority": "high",
-        "track": "maths",
-        "pillars": [
-          "§4",
-          "§33"
-        ],
-        "theme": [
-          "maths track",
-          "§4",
-          "§33"
-        ],
-        "publisher_promise": "",
-        "screening_reason": "A leading percolation theorist explicitly surveys central phase-transition questions and their conceptual difficulties. (Maths track: architect-taught exposition of a Compass pillar.)",
-        "evidence": [],
-        "transcript_question": "What makes critical percolation different from subcritical and supercritical behavior?",
-        "caveat": "Metadata does not verify the full pedagogical depth or prerequisites.",
-        "speaker": "Tom Hutchcroft",
-        "modules": [],
-        "workshop": "IAS"
-      },
-      "notes_scope": "Publisher metadata only; screened on the maths track by Codex; no transcript read.",
-      "resources": []
-    },
-    {
-      "id": "hJdcd1SR_tA",
-      "title": "An Introduction to Geodesic Convexity  - Nisheeth Vishnoi",
-      "url": "https://www.youtube.com/watch?v=hJdcd1SR_tA",
-      "published_at": "2018-06-08",
-      "duration_seconds": 4980,
-      "screening": {
-        "id": "hJdcd1SR_tA",
-        "index": 5,
-        "decision": "read_transcript",
-        "priority": "high",
-        "track": "maths",
-        "pillars": [
-          "§7",
-          "§28"
-        ],
-        "theme": [
-          "maths track",
-          "§7",
-          "§28"
-        ],
-        "publisher_promise": "",
-        "screening_reason": "Vishnoi's explicit introduction teaches geodesic convexity at the optimization-geometry interface. (Maths track: architect-taught exposition of a Compass pillar.)",
-        "evidence": [],
-        "transcript_question": "How does geodesic convexity preserve the key guarantees of convex optimization?",
-        "caveat": "Exact derivations and prerequisites unlisted.",
-        "speaker": "Nisheeth Vishnoi",
-        "modules": [],
-        "workshop": "IAS"
-      },
-      "notes_scope": "Publisher metadata only; screened on the maths track by Codex; no transcript read.",
-      "resources": []
-    },
-    {
-      "id": "3jksqrYuvuk",
-      "title": "An introduction to Invariant Theory - Harm Derksen",
-      "url": "https://www.youtube.com/watch?v=3jksqrYuvuk",
-      "published_at": "2018-06-08",
-      "duration_seconds": 3600,
-      "screening": {
-        "id": "3jksqrYuvuk",
-        "index": 6,
-        "decision": "read_transcript",
-        "priority": "high",
-        "track": "maths",
-        "pillars": [
-          "§14b"
-        ],
-        "theme": [
-          "maths track",
-          "§14b"
-        ],
-        "publisher_promise": "",
-        "screening_reason": "Derksen's explicit introduction offers foundational invariant theory from a leading specialist. (Maths track: architect-taught exposition of a Compass pillar.)",
-        "evidence": [],
-        "transcript_question": "How do group actions and invariant polynomials organize orbit structure?",
-        "caveat": "Coverage and prerequisites unlisted.",
-        "speaker": "Harm Derksen",
-        "modules": [],
-        "workshop": "IAS"
-      },
-      "notes_scope": "Publisher metadata only; screened on the maths track by Codex; no transcript read.",
       "resources": []
     },
     {
@@ -241,7 +109,7 @@
       "duration_seconds": 4980,
       "screening": {
         "id": "HhTGyDuNI_w",
-        "index": 7,
+        "index": 2,
         "decision": "read_transcript",
         "priority": "high",
         "track": "maths",
@@ -261,71 +129,20 @@
         "caveat": "Exact syllabus unlisted.",
         "speaker": "Peter Buergisser",
         "modules": [],
-        "workshop": "IAS"
-      },
-      "notes_scope": "Publisher metadata only; screened on the maths track by Codex; no transcript read.",
-      "resources": []
-    },
-    {
-      "id": "dLn_50Tpdf8",
-      "title": "An Introduction to Liouville Theory - Antti Kupiainen",
-      "url": "https://www.youtube.com/watch?v=dLn_50Tpdf8",
-      "published_at": "2018-05-15",
-      "duration_seconds": 4500,
-      "screening": {
-        "id": "dLn_50Tpdf8",
-        "index": 8,
-        "decision": "read_transcript",
-        "priority": "high",
-        "track": "maths",
-        "pillars": [
-          "§4",
-          "§33"
-        ],
-        "theme": [
-          "maths track",
-          "§4",
-          "§33"
-        ],
-        "publisher_promise": "",
-        "screening_reason": "Kupiainen's explicit introduction offers a leading probabilist's entry into Liouville theory. (Maths track: architect-taught exposition of a Compass pillar.)",
-        "evidence": [],
-        "transcript_question": "How are random fields used to construct Liouville theory?",
-        "caveat": "Detailed syllabus unlisted.",
-        "speaker": "Antti Kupiainen",
-        "modules": [],
-        "workshop": "IAS"
-      },
-      "notes_scope": "Publisher metadata only; screened on the maths track by Codex; no transcript read.",
-      "resources": []
-    },
-    {
-      "id": "CiYvUboEKUQ",
-      "title": "Exceptional holonomy and related geometric structures: Basic theory - Simon Donaldson",
-      "url": "https://www.youtube.com/watch?v=CiYvUboEKUQ",
-      "published_at": "2018-04-03",
-      "duration_seconds": 3480,
-      "screening": {
-        "id": "CiYvUboEKUQ",
-        "index": 9,
-        "decision": "read_transcript",
-        "priority": "high",
-        "track": "maths",
-        "pillars": [
-          "§28"
-        ],
-        "theme": [
-          "maths track",
-          "§28"
-        ],
-        "publisher_promise": "",
-        "screening_reason": "Donaldson's opening Morse lecture explicitly teaches the basic theory of exceptional holonomy. (Maths track: architect-taught exposition of a Compass pillar.)",
-        "evidence": [],
-        "transcript_question": "How does holonomy constrain geometric structures on a manifold?",
-        "caveat": "Advanced prerequisites unlisted.",
-        "speaker": "Simon Donaldson",
-        "modules": [],
-        "workshop": "IAS"
+        "workshop": "IAS",
+        "rubric_tiers": {
+          "Timeless": "H",
+          "Generative": "M",
+          "Transfer": "H",
+          "Rare": "M",
+          "Worldview": "M",
+          "Primacy": "M",
+          "Density": "M"
+        },
+        "readiness": [
+          "§14b",
+          "§2"
+        ]
       },
       "notes_scope": "Publisher metadata only; screened on the maths track by Codex; no transcript read.",
       "resources": []
@@ -338,7 +155,7 @@
       "duration_seconds": 4140,
       "screening": {
         "id": "ubT35yXMq5Y",
-        "index": 10,
+        "index": 3,
         "decision": "read_transcript",
         "priority": "high",
         "track": "maths",
@@ -358,206 +175,20 @@
         "caveat": "The truncated abstract does not verify the extent of derivations.",
         "speaker": "Tim Roughgarden",
         "modules": [],
-        "workshop": "IAS"
-      },
-      "notes_scope": "Publisher metadata only; screened on the maths track by Codex; no transcript read.",
-      "resources": []
-    },
-    {
-      "id": "EpiA__cYeZQ",
-      "title": "Terng Lecture Course: TLog-concavity and Matroids - Part 1 - Josephine Yu",
-      "url": "https://www.youtube.com/watch?v=EpiA__cYeZQ",
-      "published_at": "2025-05-19",
-      "duration_seconds": 4260,
-      "screening": {
-        "id": "EpiA__cYeZQ",
-        "index": 11,
-        "decision": "read_transcript",
-        "priority": "high",
-        "track": "maths",
-        "pillars": [
-          "§7",
-          "§45",
-          "§32"
-        ],
-        "theme": [
-          "maths track",
-          "§7",
-          "§45"
-        ],
-        "publisher_promise": "",
-        "screening_reason": "A named course by a leading tropical geometer develops log-concavity, independence and connections to mixing from basic objects. (Maths track: architect-taught exposition of a Compass pillar.)",
-        "evidence": [],
-        "transcript_question": "How does matroid geometry yield log-concavity and implications for mixing?",
-        "caveat": "Supplied metadata does not verify full lecture depth or prerequisites.",
-        "speaker": "Josephine Yu",
-        "modules": [],
-        "workshop": "IAS"
-      },
-      "notes_scope": "Publisher metadata only; screened on the maths track by Codex; no transcript read.",
-      "resources": []
-    },
-    {
-      "id": "9csqQuYzi54",
-      "title": "Sard's Theorem for Min-functions According to Yomdin - Albert Fathi",
-      "url": "https://www.youtube.com/watch?v=9csqQuYzi54",
-      "published_at": "2026-10-21",
-      "duration_seconds": 3720,
-      "screening": {
-        "id": "9csqQuYzi54",
-        "index": 12,
-        "decision": "read_transcript",
-        "priority": "high",
-        "track": "maths",
-        "pillars": [
-          "§3",
-          "§8",
-          "§38"
-        ],
-        "theme": [
-          "maths track",
-          "§3",
-          "§8"
-        ],
-        "publisher_promise": "",
-        "screening_reason": "Fathi's learning seminar teaches quantitative Sard theory for minimized functions, connecting analysis to variational foundations. (Maths track: architect-taught exposition of a Compass pillar.)",
-        "evidence": [],
-        "transcript_question": "Why do minima of smooth families retain almost-everywhere regular level sets?",
-        "caveat": "Full derivations, prerequisites, and pedagogical depth are not verified by the metadata.",
-        "speaker": "Albert Fathi",
-        "modules": [],
-        "workshop": "IAS"
-      },
-      "notes_scope": "Publisher metadata only; screened on the maths track by Codex; no transcript read.",
-      "resources": []
-    },
-    {
-      "id": "PtCPLLuMK1o",
-      "title": "The Role of Exposition in the Future of Mathematics - Grant Sanderson",
-      "url": "https://www.youtube.com/watch?v=PtCPLLuMK1o",
-      "published_at": "2026-10-19",
-      "duration_seconds": 4020,
-      "screening": {
-        "id": "PtCPLLuMK1o",
-        "index": 13,
-        "decision": "read_transcript",
-        "priority": "high",
-        "track": "maths",
-        "pillars": [
-          "§0",
-          "§1"
-        ],
-        "theme": [
-          "maths track",
-          "§0",
-          "§1"
-        ],
-        "publisher_promise": "",
-        "screening_reason": "Sanderson demonstrates mathematical exposition through an explicit topological proof and discusses transferable understanding. (Maths track: architect-taught exposition of a Compass pillar.)",
-        "evidence": [],
-        "transcript_question": "How can visual exposition turn a surprising proof into reusable mathematical intuition?",
-        "caveat": "Full derivations, prerequisites, and pedagogical depth are not verified by the metadata.",
-        "speaker": "Grant Sanderson",
-        "modules": [],
-        "workshop": "IAS"
-      },
-      "notes_scope": "Publisher metadata only; screened on the maths track by Codex; no transcript read.",
-      "resources": []
-    },
-    {
-      "id": "zLqwRkkh7XY",
-      "title": "Probability and Intuition - Peter Winkler",
-      "url": "https://www.youtube.com/watch?v=zLqwRkkh7XY",
-      "published_at": "2026-10-13",
-      "duration_seconds": 4380,
-      "screening": {
-        "id": "zLqwRkkh7XY",
-        "index": 14,
-        "decision": "read_transcript",
-        "priority": "high",
-        "track": "maths",
-        "pillars": [
-          "§4"
-        ],
-        "theme": [
-          "maths track",
-          "§4"
-        ],
-        "publisher_promise": "",
-        "screening_reason": "Winkler's named expository lecture uses probability paradoxes to develop and correct central probabilistic intuitions. (Maths track: architect-taught exposition of a Compass pillar.)",
-        "evidence": [],
-        "transcript_question": "Which intuitive probability arguments fail, and how can conditioning repair them?",
-        "caveat": "Full derivations, prerequisites, and pedagogical depth are not verified by the metadata.",
-        "speaker": "Peter Winkler",
-        "modules": [],
-        "workshop": "IAS"
-      },
-      "notes_scope": "Publisher metadata only; screened on the maths track by Codex; no transcript read.",
-      "resources": []
-    },
-    {
-      "id": "RrGXUMObUjg",
-      "title": "Breaking the Bubble: From the Brachistochrone to the Simons Cone | Institute for Advanced Study",
-      "url": "https://www.youtube.com/watch?v=RrGXUMObUjg",
-      "published_at": "2026-06-02",
-      "duration_seconds": 3300,
-      "screening": {
-        "id": "RrGXUMObUjg",
-        "index": 15,
-        "decision": "read_transcript",
-        "priority": "high",
-        "track": "maths",
-        "pillars": [
-          "§1b",
-          "§8",
-          "§43"
-        ],
-        "theme": [
-          "maths track",
-          "§1b",
-          "§8"
-        ],
-        "publisher_promise": "",
-        "screening_reason": "De Lellis's commemorative lecture traces central variational ideas from classical optimization to minimal-surface singularities. (Maths track: architect-taught exposition of a Compass pillar.)",
-        "evidence": [],
-        "transcript_question": "How do variational principles lead from optimal paths to singular minimizing surfaces?",
-        "caveat": "Full derivations, prerequisites, and pedagogical depth are not verified by the metadata.",
-        "speaker": "Camillo De Lellis",
-        "modules": [],
-        "workshop": "IAS"
-      },
-      "notes_scope": "Publisher metadata only; screened on the maths track by Codex; no transcript read.",
-      "resources": []
-    },
-    {
-      "id": "MZwwlLFSuCc",
-      "title": "Multi-scale Analysis in Projection Theory - Hong Wang",
-      "url": "https://www.youtube.com/watch?v=MZwwlLFSuCc",
-      "published_at": "2026-03-31",
-      "duration_seconds": 3720,
-      "screening": {
-        "id": "MZwwlLFSuCc",
-        "index": 16,
-        "decision": "read_transcript",
-        "priority": "high",
-        "track": "maths",
-        "pillars": [
-          "§3",
-          "§2c"
-        ],
-        "theme": [
-          "maths track",
-          "§3",
-          "§2c"
-        ],
-        "publisher_promise": "",
-        "screening_reason": "Wang's named lecture series explicitly teaches structural and multiscale techniques behind projection theorems. (Maths track: architect-taught exposition of a Compass pillar.)",
-        "evidence": [],
-        "transcript_question": "How does multiscale structure explain dimension preservation under projection?",
-        "caveat": "Metadata does not establish the full prerequisites or amount of foundational derivation.",
-        "speaker": "Hong Wang",
-        "modules": [],
-        "workshop": "IAS"
+        "workshop": "IAS",
+        "rubric_tiers": {
+          "Timeless": "H",
+          "Generative": "M",
+          "Transfer": "H",
+          "Rare": "M",
+          "Worldview": "H",
+          "Primacy": "H",
+          "Density": "M"
+        },
+        "readiness": [
+          "§13",
+          "§12"
+        ]
       },
       "notes_scope": "Publisher metadata only; screened on the maths track by Codex; no transcript read.",
       "resources": []
@@ -570,7 +201,7 @@
       "duration_seconds": 7440,
       "screening": {
         "id": "rjJAXEyrsQE",
-        "index": 17,
+        "index": 4,
         "decision": "read_transcript",
         "priority": "high",
         "track": "maths",
@@ -591,7 +222,21 @@
         "caveat": "Full pedagogical scope is unverified; several supplied descriptions are truncated or absent.",
         "speaker": "Avi Wigderson",
         "modules": [],
-        "workshop": "IAS"
+        "workshop": "IAS",
+        "rubric_tiers": {
+          "Timeless": "H",
+          "Generative": "H",
+          "Transfer": "H",
+          "Rare": "M",
+          "Worldview": "H",
+          "Primacy": "H",
+          "Density": "M"
+        },
+        "readiness": [
+          "§14b",
+          "§44",
+          "§2"
+        ]
       },
       "notes_scope": "Publisher metadata only; screened on the maths track by Codex; no transcript read.",
       "resources": []
@@ -604,7 +249,7 @@
       "duration_seconds": 4440,
       "screening": {
         "id": "ph_PIF-Ry8A",
-        "index": 18,
+        "index": 5,
         "decision": "read_transcript",
         "priority": "high",
         "track": "maths",
@@ -622,71 +267,21 @@
         "caveat": "The supplied metadata does not verify complete derivations or prerequisite level.",
         "speaker": "Avi Wigderson",
         "modules": [],
-        "workshop": "IAS"
+        "workshop": "IAS",
+        "rubric_tiers": {
+          "Timeless": "H",
+          "Generative": "M",
+          "Transfer": "H",
+          "Rare": "L",
+          "Worldview": "H",
+          "Primacy": "H",
+          "Density": "H"
+        },
+        "readiness": [
+          "§12b"
+        ]
       },
       "notes_scope": "Publisher metadata only; screened on the maths track by Codex; no transcript read.",
-      "resources": []
-    },
-    {
-      "id": "9ccuJWoIHrw",
-      "title": "Tensor rank - Avi Wigderson",
-      "url": "https://www.youtube.com/watch?v=9ccuJWoIHrw",
-      "published_at": "2018-10-11",
-      "duration_seconds": 7140,
-      "screening": {
-        "id": "9ccuJWoIHrw",
-        "index": 19,
-        "decision": "read_transcript",
-        "priority": "high",
-        "track": "maths",
-        "pillars": [
-          "§2",
-          "§12b"
-        ],
-        "theme": [
-          "maths track",
-          "§2",
-          "§12b"
-        ],
-        "publisher_promise": "",
-        "screening_reason": "Wigderson, an architect of algebraic complexity, lecturing on tensor rank in the expository CS/DM Seminar II, building core multilinear-algebra understanding. (Maths track: architect-taught exposition of a Compass pillar.)",
-        "evidence": [],
-        "transcript_question": "Why is tensor rank so different from matrix rank (border rank, non-closedness, NP-hardness) and how does it govern matrix-multiplication complexity?",
-        "caveat": "No abstract; assumes the usual expository Seminar II format.",
-        "speaker": "Avi Wigderson",
-        "modules": [],
-        "workshop": "IAS"
-      },
-      "notes_scope": "Publisher metadata only; screened on the maths track by Codex; no transcript read.",
-      "resources": []
-    },
-    {
-      "id": "1-IVBdXDbW0",
-      "title": "The Blessings of Multiple Causes - David M. Blei",
-      "url": "https://www.youtube.com/watch?v=1-IVBdXDbW0",
-      "published_at": "2020-01-21",
-      "duration_seconds": 4020,
-      "screening": {
-        "decision": "read_transcript",
-        "priority": "high",
-        "theme": [
-          "causal inference",
-          "deconfounder"
-        ],
-        "publisher_promise": "Introduces the deconfounder: using many observed causes to infer a substitute for unobserved confounders.",
-        "screening_reason": "Originator presents a principled, contested route from factor models to causal identification, with an explicit assumption set that critics have challenged. Rubric: A✓ B✓ C✓ · D 2 · E 2 · F 2.",
-        "transcript_question": "Which assumptions make the multiple-cause substitute confounder identify causal effects, and how does it answer published critiques?",
-        "caveat": "publisher metadata only; no abstract, judged from title and speaker",
-        "speaker": "David M. Blei",
-        "modules": [
-          6
-        ],
-        "id": "1-IVBdXDbW0",
-        "index": 20,
-        "evidence": [],
-        "workshop": "Theoretical Machine Learning Lecture Series"
-      },
-      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
       "resources": []
     },
     {
@@ -711,9 +306,23 @@
           2
         ],
         "id": "6mdFQR0-WT0",
-        "index": 21,
+        "index": 6,
         "evidence": [],
-        "workshop": "Theoretical Machine Learning Lecture Series"
+        "workshop": "Theoretical Machine Learning Lecture Series",
+        "rubric_tiers": {
+          "Timeless": "H",
+          "Generative": "H",
+          "Transfer": "M",
+          "Rare": "L",
+          "Worldview": "H",
+          "Primacy": "H",
+          "Density": "M"
+        },
+        "readiness": [
+          "§12",
+          "§5",
+          "§4"
+        ]
       },
       "notes_scope": "Publisher metadata only; no transcript read in this pass.",
       "resources": []
@@ -740,39 +349,24 @@
           3
         ],
         "id": "8TcNXi3A5DI",
-        "index": 22,
+        "index": 7,
         "evidence": [],
-        "workshop": "Theoretical Machine Learning Lecture Series"
-      },
-      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
-      "resources": []
-    },
-    {
-      "id": "IbKWTF4MzMY",
-      "title": "Priors for Semantic Variables - Yoshua Bengio",
-      "url": "https://www.youtube.com/watch?v=IbKWTF4MzMY",
-      "published_at": "2020-07-23",
-      "duration_seconds": 5520,
-      "screening": {
-        "decision": "read_transcript",
-        "priority": "high",
-        "theme": [
-          "consciousness prior",
-          "semantic variables"
-        ],
-        "publisher_promise": "Proposes priors over high-level semantic variables, such as sparse dependencies, for systematic generalization.",
-        "screening_reason": "Originator presents a unifying hypothesis about which priors make abstract, compositional representations learnable; contested and testable. Rubric: A✓ B✓ C✓ · D 2 · E 2 · F 2.",
-        "transcript_question": "What concrete priors over semantic variables are proposed, and what predictions about out-of-distribution generalization follow from them?",
-        "caveat": "publisher metadata only; no abstract, judged from title and speaker",
-        "speaker": "Yoshua Bengio",
-        "modules": [
-          3,
-          4
-        ],
-        "id": "IbKWTF4MzMY",
-        "index": 23,
-        "evidence": [],
-        "workshop": "Theoretical Machine Learning Lecture Series"
+        "workshop": "Theoretical Machine Learning Lecture Series",
+        "rubric_tiers": {
+          "Timeless": "H",
+          "Generative": "H",
+          "Transfer": "H",
+          "Rare": "M",
+          "Worldview": "H",
+          "Primacy": "H",
+          "Density": "M"
+        },
+        "readiness": [
+          "§48",
+          "§35",
+          "§27",
+          "§32"
+        ]
       },
       "notes_scope": "Publisher metadata only; no transcript read in this pass.",
       "resources": []
@@ -799,9 +393,23 @@
           3
         ],
         "id": "_cBLSNRWt8c",
-        "index": 24,
+        "index": 8,
         "evidence": [],
-        "workshop": "Theoretical Machine Learning Lecture Series"
+        "workshop": "Theoretical Machine Learning Lecture Series",
+        "rubric_tiers": {
+          "Timeless": "H",
+          "Generative": "H",
+          "Transfer": "H",
+          "Rare": "M",
+          "Worldview": "H",
+          "Primacy": "H",
+          "Density": "H"
+        },
+        "readiness": [
+          "§16",
+          "§4",
+          "§10"
+        ]
       },
       "notes_scope": "Publisher metadata only; no transcript read in this pass.",
       "resources": []
@@ -828,9 +436,23 @@
           2
         ],
         "id": "zLHy5N80Gec",
-        "index": 25,
+        "index": 9,
         "evidence": [],
-        "workshop": "Probability Seminar"
+        "workshop": "Probability Seminar",
+        "rubric_tiers": {
+          "Timeless": "H",
+          "Generative": "H",
+          "Transfer": "M",
+          "Rare": "H",
+          "Worldview": "M",
+          "Primacy": "H",
+          "Density": "M"
+        },
+        "readiness": [
+          "§27",
+          "§1c",
+          "§8"
+        ]
       },
       "notes_scope": "Publisher metadata only; no transcript read in this pass.",
       "resources": []
@@ -859,173 +481,24 @@
           3
         ],
         "id": "TisObdHW8Wo",
-        "index": 26,
+        "index": 10,
         "evidence": [],
-        "workshop": "Members Seminar"
+        "workshop": "Members Seminar",
+        "rubric_tiers": {
+          "Timeless": "H",
+          "Generative": "H",
+          "Transfer": "H",
+          "Rare": "H",
+          "Worldview": "H",
+          "Primacy": "H",
+          "Density": "M"
+        },
+        "readiness": [
+          "§9",
+          "§16"
+        ]
       },
       "notes_scope": "Publisher metadata only; no transcript read in this pass.",
-      "resources": []
-    },
-    {
-      "id": "gNAx5TmomB0",
-      "title": "The Palais-Smale Theorem and the Solution of Hilbert’s 23 Problem - Karen Uhlenbeck",
-      "url": "https://www.youtube.com/watch?v=gNAx5TmomB0",
-      "published_at": "2020-04-06",
-      "duration_seconds": 3060,
-      "screening": {
-        "id": "gNAx5TmomB0",
-        "index": 27,
-        "decision": "read_transcript",
-        "priority": "high",
-        "track": "maths",
-        "pillars": [
-          "§8",
-          "§14"
-        ],
-        "theme": [
-          "maths track",
-          "§8",
-          "§14"
-        ],
-        "publisher_promise": "",
-        "screening_reason": "Uhlenbeck, a founder of modern geometric analysis, explains the Palais-Smale compactness condition and critical-point theory behind the calculus of variations. (Maths track: architect-taught exposition of a Compass pillar.)",
-        "evidence": [],
-        "transcript_question": "How the Palais-Smale condition gives compactness that guarantees critical points of nonconvex functionals in infinite dimensions.",
-        "caveat": "Members' seminar with no abstract; depth of derivations unverified.",
-        "speaker": "Karen Uhlenbeck",
-        "modules": [],
-        "workshop": "Members Seminar"
-      },
-      "notes_scope": "Publisher metadata only; screened on the maths track by Codex; no transcript read.",
-      "resources": []
-    },
-    {
-      "id": "w3kq7vTta7c",
-      "title": "Lower Bounds in Complexity Theory, Communication Complexity, and Sunflowers - Toniann Pitassi",
-      "url": "https://www.youtube.com/watch?v=w3kq7vTta7c",
-      "published_at": null,
-      "duration_seconds": 3600,
-      "screening": {
-        "id": "w3kq7vTta7c",
-        "index": 28,
-        "decision": "read_transcript",
-        "priority": "high",
-        "track": "maths",
-        "pillars": [
-          "§12b"
-        ],
-        "theme": [
-          "maths track",
-          "§12b"
-        ],
-        "publisher_promise": "",
-        "screening_reason": "Pitassi, a leading complexity theorist, surveys lower-bound techniques via communication complexity and sunflowers. (Maths track: architect-taught exposition of a Compass pillar.)",
-        "evidence": [],
-        "transcript_question": "How communication complexity and sunflower lemmas yield circuit and proof lower bounds.",
-        "caveat": "No abstract; may centre on her recent sunflower results.",
-        "speaker": "Toniann Pitassi",
-        "modules": [],
-        "workshop": "Members Seminar"
-      },
-      "notes_scope": "Publisher metadata only; screened on the maths track by Codex; no transcript read.",
-      "resources": []
-    },
-    {
-      "id": "35-QI1upoE8",
-      "title": "Convergence of nearest neighbor classification - Sanjoy Dasgupta",
-      "url": "https://www.youtube.com/watch?v=35-QI1upoE8",
-      "published_at": "2019-11-25",
-      "duration_seconds": 2940,
-      "screening": {
-        "id": "35-QI1upoE8",
-        "index": 29,
-        "decision": "read_transcript",
-        "priority": "high",
-        "track": "maths",
-        "pillars": [
-          "§12",
-          "§10"
-        ],
-        "theme": [
-          "maths track",
-          "§12",
-          "§10"
-        ],
-        "publisher_promise": "",
-        "screening_reason": "Dasgupta, a leading learning theorist, presents the convergence theory of nearest-neighbor classification. (Maths track: architect-taught exposition of a Compass pillar.)",
-        "evidence": [],
-        "transcript_question": "What conditions on the data distribution govern nearest-neighbor consistency and convergence rates, and why.",
-        "caveat": "No abstract; may focus on his own recent results.",
-        "speaker": "Sanjoy Dasgupta",
-        "modules": [],
-        "workshop": "Members Seminar"
-      },
-      "notes_scope": "Publisher metadata only; screened on the maths track by Codex; no transcript read.",
-      "resources": []
-    },
-    {
-      "id": "5y-bCVgoWHU",
-      "title": "Finding structure in high dimensional data, methods and fundamental limitations - Boaz Nadler",
-      "url": "https://www.youtube.com/watch?v=5y-bCVgoWHU",
-      "published_at": null,
-      "duration_seconds": 3240,
-      "screening": {
-        "id": "5y-bCVgoWHU",
-        "index": 30,
-        "decision": "read_transcript",
-        "priority": "high",
-        "track": "maths",
-        "pillars": [
-          "§6",
-          "§10",
-          "§29"
-        ],
-        "theme": [
-          "maths track",
-          "§6",
-          "§10"
-        ],
-        "publisher_promise": "",
-        "screening_reason": "Nadler gives a methods-and-limits overview of detecting structure in high-dimensional data. (Maths track: architect-taught exposition of a Compass pillar.)",
-        "evidence": [],
-        "transcript_question": "What fundamental statistical limits (e.g. spectral phase transitions) govern detecting low-dimensional structure in high dimensions.",
-        "caveat": "No abstract; breadth versus a narrow result unverified.",
-        "speaker": "Boaz Nadler",
-        "modules": [],
-        "workshop": "Members Seminar"
-      },
-      "notes_scope": "Publisher metadata only; screened on the maths track by Codex; no transcript read.",
-      "resources": []
-    },
-    {
-      "id": "EQY-J46YDOQ",
-      "title": "Learning probability distributions; What can, What can't be done - Shai Ben-David",
-      "url": "https://www.youtube.com/watch?v=EQY-J46YDOQ",
-      "published_at": "2020-05-07",
-      "duration_seconds": 3420,
-      "screening": {
-        "id": "EQY-J46YDOQ",
-        "index": 31,
-        "decision": "read_transcript",
-        "priority": "high",
-        "track": "maths",
-        "pillars": [
-          "§12"
-        ],
-        "theme": [
-          "maths track",
-          "§12"
-        ],
-        "publisher_promise": "",
-        "screening_reason": "Ben-David, a learning-theory architect, on what is and is not learnable for distribution learning; title signals a broad survey. (Maths track: architect-taught exposition of a Compass pillar.)",
-        "evidence": [],
-        "transcript_question": "What characterizes learnability of probability distribution classes, and where it fails",
-        "caveat": "No abstract; depth and format inferred from title and speaker.",
-        "speaker": "Shai Ben-David",
-        "modules": [],
-        "workshop": "Theoretical Machine Learning Lecture Series"
-      },
-      "notes_scope": "Publisher metadata only; screened on the maths track by Codex; no transcript read.",
       "resources": []
     },
     {
@@ -1036,7 +509,7 @@
       "duration_seconds": 4740,
       "screening": {
         "id": "QTnjqdxG99c",
-        "index": 32,
+        "index": 11,
         "decision": "read_transcript",
         "priority": "high",
         "track": "maths",
@@ -1057,102 +530,21 @@
         "caveat": "No abstract; depth and format inferred from title and speaker.",
         "speaker": "Michael I. Jordan",
         "modules": [],
-        "workshop": "Theoretical Machine Learning Lecture Series"
-      },
-      "notes_scope": "Publisher metadata only; screened on the maths track by Codex; no transcript read.",
-      "resources": []
-    },
-    {
-      "id": "6hLsS-rbCgQ",
-      "title": "Statistical Learning Theory for Modern Machine Learning - John Shawe-Taylor",
-      "url": "https://www.youtube.com/watch?v=6hLsS-rbCgQ",
-      "published_at": "2020-08-11",
-      "duration_seconds": 4260,
-      "screening": {
-        "id": "6hLsS-rbCgQ",
-        "index": 33,
-        "decision": "read_transcript",
-        "priority": "high",
-        "track": "maths",
-        "pillars": [
-          "§12"
-        ],
-        "theme": [
-          "maths track",
-          "§12"
-        ],
-        "publisher_promise": "",
-        "screening_reason": "Shawe-Taylor, a PAC-Bayes architect, on statistical learning theory for modern ML. (Maths track: architect-taught exposition of a Compass pillar.)",
-        "evidence": [],
-        "transcript_question": "How PAC-Bayes and related bounds explain generalization in modern models",
-        "caveat": "No abstract; depth and format inferred from title and speaker.",
-        "speaker": "John Shawe-Taylor",
-        "modules": [],
-        "workshop": "Theoretical Machine Learning Lecture Series"
-      },
-      "notes_scope": "Publisher metadata only; screened on the maths track by Codex; no transcript read.",
-      "resources": []
-    },
-    {
-      "id": "C1e-rkN1w18",
-      "title": "The Non-Stochastic Control Problem - Elad Hazan",
-      "url": "https://www.youtube.com/watch?v=C1e-rkN1w18",
-      "published_at": null,
-      "duration_seconds": 1500,
-      "screening": {
-        "id": "C1e-rkN1w18",
-        "index": 34,
-        "decision": "read_transcript",
-        "priority": "high",
-        "track": "maths",
-        "pillars": [
-          "§49",
-          "§13"
-        ],
-        "theme": [
-          "maths track",
-          "§49",
-          "§13"
-        ],
-        "publisher_promise": "",
-        "screening_reason": "Hazan, originator of the non-stochastic control framework, presenting it. (Maths track: architect-taught exposition of a Compass pillar.)",
-        "evidence": [],
-        "transcript_question": "How online convex optimization yields regret bounds for control with adversarial noise",
-        "caveat": "No abstract; depth and format inferred from title and speaker.",
-        "speaker": "Elad Hazan",
-        "modules": [],
-        "workshop": "Workshop on New Directions in Reinforcement Learning and Con"
-      },
-      "notes_scope": "Publisher metadata only; screened on the maths track by Codex; no transcript read.",
-      "resources": []
-    },
-    {
-      "id": "SwgrdvE2gp4",
-      "title": "Statistical modeling and missing data - Rod Little",
-      "url": "https://www.youtube.com/watch?v=SwgrdvE2gp4",
-      "published_at": null,
-      "duration_seconds": 4500,
-      "screening": {
-        "id": "SwgrdvE2gp4",
-        "index": 35,
-        "decision": "read_transcript",
-        "priority": "high",
-        "track": "maths",
-        "pillars": [
-          "§10"
-        ],
-        "theme": [
-          "maths track",
-          "§10"
-        ],
-        "publisher_promise": "",
-        "screening_reason": "Rod Little, a founding authority on missing data, on statistical modeling with missing data. (Maths track: architect-taught exposition of a Compass pillar.)",
-        "evidence": [],
-        "transcript_question": "How MCAR/MAR/MNAR mechanisms and likelihood-based methods govern inference with missing data",
-        "caveat": "No abstract; depth and format inferred from title and speaker.",
-        "speaker": "Rod Little",
-        "modules": [],
-        "workshop": "Virtual Workshop on Missing Data Challenges in Computation, Statistics and Applications Schedule"
+        "workshop": "Theoretical Machine Learning Lecture Series",
+        "rubric_tiers": {
+          "Timeless": "H",
+          "Generative": "H",
+          "Transfer": "H",
+          "Rare": "M",
+          "Worldview": "H",
+          "Primacy": "H",
+          "Density": "M"
+        },
+        "readiness": [
+          "§32",
+          "§27",
+          "§8"
+        ]
       },
       "notes_scope": "Publisher metadata only; screened on the maths track by Codex; no transcript read.",
       "resources": []

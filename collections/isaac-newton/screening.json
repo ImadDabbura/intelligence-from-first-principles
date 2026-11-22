@@ -37,38 +37,21 @@
         "id": "LDOt2nnBCak",
         "index": 0,
         "evidence": [],
-        "workshop": "Mathematics of deep learning [MDLW01] (no playlist; grouped by title code)"
-      },
-      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
-      "resources": []
-    },
-    {
-      "id": "07PXcIr79VA",
-      "title": "MDLW01 | Prof. Emmanuel Abbe | Fundamental Limits of Gradient-Based Learning on Neural Networks",
-      "url": "https://www.youtube.com/watch?v=07PXcIr79VA",
-      "published_at": "2025-12-15",
-      "duration_seconds": 2340,
-      "screening": {
-        "decision": "read_transcript",
-        "priority": "high",
-        "theme": [
-          "sgd vs gd",
-          "statistical queries",
-          "learnability limits"
-        ],
-        "publisher_promise": "Characterises what gradient-based training of neural nets can learn, separating SGD, full-batch GD and mini-batch regimes against PAC, statistical-query and kernel classes.",
-        "screening_reason": "Originator of the result; a single computational lens (noise and batch size determine whether training is PAC-complete or SQ-limited) explains several separations, with staircase functions as a concrete prediction. Rubric: A✓ B✓ C✓ · D 1 · E 2 · F 2.",
-        "transcript_question": "What exact mechanism makes SGD PAC-universal while GD is SQ-limited, and how does the staircase property predict what homogeneous initialisations can learn?",
-        "caveat": "publisher abstract only; speaker from description",
-        "speaker": "Emmanuel Abbe",
-        "modules": [
-          2,
-          4
-        ],
-        "id": "07PXcIr79VA",
-        "index": 1,
-        "evidence": [],
-        "workshop": "Mathematics of deep learning [MDLW01] (no playlist; grouped by title code)"
+        "workshop": "Mathematics of deep learning [MDLW01] (no playlist; grouped by title code)",
+        "rubric_tiers": {
+          "Timeless": "H",
+          "Generative": "H",
+          "Transfer": "M",
+          "Rare": "M",
+          "Worldview": "H",
+          "Primacy": "H",
+          "Density": "H"
+        },
+        "readiness": [
+          "§8",
+          "§26",
+          "§12"
+        ]
       },
       "notes_scope": "Publisher metadata only; no transcript read in this pass.",
       "resources": []
@@ -96,9 +79,23 @@
           2
         ],
         "id": "l-pgrEW-5Eo",
-        "index": 2,
+        "index": 1,
         "evidence": [],
-        "workshop": "Mathematics of deep learning [MDLW01] (no playlist; grouped by title code)"
+        "workshop": "Mathematics of deep learning [MDLW01] (no playlist; grouped by title code)",
+        "rubric_tiers": {
+          "Timeless": "H",
+          "Generative": "H",
+          "Transfer": "M",
+          "Rare": "H",
+          "Worldview": "H",
+          "Primacy": "H",
+          "Density": "H"
+        },
+        "readiness": [
+          "§6",
+          "§4",
+          "§12"
+        ]
       },
       "notes_scope": "Publisher metadata only; no transcript read in this pass.",
       "resources": []
@@ -126,9 +123,23 @@
           2
         ],
         "id": "20akEp_Z9v0",
-        "index": 3,
+        "index": 2,
         "evidence": [],
-        "workshop": "VMVW02"
+        "workshop": "VMVW02",
+        "rubric_tiers": {
+          "Timeless": "H",
+          "Generative": "H",
+          "Transfer": "M",
+          "Rare": "M",
+          "Worldview": "H",
+          "Primacy": "H",
+          "Density": "H"
+        },
+        "readiness": [
+          "§14",
+          "§12",
+          "§7"
+        ]
       },
       "notes_scope": "Publisher metadata only; no transcript read in this pass.",
       "resources": []
@@ -157,9 +168,22 @@
           2
         ],
         "id": "tZlXVGpaPpk",
-        "index": 4,
+        "index": 3,
         "evidence": [],
-        "workshop": "VMVW02"
+        "workshop": "VMVW02",
+        "rubric_tiers": {
+          "Timeless": "H",
+          "Generative": "H",
+          "Transfer": "H",
+          "Rare": "M",
+          "Worldview": "H",
+          "Primacy": "H",
+          "Density": "H"
+        },
+        "readiness": [
+          "§42",
+          "§12b"
+        ]
       },
       "notes_scope": "Publisher metadata only; no transcript read in this pass.",
       "resources": []
@@ -187,39 +211,23 @@
           2
         ],
         "id": "VJNfwfdUmeQ",
-        "index": 5,
+        "index": 4,
         "evidence": [],
-        "workshop": "STSW04"
-      },
-      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
-      "resources": []
-    },
-    {
-      "id": "3IFCT3Cc_aY",
-      "title": "STSW02 | Johannes Schmidt-hieber | Statistical theory for deep neural networks with ReLU activation",
-      "url": "https://www.youtube.com/watch?v=3IFCT3Cc_aY",
-      "published_at": "2025-12-15",
-      "duration_seconds": 3660,
-      "screening": {
-        "decision": "read_transcript",
-        "priority": "high",
-        "theme": [
-          "deep relu networks",
-          "compositional structure",
-          "minimax rates"
-        ],
-        "publisher_promise": "Shows that sparse deep ReLU networks fitted by least squares reach near-minimax rates for compositional regression functions, explaining a statistical role for depth beyond universal approximation.",
-        "screening_reason": "Schmidt-Hieber is the author of this result; compositional structure is a single assumption explaining why depth helps statistically. Rubric: A✓ B✓ C✓ · D 1 · E 2 · F 1.",
-        "transcript_question": "Does the talk derive why compositional structure lets depth beat shallow methods, and what it admits about the gap between the empirical-risk minimiser and SGD?",
-        "caveat": "publisher abstract only; speaker from title",
-        "speaker": "Johannes Schmidt-Hieber",
-        "modules": [
-          2
-        ],
-        "id": "3IFCT3Cc_aY",
-        "index": 6,
-        "evidence": [],
-        "workshop": "STSW02"
+        "workshop": "STSW04",
+        "rubric_tiers": {
+          "Timeless": "H",
+          "Generative": "H",
+          "Transfer": "H",
+          "Rare": "M",
+          "Worldview": "M",
+          "Primacy": "H",
+          "Density": "H"
+        },
+        "readiness": [
+          "§12b",
+          "§10",
+          "§4"
+        ]
       },
       "notes_scope": "Publisher metadata only; no transcript read in this pass.",
       "resources": []
@@ -248,39 +256,22 @@
           6
         ],
         "id": "ikcoL5zq0EY",
-        "index": 7,
+        "index": 5,
         "evidence": [],
-        "workshop": "STSW01"
-      },
-      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
-      "resources": []
-    },
-    {
-      "id": "ZO3pD2ashIQ",
-      "title": "MDLW01 | Joan Bruna | On the Sample Complexity of Learning Under Invariance and Geometric Stability",
-      "url": "https://www.youtube.com/watch?v=ZO3pD2ashIQ",
-      "published_at": "2025-12-15",
-      "duration_seconds": 1800,
-      "screening": {
-        "decision": "read_transcript",
-        "priority": "high",
-        "theme": [
-          "invariance",
-          "sample complexity",
-          "geometric priors"
-        ],
-        "publisher_promise": "Quantifies how much invariance and geometric stability reduce sample complexity for kernel methods on the sphere.",
-        "screening_reason": "Bruna is a primary architect of the geometric deep learning view, and this talk derives the sample-complexity gain from invariance (a factor of the group size) from spherical harmonics, which is a direct answer to which prior makes learning possible. Rubric: A✓ B✓ C✓ · D 1 · E 2 · F 2.",
-        "transcript_question": "Does the derivation show exactly when the group-size gain in sample complexity appears and how deformation stability extends it beyond exact invariance?",
-        "caveat": "publisher abstract only",
-        "speaker": "Dr Joan Bruna",
-        "modules": [
-          2
-        ],
-        "id": "ZO3pD2ashIQ",
-        "index": 8,
-        "evidence": [],
-        "workshop": "Mathematics of deep learning [MDLW01] (no playlist; grouped by title code)"
+        "workshop": "STSW01",
+        "rubric_tiers": {
+          "Timeless": "H",
+          "Generative": "H",
+          "Transfer": "M",
+          "Rare": "L",
+          "Worldview": "H",
+          "Primacy": "H",
+          "Density": "H"
+        },
+        "readiness": [
+          "§22",
+          "§10"
+        ]
       },
       "notes_scope": "Publisher metadata only; no transcript read in this pass.",
       "resources": []
@@ -308,9 +299,22 @@
           2
         ],
         "id": "HyieQD-O9Tc",
-        "index": 9,
+        "index": 6,
         "evidence": [],
-        "workshop": "Mathematics of deep learning [MDLW01] (no playlist; grouped by title code)"
+        "workshop": "Mathematics of deep learning [MDLW01] (no playlist; grouped by title code)",
+        "rubric_tiers": {
+          "Timeless": "M",
+          "Generative": "H",
+          "Transfer": "H",
+          "Rare": "H",
+          "Worldview": "H",
+          "Primacy": "H",
+          "Density": "M"
+        },
+        "readiness": [
+          "§33",
+          "§12"
+        ]
       },
       "notes_scope": "Publisher metadata only; no transcript read in this pass.",
       "resources": []
@@ -339,9 +343,22 @@
           3
         ],
         "id": "7fPYLGrDWis",
-        "index": 10,
+        "index": 7,
         "evidence": [],
-        "workshop": "Kirk Distinguished Visiting Fellows Lectures"
+        "workshop": "Kirk Distinguished Visiting Fellows Lectures",
+        "rubric_tiers": {
+          "Timeless": "H",
+          "Generative": "H",
+          "Transfer": "H",
+          "Rare": "H",
+          "Worldview": "H",
+          "Primacy": "H",
+          "Density": "M"
+        },
+        "readiness": [
+          "§33",
+          "§8"
+        ]
       },
       "notes_scope": "Publisher metadata only; no transcript read in this pass.",
       "resources": []
@@ -369,40 +386,21 @@
           9
         ],
         "id": "aNNS69bKKr4",
-        "index": 11,
+        "index": 8,
         "evidence": [],
-        "workshop": "Rothschild Distinguished Visiting Fellows Lectures"
-      },
-      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
-      "resources": []
-    },
-    {
-      "id": "B_RBrK_nCIQ",
-      "title": "Dr. Anders Hansen | Necessary mechanisms for super AI and stopping hallucinations: The consistent...",
-      "url": "https://www.youtube.com/watch?v=B_RBrK_nCIQ",
-      "published_at": "2026-04-21",
-      "duration_seconds": 2760,
-      "screening": {
-        "decision": "read_transcript",
-        "priority": "high",
-        "theme": [
-          "reasoning limits",
-          "hallucination",
-          "impossibility"
-        ],
-        "publisher_promise": "Title-only listing for a 46-minute talk on: Necessary mechanisms for super AI and stopping hallucinations: The consistent reasoning paradox and the indeterminacy function.",
-        "screening_reason": "Hansen is the originator of the consistent reasoning paradox, an impossibility-style result claiming that any AI which reasons consistently must sometimes hallucinate unless it can say 'I don't know'; a falsifiable structural claim about reasoning systems. Rubric: A✓ B✓ C✓ · D 2 · E 2 · F 2.",
-        "transcript_question": "Does the talk derive the consistent reasoning paradox and the indeterminacy function as a theorem with stated assumptions, and what exactly does it imply about which reasoning tasks are achievable?",
-        "caveat": "no abstract in publisher metadata; promise and rubric inferred from title, speaker and workshop only",
-        "speaker": "Anders Hansen",
-        "modules": [
-          1,
-          4
-        ],
-        "id": "B_RBrK_nCIQ",
-        "index": 12,
-        "evidence": [],
-        "workshop": "AI in Spectral Geometry, perspectives and directions: the Round Table [GSTW07]"
+        "workshop": "Rothschild Distinguished Visiting Fellows Lectures",
+        "rubric_tiers": {
+          "Timeless": "H",
+          "Generative": "H",
+          "Transfer": "H",
+          "Rare": "H",
+          "Worldview": "H",
+          "Primacy": "H",
+          "Density": "M"
+        },
+        "readiness": [
+          "§8b"
+        ]
       },
       "notes_scope": "Publisher metadata only; no transcript read in this pass.",
       "resources": []
@@ -431,70 +429,22 @@
           5
         ],
         "id": "rYkXrs1MmU4",
-        "index": 13,
+        "index": 9,
         "evidence": [],
-        "workshop": "Frontiers in complexity lower bounds [LFCW01]"
-      },
-      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
-      "resources": []
-    },
-    {
-      "id": "G1723fqlumE",
-      "title": "Mr. Thomas Hubert | AlphaProof When RL meets Formal Maths",
-      "url": "https://www.youtube.com/watch?v=G1723fqlumE",
-      "published_at": "2025-06-25",
-      "duration_seconds": 4500,
-      "screening": {
-        "decision": "read_transcript",
-        "priority": "high",
-        "theme": [
-          "search",
-          "reinforcement learning",
-          "formal proof"
-        ],
-        "publisher_promise": "Title-only listing for a 75-minute talk on: AlphaProof When RL meets Formal Maths.",
-        "screening_reason": "Hubert is a primary architect of AlphaProof (and AlphaZero lineage); RL with search over formally verified proofs is a concrete mechanism for structure becoming executable reasoning and self-improvement. Rubric: A✓ B✓ C✓ · D 1 · E 2 · F 2.",
-        "transcript_question": "Does the talk explain the mechanism (RL on verified rewards, test-time RL, autoformalized curricula) and what it reveals about why search plus verification succeeds where imitation does not?",
-        "caveat": "no abstract in publisher metadata; promise and rubric inferred from title, speaker and workshop only",
-        "speaker": "Thomas Hubert",
-        "modules": [
-          4,
-          7
-        ],
-        "id": "G1723fqlumE",
-        "index": 14,
-        "evidence": [],
-        "workshop": "Big proof: formalizing mathematics at scale [BPRW03]"
-      },
-      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
-      "resources": []
-    },
-    {
-      "id": "IlXQ4iJYcFA",
-      "title": "Dr. Desi Ivanova | Bayesian Experimental Design: Principles and Computation",
-      "url": "https://www.youtube.com/watch?v=IlXQ4iJYcFA",
-      "published_at": "2025-07-11",
-      "duration_seconds": 3840,
-      "screening": {
-        "decision": "read_transcript",
-        "priority": "high",
-        "theme": [
-          "experimental design",
-          "expected information gain",
-          "tutorial"
-        ],
-        "publisher_promise": "Title-only listing for a 64-minute talk on: Bayesian Experimental Design: Principles and Computation.",
-        "screening_reason": "Architect's tutorial central to module 5: Ivanova co-developed deep adaptive and policy-based Bayesian experimental design, which derives evidence acquisition from expected information gain. Rubric: A✓ B✓ C✓ · D 1 · E 2 · F 1.",
-        "transcript_question": "Does the tutorial derive adaptive design from expected information gain and show how amortized policies make it tractable, with the bounds used?",
-        "caveat": "no abstract in publisher metadata; promise and rubric inferred from title, speaker and workshop only",
-        "speaker": "Desi Ivanova",
-        "modules": [
-          5
-        ],
-        "id": "IlXQ4iJYcFA",
-        "index": 15,
-        "evidence": [],
-        "workshop": "Accelerating statistical inference and experimental design with machine learning [RCLW03]"
+        "workshop": "Frontiers in complexity lower bounds [LFCW01]",
+        "rubric_tiers": {
+          "Timeless": "H",
+          "Generative": "H",
+          "Transfer": "H",
+          "Rare": "H",
+          "Worldview": "H",
+          "Primacy": "H",
+          "Density": "H"
+        },
+        "readiness": [
+          "§12b",
+          "§9"
+        ]
       },
       "notes_scope": "Publisher metadata only; no transcript read in this pass.",
       "resources": []
@@ -523,40 +473,22 @@
           5
         ],
         "id": "Hcajv1zoK0g",
-        "index": 16,
+        "index": 10,
         "evidence": [],
-        "workshop": "Calibrating prediction uncertainty : statistics and machine learning perspectives [RCLW02]"
-      },
-      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
-      "resources": []
-    },
-    {
-      "id": "-n-e0IYFMN4",
-      "title": "Prof. Eyke Hüllermeier | Uncertainty Quantification in Machine Learning: From Aleatoric to Epistemic",
-      "url": "https://www.youtube.com/watch?v=-n-e0IYFMN4",
-      "published_at": "2025-06-24",
-      "duration_seconds": 3600,
-      "screening": {
-        "decision": "read_transcript",
-        "priority": "high",
-        "theme": [
-          "epistemic uncertainty",
-          "aleatoric",
-          "uncertainty quantification"
-        ],
-        "publisher_promise": "A tutorial-length treatment of separating aleatoric from epistemic uncertainty in machine learning predictions.",
-        "screening_reason": "Hüllermeier is a primary architect of the aleatoric/epistemic distinction in ML and its critique; the distinction governs which evidence is worth acquiring and what an uncertainty estimate can mean. Rubric: A✓ B✓ C✓ · D 2 · E 2 · F 2.",
-        "transcript_question": "Does the talk give a principled definition of epistemic uncertainty (e.g. second-order or credal representations) and show where common measures such as entropy decompositions fail?",
-        "caveat": "publisher metadata only (title, speaker, programme); no abstract in description; originator status and content inferred from title and speaker only",
-        "speaker": "Eyke Hüllermeier",
-        "modules": [
-          1,
-          5
-        ],
-        "id": "-n-e0IYFMN4",
-        "index": 17,
-        "evidence": [],
-        "workshop": "Calibrating prediction uncertainty : statistics and machine learning perspectives [RCLW02]"
+        "workshop": "Calibrating prediction uncertainty : statistics and machine learning perspectives [RCLW02]",
+        "rubric_tiers": {
+          "Timeless": "H",
+          "Generative": "H",
+          "Transfer": "H",
+          "Rare": "M",
+          "Worldview": "H",
+          "Primacy": "H",
+          "Density": "M"
+        },
+        "readiness": [
+          "§10",
+          "§4"
+        ]
       },
       "notes_scope": "Publisher metadata only; no transcript read in this pass.",
       "resources": []
@@ -585,9 +517,23 @@
           3
         ],
         "id": "tC52E7hJj9I",
-        "index": 18,
+        "index": 11,
         "evidence": [],
-        "workshop": "Theoretical foundations for statistical network analysis [SNA]"
+        "workshop": "Theoretical foundations for statistical network analysis [SNA]",
+        "rubric_tiers": {
+          "Timeless": "H",
+          "Generative": "H",
+          "Transfer": "H",
+          "Rare": "M",
+          "Worldview": "H",
+          "Primacy": "H",
+          "Density": "M"
+        },
+        "readiness": [
+          "§44",
+          "§4",
+          "§14"
+        ]
       },
       "notes_scope": "Publisher metadata only; no transcript read in this pass.",
       "resources": []
@@ -615,72 +561,23 @@
           2
         ],
         "id": "JnpyWRMX5e8",
-        "index": 19,
+        "index": 12,
         "evidence": [],
-        "workshop": "Statistical theory and methods for complex, high-dimensional data [SCH]"
-      },
-      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
-      "resources": []
-    },
-    {
-      "id": "P20Kz8a6Uyo",
-      "title": "MDL | Dr. Matthew Colbrook | Can stable and accurate neural networks be computed?",
-      "url": "https://www.youtube.com/watch?v=P20Kz8a6Uyo",
-      "published_at": "2025-12-15",
-      "duration_seconds": 3180,
-      "screening": {
-        "decision": "read_transcript",
-        "priority": "high",
-        "theme": [
-          "computability",
-          "stability",
-          "barriers"
-        ],
-        "publisher_promise": "Shows that some well-conditioned scientific-computing problems admit accurate, stable neural networks that no algorithm, even randomised, can train, with a graded hierarchy of achievable precision versus data, linked to Smale's 18th problem.",
-        "screening_reason": "An originator of the non-computability barrier for stable neural networks presents a foundational impossibility result separating existence of good networks from their algorithmic trainability, which reframes what approximation theorems guarantee. Rubric: A✓ B✓ C✓ · D 2 · E 2 · F 2.",
-        "transcript_question": "Does the talk derive the precision-versus-data hierarchy from a general principle about computability of learned maps, and does it say which problem classes escape the barrier?",
-        "caveat": "publisher abstract only; speaker from description",
-        "speaker": "Matthew Colbrook",
-        "modules": [
-          2,
-          4,
-          1
-        ],
-        "id": "P20Kz8a6Uyo",
-        "index": 20,
-        "evidence": [],
-        "workshop": "Mathematics of deep learning [MDL] (no playlist; grouped by title code)"
-      },
-      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
-      "resources": []
-    },
-    {
-      "id": "gTnmyMRGfmc",
-      "title": "MDLW04 | Prof. Stefanie Jegelka | Learning and Extrapolation in Graph Neural Networks",
-      "url": "https://www.youtube.com/watch?v=gTnmyMRGfmc",
-      "published_at": "2025-12-15",
-      "duration_seconds": 3900,
-      "screening": {
-        "decision": "read_transcript",
-        "priority": "high",
-        "theme": [
-          "graph neural networks",
-          "extrapolation",
-          "algorithmic alignment"
-        ],
-        "publisher_promise": "Explains how message-passing GNN invariances and architecture shape learning, generalisation and extrapolation beyond the training range.",
-        "screening_reason": "Jegelka originated the algorithmic-alignment and linear-extrapolation results for GNNs: architecture-task alignment predicts sample efficiency and how networks extrapolate. One hour by the architect, central to inductive bias and executable reasoning. Rubric: A✓ B✓ C✓ · D 1 · E 2 · F 2.",
-        "transcript_question": "Does the talk derive when architecture-task alignment yields extrapolation, and what prediction does it make for out-of-range inputs?",
-        "caveat": "publisher abstract only",
-        "speaker": "Stefanie Jegelka",
-        "modules": [
-          2,
-          4
-        ],
-        "id": "gTnmyMRGfmc",
-        "index": 21,
-        "evidence": [],
-        "workshop": "Mathematics of deep learning [MDLW04] (no playlist; grouped by title code)"
+        "workshop": "Statistical theory and methods for complex, high-dimensional data [SCH]",
+        "rubric_tiers": {
+          "Timeless": "H",
+          "Generative": "H",
+          "Transfer": "H",
+          "Rare": "M",
+          "Worldview": "H",
+          "Primacy": "H",
+          "Density": "H"
+        },
+        "readiness": [
+          "§6",
+          "§15",
+          "§43"
+        ]
       },
       "notes_scope": "Publisher metadata only; no transcript read in this pass.",
       "resources": []
@@ -709,76 +606,25 @@
           3
         ],
         "id": "8ruKndlxYB0",
-        "index": 22,
+        "index": 13,
         "evidence": [],
-        "workshop": "INI Seminar Room 1 (no playlist or code; title keyword-matched)"
+        "workshop": "INI Seminar Room 1 (no playlist or code; title keyword-matched)",
+        "rubric_tiers": {
+          "Timeless": "H",
+          "Generative": "H",
+          "Transfer": "M",
+          "Rare": "H",
+          "Worldview": "H",
+          "Primacy": "H",
+          "Density": "H"
+        },
+        "readiness": [
+          "§33",
+          "§44",
+          "§9"
+        ]
       },
       "notes_scope": "Publisher metadata only; no transcript read in this pass.",
-      "resources": []
-    },
-    {
-      "id": "EnKeielPNWM",
-      "title": "Prof. Weinan E | Mathematics of Deep Learning:  Some Open Problems",
-      "url": "https://www.youtube.com/watch?v=EnKeielPNWM",
-      "published_at": "2025-12-15",
-      "duration_seconds": 4140,
-      "screening": {
-        "decision": "read_transcript",
-        "priority": "high",
-        "theme": [
-          "open problems",
-          "function spaces",
-          "mean-field dynamics"
-        ],
-        "publisher_promise": "Lecture setting out open problems in the mathematics of deep learning.",
-        "screening_reason": "Weinan E is the architect of the function-space (Barron/flow-induced spaces) and mean-field programme for neural networks; an hour on what remains open, organised around approximation, generalisation and training dynamics, is a principled map of the field. Rubric: A✓ B✓ C✓ · D 2 · E 2 · F 1.",
-        "transcript_question": "Which open problems does E prioritise, and how does his function-space framework explain why some are hard?",
-        "caveat": "title and speaker only; no abstract in metadata",
-        "speaker": "Weinan E",
-        "modules": [
-          1,
-          2
-        ],
-        "id": "EnKeielPNWM",
-        "index": 23,
-        "evidence": [],
-        "workshop": "INI Seminar Room 1 (no playlist or code; title keyword-matched)"
-      },
-      "notes_scope": "Publisher metadata only; no transcript read in this pass.",
-      "resources": []
-    },
-    {
-      "id": "-3phFTQUxpo",
-      "title": "Prof. Edward Kennedy | Machine learning & nonparametric efficiency in causal inference  ( Part 1 )",
-      "url": "https://www.youtube.com/watch?v=-3phFTQUxpo",
-      "published_at": "2026-01-23",
-      "duration_seconds": 3420,
-      "screening": {
-        "id": "-3phFTQUxpo",
-        "index": 24,
-        "decision": "read_transcript",
-        "priority": "high",
-        "track": "maths",
-        "pillars": [
-          "§10",
-          "§22",
-          "§12"
-        ],
-        "theme": [
-          "maths track",
-          "§10",
-          "§22"
-        ],
-        "publisher_promise": "",
-        "screening_reason": "Kennedy's opening foundations lecture connects nonparametric efficiency and machine learning in a central area of his work. (Maths track: architect-taught exposition of a Compass pillar.)",
-        "evidence": [],
-        "transcript_question": "How do influence functions and orthogonality permit efficient causal estimation with learned nuisance functions?",
-        "caveat": "No substantive abstract; proof coverage and teaching depth are unverified.",
-        "speaker": "Edward Kennedy",
-        "modules": [],
-        "workshop": "Foundations of causal inference [CIFW01]"
-      },
-      "notes_scope": "Publisher metadata only; screened on the maths track by Codex; no transcript read.",
       "resources": []
     },
     {
@@ -789,7 +635,7 @@
       "duration_seconds": 3540,
       "screening": {
         "id": "513lZzSfayY",
-        "index": 25,
+        "index": 14,
         "decision": "read_transcript",
         "priority": "high",
         "track": "maths",
@@ -810,41 +656,21 @@
         "caveat": "The abstract is truncated before detailed derivations and examples.",
         "speaker": "Gabriel Peyre",
         "modules": [],
-        "workshop": "VMVW03"
-      },
-      "notes_scope": "Publisher metadata only; screened on the maths track by Codex; no transcript read.",
-      "resources": []
-    },
-    {
-      "id": "RVnYVWPf1ec",
-      "title": "VMVW03 | Prof. John Ball | Nonlinear elasticity and image processing",
-      "url": "https://www.youtube.com/watch?v=RVnYVWPf1ec",
-      "published_at": "2025-12-15",
-      "duration_seconds": 3600,
-      "screening": {
-        "id": "RVnYVWPf1ec",
-        "index": 26,
-        "decision": "read_transcript",
-        "priority": "high",
-        "track": "maths",
-        "pillars": [
-          "§25",
-          "§8",
-          "§43"
-        ],
-        "theme": [
-          "maths track",
-          "§25",
-          "§8"
-        ],
-        "publisher_promise": "",
-        "screening_reason": "Ball's explicit hour-long survey offers an architect's account of nonlinear elasticity and its variational foundations. (Maths track: architect-taught exposition of a Compass pillar.)",
-        "evidence": [],
-        "transcript_question": "How do elastic energy, admissible deformations, and nonconvexity determine existence of equilibria?",
-        "caveat": "The brief abstract does not enumerate theorems or depth of derivations.",
-        "speaker": "John Ball",
-        "modules": [],
-        "workshop": "VMVW03"
+        "workshop": "VMVW03",
+        "rubric_tiers": {
+          "Timeless": "H",
+          "Generative": "M",
+          "Transfer": "H",
+          "Rare": "M",
+          "Worldview": "M",
+          "Primacy": "H",
+          "Density": "M"
+        },
+        "readiness": [
+          "§26",
+          "§35",
+          "§48"
+        ]
       },
       "notes_scope": "Publisher metadata only; screened on the maths track by Codex; no transcript read.",
       "resources": []
@@ -857,7 +683,7 @@
       "duration_seconds": 5340,
       "screening": {
         "id": "i1IYMs1gmlA",
-        "index": 27,
+        "index": 15,
         "decision": "read_transcript",
         "priority": "high",
         "track": "maths",
@@ -878,7 +704,21 @@
         "caveat": "Metadata does not verify full mathematical coverage, derivations or prerequisites.",
         "speaker": "Professor Sebastian Reich",
         "modules": [],
-        "workshop": "DDEW01"
+        "workshop": "DDEW01",
+        "rubric_tiers": {
+          "Timeless": "H",
+          "Generative": "H",
+          "Transfer": "H",
+          "Rare": "M",
+          "Worldview": "M",
+          "Primacy": "H",
+          "Density": "M"
+        },
+        "readiness": [
+          "§30",
+          "§31",
+          "§27"
+        ]
       },
       "notes_scope": "Publisher metadata only; screened on the maths track by Codex; no transcript read.",
       "resources": []
@@ -891,7 +731,7 @@
       "duration_seconds": 3480,
       "screening": {
         "id": "P30ZG9mrQSg",
-        "index": 28,
+        "index": 16,
         "decision": "read_transcript",
         "priority": "high",
         "track": "maths",
@@ -911,140 +751,20 @@
         "caveat": "Abstract truncated; detailed derivations unverified.",
         "speaker": "Chris Oates",
         "modules": [],
-        "workshop": "UNQW01"
-      },
-      "notes_scope": "Publisher metadata only; screened on the maths track by Codex; no transcript read.",
-      "resources": []
-    },
-    {
-      "id": "yP704yu1kF4",
-      "title": "Michael Goldstein | Uncertainty analysis for complex systems modelled by computer simulators",
-      "url": "https://www.youtube.com/watch?v=yP704yu1kF4",
-      "published_at": "2025-12-15",
-      "duration_seconds": 3180,
-      "screening": {
-        "id": "yP704yu1kF4",
-        "index": 29,
-        "decision": "read_transcript",
-        "priority": "high",
-        "track": "maths",
-        "pillars": [
+        "workshop": "UNQW01",
+        "rubric_tiers": {
+          "Timeless": "H",
+          "Generative": "H",
+          "Transfer": "M",
+          "Rare": "H",
+          "Worldview": "H",
+          "Primacy": "H",
+          "Density": "M"
+        },
+        "readiness": [
           "§30",
-          "§10"
-        ],
-        "theme": [
-          "maths track",
-          "§30",
-          "§10"
-        ],
-        "publisher_promise": "",
-        "screening_reason": "A principal architect of Bayes-linear uncertainty analysis gives an explicit overview of its general methodology. (Maths track: architect-taught exposition of a Compass pillar.)",
-        "evidence": [],
-        "transcript_question": "How do emulation and history matching separate uncertainty sources and constrain plausible inputs?",
-        "caveat": "Abstract truncated; mathematical detail should be checked.",
-        "speaker": "Michael Goldstein",
-        "modules": [],
-        "workshop": "UNQW01"
-      },
-      "notes_scope": "Publisher metadata only; screened on the maths track by Codex; no transcript read.",
-      "resources": []
-    },
-    {
-      "id": "EoZhx5LPfm8",
-      "title": "STSW04 | Matthew Stephens | On applications of Empirical Bayes approaches to Normal Means problem",
-      "url": "https://www.youtube.com/watch?v=EoZhx5LPfm8",
-      "published_at": "2025-12-15",
-      "duration_seconds": 2700,
-      "screening": {
-        "id": "EoZhx5LPfm8",
-        "index": 30,
-        "decision": "read_transcript",
-        "priority": "high",
-        "track": "maths",
-        "pillars": [
-          "§10",
-          "§30"
-        ],
-        "theme": [
-          "maths track",
-          "§10",
-          "§30"
-        ],
-        "publisher_promise": "",
-        "screening_reason": "A leading empirical-Bayes researcher explains the canonical normal-means problem and the central shrinkage principle. (Maths track: architect-taught exposition of a Compass pillar.)",
-        "evidence": [],
-        "transcript_question": "Why can empirical-Bayes shrinkage outperform coordinatewise maximum likelihood?",
-        "caveat": "Abstract truncated; balance of theory and applications unverified.",
-        "speaker": "Matthew Stephens",
-        "modules": [],
-        "workshop": "STSW04"
-      },
-      "notes_scope": "Publisher metadata only; screened on the maths track by Codex; no transcript read.",
-      "resources": []
-    },
-    {
-      "id": "aRjxnM5i8_g",
-      "title": "MDL | Prof. Lexing Ying | Lecture series: Selected topics in the mathematics of deep learning",
-      "url": "https://www.youtube.com/watch?v=aRjxnM5i8_g",
-      "published_at": "2025-12-15",
-      "duration_seconds": 3720,
-      "screening": {
-        "id": "aRjxnM5i8_g",
-        "index": 31,
-        "decision": "read_transcript",
-        "priority": "high",
-        "track": "maths",
-        "pillars": [
-          "§12",
-          "§25",
           "§42"
-        ],
-        "theme": [
-          "maths track",
-          "§12",
-          "§25"
-        ],
-        "publisher_promise": "",
-        "screening_reason": "Lexing Ying lecture series on the mathematics of deep learning (NNs and PDEs); architect teaching at depth. (Maths track: architect-taught exposition of a Compass pillar.)",
-        "evidence": [],
-        "transcript_question": "How neural networks represent and solve PDEs, and what approximation theory guarantees.",
-        "caveat": "series: start with part 1; lecture order of the two parts unverified",
-        "speaker": "Professor Lexing Ying",
-        "modules": [],
-        "workshop": "Mathematics of deep learning [MDL] (no playlist; grouped by title code)"
-      },
-      "notes_scope": "Publisher metadata only; screened on the maths track by Codex; no transcript read.",
-      "resources": []
-    },
-    {
-      "id": "8kP5T1N_ACU",
-      "title": "MDL | Helmut Bölcskei | Rothschild Lecture:  The mathematical universe behind deep neural networks",
-      "url": "https://www.youtube.com/watch?v=8kP5T1N_ACU",
-      "published_at": "2025-12-15",
-      "duration_seconds": 4200,
-      "screening": {
-        "id": "8kP5T1N_ACU",
-        "index": 32,
-        "decision": "read_transcript",
-        "priority": "high",
-        "track": "maths",
-        "pillars": [
-          "§12",
-          "§14"
-        ],
-        "theme": [
-          "maths track",
-          "§12",
-          "§14"
-        ],
-        "publisher_promise": "",
-        "screening_reason": "Rothschild Lecture by Bölcskei, a leading figure in approximation theory of DNNs, on the mathematical universe behind deep networks. (Maths track: architect-taught exposition of a Compass pillar.)",
-        "evidence": [],
-        "transcript_question": "What approximation-theoretic and metric-entropy results characterize what deep networks can represent?",
-        "caveat": "named lecture; derivation depth unverified",
-        "speaker": "Professor Helmut Bölcskei",
-        "modules": [],
-        "workshop": "Mathematics of deep learning [MDL] (no playlist; grouped by title code)"
+        ]
       },
       "notes_scope": "Publisher metadata only; screened on the maths track by Codex; no transcript read.",
       "resources": []
@@ -1057,7 +777,7 @@
       "duration_seconds": 4020,
       "screening": {
         "id": "9qSjwIOpvZw",
-        "index": 33,
+        "index": 17,
         "decision": "read_transcript",
         "priority": "high",
         "track": "maths",
@@ -1077,40 +797,20 @@
         "caveat": "named lecture; derivation depth unverified",
         "speaker": "Professor James Robins",
         "modules": [],
-        "workshop": "Rothschild Distinguished Visiting Fellows Lectures"
-      },
-      "notes_scope": "Publisher metadata only; screened on the maths track by Codex; no transcript read.",
-      "resources": []
-    },
-    {
-      "id": "6h516bVWzOI",
-      "title": "Prof. Chus Sanz-Serna | Rothschild Lecture: Hamiltonian Monte Carlo and geometric integration",
-      "url": "https://www.youtube.com/watch?v=6h516bVWzOI",
-      "published_at": "2023-03-22",
-      "duration_seconds": 3300,
-      "screening": {
-        "id": "6h516bVWzOI",
-        "index": 34,
-        "decision": "read_transcript",
-        "priority": "high",
-        "track": "maths",
-        "pillars": [
-          "§32",
-          "§42"
-        ],
-        "theme": [
-          "maths track",
-          "§32",
-          "§42"
-        ],
-        "publisher_promise": "",
-        "screening_reason": "Rothschild lecture by Sanz-Serna, architect of geometric integration, on HMC. (Maths track: architect-taught exposition of a Compass pillar.)",
-        "evidence": [],
-        "transcript_question": "Why symplectic integrators make Hamiltonian Monte Carlo work.",
-        "caveat": "named lecture; derivation depth unverified",
-        "speaker": "Professor Chus Sanz-Serna",
-        "modules": [],
-        "workshop": "Rothschild Distinguished Visiting Fellows Lectures"
+        "workshop": "Rothschild Distinguished Visiting Fellows Lectures",
+        "rubric_tiers": {
+          "Timeless": "H",
+          "Generative": "H",
+          "Transfer": "M",
+          "Rare": "L",
+          "Worldview": "H",
+          "Primacy": "H",
+          "Density": "M"
+        },
+        "readiness": [
+          "§22",
+          "§10"
+        ]
       },
       "notes_scope": "Publisher metadata only; screened on the maths track by Codex; no transcript read.",
       "resources": []
@@ -1123,7 +823,7 @@
       "duration_seconds": 3780,
       "screening": {
         "id": "L-AEmnHsiTQ",
-        "index": 35,
+        "index": 18,
         "decision": "read_transcript",
         "priority": "high",
         "track": "maths",
@@ -1144,73 +844,21 @@
         "caveat": "named lecture; derivation depth unverified",
         "speaker": "Professor Andrew Stuart",
         "modules": [],
-        "workshop": "Rothschild Distinguished Visiting Fellows Lectures"
-      },
-      "notes_scope": "Publisher metadata only; screened on the maths track by Codex; no transcript read.",
-      "resources": []
-    },
-    {
-      "id": "wIlPk66x1T0",
-      "title": "Prof. Martin Hairer | Rothschild Lecture: Random rubber bands",
-      "url": "https://www.youtube.com/watch?v=wIlPk66x1T0",
-      "published_at": "2023-03-22",
-      "duration_seconds": 4380,
-      "screening": {
-        "id": "wIlPk66x1T0",
-        "index": 36,
-        "decision": "read_transcript",
-        "priority": "high",
-        "track": "maths",
-        "pillars": [
-          "§27",
-          "§25"
-        ],
-        "theme": [
-          "maths track",
-          "§27",
-          "§25"
-        ],
-        "publisher_promise": "",
-        "screening_reason": "Rothschild lecture by Hairer, the architect of regularity structures, on random rubber bands (stochastic PDE). (Maths track: architect-taught exposition of a Compass pillar.)",
-        "evidence": [],
-        "transcript_question": "What makes singular SPDEs ill-posed and how they are renormalized.",
-        "caveat": "named lecture; may be accessible rather than technical",
-        "speaker": "Professor Martin Hairer",
-        "modules": [],
-        "workshop": "Rothschild Distinguished Visiting Fellows Lectures"
-      },
-      "notes_scope": "Publisher metadata only; screened on the maths track by Codex; no transcript read.",
-      "resources": []
-    },
-    {
-      "id": "ZdDi-w1iwac",
-      "title": "Prof. Leonid Pastur | Rothschild Lecture: Disordered systems and related spectra",
-      "url": "https://www.youtube.com/watch?v=ZdDi-w1iwac",
-      "published_at": "2023-03-21",
-      "duration_seconds": 4260,
-      "screening": {
-        "id": "ZdDi-w1iwac",
-        "index": 37,
-        "decision": "read_transcript",
-        "priority": "high",
-        "track": "maths",
-        "pillars": [
-          "§29",
-          "§33"
-        ],
-        "theme": [
-          "maths track",
-          "§29",
-          "§33"
-        ],
-        "publisher_promise": "",
-        "screening_reason": "Rothschild lecture by Pastur, a founder of random matrix theory, on disordered systems and their spectra. (Maths track: architect-taught exposition of a Compass pillar.)",
-        "evidence": [],
-        "transcript_question": "How spectra of random operators (Marchenko-Pastur, localization) are derived.",
-        "caveat": "named lecture; derivation depth unverified",
-        "speaker": "Professor Leonid Pastur",
-        "modules": [],
-        "workshop": "Rothschild Distinguished Visiting Fellows Lectures"
+        "workshop": "Rothschild Distinguished Visiting Fellows Lectures",
+        "rubric_tiers": {
+          "Timeless": "H",
+          "Generative": "M",
+          "Transfer": "H",
+          "Rare": "M",
+          "Worldview": "H",
+          "Primacy": "H",
+          "Density": "M"
+        },
+        "readiness": [
+          "§31",
+          "§30",
+          "§49"
+        ]
       },
       "notes_scope": "Publisher metadata only; screened on the maths track by Codex; no transcript read.",
       "resources": []
@@ -1223,7 +871,7 @@
       "duration_seconds": 4020,
       "screening": {
         "id": "TeQbOFqXMrY",
-        "index": 38,
+        "index": 19,
         "decision": "read_transcript",
         "priority": "high",
         "track": "maths",
@@ -1243,7 +891,20 @@
         "caveat": "named lecture; derivation depth unverified",
         "speaker": "Professor Avi Wigderson",
         "modules": [],
-        "workshop": "Rothschild Distinguished Visiting Fellows Lectures"
+        "workshop": "Rothschild Distinguished Visiting Fellows Lectures",
+        "rubric_tiers": {
+          "Timeless": "H",
+          "Generative": "H",
+          "Transfer": "H",
+          "Rare": "M",
+          "Worldview": "H",
+          "Primacy": "H",
+          "Density": "H"
+        },
+        "readiness": [
+          "§11",
+          "§12b"
+        ]
       },
       "notes_scope": "Publisher metadata only; screened on the maths track by Codex; no transcript read.",
       "resources": []

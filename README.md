@@ -10,7 +10,7 @@ This collection is part of that work. I use podcasts, lectures and courses to fi
 
 The [core](core/README.md) lists the ideas to master before branching out: 32 lenses and 35 phenomena, each with its root text, a teaching source where needed, and for phenomena a current-status source. The backlog supplies sources for the core and material for branching beyond it.
 
-I keep podcasts, lectures and courses in one [shared report](index.html), with a common learning path, search and source filter. Its **Backlog** tab lists every high-priority candidate not yet reviewed, filterable by source, track (main screen, maths track, originators by school), school of thought or Compass pillar. Each episode identifies its publisher and format. Source-specific data stays in `collections/`; the report combines it.
+Everything sits in one [Library](index.html): the 131 episodes with transcript notes and the 443 candidates not yet reviewed, in a single list. Each item is marked reviewed or not yet reviewed, and tied to the core ideas it serves. Pick a core idea to see its root text, where to start, and every item that teaches it or goes deeper, best sources first. Search and the status and source filters work across the whole list. Each episode identifies its publisher and format. Source-specific data stays in `collections/`; the Library combines it, and `core/links.json` records which items serve which ideas.
 
 MLST is the first collection. Its channel snapshot was taken on **26 October 2026**:
 
@@ -18,7 +18,7 @@ MLST is the first collection. Its channel snapshot was taken on **26 October 202
 - **131 high-priority episodes reviewed in depth**, published between **9 April 2020 and 9 October 2026**.
 - **53 core contributions, 60 worthwhile additions, 14 selections of specific passages and 4 drops** after transcript review.
 
-[Follow the learning path](learning-path.md) · [Browse the episode reviews](collections/mlst/README.md) · [See the first filter](collections/mlst/screening.md)
+[Open the Library](index.html) · [The earlier MLST learning path](learning-path.md) · [Browse the episode reviews](collections/mlst/README.md) · [See the first filter](collections/mlst/screening.md)
 
 The learning path starts with Wilson, Koolen and Bronstein for orientation, then follows nine questions from evaluation and learning structure through reasoning, action and open-ended discovery. It is a suggested conceptual order; the deeper branches are optional.
 

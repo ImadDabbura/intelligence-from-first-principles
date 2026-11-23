@@ -12,6 +12,7 @@ import build_mlst
 
 ROOT = Path(__file__).resolve().parents[1]
 DECISIONS = {'core', 'worthwhile', 'selected_passages', 'drop'}
+RELATIONS = {'ROOT', 'ORIGINATOR', 'TEACHING', 'EXTENSION'}
 REVIEW_FIELDS = {'id', 'title', 'decision', 'coverage', 'confidence', 'thesis', 'contributions', 'mathematical_anatomy', 'evidence_and_limits', 'first_principles_value', 'watch_guidance', 'counterarguments', 'exercise', 'connections'}
 
 
@@ -105,6 +106,20 @@ def build_shared(root=ROOT):
 
     by_key = {e['key']: e for e in episodes}
     assert len(by_key) == len(episodes), 'Duplicate global episode keys'
+    # The core ideas and the links from library items to them (optional: a repository without core/ still builds).
+    core, links = [], {}
+    if (root / 'core/core.json').exists():
+        core = [{k: c.get(k) for k in ['id', 'kind', 'tier', 'name', 'statement', 'requires', 'root', 'teaching', 'status_source', 'order']}
+                for c in load(root / 'core/core.json')]
+        core_ids = {c['id'] for c in core}
+        assert len(core_ids) == len(core), 'Duplicate core ids'
+        links = load(root / 'core/links.json') if (root / 'core/links.json').exists() else {}
+        for key, maps in links.items():
+            for m in maps:
+                assert m['id'] in core_ids, f'{key}: unknown core id {m["id"]}'
+                assert m['relation'] in RELATIONS, f'{key}: unknown relation {m["relation"]}'
+    for item in episodes + backlog:
+        item['core'] = links.get(item['key'], [])
     roadmap = load(root / 'learning-path.json')
     refs = list(roadmap['start'])
     for module in roadmap['modules']:
@@ -119,7 +134,7 @@ def build_shared(root=ROOT):
         'summary': {'screened': len(screened), 'reviewed': len(episodes),
                     'decisions': dict(Counter(e['decision'] for e in episodes)),
                     'inventory_range': publication_range(screened), 'reviewed_range': publication_range(episodes)},
-        'episodes': episodes, 'roadmap': roadmap, 'backlog': backlog,
+        'episodes': episodes, 'roadmap': roadmap, 'backlog': backlog, 'core': core,
     }
     template = (root / 'scripts/report-template.html').read_text(encoding='utf-8')
     assert template.count('__PAYLOAD__') == 1

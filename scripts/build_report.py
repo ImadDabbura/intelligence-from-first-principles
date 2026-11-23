@@ -89,10 +89,10 @@ def build_shared(root=ROOT):
         collections.append(dict(collection, screened=len(screen), reviewed=len(metadata),
                                 inventory_range=publication_range(screen), reviewed_range=publication_range(metadata)))
         screened.extend(screen)
-        reviewed_ids = {e['id'] for e in metadata}
+        # The Library lists every high-priority screened item from every source in the same form.
         for item in screen:
             sc = item.get('screening') or {}
-            if sc.get('priority') != 'high' or item['id'] in reviewed_ids:
+            if sc.get('priority') != 'high':
                 continue
             web(item['url'])
             backlog.append({
@@ -118,8 +118,9 @@ def build_shared(root=ROOT):
             for m in maps:
                 assert m['id'] in core_ids, f'{key}: unknown core id {m["id"]}'
                 assert m['relation'] in RELATIONS, f'{key}: unknown relation {m["relation"]}'
-    for item in episodes + backlog:
+    for item in backlog:
         item['core'] = links.get(item['key'], [])
+    assert set(links) <= {b['key'] for b in backlog}, 'core/links.json names items that are not in the Library'
     roadmap = load(root / 'learning-path.json')
     refs = list(roadmap['start'])
     for module in roadmap['modules']:
@@ -138,9 +139,11 @@ def build_shared(root=ROOT):
     }
     template = (root / 'scripts/report-template.html').read_text(encoding='utf-8')
     assert template.count('__PAYLOAD__') == 1
+    # The page shows the Library only; transcript reviews stay in the collection files and report.json.
+    page = {k: payload[k] for k in ['schema_version', 'collections', 'summary', 'backlog', 'core']}
     outputs = {
         root / 'report.json': dump(payload),
-        root / 'index.html': template.replace('__PAYLOAD__', json.dumps(payload, ensure_ascii=False).replace('</', '<\\/')),
+        root / 'index.html': template.replace('__PAYLOAD__', json.dumps(page, ensure_ascii=False).replace('</', '<\\/')),
     }
 
     def episode_link(key):

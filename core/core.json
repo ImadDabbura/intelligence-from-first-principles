@@ -34,7 +34,7 @@
   "thread": "inference",
   "pillars": [
    "§9",
-   "§30"
+   "§51"
   ],
   "requires": [
    "L1"
@@ -69,8 +69,7 @@
   "statement": "Bayesian updating & exchangeability",
   "thread": "inference",
   "pillars": [
-   "§4",
-   "§30"
+   "§4"
   ],
   "requires": [],
   "root_short": "Bayes 1763",
@@ -104,7 +103,7 @@
   "thread": "inference",
   "pillars": [
    "§4",
-   "§28"
+   "§10"
   ],
   "requires": [],
   "root_short": "Fisher 1922",
@@ -138,7 +137,7 @@
   "thread": "inference",
   "pillars": [
    "§9",
-   "§12"
+   "§50"
   ],
   "requires": [
    "L1",
@@ -174,8 +173,7 @@
   "statement": "Learnability, inductive bias & capacity",
   "thread": "generalization",
   "pillars": [
-   "§12",
-   "§12b"
+   "§9"
   ],
   "requires": [
    "L9",
@@ -212,7 +210,7 @@
   "thread": "inference",
   "pillars": [
    "§4",
-   "§6"
+   "§10"
   ],
   "requires": [
    "L6"
@@ -247,9 +245,8 @@
   "statement": "Decisions under uncertainty: tests, signal detection, sequential evidence, value, exploration",
   "thread": "mechanisms",
   "pillars": [
-   "§4",
    "§18",
-   "§49"
+   "§4"
   ],
   "requires": [
    "L3",
@@ -285,9 +282,7 @@
   "statement": "Search, tractability & bounded rationality",
   "thread": "agency",
   "pillars": [
-   "§2b",
-   "§12b",
-   "§47"
+   "§50"
   ],
   "requires": [
    "L10"
@@ -322,8 +317,7 @@
   "statement": "Computation, universality & its limits",
   "thread": "compute",
   "pillars": [
-   "§2b",
-   "§47"
+   "§50"
   ],
   "requires": [],
   "root_short": "Turing 1936",
@@ -356,7 +350,7 @@
   "statement": "Formal languages & the grammar hierarchy",
   "thread": "language",
   "pillars": [
-   "§2b"
+   "§50"
   ],
   "requires": [
    "L10"
@@ -391,7 +385,6 @@
   "statement": "Credit assignment & error-driven learning",
   "thread": "mechanisms",
   "pillars": [
-   "§1b",
    "§7",
    "§18"
   ],
@@ -426,8 +419,7 @@
   "statement": "World models & cognitive maps: model-based vs model-free",
   "thread": "mechanisms",
   "pillars": [
-   "§18",
-   "§20"
+   "§18"
   ],
   "requires": [
    "L8",
@@ -464,7 +456,7 @@
   "thread": "memory",
   "pillars": [
    "§2",
-   "§33"
+   "§51"
   ],
   "requires": [],
   "root_short": "Hopfield 1982",
@@ -497,8 +489,7 @@
   "statement": "Representational geometry: similarity, dimensionality, manifolds",
   "thread": "generalization",
   "pillars": [
-   "§2",
-   "§6"
+   "§2"
   ],
   "requires": [],
   "root_short": "Shepard 1987",
@@ -531,8 +522,7 @@
   "statement": "Statistical mechanics: ensembles & typical-case analysis",
   "thread": "physics",
   "pillars": [
-   "§5",
-   "§33"
+   "§51"
   ],
   "requires": [],
   "root_short": "Boltzmann 1877",
@@ -565,7 +555,7 @@
   "statement": "Order parameters, broken symmetry & phase transitions",
   "thread": "physics",
   "pillars": [
-   "§33"
+   "§51"
   ],
   "requires": [
    "L16",
@@ -601,8 +591,7 @@
   "statement": "Scaling, coarse-graining & renormalization",
   "thread": "physics",
   "pillars": [
-   "§33",
-   "§26"
+   "§51"
   ],
   "requires": [
    "L16",
@@ -638,7 +627,7 @@
   "statement": "Disorder & rugged landscapes: energy, loss, fitness",
   "thread": "physics",
   "pillars": [
-   "§33",
+   "§51",
    "§7"
   ],
   "requires": [
@@ -675,8 +664,7 @@
   "statement": "Noise-driven dynamics: diffusion, barrier escape, fluctuation–dissipation",
   "thread": "physics",
   "pillars": [
-   "§27",
-   "§32"
+   "§1c"
   ],
   "requires": [
    "L16"
@@ -744,8 +732,8 @@
   "statement": "Concentration of measure & high-dimensional geometry",
   "thread": "generalization",
   "pillars": [
-   "§6",
-   "§5"
+   "§4",
+   "§2"
   ],
   "requires": [],
   "root_short": "Lévy 1922",
@@ -777,9 +765,7 @@
   "name": "Variation, selection & drift",
   "statement": "Variation, selection & drift",
   "thread": "evolution",
-  "pillars": [
-   "§4"
-  ],
+  "pillars": [],
   "requires": [],
   "root_short": "Darwin 1859",
   "root": {
@@ -810,9 +796,7 @@
   "name": "Strategic interaction & signalling",
   "statement": "Strategic interaction & signalling",
   "thread": "agency",
-  "pillars": [
-   "§19"
-  ],
+  "pillars": [],
   "requires": [],
   "root_short": "von Neumann 1928",
   "root": {
@@ -844,8 +828,7 @@
   "statement": "Causality: conditional independence → intervention",
   "thread": "inference",
   "pillars": [
-   "§22",
-   "§20"
+   "§22"
   ],
   "requires": [],
   "root_short": "Wright 1921",
@@ -999,7 +982,9 @@
   "statement": "Thermodynamics of computation",
   "thread": "physics",
   "pillars": [
-   "§9"
+   "§51",
+   "§9",
+   "§50"
   ],
   "requires": [
    "L1",
@@ -1036,8 +1021,7 @@
   "statement": "Symmetry & invariance",
   "thread": "generalization",
   "pillars": [
-   "§14b",
-   "§46"
+   "§14b"
   ],
   "requires": [],
   "root_short": "Klein 1872",
@@ -1070,7 +1054,7 @@
   "statement": "Feedback & regulation",
   "thread": "agency",
   "pillars": [
-   "§49",
+   "§18",
    "§1c"
   ],
   "requires": [

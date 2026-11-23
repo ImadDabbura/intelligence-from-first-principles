@@ -10,6 +10,8 @@ Items are grouped into threads. The order inside the study plan comes from the d
 
 `core.json` holds the same records in machine-readable form.
 
+The 27 schools used in that tally are listed in [The schools](SCHOOLS.md), each with its founding claim, its root texts and the lenses it rests on.
+
 ## Computation and explanation
 
 <a id="l10"></a>

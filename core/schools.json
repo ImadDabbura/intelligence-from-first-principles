@@ -1,0 +1,405 @@
+[
+ {
+  "id": "S1",
+  "name": "Statistical learning theory",
+  "claim": "Learning from finite samples is possible exactly when the hypothesis class has controlled capacity (finite VC dimension), which makes empirical frequencies converge to true risks uniformly over the class.",
+  "roots": "Vapnik & Chervonenkis 1971, \"On the uniform convergence of relative frequencies of events to their probabilities\", *Theory Probab. Appl.* 16(2):264–280; Valiant 1984 \"A theory of the learnable\"; Vapnik 1995 *The Nature of Statistical Learning Theory*",
+  "lenses": [
+   "L6",
+   "L22"
+  ],
+  "phenomena": [
+   "P1"
+  ],
+  "group": "learning"
+ },
+ {
+  "id": "S2",
+  "name": "Statistical physics of learning",
+  "claim": "Learning in large systems can be studied as the typical-case thermodynamics of a disordered system: the volume of weight space that is consistent with the data gives capacity, learning curves and phase transitions.",
+  "roots": "Gardner 1988, \"The space of interactions in neural network models\", *J. Phys. A* 21(1):257–270; Seung, Sompolinsky & Tishby 1992, \"Statistical mechanics of learning from examples\", *Phys. Rev. A* 45:6056–6091; Hopfield 1982, \"Neural networks and physical systems with emergent collective computational abilities\", *PNAS* 79(8):2554–2558",
+  "lenses": [
+   "L14",
+   "L16",
+   "L17",
+   "L19"
+  ],
+  "phenomena": [
+   "P1",
+   "P5"
+  ],
+  "group": "learning"
+ },
+ {
+  "id": "S3",
+  "name": "Deep learning theory",
+  "claim": "Deep networks generalise and learn features for reasons that classical capacity theory does not capture. These include implicit bias of the optimiser, infinite-width/kernel limits, and effective theories in depth/width.",
+  "roots": "Zhang, Bengio, Hardt, Recht & Vinyals 2017, \"Understanding deep learning requires rethinking generalization\", ICLR (arXiv:1611.03530), which states the problem; Jacot, Gabriel & Hongler 2018, \"Neural tangent kernel\", NeurIPS 31; Roberts & Yaida (with Hanin) 2022, *The Principles of Deep Learning Theory*, CUP",
+  "lenses": [
+   "L6",
+   "L16",
+   "L18"
+  ],
+  "phenomena": [
+   "P1",
+   "P2",
+   "P3"
+  ],
+  "group": "learning"
+ },
+ {
+  "id": "S24",
+  "name": "Kernel methods",
+  "claim": "Nonlinear learning becomes linear in a reproducing-kernel Hilbert space: similarity is an inner product in feature space, and regularised solutions lie in the span of the data (representer theorem).",
+  "roots": "Aronszajn 1950, \"Theory of reproducing kernels\", *Trans. AMS* 68:337–404; Boser, Guyon & Vapnik 1992, \"A training algorithm for optimal margin classifiers\", COLT '92 pp. 144–152; Kimeldorf & Wahba 1971",
+  "lenses": [
+   "L6",
+   "L15",
+   "L22"
+  ],
+  "phenomena": [],
+  "group": "learning"
+ },
+ {
+  "id": "S15",
+  "name": "Geometric deep learning and symmetry",
+  "claim": "Successful architectures are derived from the symmetry group of the data domain (grids, groups, graphs, geodesics, gauges). Equivariance is the inductive bias that defeats the curse of dimensionality.",
+  "roots": "Bronstein, Bruna, Cohen & Veličković 2021, \"Geometric deep learning: grids, groups, graphs, geodesics, and gauges\", arXiv:2104.13478; Klein 1872; Cohen & Welling 2016 G-CNNs",
+  "lenses": [
+   "L6",
+   "L22",
+   "L31"
+  ],
+  "phenomena": [],
+  "group": "learning"
+ },
+ {
+  "id": "S20",
+  "name": "Information geometry",
+  "claim": "A family of probability distributions is a Riemannian manifold with the Fisher metric, which is unique under sufficient-statistic invariance. Learning and estimation are geometric, and the natural gradient is Fisher-efficient.",
+  "roots": "Rao 1945, \"Information and the accuracy attainable in the estimation of statistical parameters\", *Bull. Calcutta Math. Soc.* 37:81; Amari 1985 *Differential-Geometrical Methods in Statistics*; Amari 1998, \"Natural gradient works efficiently in learning\", *Neural Computation* 10:251–276",
+  "lenses": [
+   "L4",
+   "L31"
+  ],
+  "phenomena": [],
+  "group": "learning"
+ },
+ {
+  "id": "S4",
+  "name": "Bayesian and probabilistic modelling",
+  "claim": "All uncertainty is represented by probability, and learning is conditioning a joint model (prior × likelihood) on data. Model comparison by marginal likelihood builds in Occam's razor.",
+  "roots": "Cox 1946 / Jaynes 2003; Pearl 1988, *Probabilistic Reasoning in Intelligent Systems*; MacKay 1992, \"Bayesian interpolation\", *Neural Computation* 4:415–447",
+  "lenses": [
+   "L3",
+   "L4",
+   "L25"
+  ],
+  "phenomena": [],
+  "group": "inference"
+ },
+ {
+  "id": "S6",
+  "name": "Algorithmic information and universal induction",
+  "claim": "The best prediction weights every computable hypothesis by 2^−(program length). Regularity is compressibility, and universal (uncomputable) induction is optimal up to a constant.",
+  "roots": "Solomonoff 1964, \"A formal theory of inductive inference, Part I\", *Information and Control* 7(1):1–22, Part II 7(2):224–254; Kolmogorov 1965, \"Three approaches to the quantitative definition of information\", *Probl. Peredachi Inf.* 1(1):3–11 (English 1968); Hutter 2005, *Universal Artificial Intelligence*",
+  "lenses": [
+   "L3",
+   "L5",
+   "L10"
+  ],
+  "phenomena": [],
+  "group": "inference"
+ },
+ {
+  "id": "S7",
+  "name": "Information-theoretic: efficient coding, infomax, the information bottleneck",
+  "claim": "Sensory systems and learners should transmit or keep the most relevant information under capacity limits. Redundancy reduction and relevance-compression trade-offs predict neural codes and representations.",
+  "roots": "Barlow 1961, \"Possible principles underlying the transformations of sensory messages\", in Rosenblith (ed.) *Sensory Communication*, MIT Press, pp. 217–234; Laughlin 1981, \"A simple coding procedure enhances a neuron's information capacity\", *Z. Naturforsch. C* 36:910–912; Tishby, Pereira & Bialek, \"The information bottleneck method\", Allerton 1999 / arXiv physics/0004057 (2000)",
+  "lenses": [
+   "L1",
+   "L5"
+  ],
+  "phenomena": [
+   "P11",
+   "P19",
+   "P30"
+  ],
+  "group": "inference"
+ },
+ {
+  "id": "S14",
+  "name": "Causality",
+  "claim": "Causal knowledge is knowledge of what happens under intervention. It cannot be reduced to correlation, and it can be learned from data plus structural assumptions (graphs, potential outcomes).",
+  "roots": "Pearl 2000; Spirtes, Glymour & Scheines 1993, *Causation, Prediction, and Search*; Rubin 1974, \"Estimating causal effects of treatments in randomized and nonrandomized studies\", *J. Educ. Psychol.* 66(5):688–701",
+  "lenses": [
+   "L25"
+  ],
+  "phenomena": [],
+  "group": "inference"
+ },
+ {
+  "id": "S17",
+  "name": "Symbolic and compositional: symbolic AI, the language of thought",
+  "claim": "Intelligence consists in manipulating structured symbols by rules. A physical symbol system is necessary and sufficient for general intelligent action, and thought has a combinatorial syntax and semantics.",
+  "roots": "Newell & Simon 1976, \"Computer science as empirical inquiry: symbols and search\", *CACM* 19(3) (Turing lecture); Fodor 1975 *The Language of Thought*; Fodor & Pylyshyn 1988, \"Connectionism and cognitive architecture\", *Cognition* 28:3–71",
+  "lenses": [
+   "L9",
+   "L10",
+   "L26",
+   "L28"
+  ],
+  "phenomena": [
+   "P31"
+  ],
+  "group": "mind"
+ },
+ {
+  "id": "S21",
+  "name": "Connectionism, PDP and adaptive resonance",
+  "claim": "Cognition comes from distributed patterns of activity across simple units, and learning is gradual adjustment of connection weights by local or error-driven rules. ART adds that stable learning requires top-down expectations matched against bottom-up input (resonance), which addresses the stability–plasticity dilemma.",
+  "roots": "Rumelhart, McClelland & PDP Research Group 1986, *Parallel Distributed Processing*, Vol. 1, MIT Press; Rumelhart, Hinton & Williams 1986 *Nature*; Grossberg 1976, \"Adaptive pattern classification and universal recoding\", *Biol. Cybern.* 23(3):121–134, and Part II, \"Feedback, expectation, olfaction, illusions\", 23(4):187–202, where adaptive resonance was introduced",
+  "lenses": [
+   "L12",
+   "L14",
+   "L15"
+  ],
+  "phenomena": [
+   "P4",
+   "P20",
+   "P31"
+  ],
+  "group": "mind"
+ },
+ {
+  "id": "S5",
+  "name": "Bayesian cognition",
+  "claim": "Human learning and inference approximate rational Bayesian inference over structured (often symbolic or causal) hypothesis spaces, given the structure of the environment. Abstract priors are learned hierarchically, which explains learning that outruns the data.",
+  "roots": "Anderson 1990, *The Adaptive Character of Thought* (rational analysis); Tenenbaum, Kemp, Griffiths & Goodman 2011, \"How to grow a mind\", *Science* 331:1279–1285; Knill & Pouget 2004, \"The Bayesian brain\", *TINS* 27:712–719",
+  "lenses": [
+   "L3",
+   "L6",
+   "L7",
+   "L26"
+  ],
+  "phenomena": [
+   "P7",
+   "P10",
+   "P13",
+   "P15",
+   "P16"
+  ],
+  "group": "mind"
+ },
+ {
+  "id": "S22",
+  "name": "Predictive processing",
+  "claim": "The brain is a hierarchical prediction machine. Top-down predictions are matched against input, and only precision-weighted prediction errors are passed upward and used for learning.",
+  "roots": "Rao & Ballard 1999, \"Predictive coding in the visual cortex\", *Nat. Neurosci.* 2(1):79–87; Clark 2013, \"Whatever next?\", *BBS* 36(3):181–204; Helmholtz 1867 / Srinivasan, Laughlin & Dubs 1982",
+  "lenses": [
+   "L3",
+   "L5",
+   "L12",
+   "L13",
+   "L27"
+  ],
+  "phenomena": [
+   "P19",
+   "P24"
+  ],
+  "group": "mind"
+ },
+ {
+  "id": "S16",
+  "name": "Free energy and active inference",
+  "claim": "Any self-organising system that persists minimises variational free energy, a bound on surprise under a generative model. Perception, learning and action are all forms of this minimisation.",
+  "roots": "Friston 2010, \"The free-energy principle: a unified brain theory?\", *Nat. Rev. Neurosci.* 11:127–138; Friston, Kilner & Harrison 2006; Parr, Pezzulo & Friston 2022 *Active Inference*",
+  "lenses": [
+   "L2",
+   "L3",
+   "L13",
+   "L32"
+  ],
+  "phenomena": [
+   "P6"
+  ],
+  "group": "mind"
+ },
+ {
+  "id": "S8",
+  "name": "Normative neuroscience",
+  "claim": "Neural design is explained by deriving the optimal solution to a stated objective under physical, metabolic and noise constraints, then comparing it with the system. Deviations reveal hidden objectives or constraints.",
+  "roots": "Barlow 1961 (above); Laughlin 1981; Sterling & Laughlin 2015, *Principles of Neural Design*, MIT Press; Bialek 2012, *Biophysics: Searching for Principles*; Marr 1982; for the normative framing as a method, see the review arXiv:2003.13825",
+  "lenses": [
+   "L1",
+   "L5",
+   "L26"
+  ],
+  "phenomena": [
+   "P11",
+   "P16",
+   "P19",
+   "P29"
+  ],
+  "group": "mind"
+ },
+ {
+  "id": "S9",
+  "name": "Dynamical-systems neuroscience",
+  "claim": "Neural computation is carried out by the flow of population activity through a low-dimensional state space (attractors, line attractors, rotations), shaped by connectivity and inputs.",
+  "roots": "Hopfield 1982, \"Neural networks and physical systems with emergent collective computational abilities\", *PNAS* 79(8):2554–2558; Vyas, Golub, Sussillo & Shenoy 2020, \"Computation through neural population dynamics\", *Annu. Rev. Neurosci.* 43:249–275; Wilson & Cowan 1972; van Gelder 1995 \"What might cognition be, if not computation?\"",
+  "lenses": [
+   "L14",
+   "L15",
+   "L21"
+  ],
+  "phenomena": [
+   "P21",
+   "P28"
+  ],
+  "group": "mind"
+ },
+ {
+  "id": "S27",
+  "name": "Generative and usage-based linguistics",
+  "claim": "Two rival claims about one fact. Generative: children acquire a grammar that their input underdetermines, so part of linguistic structure is innate and specific to language. Usage-based: grammar is built from language use by general learning and social cognition, with no innate grammar.",
+  "roots": "Chomsky 1957 *Syntactic Structures* / 1965 *Aspects*; Hauser, Chomsky & Fitch 2002, *Science* 298:1569–1579; Tomasello 2003, *Constructing a Language*, Harvard UP; Crain & Nakayama 1987, *Language* 63(3):522–543 (poverty-of-stimulus evidence)",
+  "lenses": [
+   "L6",
+   "L11",
+   "L26",
+   "L29"
+  ],
+  "phenomena": [
+   "P8",
+   "P25",
+   "P31",
+   "P32"
+  ],
+  "group": "mind"
+ },
+ {
+  "id": "S10",
+  "name": "Control, reinforcement learning and decision",
+  "claim": "Intelligent behaviour is choosing actions to maximise long-run value under uncertainty. Learning comes from temporal-difference prediction errors that approximate the Bellman equation.",
+  "roots": "Bellman 1957; Sutton 1988, \"Learning to predict by the methods of temporal differences\", *Machine Learning* 3:9–44; von Neumann & Morgenstern 1944; Kalman 1960",
+  "lenses": [
+   "L8",
+   "L12"
+  ],
+  "phenomena": [
+   "P6",
+   "P9"
+  ],
+  "group": "action"
+ },
+ {
+  "id": "S18",
+  "name": "Cybernetics",
+  "claim": "Purposeful behaviour in animals and machines is feedback-controlled. A regulator must have requisite variety and, in its simplest optimal form, contain a model of the system it regulates.",
+  "roots": "Rosenblueth, Wiener & Bigelow 1943, \"Behavior, purpose and teleology\", *Phil. Sci.* 10(1):18–24; Wiener 1948; Ashby 1956; Conant & Ashby 1970, *Int. J. Systems Sci.* 1(2):89–97",
+  "lenses": [
+   "L1",
+   "L32"
+  ],
+  "phenomena": [],
+  "group": "action"
+ },
+ {
+  "id": "S23",
+  "name": "Enactivism and embodied cognition",
+  "claim": "Cognition is not building internal world models. It is the skilled, embodied activity of an autonomous organism coupled to its environment. Perception is mastery of sensorimotor contingencies.",
+  "roots": "Varela, Thompson & Rosch 1991, *The Embodied Mind*; O'Regan & Noë 2001, \"A sensorimotor account of vision and visual consciousness\", *BBS* 24(5):939–973; Brooks 1991 \"Intelligence without representation\"",
+  "lenses": [
+   "L21",
+   "L32"
+  ],
+  "phenomena": [
+   "P23",
+   "P24"
+  ],
+  "group": "action"
+ },
+ {
+  "id": "S11",
+  "name": "Thermodynamics of computation and learning",
+  "claim": "Information processing has unavoidable thermodynamic costs. Erasure costs kT ln 2, the information a learner acquires is bounded by entropy production, and energy-efficient memory must be predictive.",
+  "roots": "Landauer 1961; Bennett 1982; Still, Sivak, Bell & Crooks 2012, \"Thermodynamics of prediction\", *PRL* 109:120604; Goldt & Seifert 2017, \"Stochastic thermodynamics of learning\", *PRL* 118:010601",
+  "lenses": [
+   "L1",
+   "L20",
+   "L30"
+  ],
+  "phenomena": [
+   "P29"
+  ],
+  "group": "life"
+ },
+ {
+  "id": "S12",
+  "name": "Collective and complex systems",
+  "claim": "Many simple interacting units can produce collective computation and adaptive behaviour that no unit has. This \"more is different\" emergence is studied with interaction rules, networks and stat-phys methods.",
+  "roots": "Anderson 1972; Simon 1962; Couzin 2009, \"Collective cognition in animal groups\", *TiCS* 13(1):36–43; Holland 1995 *Hidden Order*",
+  "lenses": [
+   "L16",
+   "L17",
+   "L21",
+   "L27"
+  ],
+  "phenomena": [],
+  "group": "life"
+ },
+ {
+  "id": "S13",
+  "name": "Evolution as learning",
+  "claim": "Natural selection is formally a learning algorithm (Bayesian updating, reinforcement, or PAC-style learning over genotypes). Populations can therefore \"learn from experience\" and evolve their own evolvability.",
+  "roots": "Watson & Szathmáry 2016, \"How can evolution learn?\", *TREE* 31(2):147–157; Valiant 2009, \"Evolvability\", *J. ACM* 56(1), art. 3; Hinton & Nowlan 1987, \"How learning can guide evolution\", *Complex Systems* 1:495–502",
+  "lenses": [
+   "L3",
+   "L6",
+   "L23"
+  ],
+  "phenomena": [],
+  "group": "life"
+ },
+ {
+  "id": "S19",
+  "name": "Basal and diverse intelligence",
+  "claim": "Cognition is a continuum present in cells, tissues and aneural organisms. Problem-solving competencies scale up through collectives of parts, for example by bioelectric coordination in morphogenesis.",
+  "roots": "Lyon, Keijzer, Arendt & Levin 2021, \"Reframing cognition: getting down to biological basics\", *Phil. Trans. R. Soc. B* 376:20190750; Levin 2022, \"Technological Approach to Mind Everywhere (TAME)\", *Front. Syst. Neurosci.* 16:768201",
+  "lenses": [
+   "L26",
+   "L27",
+   "L32"
+  ],
+  "phenomena": [],
+  "group": "life"
+ },
+ {
+  "id": "S25",
+  "name": "Physical learning systems",
+  "claim": "Physical materials (flow and elastic networks, self-assembling molecules, optical media) can learn by local rules driven by their own physics, without a separate computer computing gradients.",
+  "roots": "Stern & Murugan 2023, \"Learning without neurons in physical systems\", *Annu. Rev. Condens. Matter Phys.* 14:417–441; Scellier & Bengio 2017, \"Equilibrium propagation\", *Front. Comput. Neurosci.* 11:24; Stern, Hexner, Rocks & Liu 2021 *PRX* (coupled learning)",
+  "lenses": [
+   "L12",
+   "L14",
+   "L19"
+  ],
+  "phenomena": [],
+  "group": "life"
+ },
+ {
+  "id": "S26",
+  "name": "Open-endedness",
+  "claim": "Some processes (biological evolution, culture, science) keep producing novel, increasingly complex artefacts without a fixed objective. Pursuing objectives directly is often deceptive, while novelty and stepping stones drive discovery.",
+  "roots": "Lehman & Stanley 2011, \"Abandoning objectives: evolution through the search for novelty alone\", *Evol. Comput.* 19(2):189–223; Taylor et al. 2016 OEE workshop report, *Artificial Life* 22:408–423; Bedau et al. 2000 \"Open problems in artificial life\"; Stanley & Lehman 2015 book",
+  "lenses": [
+   "L19",
+   "L23"
+  ],
+  "phenomena": [
+   "P35"
+  ],
+  "group": "life"
+ }
+]

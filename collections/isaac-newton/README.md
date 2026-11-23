@@ -11,11 +11,10 @@ Originator-grade expositions of unifying programmes of learning and intelligence
 - Screened in this pass: 1479 items, 26 high priority before de-duplication against the rest of the collection.
 - Kept: 20 items that pass the guiding principles (Timelessness, Generative Power, Transfer, Rare Combination, Worldview, Primacy, Density); all others removed.
 - Known gaps: Covers the main channel and INI Seminar Room 1. Screening covered talks downloaded by 21 Nov 2026; the remainder is pending.
-- Number reviewed in depth: 0
 
 ## First filter
 
-Metadata only, screened against the A–F originator rubric by parallel AI screeners using one shared instruction set. `read_transcript` means worth a transcript review, not a watch recommendation. Many talks had no abstract; each caveat says when a judgement rests on title and speaker.
+Metadata only, screened against the A–F originator rubric by parallel AI screeners using one shared instruction set. A place here is a reading decision, not a watch recommendation. Many talks had no abstract; each caveat says when a judgement rests on title and speaker.
 
 - [MDLW01 | Mr. Lénaïc Chizat | Analysis of Gradient Descent on Wide Two-Layer ReLU Neural Networks](https://www.youtube.com/watch?v=LDOt2nnBCak) — Lénaïc Chizat
 - [MDLW01 | Prof. Sebastien Bubeck | A universal law of robustness via isoperimetry](https://www.youtube.com/watch?v=l-pgrEW-5Eo) — Sebastien Bubeck
@@ -52,10 +51,6 @@ Metadata only, screened against the A–F originator rubric by parallel AI scree
 
 
 
-
-## Transcript reviews
-
-None yet.
 
 ## Revision record
 

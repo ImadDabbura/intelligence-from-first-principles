@@ -10,7 +10,6 @@ To learn the root principles (uṣūl) of every school of thought on learning an
 - Coverage: 27 schools; kept only the 185 items that pass the guiding principles (Timelessness, Generative Power, Transfer, Rare Combination, Worldview, Primacy, Density); all others removed.
 - Formats: lectures, tutorials, long interviews and the originators' own expository writing. Textbooks excluded.
 - Known gaps: many videos were verified by title and channel only after YouTube blocked detailed lookups; some people have writing only (no verifiable recording); some archival recordings are unofficial uploads. Each caveat says what was verified.
-- Number reviewed in depth: 0
 
 ## First filter, by school
 
@@ -566,10 +565,6 @@ To learn the root principles (uṣūl) of every school of thought on learning an
 
 **Menachem Stern**
 - [Supervised learning in physical networks: From machine learning to learning machines](https://arxiv.org/abs/2011.03861) · writing
-
-## Transcript reviews
-
-None yet.
 
 ## Revision record
 

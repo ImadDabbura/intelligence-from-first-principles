@@ -13,11 +13,10 @@ Simons Institute programmes gather the originators of learning theory, statistic
 - Number screened: 1,261 talks: 42 high, 453 medium, 742 skip, 24 insufficient information.
 - Kept here: the 42 high-priority talks only.
 - Known gaps: course-type playlists (such as the 2022 Deep Learning Theory summer school) could not be listed; 39 videos were private or deleted; many older talks have no abstract, so their screening rests on title and speaker (see each caveat).
-- Number reviewed in depth: 0
 
 ## First filter
 
-Metadata only (YouTube title and description), screened against the A–F originator rubric. `read_transcript` means worth a transcript review, not a watch recommendation. Grouped by the first module each talk serves:
+Metadata only (YouTube title and description), screened against the A–F originator rubric. A place here is a reading decision, not a watch recommendation. Grouped by the first module each talk serves:
 
 ### 1 · Understanding and evaluation
 
@@ -93,10 +92,6 @@ Metadata only (YouTube title and description), screened against the A–F origin
 
 
 
-
-## Transcript reviews
-
-None yet.
 
 ## Review process
 

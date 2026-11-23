@@ -6,7 +6,6 @@
 - Inventory date: 2026-11-22
 - Center of Mathematical Sciences and Applications seminars and workshops (ML, mathematics, physics). Talks lacking a downloaded abstract were judged on title and speaker.
 - Kept: 11 items that pass the guiding principles (Timelessness, Generative Power, Transfer, Rare Combination, Worldview, Primacy, Density); all others removed.
-- Number reviewed in depth: 0
 
 ## First filter
 
@@ -21,7 +20,3 @@
 - [David McAllester | Type Theory from the Perspective of Artificial Intelligence](https://www.youtube.com/watch?v=79ymkGQW3b4) — David McAllester
 - [Andrea Montanari | Self-induced regularization from linear regression to neural networks](https://www.youtube.com/watch?v=bjRqmlI_SFs) — Andrea Montanari
 - [David Gamarnik | Algorithmic Challenges in High-Dimensional Inference Models](https://www.youtube.com/watch?v=s-Z6VxaxQo8) — David Gamarnik
-
-## Transcript reviews
-
-None yet.

@@ -4,45 +4,33 @@ I want to understand learning, modeling, intelligence and statistical structure 
 
 I am especially drawn to the **mathematical anatomy of learning systems**: how their representations, objectives, assumptions and learning dynamics fit together. I want to understand which structures make learning possible, why they work, where they fail and what those limits suggest about how to build better systems.
 
-This collection is part of that work. I use podcasts, lectures and courses to find ideas I can reconstruct mathematically, test and explain in my own words. AI-assisted reviews help me choose what deserves closer study. The notes keep the mechanisms, evidence, open questions and possible experiments close to each source.
+This collection is part of that work. I use podcasts, lectures, courses and papers to find ideas I can reconstruct mathematically, test and explain in my own words.
 
-## One report, across sources
+## One Library
 
-The [core](core/README.md) lists the ideas to master before branching out: 32 lenses and 35 phenomena, each with its root text, a teaching source where needed, and for phenomena a current-status source. The backlog supplies sources for the core and material for branching beyond it.
+The [core](core/README.md) lists the ideas to master before branching out: 32 lenses and 35 phenomena, each with its root text, a teaching source where needed, and for phenomena a current-status source. 26 of them form the first tier.
 
-Everything sits in one [Library](index.html): 574 items from 23 sources in a single list, all in the same form. Each entry says why the item is here and what a closer look should settle, and is tied to the core ideas it serves. Pick a core idea to see its root text, where to start, and every item that teaches it or goes deeper, best sources first. Search and the source filter work across the whole list. Source-specific data stays in `collections/`; the Library combines it, and `core/links.json` records which items serve which ideas.
+Everything else sits in one [Library](index.html): 570 items from 23 sources in a single list, all in the same form. Each entry says why the item is here and what a closer look should settle, and is tied to the core ideas it serves. Pick a core idea to see its root text, where to start, and every item that teaches it or goes deeper, best sources first. Search and the source filter work across the whole list.
 
-MLST is the first collection. Its channel snapshot was taken on **26 October 2026**:
+Clone or download this repository and open **`index.html`** in a browser. It works offline without installation. GitHub displays HTML as source, so online the easiest way in is the [core page](core/README.md) and each source’s page under `collections/`.
 
-- **269 uploads screened**, published between **9 April 2020 and 26 October 2026**.
-- **131 high-priority episodes reviewed in depth**, published between **9 April 2020 and 9 October 2026**.
-- **53 core contributions, 60 worthwhile additions, 14 selections of specific passages and 4 drops** after transcript review.
+## How I choose material
 
-[Open the Library](index.html) · [The earlier MLST learning path](learning-path.md) · [Browse the episode reviews](collections/mlst/README.md) · [See the first filter](collections/mlst/screening.md)
+I examine the publisher’s summary, notes, chapter headings and references to decide whether an item deserves a place. A place in the Library is a reading decision. It is not a recommendation to watch, and it does not validate the speaker’s claims. The [methodology](#methodology) explains the criteria.
 
-The learning path starts with Wilson, Koolen and Bronstein for orientation, then follows nine questions from evaluation and learning structure through reasoning, action and open-ended discovery. It is a suggested conceptual order; the deeper branches are optional.
+## How this was made
 
-Clone or download this repository and open **`index.html`** in a browser. The report works offline without installation. GitHub displays HTML as source; the Markdown links above are the easiest way to read online. The report keeps the notes and source coverage together; the evaluation methodology is below.
+I set the research objective and selection criteria and used AI agents to screen sources, map the fields’ foundations and tie items to core ideas. This is not a claim that I have watched every item or checked every claim. Entries are judged from publisher descriptions unless they say otherwise.
 
-## How I select material
+Downloaded transcripts, audio and complete publisher descriptions stay in my private research archive. [Attribution and source coverage](ATTRIBUTION.md) explains what is included. Earlier versions of this repository carried AI-assisted transcript reviews of 131 Machine Learning Street Talk episodes and a study path built on them. I removed them on 22 November 2026 in favour of one Library in one form; the git history keeps them.
 
-I use two filters. First, I examine the publisher’s summary, notes, chapter headings and references to decide whether an episode deserves a transcript review. Then I examine the full available transcript for its actual contribution: the objects and assumptions involved, the proposed mechanism, the evidence, the limits and what it adds to the rest of the collection.
+## Sources
 
-A promising description earns a place in the reading queue. It does not earn a recommendation to watch. The [methodology](#methodology) explains both stages, including how I handle uncertainty and overlap.
-
-## How these notes were made
-
-I set the research objective and selection criteria and used AI agents to review transcripts and reconcile their findings. These are AI-assisted research notes and a study plan. They are not a claim that I personally watched every episode, checked every proof or completed the proposed experiments. Individual reviews record transcription problems, edition differences and the primary sources checked where applicable.
-
-The repository contains the reviews, screening decisions, learning path, source records and publisher links. Downloaded transcripts, audio and complete publisher descriptions stay in my private research archive. [Attribution and source coverage](ATTRIBUTION.md) explains what is included.
-
-## Beyond MLST
-
-I’ll add other podcasts, lectures and courses when they address the same questions. Each collection will have its own scope, dates and review status. There is no target number of recommendations: another interview needs to add an idea, a useful disagreement or a worked example.
+Machine Learning Street Talk was the first source. The others are lecture series, institutes, conferences and the originators’ own writing, each with its own scope and snapshot date, listed under Sources and coverage in the Library. There is no target number of items: another talk needs to add an idea, a useful disagreement or a worked example.
 
 [Suggest a resource or correction](CONTRIBUTING.md). A useful suggestion names the question it helps answer and the passage, mechanism or result that makes it worth examining.
 
-## Rebuild the shared report
+## Rebuild the Library
 
 Python 3.10 or newer is sufficient; there are no third-party dependencies or network calls.
 
@@ -51,9 +39,9 @@ python3 scripts/build_report.py
 python3 scripts/build_report.py --check
 ```
 
-`collections.json` registers the sources. Each source has its own episode, review, screening and evidence records. The root `learning-path.json` defines the shared study sequence, using IDs such as `mlst:QWidx8cYVRs`. The builder combines every registered collection into `index.html` and `report.json`. It also preserves the MLST archive’s Markdown views.
+`collections.json` registers the sources. Each source keeps its screening record under `collections/`. `core/core.json` holds the core ideas and `core/links.json` records which items serve which ideas. The builder combines them into `index.html` and `report.json`.
 
-See [Adding a source](templates/data-format.md) for the data layout. Future sources appear in the same report and filter; they do not need their own report template.
+See [Adding a source](templates/data-format.md) for the data layout. New sources appear in the same Library and filter.
 
 ## Methodology
 
@@ -71,58 +59,23 @@ My objective is to understand the nature of intelligence and the mathematical st
 
 These guide selection. They are not a requirement that every episode address every question.
 
-### First filter: is a transcript review justified?
+### The filter: does it earn a place?
 
 I start with the publisher’s own summary, description, chapter headings, notes and references. I record the publication date, the inventory date and the version being considered. Alternate edits and duplicate uploads are kept distinct from genuinely different contributions.
 
 The decision is one of:
 
-- **Read transcript, high priority:** a concrete mechanism, discriminating experiment or substantial competing explanation directly bears on the research questions.
-- **Read transcript, medium priority:** promising context or a potentially useful application, with a less specific contribution to those questions.
+- **High priority:** a concrete mechanism, discriminating experiment or substantial competing explanation directly bears on the research questions. Only these enter the Library.
+- **Medium priority:** promising context or a potentially useful application, with a less specific contribution to those questions.
 - **Skip:** a clear mismatch or a duplicate whose contribution is already represented.
-- **Insufficient information:** the available metadata does not justify a full read. A targeted passage or better source is needed before advancing it.
+- **Insufficient information:** the available metadata does not justify a place.
 
-I record what the publisher promises, why that matters and the question a transcript review must resolve. References are leads to inspect, not evidence that the linked work has already been read. No new full transcripts are read as part of this filter.
+I record what the publisher promises, why that matters and the question a closer look must settle. References are leads to inspect, not evidence that the linked work has been read.
 
-### Second filter: what survives a full reading?
+### The core
 
-For an episode that advances, I use the full available transcript and record its source, edition, coverage, word count and file hash. A complete reading refers to that saved text. It does not establish that the text contains every spoken word or matches another edition’s timestamps.
-
-The review separates:
-
-- **The claim:** what the episode is actually arguing.
-- **The mathematical anatomy:** objects, objectives, mechanisms, assumptions and limits.
-- **The evidence:** what is demonstrated, what is inferred and what remains speculative.
-- **The contribution:** what this adds to my existing understanding and to the other episodes.
-- **The next step:** a passage to watch, an objection to examine or an experiment I could try.
-
-I check primary sources selectively when a central technical claim needs clarification. I record those checks explicitly; a bibliography alone is not a verification record. I distinguish a guest’s statement from the reviewer’s reconstruction or correction.
-
-The resulting viewing decisions are:
-
-- **Core:** a substantial contribution to the central research questions that merits sustained attention.
-- **Worthwhile:** a distinct explanation, example or competing account that adds enough to study.
-- **Selected passages:** a useful contribution concentrated in particular sections.
-- **Drop:** the full reading does not justify further viewing for this objective.
-
-“Core” is a research priority, not a certification that every claim is correct. When the case for watching is still weak after review, I leave it out. I do not fill a quota, and I do not promote an episode merely because its guest is prominent.
-
-### Reconciliation and learning order
-
-I compare the reviews for repeated material, disagreements and prerequisites. Episodes that make the same claim do not count as independent evidence. A later interview earns a place if it adds a derivation, a useful counterexample, a different mechanism or a better worked example.
-
-The learning path follows conceptual dependencies. It begins with what an evaluation can establish, then moves through learning structure, abstraction, reasoning, information acquisition and action, before broader questions about discovery and collective intelligence. This is a flexible study sequence rather than a ranking of speakers.
-
-### What happened in the first MLST collection
-
-The 26 October 2026 snapshot contained 269 Videos-tab uploads. The metadata filter yielded 131 high-priority entries, 115 medium-priority entries, 15 skips and 8 unresolved entries. Only the 131 high-priority entries advanced to this transcript-review pass.
-
-AI reviewers read the available transcripts in batches. A coordinating agent also reviewed a set directly, compared the written assessments and assembled the learning path. This was not two independent full readings of every transcript. The collection reused 100 transcripts and recovered 31: 7 publisher transcripts, 22 local audio transcriptions and 2 YouTube caption tracks. All 131 selected episodes had a transcript and review by 26 October. Editorial revisions followed on 27 October without a fresh channel scan.
-
-The remaining 138 entries are outside this second-stage pass; they are not 138 transcript-based rejections. Two separately listed livestreams and 37 unmatched podcast-feed entries were screened separately. Feed entries may be alternate edits and are not 37 additional verified episodes. Shorts were excluded. Deleted, private and unlisted material is outside the inventory guarantee.
-
-The reviewed sources contain about 2.1 million words. The 131 videos have 193.4 hours of publisher-listed runtime; this is neither time spent reviewing nor a recommended watching budget. Exact counts and dates are in the [scope record](collections/mlst/scope-and-method.json).
+The [core](core/README.md) was built separately, from each field’s own account of its foundations, the founding claims of 27 schools of thought and 47 open questions from recognised lists. Its page says how the first tier was chosen and what was checked.
 
 ### Revising a judgment
 
-I want corrections tied to a passage, equation, experiment or source. If a correction changes the recommendation, I update both the review and its place in the learning path. New collection snapshots receive explicit dates and a record of additions; an old snapshot is never presented as current coverage.
+I want corrections tied to a passage, equation, experiment or source. New snapshots receive explicit dates and a record of additions; an old snapshot is never presented as current coverage.

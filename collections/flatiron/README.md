@@ -11,21 +11,16 @@ Originator-grade expositions of unifying programmes of learning and intelligence
 - Screened in this pass: 206 items, 5 high priority before de-duplication against the rest of the collection.
 - Kept: 2 items that pass the guiding principles (Timelessness, Generative Power, Transfer, Rare Combination, Worldview, Primacy, Density); all others removed.
 - Known gaps: see the collection entry in collections.json.
-- Number reviewed in depth: 0
 
 ## First filter
 
-Metadata only, screened against the A–F originator rubric by parallel AI screeners using one shared instruction set. `read_transcript` means worth a transcript review, not a watch recommendation. Many talks had no abstract; each caveat says when a judgement rests on title and speaker.
+Metadata only, screened against the A–F originator rubric by parallel AI screeners using one shared instruction set. A place here is a reading decision, not a watch recommendation. Many talks had no abstract; each caveat says when a judgement rests on title and speaker.
 
 - [Eero Simoncelli: Learning the Distribution of Natural Images (April 29, 2025)](https://www.youtube.com/watch?v=_PEjjRpaMxo) — Eero Simoncelli
 - [Gotham City Physics X ML - Nati Srebro](https://www.youtube.com/watch?v=--gLlwnumkg) — Nati Srebro
 
 
 
-
-## Transcript reviews
-
-None yet.
 
 ## Revision record
 

@@ -8,13 +8,13 @@
     "supplementary_feed_entries": 37,
     "new_video_ids": 4,
     "decisions": {
-      "read_transcript": 246,
-      "skip": 15,
+      "read_transcript": 242,
+      "skip": 19,
       "insufficient_information": 8
     },
     "priorities": {
       "medium": 115,
-      "high": 131
+      "high": 127
     },
     "feed_extra_decisions": {
       "skip": 16,
@@ -13652,19 +13652,19 @@
       "screening": {
         "id": "JVLpxm5jT2s",
         "index": 74,
-        "decision": "read_transcript",
-        "priority": "high",
+        "decision": "skip",
+        "priority": null,
         "theme": [
           "logic",
           "program synthesis",
           "learning theory"
         ],
         "publisher_promise": "Presents Tau's Boolean-algebra foundations, self-reference, quantifier elimination and belief revision as an alternative to statistical learning.",
-        "screening_reason": "Concrete formal mechanisms and computability claims justify scrutiny despite blockchain applications and sponsorship.",
+        "screening_reason": "Left out after a full reading on 26 October 2026: it did not justify further study for this objective. First-filter reason: Concrete formal mechanisms and computability claims justify scrutiny despite blockchain applications and sponsorship.",
         "evidence": [
           "01:06:00 Quantifier Elimination and Normalization"
         ],
-        "transcript_question": "What restricted logical language permits the claimed self-reference and synthesis, and how are complexity and correctness guarantees bounded?",
+        "transcript_question": null,
         "caveat": "publisher framing; unverified; Claims of overcoming Tarski or universal ML ceilings demand exact assumptions; prose is abbreviated and references repeat."
       },
       "notes_scope": "Publisher material only; no additional transcript read in this pass.",
@@ -28494,19 +28494,19 @@
       "screening": {
         "id": "4KIQH1VEwBI",
         "index": 178,
-        "decision": "read_transcript",
-        "priority": "high",
+        "decision": "skip",
+        "priority": null,
         "theme": [
           "computation",
           "recursion",
           "generalization"
         ],
         "publisher_promise": "Saba distinguishes recursion from recurrence and asks how finite neural systems generalize across indefinitely structured language.",
-        "screening_reason": "The episode promises a specific computational argument supported by a neural Chomsky-hierarchy reference and practical limitations discussion.",
+        "screening_reason": "Left out after a full reading on 26 October 2026: it did not justify further study for this objective. First-filter reason: The episode promises a specific computational argument supported by a neural Chomsky-hierarchy reference and practical limitations discussion.",
         "evidence": [
           "representing infinite objects with finite specifications"
         ],
-        "transcript_question": "What formal neural-computation assumptions support the recurrence/recursion distinction, and how is unbounded generalization tested?",
+        "transcript_question": null,
         "caveat": "publisher framing; unverified; Recurrent neural networks have different computational capacities under different precision and memory assumptions."
       },
       "notes_scope": "Publisher material only; no additional transcript read in this pass.",
@@ -30910,20 +30910,20 @@
       "duration_seconds": 2933,
       "screening": {
         "index": 194,
-        "decision": "read_transcript",
-        "priority": "high",
+        "decision": "skip",
+        "priority": null,
         "theme": [
           "generalization",
           "compositionality",
           "learnability"
         ],
         "publisher_promise": "Debates neural extrapolation with spline theory, systematicity, and discrete/continuous learnability.",
-        "screening_reason": "Explicit model class, mathematical framing, and compositionality distinctions make this a direct match.",
+        "screening_reason": "Left out after a full reading on 26 October 2026: it did not justify further study for this objective. First-filter reason: Explicit model class, mathematical framing, and compositionality distinctions make this a direct match.",
         "evidence": [
           "Interpolation vs Extrapolation",
           "Neural turing machines / discrete vs continuous / learnability"
         ],
-        "transcript_question": "Which notion of extrapolation applies to MLPs, and how does it relate to systematic generalization and learnability?",
+        "transcript_question": null,
         "caveat": "Publisher framing unverified. Publisher says the final third was deleted: vagueness and grounded-concept discussion may be absent despite the summary.",
         "id": "snUf_LIfQII"
       },
@@ -40088,20 +40088,20 @@
       "duration_seconds": 5849,
       "screening": {
         "index": 260,
-        "decision": "read_transcript",
-        "priority": "high",
+        "decision": "skip",
+        "priority": null,
         "theme": [
           "kernel methods",
           "function spaces",
           "learning theory"
         ],
         "publisher_promise": "Explains kernel expansions, RKHS, representer theorem, duality, and neural connections.",
-        "screening_reason": "The detailed mathematical sequence is directly relevant to statistical learning structures beyond deep networks.",
+        "screening_reason": "Left out after a full reading on 26 October 2026: it did not justify further study for this objective. First-filter reason: The detailed mathematical sequence is directly relevant to statistical learning structures beyond deep networks.",
         "evidence": [
           "Representer theorem",
           "KRR/dual"
         ],
-        "transcript_question": "How do RKHS assumptions and the representer theorem turn function-space optimization into finite estimation, and how does this compare with learned features?",
+        "transcript_question": null,
         "caveat": "Publisher framing unverified. Description says reproducible rather than reproducing kernel Hilbert spaces; use the transcript to resolve terminology.",
         "id": "y_RjsDHl5Y4"
       },

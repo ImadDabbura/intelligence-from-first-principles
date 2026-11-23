@@ -11,11 +11,10 @@ Originator-grade expositions of unifying programmes of learning and intelligence
 - Screened in this pass: 30 items, 30 high priority before de-duplication against the rest of the collection.
 - Kept: 38 items that pass the guiding principles (Timelessness, Generative Power, Transfer, Rare Combination, Worldview, Primacy, Density); all others removed.
 - Known gaps: Invited talks and tutorials from NeurIPS, ICML, ICLR, COLT and Cosyne (2015–2026), checked on official pages with a recording found. Workshop invited talks are a known gap.
-- Number reviewed in depth: 0
 
 ## First filter
 
-Metadata only, screened against the A–F originator rubric by parallel AI screeners using one shared instruction set. `read_transcript` means worth a transcript review, not a watch recommendation. Many talks had no abstract; each caveat says when a judgement rests on title and speaker.
+Metadata only, screened against the A–F originator rubric by parallel AI screeners using one shared instruction set. A place here is a reading decision, not a watch recommendation. Many talks had no abstract; each caveat says when a judgement rests on title and speaker.
 
 - [The Genomic Bottleneck: A Lesson from Biology](https://slideslive.com/38947068) — Anthony M. Zador
 - [What Bodies Think About: Bioelectric Computation Outside the Nervous System, Primitive Cognition, and Synthetic Morphology](https://www.youtube.com/watch?v=Hpw31YTq_yI) — Michael Levin
@@ -56,10 +55,6 @@ Metadata only, screened against the A–F originator rubric by parallel AI scree
 - [Complementary Learning Systems in Brains and Machines](https://slideslive.com/39063715) — Jay McClelland
 - [Neuroalgebraic Geometry](https://slideslive.com/39063193) — Kathlén Kohn
 
-
-## Transcript reviews
-
-None yet.
 
 ## Revision record
 

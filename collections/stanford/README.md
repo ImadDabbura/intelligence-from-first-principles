@@ -11,11 +11,10 @@ Originator-grade expositions of unifying programmes of learning and intelligence
 - Screened in this pass: 1098 items, 11 high priority before de-duplication against the rest of the collection.
 - Kept: 5 items that pass the guiding principles (Timelessness, Generative Power, Transfer, Rare Combination, Worldview, Primacy, Density); all others removed.
 - Known gaps: Seminar series only (no full courses). Screening covered talks downloaded by 21 Nov 2026; the remainder is pending.
-- Number reviewed in depth: 0
 
 ## First filter
 
-Metadata only, screened against the A–F originator rubric by parallel AI screeners using one shared instruction set. `read_transcript` means worth a transcript review, not a watch recommendation. Many talks had no abstract; each caveat says when a judgement rests on title and speaker.
+Metadata only, screened against the A–F originator rubric by parallel AI screeners using one shared instruction set. A place here is a reading decision, not a watch recommendation. Many talks had no abstract; each caveat says when a judgement rests on title and speaker.
 
 - [Stanford Seminar-Stories from CoCoLab: Probabilistic Programs, Cognative Modeling, & Smart Web Pages](https://www.youtube.com/watch?v=rGz0nagM-TA) — Noah Goodman
 - [Stanford Robotics Seminar ENGR319 | Winter 2026 | Gen Control, Action Chunking, Moravec’s Paradox](https://www.youtube.com/watch?v=D7e7oUbtkFM) — Max Simchowitz
@@ -24,10 +23,6 @@ Metadata only, screened against the A–F originator rubric by parallel AI scree
 - [Stanford Seminar - Can the brain do back-propagation? Geoffrey Hinton](https://www.youtube.com/watch?v=VIRCybGgHts) — Geoffrey Hinton
 
 
-
-## Transcript reviews
-
-None yet.
 
 ## Revision record
 

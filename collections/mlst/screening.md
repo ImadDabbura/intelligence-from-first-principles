@@ -1,12 +1,10 @@
 # First filter
 
-Snapshot: **26 October 2026**. I screened publisher descriptions, summaries, notes and resources before selecting any new full transcripts for review. High and medium priority are reading decisions, not recommendations to watch.
+Snapshot: **26 October 2026**. I screened publisher descriptions, summaries, notes and resources. High and medium priority are reading decisions, not recommendations to watch.
 
-**269 Videos-tab uploads: 131 high priority, 115 medium priority, 15 skips and 8 with insufficient information.** Only the 131 high-priority uploads advanced to this transcript-review pass.
+**269 Videos-tab uploads: 127 high priority, 115 medium priority, 19 skips and 8 with insufficient information.** The high-priority uploads are in the Library.
 
-Two livestreams and 37 unmatched podcast-feed entries appear separately below. Feed entries may be alternate editions; they are not 37 additional verified videos. Full publisher text stays in the private archive; the structured public record retains resource links.
-
-[Detailed reviews](README.md) · [Structured screen and resource links](screening.json) · [Methodology](../../README.md#methodology)
+Two livestreams and 37 unmatched podcast-feed entries appear separately below. Feed entries may be alternate editions; they are not 37 additional verified videos. Full publisher text stays in the private research archive.
 
 ## Videos-tab uploads
 
@@ -20,7 +18,7 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** The formalisation gap and proof-versus-understanding distinction supply concrete counterexamples to treating successful inference as understanding.
 
-**Question for a transcript review:** How do formalisation errors and abstraction choice constrain what an AI-generated proof demonstrates?
+**Question to settle:** How do formalisation errors and abstraction choice constrain what an AI-generated proof demonstrates?
 
 **Caveat:** publisher framing; unverified; Certification need not establish semantic adequacy.
 
@@ -34,11 +32,9 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** Two explicit experimental systems connect selection, novelty and learned representations; distinct from a general evolution interview.
 
-**Question for a transcript review:** What mechanisms and controls distinguish useful evolutionary accumulation from critic bias and hand-designed substrate effects?
+**Question to settle:** What mechanisms and controls distinguish useful evolutionary accumulation from critic bias and hand-designed substrate effects?
 
 **Caveat:** publisher framing; unverified; The FER account and extrapolation to intelligence remain hypotheses.
-
-[Completed transcript review](reviews/615B5nyMFPk.md)
 
 ### How a Voice Agent Learns the Rhythm of Conversation — Shawn Wen
 
@@ -50,7 +46,7 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** Temporal coordination and a training-distribution counterexample give this sponsored application a concrete learning contribution.
 
-**Question for a transcript review:** How are turn-taking signals learned and evaluated independently of text quality and latency?
+**Question to settle:** How are turn-taking signals learned and evaluated independently of text quality and latency?
 
 **Caveat:** publisher framing; unverified; Vendor framing may hide comparative evidence.
 
@@ -64,7 +60,7 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** The two-kernel exploit and specification loophole distinguish this creator interview from the broader Hartnett documentary.
 
-**Question for a transcript review:** Which limitations concern proof search, persistent learning, specification choice or verifier implementation?
+**Question to settle:** Which limitations concern proof search, persistent learning, specification choice or verifier implementation?
 
 **Caveat:** publisher framing; unverified; Reported incidents and competence-understanding distinctions need separation.
 
@@ -78,11 +74,9 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** A concrete controlled setup can distinguish improved performance from becoming a better improver.
 
-**Question for a transcript review:** What held-out evidence distinguishes harness optimisation, reward hacking and improvement of the improvement process?
+**Question to settle:** What held-out evidence distinguishes harness optimisation, reward hacking and improvement of the improvement process?
 
 **Caveat:** publisher framing; unverified; The publisher explicitly says better-improver status was not established.
-
-[Completed transcript review](reviews/yB6_iFGTq9k.md)
 
 ### The AI That Replaces Hours of Model Tuning - Frank Hutter
 
@@ -94,11 +88,9 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** Directly addresses statistical learning structure beyond language models through a specific model family and its assumptions.
 
-**Question for a transcript review:** What prior and exchangeability assumptions support the posterior approximation, and where does it fail under shift or intervention?
+**Question to settle:** What prior and exchangeability assumptions support the posterior approximation, and where does it fail under shift or intervention?
 
 **Caveat:** publisher framing; unverified; Synthetic causal priors do not automatically establish causal identification.
-
-[Completed transcript review](reviews/72Im-Mm5JKs.md)
 
 ### Why More Data Cannot Replace Prior Structure - Alexander Mattick
 
@@ -110,11 +102,9 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** A broad but technically specified alternative to scale-only explanations connects inference cost, statistical theory and constrained RL.
 
-**Question for a transcript review:** Which comparisons and formal assumptions support the case that prior constraints beat additional data or reward optimisation?
+**Question to settle:** Which comparisons and formal assumptions support the case that prior constraints beat additional data or reward optimisation?
 
 **Caveat:** publisher framing; unverified; Sweeping criticism of model categories and theories needs contextual qualification.
-
-[Completed transcript review](reviews/1S1B4XkFCD8.md)
 
 ### How Physical AI Learns Across Language, Video and Action — Ming-Yu Liu
 
@@ -126,11 +116,9 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** Concrete architecture and a relative-ranking validation criterion connect representation learning to embodied control.
 
-**Question for a transcript review:** When does jointly trained video-action modelling transfer to real policies, and how is ranking fidelity measured?
+**Question to settle:** When does jointly trained video-action modelling transfer to real policies, and how is ranking fidelity measured?
 
 **Caveat:** publisher framing; unverified; Paid partnership; ranking fidelity may fail under policy distribution shift.
-
-[Completed transcript review](reviews/L6tLBApQN-g.md)
 
 ### Speech Recognition Is Not a Solved Problem — Pavan Kumar Reddy
 
@@ -142,11 +130,9 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** This is a concrete study of representation, temporal inference and training signals in a nontext modality, distinct from the PolyAI interaction interview.
 
-**Question for a transcript review:** How do representation and streaming choices cause the reported failure modes, and what ablations support their remedies?
+**Question to settle:** How do representation and streaming choices cause the reported failure modes, and what ablations support their remedies?
 
 **Caveat:** publisher framing; unverified; Paid partnership; deployed utility and architectural explanation are different claims.
-
-[Completed transcript review](reviews/ixu0H8bsCts.md)
 
 ### What Building an AI Scientist Actually Requires Beyond Intelligence — Edward Hughes
 
@@ -158,11 +144,9 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** Offers both a competing theory of discovery and an operational experiment on faithful scientific replication.
 
-**Question for a transcript review:** How do held-out tasks and rubrics distinguish faithful replication and question selection from reproducing surface results?
+**Question to settle:** How do held-out tasks and rubrics distinguish faithful replication and question selection from reproducing surface results?
 
 **Caveat:** publisher framing; unverified; Replication gains do not by themselves demonstrate creativity.
-
-[Completed transcript review](reviews/P4bYjTJvD28.md)
 
 ### How Many Narrow AIs Could Behave Like One Superintelligence - Daniel Kokotajlo and Thomas Larsen
 
@@ -174,7 +158,7 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** Although policy dominates, explicit chapters on specialist coordination and collective intelligence promise a substantial competing account of system capability.
 
-**Question for a transcript review:** What coordination bottlenecks make specialist collections behave differently from one generally capable system?
+**Question to settle:** What coordination bottlenecks make specialist collections behave differently from one generally capable system?
 
 **Caveat:** publisher framing; unverified; Forecasts and policy premises are not evidence for an intelligence mechanism.
 
@@ -188,11 +172,9 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** Specific mechanistic hypotheses and intervention methods directly target what neural networks learn and why feature decompositions may mislead.
 
-**Question for a transcript review:** What causal interventions support manifold structure rather than an artefact of representation analysis?
+**Question to settle:** What causal interventions support manifold structure rather than an artefact of representation analysis?
 
 **Caveat:** publisher framing; unverified; SAEs fracturing concepts and shared geometry are claims to test.
-
-[Completed transcript review](reviews/_egu7OFem-k.md)
 
 ### Why Frontier AI Labs Fight to Hide Chain of Thought — Ilia Shumailov & Alexander Panfilov
 
@@ -204,7 +186,7 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** The concrete attack provides an experimental entry into what observable reasoning traces expose, though much content concerns API security.
 
-**Question for a transcript review:** What does trace access establish about reasoning faithfulness or transferable capability, beyond an interface vulnerability?
+**Question to settle:** What does trace access establish about reasoning faithfulness or transferable capability, beyond an interface vulnerability?
 
 **Caveat:** publisher framing; unverified; Security exploitability does not establish internal reasoning mechanisms.
 
@@ -218,7 +200,7 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** The functionalism and embodiment dispute provides a substantial competing conceptual account despite the broad polemical framing.
 
-**Question for a transcript review:** Which objections attack specific computational assumptions rather than extrapolated timelines or political narratives?
+**Question to settle:** Which objections attack specific computational assumptions rather than extrapolated timelines or political narratives?
 
 **Caveat:** publisher framing; unverified; The title's debunking claim and calculator analogy may overstate the argument.
 
@@ -232,11 +214,9 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** The random hierarchy model and sample-complexity theory directly address the mathematical anatomy of learning.
 
-**Question for a transcript review:** Under what data-generation assumptions does depth recover coarse variables and latent prediction reduce sample complexity?
+**Question to settle:** Under what data-generation assumptions does depth recover coarse variables and latent prediction reduce sample complexity?
 
 **Caveat:** publisher framing; unverified; Toy hierarchical models may not transfer intact to natural data.
-
-[Completed transcript review](reviews/revreN8LZ_M.md)
 
 ### How Researchers Test AI for Hidden Goals — Apollo Research
 
@@ -248,11 +228,9 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** A specified intervention-based method addresses latent motives and construct validity rather than merely discussing AI risk.
 
-**Question for a transcript review:** How does the belief intervention isolate reward seeking from alternative behavioural explanations?
+**Question to settle:** How does the belief intervention isolate reward seeking from alternative behavioural explanations?
 
 **Caveat:** publisher framing; unverified; The o3 evidence concerns an intermediate checkpoint without safety training.
-
-[Completed transcript review](reviews/n1Qk8xbqF-M.md)
 
 ### Watching America Run Away With AI - Alistair Pullen (Cosine AI)
 
@@ -264,7 +242,7 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** Despite national-industry framing, explicit process supervision and runtime verification mechanisms qualify it for conceptual screening.
 
-**Question for a transcript review:** How are process rewards and synthetic graders validated against actual generalisation and executable correctness?
+**Question to settle:** How are process rewards and synthetic graders validated against actual generalisation and executable correctness?
 
 **Caveat:** publisher framing; unverified; Commercial claims and geopolitical narrative may exceed the technical evidence.
 
@@ -278,11 +256,9 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** The benchmark change supplies a concrete counterexample distinguishing brute search, priors and adaptive abstraction.
 
-**Question for a transcript review:** Which components enable learning unseen game rules rather than exploiting familiar priors or scoring conventions?
+**Question to settle:** Which components enable learning unseen game rules rather than exploiting familiar priors or scoring conventions?
 
 **Caveat:** publisher framing; unverified; Sponsor disclosure and leaderboard claims need careful metric interpretation.
-
-[Completed transcript review](reviews/Vg6FBKTlfOw.md)
 
 ### The Thermodynamic AI Chip · Thomas Ahle
 
@@ -294,11 +270,9 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** Physical-noise computation and Bayesian uncertainty provide a distinct non-LLM mechanism; specification failures add a useful counterexample.
 
-**Question for a transcript review:** What computation and uncertainty distribution does the hardware implement, and what limits its efficiency or accuracy?
+**Question to settle:** What computation and uncertainty distribution does the hardware implement, and what limits its efficiency or accuracy?
 
 **Caveat:** publisher framing; unverified; The thermodynamic segment is narrower than the title; production costs were paid by Normal Computing.
-
-[Completed transcript review](reviews/5pieVHmlbyk.md)
 
 ### He won a Nobel here for AlphaFold. Then he left. - John Jumper
 
@@ -310,11 +284,9 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** A strong scientific-model case study explicitly tests the value of structural priors against data and architecture.
 
-**Question for a transcript review:** Which ablations isolate symmetry, data and architecture contributions, and what scientific questions remain outside the predictor?
+**Question to settle:** Which ablations isolate symmetry, data and architecture contributions, and what scientific questions remain outside the predictor?
 
 **Caveat:** publisher framing; unverified; Claims of solved folding and drug-target failure need precise scope; sponsor disclosure concerns differ across the description.
-
-[Completed transcript review](reviews/e3gBwLWAerw.md)
 
 ### The Ex-Pentagon Chief Sounding the Alarm on AI Weapons — Brad Carson
 
@@ -338,11 +310,9 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** Offers statistical methods and an explicitly different unit of analysis for intelligence beyond individual models.
 
-**Question for a transcript review:** How do inference guarantees and incentive design interact in a functioning collective intelligence system?
+**Question to settle:** How do inference guarantees and incentive design interact in a functioning collective intelligence system?
 
 **Caveat:** publisher framing; unverified; Broad claims about AGI and missing error bars require precise interpretation.
-
-[Completed transcript review](reviews/AREWYbVtX64.md)
 
 ### The AI Progress Chart Everyone Is Misreading — Beth Barnes & David Rein
 
@@ -354,7 +324,7 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** Specific measurement choices and counterexamples reveal what capability curves actually measure rather than treating timelines as self-explanatory.
 
-**Question for a transcript review:** Which latent capability construct is identified by human-time tasks and 50-percent reliability, and what invalidates extrapolation?
+**Question to settle:** Which latent capability construct is identified by human-time tasks and 50-percent reliability, and what invalidates extrapolation?
 
 **Caveat:** publisher framing; unverified; A trend in a selected task distribution need not imply general intelligence growth.
 
@@ -368,11 +338,9 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** Explicit search mechanisms and credit assignment make this distinct from generic AI-scientist forecasting.
 
-**Question for a transcript review:** Which parts actually co-evolve tasks, and which reported gains remain optimisation of fixed human objectives?
+**Question to settle:** Which parts actually co-evolve tasks, and which reported gains remain optimisation of fixed human objectives?
 
 **Caveat:** publisher framing; unverified; The vision of open-ended science may exceed current demonstrated implementation.
-
-[Completed transcript review](reviews/EInEmGaMRLc.md)
 
 ### The Dangerous Illusion of AI Coding? - Jeremy Howard
 
@@ -384,7 +352,7 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** The first portion offers mechanisms of transfer and skill formation plus a competing account of understanding; practical coding advice is secondary to this screen.
 
-**Question for a transcript review:** What evidence separates useful transfer or abstraction from interpolation and erosion of human skill?
+**Question to settle:** What evidence separates useful transfer or abstraction from interpolation and erosion of human skill?
 
 **Caveat:** publisher framing; unverified; Analogies about slot machines and understanding may outrun empirical support.
 
@@ -398,11 +366,9 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** A technical mathematical and experimental account of emergent complexity, distinct from the broader Blaise interview.
 
-**Question for a transcript review:** What is proved or experimentally shown about ancestry depth, and which substrate conditions are necessary for the phase transition?
+**Question to settle:** What is proved or experimentally shown about ancestry depth, and which substrate conditions are necessary for the phase transition?
 
 **Caveat:** publisher framing; unverified; Publisher explicitly flags engineered tape boundaries, SUBLEQ counterexamples and extrapolation from replication to intelligence.
-
-[Completed transcript review](reviews/M2iX6HQOoLg.md)
 
 ### The Brain Is Just Specialized Agents Talking To Each Other — Dr. Jeff Beck
 
@@ -414,11 +380,9 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** Offers both a formal agency-identification problem and concrete alternative learning mechanisms.
 
-**Question for a transcript review:** What operational tests or model-selection assumptions distinguish internal planning from equivalent lookup behaviour?
+**Question to settle:** What operational tests or model-selection assumptions distinguish internal planning from equivalent lookup behaviour?
 
 **Caveat:** publisher framing; unverified; Policy equivalence does not settle agency; olfactory origins are presented as a proposal.
-
-[Completed transcript review](reviews/Ucqfb33GJJ4.md)
 
 ### Why AI Has a Plato Problem — Mazviita Chirimuuta
 
@@ -430,7 +394,7 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** A substantial competing account of what cognition models explain directly challenges interpretation of mathematical abstractions.
 
-**Question for a transcript review:** What does haptic realism predict or require that a computational account omits, and when is abstraction legitimately explanatory?
+**Question to settle:** What does haptic realism predict or require that a computational account omits, and when is abstraction legitimately explanatory?
 
 **Caveat:** publisher framing; unverified; Philosophical critique is not a general disproof of computational models.
 
@@ -444,7 +408,7 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** Compilation status is explicit, but the cross-guest comparison promises distinct synthesis; metadata does not establish pure duplicate content.
 
-**Question for a transcript review:** What new argument does the synthesis add, and which disagreements survive beyond differences in terminology?
+**Question to settle:** What new argument does the synthesis add, and which disagreements survive beyond differences in terminology?
 
 **Caveat:** publisher framing; unverified; Contains reused interviews; transcript should establish incremental contribution before prioritising viewing.
 
@@ -458,11 +422,9 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** The warehouse-cat example and modular architecture provide a concrete alternative to monolithic language-centred learning.
 
-**Question for a transcript review:** How are object models composed, acquired and updated while preserving calibrated uncertainty and tractable inference?
+**Question to settle:** How are object models composed, acquired and updated while preserving calibrated uncertainty and tractable inference?
 
 **Caveat:** publisher framing; unverified; Biological Bayes optimality and proposed robotic competence require supporting evidence.
-
-[Completed transcript review](reviews/9suqiofCiwM.md)
 
 ### Your Brain Doesn't Command Your Body. It Predicts It. [Max Bennett]
 
@@ -474,11 +436,9 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** Named behavioural experiments and a comparative evolutionary account offer evidence beyond LLM-only intelligence narratives.
 
-**Question for a transcript review:** Which experiments distinguish counterfactual modelling from simpler learned behaviour, and how do they support the evolutionary sequence?
+**Question to settle:** Which experiments distinguish counterfactual modelling from simpler learned behaviour, and how do they support the evolutionary sequence?
 
 **Caveat:** publisher framing; unverified; The account synthesises several fields; language-model incapacity claims may depend on system scope.
-
-[Completed transcript review](reviews/RvYSsi6rd4g.md)
 
 ### Why Scientists Can't Rebuild a Polaroid Camera [César Hidalgo]
 
@@ -490,7 +450,7 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** A distinct collective-learning account explains why transmitted information may fail to reconstruct competence.
 
-**Question for a transcript review:** How are knowledge, absorptive capacity and complexity operationalised, and which observations distinguish them from stored information?
+**Question to settle:** How are knowledge, absorptive capacity and complexity operationalised, and which observations distinguish them from stored information?
 
 **Caveat:** publisher framing; unverified; Economic regularities called laws may have limited causal or universal status.
 
@@ -504,7 +464,7 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** Specific opposing conceptual positions qualify despite speculative forecasts and the guest's self-described outsider status.
 
-**Question for a transcript review:** Which functionalist or embodiment arguments survive explicit counterexamples, and what empirical differences would follow?
+**Question to settle:** Which functionalist or embodiment arguments survive explicit counterexamples, and what empirical differences would follow?
 
 **Caveat:** publisher framing; unverified; Timeline certainty and benevolent-superintelligence claims are speculative, not established results.
 
@@ -518,11 +478,9 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** Specific mathematical constructions connect compositional computation to architecture beyond generic geometric deep learning.
 
-**Question for a transcript review:** Which categorical constructions yield implementable inductive biases and demonstrable algorithmic generalisation gains?
+**Question to settle:** Which categorical constructions yield implementable inductive biases and demonstrable algorithmic generalisation gains?
 
 **Caveat:** publisher framing; unverified; Unification language and the Hopf-fibration analogy require careful mathematical reconstruction.
-
-[Completed transcript review](reviews/AWqvBdqCAAE.md)
 
 ### Why High Benchmark Scores Don’t Mean Better AI [SPONSORED]
 
@@ -534,7 +492,7 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** Explicit sampling and statistical ranking methods qualify despite sponsorship and a narrow human-experience objective.
 
-**Question for a transcript review:** How do sampling design and ranking assumptions change conclusions, and which construct does HUMAINE actually identify?
+**Question to settle:** How do sampling design and ranking assumptions change conclusions, and which construct does HUMAINE actually identify?
 
 **Caveat:** publisher framing; unverified; Representativeness of participants does not guarantee validity as an intelligence measure.
 
@@ -548,11 +506,9 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** Named mathematical mechanisms and CRATE comparisons directly match the user's foundations focus.
 
-**Question for a transcript review:** What assumptions make coding-rate objectives yield transformer operations, and how are theoretical guarantees separated from empirical claims?
+**Question to settle:** What assumptions make coding-rate objectives yield transformer operations, and how are theoretical guarantees separated from empirical claims?
 
 **Caveat:** publisher framing; unverified; YouTube removed 33:45 from the original; RSS chapters refer to the longer cut and timestamps are not interchangeable.
-
-[Completed transcript review](reviews/QWidx8cYVRs.md)
 
 ### Tensor Logic "Unifies" AI Paradigms [Pedro Domingos]
 
@@ -564,11 +520,9 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** A specified candidate language and learning mechanism merit inspection without accepting universal-unification claims.
 
-**Question for a transcript review:** How does predicate invention work, and under what conditions does the deductive mode preserve soundness while learning representations?
+**Question to settle:** How does predicate invention work, and under what conditions does the deductive mode preserve soundness while learning representations?
 
 **Caveat:** publisher framing; unverified; No-hallucination and unification claims may depend on restrictive assumptions.
-
-[Completed transcript review](reviews/4APMGvicmxY.md)
 
 ### He Co-Invented the Transformer. Now: Continuous Thought Machines [Llion Jones / Luke Darlow]
 
@@ -580,11 +534,9 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** A concrete alternative architecture addresses internal computation, calibration and variable reasoning time beyond transformer scaling.
 
-**Question for a transcript review:** What temporal synchronisation mechanism produces adaptive computation, and which experiments isolate it from recurrent baselines?
+**Question to settle:** What temporal synchronisation mechanism produces adaptive computation, and which experiments isolate it from recurrent baselines?
 
 **Caveat:** publisher framing; unverified; Spiral and maze analogies may overstate understanding differences.
-
-[Completed transcript review](reviews/DtePicx_kFY.md)
 
 ### We Built Calculators Because We're STUPID! [Prof. David Krakauer]
 
@@ -596,7 +548,7 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** A compact but substantive competing theory links intelligence to evolutionary information and computational reformulation.
 
-**Question for a transcript review:** How is representational intelligence formalised, and what counts as reduced computation when the environment performs part of it?
+**Question to settle:** How is representational intelligence formalised, and what counts as reduced computation when the environment performs part of it?
 
 **Caveat:** publisher framing; unverified; Claims that all life is intelligent depend on chosen definitions; edited lecture is distinct from the interview.
 
@@ -622,7 +574,7 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** A structured account of adaptation across substrates broadens the foundations of learning beyond neural networks.
 
-**Question for a transcript review:** Which predictions distinguish the three levels, and how are learning, individuality and evolutionary transitions formalised?
+**Question to settle:** Which predictions distinguish the three levels, and how are learning, individuality and evolutionary transitions formalised?
 
 **Caveat:** publisher framing; unverified; Extending life to culture or AI depends on definitions and substrate assumptions.
 
@@ -636,11 +588,9 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** Unlike the technical ALife lecture, this interview promises extended functionalist and collective-cognition arguments, so overlap is not proven duplication.
 
-**Question for a transcript review:** What connects replication and merging to intelligence, and which parts are experimental results versus functionalist interpretation?
+**Question to settle:** What connects replication and merging to intelligence, and which parts are experimental results versus functionalist interpretation?
 
 **Caveat:** publisher framing; unverified; Computation-as-life claims exceed what engineered code substrates alone establish.
-
-[Completed transcript review](reviews/rMSEqJ_4EBk.md)
 
 ### AI training data will never be fully synthetic [SPONSORED]
 
@@ -652,7 +602,7 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** Demographic stratification and behavioural counterexamples promise substantive evaluation content beyond promotion, distinct from the shorter TrueSkill-focused episode.
 
-**Question for a transcript review:** How do demographic strata and task framing change evaluation conclusions, and what supports claims about irreducible human feedback?
+**Question to settle:** How do demographic strata and task framing change evaluation conclusions, and what supports claims about irreducible human feedback?
 
 **Caveat:** publisher framing; unverified; The title's never-fully-synthetic claim is stronger than the described evidence.
 
@@ -666,7 +616,7 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** The model-collapse and architecture-based failure sections promise learning-theoretic mechanisms beyond operational security.
 
-**Question for a transcript review:** Which assumptions and counterexamples support model-collapse and semantic-filter impossibility claims?
+**Question to settle:** Which assumptions and counterexamples support model-collapse and semantic-filter impossibility claims?
 
 **Caveat:** publisher framing; unverified; Headline speed and threat claims do not establish general agent capability.
 
@@ -680,11 +630,9 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** The change from Python programs to English hypotheses is a concrete experiment on representation and search, distinct from ARC solver interviews using direct grid prediction.
 
-**Question for a transcript review:** How do natural-language candidates and verifier errors alter search efficiency and generalisation compared with executable programs?
+**Question to settle:** How do natural-language candidates and verifier errors alter search efficiency and generalisation compared with executable programs?
 
 **Caveat:** publisher framing; unverified; Expressiveness and epistemic-tree claims need operational definitions; public-leaderboard results may not generalise.
-
-[Completed transcript review](reviews/FcnLiPyfRZM.md)
 
 ### The Real Reason Huge AI Models Actually Work [Prof. Andrew Wilson]
 
@@ -696,11 +644,9 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** Directly targets statistical foundations, separating model expressiveness from inductive bias with cited theoretical work.
 
-**Question for a transcript review:** Which priors, optimisation assumptions and complexity notions make larger models generalise better?
+**Question to settle:** Which priors, optimisation assumptions and complexity notions make larger models generalise better?
 
 **Caveat:** publisher framing; unverified; Scaling claims may depend on compute-optimal regimes and selected model/data assumptions.
-
-[Completed transcript review](reviews/M-jTeBCEGHc.md)
 
 ### Your Brain Is a Prediction Machine, Not a Processor — Karl Friston
 
@@ -712,7 +658,7 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** A substantial alternative mathematical-conceptual framework links persistence, inference and action across biological systems.
 
-**Question for a transcript review:** Which assumptions turn free-energy minimisation into predictive claims about agency rather than a redescription of persistence?
+**Question to settle:** Which assumptions turn free-energy minimisation into predictive claims about agency rather than a redescription of persistence?
 
 **Caveat:** publisher framing; unverified; Consciousness and mortal-computation claims are speculative extensions, not implied automatically by the principle.
 
@@ -726,7 +672,7 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** Promises a concrete computational perspective on representation and intelligence rather than only social-complexity commentary.
 
-**Question for a transcript review:** How do computational universality and structured-data assumptions constrain learnability and abstraction in finite models?
+**Question to settle:** How do computational universality and structured-data assumptions constrain learnability and abstraction in finite models?
 
 **Caveat:** publisher framing; unverified; Title promises social phase transitions absent from the chapter summary; the Rule 110 label links to Rule150.
 
@@ -740,7 +686,7 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** Explicit competing formal definitions and the relation between abstraction, resources and causality fit the foundational question.
 
-**Question for a transcript review:** Which formal commitments distinguish resource-limited adaptation from AIXI and active inference, and what cases separate them?
+**Question to settle:** Which formal commitments distinguish resource-limited adaptation from AIXI and active inference, and what cases separate them?
 
 **Caveat:** publisher framing; unverified; The all-definitions-wrong title is rhetorical; consciousness conclusions may exceed formal results.
 
@@ -754,7 +700,7 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** Governance is clearly central, but the early conceptual sections and technical references could contain relevant substance that the metadata does not specify.
 
-**Question for a transcript review:** Do the opening sections explain a distinct measurement model or intelligence mechanism, beyond premises for policy arguments?
+**Question to settle:** Do the opening sections explain a distinct measurement model or intelligence mechanism, beyond premises for policy arguments?
 
 **Caveat:** publisher framing; unverified; Neither the geopolitical argument nor a bibliography establishes technical depth; retain as unresolved.
 
@@ -768,11 +714,9 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** Learned interactive dynamics and the sim-to-real gap promise a concrete world-model case rather than only a product demo.
 
-**Question for a transcript review:** How are persistence, action-conditioned dynamics and transfer to real agents evaluated independently of visual plausibility?
+**Question to settle:** How are persistence, action-conditioned dynamics and transfer to real agents evaluated independently of visual plausibility?
 
 **Caveat:** publisher framing; unverified; Promotional language about learning reality and reliable memory may overstate limited-horizon performance.
-
-[Completed transcript review](reviews/ekgvWeHidJs.md)
 
 ### Can Outsourcing Thinking Make Us Dumber? [Prof. David Krakauer]
 
@@ -784,7 +728,7 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** The interview extends the short Krakauer lecture with coarse-graining, causality and feedback between external representations and learning.
 
-**Question for a transcript review:** What formal or empirical criteria distinguish new explanatory organisation from thresholded benchmark gains?
+**Question to settle:** What formal or empirical criteria distinguish new explanatory organisation from thresholded benchmark gains?
 
 **Caveat:** publisher framing; unverified; Claims about LLM non-emergence and cognitive atrophy require evidence beyond analogy.
 
@@ -798,11 +742,9 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** A specified physical sampling mechanism and energy-efficiency argument justify reading despite the ideological second half.
 
-**Question for a transcript review:** Which distribution, mixing-time assumptions and measured energy costs support the proposed sampling advantage?
+**Question to settle:** Which distribution, mixing-time assumptions and measured energy costs support the proposed sampling advantage?
 
 **Caveat:** publisher framing; unverified; Projected wafer efficiency and derivation of social inevitability from thermodynamics are separate, unverified claims.
-
-[Completed transcript review](reviews/HR-_U0Pzl1Y.md)
 
 ### Math vs AI: Who Decides What's True? [Dr. Paul Lessard]
 
@@ -814,7 +756,7 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** Links mathematical construction, learned constraints and explanation, distinct from both the categorical panel and Lean-focused interviews.
 
-**Question for a transcript review:** How does the algebraic perspective generate useful architectures or discover constraints beyond re-expressing existing ones?
+**Question to settle:** How does the algebraic perspective generate useful architectures or discover constraints beyond re-expressing existing ones?
 
 **Caveat:** publisher framing; unverified; Fake-physics and transformer-as-RNN analogies need explicit limits.
 
@@ -828,7 +770,7 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** The extraction experiment supplies a concrete probe of memorisation and behavioural brittleness, even though the setting is security.
 
-**Question for a transcript review:** What explains the transition from ordinary generation to extracted training text, and what does the experiment show about memorisation?
+**Question to settle:** What explains the transition from ordinary generation to extracted training text, and what does the experiment show about memorisation?
 
 **Caveat:** publisher framing; unverified; Extraction failures do not by themselves prove that models lack generalisation.
 
@@ -842,11 +784,9 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** The main interview offers an explicit competing account connecting representation quality, creative recombination and evolutionary history.
 
-**Question for a transcript review:** What controlled comparisons distinguish path-dependent evolvability from output equivalence, optimisation bias or human selection effects?
+**Question to settle:** What controlled comparisons distinguish path-dependent evolvability from output equivalence, optimisation bias or human selection effects?
 
 **Caveat:** publisher framing; unverified; FER is a hypothesis; publisher flags internal repetition and recommends the main interview from 47:58.
-
-[Completed transcript review](reviews/KKUKikuV58o.md)
 
 ### Why Every AI Model Is an Impostor — Kenneth Stanley
 
@@ -870,7 +810,7 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** The long cognition-versus-scaling section promises substantive counterarguments and benchmark counterexamples despite timeline-focused framing.
 
-**Question for a transcript review:** Which specific cognitive failures require architectural change, and which could be addressed by tools, training or evaluation design?
+**Question to settle:** Which specific cognitive failures require architectural change, and which could be addressed by tools, training or evaluation design?
 
 **Caveat:** publisher framing; unverified; Forecasts and dramatic risk framing are separate from demonstrated cognitive limitations.
 
@@ -884,7 +824,7 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** Concrete architectural proposals and object/constraint discussion connect embodied learning to model composition beyond language.
 
-**Question for a transcript review:** How do specialised models share beliefs, compose actions and acquire grounded primitives without incompatible assumptions?
+**Question to settle:** How do specialised models share beliefs, compose actions and acquire grounded primitives without incompatible assumptions?
 
 **Caveat:** publisher framing; unverified; Startup vision and Plato's-cave analogy may exceed demonstrated implementation.
 
@@ -898,7 +838,7 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** A substantial opposing account to grounding scepticism, including Clever Hans and brain-AI computational comparisons, warrants direct examination.
 
-**Question for a transcript review:** What evidence distinguishes transferable world understanding from language-mediated behavioural imitation, and what grounding remains necessary?
+**Question to settle:** What evidence distinguishes transferable world understanding from language-mediated behavioural imitation, and what grounding remains necessary?
 
 **Caveat:** publisher framing; unverified; The description's claim that everything can be learned from words is exceptionally broad.
 
@@ -912,7 +852,7 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** Specific evaluation pathologies and comparison methodology generalise beyond the news dispute to measurement of model capability.
 
-**Question for a transcript review:** How much of ranking variation follows sampling and selection procedures rather than underlying capability changes?
+**Question to settle:** How much of ranking variation follows sampling and selection procedures rather than underlying capability changes?
 
 **Caveat:** publisher framing; unverified; Rigged is publisher rhetoric; allegations and the linked platform response are not adjudicated here.
 
@@ -926,7 +866,7 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** Model blending and reward-induced conversational behaviours provide concrete learning mechanisms despite the recruitment-advert format.
 
-**Question for a transcript review:** What is actually blended, what objective is optimised, and what evidence separates retention gains from more general capability?
+**Question to settle:** What is actually blended, what objective is optimised, and what evidence separates retention gains from more general capability?
 
 **Caveat:** publisher framing; unverified; Publisher explicitly disclaims independent journalism and says some negative discussion was edited out.
 
@@ -940,11 +880,9 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** Concrete algorithmic discovery and a meta-level representation shift directly address search, creativity and human-designed constraints.
 
-**Question for a transcript review:** How do evaluator design and search representation change discoveries, and what exactly is established by the matrix-multiplication result?
+**Question to settle:** How do evaluator design and search representation change discoveries, and what exactly is established by the matrix-multiplication result?
 
 **Caveat:** publisher framing; unverified; Record, arithmetic-domain and generalisation claims require precise reconstruction; human problem/evaluator design remains central.
-
-[Completed transcript review](reviews/vC9nAosXrJw.md)
 
 ### Build Specialist LLMs Like It’s 2019 (Randall Balestriero)
 
@@ -956,11 +894,9 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** Three concrete results connect objective structure, pretraining necessity and architectural bias, directly relevant beyond LLMs.
 
-**Question for a transcript review:** Under what label-relationship assumptions does the objective equivalence hold, and what transfers to representation quality or generalisation?
+**Question to settle:** Under what label-relationship assumptions does the objective equivalence hold, and what transfers to representation quality or generalisation?
 
 **Caveat:** publisher framing; unverified; Narrow discriminative results do not establish that pretraining is unnecessary for generation.
-
-[Completed transcript review](reviews/SP-kORMUZns.md)
 
 ### "We need AIs with PHYSICAL experience" (Jeff Beck)
 
@@ -972,11 +908,9 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** The belief-reward identification problem and Bayesian-brain evidence distinguish this interview from later modular-robotics discussions.
 
-**Question for a transcript review:** What assumptions create belief-reward nonidentifiability, and which interventions or priors could resolve it?
+**Question to settle:** What assumptions create belief-reward nonidentifiability, and which interventions or priors could resolve it?
 
 **Caveat:** publisher framing; unverified; An identification obstruction need not imply impossibility of every form of alignment.
-
-[Completed transcript review](reviews/zv6qzWecj5c.md)
 
 ### Why Program Synthesis Is Next (Kevin Ellis and Zenna Tavares)
 
@@ -988,11 +922,9 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** Several concrete learning systems explain how compositional models arise through search and interaction, beyond static prediction.
 
-**Question for a transcript review:** How do learned libraries or in-context programs alter search complexity, and when are induction and transduction complementary?
+**Question to settle:** How do learned libraries or in-context programs alter search complexity, and when are induction and transduction complementary?
 
 **Caveat:** publisher framing; unverified; Program interpretability and benchmark success do not automatically establish human-like abstraction.
-
-[Completed transcript review](reviews/oYTm0p3DCzg.md)
 
 ### "You don't fine-tune your way to AGI" - Here's why. [Eiso Kant]
 
@@ -1004,7 +936,7 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** A specified feedback loop and environment-diversity rationale give the company interview a distinct learning contribution.
 
-**Question for a transcript review:** What evidence isolates execution-feedback learning from data, compute and benchmark overlap, and prevents reward exploitation?
+**Question to settle:** What evidence isolates execution-feedback learning from data, compute and benchmark overlap, and prevents reward exploitation?
 
 **Caveat:** publisher framing; unverified; Commercial scaling and timeline claims may outrun disclosed experiments.
 
@@ -1018,7 +950,7 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** Early intelligence/animal comparisons and the safety taxonomy might offer a substantial conceptual argument, but metadata mainly states policy implications without specifying the underlying account.
 
-**Question for a transcript review:** Do the conceptual sections provide distinct explanatory arguments about intelligence or agency, rather than assumed premises for governance?
+**Question to settle:** Do the conceptual sections provide distinct explanatory arguments about intelligence or agency, rather than assumed premises for governance?
 
 **Caveat:** publisher framing; unverified; Insufficient detail about relevant conceptual depth; no rejection based solely on policy framing.
 
@@ -1032,7 +964,7 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** An explicit evaluation design and operational definition of fluid adaptation merit reading beyond the launch announcement.
 
-**Question for a transcript review:** How do human calibration, adversarial task selection and compute accounting support the intended intelligence construct?
+**Question to settle:** How do human calibration, adversarial task selection and compute accounting support the intended intelligence construct?
 
 **Caveat:** publisher framing; unverified; A benchmark designed around current failures may have selection-dependent validity.
 
@@ -1046,11 +978,9 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** The multi-researcher contrast adds a distinct argument about learnability and interpreters beyond the Ellis/Tavares interview.
 
-**Question for a transcript review:** What assumptions support the gradient-descent limitation, and how might neural interpreters or active experiments change it?
+**Question to settle:** What assumptions support the gradient-descent limitation, and how might neural interpreters or active experiments change it?
 
 **Caveat:** publisher framing; unverified; A categorical inability claim may refer to specific training regimes rather than impossibility in general.
-
-[Completed transcript review](reviews/TQDCsyuuwsg.md)
 
 ### Test-Time Adaptation: the key to reasoning with DL
 
@@ -1062,11 +992,9 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** A concrete adaptive perception approach provides an alternative to symbolic program synthesis on the same abstract-reasoning tasks.
 
-**Question for a transcript review:** Which adaptation, data and voting components account for gains, and how is novelty separated from task-family reuse?
+**Question to settle:** Which adaptation, data and voting components account for gains, and how is novelty separated from task-family reuse?
 
 **Caveat:** publisher framing; unverified; Incomplete pipeline disclosure limits reproducibility and high-score interpretation.
-
-[Completed transcript review](reviews/3p0O28W1ZHg.md)
 
 ### Moving Beyond Surface Statistics (Apple researcher) [Iman Mirzadeh]
 
@@ -1078,11 +1006,9 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** Concrete controlled perturbations and a competing measurement account warrant inspection even if universal limitations are overstated.
 
-**Question for a transcript review:** Which perturbations preserve semantics, and what alternative causes explain variance besides absence of reasoning?
+**Question to settle:** Which perturbations preserve semantics, and what alternative causes explain variance besides absence of reasoning?
 
 **Caveat:** publisher framing; unverified; Cross-entropy training does not alone substantiate every impossibility claim in the description.
-
-[Completed transcript review](reviews/yQPduek-Q5s.md)
 
 ### The Gap Between Humans and Machines Is ___ [Dr. Max Bartolo]
 
@@ -1094,11 +1020,9 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** Detailed chapters and research links compensate for the visibly abbreviated prose, promising explicit investigative and evaluation methods.
 
-**Question for a transcript review:** How do attribution and dynamic adversarial evaluation distinguish robust procedural learning from brittle benchmark performance?
+**Question to settle:** How do attribution and dynamic adversarial evaluation distinguish robust procedural learning from brittle benchmark performance?
 
 **Caveat:** publisher framing; unverified; YouTube prose visibly ends mid-thought, but detailed chapters and RSS supply meaningful scope.
-
-[Completed transcript review](reviews/DL7qwmWWk88.md)
 
 ### Panel discussion on ARC Prize 2024 (Zurich)
 
@@ -1110,27 +1034,21 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** Panel disagreement over representations and state adds distinct conceptual content to the separate implementation interview.
 
-**Question for a transcript review:** What evidence supports continuous concepts or explicit state over token-based search, apart from speculation about o3?
+**Question to settle:** What evidence supports continuous concepts or explicit state over token-based search, apart from speculation about o3?
 
 **Caveat:** publisher framing; unverified; Overlaps index 79's algorithm; o3 internals are explicitly speculative rather than disclosed architecture.
-
-[Completed transcript review](reviews/mt3Im4j5iaQ.md)
 
 ### Tau Language: The Software Synthesis Future [Sponsored] - Ohad Asor
 
 [Original source](https://www.youtube.com/watch?v=JVLpxm5jT2s) · 2025-03-12T12:49:47-07:00
 
-**Read transcript** · high priority
+**Skip**
 
 **Publisher promise:** Presents Tau's Boolean-algebra foundations, self-reference, quantifier elimination and belief revision as an alternative to statistical learning.
 
-**Reason for the decision:** Concrete formal mechanisms and computability claims justify scrutiny despite blockchain applications and sponsorship.
-
-**Question for a transcript review:** What restricted logical language permits the claimed self-reference and synthesis, and how are complexity and correctness guarantees bounded?
+**Reason for the decision:** Left out after a full reading on 26 October 2026: it did not justify further study for this objective. First-filter reason: Concrete formal mechanisms and computability claims justify scrutiny despite blockchain applications and sponsorship.
 
 **Caveat:** publisher framing; unverified; Claims of overcoming Tarski or universal ML ceilings demand exact assumptions; prose is abbreviated and references repeat.
-
-[Completed transcript review](reviews/JVLpxm5jT2s.md)
 
 ### Transformers Need Glasses! [Federico Barbero]
 
@@ -1142,11 +1060,9 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** A specific architectural failure mechanism with proposed modifications directly links mathematical structure to reasoning performance.
 
-**Question for a transcript review:** Which collapse bounds depend on length, precision and attention assumptions, and which modifications actually avoid them?
+**Question to settle:** Which collapse bounds depend on length, precision and attention assumptions, and which modifications actually avoid them?
 
 **Caveat:** publisher framing; unverified; Asymptotic or finite-precision limits should not be conflated with all practical reasoning failures.
-
-[Completed transcript review](reviews/FAspMnu4Rt0.md)
 
 ### Can AI Improve Itself? [Chris Lu, Robert Lange, Cong Lu]
 
@@ -1158,11 +1074,9 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** An explicit search-over-learning-algorithms experiment addresses how new update rules arise, distinct from later Shinka problem evolution.
 
-**Question for a transcript review:** Why does the discovered nonconvex loss help, and does it transfer beyond the search tasks and evaluator?
+**Question to settle:** Why does the discovered nonconvex loss help, and does it transfer beyond the search tasks and evaluator?
 
 **Caveat:** publisher framing; unverified; Improving a training loss is narrower than recursively improving general intelligence.
-
-[Completed transcript review](reviews/1kwbp8hRRfs.md)
 
 ### Can Latent Program Networks Solve Abstract Reasoning? [Clement Bonnet]
 
@@ -1174,11 +1088,9 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** A concrete nonstandard architecture connects continuous optimisation, program representation and limits of compositional search.
 
-**Question for a transcript review:** How is the latent space trained to be searchable, and what prevents composition within a single fixed latent representation?
+**Question to settle:** How is the latent space trained to be searchable, and what prevents composition within a single fixed latent representation?
 
 **Caveat:** publisher framing; unverified; Program-manifold language need not imply recoverable symbolic programs or unrestricted composition.
-
-[Completed transcript review](reviews/PHBItVuudbU.md)
 
 ### ImageNet Moment for Reinforcement Learning? [Prof. Jakob Foerster]
 
@@ -1190,11 +1102,9 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** A named theoretical framework and learned drift functions explain algorithm discovery beyond mere hardware throughput.
 
-**Question for a transcript review:** What guarantees survive learning the drift function, and how does discovered clipping transfer across environments?
+**Question to settle:** What guarantees survive learning the drift function, and how does discovered clipping transfer across environments?
 
 **Caveat:** publisher framing; unverified; Speedups and behavioural interpretations need baseline context; publisher sources differ on Chris Lu's affiliation.
-
-[Completed transcript review](reviews/Jr_nGkCG3og.md)
 
 ### The ARC Prize 2024 Winning Algorithm [Daniel Franzen and Jan Disselhoff]
 
@@ -1206,11 +1116,9 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** Detailed implementation and ablation questions distinguish this interview from the related panel at index 73.
 
-**Question for a transcript review:** Why do probability-threshold search and multi-view scoring improve correctness, and how well calibrated are candidate probabilities?
+**Question to settle:** Why do probability-threshold search and multi-view scoring improve correctness, and how well calibrated are candidate probabilities?
 
 **Caveat:** publisher framing; unverified; ARC task-specific structure may explain gains without establishing unrestricted abstraction.
-
-[Completed transcript review](reviews/mTX_sAq--zY.md)
 
 ### LSTM: The Comeback Story? [Prof. Sepp Hochreiter]
 
@@ -1222,11 +1130,9 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** Concrete recurrent-memory architecture provides a substantive alternative to attention models beyond historical commentary.
 
-**Question for a transcript review:** How do exponential gates and matrix memory change gradient flow, capacity and computation compared with LSTM and attention?
+**Question to settle:** How do exponential gates and matrix memory change gradient flow, capacity and computation compared with LSTM and attention?
 
 **Caveat:** publisher framing; unverified; Broad reasoning-limit claims are separate from architectural results; one reference label/link appears mismatched.
-
-[Completed transcript review](reviews/8u2pW2zZLCs.md)
 
 ### Neural Networks Are Elastic Origami! [Prof. Randall Balestriero]
 
@@ -1238,11 +1144,9 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** Explicit mathematical representation and dynamic phenomena directly match foundational interests beyond language models.
 
-**Question for a transcript review:** How does evolution of linear regions explain delayed robustness, and which claims are exact versus empirical?
+**Question to settle:** How does evolution of linear regions explain delayed robustness, and which claims are exact versus empirical?
 
 **Caveat:** publisher framing; unverified; Reference lists and chapter timestamps are uneven; geometric association alone is not a causal account.
-
-[Completed transcript review](reviews/l3O2J3LMxqI.md)
 
 ### Language Models are "Modelling The World" [Nicholas Carlini]
 
@@ -1254,7 +1158,7 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** Concrete behavioural counterexamples and architecture extraction offer evidence relevant to learned world structure despite extensive operational discussion.
 
-**Question for a transcript review:** What chess interventions distinguish world-state tracking from memorised notation, and how does post-training affect calibration?
+**Question to settle:** What chess interventions distinguish world-state tracking from memorised notation, and how does post-training affect calibration?
 
 **Caveat:** publisher framing; unverified; The title's world-modelling interpretation may exceed the behavioural evidence.
 
@@ -1268,11 +1172,9 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** Explicit planning counterexamples and alternative system designs qualify independently of the sensational title.
 
-**Question for a transcript review:** Which planning failures persist under distribution controls, and how do external verifiers change the reliability argument?
+**Question to settle:** Which planning failures persist under distribution controls, and how do external verifiers change the reliability argument?
 
 **Caveat:** publisher framing; unverified; The title claims a proof of inability; description actually mixes experiments with architectural hypotheses and contains uneven reference dates.
-
-[Completed transcript review](reviews/2xFTNXK6AzQ.md)
 
 ### How Do AI Models Actually Think? [Dr. Laura Ruis]
 
@@ -1284,11 +1186,9 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** A specified attribution method provides a counterpoint to pure-retrieval accounts, with compositional and causal-agency extensions.
 
-**Question for a transcript review:** How reliable are influence-function approximations, and what evidence isolates procedural synthesis from correlated training examples?
+**Question to settle:** How reliable are influence-function approximations, and what evidence isolates procedural synthesis from correlated training examples?
 
 **Caveat:** publisher framing; unverified; Attribution does not automatically establish a complete causal mechanism or human-like reasoning.
-
-[Completed transcript review](reviews/14DXtvRJeNU.md)
 
 ### SCHMIDHUBER: HOW WE WILL LIVE WITH AIs
 
@@ -1300,7 +1200,7 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** Explicit memory and self-model mechanisms qualify despite historical priority disputes and speculative coexistence framing.
 
-**Question for a transcript review:** How does chunking/automatisation produce a self-model, and what functional predictions distinguish that from consciousness attribution?
+**Question to settle:** How does chunking/automatisation produce a self-model, and what functional predictions distinguish that from consciousness attribution?
 
 **Caveat:** publisher framing; unverified; Historical attribution and claims of necessarily benevolent curious AIs require independent scrutiny.
 
@@ -1314,11 +1214,9 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** Several explicit mathematical models promise substance despite the risk-focused title and large governance segment.
 
-**Question for a transcript review:** What formal assumptions separate inference from goal-directed agency, and how do GFlowNets support compositional structure?
+**Question to settle:** What formal assumptions separate inference from goal-directed agency, and how do GFlowNets support compositional structure?
 
 **Caveat:** publisher framing; unverified; Oracle safety guarantees and compositionality claims have potentially restrictive assumptions.
-
-[Completed transcript review](reviews/G1ARvwQntAU.md)
 
 ### François Chollet on OpenAI o-models and ARC
 
@@ -1330,11 +1228,9 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** The program-graph proposal and explicit efficiency view add architectural and measurement content beyond benchmark reporting.
 
-**Question for a transcript review:** What makes graph-based search and reusable functions more adaptive than token generation, and how is efficiency measured?
+**Question to settle:** What makes graph-based search and reusable functions more adaptive than token generation, and how is efficiency measured?
 
 **Caveat:** publisher framing; unverified; o3 results were undisclosed at recording; later reference links must not be mistaken for contemporaneous discussion.
-
-[Completed transcript review](reviews/w9WE1aOPjHc.md)
 
 ### Don't invent faster horses - Prof. Jeff Clune
 
@@ -1346,11 +1242,9 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** Multiple concrete search systems and the goal-deception problem offer a substantive account of continual creative discovery.
 
-**Question for a transcript review:** How is interestingness operationalised without collapsing into another fixed objective, and what demonstrates sustained open-ended growth?
+**Question to settle:** How is interestingness operationalised without collapsing into another fixed objective, and what demonstrates sustained open-ended growth?
 
 **Caveat:** publisher framing; unverified; Publisher claims that model judges ensure authentic novelty are stronger than the described mechanism.
-
-[Completed transcript review](reviews/mw5WIDGRLnA.md)
 
 ### NEURAL NETWORKS ARE WEIRD! - Neel Nanda (DeepMind)
 
@@ -1362,11 +1256,9 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** An extensive technical account offers direct methods for investigating internal algorithms and distinguishing interpretation from intervention.
 
-**Question for a transcript review:** Which interventions establish causally necessary circuits, and how do SAE features depend on dictionary width and activation choices?
+**Question to settle:** Which interventions establish causally necessary circuits, and how do SAE features depend on dictionary width and activation choices?
 
 **Caveat:** publisher framing; unverified; Readable features may omit or distort computation; publisher sources differ on the guest's age.
-
-[Completed transcript review](reviews/YpFaPKOeNME.md)
 
 ### Test-Time Adaptation: A New Frontier in AI [Dr. Jonas Hübotter]
 
@@ -1378,11 +1270,9 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** The metadata promises a specific statistical mechanism for selecting relevant learning data and comparing local with global learning.
 
-**Question for a transcript review:** How does the Bayesian surrogate select data, and under which task and compute comparisons does local adaptation win?
+**Question to settle:** How does the Bayesian surrogate select data, and under which task and compute comparisons does local adaptation win?
 
 **Caveat:** publisher framing; unverified; The 30x wording may conflate model size with performance.
-
-[Completed transcript review](reviews/C6sSs6NgANo.md)
 
 ### What is “reasoning” in modern AI?
 
@@ -1394,11 +1284,9 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** Specific systems connect learned representations, search and formal verification, directly relevant to the structure of reasoning.
 
-**Question for a transcript review:** Which part of COPRA or concept-library learning produces transferable abstraction rather than search guidance alone?
+**Question to settle:** Which part of COPRA or concept-library learning produces transferable abstraction rather than search guidance alone?
 
 **Caveat:** publisher framing; unverified; Formal proof success need not establish general reasoning.
-
-[Completed transcript review](reviews/XFMk0snybAc.md)
 
 ### AI in 2024 - efficiency over model size (Nick Jakobi)
 
@@ -1422,11 +1310,9 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** The erasure intervention and sequential learning of moments offer concrete tests of representation and learning structure.
 
-**Question for a transcript review:** What assumptions guarantee LEACE erasure, and how do nonlinear or higher-order cues explain residual competence?
+**Question to settle:** What assumptions guarantee LEACE erasure, and how do nonlinear or higher-order cues explain residual competence?
 
 **Caveat:** publisher framing; unverified; Linear erasure may not eliminate a concept in all functional senses. RSS chapter metadata calls one implementation LISA while the description names LEACE; resolve the naming discrepancy.
-
-[Completed transcript review](reviews/VgPrjHxIS0I.md)
 
 ### Learning at test time in LLMs [Jonas Hübotter]
 
@@ -1438,11 +1324,9 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** This is a separate technical presentation with non-IID experiments and scaling questions, not demonstrated duplication of the interview at index 90.
 
-**Question for a transcript review:** How is informativeness estimated and what ablations separate selection quality from additional test-time compute?
+**Question to settle:** How is informativeness estimated and what ablations separate selection quality from additional test-time compute?
 
 **Caveat:** publisher framing; unverified; Parameter-efficiency claims require matched evaluation and compute budgets.
-
-[Completed transcript review](reviews/vei7uf9wOxI.md)
 
 ### Optimize GPU performance for AI - Prof. Gennady Pekhimenko
 
@@ -1466,7 +1350,7 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** Despite a risk headline, the chapter sequence promises sustained competing explanations of optimization and goal-directed behavior.
 
-**Question for a transcript review:** What assumptions make prediction become goal-directed optimization, and does irreducibility support or constrain that inference?
+**Question to settle:** What assumptions make prediction become goal-directed optimization, and does irreducibility support or constrain that inference?
 
 **Caveat:** publisher framing; unverified; Philosophical risk arguments may outrun formal or empirical support.
 
@@ -1480,7 +1364,7 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** A substantial competing account of intelligence is tied to benchmark design, generalization and concrete architecture questions.
 
-**Question for a transcript review:** How are priors, developer knowledge and experience controlled when distinguishing skill from intelligence on ARC?
+**Question to settle:** How are priors, developer knowledge and experience controlled when distinguishing skill from intelligence on ARC?
 
 **Caveat:** publisher framing; unverified; Near-zero intelligence and Kaleidoscope framing are contested claims, not established results.
 
@@ -1506,7 +1390,7 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** The chapters promise explanations of overparameterization and model limitations; strong mathematics does not imply these topics are already mastered.
 
-**Question for a transcript review:** What explanation of double descent and representation geometry is offered, and how substantive is the link to natural intelligence?
+**Question to settle:** What explanation of double descent and representation geometry is offered, and how substantive is the link to natural intelligence?
 
 **Caveat:** publisher framing; unverified; A general-audience book discussion may offer less mathematical depth than the title suggests.
 
@@ -1520,11 +1404,9 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** Named experimental systems and operational concepts could broaden the anatomy of intelligence beyond brains and language models.
 
-**Question for a transcript review:** What experimental criteria distinguish learning and goal pursuit from passive dynamical responses in chemical and tissue systems?
+**Question to settle:** What experimental criteria distinguish learning and goal pursuit from passive dynamical responses in chemical and tissue systems?
 
 **Caveat:** publisher framing; unverified; Agency language and medical extrapolations need separation from demonstrated experiments; YouTube and RSS chapter timing differs.
-
-[Completed transcript review](reviews/6w5xr8BYV8M.md)
 
 ### One Step Closer to the Star Trek Voice AI Assistant!
 
@@ -1536,7 +1418,7 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** Although sponsored and deployment-heavy, the description promises specific learning and probabilistic decoding mechanisms beyond LLMs.
 
-**Question for a transcript review:** How does self-supervised acoustic learning combine with lattice rescoring, and what makes diarization representations fail under cross-talk?
+**Question to settle:** How does self-supervised acoustic learning combine with lattice rescoring, and what makes diarization representations fail under cross-talk?
 
 **Caveat:** publisher framing; unverified; The 100x labeled-data comparison may depend strongly on benchmark and training setup.
 
@@ -1550,11 +1432,9 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** The chapters expose the mathematical objects and algorithmic choices behind a substantial alternative framework of agency.
 
-**Question for a transcript review:** Which assumptions connect Bayesian mechanics to implementable active inference, and how is epistemic value computed for planning?
+**Question to settle:** Which assumptions connect Bayesian mechanics to implementable active inference, and how is epistemic value computed for planning?
 
 **Caveat:** publisher framing; unverified; Universal biological framing and advantages over RL are publisher claims requiring scope checks.
-
-[Completed transcript review](reviews/hf18w6CuY8o.md)
 
 ### Joscha Bach - Why Your Thoughts Aren't Yours.
 
@@ -1566,7 +1446,7 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** A developed competing computational account of minds is promised, including causal structure and architectural implications.
 
-**Question for a transcript review:** What operational or causal criteria distinguish conscious self-organizing software from other complex computation?
+**Question to settle:** What operational or causal criteria distinguish conscious self-organizing software from other complex computation?
 
 **Caveat:** publisher framing; unverified; Cyberanima and emergence are conceptual hypotheses; architecture claims may be less developed.
 
@@ -1580,11 +1460,9 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** A named algorithm, search strategies and performance-limit chapters provide a concrete mechanism for learning reusable abstractions.
 
-**Question for a transcript review:** How does decompiling amortized knowledge change library learning and search complexity, and what does it transfer to ARC?
+**Question to settle:** How does decompiling amortized knowledge change library learning and search complexity, and what does it transfer to ARC?
 
 **Caveat:** publisher framing; unverified; ARC applicability may be a proposal rather than a demonstrated result.
-
-[Completed transcript review](reviews/3ZTNps2PraM.md)
 
 ### The ChatGPT Paradox: Impressive Yet Incomplete
 
@@ -1596,11 +1474,9 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** The episode promises specific modeling structures and failure diagnoses beyond a generic critique of chatbots.
 
-**Question for a transcript review:** Which uncertainty estimands are identifiable, and how do explicit knowledge structures address novelty and inconsistent generated claims?
+**Question to settle:** Which uncertainty estimands are identifiable, and how do explicit knowledge structures address novelty and inconsistent generated claims?
 
 **Caveat:** publisher framing; unverified; The chapter breadth may exceed the detail of any one proposed architecture.
-
-[Completed transcript review](reviews/7bmhjt1cpRs.md)
 
 ### Biologically-inspired AI and Mortal Computation
 
@@ -1612,11 +1488,9 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** The metadata names algorithms, physical constraints and experimental comparisons that directly address how learning can differ from backpropagation.
 
-**Question for a transcript review:** How do the alternative credit-assignment rules work, and what evidence links substrate dependence to learning efficiency or continual adaptation?
+**Question to settle:** How do the alternative credit-assignment rules work, and what evidence links substrate dependence to learning efficiency or continual adaptation?
 
 **Caveat:** publisher framing; unverified; Energy and generative-performance comparisons require matched baselines; biological plausibility is not equivalence to brains.
-
-[Completed transcript review](reviews/ZTE-JVd_QkA.md)
 
 ### It's Not About Scale, It's About Abstraction
 
@@ -1628,11 +1502,9 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** Concrete counterexamples and an architectural proposal qualify; RSS identifies a keynote distinct from the interview at index 97.
 
-**Question for a transcript review:** Do the task-familiarity counterexamples isolate compositional generalization, and how would the proposed hybrid acquire abstractions?
+**Question to settle:** Do the task-familiarity counterexamples isolate compositional generalization, and how would the proposed hybrid acquire abstractions?
 
 **Caveat:** publisher framing; unverified; Claims about scaling impossibility and the Kaleidoscope Hypothesis are not established by isolated failures.
-
-[Completed transcript review](reviews/s7_NlkBwdj8.md)
 
 ### Why does the Chinese Room still haunt AI?
 
@@ -1644,7 +1516,7 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** The description promises a sustained formal/conceptual argument connecting memory architecture and causal semantics.
 
-**Question for a transcript review:** Which computational model underlies the finite-state claim, and what changes when an LLM can repeatedly read and write external memory?
+**Question to settle:** Which computational model underlies the finite-state claim, and what changes when an LLM can repeatedly read and write external memory?
 
 **Caveat:** publisher framing; unverified; Formal capacity limitations must not be conflated with practical incapacity or semantic impossibility.
 
@@ -1658,7 +1530,7 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** The final technical segment promises a concrete learning-data and inference-compute discussion despite the entrepreneurial majority.
 
-**Question for a transcript review:** What mechanism connects process supervision or synthetic reasoning traces to improved generalization?
+**Question to settle:** What mechanism connects process supervision or synthetic reasoning traces to improved generalization?
 
 **Caveat:** publisher framing; unverified; Cohere partnership; the technical contribution may remain a roadmap rather than experiments.
 
@@ -1672,11 +1544,9 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** Named systems such as POET, Promptbreeder and Genie make the conceptual account actionable and broader than LLM scaling.
 
-**Question for a transcript review:** How are novelty and learnability jointly defined so that a system remains open-ended without degenerating into noise?
+**Question to settle:** How are novelty and learnability jointly defined so that a system remains open-ended without degenerating into noise?
 
 **Caveat:** publisher framing; unverified; Open-endedness depends on the observer and may not imply unbounded capability growth.
-
-[Completed transcript review](reviews/6DrCq8Ry2cw.md)
 
 ### AGI in 5 Years? Ben Goertzel on Superintelligence
 
@@ -1688,7 +1558,7 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** The architecture and conceptual chapters justify a transcript read even though the headline and much of the discussion concern forecasts.
 
-**Question for a transcript review:** What concrete representation and inference mechanisms in Hyperon address limitations attributed to current LLMs?
+**Question to settle:** What concrete representation and inference mechanisms in Hyperon address limitations attributed to current LLMs?
 
 **Caveat:** publisher framing; unverified; AGI dates and superintelligence extrapolations are speculative.
 
@@ -1702,11 +1572,9 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** A concrete experimental method tests whether structured disagreement improves information extraction and supervision.
 
-**Question for a transcript review:** When does debate improve truth rather than persuasion, and how do information access and judge capability affect the result?
+**Question to settle:** When does debate improve truth rather than persuasion, and how do information access and judge capability affect the result?
 
 **Caveat:** publisher framing; unverified; Benchmarked oversight improvements may not transfer to deceptive or much stronger systems.
-
-[Completed transcript review](reviews/WlWAhjPfROU.md)
 
 ### Taming Silicon Valley - Prof. Gary Marcus
 
@@ -1718,7 +1586,7 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** The description promises specific counterexamples and a competing account of missing cognitive structure, not only regulation commentary.
 
-**Question for a transcript review:** Which failure cases isolate missing representations rather than prompting, training distribution or tool constraints?
+**Question to settle:** Which failure cases isolate missing representations rather than prompting, training distribution or tool constraints?
 
 **Caveat:** publisher framing; unverified; Broad architectural conclusions may exceed the diagnostic force of selected examples.
 
@@ -1732,11 +1600,9 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** Clinical counterexamples and a substantial alternative account of cognitive motivation directly serve the nature-of-intelligence focus.
 
-**Question for a transcript review:** How does the evidence distinguish affective consciousness from behavior, and what is the precise link from homeostasis to learning and agency?
+**Question to settle:** How does the evidence distinguish affective consciousness from behavior, and what is the precise link from homeostasis to learning and agency?
 
 **Caveat:** publisher framing; unverified; Clinical observations and free-energy interpretation are separate evidential layers.
-
-[Completed transcript review](reviews/meUtWtY00H8.md)
 
 ### The scientist who coined retrieval augmented generation
 
@@ -1748,7 +1614,7 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** The metadata promises modeling tradeoffs and evaluation concepts rather than merely a deployment walkthrough.
 
-**Question for a transcript review:** How do retrieval representation and post-training change grounding, and which evaluation separates faithfulness from perceived usefulness?
+**Question to settle:** How do retrieval representation and post-training change grounding, and which evaluation separates faithfulness from perceived usefulness?
 
 **Caveat:** publisher framing; unverified; Partnership episode; YouTube says filmed in London while RSS says Seattle.
 
@@ -1762,7 +1628,7 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** Explicit computational comparisons and a worked puzzle promise a concrete argument worth checking despite a topical model-release hook.
 
-**Question for a transcript review:** What reasoning criterion is used, and does the puzzle distinguish inference from remembered patterns under controlled variations?
+**Question to settle:** What reasoning criterion is used, and does the puzzle distinguish inference from remembered patterns under controlled variations?
 
 **Caveat:** publisher framing; unverified; A single model/puzzle demonstration cannot establish a general computational limitation.
 
@@ -1776,11 +1642,9 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** Specific representation and action-identification mechanisms connect passive video modeling with interactive intelligence.
 
-**Question for a transcript review:** What identifies a consistent latent action from unlabeled video, and how is that action grounded in a robot control space?
+**Question to settle:** What identifies a consistent latent action from unlabeled video, and how is that action grounded in a robot control space?
 
 **Caveat:** publisher framing; unverified; The description calls the component VQE while the linked reference is VQ-VAE; resolve terminology.
-
-[Completed transcript review](reviews/kbt0ZFoI2Hc.md)
 
 ### LLMs in enterprise environments
 
@@ -1804,7 +1668,7 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** A substantial competing explanation of how agency arises is explicit, even though its mathematical and empirical maturity is uncertain.
 
-**Question for a transcript review:** How would flexible low-level drives be represented and tested, and what makes them more than conventional reward functions?
+**Question to settle:** How would flexible low-level drives be represented and tested, and what makes them more than conventional reward functions?
 
 **Caveat:** publisher framing; unverified; Biological-drive and existential-pattern arguments are proposals; sentient robotics is not established.
 
@@ -1818,7 +1682,7 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** The mathematical and conceptual account directly targets knowledge structure and offers a competing explanation of open-ended cognition.
 
-**Question for a transcript review:** Which categorical structures actually model sense-making or creativity, and what does the care counterexample rule out about free-energy accounts?
+**Question to settle:** Which categorical structures actually model sense-making or creativity, and what does the care counterexample rule out about free-energy accounts?
 
 **Caveat:** publisher framing; unverified; Category-theoretic analogies and formal models must be distinguished; publisher institutional attribution may be imprecise.
 
@@ -1832,11 +1696,9 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** Concrete algorithmic principles and linked low-complexity/generalization work make this relevant beyond priority disputes.
 
-**Question for a transcript review:** How do compression or ordered program search lead to transferable reasoning under finite computational budgets?
+**Question to settle:** How do compression or ordered program search lead to transferable reasoning under finite computational budgets?
 
 **Caveat:** publisher framing; unverified; Historical priority rhetoric and practical tractability need separate treatment.
-
-[Completed transcript review](reviews/DP454c1K_vQ.md)
 
 ### "AI should NOT be regulated at all!" - Domingos
 
@@ -1848,7 +1710,7 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** The explicit unification proposal and abstraction discussion warrant reading despite the policy-heavy headline and large nontechnical portion.
 
-**Question for a transcript review:** What are tensor logic’s mathematical objects and operations, and what is demonstrated beyond an architectural sketch?
+**Question to settle:** What are tensor logic’s mathematical objects and operations, and what is demonstrated beyond an architectural sketch?
 
 **Caveat:** publisher framing; unverified; The transcript may only briefly preview tensor logic; superiority claims remain unverified.
 
@@ -1862,11 +1724,9 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** Specific experimental and statistical frameworks connect training data to predictions and expose feature learning structure.
 
-**Question for a transcript review:** When do datamodels faithfully predict data interventions, and how do adversarial-feature experiments distinguish real signals from artifacts?
+**Question to settle:** When do datamodels faithfully predict data interventions, and how do adversarial-feature experiments distinguish real signals from artifacts?
 
 **Caveat:** publisher framing; unverified; Attribution approximations and dataset-dependent feature claims need their assumptions exposed.
-
-[Completed transcript review](reviews/9BC9BsZRCKQ.md)
 
 ### "We Are All Software" - Joscha Bach
 
@@ -1878,7 +1738,7 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** The publisher promises a full conceptual framework and testing/formalism sections; it explicitly identifies a separate interview, so this is not a proven duplicate.
 
-**Question for a transcript review:** What functional test or formal criterion distinguishes conscious software from other self-organizing agents?
+**Question to settle:** What functional test or formal criterion distinguishes conscious software from other self-organizing agents?
 
 **Caveat:** publisher framing; unverified; Plant/ecosystem consciousness and cyberanimism are hypotheses rather than established findings.
 
@@ -1892,7 +1752,7 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** A revisited keynote is not established clip duplication, and its conceptual explanation of systematic failures is relevant.
 
-**Question for a transcript review:** What specific failure demonstrates the need for innate structure, and what hybrid mechanism would fix it?
+**Question to settle:** What specific failure demonstrates the need for innate structure, and what hybrid mechanism would fix it?
 
 **Caveat:** publisher framing; unverified; Diminishing returns and AI-winter predictions are speculative; examples may be repeated from earlier work.
 
@@ -1906,11 +1766,9 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** This is a concrete statistical model of learning behavior with explicit distance measures and an honest description/explanation distinction.
 
-**Question for a transcript review:** Under what assumptions does n-gram agreement reveal overfitting without holdouts, and when does the descriptive model fail?
+**Question to settle:** Under what assumptions does n-gram agreement reveal overfitting without holdouts, and when does the descriptive model fail?
 
 **Caveat:** publisher framing; unverified; Behavioral fit to n-grams does not prove the model implements an n-gram mechanism.
-
-[Completed transcript review](reviews/W485bz0_TdI.md)
 
 ### Jay Alammar on LLMs, RAG, and AI Engineering
 
@@ -1922,7 +1780,7 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** The chapters and specific architecture references promise explanations of representation and attention variants, despite substantial career and product material.
 
-**Question for a transcript review:** Which representation properties or attention changes explain the claimed gains, and how much mechanism is discussed beyond overview?
+**Question to settle:** Which representation properties or attention changes explain the claimed gains, and how much mechanism is discussed beyond overview?
 
 **Caveat:** publisher framing; unverified; Partnership compilation of previously unpublished interviews; references may be richer than the technical discussion.
 
@@ -1936,7 +1794,7 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** The metadata promises a sustained account of human cognitive change and agency, which remains relevant even though the application is therapy.
 
-**Question for a transcript review:** What explanatory model of learning or identity change is offered, and how is it distinguished from placebo and social interaction effects?
+**Question to settle:** What explanatory model of learning or identity change is offered, and how is it distinguished from placebo and social interaction effects?
 
 **Caveat:** publisher framing; unverified; Clinical efficacy claims are unverified and may be promotional; this screening does not endorse treatment claims.
 
@@ -1950,11 +1808,9 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** Named experiments and a concrete architecture address what constitutes reasoning and where guarantees come from.
 
-**Question for a transcript review:** Which planning failures survive controlled task variations, and how does external verification alter search and correctness guarantees?
+**Question to settle:** Which planning failures survive controlled task variations, and how does external verification alter search and correctness guarantees?
 
 **Caveat:** publisher framing; unverified; RSS explicitly warns baked-in MP3 chapters were hallucinated; use corrected publisher chapters and verify later.
-
-[Completed transcript review](reviews/y1WnHpedi2A.md)
 
 ### The threat of existential risk from AI
 
@@ -1966,7 +1822,7 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** The agent-evaluation segment promises a concrete methodological critique relevant to measuring intelligence, despite a policy headline.
 
-**Question for a transcript review:** Which agent gains disappear under matched baselines and cost, and how should evaluation probe generality rather than benchmark shortcuts?
+**Question to settle:** Which agent gains disappear under matched baselines and cost, and how should evaluation probe generality rather than benchmark shortcuts?
 
 **Caveat:** publisher framing; unverified; The risk-policy portion is peripheral; model and downstream metrics should not be conflated.
 
@@ -1980,7 +1836,7 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** The compute/data/architecture distinction and multilingual learning challenges offer technical substance beyond the governance hook.
 
-**Question for a transcript review:** How do architecture, data coverage and multilingual preference objectives decouple capability from training FLOPs?
+**Question to settle:** How do architecture, data coverage and multilingual preference objectives decouple capability from training FLOPs?
 
 **Caveat:** publisher framing; unverified; Partnership framing; policy disagreement does not itself establish a learning theory.
 
@@ -1994,7 +1850,7 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** A substantial competing conceptual model of artificial minds is explicitly connected to concrete LLM behavior and reasoning.
 
-**Question for a transcript review:** What behavioral or architectural distinctions separate a simulator from the agency attributed to its simulated character?
+**Question to settle:** What behavioral or architectural distinctions separate a simulator from the agency attributed to its simulated character?
 
 **Caveat:** publisher framing; unverified; Shoggoth metaphors and consciousness vocabulary may be suggestive without a testable theory.
 
@@ -2008,11 +1864,9 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** A specific solver method and extended technical discussion can test how search and prior knowledge combine in generalization.
 
-**Question for a transcript review:** How are candidates generated, filtered and repaired, and what do controlled ARC evaluations show about novel abstraction versus search volume?
+**Question to settle:** How are candidates generated, filtered and repaired, and what do controlled ARC evaluations show about novel abstraction versus search volume?
 
 **Caveat:** publisher framing; unverified; Public-set scores are not comparable to private leaderboard results without protocol checks.
-
-[Completed transcript review](reviews/z9j3wB1RRGA.md)
 
 ### How Cohere will improve AI Reasoning this year
 
@@ -2024,7 +1878,7 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** The architectural and robustness segments promise a relevant explanation, although much of the interview is enterprise strategy.
 
-**Question for a transcript review:** What actual mechanism for reasoning or prompt robustness is described, and what is only a product roadmap?
+**Question to settle:** What actual mechanism for reasoning or prompt robustness is described, and what is only a product roadmap?
 
 **Caveat:** publisher framing; unverified; Partnership episode; future improvement claims may lack supporting experiments.
 
@@ -2038,7 +1892,7 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** This is an explicit alternative conceptual account of mind; lack of settled mathematics is not grounds to exclude it.
 
-**Question for a transcript review:** How does the account connect fundamental consciousness to structured cognition and address the combination or individuation problem?
+**Question to settle:** How does the account connect fundamental consciousness to structured cognition and address the combination or individuation problem?
 
 **Caveat:** publisher framing; unverified; Metaphysical hypotheses should not be treated as empirically established mechanisms.
 
@@ -2052,11 +1906,9 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** Concrete training procedures and explicit public/private evaluation caveats make this a strong mechanism and measurement candidate.
 
-**Question for a transcript review:** How does task generation and test-time tuning yield transferable abstractions, and what priors or evaluation leakage enter the reported scores?
+**Question to settle:** How does task generation and test-time tuning yield transferable abstractions, and what priors or evaluation leakage enter the reported scores?
 
 **Caveat:** publisher framing; unverified; Publisher corrects ARC year and score comparability; its use of active inference for fine-tuning may differ from FEP terminology.
-
-[Completed transcript review](reviews/jSAT_RuJ_Cg.md)
 
 ### Is AGI Just a Fantasy?
 
@@ -2068,7 +1920,7 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** The named retrieval comparison and unsupervised-learning segment justify checking conceptual content within the product discussion.
 
-**Question for a transcript review:** What training or inference mechanism underlies unsupervised RAG, and what does its comparison with long context reveal about memory?
+**Question to settle:** What training or inference mechanism underlies unsupervised RAG, and what does its comparison with long context reveal about memory?
 
 **Caveat:** publisher framing; unverified; Partnership overview may discuss features more deeply than the underlying mechanisms.
 
@@ -2082,11 +1934,9 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** The explicit mathematical framework, theorem attribution and experiment chapters directly address model structure and constraints.
 
-**Question for a transcript review:** What assumptions define controllability and reachability, and how do formal guarantees relate to finite token prompts in real models?
+**Question to settle:** What assumptions define controllability and reachability, and how do formal guarantees relate to finite token prompts in real models?
 
 **Caveat:** publisher framing; unverified; Surprising reachability claims may rely on idealized attention or probability assumptions.
-
-[Completed transcript review](reviews/Bpgloy1dDn0.md)
 
 ### Dr. THOMAS PARR - Active Inference
 
@@ -2098,11 +1948,9 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** A book-centered discussion promises a coherent modeling framework rather than only broad advocacy.
 
-**Question for a transcript review:** How are surprise, variational free energy and action objectives distinguished, and what assumptions turn persistence into agency?
+**Question to settle:** How are surprise, variational free energy and action objectives distinguished, and what assumptions turn persistence into agency?
 
 **Caveat:** publisher framing; unverified; A unifying principle must be separated from claims about every biological system.
-
-[Completed transcript review](reviews/bk_xCikDUDQ.md)
 
 ### Connor Leahy - e/acc, AGI and the future.
 
@@ -2114,7 +1962,7 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** The advertised account of distributed cognition and agent coherence is substantial enough to retain despite political and backstage material.
 
-**Question for a transcript review:** What mechanism makes cognition externalized or collective, and how does coherence turn a mixture of components into an agent?
+**Question to settle:** What mechanism makes cognition externalized or collective, and how does coherence turn a mixture of components into an agent?
 
 **Caveat:** publisher framing; unverified; Bonus interviews overlap the debate context but are not identified as duplicate content; much is philosophical speculation.
 
@@ -2128,7 +1976,7 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** The chapter sequence addresses core statistical and modeling structure, with scientific applications beyond LLMs.
 
-**Question for a transcript review:** How should a neural network be understood probabilistically as one model or many, and how do scientific priors improve extrapolation?
+**Question to settle:** How should a neural network be understood probabilistically as one model or many, and how do scientific priors improve extrapolation?
 
 **Caveat:** publisher framing; unverified; Textbook promotion and broad coverage may limit derivations, but do not establish mismatch.
 
@@ -2142,7 +1990,7 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** The explicit distinction between agential and nonagential systems offers an alternative framework for intelligence beyond individual brains.
 
-**Question for a transcript review:** What causal or intervention-based criterion distinguishes agency from organized dynamics across biological scales?
+**Question to settle:** What causal or intervention-based criterion distinguishes agency from organized dynamics across biological scales?
 
 **Caveat:** publisher framing; unverified; Agency and sentience are distinct concepts; chapter labels do not establish a formal theory.
 
@@ -2156,7 +2004,7 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** A relevant applied modeling paper is named, but the short description does not reveal whether the interview explains its representation or learning mechanism.
 
-**Question for a transcript review:** Does the transcript explain graph representations, symmetry or counterfactual tactical modeling, or mainly demonstrate the application?
+**Question to settle:** Does the transcript explain graph representations, symmetry or counterfactual tactical modeling, or mainly demonstrate the application?
 
 **Caveat:** publisher framing; unverified; The intro affiliation correction is explicit; methodological depth cannot be inferred from the researcher or paper alone.
 
@@ -2170,11 +2018,9 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** A named formalism targets architecture design, abstraction and reasoning with explicit mathematical objects.
 
-**Question for a transcript review:** What constraints do the categorical constructions impose on learning architectures, and which improve generalization or compositional reasoning?
+**Question to settle:** What constraints do the categorical constructions impose on learning architectures, and which improve generalization or compositional reasoning?
 
 **Caveat:** publisher framing; unverified; Formal composability need not imply interpretability or human-like reasoning; Turing-limit claims need architectural qualifications.
-
-[Completed transcript review](reviews/rie-9AEhYdY.md)
 
 ### Building a GENERAL AI agent with reinforcement learning
 
@@ -2186,11 +2032,9 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** A concrete algorithm, convergence discussion and OOD experiments directly target learning structures beyond language models.
 
-**Question for a transcript review:** How does minimax regret select environments without task rewards, and which OOD gains depend on learned dynamics?
+**Question to settle:** How does minimax regret select environments without task rewards, and which OOD gains depend on learned dynamics?
 
 **Caveat:** publisher framing; unverified; General-agent framing may exceed the tested environment families.
-
-[Completed transcript review](reviews/s3C0sEwixkQ.md)
 
 ### IS THE MIND REALLY FLAT?
 
@@ -2202,7 +2046,7 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** The detailed chapters promise a competing account of cognition and language development relevant to intelligence’s foundations.
 
-**Question for a transcript review:** What experimental evidence supports constructed rather than stable latent mental states, and how does the account explain coherent reasoning over time?
+**Question to settle:** What experimental evidence supports constructed rather than stable latent mental states, and how does the account explain coherent reasoning over time?
 
 **Caveat:** publisher framing; unverified; The flat-mind claim may be stronger than the experiments warrant; separate rhetorical framing from testable predictions.
 
@@ -2216,7 +2060,7 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** Extensive conceptual chapters on objective-free exploration and links to RL make this more than a startup announcement.
 
-**Question for a transcript review:** How can exploration avoid deceptive objectives while retaining useful structure, and what operational measure of creativity is proposed?
+**Question to settle:** How can exploration avoid deceptive objectives while retaining useful structure, and what operational measure of creativity is proposed?
 
 **Caveat:** publisher framing; unverified; Product philosophy and evolutionary-learning evidence may not support the same conclusions.
 
@@ -2230,7 +2074,7 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** Named modeling and control issues plus robotics examples promise concrete explanations beyond an educator biography.
 
-**Question for a transcript review:** What failures of reward specification or representation motivate more flexible robot-learning mechanisms?
+**Question to settle:** What failures of reward specification or representation motivate more flexible robot-learning mechanisms?
 
 **Caveat:** publisher framing; unverified; The broad conversation may mix demonstrated mechanisms with philosophical claims about reward sufficiency.
 
@@ -2244,7 +2088,7 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** The metadata indicates relevant content but specifies neither evidence nor mechanism; being a taster does not prove duplication within the catalog.
 
-**Question for a transcript review:** What neural or behavioral mechanism supports the simulation claim, and is it actually explained in this short segment?
+**Question to settle:** What neural or behavioral mechanism supports the simulation claim, and is it actually explained in this short segment?
 
 **Caveat:** publisher framing; unverified; Sparse promotional description; full-conversation links do not establish the content of this upload.
 
@@ -2270,7 +2114,7 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** The publisher specifies an alternative account of intelligence and mechanisms for robust collective adaptation.
 
-**Question for a transcript review:** How is degeneracy distinguished from redundancy, and what evidence links it to resilient cognition or learning?
+**Question to settle:** How is degeneracy distinguished from redundancy, and what evidence links it to resilient cognition or learning?
 
 **Caveat:** publisher framing; unverified; Claims about material dependence and theory of mind need operational definitions rather than anthropomorphic inference.
 
@@ -2296,7 +2140,7 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** A direct proposed mechanism for the emergence of agency is relevant, supported by specific framework and biological references.
 
-**Question for a transcript review:** What additional assumptions distinguish mere persistence from temporally deep agentic planning under the free-energy principle?
+**Question to settle:** What additional assumptions distinguish mere persistence from temporally deep agentic planning under the free-energy principle?
 
 **Caveat:** publisher framing; unverified; YouTube says all systems whereas RSS qualifies living systems; scope and prediction-error simplifications need checking.
 
@@ -2310,11 +2154,9 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** Specific mathematical explanations and competing theoretical lenses directly fit the user’s interest in learning’s anatomy.
 
-**Question for a transcript review:** What does spline or manifold theory explain about trainability and generalization, and where do these accounts demonstrably break down?
+**Question to settle:** What does spline or manifold theory explain about trainability and generalization, and where do these accounts demonstrably break down?
 
 **Caveat:** publisher framing; unverified; One chapter is literally labeled unknown topic; theoretical interpretations remain distinct from empirical success.
-
-[Completed transcript review](reviews/sJXn4Cl4oww.md)
 
 ### This man builds intelligent machines
 
@@ -2326,11 +2168,9 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** The detailed applied and mathematical chapters promise implementable mechanisms for situated agents beyond LLMs.
 
-**Question for a transcript review:** How does marginalization produce useful abstraction, and how can online structure learning alter an agent’s generative model safely?
+**Question to settle:** How does marginalization produce useful abstraction, and how can online structure learning alter an agent’s generative model safely?
 
 **Caveat:** publisher framing; unverified; Engineering demonstrations and broad automated-engineer aspirations should be assessed separately.
-
-[Completed transcript review](reviews/2wnJ6E6rQsU.md)
 
 ### How can we add knowledge to AI agents?
 
@@ -2342,11 +2182,9 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** The account explicitly connects mathematical assumptions to sample efficiency and interpretable representations.
 
-**Question for a transcript review:** Which assumptions justify the free-energy derivation, and how are core priors learned or supplied in the demonstrated tasks?
+**Question to settle:** Which assumptions justify the free-energy derivation, and how are core priors learned or supplied in the demonstrated tasks?
 
 **Caveat:** publisher framing; unverified; Claims of human-level learning, explainability and safety are stronger than a mathematical formulation alone supports.
-
-[Completed transcript review](reviews/qxEfcrmTWO4.md)
 
 ### HOW DO WE EXIST IN THE UNIVERSE?
 
@@ -2358,7 +2196,7 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** Sustained competing frameworks directly address what makes a system an agent and how its boundaries are modeled.
 
-**Question for a transcript review:** What formal conditions permit a dynamical system to be factorized into agents, and what does self-modeling add?
+**Question to settle:** What formal conditions permit a dynamical system to be factorized into agents, and what does self-modeling add?
 
 **Caveat:** publisher framing; unverified; Wolfram-physics and FEP claims are frameworks under discussion, not verified universal explanations.
 
@@ -2372,11 +2210,9 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** The metadata promises both explicit mechanisms and discriminating interventions on learned computation.
 
-**Question for a transcript review:** Which interventions establish circuit necessity and sufficiency, and how do grokking and superposition alter the proposed explanation?
+**Question to settle:** Which interventions establish circuit necessity and sufficiency, and how do grokking and superposition alter the proposed explanation?
 
 **Caveat:** publisher framing; unverified; Small-model circuits may not scale; YouTube and RSS chapter timings differ substantially.
-
-[Completed transcript review](reviews/_Ygf0GnlwmY.md)
 
 ### Prof LARISA SOLDATOVA - Automating Science
 
@@ -2388,7 +2224,7 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** The named discovery system and inference topics promise a relevant conceptual and experimental account beyond ordinary workflow automation.
 
-**Question for a transcript review:** What parts of hypothesis generation, experiment choice and explanation are automated, and how does representation constrain discovery?
+**Question to settle:** What parts of hypothesis generation, experiment choice and explanation are automated, and how does representation constrain discovery?
 
 **Caveat:** publisher framing; unverified; The autonomous-discovery claim needs operational scope and comparison with human-supplied knowledge.
 
@@ -2402,7 +2238,7 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** The chapters support a substantive probabilistic account of cognition, but do not specify a particular neural experiment or algorithm in the conversation.
 
-**Question for a transcript review:** How are uncertainty and priors represented neurally, and which experiments distinguish probabilistic inference from alternative models?
+**Question to settle:** How are uncertainty and priors represented neurally, and which experiments distinguish probabilistic inference from alternative models?
 
 **Caveat:** publisher framing; unverified; Research biography is more technically specific than the episode chapter list; depth remains uncertain.
 
@@ -2416,7 +2252,7 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** The metadata names a relevant book but provides no chapters, argument, mechanism or example sufficient for a content decision.
 
-**Question for a transcript review:** Does this segment explain a predictive-processing mechanism or counterexample, or only recommend the book?
+**Question to settle:** Does this segment explain a predictive-processing mechanism or counterexample, or only recommend the book?
 
 **Caveat:** publisher framing; unverified; Sparse promotional metadata cannot establish depth or duplication.
 
@@ -2430,11 +2266,9 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** The described instance-level and generalization-focused tests constitute a concrete discriminating method for machine cognition.
 
-**Question for a transcript review:** How does ConceptARC vary underlying concepts to distinguish abstraction from shortcuts, and what conclusions survive instance-level analysis?
+**Question to settle:** How does ConceptARC vary underlying concepts to distinguish abstraction from shortcuts, and what conclusions survive instance-level analysis?
 
 **Caveat:** publisher framing; unverified; Publisher corrects a claimed GPT-4 60% ARC score to davinci3 around 10% and notes non-reproduction; RSS has a malformed timestamp.
-
-[Completed transcript review](reviews/29gkDpR2orc.md)
 
 ### Autopoietic Enactivism and the Free Energy Principle - Prof. Friston, Prof Buckley, Dr. Ramstead
 
@@ -2446,11 +2280,9 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** The description promises a mathematical emergence argument and structural mapping between competing cognitive frameworks.
 
-**Question for a transcript review:** What assumptions define the goal-directed regime, and do Markov blankets capture operational closure or only statistical dependencies?
+**Question to settle:** What assumptions define the goal-directed regime, and do Markov blankets capture operational closure or only statistical dependencies?
 
 **Caveat:** publisher framing; unverified; The account is sympathetic to FEP and critical of enactivists; chapter maps differ between publisher formats.
-
-[Completed transcript review](reviews/bL00-jtRrMA.md)
 
 ### Mystery of Entropy FINALLY Solved After 50 Years? (STEPHEN WOLFRAM)
 
@@ -2462,7 +2294,7 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** A substantial explanatory framework links bounded observers and representation, though the core problem is thermodynamics rather than learning.
 
-**Question for a transcript review:** What precise observer restriction turns reversible dynamics into apparent irreversibility, and what follows for cognitive models?
+**Question to settle:** What precise observer restriction turns reversible dynamics into apparent irreversibility, and what follows for cognitive models?
 
 **Caveat:** publisher framing; unverified; The title’s solved-mystery framing is not verification of the proposed explanation.
 
@@ -2476,11 +2308,9 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** Specific computational mechanisms for learning to learn and generating intrinsic objectives directly fit the research focus.
 
-**Question for a transcript review:** How do fast-weight programming and adversarial curiosity operate, and which components transfer to modern generalizing agents?
+**Question to settle:** How do fast-weight programming and adversarial curiosity operate, and which components transfer to modern generalizing agents?
 
 **Caveat:** publisher framing; unverified; Historical first-invention claims and safety optimism are separate from the technical mechanisms.
-
-[Completed transcript review](reviews/q27XMPm5wg8.md)
 
 ### The AI Alignment Debate: Can We Develop Truly Beneficial AI? (HQ version)
 
@@ -2492,7 +2322,7 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** The publisher explicitly promises competing causal accounts of goal formation; this warrants reading despite predominantly governance-oriented discussion.
 
-**Question for a transcript review:** What assumptions support each account of emergent goals, and can either distinguish prediction from optimization-driven agency?
+**Question to settle:** What assumptions support each account of emergent goals, and can either distinguish prediction from optimization-driven agency?
 
 **Caveat:** publisher framing; unverified; High-quality version implies another recording may exist; no matching duplicate was established within this assigned metadata.
 
@@ -2506,11 +2336,9 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** The mathematical boundary formalism and cited technical objections provide a concrete basis for testing a broad theory of cognition.
 
-**Question for a transcript review:** Which dynamical assumptions permit the claimed free-energy description, and how are the listed technical critiques answered?
+**Question to settle:** Which dynamical assumptions permit the claimed free-energy description, and how are the listed technical critiques answered?
 
 **Caveat:** publisher framing; unverified; Publisher equates free energy and surprise loosely and makes universal persistence claims; company applications may be promotional.
-
-[Completed transcript review](reviews/8qb28P7ksyE.md)
 
 ### MUNK DEBATE ON AI (COMMENTARY) [DAVID FOSTER]
 
@@ -2546,7 +2374,7 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** The account of intelligence emerging through civilization and coordination is a substantial competing conceptual view worth isolating from risk discussion.
 
-**Question for a transcript review:** What mechanism or evidence makes collective civilization cognitively different from capable individual agents?
+**Question to settle:** What mechanism or evidence makes collective civilization cognitively different from capable individual agents?
 
 **Caveat:** publisher framing; unverified; Broad civilizational claims may remain philosophical; another live recording is mentioned but not identified here.
 
@@ -2560,7 +2388,7 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** Named thought experiments and competing interpretations of understanding qualify despite the trust-policy framing.
 
-**Question for a transcript review:** What would the Two Black Boxes argument establish about semantic competence, and how does it answer the Chinese Room?
+**Question to settle:** What would the Two Black Boxes argument establish about semantic competence, and how does it answer the Chinese Room?
 
 **Caveat:** publisher framing; unverified; Thought experiments do not by themselves establish consciousness in current systems.
 
@@ -2574,7 +2402,7 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** The description promises concrete predictive modeling and validation challenges beyond language AI, with relevant biological systems connections.
 
-**Question for a transcript review:** Which genomic predictions can be validated by intervention, and what biological structure does the network learn rather than correlate?
+**Question to settle:** Which genomic predictions can be validated by intervention, and what biological structure does the network learn rather than correlate?
 
 **Caveat:** publisher framing; unverified; Biological-to-AI crossover and self-repair remain suggested possibilities.
 
@@ -2588,7 +2416,7 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** The specified decision-theoretic and agency arguments could expose assumptions about intelligent behavior beyond risk advocacy.
 
-**Question for a transcript review:** Which rationality assumptions justify utility or goal-preservation claims, and do they apply to learned neural systems?
+**Question to settle:** Which rationality assumptions justify utility or goal-preservation claims, and do they apply to learned neural systems?
 
 **Caveat:** publisher framing; unverified; Catastrophic-risk framing and anthropomorphic language may obscure conditional theoretical claims.
 
@@ -2614,7 +2442,7 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** Specific modeling comparisons and a proposed cybernetic architecture promise conceptual substance despite a broad future-of-AI format.
 
-**Question for a transcript review:** How would a task-independent generative model couple to action, and what differentiates the proposed hybrid from model-based RL?
+**Question to settle:** How would a task-independent generative model couple to action, and what differentiates the proposed hybrid from model-based RL?
 
 **Caveat:** publisher framing; unverified; The hybrid architecture may be exploratory rather than implemented or experimentally compared.
 
@@ -2628,7 +2456,7 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** The publisher promises inner workings and a specific evaluation critique, enough to examine how data and preference collection shape learned behavior.
 
-**Question for a transcript review:** How are conversation and preference data selected and converted into training signals, and what biases affect the chatbot comparison?
+**Question to settle:** How are conversation and preference data selected and converted into training signals, and what biases affect the chatbot comparison?
 
 **Caveat:** publisher framing; unverified; Substantial project promotion and ethics material; the training mechanism may receive limited detail.
 
@@ -2642,7 +2470,7 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** Named arguments and explicit distinctions between consciousness and intelligence provide a substantive philosophical account.
 
-**Question for a transcript review:** How does the meta-problem constrain computational explanations of consciousness, and what assumptions support intelligence-explosion reasoning?
+**Question to settle:** How does the meta-problem constrain computational explanations of consciousness, and what assumptions support intelligence-explosion reasoning?
 
 **Caveat:** publisher framing; unverified; Recorded in 2022; metaphysical and forecasting claims are speculative.
 
@@ -2650,17 +2478,13 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 [Original source](https://www.youtube.com/watch?v=4KIQH1VEwBI) · 2023-04-15T03:51:02-07:00
 
-**Read transcript** · high priority
+**Skip**
 
 **Publisher promise:** Saba distinguishes recursion from recurrence and asks how finite neural systems generalize across indefinitely structured language.
 
-**Reason for the decision:** The episode promises a specific computational argument supported by a neural Chomsky-hierarchy reference and practical limitations discussion.
-
-**Question for a transcript review:** What formal neural-computation assumptions support the recurrence/recursion distinction, and how is unbounded generalization tested?
+**Reason for the decision:** Left out after a full reading on 26 October 2026: it did not justify further study for this objective. First-filter reason: The episode promises a specific computational argument supported by a neural Chomsky-hierarchy reference and practical limitations discussion.
 
 **Caveat:** publisher framing; unverified; Recurrent neural networks have different computational capacities under different precision and memory assumptions.
-
-[Completed transcript review](reviews/4KIQH1VEwBI.md)
 
 ### Uncovering the Mysteries of Category Theory!
 
@@ -2672,7 +2496,7 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** Specific mathematics is present, but the metadata does not show how it connects to learning or intelligence in this upload.
 
-**Question for a transcript review:** Does this preview connect category-theoretic constructions to learning architectures or algorithmic reasoning, or remain an abstract mathematics conversation?
+**Question to settle:** Does this preview connect category-theoretic constructions to learning architectures or algorithmic reasoning, or remain an abstract mathematics conversation?
 
 **Caveat:** publisher framing; unverified; A later main show is mentioned but exact content duplication is not demonstrated.
 
@@ -2686,7 +2510,7 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** The Swiss Cheese Problem and intension/extension distinction promise concrete ways to interrogate apparent competence, with a reasoning-frequency study linked.
 
-**Question for a transcript review:** How do uneven abilities and training-frequency effects discriminate understanding from surface performance?
+**Question to settle:** How do uneven abilities and training-frequency effects discriminate understanding from surface performance?
 
 **Caveat:** Publisher framing unverified. Hype critique may outweigh the explanatory analysis.
 
@@ -2700,7 +2524,7 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** Named competing positions and a structured mind-body discussion offer a conceptual account of what computation could explain about minds.
 
-**Question for a transcript review:** Which features of computational explanation are claimed sufficient or insufficient for conscious mental states?
+**Question to settle:** Which features of computational explanation are claimed sufficient or insufficient for conscious mental states?
 
 **Caveat:** Publisher framing unverified. A short philosophical discussion may not supply a mechanistic model.
 
@@ -2714,7 +2538,7 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** Despite extensive social and startup material, explicit architectural and interpretability chapters promise relevant questions about learned objectives and internal structure.
 
-**Question for a transcript review:** What structural changes make networks more interpretable, and how do RLHF and mode collapse affect their behavior?
+**Question to settle:** What structural changes make networks more interpretable, and how do RLHF and mode collapse affect their behavior?
 
 **Caveat:** Publisher framing unverified. Risk scenarios and orthogonality are positions to examine, not established conclusions.
 
@@ -2728,7 +2552,7 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** The description proposes incorporating symbolic quantification earlier in learning and directly connects recurrent-memory failure to architecture.
 
-**Question for a transcript review:** How would early discrete abstraction and strong priors change learning relative to continuous neural representations?
+**Question to settle:** How would early discrete abstraction and strong priors change learning relative to continuous neural representations?
 
 **Caveat:** Publisher framing unverified. Claims about humans thinking only discretely require scrutiny.
 
@@ -2742,7 +2566,7 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** The reliability/diversity tradeoff is a concrete learning mechanism relevant beyond product use, even if the treatment is introductory.
 
-**Question for a transcript review:** Under what conditions does preference optimization reduce diversity, and is pruning a faithful probabilistic model?
+**Question to settle:** Under what conditions does preference optimization reduce diversity, and is pruning a faithful probabilistic model?
 
 **Caveat:** Publisher framing unverified. The pruning analogy may conceal distinctions between reward learning and policy optimization.
 
@@ -2756,7 +2580,7 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** Substantial conceptual chapters after the announcement justify reading for a competing account of understanding and computational limits.
 
-**Question for a transcript review:** How does access to formal computation alter understanding, and what role does irreducibility play in cognitive categories?
+**Question to settle:** How does access to formal computation alter understanding, and what role does irreducibility play in cognitive categories?
 
 **Caveat:** Publisher framing unverified. Product promotion and Wolfram's speculative framework need separating. YouTube and RSS use shifted chapter timings.
 
@@ -2770,7 +2594,7 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** The publisher identifies enactivism and cybernetics chapters within a predominantly social/political discussion, but does not specify the explanatory argument. Inspect those passages before committing to the full transcript.
 
-**Question for a transcript review:** Do the enactivism and self-organisation passages develop a concrete alternative account of learning, or only name a philosophical orientation?
+**Question to settle:** Do the enactivism and self-organisation passages develop a concrete alternative account of learning, or only name a philosophical orientation?
 
 **Caveat:** Publisher framing unverified. Many chapters concern politics; conceptual claims may be normative rather than mechanistic.
 
@@ -2784,7 +2608,7 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** The linked novelty-search and Machine Love proposals, plus meta-optimization/evolution chapters, promise an alternative to fixed-objective agency.
 
-**Question for a transcript review:** How can care or subjectivity be operationalized without collapsing into a fixed reward objective?
+**Question to settle:** How can care or subjectivity be operationalized without collapsing into a fixed reward objective?
 
 **Caveat:** Publisher framing unverified. Machine love is a proposal; moral language may not translate into a formal mechanism. RSS chapter timings and introductory material differ from YouTube.
 
@@ -2798,11 +2622,9 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** The chapter sequence and linked SCAN, conceptual-combination, and Othello studies promise discriminating experiments and competing cognitive explanations.
 
-**Question for a transcript review:** Which experimental results distinguish compositional world representations from shortcut learning and linguistic mimicry?
+**Question to settle:** Which experimental results distinguish compositional world representations from shortcut learning and linguistic mimicry?
 
 **Caveat:** Publisher framing unverified. Competence claims require scrutiny of task design; RSS timestamps differ slightly.
-
-[Completed transcript review](reviews/fhn6ZtD6XeE.md)
 
 ### KARL FRISTON - INTELLIGENCE 3.0
 
@@ -2814,11 +2636,9 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** Explicit formal ecosystem proposal and structure-learning chapters strongly match the mathematical organization of intelligence.
 
-**Question for a transcript review:** How do Markov blankets and belief sharing yield measurable collective intelligence across scales?
+**Question to settle:** How do Markov blankets and belief sharing yield measurable collective intelligence across scales?
 
 **Caveat:** Publisher framing unverified. Universality, cancer, and moral claims are hypotheses or interpretations; two chapter lists give slightly different timings.
-
-[Completed transcript review](reviews/V_VXOdf1NMw.md)
 
 ### Leetcode Challenge with DeepMind & Mila Scientists!
 
@@ -2842,7 +2662,7 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** The detailed chapters promise competing explanations of general intelligence and concrete links from neuroscience to learning systems.
 
-**Question for a transcript review:** What computational constraints from natural intelligence support or challenge reward sufficiency and compositional architectures?
+**Question to settle:** What computational constraints from natural intelligence support or challenge reward sufficiency and compositional architectures?
 
 **Caveat:** Publisher framing unverified. Book praise is promotional; broad analogies may exceed formal evidence.
 
@@ -2856,7 +2676,7 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** Named semantic formalisms and explicit distinctions between agency, knowledge, and reasoning promise structural insight beyond LLM use.
 
-**Question for a transcript review:** How do vector-based compositional semantics represent concepts and pragmatics, and where do knowing and thinking diverge?
+**Question to settle:** How do vector-based compositional semantics represent concepts and pragmatics, and where do knowing and thinking diverge?
 
 **Caveat:** Publisher framing unverified. The description says Differential Semantics; do not silently assume a different technical term.
 
@@ -2870,7 +2690,7 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** The description specifies bioelectric mechanisms and navigation of morphogenetic spaces, offering a concrete non-LLM account of intelligence.
 
-**Question for a transcript review:** Which mechanisms let cell collectives pursue morphological goals, and what transfers to learned artificial systems?
+**Question to settle:** Which mechanisms let cell collectives pursue morphological goals, and what transfers to learned artificial systems?
 
 **Caveat:** Publisher framing unverified. Guest biographies are more detailed than chapter promises; cross-domain transfer remains a hypothesis.
 
@@ -2878,17 +2698,13 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 [Original source](https://www.youtube.com/watch?v=snUf_LIfQII) · 2023-02-10T09:14:15-08:00
 
-**Read transcript** · high priority
+**Skip**
 
 **Publisher promise:** Debates neural extrapolation with spline theory, systematicity, and discrete/continuous learnability.
 
-**Reason for the decision:** Explicit model class, mathematical framing, and compositionality distinctions make this a direct match.
-
-**Question for a transcript review:** Which notion of extrapolation applies to MLPs, and how does it relate to systematic generalization and learnability?
+**Reason for the decision:** Left out after a full reading on 26 October 2026: it did not justify further study for this objective. First-filter reason: Explicit model class, mathematical framing, and compositionality distinctions make this a direct match.
 
 **Caveat:** Publisher framing unverified. Publisher says the final third was deleted: vagueness and grounded-concept discussion may be absent despite the summary.
-
-[Completed transcript review](reviews/snUf_LIfQII.md)
 
 ### #100 Dr. PATRICK LEWIS - Retrieval Augmented Generation
 
@@ -2900,7 +2716,7 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** RAG, Atlas, and RETRO links identify concrete architectures for separating learned parameters from retrievable information, rather than just a product tutorial.
 
-**Question for a transcript review:** How does retrieval alter the allocation of knowledge between parameters and external memory and affect sample efficiency?
+**Question to settle:** How does retrieval alter the allocation of knowledge between parameters and external memory and affect sample efficiency?
 
 **Caveat:** Publisher framing unverified. No chapters specify how deeply the architectures are explained.
 
@@ -2914,7 +2730,7 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** The description focuses on the infosphere and social impacts. The re-ontologising/computationalism chapters may contain a useful intelligence-versus-agency distinction, but the notes do not establish its depth.
 
-**Question for a transcript review:** Do the re-ontologising and computationalism passages specify what successful agency requires without intelligence, beyond the headline contrast?
+**Question to settle:** Do the re-ontologising and computationalism passages specify what successful agency requires without intelligence, beyond the headline contrast?
 
 **Caveat:** Publisher framing unverified. Most prose emphasizes social impacts; title and conceptual chapters are more directly relevant. RSS and YouTube disagree materially on the re-ontologizing chapter timing.
 
@@ -2928,11 +2744,9 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** A controlled binary-grid experiment with differential performance predictions directly addresses abstractions, learning, and generalization.
 
-**Question for a transcript review:** How do language and program representations shift meta-learned task preferences, including performance losses on control distributions?
+**Question to settle:** How do language and program representations shift meta-learned task preferences, including performance losses on control distributions?
 
 **Caveat:** Publisher framing unverified. Human-like generalization does not by itself establish value alignment.
-
-[Completed transcript review](reviews/VvXfK-Qle-Y.md)
 
 ### #96 Prof. PEDRO DOMINGOS - There are no infinities, utility functions, neurosymbolic
 
@@ -2944,7 +2758,7 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** Multiple named mathematical frameworks and their relation to intelligence provide strong conceptual and technical promise.
 
-**Question for a transcript review:** How does tensor logic combine uncertain inference with neural computation, and what does it add to compositional generalization?
+**Question to settle:** How does tensor logic combine uncertain inference with neural computation, and what does it add to compositional generalization?
 
 **Caveat:** Publisher framing unverified. Publisher could not find a Tensor Logic reference; claims about infinity and universality need clarification.
 
@@ -2958,7 +2772,7 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** Specific biological reprogramming and neural cellular-automata examples support a competing account of adaptive intelligence beyond augmentation advocacy.
 
-**Question for a transcript review:** What dynamical mechanisms permit self-repair, and how do they support an extended or hybrid account of intelligence?
+**Question to settle:** What dynamical mechanisms permit self-repair, and how do they support an extended or hybrid account of intelligence?
 
 **Caveat:** Publisher framing unverified. Transhumanist benefits are proposals; description may discuss examples only briefly.
 
@@ -2972,7 +2786,7 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** Competing consciousness frameworks, embodied language systems, and induction-head references promise informative distinctions among cognition's possible implementations.
 
-**Question for a transcript review:** Which architectural or embodied properties distinguish possible minds, and what does linguistic performance fail to reveal?
+**Question to settle:** Which architectural or embodied properties distinguish possible minds, and what does linguistic performance fail to reveal?
 
 **Caveat:** Publisher framing unverified. Consciousness and anthropomorphism claims are conceptual positions, not demonstrated diagnoses.
 
@@ -2986,11 +2800,9 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** References promise empirical mechanisms by which model compression and data structure alter what neural systems learn; fairness framing does not erase their technical relevance.
 
-**Question for a transcript review:** Why does compression disproportionately change performance on rare examples, and what can simplification reveal about representations?
+**Question to settle:** Why does compression disproportionately change performance on rare examples, and what can simplification reveal about representations?
 
 **Caveat:** Publisher framing unverified. Hardware-lottery prose explicitly refers viewers to a previous interview; it is not the main promise here.
-
-[Completed transcript review](reviews/7oJui4eSCoY.md)
 
 ### #91 - HATTIE ZHOU - Teaching Algorithmic Reasoning via In-context Learning #NeurIPS
 
@@ -3002,11 +2814,9 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** The four-stage procedure and measured error reductions provide a concrete experiment on acquiring and combining reasoning abilities.
 
-**Question for a transcript review:** Does algorithmic prompting induce reusable algorithms that extrapolate, or merely improve performance within demonstrated task structures?
+**Question to settle:** Does algorithmic prompting induce reusable algorithms that extrapolate, or merely improve performance within demonstrated task structures?
 
 **Caveat:** Publisher framing unverified. Reported improvements need task, baseline, and generalization limits examined.
-
-[Completed transcript review](reviews/80i6D2TJdQ4.md)
 
 ### #90 - Prof. DAVID CHALMERS - Consciousness in LLMs
 
@@ -3018,7 +2828,7 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** The functional approach and proposed consciousness submodule offer substantial conceptual hypotheses about mental architecture.
 
-**Question for a transcript review:** What functional evidence would support or undermine consciousness in a model, independently of fluent self-report?
+**Question to settle:** What functional evidence would support or undermine consciousness in a model, independently of fluent self-report?
 
 **Caveat:** Publisher framing unverified. Description asserts impossibility of solving the mind-body problem; that is an unverified philosophical claim, not a screening premise.
 
@@ -3032,7 +2842,7 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** Explicit distinctions between generating and justifying explanations, plus a critique of strong-AI impossibility, promise relevant competing accounts.
 
-**Question for a transcript review:** What machinery supports the two forms of abduction, and which alleged modeling limits are mathematical versus technological?
+**Question to settle:** What machinery supports the two forms of abduction, and which alleged modeling limits are mathematical versus technological?
 
 **Caveat:** Publisher framing unverified. The title sounds categorical, but the description explicitly questions 'never' and credits LLM competence.
 
@@ -3046,11 +2856,9 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** A concrete geometric learning paradigm with biological trajectory tests directly fits the user's mathematical and modeling interests.
 
-**Question for a transcript review:** How is the metric jointly identified with geodesic dynamics, and what explains improved prediction over fixed metrics?
+**Question to settle:** How is the metric jointly identified with geodesic dynamics, and what explains improved prediction over fixed metrics?
 
 **Caveat:** Publisher framing unverified. Specific application is cell morphology; broader transfer is an open question.
-
-[Completed transcript review](reviews/24u6CTV4t1k.md)
 
 ### #86 - Prof. YANN LECUN and Dr. RANDALL BALESTRIERO - SSL, Data Augmentation [NEURIPS2022]
 
@@ -3062,11 +2870,9 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** The interview explicitly centers on a spectral SSL paper and links exact augmentation moments, directly exposing mathematical learning structure.
 
-**Question for a transcript review:** Under which assumptions do contrastive and noncontrastive objectives recover spectral embeddings, and how does augmentation select invariances?
+**Question to settle:** Under which assumptions do contrastive and noncontrastive objectives recover spectral embeddings, and how does augmentation select invariances?
 
 **Caveat:** Publisher framing unverified. The description misspells the paper title as Non-Contravention; mathematical scope needs checking in the transcript.
-
-[Completed transcript review](reviews/9dLd6n9yT8U.md)
 
 ### #85 Dr. Petar Veličković (Deepmind) - Categories, Graphs, Reasoning [NEURIPS22 UNPLUGGED]
 
@@ -3078,11 +2884,9 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** Named algorithmic constructions and graph bottleneck results make this a direct match to mathematical anatomy of reasoning.
 
-**Question for a transcript review:** How do categorical structure and graph propagation enable reusable algorithmic reasoning while controlling oversquashing?
+**Question to settle:** How do categorical structure and graph propagation enable reusable algorithmic reasoning while controlling oversquashing?
 
 **Caveat:** Publisher framing unverified. References span more topics than a single interview may develop.
-
-[Completed transcript review](reviews/1lkdWduuN14.md)
 
 ### #84 LAURA RUIS - Large language models are not zero-shot communicators [NEURIPS UNPLUGGED]
 
@@ -3094,11 +2898,9 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** A specific diagnostic task and reported failure supply a concrete counterexample to equating linguistic fluency with communication.
 
-**Question for a transcript review:** What task controls isolate pragmatic inference from prompt misunderstanding or missing linguistic knowledge?
+**Question to settle:** What task controls isolate pragmatic inference from prompt misunderstanding or missing linguistic knowledge?
 
 **Caveat:** Publisher framing unverified. Results apply to tested models and prompts, not an established permanent limitation.
-
-[Completed transcript review](reviews/5Yd28ssDutA.md)
 
 ### #83 Dr. ANDREW LAMPINEN (Deepmind) - Natural Language, Symbols and Grounding [NEURIPS2022 UNPLUGGED]
 
@@ -3110,7 +2912,7 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** The linked nested-grammar and reasoning-content experiments anchor a substantive comparison of human and machine cognition.
 
-**Question for a transcript review:** Can learned networks support systematic symbolic behavior, and what experimental comparisons genuinely match human cognition?
+**Question to settle:** Can learned networks support systematic symbolic behavior, and what experimental comparisons genuinely match human cognition?
 
 **Caveat:** Publisher framing unverified. Sparse prose is strengthened by specific research links; depth of each topic is uncertain.
 
@@ -3124,7 +2926,7 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** Theory-of-computation and language-of-thought chapters promise a substantial computational account of intelligence rather than only AI commentary.
 
-**Question for a transcript review:** How do computability limits constrain mental models, and how does a generative architecture produce the proposed self-model?
+**Question to settle:** How do computability limits constrain mental models, and how does a generative architecture produce the proposed self-model?
 
 **Caveat:** Publisher framing unverified. Digital-physics and consciousness claims remain hypotheses.
 
@@ -3138,11 +2940,9 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** MAP-Elites and novelty-search references plus concrete population questions promise mechanisms for discovery beyond fixed-objective optimization.
 
-**Question for a transcript review:** How do population diversity and novelty objectives prevent premature convergence and enable sustained discovery?
+**Question to settle:** How do population diversity and novelty objectives prevent premature convergence and enable sustained discovery?
 
 **Caveat:** Publisher framing unverified. Creativity and interestingness may remain partly subjective criteria.
-
-[Completed transcript review](reviews/iqkkkA9dtY0.md)
 
 ### #80 AIDAN GOMEZ [CEO Cohere] - Language as Software
 
@@ -3154,7 +2954,7 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** Despite extensive company/product material, explicit Chomsky-hierarchy and understanding chapters promise technical and conceptual distinctions relevant to learned computation.
 
-**Question for a transcript review:** Which computational abilities and limitations support treating language models as software substrates or extended cognition?
+**Question to settle:** Which computational abilities and limitations support treating language models as software substrates or extended cognition?
 
 **Caveat:** Publisher framing unverified. Company promotion occupies a substantial fraction; practical roadmap claims are dated.
 
@@ -3168,7 +2968,7 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** Multiple named responses to a central thought experiment promise a substantial conceptual comparison; acknowledged clips do not establish whole-episode duplication.
 
-**Question for a transcript review:** Which reply to the Chinese Room explains how system-level semantics could arise from syntactic operations?
+**Question to settle:** Which reply to the Chinese Room explains how system-level semantics could arise from syntactic operations?
 
 **Caveat:** Publisher framing unverified. Uses clips from other interviews and includes malformed timestamps; description overstates the argument as against all AI.
 
@@ -3182,7 +2982,7 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** Detailed chapters connect competing theories of learning, representation, and biological constraints, directly serving the research goal.
 
-**Question for a transcript review:** Which innate structures or modeling constraints distinguish language competence from learned correlations, and how do they bear on world-model architectures?
+**Question to settle:** Which innate structures or modeling constraints distinguish language competence from learned correlations, and how do they bear on world-model architectures?
 
 **Caveat:** Publisher framing unverified. RSS points to a different YouTube ID and timing offsets; use this video's own description as primary metadata.
 
@@ -3196,11 +2996,9 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** Concrete learned local-update systems and explicit questions about formalizing emergence directly address intelligence built from interacting parts.
 
-**Question for a transcript review:** Which local learning rules produce robust global organization, and how is emergence formalized across discrete and continuous scales?
+**Question to settle:** Which local learning rules produce robust global organization, and how is emergence formalized across discrete and continuous scales?
 
 **Caveat:** Publisher framing unverified. Strong emergence and digital-physics claims must be distinguished from demonstrated automata behavior.
-
-[Completed transcript review](reviews/MDt2e8XtUcA.md)
 
 ### #74 Dr. ANDREW LAMPINEN - Symbolic behaviour in AI [UNPLUGGED]
 
@@ -3212,7 +3010,7 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** A specific alternative to content-based symbol semantics, with Wason and memorization tests, promises a competing explanatory account.
 
-**Question for a transcript review:** How can agents establish shared symbol meaning through interaction, and what behavioral tests distinguish it from memorization?
+**Question to settle:** How can agents establish shared symbol meaning through interaction, and what behavioral tests distinguish it from memorization?
 
 **Caveat:** Publisher framing unverified. Publisher's relativism framing may simplify the proposed account.
 
@@ -3226,7 +3024,7 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** The account of misleading objectives and stepping stones is a concrete search hypothesis, extended to how representations and definitions shape discovery.
 
-**Question for a transcript review:** When does objective-based search become deceptive, and can subjective selection reveal useful representation primitives?
+**Question to settle:** When does objective-based search become deceptive, and can subjective selection reveal useful representation primitives?
 
 **Caveat:** Publisher framing unverified. Much discussion is philosophical or artistic; operational criteria may remain incomplete.
 
@@ -3240,11 +3038,9 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** The chapter list and mathematical references specify mechanisms and expressivity limits; the course advertisement does not dominate the substance.
 
-**Question for a transcript review:** How do diffusion geometry and aggregation constrain expressivity, and which rewiring or subgraph methods remove bottlenecks?
+**Question to settle:** How do diffusion geometry and aggregation constrain expressivity, and which rewiring or subgraph methods remove bottlenecks?
 
 **Caveat:** Publisher framing unverified. The proposed unification of all architectures as diffusion may have qualifications.
-
-[Completed transcript review](reviews/jAGIuobLp60.md)
 
 ### #70 - LETITIA PARCALABESCU - Symbolics, Linguistics [UNPLUGGED]
 
@@ -3256,7 +3052,7 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** Explicit learnability and dimensional-curse chapters plus neurosymbolic references promise a substantive comparison despite channel/career discussion.
 
-**Question for a transcript review:** Which aspects of language incur a sample-complexity barrier, and what symbolic structure is proposed to address it?
+**Question to settle:** Which aspects of language incur a sample-complexity barrier, and what symbolic structure is proposed to address it?
 
 **Caveat:** Publisher framing unverified. Broad claims about deep learning hitting a wall are argumentative, not established limits.
 
@@ -3270,11 +3066,9 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** Directions, distances, derivatives, and architecture-induced extrapolation provide unusually direct mathematical explanation of learning.
 
-**Question for a transcript review:** How do basis placement and architectural priors alter approximation bounds and permit extrapolation in specific symmetry domains?
+**Question to settle:** How do basis placement and architectural priors alter approximation bounds and permit extrapolation in specific symmetry domains?
 
 **Caveat:** Publisher framing unverified. Statements that networks only extrapolate with explicit priors depend on the definition of extrapolation.
-
-[Completed transcript review](reviews/ZaOp1KNhpUQ.md)
 
 ### #68 DR. WALID SABA 2.0 - Natural Language Understanding [UNPLUGGED]
 
@@ -3286,7 +3080,7 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** The explicit MLP-as-hashing hypothesis and counterexamples promise a testable competing account, irrespective of whether its strongest claims hold.
 
-**Question for a transcript review:** What precise equivalence supports the hashing analogy, and which tasks require cognitive templates rather than statistical learning?
+**Question to settle:** What precise equivalence supports the hashing analogy, and which tasks require cognitive templates rather than statistical learning?
 
 **Caveat:** Publisher framing unverified. The impossibility rhetoric and appeals to infinity are claims to examine, not accepted premises.
 
@@ -3300,11 +3094,9 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** A named representational and learning target connects probabilistic modeling, fuzzy logic, and real-world semantics directly.
 
-**Question for a transcript review:** How can distributional evidence learn truth-conditional representations, and what grounding assumptions resolve vagueness?
+**Question to settle:** How can distributional evidence learn truth-conditional representations, and what grounding assumptions resolve vagueness?
 
 **Caveat:** Publisher framing unverified. The claim describes the thesis model; interview depth and limitations remain to establish.
-
-[Completed transcript review](reviews/dhM0_EKLg9k.md)
 
 ### #67 Prof. KARL FRISTON 2.0 [Unplugged]
 
@@ -3316,11 +3108,9 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** Specific mathematical constructions and boundary conditions promise direct access to the proposed mathematics of cognition.
 
-**Question for a transcript review:** Which assumptions about stochastic dynamics and boundaries permit an FEP account of cognition across timescales?
+**Question to settle:** Which assumptions about stochastic dynamics and boundaries permit an FEP account of cognition across timescales?
 
 **Caveat:** Publisher framing unverified. Universality and consciousness implications must be separated from the formal result.
-
-[Completed transcript review](reviews/xKQ-F2-o8uM.md)
 
 ### #66 ALEXANDER MATTICK - [Unplugged / Community Edition]
 
@@ -3332,7 +3122,7 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** Detailed technical chapters offer multiple concrete routes from representations to reasoning and knowledge acquisition.
 
-**Question for a transcript review:** How do discrete synthesis and inductive logic overcome the proposed abstraction limits of continuous neural models?
+**Question to settle:** How do discrete synthesis and inductive logic overcome the proposed abstraction limits of continuous neural models?
 
 **Caveat:** Publisher framing unverified. Community-conversation format may develop arguments unevenly.
 
@@ -3346,7 +3136,7 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** The chapter list promises relationships between algorithms and a knowledge/control duality rather than a general career interview.
 
-**Question for a transcript review:** Which formal connections unify search, generative learning, predictive coding, and causal control?
+**Question to settle:** Which formal connections unify search, generative learning, predictive coding, and causal control?
 
 **Caveat:** Publisher framing unverified. The Master Algorithm framing is a research aspiration, not an established unification.
 
@@ -3360,7 +3150,7 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** The linked grokking, double-descent, and Bayesian-generalization results ground the critique in concrete phenomena worth evaluating.
 
-**Question for a transcript review:** How do compositionality and Bayesian or likelihood-based accounts explain grokking and extrapolation?
+**Question to settle:** How do compositionality and Bayesian or likelihood-based accounts explain grokking and extrapolation?
 
 **Caveat:** Publisher framing unverified. The broad consciousness opening may occupy a large share; claimed neural limits remain contested hypotheses.
 
@@ -3374,11 +3164,9 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** An explicit generative-search mechanism with foundations and causal representation links is a strong match.
 
-**Question for a transcript review:** How does flow matching turn reward into diverse samples, and how can that support causal graph and category learning?
+**Question to settle:** How does flow matching turn reward into diverse samples, and how can that support causal graph and category learning?
 
 **Caveat:** Publisher framing unverified. Claims about unlocking abstract reasoning are prospective, not established by sampling performance alone.
-
-[Completed transcript review](reviews/M49TMqK5uCE.md)
 
 ### Why LeCun Thinks Deep Learning Isn't Enough — Yann LeCun
 
@@ -3390,11 +3178,9 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** Concrete polyhedral geometry and competing interpolation definitions promise a central mathematical account of neural learning.
 
-**Question for a transcript review:** Which definitions of interpolation remain meaningful in high dimensions, and how do local affine regions support useful generalization?
+**Question to settle:** Which definitions of interpolation remain meaningful in high dimensions, and how do local affine regions support useful generalization?
 
 **Caveat:** Publisher framing unverified. YouTube and RSS chapter timings materially conflict; claims equating all networks to linear compositions need careful scope.
-
-[Completed transcript review](reviews/86ib0sfdFtw.md)
 
 ### The Geometric Deep Learning Blueprint — Michael Bronstein
 
@@ -3406,11 +3192,9 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** Extensive chapters address mathematical assumptions, learned symmetries, harmful invariance, approximation, and practical architecture construction.
 
-**Question for a transcript review:** Which symmetries should be imposed or learned, and when do invariance assumptions damage generalization or reasoning?
+**Question to settle:** Which symmetries should be imposed or learned, and when do invariance assumptions damage generalization or reasoning?
 
 **Caveat:** Publisher framing unverified. The blueprint is broad; applicability depends on the domain and symmetry assumptions.
-
-[Completed transcript review](reviews/bIZB1hIJ4u8.md)
 
 ### #59 JEFF HAWKINS - Thousand Brains Theory
 
@@ -3422,11 +3206,9 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** The detailed SDR capacity and nonspatial reference-frame chapters promise concrete biological and representational mechanisms.
 
-**Question for a transcript review:** How do many sparse reference-frame models coordinate, and how does spatial machinery generalize to abstract reasoning?
+**Question to settle:** How do many sparse reference-frame models coordinate, and how does spatial machinery generalize to abstract reasoning?
 
 **Caveat:** Publisher framing unverified. Thousand Brains is a theoretical account; validation claims in chapter labels are not independently established.
-
-[Completed transcript review](reviews/6VQILbDqaI4.md)
 
 ### OpenAI Codex (With Yannic Kilcher, Connor Leahy, Walid Saba)
 
@@ -3450,7 +3232,7 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** Explicit memory/process integration, hypergraph operations, and AIXI-limit chapters supply a substantial alternative architecture.
 
-**Question for a transcript review:** What interactions among cognitive processes produce capabilities unavailable to each alone, and how are those operations formalized?
+**Question to settle:** What interactions among cognitive processes produce capabilities unavailable to each alone, and how are those operations formalized?
 
 **Caveat:** Publisher framing unverified. The work is described as mainly theoretical; SingularityNET promotion is mixed with architectural claims.
 
@@ -3464,7 +3246,7 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** Concrete analogy architecture and robustness counterexamples promise useful explanations of why broad intelligence remains difficult.
 
-**Question for a transcript review:** How do fluid concepts in analogy-making differ from learned features, and what failure cases expose that difference?
+**Question to settle:** How do fluid concepts in analogy-making differ from learned features, and what failure cases expose that difference?
 
 **Caveat:** Publisher framing unverified. AI-hype framing should not substitute for task-level evidence.
 
@@ -3478,7 +3260,7 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** Specific discussion of categories, search overlays, and allegedly unlearnable knowledge promises a substantial competing account of learning.
 
-**Question for a transcript review:** Which knowledge is claimed unlearnable from observation, and what discrete or deductive machinery supplies it?
+**Question to settle:** Which knowledge is claimed unlearnable from observation, and what discrete or deductive machinery supplies it?
 
 **Caveat:** Publisher framing unverified. The claim that unique human knowledge is not learnable needs precise assumptions and counterexamples.
 
@@ -3492,11 +3274,9 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** Named objectives and architecture comparisons connect representation quality to concrete learning mechanisms beyond language models.
 
-**Question for a transcript review:** Why do different SSL objectives avoid collapse, and what prior knowledge enters through augmentations and architecture?
+**Question to settle:** Why do different SSL objectives avoid collapse, and what prior knowledge enters through augmentations and architecture?
 
 **Caveat:** Publisher framing unverified. Universality of visual categories is posed as a question, not an established result.
-
-[Completed transcript review](reviews/EXJmodhu4_4.md)
 
 ### #54 Prof. GARY MARCUS + Prof. LUIS LAMB - Neurosymbolic models
 
@@ -3508,7 +3288,7 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** Specific optimizability, discrete reasoning, and abstraction questions alongside technical references promise mechanisms rather than generic advocacy.
 
-**Question for a transcript review:** How can logical semantics and discrete reasoning be integrated with differentiable learning without losing trainability?
+**Question to settle:** How can logical semantics and discrete reasoning be integrated with differentiable learning without losing trainability?
 
 **Caveat:** Publisher framing unverified. Arguments that semantics is necessary for robustness need operational definitions and supporting examples.
 
@@ -3522,11 +3302,9 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** Named mathematical formalisms and explicit questions about learned versus supplied language structure directly match the requested anatomy of modeling.
 
-**Question for a transcript review:** What shared categorical structure connects sentence composition to quantum processes, and what must be supplied versus learned?
+**Question to settle:** What shared categorical structure connects sentence composition to quantum processes, and what must be supplied versus learned?
 
 **Caveat:** Publisher framing unverified. Quantum teleportation language and near-term advantage claims require careful interpretation.
-
-[Completed transcript review](reviews/X9uSV1YcOy4.md)
 
 ### #52 - Dr. HADI SALMAN - Adversarial Examples Beyond Security [MIT]
 
@@ -3538,11 +3316,9 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** Concrete interventions and contrasting feature hypotheses make this directly relevant to what models learn, beyond security applications.
 
-**Question for a transcript review:** Which representation changes explain robust transfer and unadversarial recognition, and how do local certificates relate to distribution shift?
+**Question to settle:** Which representation changes explain robust transfer and unadversarial recognition, and how do local certificates relate to distribution shift?
 
 **Caveat:** Publisher framing unverified. Robustness definitions and perturbation classes limit any generalization claim.
-
-[Completed transcript review](reviews/_eHRICHlg1k.md)
 
 ### #51 FRANCOIS CHOLLET - Intelligence and Generalisation
 
@@ -3554,11 +3330,9 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** ARC, generalization difficulty, and a formal intelligence measure offer concrete models and tests central to the user's goal.
 
-**Question for a transcript review:** How does the proposed measure separate prior knowledge and experience from generalization ability, and why is program synthesis needed?
+**Question to settle:** How does the proposed measure separate prior knowledge and experience from generalization ability, and why is program synthesis needed?
 
 **Caveat:** Publisher framing unverified. Categorical neural limitations depend on architecture and computation assumptions.
-
-[Completed transcript review](reviews/J0p_thJJnoo.md)
 
 ### #50 Dr. CHRISTIAN SZEGEDY - Formal Reasoning, Program Synthesis
 
@@ -3570,11 +3344,9 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** Detailed questions about neural/formal integration, learned biases, and multiagent proof discovery promise mechanisms and evaluable tasks.
 
-**Question for a transcript review:** How can learned representations produce formally valid reasoning, and which inductive biases support transfer beyond familiar proofs?
+**Question to settle:** How can learned representations produce formally valid reasoning, and which inductive biases support transfer beyond familiar proofs?
 
 **Caveat:** Publisher framing unverified. Mathematical ability as a universal intelligence test is a hypothesis.
-
-[Completed transcript review](reviews/ehNGGYFO6ms.md)
 
 ### #49 - Meta-Gradients in RL - Dr. Tom Zahavy (DeepMind)
 
@@ -3586,11 +3358,9 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** Specific hyperparameter, optimization, and environment-selection questions directly expose the structure of learning to learn.
 
-**Question for a transcript review:** Which variables should a learner adapt through meta-gradients, and how do diversity and environment selection affect lifelong transfer?
+**Question to settle:** Which variables should a learner adapt through meta-gradients, and how do diversity and environment selection affect lifelong transfer?
 
 **Caveat:** Publisher framing unverified. Reward sufficiency is the guest's hypothesis, not a prerequisite for valuing the methods.
-
-[Completed transcript review](reviews/hfaZwgk_iS0.md)
 
 ### #047 Interpretable Machine Learning - Christoph Molnar
 
@@ -3602,11 +3372,9 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** Concrete counterexamples and statistical pitfalls provide tools for judging whether apparent model explanations track actual computation.
 
-**Question for a transcript review:** When do feature dependence and surrogate mismatch invalidate explanations, and how can explanation quality be tested statistically?
+**Question to settle:** When do feature dependence and surrogate mismatch invalidate explanations, and how can explanation quality be tested statistically?
 
 **Caveat:** Publisher framing unverified. Interpretability objectives may be user-dependent and distinct from causal identification.
-
-[Completed transcript review](reviews/0LIACHcxpHU.md)
 
 ### #046 The Great ML Stagnation (Mark Saroufim and Dr. Mathew Salvaris)
 
@@ -3630,7 +3398,7 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** Specific mapping arguments, Chinese Room responses, and intelligence-without-representation supply a substantial competing account worthy of analysis.
 
-**Question for a transcript review:** Does observer-relative implementation undermine computational explanations, and what explanatory alternative does embodied activity provide?
+**Question to settle:** Does observer-relative implementation undermine computational explanations, and what explanatory alternative does embodied activity provide?
 
 **Caveat:** Publisher framing unverified. Strong impossibility and panpsychism claims are arguments to evaluate; publisher corrects a misattributed Wittgenstein quote.
 
@@ -3644,7 +3412,7 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** The final technical block directly addresses an explicit mathematical equivalence and the role of optimization trajectories, despite the largely political framing.
 
-**Question for a transcript review:** What kernel depends on the training trajectory, and what does that representation reveal about learned symmetries?
+**Question to settle:** What kernel depends on the training trajectory, and what does that representation reveal about learned symmetries?
 
 **Caveat:** Publisher framing unverified. Most of the episode is political discussion; prioritize the technical block beginning around 1:15.
 
@@ -3658,11 +3426,9 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** Specific timing-based binding and STDP mechanisms offer a concrete biological alternative to conventional neural architectures.
 
-**Question for a transcript review:** How do spike timing and plasticity encode hierarchical feature bindings and transformation invariance without supervision?
+**Question to settle:** How do spike timing and plasticity encode hierarchical feature bindings and transformation invariance without supervision?
 
 **Caveat:** Publisher framing unverified. Biological plausibility and computational advantage require separate evidence.
-
-[Completed transcript review](reviews/aisgNLypUKs.md)
 
 ### #040 - Adversarial Examples (Dr. Nicholas Carlini, Dr. Wieland Brendel, Florian Tramèr)
 
@@ -3674,11 +3440,9 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** Concrete feature hypotheses and robustness counterexamples bear directly on learned representations and out-of-distribution behavior.
 
-**Question for a transcript review:** Why do predictive nonrobust features persist, and which failures stem from data, objectives, or optimization?
+**Question to settle:** Why do predictive nonrobust features persist, and which failures stem from data, objectives, or optimization?
 
 **Caveat:** Publisher framing unverified. A security focus shares time with foundations; defenses must be interpreted against their threat models.
-
-[Completed transcript review](reviews/2PenK06tvE4.md)
 
 ### 039 - Lena Voita - NLP
 
@@ -3690,11 +3454,9 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** Minimum-description-length evaluation and tracked token representations promise concrete methods for identifying what learning retains and discards.
 
-**Question for a transcript review:** How does MDL probing distinguish accessible information from probe capacity, and how do objectives reshape token representations?
+**Question to settle:** How does MDL probing distinguish accessible information from probe capacity, and how do objectives reshape token representations?
 
 **Caveat:** Publisher framing unverified. MDL and Kolmogorov complexity are related but not interchangeable computable quantities; publisher also corrects CPPN terminology.
-
-[Completed transcript review](reviews/Q0kN_ZHHDQY.md)
 
 ### Why Greatness Cannot Be Planned — Kenneth Stanley
 
@@ -3706,11 +3468,9 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** The chapter list probes behavioral diversity measures, selection pressure, and exploration versus exploitation with concrete algorithms and examples.
 
-**Question for a transcript review:** How should novelty and behavioral diversity be measured so that useful stepping stones survive without a known final objective?
+**Question to settle:** How should novelty and behavioral diversity be measured so that useful stepping stones survive without a known final objective?
 
 **Caveat:** Publisher framing unverified. Generalization from algorithmic search to all ambitious human goals is speculative.
-
-[Completed transcript review](reviews/lhYGXYeMq_E.md)
 
 ### #037 - Tour De Bayesian with Connor Tann
 
@@ -3722,11 +3482,9 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** Concrete probabilistic modeling choices and computational bottlenecks match the user's statistical-structure interests; strong math does not imply prior familiarity.
 
-**Question for a transcript review:** How do prior choices and approximate integration change uncertainty and decisions in small-data learning?
+**Question to settle:** How do prior choices and approximate integration change uncertainty and decisions in small-data learning?
 
 **Caveat:** Publisher framing unverified. Introductory breadth may limit mathematical depth; chapter ordering contains a timestamp anomaly.
-
-[Completed transcript review](reviews/RQ31MHw84o0.md)
 
 ### #036 - Max Welling: Quantum, Manifolds & Symmetries in ML
 
@@ -3738,11 +3496,9 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** Named mathematical architecture proposals and explicit bias/variance questions promise concrete mechanisms connecting structure to generalization.
 
-**Question for a transcript review:** How do geometric and probabilistic-numerical priors alter the learned function class, and when do these constraints hurt?
+**Question to settle:** How do geometric and probabilistic-numerical priors alter the learned function class, and when do these constraints hurt?
 
 **Caveat:** Publisher framing unverified. Physics analogies and specific architectures should be evaluated separately.
-
-[Completed transcript review](reviews/mmDw5glry9w.md)
 
 ### #034 Eray Özkural- AGI, Simulations & Safety
 
@@ -3754,7 +3510,7 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** A named unification architecture and linked formal intelligence/transfer proposals justify reading, although substantial content is political and speculative.
 
-**Question for a transcript review:** How does Omega combine learning systems, and what formal restrictions does an energy prior place on induction?
+**Question to settle:** How does Omega combine learning systems, and what formal restrictions does an energy prior place on induction?
 
 **Caveat:** Publisher framing unverified. References extend beyond chapter promises; the architecture block may be brief relative to polemics.
 
@@ -3768,11 +3524,9 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** Explicit mathematical chapters and comparison with reinforcement learning strongly match a structural account of cognition.
 
-**Question for a transcript review:** Under what assumptions does persistence become variational inference, and how does this differ from reward maximization?
+**Question to settle:** Under what assumptions does persistence become variational inference, and how does this differ from reward maximization?
 
 **Caveat:** Publisher framing unverified. FEP and active inference should not be conflated; the description itself notes no account of the origin of FEP systems.
-
-[Completed transcript review](reviews/KkR24ieh5Ow.md)
 
 ### #032- Simon Kornblith / GoogleAI - SimCLR and Paper Haul!
 
@@ -3784,11 +3538,9 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** Named experiments and loss/transfer comparisons promise direct evidence about how architecture and objectives shape learned features.
 
-**Question for a transcript review:** Which representation properties change with width, depth, and loss, and which differences predict transfer performance?
+**Question to settle:** Which representation properties change with width, depth, and loss, and which differences predict transfer performance?
 
 **Caveat:** Publisher framing unverified. Similarity metrics and augmentation choices may constrain claims of universal representations.
-
-[Completed transcript review](reviews/1EqJyMy0LnE.md)
 
 ### WE GOT ACCESS TO GPT-3! [Epic Special Edition]
 
@@ -3800,7 +3552,7 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** Unlike a generic access announcement, the detailed demonstrations promise concrete counterexamples and hypotheses about reasoning versus pattern matching.
 
-**Question for a transcript review:** Which successes and failures distinguish reusable reasoning from prompt-dependent pattern completion?
+**Question to settle:** Which successes and failures distinguish reusable reasoning from prompt-dependent pattern completion?
 
 **Caveat:** Publisher framing unverified. Informal demos may be cherry-picked; RSS explicitly says its version is significantly truncated.
 
@@ -3814,11 +3566,9 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** Explicit finite-confidence and asymptotic questions provide mathematical structure for learning under uncertainty.
 
-**Question for a transcript review:** How do information-theoretic lower bounds determine sampling and stopping strategies, especially outside the asymptotic regime?
+**Question to settle:** How do information-theoretic lower bounds determine sampling and stopping strategies, especially outside the asymptotic regime?
 
 **Caveat:** Publisher framing unverified. Title emphasizes recommendations, but chapter scope is substantially broader learning theory.
-
-[Completed transcript review](reviews/h-dYzjF8eFA.md)
 
 ### NLP is not NLU and GPT-3 - Walid Saba
 
@@ -3830,11 +3580,9 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** Detailed type-checking, constraint, entailment, and ontology-size questions specify a competing representational mechanism.
 
-**Question for a transcript review:** How does a typed ontology recover unstated information and resolve ambiguity, and can its structure be learned?
+**Question to settle:** How does a typed ontology recover unstated information and resolve ambiguity, and can its structure be learned?
 
 **Caveat:** Publisher framing unverified. Categorical claims that language is unlearnable require precise scope; they do not determine the screening decision.
-
-[Completed transcript review](reviews/b9qwLkJW2ig.md)
 
 ### AI Alignment & AGI Fire Alarm - Connor Leahy
 
@@ -3846,7 +3594,7 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** Substantial formal-agent counterexamples and learned-objective distinctions justify reading despite risk-focused framing.
 
-**Question for a transcript review:** What makes delegated or learned objectives stable, and which decision-theoretic examples expose failures of utility maximization?
+**Question to settle:** What makes delegated or learned objectives stable, and which decision-theoretic examples expose failures of utility maximization?
 
 **Caveat:** Publisher framing unverified. Imminent-singularity and GPT-3 intelligence claims are speculative, not established by the metadata.
 
@@ -3860,27 +3608,21 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** The specified long-tail forgetting mechanism and compressed-model experiments directly address where learned information resides.
 
-**Question for a transcript review:** Why does pruning preferentially remove rare information, and how do structured sparsity or local updates change that behavior?
+**Question to settle:** Why does pruning preferentially remove rare information, and how do structured sparsity or local updates change that behavior?
 
 **Caveat:** Publisher framing unverified. Hardware-lock-in arguments are broader than the empirical compression claims.
-
-[Completed transcript review](reviews/sQFxbQ7ade0.md)
 
 ### Kernels!
 
 [Original source](https://www.youtube.com/watch?v=y_RjsDHl5Y4) · 2020-09-18T10:50:55-07:00
 
-**Read transcript** · high priority
+**Skip**
 
 **Publisher promise:** Explains kernel expansions, RKHS, representer theorem, duality, and neural connections.
 
-**Reason for the decision:** The detailed mathematical sequence is directly relevant to statistical learning structures beyond deep networks.
-
-**Question for a transcript review:** How do RKHS assumptions and the representer theorem turn function-space optimization into finite estimation, and how does this compare with learned features?
+**Reason for the decision:** Left out after a full reading on 26 October 2026: it did not justify further study for this objective. First-filter reason: The detailed mathematical sequence is directly relevant to statistical learning structures beyond deep networks.
 
 **Caveat:** Publisher framing unverified. Description says reproducible rather than reproducing kernel Hilbert spaces; use the transcript to resolve terminology.
-
-[Completed transcript review](reviews/y_RjsDHl5Y4.md)
 
 ### SWaV: Unsupervised Learning of Visual Features by Contrasting Cluster Assignments (Mathilde Caron)
 
@@ -3892,11 +3634,9 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** A fully specified representational objective and Sinkhorn-based assignment mechanism promise concrete insight into learning without labels.
 
-**Question for a transcript review:** How do balanced cluster assignments and swapped prediction avoid collapse while learning transferable visual structure?
+**Question to settle:** How do balanced cluster assignments and swapped prediction avoid collapse while learning transferable visual structure?
 
 **Caveat:** Publisher framing unverified. Chapter label says Optional transport; claimed transfer superiority is limited to the tested tasks.
-
-[Completed transcript review](reviews/uqJ2hbDGHjY.md)
 
 ### Francois Chollet - On the Measure Of Intelligence
 
@@ -3908,11 +3648,9 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** The explicit information-theoretic formalism and benchmark-design consequences make this more than broad measurement commentary.
 
-**Question for a transcript review:** How can generalization difficulty and prior information be quantified without hiding intelligence in the developer or task specification?
+**Question to settle:** How can generalization difficulty and prior information be quantified without hiding intelligence in the developer or task specification?
 
 **Caveat:** Publisher framing unverified. ARC operationalizes a proposed human-like scope of intelligence, not all possible intelligence.
-
-[Completed transcript review](reviews/mEVnu-KZjq4.md)
 
 ### OpenAI GPT-3: Language Models are Few-Shot Learners
 
@@ -3924,7 +3662,7 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** The clear distinction from parameter fine-tuning plus architecture and probe questions promise learning insight despite an early model-review format.
 
-**Question for a transcript review:** What computation enables task inference from examples in context, and how can probes distinguish it from retrieval?
+**Question to settle:** What computation enables task inference from examples in context, and how can probes distinguish it from retrieval?
 
 **Caveat:** Publisher framing unverified. YouTube explicitly corrects the claim that GPT-3 used ZeRO/DeepSpeed; matched RSS repeats the erroneous claim.
 
@@ -3938,11 +3676,9 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** A specific failure mechanism and corrective method tie representation, uncertainty, and planning together beyond the industrial application.
 
-**Question for a transcript review:** How does a denoising regularizer constrain trajectories to credible regions without preventing useful exploration?
+**Question to settle:** How does a denoising regularizer constrain trajectories to credible regions without preventing useful exploration?
 
 **Caveat:** Publisher framing unverified. Industrial case studies demonstrate a setting; broad System 2 analogies remain hypotheses.
-
-[Completed transcript review](reviews/HnZDmxYnpg4.md)
 
 ### The Lottery Ticket Hypothesis with Jonathan Frankle
 
@@ -3954,11 +3690,9 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** The explicit follow-on experiments probe where learning capacity originates and how training trajectories select useful sparse structures.
 
-**Question for a transcript review:** Which early training changes make sparse subnetworks trainable, and how does mode connectivity explain rewinding's effects?
+**Question to settle:** Which early training changes make sparse subnetworks trainable, and how does mode connectivity explain rewinding's effects?
 
 **Caveat:** Publisher framing unverified. Lottery-ticket findings depend on pruning, initialization, and training regimes.
-
-[Completed transcript review](reviews/SfjJoevBbjU.md)
 
 ### Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer
 
@@ -3970,11 +3704,9 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** The systematic ablation agenda provides concrete experiments on what supports transfer, complemented by grounding and meta-learning discussion.
 
-**Question for a transcript review:** Which factors causally improve transfer when compute and data are controlled, and what does a uniform task format contribute?
+**Question to settle:** Which factors causally improve transfer when compute and data are controlled, and what does a uniform task format contribute?
 
 **Caveat:** Publisher framing unverified. Empirical findings are model- and task-dependent; broad cognition digressions may be less developed.
-
-[Completed transcript review](reviews/N-7rdJK4xlE.md)
 
 ### CURL: Contrastive Unsupervised Representations for Reinforcement Learning
 
@@ -3986,11 +3718,9 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** A specific auxiliary representation mechanism and comparison with state-based learning directly address learning efficiency and abstraction.
 
-**Question for a transcript review:** Why do contrastive representations improve policy sample efficiency, and which augmentations preserve decision-relevant state?
+**Question to settle:** Why do contrastive representations improve policy sample efficiency, and which augmentations preserve decision-relevant state?
 
 **Caveat:** Publisher framing unverified. Near state-based performance is a reported benchmark result, not a universal guarantee.
-
-[Completed transcript review](reviews/1MprzvYNpY8.md)
 
 ### Exploring Open-Ended Algorithms: POET
 
@@ -4002,11 +3732,9 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** The explicit coevolutionary curriculum mechanism and enhanced-POET reference make this a direct non-LLM account of expanding capability.
 
-**Question for a transcript review:** How do environment mutation, transfer, and selection sustain useful novelty without collapsing to easy or unsolvable tasks?
+**Question to settle:** How do environment mutation, transfer, and selection sustain useful novelty without collapsing to easy or unsolvable tasks?
 
 **Caveat:** Publisher framing unverified. Unbounded invention is an aspiration whose empirical limits need examination.
-
-[Completed transcript review](reviews/sIv-JoFf-Ww.md)
 
 ## Separate livestreams
 
@@ -4032,7 +3760,7 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** The announcement and biographies do not identify the actual arguments, mechanisms or experiments. Targeted inspection is required before committing to the full transcript.
 
-**Question for a transcript review:** Does the debate contain a specific architectural or causal argument about agency beyond broad claims about future AI risk?
+**Question to settle:** Does the debate contain a specific architectural or causal argument about agency beyond broad claims about future AI risk?
 
 **Caveat:** Publisher announcement only; speaker expertise is not evidence of episode depth.
 
@@ -4060,7 +3788,7 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** The chapters promise useful distinctions between cognitive function, consciousness and computational power, despite substantial virtual-reality philosophy.
 
-**Question for a transcript review:** Does the consciousness-processor thought experiment impose a testable computational constraint, or only a conceptual distinction?
+**Question to settle:** Does the consciousness-processor thought experiment impose a testable computational constraint, or only a conceptual distinction?
 
 **Caveat:** Publisher framing; unverified. This feed entry is not an additional verified current Videos-tab upload; alternate versions are not independent evidence.
 
@@ -4110,7 +3838,7 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** The notes identify concrete objectives and environment-selection mechanisms that could explain robust adaptation and progressively difficult learning.
 
-**Question for a transcript review:** How does minimax regret select environments, and when does that curriculum improve transfer rather than exploit a task generator?
+**Question to settle:** How does minimax regret select environments, and when does that curriculum improve transfer rather than exploit a task generator?
 
 **Caveat:** Publisher framing; unverified. This feed entry is not an additional verified current Videos-tab upload; alternate versions are not independent evidence.
 
@@ -4124,7 +3852,7 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** Named architectures and operations offer a distinct bridge from dynamical systems to compositional representation and memory.
 
-**Question for a transcript review:** What is encoded by the memory and binding operations, and what guarantees or experiments support their capacity and generalisation?
+**Question to settle:** What is encoded by the memory and binding operations, and what guarantees or experiments support their capacity and generalisation?
 
 **Caveat:** Publisher framing; unverified. This feed entry is not an additional verified current Videos-tab upload; alternate versions are not independent evidence.
 
@@ -4150,7 +3878,7 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** Aggregation and nonstationarity may be relevant, but the notes do not reveal whether a general mechanism is derived or a platform is described.
 
-**Question for a transcript review:** Is there a concrete aggregation or regime-adaptation principle that transfers beyond the Numerai product?
+**Question to settle:** Is there a concrete aggregation or regime-adaptation principle that transfers beyond the Numerai product?
 
 **Caveat:** Publisher framing; unverified. This feed entry is not an additional verified current Videos-tab upload; alternate versions are not independent evidence.
 
@@ -4188,7 +3916,7 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** A research biography and Hutter reference do not establish which mechanisms this short interview actually explains.
 
-**Question for a transcript review:** Does the interview explain performative prediction or incentive structure mathematically, rather than only describing governance interests?
+**Question to settle:** Does the interview explain performative prediction or incentive structure mathematically, rather than only describing governance interests?
 
 **Caveat:** Publisher framing; unverified. This feed entry is not an additional verified current Videos-tab upload; alternate versions are not independent evidence.
 
@@ -4214,7 +3942,7 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** The latter chapters specify a useful distinction between representational sparsity and an optimisable sparse training path, including RigL.
 
-**Question for a transcript review:** Why can dynamic sparsity learn when static sparse initialisation fails, and which limitations are algorithmic versus hardware-specific?
+**Question to settle:** Why can dynamic sparsity learn when static sparse initialisation fails, and which limitations are algorithmic versus hardware-specific?
 
 **Caveat:** Publisher framing; unverified. This feed entry is not an additional verified current Videos-tab upload; alternate versions are not independent evidence.
 
@@ -4240,7 +3968,7 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** The specified frequency study and behavioural-testing methods could sharpen how one separates task performance from evidence of generalisation.
 
-**Question for a transcript review:** Does frequency dependence establish memorisation, or could it also reflect learnability and data coverage? What controlled tests distinguish them?
+**Question to settle:** Does frequency dependence establish memorisation, or could it also reflect learnability and data coverage? What controlled tests distinguish them?
 
 **Caveat:** Publisher framing; unverified. This feed entry is not an additional verified current Videos-tab upload; alternate versions are not independent evidence.
 
@@ -4266,7 +3994,7 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** The explicit decomposition of complex control problems may reveal how structured human knowledge changes the learning problem; product details alone will not suffice.
 
-**Question for a transcript review:** How are expert subproblem boundaries represented, and how do they change credit assignment, exploration or sample complexity?
+**Question to settle:** How are expert subproblem boundaries represented, and how do they change credit assignment, exploration or sample complexity?
 
 **Caveat:** Publisher framing; unverified. This feed entry is not an additional verified current Videos-tab upload; alternate versions are not independent evidence.
 
@@ -4280,7 +4008,7 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** The notes target the location of inductive bias across architecture, data and teacher signals, with concrete mechanisms to inspect.
 
-**Question for a transcript review:** Which improvement comes from augmentation, architecture or teacher supervision, and how is that separated experimentally?
+**Question to settle:** Which improvement comes from augmentation, architecture or teacher supervision, and how is that separated experimentally?
 
 **Caveat:** Publisher framing; unverified. This feed entry is not an additional verified current Videos-tab upload; alternate versions are not independent evidence.
 
@@ -4294,7 +4022,7 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** Specific chapters promise conceptual machinery for typed composition and prior information, even though much of the episode is contemporary commentary.
 
-**Question for a transcript review:** Does the episode make a concrete bridge from type/rewriting structure to learnable representations or generalisation constraints?
+**Question to settle:** Does the episode make a concrete bridge from type/rewriting structure to learnable representations or generalisation constraints?
 
 **Caveat:** Publisher framing; unverified. This feed entry is not an additional verified current Videos-tab upload; alternate versions are not independent evidence.
 
@@ -4308,7 +4036,7 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** Relevant labels appear, but the notes do not identify a stable explanatory contribution beyond speculative discussion.
 
-**Question for a transcript review:** Is there a precise distinction between irreducible uncertainty, computational difficulty and missing information?
+**Question to settle:** Is there a precise distinction between irreducible uncertainty, computational difficulty and missing information?
 
 **Caveat:** Publisher framing; unverified. This feed entry is not an additional verified current Videos-tab upload; alternate versions are not independent evidence.
 
@@ -4358,7 +4086,7 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** The capsules section promises a concrete alternative to invariant feature pooling and may build intuition for part-whole structure.
 
-**Question for a transcript review:** How does routing bind parts to wholes, and what is preserved under transformations compared with invariant pooling?
+**Question to settle:** How does routing bind parts to wholes, and what is preserved under transformations compared with invariant pooling?
 
 **Caveat:** Publisher framing; unverified. This feed entry is not an additional verified current Videos-tab upload; alternate versions are not independent evidence.
 
@@ -4384,7 +4112,7 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** The explicit model-selection chapter and computational distinctions justify inspection, although depth is not established by the short notes.
 
-**Question for a transcript review:** How are model evidence, prior structure and computational limitations related without conflating optimal inference with feasible intelligence?
+**Question to settle:** How are model evidence, prior structure and computational limitations related without conflating optimal inference with feasible intelligence?
 
 **Caveat:** Publisher framing; unverified. This feed entry is not an additional verified current Videos-tab upload; alternate versions are not independent evidence.
 
@@ -4398,7 +4126,7 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** The notes specify the prior-versus-data distinction and feature interpretation, which can expose assumptions behind claims about learned reasoning.
 
-**Question for a transcript review:** Which priors are architectural and which come from data, and what counterexample separates memorisation from systematic reuse?
+**Question to settle:** Which priors are architectural and which come from data, and what counterexample separates memorisation from systematic reuse?
 
 **Caveat:** Publisher framing; unverified. This feed entry is not an additional verified current Videos-tab upload; alternate versions are not independent evidence.
 
@@ -4424,7 +4152,7 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** Substantial chapters promise concrete choices that determine invariances and representation structure; do not dismiss this as a community interview.
 
-**Question for a transcript review:** What information does augmentation deliberately erase, and when does that help or hurt downstream generalisation?
+**Question to settle:** What information does augmentation deliberately erase, and when does that help or hurt downstream generalisation?
 
 **Caveat:** Publisher framing; unverified. This feed entry is not an additional verified current Videos-tab upload; alternate versions are not independent evidence.
 
@@ -4438,7 +4166,7 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** The lengthy pruning chapter can clarify the difference between existence of sparse solutions and the path required to find them.
 
-**Question for a transcript review:** Does sparse trainability depend on initialisation, early optimisation or the final mask, and what comparison separates these?
+**Question to settle:** Does sparse trainability depend on initialisation, early optimisation or the final mask, and what comparison separates these?
 
 **Caveat:** Publisher framing; unverified. This feed entry is not an additional verified current Videos-tab upload; alternate versions are not independent evidence.
 
@@ -4452,7 +4180,7 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** The named self-supervised method and graph chapters offer specific representation questions beyond introductory biography.
 
-**Question for a transcript review:** What prevents collapse without negative pairs, and what assumptions distinguish graph structure from a generic relational data encoding?
+**Question to settle:** What prevents collapse without negative pairs, and what assumptions distinguish graph structure from a generic relational data encoding?
 
 **Caveat:** Publisher framing; unverified. This feed entry is not an additional verified current Videos-tab upload; alternate versions are not independent evidence.
 
@@ -4466,7 +4194,7 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** This is a concrete case of recovering cross-domain alignment without parallel supervision, directly exposing prior structure and identifiability.
 
-**Question for a transcript review:** Which shared anchors make the translation identifiable, and what fails if syntax overlap or semantic execution tests are removed?
+**Question to settle:** Which shared anchors make the translation identifiable, and what fails if syntax overlap or semantic execution tests are removed?
 
 **Caveat:** Publisher framing; unverified. This feed entry is not an additional verified current Videos-tab upload; alternate versions are not independent evidence.
 
@@ -4492,7 +4220,7 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** The concrete objectives connect learned geometry to generalisation across unseen identities; retained as a separately sourced feed entry.
 
-**Question for a transcript review:** How do the margin constraints and mining distributions change learned geometry and generalisation beyond training identities?
+**Question to settle:** How do the margin constraints and mining distributions change learned geometry and generalisation beyond training identities?
 
 **Caveat:** Publisher framing; unverified. This feed entry is not an additional verified current Videos-tab upload; alternate versions are not independent evidence.
 
@@ -4506,7 +4234,7 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** Named structural priors and sparse changes in latent space make this directly relevant to the mathematical anatomy of intelligence.
 
-**Question for a transcript review:** Under what assumptions do sparse modular representations support recombination or causal transfer, and which claims remain hypotheses?
+**Question to settle:** Under what assumptions do sparse modular representations support recombination or causal transfer, and which claims remain hypotheses?
 
 **Caveat:** Publisher framing; unverified. This feed entry is not an additional verified current Videos-tab upload; alternate versions are not independent evidence.
 
@@ -4520,7 +4248,7 @@ Two livestreams and 37 unmatched podcast-feed entries appear separately below. F
 
 **Reason for the decision:** The specific energy-based modelling framework offers a foundational alternative for representing compatibility and composing constraints.
 
-**Question for a transcript review:** How is an energy trained to separate compatible from incompatible configurations, and what makes inference or negative sampling tractable?
+**Question to settle:** How is an energy trained to separate compatible from incompatible configurations, and what makes inference or negative sampling tractable?
 
 **Caveat:** Publisher framing; unverified. This feed entry is not an additional verified current Videos-tab upload; alternate versions are not independent evidence.
 

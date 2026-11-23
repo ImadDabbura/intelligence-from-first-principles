@@ -11,11 +11,10 @@ Originator-grade expositions of unifying programmes of learning and intelligence
 - Screened in this pass: 40 items, 40 high priority before de-duplication against the rest of the collection.
 - Kept: 31 items that pass the guiding principles (Timelessness, Generative Power, Transfer, Rare Combination, Worldview, Primacy, Density); all others removed.
 - Known gaps: see the collection entry in collections.json.
-- Number reviewed in depth: 0
 
 ## First filter
 
-Metadata only, screened against the A–F originator rubric by parallel AI screeners using one shared instruction set. `read_transcript` means worth a transcript review, not a watch recommendation. Many talks had no abstract; each caveat says when a judgement rests on title and speaker.
+Metadata only, screened against the A–F originator rubric by parallel AI screeners using one shared instruction set. A place here is a reading decision, not a watch recommendation. Many talks had no abstract; each caveat says when a judgement rests on title and speaker.
 
 - [Minimum Description Length Revisited — Peter Grünwald and Teemu Roos](https://arxiv.org/abs/1908.08484) — 
 - [Deep Learning is Singular, and That’s Good — Murfet, Wei, Gong, Li, Gell-Redman, Quella](https://arxiv.org/abs/2010.11560) — 
@@ -48,10 +47,6 @@ Metadata only, screened against the A–F originator rubric by parallel AI scree
 - [Evolvability](https://eccc.weizmann.ac.il/report/2006/120) — Leslie Valiant
 - [How Can Evolution Learn?](https://real.mtak.hu/33746/) — Richard Watson, Eörs Szathmáry
 - [Natural Image Statistics and Neural Representation](https://www.cns.nyu.edu/pub/eero/simoncelli01-reprint.pdf) — Eero Simoncelli, Bruno Olshausen
-
-## Transcript reviews
-
-None yet.
 
 ## Revision record
 

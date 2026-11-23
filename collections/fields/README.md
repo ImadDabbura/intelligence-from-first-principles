@@ -11,11 +11,10 @@ Originator-grade expositions of unifying programmes of learning and intelligence
 - Screened in this pass: 653 items, 14 high priority before de-duplication against the rest of the collection.
 - Kept: 8 items that pass the guiding principles (Timelessness, Generative Power, Transfer, Rare Combination, Worldview, Primacy, Density); all others removed.
 - Known gaps: see the collection entry in collections.json.
-- Number reviewed in depth: 0
 
 ## First filter
 
-Metadata only, screened against the A–F originator rubric by parallel AI screeners using one shared instruction set. `read_transcript` means worth a transcript review, not a watch recommendation. Many talks had no abstract; each caveat says when a judgement rests on title and speaker.
+Metadata only, screened against the A–F originator rubric by parallel AI screeners using one shared instruction set. A place here is a reading decision, not a watch recommendation. Many talks had no abstract; each caveat says when a judgement rests on title and speaker.
 
 - [Lecture 03 | Kernel Adaptation: Feature Learning Beyond the Gaussian Process](https://www.youtube.com/watch?v=Sbv-wBLMNGM) — Zohar Ringel
 - [Plenary Talk | 37th International Conference on Algorithmic Learning Theory (ALT 2026) and ShaiFest](https://www.youtube.com/watch?v=uAXSWLZXeLE) — Vitaly Feldman
@@ -28,10 +27,6 @@ Metadata only, screened against the A–F originator rubric by parallel AI scree
 
 
 
-
-## Transcript reviews
-
-None yet.
 
 ## Revision record
 

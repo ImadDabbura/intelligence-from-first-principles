@@ -1,15 +1,13 @@
 ---
-name: Correct or challenge a review
-about: Improve a claim, source record or viewing decision
+name: Correct or challenge an entry
+about: Improve a claim, a source record or a core idea
 title: ''
 labels: ''
 assignees: ''
 ---
 
-**Review link and specific statement**
+**Entry or core idea, and the specific statement**
 
 **Correction or disagreement**
 
 **Evidence: timestamp, edition or primary source**
-
-**Does this change the viewing priority or learning path?**

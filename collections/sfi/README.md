@@ -11,11 +11,10 @@ Originator-grade expositions of unifying programmes of learning and intelligence
 - Screened in this pass: 748 items, 10 high priority before de-duplication against the rest of the collection.
 - Kept: 8 items that pass the guiding principles (Timelessness, Generative Power, Transfer, Rare Combination, Worldview, Primacy, Density); all others removed.
 - Known gaps: see the collection entry in collections.json.
-- Number reviewed in depth: 0
 
 ## First filter
 
-Metadata only, screened against the A–F originator rubric by parallel AI screeners using one shared instruction set. `read_transcript` means worth a transcript review, not a watch recommendation. Many talks had no abstract; each caveat says when a judgement rests on title and speaker.
+Metadata only, screened against the A–F originator rubric by parallel AI screeners using one shared instruction set. A place here is a reading decision, not a watch recommendation. Many talks had no abstract; each caveat says when a judgement rests on title and speaker.
 
 - [David Wolpert on The No Free Lunch Theorems and Why They Undermine The Scientific Method](https://www.youtube.com/watch?v=E7EUBbZtRxU) — David Wolpert
 - [Language Learning, Language Use, and The Evolution of Linguistic Structure](https://www.youtube.com/watch?v=NjBtagmAi40) — Kenny Smith
@@ -27,10 +26,6 @@ Metadata only, screened against the A–F originator rubric by parallel AI scree
 - [An introduction to stochastic thermodynamics - Takahiro Sagawa / NEST](https://www.youtube.com/watch?v=m023IrSLF-k) — Takahiro Sagawa
 
 
-
-## Transcript reviews
-
-None yet.
 
 ## Revision record
 

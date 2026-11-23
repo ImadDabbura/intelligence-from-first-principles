@@ -11,11 +11,10 @@ Originator-grade expositions of unifying programmes of learning and intelligence
 - Screened in this pass: 295 items, 7 high priority before de-duplication against the rest of the collection.
 - Kept: 4 items that pass the guiding principles (Timelessness, Generative Power, Transfer, Rare Combination, Worldview, Primacy, Density); all others removed.
 - Known gaps: Most talks are in French. Full course series are hosted on college-de-france.fr, not YouTube, and are a known gap.
-- Number reviewed in depth: 0
 
 ## First filter
 
-Metadata only, screened against the A–F originator rubric by parallel AI screeners using one shared instruction set. `read_transcript` means worth a transcript review, not a watch recommendation. Many talks had no abstract; each caveat says when a judgement rests on title and speaker.
+Metadata only, screened against the A–F originator rubric by parallel AI screeners using one shared instruction set. A place here is a reading decision, not a watch recommendation. Many talks had no abstract; each caveat says when a judgement rests on title and speaker.
 
 - [Le rôle du langage dans le développement du noyau de connaissances de l'enfant - E. Spelke](https://www.youtube.com/watch?v=8QcRw-2xLvk) — Elizabeth Spelke
 - [L'auto-organisation dans l'évolution de la parole - Pierre-Yves Oudeyer](https://www.youtube.com/watch?v=ww4dYVJVgP0) — Pierre-Yves Oudeyer
@@ -23,10 +22,6 @@ Metadata only, screened against the A–F originator rubric by parallel AI scree
 - [Physique statistique - Bernard Derrida (2015)](https://www.youtube.com/watch?v=CgCJ4YA5-YU) — Bernard Derrida
 
 
-
-## Transcript reviews
-
-None yet.
 
 ## Revision record
 

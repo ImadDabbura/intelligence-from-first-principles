@@ -121,55 +121,23 @@ def build_shared(root=ROOT):
     for item in backlog:
         item['core'] = links.get(item['key'], [])
     assert set(links) <= {b['key'] for b in backlog}, 'core/links.json names items that are not in the Library'
-    roadmap = load(root / 'learning-path.json')
-    refs = list(roadmap['start'])
-    for module in roadmap['modules']:
-        refs += module['anchors'] + module['deepen']
-    for key in ['reconciled_findings', 'overlap_guidance']:
-        for item in roadmap[key]:
-            refs += item['episodes']
-    assert set(refs) <= set(by_key), f'Unresolved learning-path references: {set(refs) - set(by_key)}'
     payload = {
         'schema_version': 1,
         'collections': collections,
         'summary': {'screened': len(screened), 'reviewed': len(episodes),
                     'decisions': dict(Counter(e['decision'] for e in episodes)),
                     'inventory_range': publication_range(screened), 'reviewed_range': publication_range(episodes)},
-        'episodes': episodes, 'roadmap': roadmap, 'backlog': backlog, 'core': core,
+        'episodes': episodes, 'backlog': backlog, 'core': core,
     }
     template = (root / 'scripts/report-template.html').read_text(encoding='utf-8')
     assert template.count('__PAYLOAD__') == 1
-    # The page shows the Library only; transcript reviews stay in the collection files and report.json.
+    # The page shows the Library only.
     page = {k: payload[k] for k in ['schema_version', 'collections', 'summary', 'backlog', 'core']}
     outputs = {
         root / 'report.json': dump(payload),
         root / 'index.html': template.replace('__PAYLOAD__', json.dumps(page, ensure_ascii=False).replace('</', '<\\/')),
     }
 
-    def episode_link(key):
-        e = by_key[key]
-        title = e['title'].replace('[', '\\[').replace(']', '\\]')
-        path = e['review_link']
-        markdown = str(Path(path).with_suffix('.md'))
-        if (root / markdown).exists():
-            path = markdown
-        return f"[{title}]({path}) — {e['publisher']['name']} · {e['publisher']['format']}"
-
-    content = '# My learning path\n\n' + roadmap['premise'] + '\n\n' + roadmap['how_to_use']
-    content += '\n\n' + roadmap['orientation_note'] + '\n\n## Orientation\n\n'
-    content += '\n'.join(f'{n}. {episode_link(k)}' for n, k in enumerate(roadmap['start'], 1)) + '\n\n'
-    for module in roadmap['modules']:
-        content += f"## {module['title']}\n\n{module['question']}\n\n{module['lesson']}\n\n### Starting episodes\n\n"
-        content += '\n'.join('- ' + episode_link(k) for k in module['anchors']) + '\n\n### Deeper branches\n\n'
-        content += '\n'.join('- ' + episode_link(k) for k in module['deepen'])
-        content += f"\n\n### An experiment I could try\n\n{module['exercise']}\n\n"
-    for title, key in [('Working conclusions', 'reconciled_findings'), ('Overlap between episodes', 'overlap_guidance')]:
-        content += f'## {title}\n\n'
-        for item in roadmap[key]:
-            content += build_mlst.md({k: v for k, v in item.items() if k != 'episodes'}) + '\n\n'
-            content += '\n'.join('- ' + episode_link(k) for k in item['episodes']) + '\n\n'
-    content += '[Report](index.html) · [Methodology](README.md#methodology)\n'
-    outputs[root / 'learning-path.md'] = content
     for filename, text in outputs.items():
         assert not re.search(r'/Users/|/private/(?:tmp|var)/|file://', text), f'Local path in {filename}'
     return outputs, payload
@@ -180,7 +148,7 @@ def main():
     parser.add_argument('--check', action='store_true', help='Validate records and generated files without writing.')
     args = parser.parse_args()
     outputs, payload = build_shared()
-    # Preserve the historical MLST Markdown views; they are not a second HTML report.
+    # MLST also has Markdown views of its first filter.
     if any(c['id'] == 'mlst' and c['path'] == 'collections/mlst' for c in payload['collections']):
         archived, _ = build_mlst.build()
         outputs.update(archived)
@@ -190,7 +158,7 @@ def main():
     if not args.check:
         for p, content in outputs.items():
             p.write_text(content, encoding='utf-8')
-    print(f"{'Checked' if args.check else 'Built'} one report: {len(payload['collections'])} sources, {len(payload['episodes'])} reviews.")
+    print(f"{'Checked' if args.check else 'Built'} one Library: {len(payload['collections'])} sources, {len(payload['backlog'])} items, {len(payload['core'])} core ideas.")
 
 
 if __name__ == '__main__':

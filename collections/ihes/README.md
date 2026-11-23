@@ -6,7 +6,6 @@
 - Inventory date: 2026-11-22
 - Institut des Hautes Études Scientifiques courses and lectures on learning, statistical physics, probability and information.
 - Kept: 9 items that pass the guiding principles (Timelessness, Generative Power, Transfer, Rare Combination, Worldview, Primacy, Density); all others removed.
-- Number reviewed in depth: 0
 
 ## First filter
 
@@ -19,7 +18,3 @@
 - [Lenka Zdeborova - Phase transition in regression and simple neural networks](https://www.youtube.com/watch?v=9GkxEEqEGhg) — Lenka Zdeborova
 - [Andrea Montanari - Algorithms and computational phase transitions in low-rank estimation](https://www.youtube.com/watch?v=Z0tG-8OU4Iw) — Andrea Montanari
 - [Daniel Bennequin - Topos and Information](https://www.youtube.com/watch?v=VgHU00WQWDI) — Daniel Bennequin
-
-## Transcript reviews
-
-None yet.

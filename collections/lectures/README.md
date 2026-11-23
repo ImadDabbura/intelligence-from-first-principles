@@ -11,7 +11,6 @@ Originator-grade expositions of unifying programmes of learning and intelligence
 - Included formats: Lecture
 - Exclusions and known gaps: Selected lectures and seminars by the originators of unifying programmes, across venues. Pilot set; not an inventory of any venue. Items already in the MLST collection, and textbooks, are excluded.
 - Number screened: 7 (high priority only)
-- Number reviewed in depth: 0
 
 ## First filter
 
@@ -19,10 +18,6 @@ Each entry in `screening.json` records the promise, why it matters, its A–F ru
 
 - [Engineering and Reverse-Engineering Intelligence Using Probabilistic Programs, Program Induction, and Deep Learning](https://neurips.cc/virtual/2017/tutorial/8733) — 
 - [Tom Griffiths | CMBC Lecture: The Rational Use of Cognitive Resources](https://www.youtube.com/watch?v=-DSuo7omAf4) — 
-
-## Transcript reviews
-
-None yet.
 
 ## Review process
 

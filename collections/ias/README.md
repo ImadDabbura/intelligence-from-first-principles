@@ -11,11 +11,10 @@ Originator-grade expositions of unifying programmes of learning and intelligence
 - Screened in this pass: 1317 items, 12 high priority before de-duplication against the rest of the collection.
 - Kept: 12 items that pass the guiding principles (Timelessness, Generative Power, Transfer, Rare Combination, Worldview, Primacy, Density); all others removed.
 - Known gaps: Most of the archive is pure mathematics. Screening covered talks downloaded by 21 Nov 2026; the remainder is pending.
-- Number reviewed in depth: 0
 
 ## First filter
 
-Metadata only, screened against the A–F originator rubric by parallel AI screeners using one shared instruction set. `read_transcript` means worth a transcript review, not a watch recommendation. Many talks had no abstract; each caveat says when a judgement rests on title and speaker.
+Metadata only, screened against the A–F originator rubric by parallel AI screeners using one shared instruction set. A place here is a reading decision, not a watch recommendation. Many talks had no abstract; each caveat says when a judgement rests on title and speaker.
 
 - [Omniprediction and Multigroup Fairness - Parikshit Gopalan](https://www.youtube.com/watch?v=DCPRdL03-dk) — Parikshit Gopalan
 - [Learning models: connections between boosting...and regularity I - Russell Impagliazzo](https://www.youtube.com/watch?v=8Bw3n6-P17A) — Russell Impagliazzo
@@ -38,10 +37,6 @@ Metadata only, screened against the A–F originator rubric by parallel AI scree
 
 
 
-
-## Transcript reviews
-
-None yet.
 
 ## Revision record
 

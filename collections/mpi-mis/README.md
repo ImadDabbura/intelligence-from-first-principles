@@ -6,7 +6,6 @@
 - Inventory date: 2026-11-22
 - Max Planck Institute for Mathematics in the Sciences + UCLA seminar, 2020–2026; videos hosted on media.mis.mpg.de.
 - Kept: 8 items that pass the guiding principles (Timelessness, Generative Power, Transfer, Rare Combination, Worldview, Primacy, Density); all others removed.
-- Number reviewed in depth: 0
 
 ## First filter
 
@@ -18,7 +17,3 @@
 - [Hitting the High-D(imensional) Notes: An ODE for SGD learning dynamics in high-dimensions](https://www.mis.mpg.de/events/event/hitting-the-high-dimensional-notes-an-ode-for-sgd-learning-dynamics-in-high-dimensions-1) — Courtney Paquette
 - [Deep Learning Meets Sparse Regularization](https://www.mis.mpg.de/events/event/deep-learning-meets-sparse-regularization) — Rahul Parhi
 - [The geometry of neural networks](https://www.mis.mpg.de/events/event/the-geometry-of-neural-networks-1) — Kathlén Kohn
-
-## Transcript reviews
-
-None yet.

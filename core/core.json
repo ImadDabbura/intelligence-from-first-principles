@@ -1,0 +1,2298 @@
+[
+ {
+  "id": "L1",
+  "kind": "lens",
+  "name": "Information & coding limits",
+  "statement": "Information & coding limits: source, channel, rate–distortion; communicative efficiency as a transfer case",
+  "thread": "inference",
+  "pillars": [
+   "§9"
+  ],
+  "requires": [],
+  "root_short": "Shannon 1948",
+  "root": {
+   "cite": "Shannon, C. E. (1948). A Mathematical Theory of Communication. Bell System Technical Journal 27:379-423, 623-656.",
+   "url": "https://people.math.harvard.edu/~ctm/home/text/others/shannon/entropy/entropy.pdf",
+   "access": "free",
+   "verified": true
+  },
+  "root_teaches": {
+   "yes": true,
+   "why": "Shannon builds the source and channel theorems from worked examples in plain notation, and Part V already sketches the fidelity-criterion (rate-distortion) idea; rate-distortion itself is only fully developed in Shannon 1959."
+  },
+  "teaching": null,
+  "status_source": null,
+  "order": "Root Parts I-II (source and noiseless coding), then Part IV (continuous channels) and Part V (fidelity rate); for full rate-distortion read Shannon 1959 (IRE Nat. Conv. Rec., no free copy verified)."
+ },
+ {
+  "id": "L2",
+  "kind": "lens",
+  "name": "Maximum entropy & variational free energy",
+  "statement": "Maximum entropy & the free-energy variational principle",
+  "thread": "inference",
+  "pillars": [
+   "§9",
+   "§30"
+  ],
+  "requires": [
+   "L1"
+  ],
+  "root_short": "Jaynes 1957",
+  "root": {
+   "cite": "Jaynes, E. T. (1957). Information Theory and Statistical Mechanics. Physical Review 106:620-630. (Gibbs 1902 is the stat-mech precursor; Jaynes founds MaxEnt as an inference principle.)",
+   "url": "https://bayes.wustl.edu/etj/articles/theory.1.pdf",
+   "access": "free",
+   "verified": true
+  },
+  "root_teaches": {
+   "yes": true,
+   "why": "Short, self-contained derivation of the Gibbs distribution from maximum entropy, in modern notation; it does not cover the variational free-energy (Neal & Hinton) side."
+  },
+  "teaching": {
+   "title": "Variational Inference: A Review for Statisticians",
+   "by": "David M. Blei, Alp Kucukelbir, Jon D. McAuliffe",
+   "url": "https://arxiv.org/abs/1601.00670",
+   "length": "~41 pp. paper",
+   "from_backlog": true,
+   "verified": true
+  },
+  "status_source": null,
+  "order": "Root (Jaynes 1957) §§1-4, then Blei et al. §§1-2 (ELBO = negative free energy), then Neal & Hinton 1998 (https://www.cs.toronto.edu/~hinton/absps/emk.pdf, verified)."
+ },
+ {
+  "id": "L3",
+  "kind": "lens",
+  "name": "Bayesian updating & exchangeability",
+  "statement": "Bayesian updating & exchangeability",
+  "thread": "inference",
+  "pillars": [
+   "§4",
+   "§30"
+  ],
+  "requires": [],
+  "root_short": "Bayes 1763",
+  "root": {
+   "cite": "Bayes, T. (1763). An Essay towards Solving a Problem in the Doctrine of Chances. Phil. Trans. R. Soc. 53:370-418. doi:10.1098/rstl.1763.0053",
+   "url": "https://archive.org/details/philtrans09948070",
+   "access": "free",
+   "verified": true
+  },
+  "root_teaches": {
+   "yes": false,
+   "why": "18th-century geometric argument (the billiard table) with Price's long framing; there is no modern notation, and it says nothing about exchangeability, which is de Finetti 1937 (no free copy verified)."
+  },
+  "teaching": {
+   "title": "Development of Intelligence: Bayesian Inference (5/31/14)",
+   "by": "Josh Tenenbaum",
+   "url": "https://www.youtube.com/watch?v=icEdI0AIOlU",
+   "length": "96 min",
+   "from_backlog": true,
+   "verified": true
+  },
+  "status_source": null,
+  "order": "Tenenbaum lecture first, then Bayes's essay (Price's introduction and Proposition 9), then a de Finetti exchangeability exposition (gap: none verified)."
+ },
+ {
+  "id": "L4",
+  "kind": "lens",
+  "name": "Likelihood & Fisher information",
+  "statement": "Likelihood, sufficiency & Fisher information",
+  "thread": "inference",
+  "pillars": [
+   "§4",
+   "§28"
+  ],
+  "requires": [],
+  "root_short": "Fisher 1922",
+  "root": {
+   "cite": "Fisher, R. A. (1922). On the Mathematical Foundations of Theoretical Statistics. Phil. Trans. R. Soc. A 222:309-368. doi:10.1098/rsta.1922.0009 (Univ. of Adelaide Fisher digital archive, part 1 of 2; part 2 at .../bitstreams/39f1e753-5765-49fd-b1e8-3b79453a5809/content)",
+   "url": "https://digital.library.adelaide.edu.au/server/api/core/bitstreams/0eed5b2d-5ac1-4e8e-a847-8de2cd574e65/content",
+   "access": "free",
+   "verified": true
+  },
+  "root_teaches": {
+   "yes": false,
+   "why": "It is long (60 pp.) and uses 1920s notation, and it introduces consistency, efficiency and sufficiency without the geometric view (Rao 1945, Amari) that the item needs."
+  },
+  "teaching": {
+   "title": "An elementary introduction to information geometry",
+   "by": "Frank Nielsen",
+   "url": "https://arxiv.org/abs/1808.08271",
+   "length": "~60 pp. paper",
+   "from_backlog": true,
+   "verified": true
+  },
+  "status_source": null,
+  "order": "Root §§1-6 (definitions and the criteria of estimation), then Nielsen §§1-3 (Fisher metric, dual connections), then the Amari survey talk (https://www.youtube.com/watch?v=2Uy6xCpvnj0, backlog)."
+ },
+ {
+  "id": "L5",
+  "kind": "lens",
+  "name": "Description length & algorithmic information",
+  "statement": "Description length & algorithmic information; efficient coding as its sensory form",
+  "thread": "inference",
+  "pillars": [
+   "§9",
+   "§12"
+  ],
+  "requires": [
+   "L1"
+  ],
+  "root_short": "Solomonoff 1964",
+  "root": {
+   "cite": "Solomonoff, R. J. (1964). A Formal Theory of Inductive Inference, Part I. Information and Control 7(1):1-22. (Author's archive.)",
+   "url": "https://raysolomonoff.com/publications/1964pt1.pdf",
+   "access": "free",
+   "verified": true
+  },
+  "root_teaches": {
+   "yes": false,
+   "why": "The notation and machine models are idiosyncratic, and it predates Kolmogorov complexity, MDL and Barlow's sensory framing, so it cannot carry the whole lens."
+  },
+  "teaching": {
+   "title": "Minimum Description Length Induction, Bayesianism, and Kolmogorov Complexity",
+   "by": "Paul Vitanyi, Ming Li",
+   "url": "https://arxiv.org/abs/cs/9901014",
+   "length": "~35 pp. paper (IEEE Trans. IT 2000)",
+   "from_backlog": true,
+   "verified": true
+  },
+  "status_source": null,
+  "order": "Vitanyi & Li first (it ties Solomonoff, Kolmogorov, MDL and Bayes), then Solomonoff 1964 §§1-3, then Grunwald & Roos 2019 (arXiv 1908.08484) for modern MDL, then Barlow 1961 (cnbc.cmu.edu copy, verified) for the sensory form."
+ },
+ {
+  "id": "L6",
+  "kind": "lens",
+  "name": "Learnability & inductive bias",
+  "statement": "Learnability, inductive bias & capacity",
+  "thread": "generalization",
+  "pillars": [
+   "§12",
+   "§12b"
+  ],
+  "requires": [],
+  "root_short": "Valiant 1984",
+  "root": {
+   "cite": "Valiant, L. G. (1984). A Theory of the Learnable. Communications of the ACM 27(11):1134-1142. (Gold 1967 is earlier, but it is about identification in the limit; Valiant founds the PAC learnability used here.)",
+   "url": "https://homepages.math.uic.edu/~lreyzin/papers/valiant84.pdf",
+   "access": "free",
+   "verified": true
+  },
+  "root_teaches": {
+   "yes": true,
+   "why": "It is short and readable, but it covers only learnability; capacity (VC), bias-variance and No Free Lunch need other sources."
+  },
+  "teaching": {
+   "title": "Generalization I (Simons Institute Foundations of Machine Learning boot camp)",
+   "by": "Peter Bartlett and Sasha Rakhlin",
+   "url": "https://www.youtube.com/watch?v=Ntl_WNW8yGc",
+   "length": "77 min",
+   "from_backlog": true,
+   "verified": true
+  },
+  "status_source": null,
+  "order": "Bartlett & Rakhlin lecture first, then Valiant 1984 §§1-3, then Wolpert's 'What is important about the No Free Lunch theorems?' (arXiv 2007.10928, backlog)."
+ },
+ {
+  "id": "L7",
+  "kind": "lens",
+  "name": "Shrinkage & partial pooling",
+  "statement": "Shrinkage & partial pooling",
+  "thread": "inference",
+  "pillars": [
+   "§4",
+   "§6"
+  ],
+  "requires": [
+   "L3"
+  ],
+  "root_short": "James & Stein 1961",
+  "root": {
+   "cite": "James, W. and Stein, C. (1961). Estimation with Quadratic Loss. Proc. Fourth Berkeley Symp. Math. Stat. Prob. 1:361-379. (Project Euclid.)",
+   "url": "https://projecteuclid.org/euclid.bsmsp/1200512173",
+   "access": "free",
+   "verified": true
+  },
+  "root_teaches": {
+   "yes": false,
+   "why": "Terse decision-theoretic proofs with no empirical-Bayes or partial-pooling intuition."
+  },
+  "teaching": {
+   "title": "Computer Age Statistical Inference, Ch. 7 'James-Stein Estimation and Ridge Regression' (free PDF from the authors' page)",
+   "by": "Bradley Efron and Trevor Hastie",
+   "url": "https://hastie.su.domains/CASI/",
+   "length": "~20 pp. chapter",
+   "from_backlog": false,
+   "verified": true
+  },
+  "status_source": null,
+  "order": "Efron & Hastie Ch. 7 first, then James & Stein 1961 §§1-2, then Baxter 2000, 'A Model of Inductive Bias Learning' (arXiv 1106.0245, verified), for the multi-task transfer."
+ },
+ {
+  "id": "L8",
+  "kind": "lens",
+  "name": "Decisions under uncertainty",
+  "statement": "Decisions under uncertainty: tests, signal detection, sequential evidence, value, exploration",
+  "thread": "mechanisms",
+  "pillars": [
+   "§4",
+   "§18",
+   "§49"
+  ],
+  "requires": [],
+  "root_short": "Neyman & Pearson 1933",
+  "root": {
+   "cite": "Neyman, J. and Pearson, E. S. (1933). On the Problem of the Most Efficient Tests of Statistical Hypotheses. Phil. Trans. R. Soc. A 231:289-337. doi:10.1098/rsta.1933.0009",
+   "url": "https://royalsocietypublishing.org/doi/10.1098/rsta.1933.0009",
+   "access": "free",
+   "verified": false
+  },
+  "root_teaches": {
+   "yes": false,
+   "why": "It is long and covers only the testing corner of a broad lens; signal detection, sequential analysis (Wald), Bellman value and exploration each need their own source."
+  },
+  "teaching": {
+   "title": "Bayesian or Frequentist, Which Are You? (Part 1 of 2)",
+   "by": "Michael I. Jordan",
+   "url": "https://www.youtube.com/watch?v=HUAE26lNDuE",
+   "length": "89 min",
+   "from_backlog": true,
+   "verified": true
+  },
+  "status_source": null,
+  "order": "Jordan lecture first (decision-theoretic frame), then N-P 1933 §§I-III, then Szepesvari & Wang on MDPs (https://www.youtube.com/watch?v=XkfV0wv8GUQ) and Lattimore 'Bandit Algorithms - 1' (https://www.youtube.com/watch?v=xN11-epRuSU, verified) for value and exploration."
+ },
+ {
+  "id": "L9",
+  "kind": "lens",
+  "name": "Search, tractability & bounded rationality",
+  "statement": "Search, tractability & bounded rationality",
+  "thread": "agency",
+  "pillars": [
+   "§2b",
+   "§12b",
+   "§47"
+  ],
+  "requires": [
+   "L10"
+  ],
+  "root_short": "Simon 1955",
+  "root": {
+   "cite": "Simon, H. A. (1955). A Behavioral Model of Rational Choice. Quarterly Journal of Economics 69(1):99-118. doi:10.2307/1884852",
+   "url": "https://doi.org/10.2307/1884852",
+   "access": "paywalled",
+   "verified": true
+  },
+  "root_teaches": {
+   "yes": true,
+   "why": "Clear prose with light formalism; it covers bounded rationality but not complexity or heuristic search."
+  },
+  "teaching": {
+   "title": "The P vs. NP Problem",
+   "by": "Avi Wigderson",
+   "url": "https://www.youtube.com/watch?v=ph_PIF-Ry8A",
+   "length": "74 min",
+   "from_backlog": true,
+   "verified": true
+  },
+  "status_source": null,
+  "order": "Simon 1955 first, then Wigderson lecture, then Newell & Simon 1976 'Computer Science as Empirical Inquiry' (CACM, doi:10.1145/360018.360022) [unverified]."
+ },
+ {
+  "id": "L10",
+  "kind": "lens",
+  "name": "Computation, universality & its limits",
+  "statement": "Computation, universality & its limits",
+  "thread": "compute",
+  "pillars": [
+   "§2b",
+   "§47"
+  ],
+  "requires": [],
+  "root_short": "Turing 1936",
+  "root": {
+   "cite": "Turing, A. M. (1936). On Computable Numbers, with an Application to the Entscheidungsproblem. Proc. London Math. Soc. s2-42:230-265. (Gödel 1931 is first-listed, but it is in German with no verified free translation; Turing founds computation and universality.)",
+   "url": "https://www.cs.virginia.edu/~robins/Turing_Paper_1936.pdf",
+   "access": "free",
+   "verified": true
+  },
+  "root_teaches": {
+   "yes": false,
+   "why": "Fraktur notation, cumbersome machine encodings and known errors make it hard to learn from first."
+  },
+  "teaching": {
+   "title": "How Much Math Is Knowable?",
+   "by": "Scott Aaronson",
+   "url": "https://www.youtube.com/watch?v=dQC7AIT91_g",
+   "length": "66 min",
+   "from_backlog": true,
+   "verified": true
+  },
+  "status_source": null,
+  "order": "Aaronson lecture first, then Turing 1936 §§1-6 and §§8-9 (machines, universal machine, the halting-style argument)."
+ },
+ {
+  "id": "L11",
+  "kind": "lens",
+  "name": "Formal languages & the grammar hierarchy",
+  "statement": "Formal languages & the grammar hierarchy",
+  "thread": "language",
+  "pillars": [
+   "§2b"
+  ],
+  "requires": [
+   "L10"
+  ],
+  "root_short": "Chomsky 1956",
+  "root": {
+   "cite": "Chomsky, N. (1956). Three Models for the Description of Language. IRE Trans. Information Theory 2(3):113-124. doi:10.1109/TIT.1956.1056813 (free copy on chomsky.info; the IEEE version is paywalled)",
+   "url": "https://chomsky.info/wp-content/uploads/195609-.pdf",
+   "access": "free",
+   "verified": true
+  },
+  "root_teaches": {
+   "yes": true,
+   "why": "Short and readable: finite-state, phrase-structure and transformational models argued from examples."
+  },
+  "teaching": {
+   "title": "Formal language theory: refining the Chomsky hierarchy (Phil. Trans. R. Soc. B 367:1956-1970, open access)",
+   "by": "Gerhard Jäger and James Rogers",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3367686/",
+   "length": "15 pp. review",
+   "from_backlog": false,
+   "verified": true
+  },
+  "status_source": null,
+  "order": "Chomsky 1956 first, then Jäger & Rogers (adds the subregular and mildly context-sensitive classes and cognitive tests)."
+ },
+ {
+  "id": "L12",
+  "kind": "lens",
+  "name": "Credit assignment & error-driven learning",
+  "statement": "Credit assignment & error-driven learning",
+  "thread": "mechanisms",
+  "pillars": [
+   "§1b",
+   "§7",
+   "§18"
+  ],
+  "requires": [],
+  "root_short": "Widrow & Hoff 1960",
+  "root": {
+   "cite": "Widrow, B. and Hoff, M. E. (1960). Adaptive Switching Circuits. IRE WESCON Convention Record 4:96-104. (Author's Stanford page.) Rumelhart, Hinton & Williams 1986 is the backlog ROOT for backprop (https://www.cs.toronto.edu/~hinton/absps/naturebp.pdf, verified).",
+   "url": "https://isl.stanford.edu/~widrow/papers/c1960adaptiveswitching.pdf",
+   "access": "free",
+   "verified": true
+  },
+  "root_teaches": {
+   "yes": true,
+   "why": "The LMS/delta rule is derived simply, though in circuit terms; it does not reach multilayer or temporal credit assignment."
+  },
+  "teaching": {
+   "title": "Reinforcement Learning: An Introduction (2nd ed.), Ch. 14 'Psychology' (§14.2 Rescorla-Wagner and the TD model), with Ch. 9 for the delta rule",
+   "by": "Richard S. Sutton and Andrew G. Barto",
+   "url": "http://incompleteideas.net/book/RLbook2020.pdf",
+   "length": "~35 pp. chapter",
+   "from_backlog": false,
+   "verified": true
+  },
+  "status_source": null,
+  "order": "Widrow & Hoff 1960 first, then Sutton & Barto Ch. 14 (links Rescorla-Wagner to TD), then Rumelhart et al. 1986 (4 pp.)."
+ },
+ {
+  "id": "L13",
+  "kind": "lens",
+  "name": "World models & cognitive maps",
+  "statement": "World models & cognitive maps: model-based vs model-free",
+  "thread": "mechanisms",
+  "pillars": [
+   "§18",
+   "§20"
+  ],
+  "requires": [
+   "L8"
+  ],
+  "root_short": "Tolman 1948",
+  "root": {
+   "cite": "Tolman, E. C. (1948). Cognitive maps in rats and men. Psychological Review 55(4):189-208. doi:10.1037/h0061626. [Chosen over first-listed Craik 1943: Craik founds the idea of an internal model but it is a book, available only as a borrow-only Internet Archive copy (archive.org/details/natureofexplanat0000crai, 1952 reprint). Tolman is the first empirical case for a map versus stimulus-response learning, and it is free.]",
+   "url": "http://psychclassics.yorku.ca/Tolman/Maps/maps.htm",
+   "access": "free",
+   "verified": true
+  },
+  "root_teaches": {
+   "yes": true,
+   "why": "Clear, short experimental argument for latent learning and maps, but it has no formal model-based vs model-free account; that comes from Sutton 1990 and Daw, Niv & Dayan 2005 (free course copy: sites.socsci.uci.edu/~lpearl/courses/readings/DawEtAl2005.pdf, verified)."
+  },
+  "teaching": {
+   "title": "Peter Dayan: Interactions Between Model-Free and Model-Based Reinforcement Learning",
+   "by": "Peter Dayan",
+   "url": "https://www.youtube.com/watch?v=01z6agTRvOo",
+   "length": "66 min",
+   "from_backlog": true,
+   "verified": true
+  },
+  "status_source": null,
+  "order": "Tolman 1948 in full, then the Dayan lecture, then Daw, Niv & Dayan 2005 for the arbitration model."
+ },
+ {
+  "id": "L14",
+  "kind": "lens",
+  "name": "Superposition & content-addressable memory",
+  "statement": "Superposition & content-addressable memory",
+  "thread": "memory",
+  "pillars": [
+   "§2",
+   "§33"
+  ],
+  "requires": [],
+  "root_short": "Hopfield 1982",
+  "root": {
+   "cite": "Hopfield, J. J. (1982). Neural networks and physical systems with emergent collective computational abilities. PNAS 79(8):2554-2558. doi:10.1073/pnas.79.8.2554. [Hebb 1949 is a book and a precursor; Hopfield 1982 founds content-addressable memory as energy minima.]",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC346238/",
+   "access": "free",
+   "verified": true
+  },
+  "root_teaches": {
+   "yes": true,
+   "why": "Five readable pages with the energy function, the Hebbian outer-product storage of superposed memories, and a capacity of about 0.15N, but the capacity argument is only heuristic."
+  },
+  "teaching": {
+   "title": "Modern Methods in Associative Memory (tutorial)",
+   "by": "Dmitry Krotov, Benjamin Hoover, Parikshit Ram",
+   "url": "https://slideslive.com/39043831",
+   "length": "47 min",
+   "from_backlog": true,
+   "verified": true
+  },
+  "status_source": null,
+  "order": "Hopfield 1982 in full, then the Krotov et al. tutorial for dense associative memory, capacity and the link to attention."
+ },
+ {
+  "id": "L15",
+  "kind": "lens",
+  "name": "Representational geometry",
+  "statement": "Representational geometry: similarity, dimensionality, manifolds",
+  "thread": "generalization",
+  "pillars": [
+   "§2",
+   "§6"
+  ],
+  "requires": [],
+  "root_short": "Shepard 1987",
+  "root": {
+   "cite": "Shepard, R. N. (1987). Toward a universal law of generalization for psychological science. Science 237(4820):1317-1323. doi:10.1126/science.3629243. [A UCSD course page hosts a JSTOR copy (cseweb.ucsd.edu/~gary/PAPER-SUGGESTIONS/shepard-science-87.pdf), but it is not an author or publisher copy.]",
+   "url": "https://doi.org/10.1126/science.3629243",
+   "access": "paywalled",
+   "verified": true
+  },
+  "root_teaches": {
+   "yes": true,
+   "why": "Short and lucid derivation of exponential generalization in a psychological space, but it covers similarity only; dimensionality, manifolds and RSA come later."
+  },
+  "teaching": {
+   "title": "Representational geometry: integrating cognition, computation, and the brain (Trends Cogn Sci 2013)",
+   "by": "Nikolaus Kriegeskorte & Rogier A. Kievit",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3730178/",
+   "length": "review article, about 15 pp",
+   "from_backlog": false,
+   "verified": true
+  },
+  "status_source": null,
+  "order": "Shepard 1987 in full, then the Kriegeskorte & Kievit review, then Tenenbaum et al. 2000 (Isomap) for manifolds."
+ },
+ {
+  "id": "L16",
+  "kind": "lens",
+  "name": "Statistical mechanics & typical-case analysis",
+  "statement": "Statistical mechanics: ensembles & typical-case analysis",
+  "thread": "physics",
+  "pillars": [
+   "§5",
+   "§33"
+  ],
+  "requires": [
+   "L2"
+  ],
+  "root_short": "Boltzmann 1877",
+  "root": {
+   "cite": "Boltzmann, L. (1877). Über die Beziehung zwischen dem zweiten Hauptsatze der mechanischen Wärmetheorie und der Wahrscheinlichkeitsrechnung... Wien. Ber. 76:373-435. English translation: Sharp & Matschinsky, Entropy 17(4):1971-2009 (2015), CC-BY. doi:10.3390/e17041971. [Gibbs 1902 is public domain on archive.org. Typical-case analysis is founded separately by Gardner 1988.]",
+   "url": "https://doi.org/10.3390/e17041971",
+   "access": "free",
+   "verified": true
+  },
+  "root_teaches": {
+   "yes": false,
+   "why": "Long 1877 combinatorial derivation with dated notation; it founds W-counting but says nothing about the ensemble or replica analysis of learning."
+  },
+  "teaching": {
+   "title": "Four lectures on Statistical Physics of Learning (Princeton ML Theory Summer School 2024)",
+   "by": "Bruno Loureiro",
+   "url": "https://brloureiro.github.io/assets/pdf/NotesPrinceton_BL.pdf",
+   "length": "74 pp",
+   "from_backlog": true,
+   "verified": true
+  },
+  "status_source": null,
+  "order": "Loureiro Lecture 1 (stat-phys 101), then Boltzmann 1877 §§I-II in translation, then Loureiro Lectures 2-4 (Gardner, teacher-student, replicas)."
+ },
+ {
+  "id": "L17",
+  "kind": "lens",
+  "name": "Order parameters & phase transitions",
+  "statement": "Order parameters, broken symmetry & phase transitions",
+  "thread": "physics",
+  "pillars": [
+   "§33"
+  ],
+  "requires": [
+   "L16"
+  ],
+  "root_short": "Landau 1937",
+  "root": {
+   "cite": "Landau, L. D. (1937). On the theory of phase transitions. Zh. Eksp. Teor. Fiz. 7:19-32 / Phys. Z. Sowjetunion 11:26, 545. English in Collected Papers of L. D. Landau (ed. ter Haar, 1965), pp. 193-216. [Anderson 1972 'More is different' is the generalising essay.]",
+   "url": "https://archive.org/details/collectedpaperso0000lddt",
+   "access": "free",
+   "verified": true
+  },
+  "root_teaches": {
+   "yes": false,
+   "why": "Terse and group-theoretic, and it assumes 1930s crystallography; the only legitimate free route is a borrow-only Internet Archive lending copy (otherwise paywalled)."
+  },
+  "teaching": {
+   "title": "Statistical Physics lecture notes, Chapter 5: Phase Transitions (Ising, mean field, Landau theory, broken symmetry)",
+   "by": "David Tong (Cambridge DAMTP)",
+   "url": "https://www.damtp.cam.ac.uk/user/tong/statphys/five.pdf",
+   "length": "51 pp",
+   "from_backlog": false,
+   "verified": true
+  },
+  "status_source": null,
+  "order": "Tong Ch. 5 (§§5.2-5.4), then Landau 1937 §§1-3, then Anderson 1972."
+ },
+ {
+  "id": "L18",
+  "kind": "lens",
+  "name": "Scaling & renormalization",
+  "statement": "Scaling, coarse-graining & renormalization",
+  "thread": "physics",
+  "pillars": [
+   "§33",
+   "§26"
+  ],
+  "requires": [
+   "L16",
+   "L17"
+  ],
+  "root_short": "Kadanoff 1966",
+  "root": {
+   "cite": "Kadanoff, L. P. (1966). Scaling laws for Ising models near Tc. Physics Physique Fizika 2:263-272. doi:10.1103/PhysicsPhysiqueFizika.2.263. [Chosen over first-listed Widom 1965 (J. Chem. Phys. 43:3898, paywalled), which founds the scaling hypothesis but not coarse-graining; Kadanoff's block-spin argument founds coarse-graining. Wilson 1971 is paywalled (PRB).]",
+   "url": "https://journals.aps.org/ppf/abstract/10.1103/PhysicsPhysiqueFizika.2.263",
+   "access": "free",
+   "verified": true
+  },
+  "root_teaches": {
+   "yes": true,
+   "why": "Short, physical block-spin argument that derives the scaling laws; readable with basic Ising background."
+  },
+  "teaching": {
+   "title": "Relating Theories via Renormalization (arXiv:1102.3705)",
+   "by": "Leo P. Kadanoff",
+   "url": "https://arxiv.org/abs/1102.3705",
+   "length": "57 pp",
+   "from_backlog": true,
+   "verified": true
+  },
+  "status_source": null,
+  "order": "Kadanoff 1966 in full, then Kadanoff 2011 §§ on scaling, universality and Wilson's RG; optionally Wilson's 1982 Nobel lecture (nobelprize.org/uploads/2018/06/wilson-lecture-2.pdf, verified)."
+ },
+ {
+  "id": "L19",
+  "kind": "lens",
+  "name": "Rugged landscapes",
+  "statement": "Disorder & rugged landscapes: energy, loss, fitness",
+  "thread": "physics",
+  "pillars": [
+   "§33",
+   "§7"
+  ],
+  "requires": [
+   "L16"
+  ],
+  "root_short": "Wright 1932",
+  "root": {
+   "cite": "Wright, S. (1932). The roles of mutation, inbreeding, crossbreeding and selection in evolution. Proc. Sixth Int. Congress of Genetics 1:356-366 (ESP facsimile).",
+   "url": "http://www.esp.org/books/6th-congress/facsimile/contents/6th-cong-p356-wright.pdf",
+   "access": "free",
+   "verified": true
+  },
+  "root_teaches": {
+   "yes": true,
+   "why": "Eleven non-mathematical pages that introduce the rugged fitness landscape cleanly, but they contain none of the disorder physics (SK, Parisi) the item also covers."
+  },
+  "teaching": {
+   "title": "The many facets of the rough high-dimensional landscape problem (KITP Blackboard Talk)",
+   "by": "Giulio Biroli",
+   "url": "https://www.youtube.com/watch?v=vYwC1UNuRgU",
+   "length": "65 min",
+   "from_backlog": true,
+   "verified": true
+  },
+  "status_source": null,
+  "order": "Wright 1932 in full, then the Biroli blackboard talk, then the Parisi lecture (backlog) for replica symmetry breaking."
+ },
+ {
+  "id": "L20",
+  "kind": "lens",
+  "name": "Noise-driven dynamics",
+  "statement": "Noise-driven dynamics: diffusion, barrier escape, fluctuation–dissipation",
+  "thread": "physics",
+  "pillars": [
+   "§27",
+   "§32"
+  ],
+  "requires": [
+   "L16"
+  ],
+  "root_short": "Langevin 1908",
+  "root": {
+   "cite": "Langevin, P. (1908). Sur la théorie du mouvement brownien. C. R. Acad. Sci. Paris 146:530-533 (Gallica ark:/12148/bpt6k3100t). English translation: Lemons & Gythiel, Am. J. Phys. 65:1079 (1997), doi:10.1119/1.18725, paywalled.",
+   "url": "https://gallica.bnf.fr/ark:/12148/bpt6k3100t",
+   "access": "free",
+   "verified": false
+  },
+  "root_teaches": {
+   "yes": true,
+   "why": "Three pages in French; the translation is very readable and derives diffusion from a stochastic force. It does not cover barrier escape or fluctuation-dissipation. [Gallica blocks automated fetches (403), so the ark ID comes from a BnF guide.]"
+  },
+  "teaching": {
+   "title": "Equalities and Inequalities: Irreversibility and the Second Law of Thermodynamics at the Nanoscale (Annu. Rev. Condens. Matter Phys. 2:329, 2011)",
+   "by": "Christopher Jarzynski",
+   "url": "https://terpconnect.umd.edu/~cjarzyns/CHEM-CHPH-PHYS_703_Spr_20/resources/Jarzynski_AnnuRevCondMattPhys_2_329_2011.pdf",
+   "length": "23 pp",
+   "from_backlog": true,
+   "verified": true
+  },
+  "status_source": null,
+  "order": "Langevin 1908 (translation), then the Jarzynski 2011 review. Kramers barrier escape needs Hänggi, Talkner & Borkovec 1990 (RMP, paywalled)."
+ },
+ {
+  "id": "L21",
+  "kind": "lens",
+  "name": "Dynamical systems & self-organization",
+  "statement": "Dynamical systems, chaos & self-organization",
+  "thread": "physics",
+  "pillars": [
+   "§1c"
+  ],
+  "requires": [],
+  "root_short": "Poincaré 1890",
+  "root": {
+   "cite": "Poincaré, H. (1890). Sur le problème des trois corps et les équations de la dynamique. Acta Mathematica 13:1-270. [Hosted in parts on the Tsinghua YMSC Acta archive; this link is Part I, Ch. I (§1). Turing 1952 and Lorenz 1963 are separate roots.]",
+   "url": "https://archive.ymsc.tsinghua.edu.cn/pacm_download/117/4918-11511_2006_Article_BF02392507.pdf",
+   "access": "free",
+   "verified": true
+  },
+  "root_teaches": {
+   "yes": false,
+   "why": "A 270-page French memoir in 19th-century notation; it founds Poincaré sections and homoclinic chaos, but only experts can study it."
+  },
+  "teaching": {
+   "title": "MAE5790-17 Chaos in the Lorenz equations",
+   "by": "Steven Strogatz (Cornell)",
+   "url": "https://www.youtube.com/watch?v=gscKcPAm-H0",
+   "length": "77 min",
+   "from_backlog": false,
+   "verified": true
+  },
+  "status_source": null,
+  "order": "Strogatz lecture first, then Lorenz 1963, then Poincaré 1890 only as a reference for sections and recurrence. Self-organization (Turing 1952) still needs its own teaching source."
+ },
+ {
+  "id": "L22",
+  "kind": "lens",
+  "name": "Concentration of measure",
+  "statement": "Concentration of measure & high-dimensional geometry",
+  "thread": "generalization",
+  "pillars": [
+   "§6",
+   "§5"
+  ],
+  "requires": [],
+  "root_short": "Lévy 1922",
+  "root": {
+   "cite": "Lévy, P. (1922). Leçons d'analyse fonctionnelle. Paris: Gauthier-Villars (archive.org, U. Toronto scan). [Concentration on the sphere is in Part III. Cover 1965, 'Geometrical and statistical properties of systems of linear inequalities', is free on the author's Stanford page: isl.stanford.edu/~cover/papers/paper2.pdf, verified.]",
+   "url": "https://archive.org/details/leonsdanalysef00lvuoft",
+   "access": "free",
+   "verified": true
+  },
+  "root_teaches": {
+   "yes": false,
+   "why": "A long French monograph in 1920s notation; the concentration result is a small part, and the modern framing comes from Milman."
+  },
+  "teaching": {
+   "title": "High-Dimensional Probability: An Introduction with Applications in Data Science, 2nd ed. (free pre-publication PDF)",
+   "by": "Roman Vershynin",
+   "url": "https://www.math.uci.edu/~rvershyn/papers/HDP-book/HDP-2.pdf",
+   "length": "341 pp (study Chs. 2-3 and 5)",
+   "from_backlog": false,
+   "verified": true
+  },
+  "status_source": null,
+  "order": "Vershynin Chs. 2-3 and 5, then Cover 1965 §§1-3, then Lévy Part III as history. The backlog Mallat lecture (90 min) is in French and is a good optional companion."
+ },
+ {
+  "id": "L23",
+  "kind": "lens",
+  "name": "Variation, selection & drift",
+  "statement": "Variation, selection & drift",
+  "thread": "evolution",
+  "pillars": [
+   "§4"
+  ],
+  "requires": [],
+  "root_short": "Darwin 1859",
+  "root": {
+   "cite": "Darwin, C. (1859). On the Origin of Species. London: John Murray (Darwin Online, F373).",
+   "url": "https://darwin-online.org.uk/converted/pdf/1859_Origin_F373.pdf",
+   "access": "free",
+   "verified": true
+  },
+  "root_teaches": {
+   "yes": true,
+   "why": "Clear prose on variation and selection, but it is book-length and has no math; drift, the Price equation and replicator dynamics come from the later roots."
+  },
+  "teaching": {
+   "title": "Statistical Physics Views of Evolution I",
+   "by": "Boris Shraiman (Simons Institute)",
+   "url": "https://www.youtube.com/watch?v=9Th6qMLtJsU",
+   "length": "47 min",
+   "from_backlog": true,
+   "verified": true
+  },
+  "status_source": null,
+  "order": "Origin Chs. 4-5, then the Shraiman lecture, then Price 1970 and Kimura 1968."
+ },
+ {
+  "id": "L24",
+  "kind": "lens",
+  "name": "Strategic interaction & signalling",
+  "statement": "Strategic interaction & signalling",
+  "thread": "agency",
+  "pillars": [
+   "§19"
+  ],
+  "requires": [],
+  "root_short": "von Neumann 1928",
+  "root": {
+   "cite": "von Neumann, J. (1928). Zur Theorie der Gesellschaftsspiele. Mathematische Annalen 100:295-320. doi:10.1007/BF01448847 (GDZ digitization; EuDML 159291). [Nash 1950 is free at PMC1063129, verified.]",
+   "url": "http://gdz.sub.uni-goettingen.de/dms/resolveppn/?PPN=GDZPPN002272717",
+   "access": "free",
+   "verified": true
+  },
+  "root_teaches": {
+   "yes": false,
+   "why": "A German minimax proof with 1920s topology; no English translation is freely available."
+  },
+  "teaching": {
+   "title": "Nash Equilibrium and the History of Economic Theory (J. Econ. Lit. 1999)",
+   "by": "Roger B. Myerson",
+   "url": "https://home.uchicago.edu/~rmyerson/research/jelnash.pdf",
+   "length": "32 pp",
+   "from_backlog": false,
+   "verified": true
+  },
+  "status_source": null,
+  "order": "Myerson 1999, then Nash 1950 (one page), then von Neumann 1928 §1 for minimax. Signalling (Lewis 1969, Maynard Smith & Price 1973) still needs its own teaching source."
+ },
+ {
+  "id": "L25",
+  "kind": "lens",
+  "name": "Causality",
+  "statement": "Causality: conditional independence → intervention",
+  "thread": "inference",
+  "pillars": [
+   "§22",
+   "§20"
+  ],
+  "requires": [
+   "L3"
+  ],
+  "root_short": "Wright 1921",
+  "root": {
+   "cite": "Wright, S. (1921). Correlation and causation. J. Agricultural Research 20(7):557-585 (USDA, public domain). Note: Wright founds path diagrams, not intervention; the CI-to-intervention step is founded by Pearl 1995, 'Causal diagrams for empirical research', Biometrika 82:669-710, free at https://ftp.cs.ucla.edu/pub/stat_ser/R218-B.pdf (verified).",
+   "url": "https://archive.org/details/sim_journal-of-agricultural-research_1921-01-03_20_7",
+   "access": "free",
+   "verified": true
+  },
+  "root_teaches": {
+   "yes": false,
+   "why": "Wright gives path coefficients in 1921 notation with no do-operator or identification theory, so it shows the origin but not the method."
+  },
+  "teaching": {
+   "title": "Causal inference in statistics: An overview (Statistics Surveys 3, 2009)",
+   "by": "Judea Pearl",
+   "url": "https://ftp.cs.ucla.edu/pub/stat_ser/r350.pdf",
+   "length": "51 pp.",
+   "from_backlog": true,
+   "verified": true
+  },
+  "status_source": null,
+  "order": "Pearl 2009 overview §§1-3 first, then Pearl 1995 Biometrika (the real founding text), then Wright 1921 for the path-diagram origin."
+ },
+ {
+  "id": "L26",
+  "kind": "lens",
+  "name": "Levels of analysis",
+  "statement": "Levels of analysis & implementation independence",
+  "thread": "compute",
+  "pillars": [],
+  "requires": [],
+  "root_short": "Marr & Poggio 1976",
+  "root": {
+   "cite": "Marr, D. & Poggio, T. (1976). From understanding computation to understanding neural circuitry. MIT AI Memo 357. Note: Mayr 1961 (first listed; Science 134:1501, doi:10.1126/science.134.3489.1501, paywalled) is about proximate vs ultimate causes, not implementation independence; Marr & Poggio found the computation/algorithm/implementation split.",
+   "url": "https://dspace.mit.edu/handle/1721.1/5782",
+   "access": "free",
+   "verified": true
+  },
+  "root_teaches": {
+   "yes": true,
+   "why": "It is a short, plain memo that states the levels and why they are independent, though its neuroscience is dated."
+  },
+  "teaching": {
+   "title": "The Levels of Understanding framework, revised (Perception 41:1017-23, 2012; MIT-CSAIL-TR-2012-014)",
+   "by": "Tomaso Poggio",
+   "url": "http://hdl.handle.net/1721.1/70970",
+   "length": "~7 pp.",
+   "from_backlog": false,
+   "verified": true
+  },
+  "status_source": null,
+  "order": "Marr & Poggio 1976 memo first, then Poggio 2012 revision (adds learning and the link between levels)."
+ },
+ {
+  "id": "L27",
+  "kind": "lens",
+  "name": "Hierarchy & near-decomposability",
+  "statement": "Hierarchy & near-decomposability, incl. temporal abstraction",
+  "thread": "compute",
+  "pillars": [],
+  "requires": [],
+  "root_short": "Simon 1962",
+  "root": {
+   "cite": "Simon, H. A. (1962). The architecture of complexity. Proc. American Philosophical Society 106(6):467-482.",
+   "url": "https://faculty.sites.iastate.edu/tesfatsi/archive/tesfatsi/ArchitectureOfComplexity.HSimon1962.pdf",
+   "access": "free",
+   "verified": true
+  },
+  "root_teaches": {
+   "yes": true,
+   "why": "Simon derives near-decomposability with clear examples and little formalism; temporal abstraction is only implicit, in the fast/slow dynamics section."
+  },
+  "teaching": null,
+  "status_source": null,
+  "order": "Simon 1962 in full, with close attention to the near-decomposable systems section (fast within-subsystem vs slow between-subsystem dynamics)."
+ },
+ {
+  "id": "L28",
+  "kind": "lens",
+  "name": "Compositionality",
+  "statement": "Compositionality",
+  "thread": "language",
+  "pillars": [],
+  "requires": [],
+  "root_short": "Montague 1970",
+  "root": {
+   "cite": "Montague, R. (1970). Universal grammar. Theoria 36(3):373-398. doi:10.1111/j.1755-2567.1970.tb00434.x. Fodor & Pylyshyn 1988 (Cognition 28:3-71) is free at https://ruccs.rutgers.edu/images/personal-zenon-pylyshyn/proseminars/Proseminar13/ConnectionistArchitecture.pdf (verified).",
+   "url": "https://doi.org/10.1111/j.1755-2567.1970.tb00434.x",
+   "access": "paywalled",
+   "verified": true
+  },
+  "root_teaches": {
+   "yes": false,
+   "why": "It is terse intensional logic and model theory with no motivating exposition, and it assumes logic background."
+  },
+  "teaching": {
+   "title": "Compositionality (Stanford Encyclopedia of Philosophy)",
+   "by": "Zoltán Gendler Szabó",
+   "url": "https://plato.stanford.edu/entries/compositionality/",
+   "length": "long entry (~1.5 h)",
+   "from_backlog": false,
+   "verified": true
+  },
+  "status_source": null,
+  "order": "SEP Compositionality first, then Fodor & Pylyshyn 1988 §§1-3 (systematicity argument); Montague 1970 only for the homomorphism definition."
+ },
+ {
+  "id": "L29",
+  "kind": "lens",
+  "name": "Distributional meaning",
+  "statement": "Distributional meaning",
+  "thread": "language",
+  "pillars": [
+   "§2"
+  ],
+  "requires": [],
+  "root_short": "Harris 1954",
+  "root": {
+   "cite": "Harris, Z. S. (1954). Distributional structure. Word 10(2-3):146-162. doi:10.1080/00437956.1954.11659520 (publisher copy paywalled; an unofficial scan exists at gwern.net, not used).",
+   "url": "https://doi.org/10.1080/00437956.1954.11659520",
+   "access": "paywalled",
+   "verified": true
+  },
+  "root_teaches": {
+   "yes": true,
+   "why": "It is a short, readable argument, but it is structuralist linguistics with no vectors or computation."
+  },
+  "teaching": {
+   "title": "Speech and Language Processing (3rd ed. draft), Ch. 5 'Embeddings'",
+   "by": "Dan Jurafsky & James H. Martin",
+   "url": "https://web.stanford.edu/~jurafsky/slp3/5.pdf",
+   "length": "27 pp.",
+   "from_backlog": false,
+   "verified": true
+  },
+  "status_source": null,
+  "order": "Harris 1954 first (the hypothesis), then J&M Ch. 5 (from co-occurrence to PPMI to word2vec)."
+ },
+ {
+  "id": "L30",
+  "kind": "lens",
+  "name": "Thermodynamics of computation",
+  "statement": "Thermodynamics of computation",
+  "thread": "physics",
+  "pillars": [
+   "§9"
+  ],
+  "requires": [
+   "L1",
+   "L16"
+  ],
+  "root_short": "Landauer 1961",
+  "root": {
+   "cite": "Landauer, R. (1961). Irreversibility and heat generation in the computing process. IBM J. Res. Dev. 5(3):183-191. doi:10.1147/rd.53.0183. Szilard 1929 is listed first but is a precursor about measurement and entropy; Landauer founds the erasure bound.",
+   "url": "https://sites.pitt.edu/~jdnorton/lectures/Rotman_Summer_School_2013/thermo_computing_docs/Landauer_1961.pdf",
+   "access": "free",
+   "verified": true
+  },
+  "root_teaches": {
+   "yes": false,
+   "why": "It is readable, but the argument is heuristic and comes before the Bennett resolution of Maxwell's demon and modern stochastic thermodynamics, so it can mislead without them."
+  },
+  "teaching": {
+   "title": "[ICTP KIAS School] Sagawa 2 - Thermodynamics of information I",
+   "by": "Takahiro Sagawa",
+   "url": "https://www.youtube.com/watch?v=YkkbIt8s1no",
+   "length": "64 min",
+   "from_backlog": true,
+   "verified": true
+  },
+  "status_source": null,
+  "order": "Sagawa lecture first, then Landauer 1961, then Bennett 2003 'Notes on Landauer's principle' (arXiv physics/0210005, verified) as Bennett's own summary of his 1982 review."
+ },
+ {
+  "id": "L31",
+  "kind": "lens",
+  "name": "Symmetry & invariance",
+  "statement": "Symmetry & invariance",
+  "thread": "generalization",
+  "pillars": [
+   "§14b",
+   "§46"
+  ],
+  "requires": [],
+  "root_short": "Klein 1872",
+  "root": {
+   "cite": "Klein, F. (1872). Vergleichende Betrachtungen über neuere geometrische Forschungen (Erlangen Program); English translation by M. W. Haskell (1893), 'A comparative review of recent researches in geometry', arXiv:0807.3161. Noether 1918 (English translation by Tavel: arXiv physics/0503066, verified) is the other founding text.",
+   "url": "https://arxiv.org/abs/0807.3161",
+   "access": "free",
+   "verified": true
+  },
+  "root_teaches": {
+   "yes": false,
+   "why": "It is a dense 19th-century programme statement that assumes projective geometry and never works an example in modern group language."
+  },
+  "teaching": {
+   "title": "Lecture 1: A Brief History of Geometric Deep Learning",
+   "by": "Michael Bronstein",
+   "url": "https://www.youtube.com/watch?v=yuw_LwqHsgM",
+   "length": "unknown [length not verified]",
+   "from_backlog": true,
+   "verified": true
+  },
+  "status_source": null,
+  "order": "Bronstein Lecture 1 first, then Klein (Haskell translation) §§1-5, then Noether (Tavel translation) §§1-2; Bronstein et al. 2021 arXiv:2104.13478 (verified) for the modern synthesis."
+ },
+ {
+  "id": "L32",
+  "kind": "lens",
+  "name": "Feedback & regulation",
+  "statement": "Feedback & regulation",
+  "thread": "agency",
+  "pillars": [
+   "§49",
+   "§1c"
+  ],
+  "requires": [],
+  "root_short": "Rosenblueth, Wiener & Bigelow 1943",
+  "root": {
+   "cite": "Rosenblueth, A., Wiener, N. & Bigelow, J. (1943). Behavior, purpose and teleology. Philosophy of Science 10(1):18-24. doi:10.1086/286788 (course-hosted copy).",
+   "url": "https://home.csulb.edu/~cwallis/382/readings/482/wiener.behavior.purpose.teleology.1943.pdf",
+   "access": "free",
+   "verified": true
+  },
+  "root_teaches": {
+   "yes": false,
+   "why": "It is a 7-page conceptual taxonomy of behavior with no mathematics of feedback, stability or regulation."
+  },
+  "teaching": {
+   "title": "An Introduction to Cybernetics (1956), Parts I-III",
+   "by": "W. Ross Ashby",
+   "url": "http://pespmc1.vub.ac.be/books/IntroCyb.pdf",
+   "length": "156 pp. (exercises included)",
+   "from_backlog": false,
+   "verified": true
+  },
+  "status_source": null,
+  "order": "Rosenblueth/Wiener/Bigelow 1943 first (the frame), then Ashby 1956 Ch. 1-4 and 10-11 (requisite variety, regulation), then Conant & Ashby 1970 (free: http://pespmc1.vub.ac.be/books/Conant_Ashby.pdf, verified)."
+ },
+ {
+  "id": "P1",
+  "kind": "phenomenon",
+  "name": "Interpolating networks still generalize",
+  "statement": "Interpolating networks still generalize; double descent is setup-dependent",
+  "thread": "generalization",
+  "pillars": [],
+  "requires": [
+   "L6"
+  ],
+  "root_short": "Zhang et al. 2017",
+  "root": {
+   "cite": "Zhang, C., Bengio, S., Hardt, M., Recht, B. & Vinyals, O. (2017). Understanding deep learning requires rethinking generalization. ICLR. arXiv:1611.03530.",
+   "url": "https://arxiv.org/abs/1611.03530",
+   "access": "free",
+   "verified": true
+  },
+  "root_teaches": {
+   "yes": false,
+   "why": "It shows the random-label experiments but gives no theory of why interpolation can generalize (benign overfitting, double descent)."
+  },
+  "teaching": {
+   "title": "Fit without fear: remarkable mathematical phenomena of deep learning through the prism of interpolation (Acta Numerica 2021)",
+   "by": "Mikhail Belkin",
+   "url": "https://arxiv.org/abs/2105.14368",
+   "length": "~80 pp.",
+   "from_backlog": true,
+   "verified": true
+  },
+  "status_source": {
+   "title": "A U-turn on Double Descent: Rethinking Parameter Counting in Statistical Learning (NeurIPS 2023)",
+   "by": "Alicia Curth, Alan Jeffares, Mihaela van der Schaar",
+   "url": "https://arxiv.org/abs/2310.18988",
+   "length": "~30 pp.",
+   "verified": true,
+   "note": "It argues that non-deep double descent comes from switching mechanisms along the x-axis and goes away with effective-parameter counting. Interpolation that still generalizes is robust; double descent is not a universal law. For the theory consensus on benign overfitting, see Bartlett, Montanari & Rakhlin 2021, arXiv:2103.09177 (verified)."
+  },
+  "order": "Zhang et al. 2017 first, then Belkin 2021 §§1-4, then Curth et al. 2023 on what is contested."
+ },
+ {
+  "id": "P2",
+  "kind": "phenomenon",
+  "name": "Smooth power-law learning curves",
+  "statement": "Smooth, roughly power-law learning curves in machines and human practice; form and exponents setup-dependent and beatable",
+  "thread": "generalization",
+  "pillars": [],
+  "requires": [],
+  "root_short": "Kaplan et al. 2020",
+  "root": {
+   "cite": "Kaplan, J. et al. (2020). Scaling laws for neural language models. arXiv:2001.08361.",
+   "url": "https://arxiv.org/abs/2001.08361",
+   "access": "free",
+   "verified": true
+  },
+  "root_teaches": {
+   "yes": true,
+   "why": "Its empirical fits are stated clearly with figures; it needs little background, but its compute-optimal allocation was later revised (Hoffmann 2022)."
+  },
+  "teaching": null,
+  "status_source": {
+   "title": "Chinchilla Scaling: A replication attempt",
+   "by": "Tamay Besiroglu, Ege Erdil, Matthew Barnett, Josh You (Epoch AI), 2024",
+   "url": "https://arxiv.org/abs/2404.10102",
+   "length": "~15 pp.",
+   "verified": true,
+   "note": "It refits Hoffmann et al.'s data and finds their third method's parametric fit inconsistent with the other two: power-law form is robust, exponents and constants are fragile. Heathcote et al. 2000 (Psychonomic Bull. Rev.) covers the human-practice side, where the exponential beats the power law for individuals."
+  },
+  "order": "Kaplan 2020 §§1-3, then Hoffmann 2022, then Besiroglu 2024 replication; then Heathcote 2000 and Sorscher 2022 for the human side and for beating the law."
+ },
+ {
+  "id": "P3",
+  "kind": "phenomenon",
+  "name": "Adversarial and shortcut vulnerability",
+  "statement": "Adversarial and shortcut vulnerability",
+  "thread": "generalization",
+  "pillars": [],
+  "requires": [],
+  "root_short": "Szegedy et al. 2014",
+  "root": {
+   "cite": "Szegedy, C. et al. (2014). Intriguing properties of neural networks. ICLR. arXiv:1312.6199. Geirhos et al. 2020 'Shortcut learning in deep neural networks' (arXiv:2004.07780, verified) founds the shortcut half.",
+   "url": "https://arxiv.org/abs/1312.6199",
+   "access": "free",
+   "verified": true
+  },
+  "root_teaches": {
+   "yes": false,
+   "why": "It is a short discovery paper; the explanation it offers was later superseded and it gives no threat model or robust training."
+  },
+  "teaching": {
+   "title": "Adversarial Robustness - Theory and Practice (NeurIPS 2018 tutorial notes)",
+   "by": "Zico Kolter & Aleksander Madry",
+   "url": "https://adversarial-ml-tutorial.org/",
+   "length": "5 chapters with code",
+   "from_backlog": false,
+   "verified": true
+  },
+  "status_source": {
+   "title": "Adversarial Examples Are Not Bugs, They Are Features (NeurIPS 2019)",
+   "by": "Andrew Ilyas, Shibani Santurkar, Dimitris Tsipras, Logan Engstrom, Brandon Tran, Aleksander Madry",
+   "url": "https://arxiv.org/abs/1905.02175",
+   "length": "~35 pp.",
+   "verified": true,
+   "note": "Vulnerability is robust and persists (RobustBench, arXiv:2010.09670, verified, tracks the best defenses). Contested: whether it comes from non-robust predictive features or from geometry and high dimension; the Distill 2019 responses debate this."
+  },
+  "order": "Szegedy 2014 first, then Kolter-Madry tutorial Ch. 1-4, then Geirhos 2020, then Ilyas 2019."
+ },
+ {
+  "id": "P4",
+  "kind": "phenomenon",
+  "name": "Catastrophic interference",
+  "statement": "Catastrophic interference",
+  "thread": "memory",
+  "pillars": [],
+  "requires": [],
+  "root_short": "McCloskey & Cohen 1989",
+  "root": {
+   "cite": "McCloskey, M. & Cohen, N. J. (1989). Catastrophic interference in connectionist networks: The sequential learning problem. Psychology of Learning and Motivation 24:109-165. doi:10.1016/S0079-7421(08)60536-8. Ratcliff 1990 Psych. Rev. 97:285 (doi:10.1037/0033-295X.97.2.285) is also paywalled.",
+   "url": "https://doi.org/10.1016/S0079-7421(08)60536-8",
+   "access": "paywalled",
+   "verified": true
+  },
+  "root_teaches": {
+   "yes": true,
+   "why": "Its simulations are clear and the networks small, though it is long (57 pp.) and uses 1980s backprop."
+  },
+  "teaching": {
+   "title": "Catastrophic forgetting in connectionist networks (Trends in Cognitive Sciences 3:128-135, 1999)",
+   "by": "Robert M. French",
+   "url": "https://lead.ube.fr/wp-content/uploads/2023/09/000282-catastrophic-forgetting-in-connectionist-networks.pdf",
+   "length": "8 pp.",
+   "from_backlog": false,
+   "verified": true
+  },
+  "status_source": {
+   "title": "Three types of incremental learning (Nature Machine Intelligence 4:1185-1197, 2022, open access)",
+   "by": "Gido M. van de Ven, Tinne Tuytelaars, Andreas S. Tolias",
+   "url": "https://www.nature.com/articles/s42256-022-00568-3",
+   "length": "~13 pp.",
+   "verified": true,
+   "note": "It shows how severe forgetting is depends on the scenario (task-, domain- or class-incremental): regularization fixes like EWC fail in class-incremental settings, while replay helps."
+  },
+  "order": "French 1999 first, then McCloskey & Cohen 1989 §§1-3 (via library), then van de Ven et al. 2022."
+ },
+ {
+  "id": "P5",
+  "kind": "phenomenon",
+  "name": "Sharp thresholds and computational gaps",
+  "statement": "Sharp thresholds and computational gaps in random problems",
+  "thread": "physics",
+  "pillars": [],
+  "requires": [
+   "L17"
+  ],
+  "root_short": "Kirkpatrick & Selman 1994",
+  "root": {
+   "cite": "Kirkpatrick, S. & Selman, B. (1994). Critical behavior in the satisfiability of random Boolean expressions. Science 264:1297-1301. doi:10.1126/science.264.5163.1297. Free copy is the preprint on Selman's Cornell page (10 pp.). For the computational-gap half, see Mezard & Zecchina 2002, arXiv cond-mat/0207194. For the rigorous threshold, see Ding, Sly & Sun, arXiv 1411.0650.",
+   "url": "https://www.cs.cornell.edu/selman/papers/pdf/94.science.crit.pdf",
+   "access": "free",
+   "verified": true
+  },
+  "root_teaches": {
+   "yes": false,
+   "why": "Short empirical paper that reports the threshold and finite-size scaling. It does not explain the clustering or replica-symmetry-breaking picture behind the computational gaps."
+  },
+  "teaching": {
+   "title": "Phase transitions in computational problems, Day 1 (Simons Lectures, MIT, April 2024)",
+   "by": "Lenka Zdeborová",
+   "url": "https://www.youtube.com/watch?v=94XXGGNDeCc",
+   "length": "69 min",
+   "from_backlog": true,
+   "verified": true
+  },
+  "status_source": {
+   "title": "The Overlap Gap Property: a geometric barrier to optimizing over random structures (PNAS 2021)",
+   "by": "David Gamarnik",
+   "url": "https://arxiv.org/abs/2109.14409",
+   "kind": "review",
+   "note": "Sharp thresholds are now theorems (Friedgut; Ding-Sly-Sun for large k). Algorithmic hardness is proved only for restricted algorithm classes (OGP, low-degree, SOS). Gaps for all polynomial algorithms remain conjectural.",
+   "verified": true
+  },
+  "order": "Zdeborová lecture first, then Kirkpatrick & Selman (all), then Mezard-Zecchina 2002 sections 1-3, then Gamarnik for status."
+ },
+ {
+  "id": "P6",
+  "kind": "phenomenon",
+  "name": "Prediction-error signatures",
+  "statement": "Prediction-error signatures: extinction ≠ erasure, RPE-like dopamine, blocking (parameter-sensitive; RPE reading contested by ANCCR)",
+  "thread": "mechanisms",
+  "pillars": [],
+  "requires": [],
+  "root_short": "Kamin 1969",
+  "root": {
+   "cite": "Kamin, L. J. (1969). Predictability, surprise, attention, and conditioning. In B. A. Campbell & R. M. Church (Eds.), Punishment and Aversive Behavior, pp. 279-296. Appleton-Century-Crofts. The volume is on archive.org as a controlled-digital-lending loan, not open access. For the RPE strand, the free root is Schultz, Dayan & Montague 1997, Science 275:1593, on Dayan's Gatsby page: https://www.gatsby.ucl.ac.uk/~dayan/papers/sdm97.pdf (verified).",
+   "url": "https://archive.org/details/punishmentaversi0000unse",
+   "access": "free",
+   "verified": true
+  },
+  "root_teaches": {
+   "yes": false,
+   "why": "Experiment-by-experiment chapter on blocking with no formal model. The unifying error-correction account (Rescorla-Wagner, then TD) and the extinction and dopamine strands come from later work."
+  },
+  "teaching": {
+   "title": "Reinforcement learning in the brain (J. Math. Psych. 53:139-154, 2009)",
+   "by": "Yael Niv",
+   "url": "https://www.princeton.edu/~yael/Publications/Niv2009.pdf",
+   "length": "38 pp. preprint",
+   "from_backlog": false,
+   "verified": true
+  },
+  "status_source": {
+   "title": "Explaining dopamine through prediction errors and beyond (Nature Neuroscience 27:1645-1655, 2024)",
+   "by": "Gershman, Assad, Datta, Linderman, Sabatini, Uchida & Wilbrecht",
+   "url": "https://doi.org/10.1038/s41593-024-01705-4",
+   "access": "paywalled",
+   "kind": "review",
+   "note": "Concludes that a generalized prediction error covers most findings. Ramps, sensory and motor responses, and causal accounts such as ANCCR (Jeong et al. 2022, free at https://pmc.ncbi.nlm.nih.gov/articles/PMC9910357/) remain contested.",
+   "verified": true
+  },
+  "order": "Niv 2009 sections 1-4 first, then Kamin 1969, then Schultz-Dayan-Montague 1997, then Gershman et al. 2024 (with Jeong 2022 as the counter-case)."
+ },
+ {
+  "id": "P7",
+  "kind": "phenomenon",
+  "name": "Learning to learn",
+  "statement": "Learning to learn and the human–machine data-efficiency gap",
+  "thread": "generalization",
+  "pillars": [],
+  "requires": [],
+  "root_short": "Harlow 1949",
+  "root": {
+   "cite": "Harlow, H. F. (1949). The formation of learning sets. Psychological Review 56:51-65. doi:10.1037/h0062474. No legitimate free copy found.",
+   "url": "https://doi.org/10.1037/h0062474",
+   "access": "paywalled",
+   "verified": true
+  },
+  "root_teaches": {
+   "yes": true,
+   "why": "Short, clear presidential-address paper with learning-set curves. It needs no background, but it says nothing about the human-machine gap."
+  },
+  "teaching": {
+   "title": "Building Machines That Learn and Think Like People (BBS 2017)",
+   "by": "Lake, Ullman, Tenenbaum & Gershman",
+   "url": "https://arxiv.org/abs/1604.00289",
+   "length": "~58 pp. (arXiv v3)",
+   "from_backlog": true,
+   "verified": true
+  },
+  "status_source": {
+   "title": "Bridging the data gap between children and large language models (Trends in Cognitive Sciences 27:990-992, 2023)",
+   "by": "Michael C. Frank",
+   "url": "https://osf.io/preprints/psyarxiv/qzbgx",
+   "access": "free (PsyArXiv); journal doi:10.1016/j.tics.2023.08.007",
+   "kind": "review",
+   "note": "Quantifies the 4-5 orders-of-magnitude gap in language input. Which factors close it (innate bias, grounding, interaction, evaluation) is open.",
+   "verified": true
+  },
+  "order": "Harlow 1949 first, then Lake et al. 2017 sections 1-4, then Frank 2023."
+ },
+ {
+  "id": "P8",
+  "kind": "phenomenon",
+  "name": "Innate structure and prepared learning",
+  "statement": "Innate structure and prepared learning",
+  "thread": "mechanisms",
+  "pillars": [],
+  "requires": [],
+  "root_short": "Garcia & Koelling 1966",
+  "root": {
+   "cite": "Garcia, J. & Koelling, R. A. (1966). Relation of cue to consequence in avoidance learning. Psychonomic Science 4:123-124. doi:10.3758/BF03342209. Springer page was bot-blocked, so access was not checked [unverified access]. Tinbergen 1951, The Study of Instinct, is on archive.org as a lending copy: https://archive.org/details/studyofinstinct0000ntin_a1t3 (verified).",
+   "url": "https://doi.org/10.3758/BF03342209",
+   "access": "paywalled",
+   "verified": true
+  },
+  "root_teaches": {
+   "yes": true,
+   "why": "Two-page 2x2 design (taste vs audiovisual cue x illness vs shock). It is fully readable, but it does not supply the 'preparedness' framework."
+  },
+  "teaching": {
+   "title": "On the generality of the laws of learning (Psychological Review 77:406-418, 1970)",
+   "by": "Martin E. P. Seligman",
+   "url": "https://doi.org/10.1037/h0029790",
+   "length": "13 pp. (paywalled)",
+   "from_backlog": false,
+   "verified": true
+  },
+  "status_source": {
+   "title": "Experimental evolution of prepared learning (PNAS 111:11750-11755, 2014)",
+   "by": "Aimee S. Dunlap & David W. Stephens",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4136563/",
+   "kind": "major experiment + review of theory",
+   "note": "Shows that preparedness evolves as a function of environmental reliability, which turns 'innate constraint' into a testable trade-off. Whether these are specialised modules or parameter settings of general learning is still debated.",
+   "verified": true
+  },
+  "order": "Garcia & Koelling 1966 first, then Seligman 1970, then Dunlap & Stephens 2014. Tinbergen 1951 chs. 1-2 is optional background on innate releasing mechanisms."
+ },
+ {
+  "id": "P9",
+  "kind": "phenomenon",
+  "name": "Goal-directed vs habitual control",
+  "statement": "Goal-directed vs habitual control; latent learning",
+  "thread": "mechanisms",
+  "pillars": [],
+  "requires": [],
+  "root_short": "Tolman 1948",
+  "root": {
+   "cite": "Tolman, E. C. (1948). Cognitive maps in rats and men. Psychological Review 55:189-208. Full text at Classics in the History of Psychology (York U.).",
+   "url": "https://psychclassics.yorku.ca/Tolman/Maps/maps.htm",
+   "access": "free",
+   "verified": true
+  },
+  "root_teaches": {
+   "yes": true,
+   "why": "Plain-prose address that walks through latent learning and place learning. Its weakness is that it gives no devaluation test of goal-directedness; that comes from Adams & Dickinson 1981."
+  },
+  "teaching": {
+   "title": "Goals and habits in the brain (Neuron 80:312-325, 2013)",
+   "by": "Ray J. Dolan & Peter Dayan",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3807793/",
+   "length": "14 pp.",
+   "from_backlog": false,
+   "verified": true
+  },
+  "status_source": {
+   "title": "Shifting the balance between goals and habits: five failures in experimental habit induction (JEP: General 147:1043-1065, 2018)",
+   "by": "de Wit, Kindt, Knot, Verhoeven, Robbins, Gasull-Camos, Evans, Mirza & Gillan",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6033090/",
+   "kind": "major replication",
+   "note": "Overtraining-induced habits are robust in rats but did not replicate in humans across five experiments. The model-based/model-free mapping is also contested.",
+   "verified": true
+  },
+  "order": "Tolman 1948 first, then Dolan & Dayan 2013, then de Wit et al. 2018."
+ },
+ {
+  "id": "P10",
+  "kind": "phenomenon",
+  "name": "Universal law of generalization",
+  "statement": "Universal law of generalization",
+  "thread": "inference",
+  "pillars": [],
+  "requires": [],
+  "root_short": "Shepard 1987",
+  "root": {
+   "cite": "Shepard, R. N. (1987). Toward a universal law of generalization for psychological science. Science 237:1317-1323. doi:10.1126/science.3629243. Only course-site copies exist online.",
+   "url": "https://doi.org/10.1126/science.3629243",
+   "access": "paywalled",
+   "verified": true
+  },
+  "root_teaches": {
+   "yes": true,
+   "why": "Self-contained derivation of the exponential gradient from consequential regions. It assumes only basic probability and MDS, though the geometry is terse."
+  },
+  "teaching": {
+   "title": "Generalization, similarity, and Bayesian inference (BBS 24:629-640, 2001)",
+   "by": "Joshua B. Tenenbaum & Thomas L. Griffiths",
+   "url": "https://www.cambridge.org/core/journals/behavioral-and-brain-sciences/article/generalization-similarity-and-bayesian-inference/595CAA321C9C56270C624057021DE77A",
+   "length": "12 pp. + commentaries (paywalled)",
+   "from_backlog": false,
+   "verified": true
+  },
+  "status_source": {
+   "title": "The Universal Law of Generalization Holds for Naturalistic Stimuli (2023)",
+   "by": "Raja Marjieh, Nori Jacoby, Joshua C. Peterson & Thomas L. Griffiths",
+   "url": "https://arxiv.org/abs/2306.08564",
+   "kind": "large-scale test",
+   "note": "Finds the exponential law holds across many naturalistic domains once psychological space is estimated. Its origin (Bayesian vs efficient coding, Sims 2018 doi:10.1126/science.aaq1118) remains debated.",
+   "verified": true
+  },
+  "order": "Shepard 1987 first, then Tenenbaum & Griffiths 2001 sections 1-3, then Marjieh et al. 2023."
+ },
+ {
+  "id": "P11",
+  "kind": "phenomenon",
+  "name": "Weber's law and adaptation",
+  "statement": "Weber's law, adaptation and normalization to input statistics",
+  "thread": "inference",
+  "pillars": [],
+  "requires": [],
+  "root_short": "Laughlin 1981",
+  "root": {
+   "cite": "Laughlin, S. B. (1981). A simple coding procedure enhances a neuron's information capacity. Z. Naturforsch. C 36:910-912. doi:10.1515/znc-1981-9-1040. Listed first-root Weber 1834 (De Pulsu, Latin) states only the constant-fraction law. Laughlin founds the claim of matching to input statistics. Free copy: the Max Planck ZfN open archive (1946-2001; Edmond dataset doi:10.17617/3.GRUJYR). The URL resolves to that archive, but a bot check blocked the PDF [unverified file].",
+   "url": "https://zfn.mpdl.mpg.de/data/Reihe_C/36/ZNC-1981-36c-0910.pdf",
+   "access": "free",
+   "verified": false
+  },
+  "root_teaches": {
+   "yes": true,
+   "why": "Three pages: the fly LMC response curve matches the cumulative contrast distribution (histogram equalization). It is clear with basic information theory."
+  },
+  "teaching": {
+   "title": "Normalization as a canonical neural computation (Nat. Rev. Neurosci. 13:51-62, 2012)",
+   "by": "Matteo Carandini & David J. Heeger",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3273486/",
+   "length": "12 pp.",
+   "from_backlog": false,
+   "verified": true
+  },
+  "status_source": {
+   "title": "Coding principles in adaptation (Annual Review of Vision Science 5:427-449, 2019)",
+   "by": "Alison I. Weber, Kamesh Krishnamurthy & Adrienne L. Fairhall",
+   "url": "https://doi.org/10.1146/annurev-vision-091718-014818",
+   "access": "paywalled",
+   "kind": "review",
+   "note": "Adaptation to mean and variance (Brenner et al. 2000) is robust. Whether it serves efficient coding, inference or prediction, and Weber's law's deviations at extremes, are open.",
+   "verified": true
+  },
+  "order": "Laughlin 1981 first, then Carandini & Heeger 2012, then Weber et al. 2019 (Brenner et al. 2000 as the worked case)."
+ },
+ {
+  "id": "P12",
+  "kind": "phenomenon",
+  "name": "Working-memory limits",
+  "statement": "Working memory holds ~3–5 chunks; slots vs resources disputed",
+  "thread": "memory",
+  "pillars": [],
+  "requires": [],
+  "root_short": "Cowan 2001",
+  "root": {
+   "cite": "Cowan, N. (2001). The magical number 4 in short-term memory: a reconsideration of mental storage capacity. BBS 24:87-185. Free on the author's Missouri lab site. Listed first-root Miller 1956 (free: https://psychclassics.yorku.ca/Miller/, verified) argued 7+/-2 and introduced chunking. The ~3-5 figure comes from Cowan.",
+   "url": "https://memory.psych.missouri.edu/assets/doc/articles/2001/cowan-bbs-2001.pdf",
+   "access": "free",
+   "verified": true
+  },
+  "root_teaches": {
+   "yes": false,
+   "why": "The 99-page target article plus commentaries is an evidence compendium, not a first exposition."
+  },
+  "teaching": {
+   "title": "The magical mystery four: how is working memory capacity limited, and why? (Current Directions in Psych. Sci. 19:51-57, 2010)",
+   "by": "Nelson Cowan",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2864034/",
+   "length": "7 pp.",
+   "from_backlog": false,
+   "verified": true
+  },
+  "status_source": {
+   "title": "Changing concepts of working memory (Nature Neuroscience 17:347-356, 2014)",
+   "by": "Wei Ji Ma, Masud Husain & Paul M. Bays",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4159388/",
+   "kind": "review",
+   "note": "Argues for continuous-resource and variable-precision models over fixed slots (Zhang & Luck 2008). Slots vs resources is still disputed; the ~4 limit itself is robust but measure-dependent.",
+   "verified": true
+  },
+  "order": "Miller 1956 (short) first, then Cowan 2010, then Cowan 2001 sections 1-3 only, then Ma, Husain & Bays 2014."
+ },
+ {
+  "id": "P13",
+  "kind": "phenomenon",
+  "name": "Forgetting, spacing and testing",
+  "statement": "Retention follows environmental recurrence: forgetting, spacing, testing",
+  "thread": "memory",
+  "pillars": [],
+  "requires": [],
+  "root_short": "Ebbinghaus 1885",
+  "root": {
+   "cite": "Ebbinghaus, H. (1885/1913). Memory: A Contribution to Experimental Psychology (trans. Ruger & Bussenius). Full text at Classics in the History of Psychology. Ch. 7 is the forgetting curve: https://psychclassics.yorku.ca/Ebbinghaus/memory7.htm (verified).",
+   "url": "https://psychclassics.yorku.ca/Ebbinghaus/index.htm",
+   "access": "free",
+   "verified": true
+  },
+  "root_teaches": {
+   "yes": true,
+   "why": "Clear, self-experimental prose with tables. It gives the curve and the spacing observation but not the environmental-recurrence explanation (Anderson & Schooler 1991, doi:10.1111/j.1467-9280.1991.tb00174.x, paywalled)."
+  },
+  "teaching": {
+   "title": "Reflections of the environment in memory (Psychological Science 2:396-408, 1991)",
+   "by": "John R. Anderson & Lael J. Schooler",
+   "url": "https://doi.org/10.1111/j.1467-9280.1991.tb00174.x",
+   "length": "13 pp. (paywalled; ACT-R site copy unreachable)",
+   "from_backlog": false,
+   "verified": true
+  },
+  "status_source": {
+   "title": "Improving students' learning with effective learning techniques (Psych. Sci. in the Public Interest 14:4-58, 2013)",
+   "by": "Dunlosky, Rawson, Marsh, Nathan & Willingham",
+   "url": "https://www.psychologicalscience.org/publications/journals/pspi/learning-techniques.html",
+   "kind": "review",
+   "note": "Rates practice testing and distributed practice as high-utility and robust across ages, materials and delays. Optimal lag (Cepeda et al. 2006/2008) and the transfer of benefits are less settled. Murre & Dros 2015 replicated Ebbinghaus's curve: https://pmc.ncbi.nlm.nih.gov/articles/PMC4492928/.",
+   "verified": true
+  },
+  "order": "Ebbinghaus chs. 1 and 7 first, then Anderson & Schooler 1991, then Dunlosky et al. 2013 (testing and spacing sections)."
+ },
+ {
+  "id": "P14",
+  "kind": "phenomenon",
+  "name": "The positive manifold (g)",
+  "statement": "Positive manifold (g); its cause disputed",
+  "thread": "mind",
+  "pillars": [],
+  "requires": [],
+  "root_short": "Spearman 1904",
+  "root": {
+   "cite": "Spearman, C. (1904). 'General intelligence,' objectively determined and measured. American Journal of Psychology 15:201-293. Full text at Classics in the History of Psychology.",
+   "url": "https://psychclassics.yorku.ca/Spearman/",
+   "access": "free",
+   "verified": true
+  },
+  "root_teaches": {
+   "yes": false,
+   "why": "About 90 pages of pre-factor-analysis correlational method (tetrad-style corrections) in dated notation. It is hard to extract the modern model from it."
+  },
+  "teaching": {
+   "title": "A dynamical model of general intelligence: the positive manifold of intelligence by mutualism (Psychological Review 113:842-861, 2006)",
+   "by": "van der Maas, Dolan, Grasman, Wicherts, Huizenga & Raijmakers",
+   "url": "https://doi.org/10.1037/0033-295X.113.4.842",
+   "length": "20 pp. (paywalled)",
+   "from_backlog": false,
+   "verified": true
+  },
+  "status_source": {
+   "title": "Network models for cognitive development and intelligence (Journal of Intelligence 5:16, 2017)",
+   "by": "van der Maas, Kan, Marsman & Stevenson",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6526461/",
+   "kind": "review",
+   "note": "The positive manifold is among psychology's most replicated findings. Its cause (a latent g, sampling/bonds, mutualism, or process overlap) is not settled by the factor-analytic data.",
+   "verified": true
+  },
+  "order": "van der Maas et al. 2006 sections 1-2 first, then Spearman 1904 Part I skim, then van der Maas et al. 2017."
+ },
+ {
+  "id": "P15",
+  "kind": "phenomenon",
+  "name": "Heuristics, biases and their successes",
+  "statement": "Heuristics, biases and their successes",
+  "thread": "inference",
+  "pillars": [],
+  "requires": [],
+  "root_short": "Tversky & Kahneman 1974",
+  "root": {
+   "cite": "Tversky, A. & Kahneman, D. (1974). Judgment under uncertainty: heuristics and biases. Science 185:1124-1131. doi:10.1126/science.185.4157.1124. Cambridge UP's free publisher excerpt of the 1982 book reprints chapter 1 but stops mid-availability section: https://assets.cambridge.org/97805212/84141/excerpt/9780521284141_excerpt.pdf (verified, partial).",
+   "url": "https://doi.org/10.1126/science.185.4157.1124",
+   "access": "paywalled",
+   "verified": true
+  },
+  "root_teaches": {
+   "yes": true,
+   "why": "Eight plain-language pages with the classic demonstrations. No background needed."
+  },
+  "teaching": null,
+  "status_source": {
+   "title": "Heuristic decision making (Annual Review of Psychology 62:451-482, 2011)",
+   "by": "Gerd Gigerenzer & Wolfgang Gaissmaier",
+   "url": "https://doi.org/10.1146/annurev-psych-120709-145346",
+   "access": "paywalled",
+   "kind": "review",
+   "note": "Documents when simple heuristics match or beat complex models (ecological rationality), the 'successes' side. Which biases are robust versus artifacts of framing or format is still contested. Meehl 1954's actuarial-beats-clinical result is robust (Grove et al. 2000 meta-analysis).",
+   "verified": true
+  },
+  "order": "Tversky & Kahneman 1974 first, then Gigerenzer & Gaissmaier 2011."
+ },
+ {
+  "id": "P16",
+  "kind": "phenomenon",
+  "name": "Reliability-weighted cue combination",
+  "statement": "Reliability-weighted cue combination, near but not at optimum",
+  "thread": "inference",
+  "pillars": [],
+  "requires": [],
+  "root_short": "Ernst & Banks 2002",
+  "root": {
+   "cite": "Ernst, M. O. & Banks, M. S. (2002). Humans integrate visual and haptic information in a statistically optimal fashion. Nature 415:429-433. doi:10.1038/415429a. Only course-site copies exist online.",
+   "url": "https://doi.org/10.1038/415429a",
+   "access": "paywalled",
+   "verified": true
+  },
+  "root_teaches": {
+   "yes": true,
+   "why": "Five pages that derive the inverse-variance MLE rule and test it directly. Needs only Gaussian algebra."
+  },
+  "teaching": null,
+  "status_source": {
+   "title": "Suboptimality in perceptual decision making (BBS 41:e223, 2018)",
+   "by": "Dobromir Rahnev & Rachel N. Denison",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6110994/",
+   "kind": "review",
+   "note": "Reliability weighting is qualitatively robust, but cue combination often falls short of the optimal variance reduction. Whether 'optimality' is a useful standard is contested in the commentaries.",
+   "verified": true
+  },
+  "order": "Ernst & Banks 2002 first, then Rahnev & Denison 2018 (cue-combination section, then the commentaries)."
+ },
+ {
+  "id": "P17",
+  "kind": "phenomenon",
+  "name": "Typicality effects",
+  "statement": "Typicality effects, even for well-defined categories",
+  "thread": "generalization",
+  "pillars": [],
+  "requires": [],
+  "root_short": "Rosch 1975",
+  "root": {
+   "cite": "Rosch, E. (1975). Cognitive representations of semantic categories. J Exp Psychol: General 104(3):192-233. doi:10.1037/0096-3445.104.3.192. (Rosch founds typicality. The 'even for well-defined categories' half comes from Armstrong, Gleitman & Gleitman 1983, Cognition 13:263-308, doi:10.1016/0010-0277(83)90012-4, also paywalled)",
+   "url": "https://doi.org/10.1037/0096-3445.104.3.192",
+   "access": "paywalled",
+   "verified": true
+  },
+  "root_teaches": {
+   "yes": true,
+   "why": "A clear empirical paper in plain prose with typicality norms and priming experiments that needs no special background. Armstrong et al. is equally readable and carries the conceptual argument."
+  },
+  "teaching": null,
+  "status_source": {
+   "title": "The difficulties of executing simple algorithms: why brains make mistakes computers don't",
+   "by": "Gary Lupyan",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/24156803/",
+   "cite": "Cognition 129(3):615-636 (2013), doi:10.1016/j.cognition.2013.08.015",
+   "access": "paywalled",
+   "note": "Extends Armstrong et al. and finds typicality effects in parity and triangle judgments even when people can state the rule. What is contested is the interpretation (graded representation vs. identification heuristics over a classical core), not the effect itself.",
+   "verified": true
+  },
+  "order": "Rosch 1975, then Armstrong, Gleitman & Gleitman 1983 (the well-defined-category twist), then Lupyan 2013 for current status"
+ },
+ {
+  "id": "P18",
+  "kind": "phenomenon",
+  "name": "The false-belief transition",
+  "statement": "Explicit false-belief transition around age four",
+  "thread": "mind",
+  "pillars": [],
+  "requires": [],
+  "root_short": "Wimmer & Perner 1983",
+  "root": {
+   "cite": "Wimmer, H. & Perner, J. (1983). Beliefs about beliefs: representation and constraining function of wrong beliefs in young children's understanding of deception. Cognition 13(1):103-128. doi:10.1016/0010-0277(83)90004-5",
+   "url": "https://doi.org/10.1016/0010-0277(83)90004-5",
+   "access": "paywalled",
+   "verified": true
+  },
+  "root_teaches": {
+   "yes": true,
+   "why": "Introduces the Maxi task in plain language. It does not pin the transition at age four; for that you need Wellman, Cross & Watson 2001 (Child Dev 72:655-684, doi:10.1111/1467-8624.00304, paywalled)."
+  },
+  "teaching": null,
+  "status_source": {
+   "title": "Foundations of theory of mind and its development in early childhood",
+   "by": "Hannes Rakoczy",
+   "url": "https://www.psych.uni-goettingen.de/de/development/pdfs/rakoczy_tom_nature_review_psychology_2022.pdf",
+   "cite": "Nature Reviews Psychology 1:223-235 (2022), doi:10.1038/s44159-022-00037-z",
+   "access": "free (author institution)",
+   "note": "The explicit transition at age four is robust. What is contested is the implicit or infant false-belief findings, which have failed to replicate across many labs, and whether the transition reflects a conceptual change or a performance change.",
+   "verified": true
+  },
+  "order": "Wimmer & Perner 1983, then the Wellman et al. 2001 meta-analysis, then Rakoczy 2022"
+ },
+ {
+  "id": "P19",
+  "kind": "phenomenon",
+  "name": "Receptive fields matched to natural statistics",
+  "statement": "Hierarchical receptive fields matched to natural statistics",
+  "thread": "memory",
+  "pillars": [],
+  "requires": [],
+  "root_short": "Hubel & Wiesel 1962",
+  "root": {
+   "cite": "Hubel, D.H. & Wiesel, T.N. (1962). Receptive fields, binocular interaction and functional architecture in the cat's visual cortex. J Physiol 160:106-154",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1359523/",
+   "access": "free",
+   "verified": true
+  },
+  "root_teaches": {
+   "yes": false,
+   "why": "About 50 pages of single-unit physiology that establish the simple/complex hierarchy but say nothing about natural statistics. Olshausen & Field 1996 (Nature 381:607, doi:10.1038/381607a0) is paywalled, and the author-page link is a dead FTP link."
+  },
+  "teaching": {
+   "title": "From Natural Scene Statistics to Models of Neural Coding & Representation, Pt. 1 (IPAM)",
+   "by": "Bruno Olshausen",
+   "url": "https://www.youtube.com/watch?v=6O-EE2JC-yA",
+   "length": "61 min",
+   "from_backlog": true,
+   "verified": true
+  },
+  "status_source": {
+   "title": "How close are we to understanding V1?",
+   "by": "Bruno Olshausen & David Field",
+   "url": "https://redwood.berkeley.edu/wp-content/uploads/2005/08/olshausen2005close.pdf",
+   "cite": "Neural Computation 17(8):1665-1699 (2005)",
+   "access": "free (author institution)",
+   "note": "Estimates how much of V1 response variance standard models explain (well under half) and lists the open problems: biased sampling, nonlinearities, context.",
+   "verified": true
+  },
+  "order": "Olshausen lecture first, then Hubel & Wiesel 1962 (Part I and the hierarchy discussion), then Olshausen & Field 1996, then the 2005 status review"
+ },
+ {
+  "id": "P20",
+  "kind": "phenomenon",
+  "name": "Synaptic plasticity",
+  "statement": "Synaptic plasticity, Hebbian and homeostatic (STDP's in-vivo role open)",
+  "thread": "mechanisms",
+  "pillars": [],
+  "requires": [],
+  "root_short": "Bliss & Lømo 1973",
+  "root": {
+   "cite": "Bliss, T.V.P. & Lømo, T. (1973). Long-lasting potentiation of synaptic transmission in the dentate area of the anaesthetized rabbit following stimulation of the perforant path. J Physiol 232:331-356",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1350458/",
+   "access": "free",
+   "verified": true
+  },
+  "root_teaches": {
+   "yes": false,
+   "why": "Dense electrophysiology methods that show LTP exists but cover neither spike timing nor homeostatic plasticity. Bi & Poo 1998 is free at https://pmc.ncbi.nlm.nih.gov/articles/PMC6793365/ (verified)."
+  },
+  "teaching": {
+   "title": "Synaptic plasticity: taming the beast",
+   "by": "L.F. Abbott & S.B. Nelson",
+   "url": "https://doi.org/10.1038/81453",
+   "length": "6 pp review (Nat Neurosci 3 Suppl:1178-1183, 2000)",
+   "access": "paywalled (only unofficial course copies online)",
+   "from_backlog": false,
+   "verified": true
+  },
+  "status_source": {
+   "title": "The spike-timing dependence of plasticity",
+   "by": "Daniel E. Feldman",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3431193/",
+   "cite": "Neuron 75(4):556-571 (2012)",
+   "access": "free",
+   "note": "Shows that STDP depends strongly on firing rate, dendritic location and neuromodulation, and that in-vivo evidence for STDP as the operative learning rule is limited.",
+   "verified": true
+  },
+  "order": "Abbott & Nelson 2000, then Bliss & Lømo 1973 (results and discussion), then Bi & Poo 1998, then Feldman 2012"
+ },
+ {
+  "id": "P21",
+  "kind": "phenomenon",
+  "name": "Place, grid and attractor codes",
+  "statement": "Place, grid and attractor codes",
+  "thread": "memory",
+  "pillars": [],
+  "requires": [],
+  "root_short": "O'Keefe & Dostrovsky 1971",
+  "root": {
+   "cite": "O'Keefe, J. & Dostrovsky, J. (1971). The hippocampus as a spatial map. Preliminary evidence from unit activity in the freely-moving rat. Brain Res 34:171-175. doi:10.1016/0006-8993(71)90358-1",
+   "url": "https://doi.org/10.1016/0006-8993(71)90358-1",
+   "access": "paywalled",
+   "verified": true
+  },
+  "root_teaches": {
+   "yes": false,
+   "why": "A 5-page preliminary report on place units only. It covers neither grid cells (Hafting 2005, doi:10.1038/nature03721, paywalled) nor attractor theory (Kim et al. 2017, doi:10.1126/science.aal4835, paywalled)."
+  },
+  "teaching": {
+   "title": "Attractor and integrator networks in the brain",
+   "by": "Mikail Khona & Ila Fiete",
+   "url": "https://arxiv.org/abs/2112.03978",
+   "length": "long review (~40 pp)",
+   "from_backlog": true,
+   "verified": true
+  },
+  "status_source": {
+   "title": "Toroidal topology of population activity in grid cells",
+   "by": "Gardner, Hermansen, Pachitariu, Burak, Baas, Dunn, Moser & Moser",
+   "url": "https://www.nature.com/articles/s41586-021-04268-7",
+   "cite": "Nature 602:123-128 (2022); also PMC8810387",
+   "access": "free (OA)",
+   "note": "The strongest test so far of the continuous-attractor prediction (a torus that persists in sleep). What remains contested is how the attractor is wired, how it is learned, and whether place-cell maps are attractors.",
+   "verified": true
+  },
+  "order": "Khona & Fiete review (place, grid and ring-attractor sections), then O'Keefe & Dostrovsky 1971, Hafting 2005, Kim 2017, then Gardner 2022"
+ },
+ {
+  "id": "P22",
+  "kind": "phenomenon",
+  "name": "Consolidation and replay",
+  "statement": "Consolidation and replay",
+  "thread": "memory",
+  "pillars": [],
+  "requires": [],
+  "root_short": "Wilson & McNaughton 1994",
+  "root": {
+   "cite": "Wilson, M.A. & McNaughton, B.L. (1994). Reactivation of hippocampal ensemble memories during sleep. Science 265:676-679. doi:10.1126/science.8036517",
+   "url": "https://doi.org/10.1126/science.8036517",
+   "access": "paywalled",
+   "verified": true
+  },
+  "root_teaches": {
+   "yes": false,
+   "why": "A 4-page report of replay. It contains no consolidation theory. Squire & Alvarez 1995 (Curr Opin Neurobiol) is also paywalled."
+  },
+  "teaching": {
+   "title": "Why there are complementary learning systems in the hippocampus and neocortex",
+   "by": "James McClelland, Bruce McNaughton & Randall O'Reilly",
+   "url": "https://stanford.edu/~jlmcc/papers/McCMcNaughtonOReilly95.pdf",
+   "length": "~40 pp (Psychol Rev 102:419-457, 1995)",
+   "from_backlog": false,
+   "verified": true
+  },
+  "status_source": {
+   "title": "The hippocampal sharp wave-ripple in memory retrieval for immediate use and consolidation",
+   "by": "Hannah Joo & Loren Frank",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6794196/",
+   "cite": "Nat Rev Neurosci 19:744-757 (2018)",
+   "access": "free",
+   "note": "Causal disruption studies support a role for ripple replay. Still contested: replay for consolidation vs. planning, and standard systems consolidation vs. multiple-trace and transformation accounts.",
+   "verified": true
+  },
+  "order": "McClelland et al. 1995 (§§1-3), then Wilson & McNaughton 1994, then Squire & Alvarez 1995, then Joo & Frank 2018"
+ },
+ {
+  "id": "P23",
+  "kind": "phenomenon",
+  "name": "Neuropsychological dissociations",
+  "statement": "Neuropsychological dissociations: memory systems, blindsight, perception vs action, language vs thought, confabulation",
+  "thread": "memory",
+  "pillars": [],
+  "requires": [],
+  "root_short": "Scoville & Milner 1957",
+  "root": {
+   "cite": "Scoville, W.B. & Milner, B. (1957). Loss of recent memory after bilateral hippocampal lesions. J Neurol Neurosurg Psychiatry 20:11-21",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC497229/",
+   "access": "free",
+   "verified": true
+  },
+  "root_teaches": {
+   "yes": true,
+   "why": "Readable clinical case series for the memory strand. The other strands (blindsight, DF, aphasia, confabulation) each need their own root."
+  },
+  "teaching": {
+   "title": "The cognitive neuroscience of human memory since H.M.",
+   "by": "Larry Squire & John Wixted",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3192650/",
+   "length": "~25 pp (Annu Rev Neurosci 34:259-288, 2011)",
+   "from_backlog": false,
+   "verified": true
+  },
+  "status_source": {
+   "title": "Language and thought are not the same thing: evidence from neuroimaging and neurological patients",
+   "by": "Evelina Fedorenko & Rosemary Varley",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4874898/",
+   "cite": "Ann NY Acad Sci 1369:132-153 (2016)",
+   "access": "free",
+   "note": "Covers only the language-vs-thought strand, where the dissociation is currently most contested. No single review covers all five dissociations.",
+   "verified": true
+  },
+  "order": "Scoville & Milner 1957, then Squire & Wixted 2011, then Fedorenko & Varley 2016; take the other strand roots one at a time"
+ },
+ {
+  "id": "P24",
+  "kind": "phenomenon",
+  "name": "Limits of awareness",
+  "statement": "Limits of awareness: inattentional and change blindness, bistable perception, partial report",
+  "thread": "mind",
+  "pillars": [],
+  "requires": [],
+  "root_short": "Sperling 1960",
+  "root": {
+   "cite": "Sperling, G. (1960). The information available in brief visual presentations. Psychological Monographs 74(11, Whole No. 498):1-29. doi:10.1037/h0093759",
+   "url": "https://sites.socsci.uci.edu/~whipl/staff/sperling/PDFs/Sperling_PsychMonogr_1960.pdf",
+   "access": "free (author page)",
+   "verified": true
+  },
+  "root_teaches": {
+   "yes": true,
+   "why": "A long but lucid monograph whose partial-report logic is fully explained. It covers iconic memory only, not inattentional blindness, change blindness or rivalry."
+  },
+  "teaching": null,
+  "status_source": {
+   "title": "Change blindness: past, present, and future",
+   "by": "Daniel Simons & Ronald Rensink",
+   "url": "https://www.cs.ubc.ca/~rensink/publications/download/S&R-TICS-05a.pdf",
+   "cite": "Trends Cogn Sci 9(1):16-20 (2005)",
+   "access": "free (author page)",
+   "note": "The effects are robust. What is contested is the inference from failure to report to failure to represent, which is the same overflow debate partial report feeds.",
+   "verified": true
+  },
+  "order": "Sperling 1960 (Exps 1-3), then Simons & Chabris 1999 (free: http://www.chabris.com/Simons1999.pdf, verified), then Logothetis & Schall 1989 (paywalled), then Simons & Rensink 2005"
+ },
+ {
+  "id": "P25",
+  "kind": "phenomenon",
+  "name": "Critical periods",
+  "statement": "Critical periods, perceptual narrowing and age-of-acquisition (sharp L2 cutoff contested)",
+  "thread": "evolution",
+  "pillars": [],
+  "requires": [],
+  "root_short": "Wiesel & Hubel 1963",
+  "root": {
+   "cite": "Wiesel, T.N. & Hubel, D.H. (1963). Single-cell responses in striate cortex of kittens deprived of vision in one eye. J Neurophysiol 26:1003-1017. doi:10.1152/jn.1963.26.6.1003",
+   "url": "https://journals.physiology.org/doi/10.1152/jn.1963.26.6.1003",
+   "access": "free",
+   "verified": false
+  },
+  "root_teaches": {
+   "yes": true,
+   "why": "Short and readable physiology on visual deprivation. It does not reach speech or language. [unverified] The APS back archive should be free but returned 403 to automated fetches."
+  },
+  "teaching": {
+   "title": "Critical periods in speech perception: new directions",
+   "by": "Janet Werker & Takao Hensch",
+   "url": "https://doi.org/10.1146/annurev-psych-010814-015104",
+   "length": "~24 pp (Annu Rev Psychol 66:173-196, 2015)",
+   "access": "paywalled",
+   "from_backlog": false,
+   "verified": true
+  },
+  "status_source": {
+   "title": "A critical period for second language acquisition: evidence from 2/3 million English speakers",
+   "by": "Joshua Hartshorne, Joshua Tenenbaum & Steven Pinker",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6559801/",
+   "cite": "Cognition 177:263-277 (2018)",
+   "access": "free",
+   "note": "Estimates a grammar-learning decline at around 17 years. The sharp cutoff and the model's assumptions have been disputed in later reanalyses.",
+   "verified": true
+  },
+  "order": "Wiesel & Hubel 1963, then Werker & Hensch 2015, then Werker & Tees 1984 / Maye et al. 2002 / Mayberry 1993, then Hartshorne et al. 2018"
+ },
+ {
+  "id": "P26",
+  "kind": "phenomenon",
+  "name": "Degeneracy and sloppiness",
+  "statement": "Degeneracy and sloppiness: many parameter sets, same function",
+  "thread": "physics",
+  "pillars": [],
+  "requires": [],
+  "root_short": "Prinz, Bucher & Marder 2004",
+  "root": {
+   "cite": "Prinz, A.A., Bucher, D. & Marder, E. (2004). Similar network activity from disparate circuit parameters. Nat Neurosci 7:1345-1352. doi:10.1038/nn1352",
+   "url": "https://doi.org/10.1038/nn1352",
+   "access": "paywalled",
+   "verified": true
+  },
+  "root_teaches": {
+   "yes": true,
+   "why": "Short and clear, but it assumes background on the stomatogastric ganglion and conductance models and does not cover sloppiness. Gutenkunst et al. 2007 is free at https://pmc.ncbi.nlm.nih.gov/articles/PMC2000971/ (verified)."
+  },
+  "teaching": {
+   "title": "Sloppy Models, Differential Geometry, and Why Science Works (SFI)",
+   "by": "Jim Sethna",
+   "url": "https://www.youtube.com/watch?v=QfaWnTToDWY",
+   "length": "71 min",
+   "from_backlog": true,
+   "verified": true
+  },
+  "status_source": {
+   "title": "Multiple models to capture the variability in biological neurons and networks",
+   "by": "Eve Marder & Adam Taylor",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3686573/",
+   "cite": "Nat Neurosci 14:133-138 (2011)",
+   "access": "free",
+   "note": "Experimental support for animal-to-animal conductance variability with conserved output. How general this is beyond small circuits remains open. For the sloppiness side see Transtrum et al. 2015, arXiv:1501.07668 (verified).",
+   "verified": true
+  },
+  "order": "Sethna lecture, then Prinz et al. 2004, then Gutenkunst et al. 2007, then Edelman & Gally 2001, then Marder & Taylor 2011"
+ },
+ {
+  "id": "P27",
+  "kind": "phenomenon",
+  "name": "Balanced, irregular spiking",
+  "statement": "Irregular spiking with balanced excitation and inhibition",
+  "thread": "physics",
+  "pillars": [],
+  "requires": [],
+  "root_short": "Softky & Koch 1993",
+  "root": {
+   "cite": "Softky, W.R. & Koch, C. (1993). The highly irregular firing of cortical cells is inconsistent with temporal integration of random EPSPs. J Neurosci 13(1):334-350. (This poses the puzzle. The balanced-state resolution is van Vreeswijk & Sompolinsky 1996, Science 274:1724, doi:10.1126/science.274.5293.1724, paywalled)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6576320/",
+   "access": "free",
+   "verified": true
+  },
+  "root_teaches": {
+   "yes": true,
+   "why": "Clear statement of the CV puzzle with simple models. Shadlen & Newsome 1998 (free, https://pmc.ncbi.nlm.nih.gov/articles/PMC6793166/, verified) gives the balance answer in readable form."
+  },
+  "teaching": null,
+  "status_source": {
+   "title": "What is the dynamical regime of cerebral cortex?",
+   "by": "Yashar Ahmadian & Kenneth Miller",
+   "url": "https://arxiv.org/abs/1908.10101",
+   "cite": "Neuron 109:3373-3391 (2021)",
+   "access": "free (arXiv)",
+   "note": "Argues that cortex is loosely balanced and inhibition-stabilized rather than in the tight balanced state of van Vreeswijk & Sompolinsky. What remains contested is the degree of balance.",
+   "verified": true
+  },
+  "order": "Softky & Koch 1993, then Shadlen & Newsome 1998, then van Vreeswijk & Sompolinsky 1996, then Ahmadian & Miller 2021"
+ },
+ {
+  "id": "P28",
+  "kind": "phenomenon",
+  "name": "Low-dimensional structure",
+  "statement": "Low-dimensional structure in natural data and neural population activity",
+  "thread": "generalization",
+  "pillars": [],
+  "requires": [],
+  "root_short": "Tenenbaum, de Silva & Langford 2000",
+  "root": {
+   "cite": "Tenenbaum, J.B., de Silva, V. & Langford, J.C. (2000). A global geometric framework for nonlinear dimensionality reduction. Science 290:2319-2323. doi:10.1126/science.290.5500.2319",
+   "url": "https://doi.org/10.1126/science.290.5500.2319",
+   "access": "paywalled",
+   "verified": true
+  },
+  "root_teaches": {
+   "yes": true,
+   "why": "Short and self-contained Isomap paper, though terse. Pope et al. 2021 (arXiv:2104.08894, verified) covers the natural-image side, Churchland 2012 (PMC3393826) and Gallego 2017 (PMC6122849) the neural side, all free."
+  },
+  "teaching": {
+   "title": "Dimensionality reduction for large-scale neural recordings",
+   "by": "John Cunningham & Byron Yu",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4433019/",
+   "length": "~10 pp (Nat Neurosci 17:1500-1509, 2014)",
+   "from_backlog": false,
+   "verified": true
+  },
+  "status_source": {
+   "title": "Interpreting neural computations by examining intrinsic and embedding dimensionality of neural activity",
+   "by": "Mehrdad Jazayeri & Srdjan Ostojic",
+   "url": "https://arxiv.org/abs/2107.04084",
+   "cite": "Curr Opin Neurobiol 70:113-120 (2021)",
+   "access": "free (arXiv)",
+   "note": "Separates intrinsic from embedding dimensionality. Low dimensionality is task-dependent and contested by high-dimensional power-law findings (Stringer et al. 2019).",
+   "verified": true
+  },
+  "order": "Tenenbaum 2000, then Pope 2021, then Cunningham & Yu 2014, then Churchland 2012 and Gallego 2017, then Jazayeri & Ostojic 2021"
+ },
+ {
+  "id": "P29",
+  "kind": "phenomenon",
+  "name": "Processing near physical limits",
+  "statement": "Processing near physical limits: photon and molecule counting, energy per bit, energy paid for accuracy",
+  "thread": "physics",
+  "pillars": [],
+  "requires": [],
+  "root_short": "Hecht, Shlaer & Pirenne 1942",
+  "root": {
+   "cite": "Hecht, Shlaer & Pirenne 1942, Energy, quanta, and vision, J Gen Physiol 25:819-840, doi:10.1085/jgp.25.6.819",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2142545/",
+   "access": "free",
+   "verified": true
+  },
+  "root_teaches": {
+   "yes": false,
+   "why": "The paper teaches the photon-counting argument well, but it covers only one of the item's four strands. Molecule counting (Berg & Purcell), kinetic proofreading (Hopfield) and the energy cost per bit (Attwell & Laughlin) need a single text that ties them together."
+  },
+  "teaching": {
+   "title": "Thinking about the brain (Les Houches lectures, 2001)",
+   "by": "William Bialek",
+   "url": "https://arxiv.org/abs/physics/0205030",
+   "length": "long lecture notes, roughly 100 pages [page count unverified]",
+   "from_backlog": false,
+   "verified": true
+  },
+  "status_source": {
+   "title": "Direct detection of a single photon by humans",
+   "by": "Tinsley et al. 2016, Nature Communications 7:12172",
+   "url": "https://www.nature.com/articles/ncomms12172",
+   "note": "The rod's single-photon response is robust. Whether a person can consciously report a single photon is contested: this study finds a small above-chance effect and has not been widely replicated. It does not address the energy-per-bit strand.",
+   "verified": true
+  },
+  "order": "Bialek lectures (photon counting, then the Berg-Purcell limit) first, then HSP 1942 in full, then Tinsley 2016"
+ },
+ {
+  "id": "P30",
+  "kind": "phenomenon",
+  "name": "Heavy-tailed, scale-invariant natural data",
+  "statement": "Natural data are heavy-tailed and scale-invariant, incl. Zipf and the law of abbreviation",
+  "thread": "inference",
+  "pillars": [],
+  "requires": [],
+  "root_short": "Field 1987",
+  "root": {
+   "cite": "Field 1987, Relations between the statistics of natural images and the response properties of cortical cells, JOSA A 4:2379-2394, doi:10.1364/JOSAA.4.002379",
+   "url": "https://doi.org/10.1364/JOSAA.4.002379",
+   "access": "paywalled",
+   "verified": true
+  },
+  "root_teaches": {
+   "yes": true,
+   "why": "Readable with careful exposition of the 1/f amplitude spectrum and its coding consequences. It covers images only, so the Zipf and abbreviation strand comes from the status source. The free copy is on a UCSD course site, not the publisher."
+  },
+  "teaching": {
+   "title": "Natural Image Statistics and Neural Representation (Annu Rev Neurosci 2001)",
+   "by": "Eero Simoncelli & Bruno Olshausen",
+   "url": "https://www.cns.nyu.edu/pub/eero/simoncelli01-reprint.pdf",
+   "length": "24 pp",
+   "from_backlog": true,
+   "verified": true
+  },
+  "status_source": {
+   "title": "Zipf's word frequency law in natural language: A critical review and future directions",
+   "by": "Piantadosi 2014, Psychonomic Bulletin & Review",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4176592/",
+   "note": "Near-Zipfian word frequencies are robust across languages. The review argues that many proposed explanations are untestable or explain too little. Image 1/f scaling is robust on average, though it varies with scene type.",
+   "verified": true
+  },
+  "order": "Simoncelli & Olshausen review first, then Field 1987, then Piantadosi 2014"
+ },
+ {
+  "id": "P31",
+  "kind": "phenomenon",
+  "name": "Productive, systematic generalization",
+  "statement": "Productive, systematic generalization and structure dependence",
+  "thread": "language",
+  "pillars": [],
+  "requires": [],
+  "root_short": "Berko 1958",
+  "root": {
+   "cite": "Berko 1958, The child's learning of English morphology, Word 14:150-177, doi:10.1080/00437956.1958.11659661",
+   "url": "https://researchgate.net/profile/Jean-Berko-Gleason/publication/243750735_The_Child's_Learning_of_English_Morphology/links/553ddc310cf29b5ee4bce4de/The-Childs-Learning-of-English-Morphology.pdf",
+   "access": "free",
+   "verified": false
+  },
+  "root_teaches": {
+   "yes": true,
+   "why": "A plain, self-contained account of the wug test. It covers morphological productivity only: structure dependence comes from Crain & Nakayama 1987 and systematicity from Fodor & Pylyshyn 1988. [The author's ResearchGate copy blocks automated fetches, so it is unverified. The publisher DOI is confirmed and paywalled.]"
+  },
+  "teaching": null,
+  "status_source": {
+   "title": "Human-like systematic generalization through a meta-learning neural network",
+   "by": "Lake & Baroni 2023, Nature 623:115-121",
+   "url": "https://www.nature.com/articles/s41586-023-06668-3",
+   "note": "In its instruction-learning experiments, people generalize systematically but not perfectly and show predictable error biases. The paper argues that neural networks can match this after meta-learning, which reopens Fodor & Pylyshyn's argument.",
+   "verified": true
+  },
+  "order": "Berko 1958 first, then Fodor & Pylyshyn 1988 section 3, then Lake & Baroni 2023"
+ },
+ {
+  "id": "P32",
+  "kind": "phenomenon",
+  "name": "Learners regularize and create structure",
+  "statement": "Learners regularize input and create structure",
+  "thread": "language",
+  "pillars": [],
+  "requires": [],
+  "root_short": "Senghas, Kita & Özyürek 2004",
+  "root": {
+   "cite": "Senghas, Kita & Ozyurek 2004, Children creating core properties of language: evidence from an emerging sign language in Nicaragua, Science 305:1779-1782, doi:10.1126/science.1100199",
+   "url": "https://wrap.warwick.ac.uk/66237/20/WRAP_Senghas_Ms.pdf",
+   "access": "free",
+   "verified": true
+  },
+  "root_teaches": {
+   "yes": true,
+   "why": "A short accepted manuscript (17 pp) that is easy to follow. Note that the controlled demonstration of regularization is Hudson Kam & Newport 2005, so that paper arguably founds the learner-regularizes claim, with Senghas as the field case."
+  },
+  "teaching": null,
+  "status_source": {
+   "title": "The cognitive roots of regularization in language",
+   "by": "Ferdinand, Kirby & Smith 2019, Cognition 184:53-68",
+   "url": "https://arxiv.org/abs/1703.03442",
+   "note": "Regularization replicates in the lab. The authors separate a domain-general, load-driven source from a language-specific one. How strong it is depends on age, load and task.",
+   "verified": true
+  },
+  "order": "Senghas 2004 first, then Hudson Kam & Newport 2005, then Ferdinand et al. 2019"
+ },
+ {
+  "id": "P33",
+  "kind": "phenomenon",
+  "name": "Predictability drives comprehension",
+  "statement": "Predictability drives comprehension cost (log form contested; garden paths)",
+  "thread": "language",
+  "pillars": [],
+  "requires": [],
+  "root_short": "Kutas & Hillyard 1984",
+  "root": {
+   "cite": "Kutas, M. & Hillyard, S. A. (1984). Brain potentials during reading reflect word expectancy and semantic association. Nature 307:161-163. doi:10.1038/307161a0",
+   "url": "https://doi.org/10.1038/307161a0",
+   "access": "paywalled",
+   "verified": true
+  },
+  "root_teaches": {
+   "yes": false,
+   "why": "A 3-page report on the N400 for anomalous words. It does not test predictability: the link to cloze probability is Kutas & Hillyard 1984, Nature 307:161, doi:10.1038/307161a0 (also paywalled), which is the better root. No free copy of either was found."
+  },
+  "teaching": {
+   "title": "Thirty years and counting: Finding meaning in the N400 component of the ERP (Annu Rev Psychol 2011)",
+   "by": "Marta Kutas & Kara Federmeier",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4052444/",
+   "length": "review, about 30 pp",
+   "from_backlog": false,
+   "verified": true
+  },
+  "status_source": {
+   "title": "Large-scale evidence for logarithmic effects of word predictability on reading time",
+   "by": "Shain, Meister, Pimentel, Cotterell & Levy 2024, PNAS 121:e2307876121",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10927576/",
+   "note": "That predictability affects processing cost is robust. Whether the relation is logarithmic is contested: this reanalysis of six datasets supports a log effect, against the linear result of Brothers & Kuperberg 2021. Garden-path costs are larger than surprisal predicts.",
+   "verified": true
+  },
+  "order": "Kutas & Federmeier 2011 first, then Kutas & Hillyard 1980 and 1984, then Smith & Levy 2013, then Shain et al. 2024 alongside Brothers & Kuperberg 2021"
+ },
+ {
+  "id": "P34",
+  "kind": "phenomenon",
+  "name": "Convergence and contingency",
+  "statement": "Convergent evolution, including of cognition, alongside contingency",
+  "thread": "evolution",
+  "pillars": [],
+  "requires": [],
+  "root_short": "Emery & Clayton 2004",
+  "root": {
+   "cite": "Emery & Clayton 2004, The mentality of crows: convergent evolution of intelligence in corvids and apes, Science 306:1903-1907, doi:10.1126/science.1098410",
+   "url": "https://doi.org/10.1126/science.1098410",
+   "access": "paywalled",
+   "verified": true
+  },
+  "root_teaches": {
+   "yes": true,
+   "why": "A readable review that lays out the convergence argument. The free copy is a reprint on a UCSD course site. For the contingency half, Blount et al. 2008 is free at PMC2430337."
+  },
+  "teaching": null,
+  "status_source": {
+   "title": "Contingency and determinism in evolution: Replaying life's tape (Science 362:eaam5979, 2018)",
+   "by": "Blount, Lenski & Losos",
+   "url": "https://www.blount-lab.org/uploads/2/3/0/3/23037222/blount_et_al_2018_with_supplement_-_contingency_and_determinism_in_evolution.pdf",
+   "note": "Lab and natural replay experiments show both convergence and contingency. Which one dominates depends on scale and on how similar the starting points are. Note that this review covers evolution in general, not cognition specifically.",
+   "verified": true
+  },
+  "order": "Emery & Clayton 2004 first, then Blount et al. 2008, then Blount, Lenski & Losos 2018"
+ },
+ {
+  "id": "P35",
+  "kind": "phenomenon",
+  "name": "Cumulative culture",
+  "statement": "Cumulative culture",
+  "thread": "evolution",
+  "pillars": [],
+  "requires": [],
+  "root_short": "Tomasello, Kruger & Ratner 1993",
+  "root": {
+   "cite": "Tomasello, Kruger & Ratner 1993, Cultural learning, Behavioral and Brain Sciences 16:495-552, doi:10.1017/S0140525X0003123X",
+   "url": "https://access.archive-ouverte.unige.ch/access/metadata/938f161a-2e7f-460f-bbbf-a79381c72568/download",
+   "access": "free",
+   "verified": true
+  },
+  "root_teaches": {
+   "yes": true,
+   "why": "Clear, but long (59 pp with commentaries). It founds high-fidelity cultural learning; the ratchet framing comes later, in Tomasello 1999 and Tennie et al. 2009. The free PDF is filed under a Schneuwly commentary but contains the full target article and commentaries."
+  },
+  "teaching": {
+   "title": "Language Learning, Language Use, and The Evolution of Linguistic Structure (SFI)",
+   "by": "Kenny Smith",
+   "url": "https://www.youtube.com/watch?v=NjBtagmAi40",
+   "length": "70 min",
+   "from_backlog": true,
+   "verified": true
+  },
+  "status_source": {
+   "title": "What is cumulative cultural evolution? (Proc R Soc B 285:20180712, 2018)",
+   "by": "Mesoudi & Thornton",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6015846/",
+   "note": "Cumulative culture is robust in humans and in lab transmission chains. Whether non-human animals have it is contested, and so are its defining criteria. Open-ended cumulative culture has been shown only in humans.",
+   "verified": true
+  },
+  "order": "Tomasello 1993 target article (skip commentaries) first, then Tennie et al. 2009, then the Kenny Smith lecture with Kirby et al. 2008, then Mesoudi & Thornton 2018"
+ }
+]

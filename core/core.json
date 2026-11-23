@@ -1,6 +1,7 @@
 [
  {
   "id": "L1",
+  "tier": 1,
   "kind": "lens",
   "name": "Information & coding limits",
   "statement": "Information & coding limits: source, channel, rate–distortion; communicative efficiency as a transfer case",
@@ -26,6 +27,7 @@
  },
  {
   "id": "L2",
+  "tier": 1,
   "kind": "lens",
   "name": "Maximum entropy & variational free energy",
   "statement": "Maximum entropy & the free-energy variational principle",
@@ -61,6 +63,7 @@
  },
  {
   "id": "L3",
+  "tier": 1,
   "kind": "lens",
   "name": "Bayesian updating & exchangeability",
   "statement": "Bayesian updating & exchangeability",
@@ -94,6 +97,7 @@
  },
  {
   "id": "L4",
+  "tier": 1,
   "kind": "lens",
   "name": "Likelihood & Fisher information",
   "statement": "Likelihood, sufficiency & Fisher information",
@@ -127,6 +131,7 @@
  },
  {
   "id": "L5",
+  "tier": 1,
   "kind": "lens",
   "name": "Description length & algorithmic information",
   "statement": "Description length & algorithmic information; efficient coding as its sensory form",
@@ -136,7 +141,8 @@
    "§12"
   ],
   "requires": [
-   "L1"
+   "L1",
+   "L10"
   ],
   "root_short": "Solomonoff 1964",
   "root": {
@@ -162,6 +168,7 @@
  },
  {
   "id": "L6",
+  "tier": 1,
   "kind": "lens",
   "name": "Learnability & inductive bias",
   "statement": "Learnability, inductive bias & capacity",
@@ -170,7 +177,10 @@
    "§12",
    "§12b"
   ],
-  "requires": [],
+  "requires": [
+   "L9",
+   "L10"
+  ],
   "root_short": "Valiant 1984",
   "root": {
    "cite": "Valiant, L. G. (1984). A Theory of the Learnable. Communications of the ACM 27(11):1134-1142. (Gold 1967 is earlier, but it is about identification in the limit; Valiant founds the PAC learnability used here.)",
@@ -195,6 +205,7 @@
  },
  {
   "id": "L7",
+  "tier": 2,
   "kind": "lens",
   "name": "Shrinkage & partial pooling",
   "statement": "Shrinkage & partial pooling",
@@ -204,7 +215,7 @@
    "§6"
   ],
   "requires": [
-   "L3"
+   "L6"
   ],
   "root_short": "James & Stein 1961",
   "root": {
@@ -230,6 +241,7 @@
  },
  {
   "id": "L8",
+  "tier": 1,
   "kind": "lens",
   "name": "Decisions under uncertainty",
   "statement": "Decisions under uncertainty: tests, signal detection, sequential evidence, value, exploration",
@@ -239,7 +251,10 @@
    "§18",
    "§49"
   ],
-  "requires": [],
+  "requires": [
+   "L3",
+   "L4"
+  ],
   "root_short": "Neyman & Pearson 1933",
   "root": {
    "cite": "Neyman, J. and Pearson, E. S. (1933). On the Problem of the Most Efficient Tests of Statistical Hypotheses. Phil. Trans. R. Soc. A 231:289-337. doi:10.1098/rsta.1933.0009",
@@ -264,6 +279,7 @@
  },
  {
   "id": "L9",
+  "tier": 1,
   "kind": "lens",
   "name": "Search, tractability & bounded rationality",
   "statement": "Search, tractability & bounded rationality",
@@ -300,6 +316,7 @@
  },
  {
   "id": "L10",
+  "tier": 1,
   "kind": "lens",
   "name": "Computation, universality & its limits",
   "statement": "Computation, universality & its limits",
@@ -333,6 +350,7 @@
  },
  {
   "id": "L11",
+  "tier": 2,
   "kind": "lens",
   "name": "Formal languages & the grammar hierarchy",
   "statement": "Formal languages & the grammar hierarchy",
@@ -367,6 +385,7 @@
  },
  {
   "id": "L12",
+  "tier": 2,
   "kind": "lens",
   "name": "Credit assignment & error-driven learning",
   "statement": "Credit assignment & error-driven learning",
@@ -401,6 +420,7 @@
  },
  {
   "id": "L13",
+  "tier": 2,
   "kind": "lens",
   "name": "World models & cognitive maps",
   "statement": "World models & cognitive maps: model-based vs model-free",
@@ -410,7 +430,8 @@
    "§20"
   ],
   "requires": [
-   "L8"
+   "L8",
+   "L12"
   ],
   "root_short": "Tolman 1948",
   "root": {
@@ -436,6 +457,7 @@
  },
  {
   "id": "L14",
+  "tier": 2,
   "kind": "lens",
   "name": "Superposition & content-addressable memory",
   "statement": "Superposition & content-addressable memory",
@@ -469,6 +491,7 @@
  },
  {
   "id": "L15",
+  "tier": 1,
   "kind": "lens",
   "name": "Representational geometry",
   "statement": "Representational geometry: similarity, dimensionality, manifolds",
@@ -502,6 +525,7 @@
  },
  {
   "id": "L16",
+  "tier": 1,
   "kind": "lens",
   "name": "Statistical mechanics & typical-case analysis",
   "statement": "Statistical mechanics: ensembles & typical-case analysis",
@@ -510,9 +534,7 @@
    "§5",
    "§33"
   ],
-  "requires": [
-   "L2"
-  ],
+  "requires": [],
   "root_short": "Boltzmann 1877",
   "root": {
    "cite": "Boltzmann, L. (1877). Über die Beziehung zwischen dem zweiten Hauptsatze der mechanischen Wärmetheorie und der Wahrscheinlichkeitsrechnung... Wien. Ber. 76:373-435. English translation: Sharp & Matschinsky, Entropy 17(4):1971-2009 (2015), CC-BY. doi:10.3390/e17041971. [Gibbs 1902 is public domain on archive.org. Typical-case analysis is founded separately by Gardner 1988.]",
@@ -537,6 +559,7 @@
  },
  {
   "id": "L17",
+  "tier": 1,
   "kind": "lens",
   "name": "Order parameters & phase transitions",
   "statement": "Order parameters, broken symmetry & phase transitions",
@@ -545,7 +568,8 @@
    "§33"
   ],
   "requires": [
-   "L16"
+   "L16",
+   "L31"
   ],
   "root_short": "Landau 1937",
   "root": {
@@ -571,6 +595,7 @@
  },
  {
   "id": "L18",
+  "tier": 1,
   "kind": "lens",
   "name": "Scaling & renormalization",
   "statement": "Scaling, coarse-graining & renormalization",
@@ -607,6 +632,7 @@
  },
  {
   "id": "L19",
+  "tier": 1,
   "kind": "lens",
   "name": "Rugged landscapes",
   "statement": "Disorder & rugged landscapes: energy, loss, fitness",
@@ -616,7 +642,8 @@
    "§7"
   ],
   "requires": [
-   "L16"
+   "L16",
+   "L17"
   ],
   "root_short": "Wright 1932",
   "root": {
@@ -642,6 +669,7 @@
  },
  {
   "id": "L20",
+  "tier": 1,
   "kind": "lens",
   "name": "Noise-driven dynamics",
   "statement": "Noise-driven dynamics: diffusion, barrier escape, fluctuation–dissipation",
@@ -677,6 +705,7 @@
  },
  {
   "id": "L21",
+  "tier": 1,
   "kind": "lens",
   "name": "Dynamical systems & self-organization",
   "statement": "Dynamical systems, chaos & self-organization",
@@ -709,6 +738,7 @@
  },
  {
   "id": "L22",
+  "tier": 2,
   "kind": "lens",
   "name": "Concentration of measure",
   "statement": "Concentration of measure & high-dimensional geometry",
@@ -742,6 +772,7 @@
  },
  {
   "id": "L23",
+  "tier": 2,
   "kind": "lens",
   "name": "Variation, selection & drift",
   "statement": "Variation, selection & drift",
@@ -774,6 +805,7 @@
  },
  {
   "id": "L24",
+  "tier": 2,
   "kind": "lens",
   "name": "Strategic interaction & signalling",
   "statement": "Strategic interaction & signalling",
@@ -806,6 +838,7 @@
  },
  {
   "id": "L25",
+  "tier": 2,
   "kind": "lens",
   "name": "Causality",
   "statement": "Causality: conditional independence → intervention",
@@ -814,9 +847,7 @@
    "§22",
    "§20"
   ],
-  "requires": [
-   "L3"
-  ],
+  "requires": [],
   "root_short": "Wright 1921",
   "root": {
    "cite": "Wright, S. (1921). Correlation and causation. J. Agricultural Research 20(7):557-585 (USDA, public domain). Note: Wright founds path diagrams, not intervention; the CI-to-intervention step is founded by Pearl 1995, 'Causal diagrams for empirical research', Biometrika 82:669-710, free at https://ftp.cs.ucla.edu/pub/stat_ser/R218-B.pdf (verified).",
@@ -841,12 +872,15 @@
  },
  {
   "id": "L26",
+  "tier": 1,
   "kind": "lens",
   "name": "Levels of analysis",
   "statement": "Levels of analysis & implementation independence",
   "thread": "compute",
   "pillars": [],
-  "requires": [],
+  "requires": [
+   "L10"
+  ],
   "root_short": "Marr & Poggio 1976",
   "root": {
    "cite": "Marr, D. & Poggio, T. (1976). From understanding computation to understanding neural circuitry. MIT AI Memo 357. Note: Mayr 1961 (first listed; Science 134:1501, doi:10.1126/science.134.3489.1501, paywalled) is about proximate vs ultimate causes, not implementation independence; Marr & Poggio found the computation/algorithm/implementation split.",
@@ -871,6 +905,7 @@
  },
  {
   "id": "L27",
+  "tier": 2,
   "kind": "lens",
   "name": "Hierarchy & near-decomposability",
   "statement": "Hierarchy & near-decomposability, incl. temporal abstraction",
@@ -894,6 +929,7 @@
  },
  {
   "id": "L28",
+  "tier": 2,
   "kind": "lens",
   "name": "Compositionality",
   "statement": "Compositionality",
@@ -924,6 +960,7 @@
  },
  {
   "id": "L29",
+  "tier": 2,
   "kind": "lens",
   "name": "Distributional meaning",
   "statement": "Distributional meaning",
@@ -956,6 +993,7 @@
  },
  {
   "id": "L30",
+  "tier": 1,
   "kind": "lens",
   "name": "Thermodynamics of computation",
   "statement": "Thermodynamics of computation",
@@ -965,6 +1003,7 @@
   ],
   "requires": [
    "L1",
+   "L10",
    "L16"
   ],
   "root_short": "Landauer 1961",
@@ -991,6 +1030,7 @@
  },
  {
   "id": "L31",
+  "tier": 1,
   "kind": "lens",
   "name": "Symmetry & invariance",
   "statement": "Symmetry & invariance",
@@ -1024,6 +1064,7 @@
  },
  {
   "id": "L32",
+  "tier": 2,
   "kind": "lens",
   "name": "Feedback & regulation",
   "statement": "Feedback & regulation",
@@ -1032,7 +1073,9 @@
    "§49",
    "§1c"
   ],
-  "requires": [],
+  "requires": [
+   "L1"
+  ],
   "root_short": "Rosenblueth, Wiener & Bigelow 1943",
   "root": {
    "cite": "Rosenblueth, A., Wiener, N. & Bigelow, J. (1943). Behavior, purpose and teleology. Philosophy of Science 10(1):18-24. doi:10.1086/286788 (course-hosted copy).",
@@ -1057,6 +1100,7 @@
  },
  {
   "id": "P1",
+  "tier": 1,
   "kind": "phenomenon",
   "name": "Interpolating networks still generalize",
   "statement": "Interpolating networks still generalize; double descent is setup-dependent",
@@ -1096,6 +1140,7 @@
  },
  {
   "id": "P2",
+  "tier": 1,
   "kind": "phenomenon",
   "name": "Smooth power-law learning curves",
   "statement": "Smooth, roughly power-law learning curves in machines and human practice; form and exponents setup-dependent and beatable",
@@ -1126,6 +1171,7 @@
  },
  {
   "id": "P3",
+  "tier": 2,
   "kind": "phenomenon",
   "name": "Adversarial and shortcut vulnerability",
   "statement": "Adversarial and shortcut vulnerability",
@@ -1163,12 +1209,15 @@
  },
  {
   "id": "P4",
+  "tier": 2,
   "kind": "phenomenon",
   "name": "Catastrophic interference",
   "statement": "Catastrophic interference",
   "thread": "memory",
   "pillars": [],
-  "requires": [],
+  "requires": [
+   "L12"
+  ],
   "root_short": "McCloskey & Cohen 1989",
   "root": {
    "cite": "McCloskey, M. & Cohen, N. J. (1989). Catastrophic interference in connectionist networks: The sequential learning problem. Psychology of Learning and Motivation 24:109-165. doi:10.1016/S0079-7421(08)60536-8. Ratcliff 1990 Psych. Rev. 97:285 (doi:10.1037/0033-295X.97.2.285) is also paywalled.",
@@ -1200,13 +1249,16 @@
  },
  {
   "id": "P5",
+  "tier": 2,
   "kind": "phenomenon",
   "name": "Sharp thresholds and computational gaps",
   "statement": "Sharp thresholds and computational gaps in random problems",
   "thread": "physics",
   "pillars": [],
   "requires": [
-   "L17"
+   "L9",
+   "L17",
+   "L19"
   ],
   "root_short": "Kirkpatrick & Selman 1994",
   "root": {
@@ -1239,12 +1291,15 @@
  },
  {
   "id": "P6",
+  "tier": 2,
   "kind": "phenomenon",
   "name": "Prediction-error signatures",
   "statement": "Prediction-error signatures: extinction ≠ erasure, RPE-like dopamine, blocking (parameter-sensitive; RPE reading contested by ANCCR)",
   "thread": "mechanisms",
   "pillars": [],
-  "requires": [],
+  "requires": [
+   "L12"
+  ],
   "root_short": "Kamin 1969",
   "root": {
    "cite": "Kamin, L. J. (1969). Predictability, surprise, attention, and conditioning. In B. A. Campbell & R. M. Church (Eds.), Punishment and Aversive Behavior, pp. 279-296. Appleton-Century-Crofts. The volume is on archive.org as a controlled-digital-lending loan, not open access. For the RPE strand, the free root is Schultz, Dayan & Montague 1997, Science 275:1593, on Dayan's Gatsby page: https://www.gatsby.ucl.ac.uk/~dayan/papers/sdm97.pdf (verified).",
@@ -1277,6 +1332,7 @@
  },
  {
   "id": "P7",
+  "tier": 2,
   "kind": "phenomenon",
   "name": "Learning to learn",
   "statement": "Learning to learn and the human–machine data-efficiency gap",
@@ -1315,6 +1371,7 @@
  },
  {
   "id": "P8",
+  "tier": 1,
   "kind": "phenomenon",
   "name": "Innate structure and prepared learning",
   "statement": "Innate structure and prepared learning",
@@ -1352,6 +1409,7 @@
  },
  {
   "id": "P9",
+  "tier": 2,
   "kind": "phenomenon",
   "name": "Goal-directed vs habitual control",
   "statement": "Goal-directed vs habitual control; latent learning",
@@ -1389,12 +1447,15 @@
  },
  {
   "id": "P10",
+  "tier": 2,
   "kind": "phenomenon",
   "name": "Universal law of generalization",
   "statement": "Universal law of generalization",
   "thread": "inference",
   "pillars": [],
-  "requires": [],
+  "requires": [
+   "L15"
+  ],
   "root_short": "Shepard 1987",
   "root": {
    "cite": "Shepard, R. N. (1987). Toward a universal law of generalization for psychological science. Science 237:1317-1323. doi:10.1126/science.3629243. Only course-site copies exist online.",
@@ -1426,6 +1487,7 @@
  },
  {
   "id": "P11",
+  "tier": 2,
   "kind": "phenomenon",
   "name": "Weber's law and adaptation",
   "statement": "Weber's law, adaptation and normalization to input statistics",
@@ -1464,6 +1526,7 @@
  },
  {
   "id": "P12",
+  "tier": 2,
   "kind": "phenomenon",
   "name": "Working-memory limits",
   "statement": "Working memory holds ~3–5 chunks; slots vs resources disputed",
@@ -1501,6 +1564,7 @@
  },
  {
   "id": "P13",
+  "tier": 2,
   "kind": "phenomenon",
   "name": "Forgetting, spacing and testing",
   "statement": "Retention follows environmental recurrence: forgetting, spacing, testing",
@@ -1538,6 +1602,7 @@
  },
  {
   "id": "P14",
+  "tier": 2,
   "kind": "phenomenon",
   "name": "The positive manifold (g)",
   "statement": "Positive manifold (g); its cause disputed",
@@ -1575,6 +1640,7 @@
  },
  {
   "id": "P15",
+  "tier": 2,
   "kind": "phenomenon",
   "name": "Heuristics, biases and their successes",
   "statement": "Heuristics, biases and their successes",
@@ -1606,12 +1672,15 @@
  },
  {
   "id": "P16",
+  "tier": 2,
   "kind": "phenomenon",
   "name": "Reliability-weighted cue combination",
   "statement": "Reliability-weighted cue combination, near but not at optimum",
   "thread": "inference",
   "pillars": [],
-  "requires": [],
+  "requires": [
+   "L4"
+  ],
   "root_short": "Ernst & Banks 2002",
   "root": {
    "cite": "Ernst, M. O. & Banks, M. S. (2002). Humans integrate visual and haptic information in a statistically optimal fashion. Nature 415:429-433. doi:10.1038/415429a. Only course-site copies exist online.",
@@ -1636,6 +1705,7 @@
  },
  {
   "id": "P17",
+  "tier": 2,
   "kind": "phenomenon",
   "name": "Typicality effects",
   "statement": "Typicality effects, even for well-defined categories",
@@ -1667,6 +1737,7 @@
  },
  {
   "id": "P18",
+  "tier": 2,
   "kind": "phenomenon",
   "name": "The false-belief transition",
   "statement": "Explicit false-belief transition around age four",
@@ -1698,6 +1769,7 @@
  },
  {
   "id": "P19",
+  "tier": 1,
   "kind": "phenomenon",
   "name": "Receptive fields matched to natural statistics",
   "statement": "Hierarchical receptive fields matched to natural statistics",
@@ -1736,6 +1808,7 @@
  },
  {
   "id": "P20",
+  "tier": 2,
   "kind": "phenomenon",
   "name": "Synaptic plasticity",
   "statement": "Synaptic plasticity, Hebbian and homeostatic (STDP's in-vivo role open)",
@@ -1775,12 +1848,15 @@
  },
  {
   "id": "P21",
+  "tier": 2,
   "kind": "phenomenon",
   "name": "Place, grid and attractor codes",
   "statement": "Place, grid and attractor codes",
   "thread": "memory",
   "pillars": [],
-  "requires": [],
+  "requires": [
+   "L21"
+  ],
   "root_short": "O'Keefe & Dostrovsky 1971",
   "root": {
    "cite": "O'Keefe, J. & Dostrovsky, J. (1971). The hippocampus as a spatial map. Preliminary evidence from unit activity in the freely-moving rat. Brain Res 34:171-175. doi:10.1016/0006-8993(71)90358-1",
@@ -1813,6 +1889,7 @@
  },
  {
   "id": "P22",
+  "tier": 2,
   "kind": "phenomenon",
   "name": "Consolidation and replay",
   "statement": "Consolidation and replay",
@@ -1851,6 +1928,7 @@
  },
  {
   "id": "P23",
+  "tier": 2,
   "kind": "phenomenon",
   "name": "Neuropsychological dissociations",
   "statement": "Neuropsychological dissociations: memory systems, blindsight, perception vs action, language vs thought, confabulation",
@@ -1889,6 +1967,7 @@
  },
  {
   "id": "P24",
+  "tier": 2,
   "kind": "phenomenon",
   "name": "Limits of awareness",
   "statement": "Limits of awareness: inattentional and change blindness, bistable perception, partial report",
@@ -1920,6 +1999,7 @@
  },
  {
   "id": "P25",
+  "tier": 1,
   "kind": "phenomenon",
   "name": "Critical periods",
   "statement": "Critical periods, perceptual narrowing and age-of-acquisition (sharp L2 cutoff contested)",
@@ -1959,6 +2039,7 @@
  },
  {
   "id": "P26",
+  "tier": 2,
   "kind": "phenomenon",
   "name": "Degeneracy and sloppiness",
   "statement": "Degeneracy and sloppiness: many parameter sets, same function",
@@ -1997,6 +2078,7 @@
  },
  {
   "id": "P27",
+  "tier": 2,
   "kind": "phenomenon",
   "name": "Balanced, irregular spiking",
   "statement": "Irregular spiking with balanced excitation and inhibition",
@@ -2028,12 +2110,15 @@
  },
  {
   "id": "P28",
+  "tier": 1,
   "kind": "phenomenon",
   "name": "Low-dimensional structure",
   "statement": "Low-dimensional structure in natural data and neural population activity",
   "thread": "generalization",
   "pillars": [],
-  "requires": [],
+  "requires": [
+   "L15"
+  ],
   "root_short": "Tenenbaum, de Silva & Langford 2000",
   "root": {
    "cite": "Tenenbaum, J.B., de Silva, V. & Langford, J.C. (2000). A global geometric framework for nonlinear dimensionality reduction. Science 290:2319-2323. doi:10.1126/science.290.5500.2319",
@@ -2066,12 +2151,15 @@
  },
  {
   "id": "P29",
+  "tier": 2,
   "kind": "phenomenon",
   "name": "Processing near physical limits",
   "statement": "Processing near physical limits: photon and molecule counting, energy per bit, energy paid for accuracy",
   "thread": "physics",
   "pillars": [],
-  "requires": [],
+  "requires": [
+   "L16"
+  ],
   "root_short": "Hecht, Shlaer & Pirenne 1942",
   "root": {
    "cite": "Hecht, Shlaer & Pirenne 1942, Energy, quanta, and vision, J Gen Physiol 25:819-840, doi:10.1085/jgp.25.6.819",
@@ -2102,6 +2190,7 @@
  },
  {
   "id": "P30",
+  "tier": 2,
   "kind": "phenomenon",
   "name": "Heavy-tailed, scale-invariant natural data",
   "statement": "Natural data are heavy-tailed and scale-invariant, incl. Zipf and the law of abbreviation",
@@ -2138,6 +2227,7 @@
  },
  {
   "id": "P31",
+  "tier": 1,
   "kind": "phenomenon",
   "name": "Productive, systematic generalization",
   "statement": "Productive, systematic generalization and structure dependence",
@@ -2167,6 +2257,7 @@
  },
  {
   "id": "P32",
+  "tier": 2,
   "kind": "phenomenon",
   "name": "Learners regularize and create structure",
   "statement": "Learners regularize input and create structure",
@@ -2196,6 +2287,7 @@
  },
  {
   "id": "P33",
+  "tier": 2,
   "kind": "phenomenon",
   "name": "Predictability drives comprehension",
   "statement": "Predictability drives comprehension cost (log form contested; garden paths)",
@@ -2232,12 +2324,15 @@
  },
  {
   "id": "P34",
+  "tier": 2,
   "kind": "phenomenon",
   "name": "Convergence and contingency",
   "statement": "Convergent evolution, including of cognition, alongside contingency",
   "thread": "evolution",
   "pillars": [],
-  "requires": [],
+  "requires": [
+   "L23"
+  ],
   "root_short": "Emery & Clayton 2004",
   "root": {
    "cite": "Emery & Clayton 2004, The mentality of crows: convergent evolution of intelligence in corvids and apes, Science 306:1903-1907, doi:10.1126/science.1098410",
@@ -2261,6 +2356,7 @@
  },
  {
   "id": "P35",
+  "tier": 2,
   "kind": "phenomenon",
   "name": "Cumulative culture",
   "statement": "Cumulative culture",

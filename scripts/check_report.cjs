@@ -45,6 +45,19 @@ for (const b of items) {
   if (v) assert(h.includes(`https://i.ytimg.com/vi/${v}/hqdefault.jpg`), b.key);
 }
 assert(items.filter(i => /youtube\.com\/watch/.test(i.url)).length > 300, 'most items are videos with thumbnails');
+// Every item carries one of five forms, shown as a symbol in its list row and named in its panel.
+const forms = {lecture: 'Lecture', podcast: 'Podcast', paper: 'Paper', notes: 'Lecture notes', article: 'Article'};
+assert(items.every(i => i.form in forms), 'every item has a known form');
+assert.deepEqual(new Set(items.map(i => i.form)), new Set(Object.keys(forms)), 'all five forms are used');
+assert(items.filter(i => i.form === 'lecture').every(i => !/arxiv\.org|\.pdf$/.test(i.url)), 'lectures are not documents');
+assert(items.filter(i => ['paper', 'notes', 'article'].includes(i.form)).every(i => !/youtube\.com/.test(i.url)), 'written items are not videos');
+run("pickIdea('all')");
+const rows = nodes.list.innerHTML.split('<button class="entry').slice(1);
+assert.equal(rows.length, total);
+for (const r of rows) assert(/^[^>]*>\s*<span class="form" title="(Lecture|Podcast|Paper|Lecture notes|Article)" role="img" aria-label="\1"><svg /.test(r), 'each row starts with its symbol');
+nodes.search.value = 'lecture notes'; run('drawList()'); assert(count() >= items.filter(i => i.form === 'notes').length, 'search finds a form by name');
+nodes.search.value = ''; run('drawList()');
+for (const b of items.slice(0, 50)) { run(`pick(${JSON.stringify(b.key)})`); assert(nodes.detail.innerHTML.includes(`<svg viewBox="0 0 24 24" aria-hidden="true">`) && nodes.detail.innerHTML.includes(forms[b.form] + '</span>'), b.key); }
 
 // Source filter.
 for (const id of ['mlst', [...sources].find(s => s !== 'mlst')]) {

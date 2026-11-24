@@ -52,7 +52,8 @@
           "§12",
           "§13",
           "§5"
-        ]
+        ],
+        "form": "notes"
       },
       "notes_scope": "People-first search: the originator's own exposition, verified on its source page; no transcript read.",
       "resources": []
@@ -399,7 +400,8 @@
         "readiness": [
           "§13",
           "§7"
-        ]
+        ],
+        "form": "notes"
       },
       "notes_scope": "People-first search: the originator's own exposition, verified on its source page; no transcript read.",
       "resources": []
@@ -529,7 +531,8 @@
           "§33",
           "§6",
           "§12"
-        ]
+        ],
+        "form": "notes"
       },
       "notes_scope": "People-first search: the originator's own exposition, verified on its source page; no transcript read.",
       "resources": []
@@ -922,7 +925,8 @@
           "§12",
           "§33",
           "§6"
-        ]
+        ],
+        "form": "notes"
       },
       "notes_scope": "People-first search: the originator's own exposition, verified on its source page; no transcript read.",
       "resources": []
@@ -6805,7 +6809,8 @@
           "Primacy": "H",
           "Density": "H"
         },
-        "readiness": []
+        "readiness": [],
+        "form": "article"
       },
       "notes_scope": "People-first search: the originator's own exposition, verified on its source page; no transcript read.",
       "resources": []
@@ -6935,7 +6940,8 @@
         "readiness": [
           "§2",
           "§16"
-        ]
+        ],
+        "form": "notes"
       },
       "notes_scope": "People-first search: the originator's own exposition, verified on its source page; no transcript read.",
       "resources": []
@@ -7492,7 +7498,8 @@
         "readiness": [
           "§8b",
           "§16"
-        ]
+        ],
+        "form": "article"
       },
       "notes_scope": "People-first search: the originator's own exposition, verified on its source page; no transcript read.",
       "resources": []
@@ -7660,7 +7667,8 @@
           "Primacy": "H",
           "Density": "H"
         },
-        "readiness": []
+        "readiness": [],
+        "form": "article"
       },
       "notes_scope": "People-first search: the originator's own exposition, verified on its source page; no transcript read.",
       "resources": []

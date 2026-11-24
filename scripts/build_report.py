@@ -13,6 +13,9 @@ import build_mlst
 ROOT = Path(__file__).resolve().parents[1]
 DECISIONS = {'core', 'worthwhile', 'selected_passages', 'drop'}
 RELATIONS = {'ROOT', 'ORIGINATOR', 'TEACHING', 'EXTENSION'}
+# What kind of thing an item is, shown as a symbol in the Library. Written items are papers unless their screening says otherwise.
+FORMS = {'lecture', 'podcast', 'paper', 'notes', 'article'}
+FORM_OF_FORMAT = {'lecture': 'lecture', 'tutorial': 'lecture', 'podcast': 'podcast', 'writing': 'paper', 'reading': 'paper'}
 REVIEW_FIELDS = {'id', 'title', 'decision', 'coverage', 'confidence', 'thesis', 'contributions', 'mathematical_anatomy', 'evidence_and_limits', 'first_principles_value', 'watch_guidance', 'counterarguments', 'exercise', 'connections'}
 
 
@@ -95,10 +98,13 @@ def build_shared(root=ROOT):
             if sc.get('priority') != 'high':
                 continue
             web(item['url'])
+            fmt = sc.get('format') or collection['format']
+            form = sc.get('form') or FORM_OF_FORMAT.get(fmt.lower())
+            assert form in FORMS, f"{cid}:{item['id']}: unknown form for format {fmt!r}"
             backlog.append({
                 'key': f"{cid}:{item['id']}", 'title': item.get('title') or '', 'url': item['url'],
                 'published_at': item.get('published_at'), 'duration_seconds': item.get('duration_seconds'),
-                'source': collection['name'], 'source_id': cid, 'format': sc.get('format') or collection['format'],
+                'source': collection['name'], 'source_id': cid, 'format': fmt, 'form': form,
                 'speaker': sc.get('speaker') or sc.get('person') or '', 'school': sc.get('school') or '',
                 'pillars': sc.get('pillars') or [], 'track': sc.get('track') or 'main',
                 'question': sc.get('transcript_question') or '', 'reason': sc.get('screening_reason') or '',

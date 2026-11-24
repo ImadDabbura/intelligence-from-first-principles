@@ -39,7 +39,12 @@ for (const b of items) {
   const h = nodes.detail.innerHTML;
   assert(h.includes('Why it is here') && h.includes('Open original'), b.key);
   assert(!h.includes('[object Object]') && !h.includes('undefined'), b.key);
+  // Videos show their thumbnail; other items show none.
+  const v = (b.url.match(/[?&]v=([A-Za-z0-9_-]{11})/) || [])[1];
+  assert.equal(h.includes('class="thumb"'), !!v, b.key);
+  if (v) assert(h.includes(`https://i.ytimg.com/vi/${v}/hqdefault.jpg`), b.key);
 }
+assert(items.filter(i => /youtube\.com\/watch/.test(i.url)).length > 300, 'most items are videos with thumbnails');
 
 // Source filter.
 for (const id of ['mlst', [...sources].find(s => s !== 'mlst')]) {

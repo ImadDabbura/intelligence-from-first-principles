@@ -12,7 +12,7 @@ The [core](core/README.md) lists the ideas to master before branching out: 32 le
 
 Everything else sits in one [Library](index.html): 570 items from 23 sources in a single list, all in the same form. Each entry says why the item is here and what a closer look should settle, and is tied to the core ideas it serves. Pick a core idea to see its root text, where to start, and every item that teaches it or goes deeper, best sources first. Search and the source filter work across the whole list.
 
-Clone or download this repository and open **`index.html`** in a browser. It works offline without installation. GitHub displays HTML as source, so online the easiest way in is the [core page](core/README.md) and each source’s page under `collections/`.
+Clone or download this repository and open **`index.html`** in a browser. It works offline without installation; video thumbnails load from YouTube only when you are online. GitHub displays HTML as source, so online the easiest way in is the [core page](core/README.md) and each source’s page under `collections/`.
 
 ## How I choose material
 
